@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://apocalypsegearlab.github.io/sitemap.xml
