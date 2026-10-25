@@ -5,6 +5,9 @@ import { createHash } from 'node:crypto';
 
 const manifest = JSON.parse(await readFile('src/data/media/manifest.json', 'utf8'));
 const sources = JSON.parse(await readFile('scripts/image-sources.json', 'utf8'));
+const review = JSON.parse(await readFile('src/data/media/review.json', 'utf8'));
+assert.equal(review.rightsStatus, 'pending-owner-confirmation');
+assert.deepEqual(Object.entries(review.assets).filter(([, value]) => value.accuracyStatus === 'rejected').map(([id]) => id), ['jackery-explorer-300']);
 const expected = ['ecoflow-river-2-pro', 'fenix-cl26r-pro', 'iniu-p62-20000mah-65w', 'jackery-explorer-1000-v2', 'jackery-explorer-300', 'jackery-solarsaga-100w-air', 'kidde-c3010-co-alarm', 'midland-er310'];
 assert.deepEqual(manifest.assets.filter((asset) => asset.id !== 'hero').map((asset) => asset.id).sort(), expected);
 assert.equal(manifest.assets.filter((asset) => asset.id === 'hero').length, 1);
@@ -27,9 +30,16 @@ for (const asset of manifest.assets) {
     assert.deepEqual(asset.variants.map((variant) => variant.width), [480, 960]);
   } else assert.deepEqual(asset.variants.map((variant) => variant.width), [768, 1280, 1672]);
   for (const variant of asset.variants) {
-    assert.match(variant.src, /^\/images\/[a-z0-9-]+-\d+\.webp$/);
-    assert.ok(!paths.has(variant.src)); paths.add(variant.src);
-    const bytes = await readFile(`public${variant.src}`);
+    const rejected = review.assets[asset.id]?.accuracyStatus === 'rejected';
+    if (rejected) {
+      assert.equal(variant.src, null);
+      assert.match(variant.file, /^assets\/rejected\/blackout\/[a-z0-9-]+-\d+\.webp$/);
+    } else {
+      assert.match(variant.src, /^\/images\/[a-z0-9-]+-\d+\.webp$/);
+      assert.equal(variant.file, `public${variant.src}`);
+      assert.ok(!paths.has(variant.src)); paths.add(variant.src);
+    }
+    const bytes = await readFile(variant.file);
     const metadata = await sharp(bytes).metadata();
     assert.equal(metadata.format, 'webp');
     assert.equal(metadata.width, variant.width); assert.equal(metadata.height, variant.height);
@@ -45,4 +55,6 @@ for (const asset of manifest.assets) {
   }
 }
 assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) => path.slice('/images/'.length)).sort());
-console.log(`Verified ${manifest.assets.length} distinct source mappings and ${paths.size} WebP assets, dimensions, hashes, metadata, rights notices and draft controls.`);
+assert.equal(paths.size, 17);
+assert.equal((await readdir('assets/rejected/blackout')).length, 2);
+console.log(`Verified 9 source mappings, 17 public WebP assets and 2 rejected files outside public; dimensions, hashes, metadata, rights and draft controls passed.`);

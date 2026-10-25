@@ -29,7 +29,8 @@
           "height": 480,
           "bytes": 46628,
           "sha256": "8ba092521d83dc21d86b4d21a6da386e7b150c2ce1ca71df9fcfe2fefbd456fc",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/midland-emergency-radio-blackout-480.webp"
         },
         {
           "src": "/images/midland-emergency-radio-blackout-960.webp",
@@ -37,7 +38,8 @@
           "height": 960,
           "bytes": 155352,
           "sha256": "77bbf32f7273fd4c79b5afc45e5e794dc4ddcd198c307432a970683692ba1fdf",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/midland-emergency-radio-blackout-960.webp"
         }
       ]
     },
@@ -46,7 +48,7 @@
       "source": "Station d’énergie Jackery Explorer 300 futuriste.png",
       "basename": "jackery-explorer-300-blackout",
       "alt": "AI-assisted illustration of a black and orange Jackery Explorer 300 power station in an amber inventory frame",
-      "identityNote": "Explorer 300 label is visible. Rendered USB-C 100 W marking conflicts with the researched original Explorer 300 specification; do not use the artwork as specification evidence.",
+      "identityNote": "Unsuitable for commercial publication: artwork says USB-C 100 W and USB-A 15 W, while the legacy model has USB-C 60 W and different USB-A/Quick Charge markings. Its circular LCD graphic and POWER label also differ from the official battery-bar display and DISPLAY button label. Repairing one number would leave other invented details; no replacement was fabricated.",
       "kind": "ai-assisted-illustration",
       "rightsStatus": "pending-owner-confirmation",
       "modelVerified": false,
@@ -60,20 +62,22 @@
       },
       "variants": [
         {
-          "src": "/images/jackery-explorer-300-blackout-480.webp",
+          "src": null,
           "width": 480,
           "height": 480,
           "bytes": 33566,
           "sha256": "9a5cdc6aed3fc0ab9b07062819dfd7a38dba0c0ed41bca6878896e24b9830958",
-          "quality": 83
+          "quality": 83,
+          "file": "assets/rejected/blackout/jackery-explorer-300-blackout-480.webp"
         },
         {
-          "src": "/images/jackery-explorer-300-blackout-960.webp",
+          "src": null,
           "width": 960,
           "height": 960,
           "bytes": 114412,
           "sha256": "85137309b47a820b713fd04fa7f6f9e1a9078d24fa3cd4fa85d5bece6f91cac2",
-          "quality": 83
+          "quality": 83,
+          "file": "assets/rejected/blackout/jackery-explorer-300-blackout-960.webp"
         }
       ]
     },
@@ -101,7 +105,8 @@
           "height": 480,
           "bytes": 27878,
           "sha256": "64b4d2a95f1bf4ed47f29f04e6994e62ce661662707a6e08db6ce18f70ea4f61",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/iniu-power-bank-blackout-480.webp"
         },
         {
           "src": "/images/iniu-power-bank-blackout-960.webp",
@@ -109,7 +114,8 @@
           "height": 960,
           "bytes": 97092,
           "sha256": "aaba5f0647c218f212e8bf5f46db6d483d733557dfc7b596cccdc71f1a68a37d",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/iniu-power-bank-blackout-960.webp"
         }
       ]
     },
@@ -137,7 +143,8 @@
           "height": 480,
           "bytes": 25692,
           "sha256": "23f8d6d864adfa11bcc34d902da0237322578639b40a19cc0a62371ef438268f",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/ecoflow-power-station-blackout-480.webp"
         },
         {
           "src": "/images/ecoflow-power-station-blackout-960.webp",
@@ -145,7 +152,8 @@
           "height": 960,
           "bytes": 82078,
           "sha256": "d10031bba171c9afed80e39508deb6ed69ce246dd2432916f69357291b07d943",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/ecoflow-power-station-blackout-960.webp"
         }
       ]
     },
@@ -154,7 +162,7 @@
       "source": "Station d’énergie Jackery futuriste en lumière orange.png",
       "basename": "jackery-explorer-1000-illustration-blackout",
       "alt": "AI-assisted illustration of a black and orange Jackery Explorer 1000 power station in an amber inventory frame",
-      "identityNote": "Intended for Explorer 1000 v2 research. Artwork says Explorer 1000 without v2; exact variant and rendered port labels require correction or confirmation before publication.",
+      "identityNote": "The housing, raised handle, light, three AC outlets, two USB-C outputs and USB-A arrangement are consistent with the official Explorer 1000 v2 images. The official unit also has an Explorer 1000 badge without v2, so that earlier objection is withdrawn. Stylized small display lettering is not authenticated technical evidence; exact unit/listing and source-photo rights remain pending.",
       "kind": "ai-assisted-illustration",
       "rightsStatus": "pending-owner-confirmation",
       "modelVerified": false,
@@ -173,7 +181,8 @@
           "height": 480,
           "bytes": 29158,
           "sha256": "98aae2018a9320b9431e2e23d5d4b37137db4fd2886ad9672419508233b7efcb",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/jackery-explorer-1000-illustration-blackout-480.webp"
         },
         {
           "src": "/images/jackery-explorer-1000-illustration-blackout-960.webp",
@@ -181,7 +190,8 @@
           "height": 960,
           "bytes": 85866,
           "sha256": "000c3674cbf0472020f016c25ba5ade5a9ac2349fea74cb56b675f991ab8b38e",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/jackery-explorer-1000-illustration-blackout-960.webp"
         }
       ]
     },
@@ -190,7 +200,7 @@
       "source": "Lanterne Fenix rétroéclairée en ambre.png",
       "basename": "fenix-lantern-blackout",
       "alt": "AI-assisted illustration of a Fenix lantern with a white diffuser and rotary dial in an amber inventory frame",
-      "identityNote": "Intended for CL26R Pro research, not identified as an exact CL26R Pro depiction. Garbled model text and housing/dial details require artwork review; do not present as a verified model photograph.",
+      "identityNote": "The camouflage housing, diffuser, dial, indicator row and upper serial-style marking are consistent with the official CL26R Pro catalogue image. The earlier claim of an invented model marking is withdrawn: a similar marking is visible in the official image. This visual comparison does not authenticate a unit, serial number, listing or source-photo rights.",
       "kind": "ai-assisted-illustration",
       "rightsStatus": "pending-owner-confirmation",
       "modelVerified": false,
@@ -209,7 +219,8 @@
           "height": 480,
           "bytes": 25238,
           "sha256": "6c2d3eecd863cc9c2502ca20f38c40b2c93a559df13140ceb6b1d35de5c970e1",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/fenix-lantern-blackout-480.webp"
         },
         {
           "src": "/images/fenix-lantern-blackout-960.webp",
@@ -217,7 +228,8 @@
           "height": 960,
           "bytes": 78946,
           "sha256": "2ae3afd1acb7a50bca23436e02935743ae839ec0efabb14fb31fc745cb80a8c2",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/fenix-lantern-blackout-960.webp"
         }
       ]
     },
@@ -245,7 +257,8 @@
           "height": 480,
           "bytes": 22652,
           "sha256": "eddef67fb3880b177d880982c934ac84438fea6d0a0aef525f1b179b189efe1d",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/kidde-co-alarm-blackout-480.webp"
         },
         {
           "src": "/images/kidde-co-alarm-blackout-960.webp",
@@ -253,7 +266,8 @@
           "height": 960,
           "bytes": 71340,
           "sha256": "fd73dfc42fde36731ac86d074ab617e5d0157437dc31c61ddb2d0b5ec2c573c2",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/kidde-co-alarm-blackout-960.webp"
         }
       ]
     },
@@ -281,7 +295,8 @@
           "height": 480,
           "bytes": 25276,
           "sha256": "fa8f526b7f5937dcc87fd9713ca87846c98dc2e059b291c9dbe605c211ab7637",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/jackery-folding-solar-panel-blackout-480.webp"
         },
         {
           "src": "/images/jackery-folding-solar-panel-blackout-960.webp",
@@ -289,7 +304,8 @@
           "height": 960,
           "bytes": 112742,
           "sha256": "e51e48f91d787f964de6100cba8e91ba17cd84b79423417b62596df06d05154e",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/jackery-folding-solar-panel-blackout-960.webp"
         }
       ]
     },
@@ -317,7 +333,8 @@
           "height": 432,
           "bytes": 108300,
           "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp"
         },
         {
           "src": "/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
@@ -325,7 +342,8 @@
           "height": 720,
           "bytes": 255560,
           "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp"
         },
         {
           "src": "/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
@@ -333,7 +351,8 @@
           "height": 941,
           "bytes": 374084,
           "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277",
-          "quality": 83
+          "quality": 83,
+          "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp"
         }
       ]
     }

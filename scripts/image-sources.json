@@ -11,7 +11,7 @@
     "source": "Station d’énergie Jackery Explorer 300 futuriste.png",
     "basename": "jackery-explorer-300-blackout",
     "alt": "AI-assisted illustration of a black and orange Jackery Explorer 300 power station in an amber inventory frame",
-    "identityNote": "Explorer 300 label is visible. Rendered USB-C 100 W marking conflicts with the researched original Explorer 300 specification; do not use the artwork as specification evidence."
+    "identityNote": "Unsuitable for commercial publication: artwork says USB-C 100 W and USB-A 15 W, while the legacy model has USB-C 60 W and different USB-A/Quick Charge markings. Its circular LCD graphic and POWER label also differ from the official battery-bar display and DISPLAY button label. Repairing one number would leave other invented details; no replacement was fabricated."
   },
   {
     "id": "iniu-p62-20000mah-65w",
@@ -32,14 +32,14 @@
     "source": "Station d’énergie Jackery futuriste en lumière orange.png",
     "basename": "jackery-explorer-1000-illustration-blackout",
     "alt": "AI-assisted illustration of a black and orange Jackery Explorer 1000 power station in an amber inventory frame",
-    "identityNote": "Intended for Explorer 1000 v2 research. Artwork says Explorer 1000 without v2; exact variant and rendered port labels require correction or confirmation before publication."
+    "identityNote": "The housing, raised handle, light, three AC outlets, two USB-C outputs and USB-A arrangement are consistent with the official Explorer 1000 v2 images. The official unit also has an Explorer 1000 badge without v2, so that earlier objection is withdrawn. Stylized small display lettering is not authenticated technical evidence; exact unit/listing and source-photo rights remain pending."
   },
   {
     "id": "fenix-cl26r-pro",
     "source": "Lanterne Fenix rétroéclairée en ambre.png",
     "basename": "fenix-lantern-blackout",
     "alt": "AI-assisted illustration of a Fenix lantern with a white diffuser and rotary dial in an amber inventory frame",
-    "identityNote": "Intended for CL26R Pro research, not identified as an exact CL26R Pro depiction. Garbled model text and housing/dial details require artwork review; do not present as a verified model photograph."
+    "identityNote": "The camouflage housing, diffuser, dial, indicator row and upper serial-style marking are consistent with the official CL26R Pro catalogue image. The earlier claim of an invented model marking is withdrawn: a similar marking is visible in the official image. This visual comparison does not authenticate a unit, serial number, listing or source-photo rights."
   },
   {
     "id": "kidde-c3010-co-alarm",

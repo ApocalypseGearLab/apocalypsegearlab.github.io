@@ -58,7 +58,13 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
     // Exclude Astro's development UI from site screenshots, without changing site content.
     await page.addStyleTag({ content: 'astro-dev-toolbar { display: none !important; }' });
     const images = page.locator('.product-artwork img');
-    await expect(images).toHaveCount(8);
+    await expect(images).toHaveCount(7);
+    const rejected = page.locator('article.card').filter({ has: page.locator('a[href="/gear/jackery-explorer-300/"]') });
+    await expect(rejected.locator('img')).toHaveCount(0);
+    await expect(rejected.locator('.artwork-withheld')).toContainText('Illustration withheld');
+    expect(await rejected.locator('.artwork-withheld').evaluate((element) => {
+      const box = element.getBoundingClientRect(); return Math.abs(box.width - box.height);
+    })).toBeLessThan(1);
     const sources: string[] = [];
     for (const img of await images.all()) {
       await img.scrollIntoViewIfNeeded();
@@ -72,7 +78,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
       expect(actual.alt).toMatch(/^AI-assisted illustration/);
       sources.push(actual.src);
     }
-    expect(new Set(sources).size).toBe(8);
+    expect(new Set(sources).size).toBe(7);
     await page.locator('article.card a').first().focus();
     expect(await page.locator('article.card a').first().evaluate((link) => getComputedStyle(link).outlineStyle)).toBe('solid');
     await page.locator('article.card a').first().evaluate((link: HTMLElement) => link.blur());
@@ -81,10 +87,43 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
   }
   await page.goto('http://127.0.0.1:4322/gear/fenix-cl26r-pro/');
   await expect(page.locator('.product-artwork--detail')).toHaveCount(1);
-  await expect(page.locator('.product-artwork--detail figcaption')).toContainText('not identified as an exact CL26R Pro depiction');
+  await expect(page.locator('.product-artwork--detail figcaption')).toContainText('consistent with the official CL26R Pro camouflage design');
   const detail = page.locator('.product-artwork--detail img');
   await detail.evaluate((img: HTMLImageElement) => img.decode());
   expect(await detail.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(/fenix-lantern-blackout-960\.webp$/);
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
   await page.screenshot({ path: '.tools/qa/phase-3/detail-1920.png', fullPage: true });
+});
+
+test('rejected artwork has no image URL, download or static production asset', async ({ page, request }) => {
+  const downloads: string[] = [];
+  page.on('request', (req) => { if (req.resourceType() === 'image') downloads.push(req.url()); });
+  await page.goto('http://127.0.0.1:4322/gear/jackery-explorer-300/');
+  const artwork = page.locator('.product-artwork--detail');
+  await expect(artwork.locator('img')).toHaveCount(0);
+  await expect(artwork).toContainText('USB-C 100 W');
+  await expect(artwork).toContainText('Unsuitable for commercial publication');
+  expect(downloads.some((url) => url.includes('jackery-explorer-300-blackout'))).toBe(false);
+  for (const width of [480, 960]) {
+    expect((await request.get(`/images/jackery-explorer-300-blackout-${width}.webp`)).status()).toBe(404);
+  }
+  await page.screenshot({ path: '.tools/qa/phase-3/rejected-300.png', fullPage: true, animations: 'disabled' });
+});
+
+test('reviewed illustrations disclose their limits without displaying withdrawn objections', async ({ page }) => {
+  for (const slug of ['fenix-cl26r-pro', 'jackery-explorer-1000-v2']) {
+    await page.goto(`http://127.0.0.1:4322/gear/${slug}/`);
+    const figure = page.locator('.product-artwork--detail');
+    await expect(figure).toHaveAttribute('data-artwork-status', 'reviewed-illustration');
+    await expect(figure.locator('figcaption')).toContainText('consistent with the official');
+    await expect(figure.locator('figcaption')).toContainText('source-photo permissions remain unverified');
+    await expect(figure.locator('figcaption')).not.toContainText('earlier');
+    await figure.locator('img').evaluate((img: HTMLImageElement) => img.decode());
+    for (const width of [375, 1440]) {
+      await page.setViewportSize({ width, height: 900 });
+      await figure.screenshot({ path: `.tools/qa/phase-3/${slug}-${width}.png`, animations: 'disabled' });
+    }
+  }
+  await page.goto('http://127.0.0.1:4322/gear/jackery-explorer-300/');
+  await page.locator('.product-artwork--detail').screenshot({ path: '.tools/qa/phase-3/withheld-300.png', animations: 'disabled' });
 });

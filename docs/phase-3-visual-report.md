@@ -1,5 +1,7 @@
 # Phase 3 — visual integration review
 
+> **Final review supersedes the initial accuracy verdict below.** See [Final visual corrections & QA](phase-3-final-review.md). Explorer 300 artwork is now rejected and excluded from public; Fenix and Explorer 1000 v2 objections were corrected after official image comparison.
+
 ## A. Repository status
 
 Prepared on 2026-10-25 on `feat/phase3-blackout-visual-assets`. Initial local worktree was clean. PR #3 was already merged into `main` at `9fd293c0dbab358fc98a14fe03b2a5ed2ea3e898`; this feature branch starts there. The origin is `https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io.git`. No local or remote main changes, merge, workflow dispatch or deployment were performed.
@@ -27,11 +29,11 @@ All eight product PNGs are 1254 × 1254 (1:1). The bunker PNG is 1672 × 941 (ap
 Material limitations found visually, before conversion:
 
 - **midland-er310:** Intended for ER310 research. Branding and radio design are recognizable; exact model and rendered display details are not independently verified.
-- **jackery-explorer-300:** Explorer 300 label is visible. Rendered USB-C 100 W marking conflicts with the researched original Explorer 300 specification; do not use the artwork as specification evidence.
+- **jackery-explorer-300:** Unsuitable for commercial publication: artwork says USB-C 100 W and USB-A 15 W, while the legacy model has USB-C 60 W and different USB-A/Quick Charge markings. Its circular LCD graphic and POWER label also differ from the official battery-bar display and DISPLAY button label. Repairing one number would leave other invented details; no replacement was fabricated.
 - **iniu-p62-20000mah-65w:** Intended for P62 research. P62-E1, capacity and output cannot be established from the artwork; cable design and exact model require owner review.
 - **ecoflow-river-2-pro:** Intended for RIVER 2 Pro research. EcoFlow branding and general housing are recognizable; no legible RIVER 2 Pro model identifier.
-- **jackery-explorer-1000-v2:** Intended for Explorer 1000 v2 research. Artwork says Explorer 1000 without v2; exact variant and rendered port labels require correction or confirmation before publication.
-- **fenix-cl26r-pro:** Intended for CL26R Pro research, not identified as an exact CL26R Pro depiction. Garbled model text and housing/dial details require artwork review; do not present as a verified model photograph.
+- **jackery-explorer-1000-v2:** The housing, raised handle, light, three AC outlets, two USB-C outputs and USB-A arrangement are consistent with the official Explorer 1000 v2 images. The official unit also has an Explorer 1000 badge without v2, so that earlier objection is withdrawn. Stylized small display lettering is not authenticated technical evidence; exact unit/listing and source-photo rights remain pending.
+- **fenix-cl26r-pro:** The camouflage housing, diffuser, dial, indicator row and upper serial-style marking are consistent with the official CL26R Pro catalogue image. The earlier claim of an invented model marking is withdrawn: a similar marking is visible in the official image. This visual comparison does not authenticate a unit, serial number, listing or source-photo rights.
 - **kidde-c3010-co-alarm:** Intended for C3010 research. Exact regional model and Canadian certification cannot be inferred from the rendered ten-year wording or appearance.
 - **jackery-solarsaga-100w-air:** Intended for SolarSaga 100 W Air research. No legible JS-100H Air identifier; folding layout alone does not verify the Air variant.
 
@@ -44,7 +46,7 @@ Every delivery file is WebP at quality 83, effort 6, sRGB, orientation corrected
 | Basename | Original PNG | WebP outputs, exact bytes |
 |---|---|---|
 | `midland-emergency-radio-blackout` | 1254 × 1254; 2,508,688 B | [midland-emergency-radio-blackout-480.webp](../public/images/midland-emergency-radio-blackout-480.webp) — 480 × 480; 46,628 B<br>[midland-emergency-radio-blackout-960.webp](../public/images/midland-emergency-radio-blackout-960.webp) — 960 × 960; 155,352 B |
-| `jackery-explorer-300-blackout` | 1254 × 1254; 2,289,225 B | [jackery-explorer-300-blackout-480.webp](../public/images/jackery-explorer-300-blackout-480.webp) — 480 × 480; 33,566 B<br>[jackery-explorer-300-blackout-960.webp](../public/images/jackery-explorer-300-blackout-960.webp) — 960 × 960; 114,412 B |
+| `jackery-explorer-300-blackout` | 1254 × 1254; 2,289,225 B | [jackery-explorer-300-blackout-480.webp](../assets/rejected/blackout/jackery-explorer-300-blackout-480.webp) — 480 × 480; 33,566 B<br>[jackery-explorer-300-blackout-960.webp](../assets/rejected/blackout/jackery-explorer-300-blackout-960.webp) — 960 × 960; 114,412 B |
 | `iniu-power-bank-blackout` | 1254 × 1254; 2,158,736 B | [iniu-power-bank-blackout-480.webp](../public/images/iniu-power-bank-blackout-480.webp) — 480 × 480; 27,878 B<br>[iniu-power-bank-blackout-960.webp](../public/images/iniu-power-bank-blackout-960.webp) — 960 × 960; 97,092 B |
 | `ecoflow-power-station-blackout` | 1254 × 1254; 2,042,716 B | [ecoflow-power-station-blackout-480.webp](../public/images/ecoflow-power-station-blackout-480.webp) — 480 × 480; 25,692 B<br>[ecoflow-power-station-blackout-960.webp](../public/images/ecoflow-power-station-blackout-960.webp) — 960 × 960; 82,078 B |
 | `jackery-explorer-1000-illustration-blackout` | 1254 × 1254; 2,055,300 B | [jackery-explorer-1000-illustration-blackout-480.webp](../public/images/jackery-explorer-1000-illustration-blackout-480.webp) — 480 × 480; 29,158 B<br>[jackery-explorer-1000-illustration-blackout-960.webp](../public/images/jackery-explorer-1000-illustration-blackout-960.webp) — 960 × 960; 85,866 B |
@@ -139,6 +141,6 @@ All eight products remain draft, not physically tested, listingVerified=false, p
 
 Feature branch: `feat/phase3-blackout-visual-assets`. A draft pull request targets main; its URL and CI result are returned in the delivery message. Publication still requires the owner's explicit authorization. The manual deployment workflow is untouched.
 
-## K. Verdict — CORRECT before commercial publication
+## K. Initial verdict — superseded by final visual review
 
-The implementation and automated checks support technical review of the feature branch. **CORRECT** is the publication verdict because the Explorer 300 port marking, Fenix identity/garbled model text and Explorer 1000 v2 ambiguity require owner review/correct artwork; the remaining exact regional/model variants are not visually established. Image usage rights and source-photo permissions also require owner confirmation. Product listing verification, editorial approval, Canadian safety review and Associates enrollment remain independent unresolved prerequisites. Keeping this PR draft makes those limits explicit. This verdict does not authorize merging or deployment.
+The initial review required further comparison. The [final review](phase-3-final-review.md) corrects the Fenix and Explorer 1000 v2 findings, rejects the Explorer 300 illustration and records the commercial-use gates and current QA results. Historical performance numbers above remain the initial integration measurements, not a new Lighthouse run.
