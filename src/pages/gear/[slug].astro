@@ -1,0 +1,69 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AffiliateButton from '../../components/AffiliateButton.astro';
+import DisclosureNotice from '../../components/DisclosureNotice.astro';
+import { UNIVERSES } from '../../config/site';
+import { categoryLabel, categoryUniverse } from '../../config/taxonomy';
+import { getVisibleProducts, type Product } from '../../lib/products';
+import { getMerchantLinks } from '../../lib/affiliate';
+
+export const getStaticPaths = (async () => {
+  const products = await getVisibleProducts();
+  return products.map((product) => ({ params: { slug: product.id }, props: { product } }));
+}) satisfies GetStaticPaths;
+
+interface Props { product: Product }
+const { product } = Astro.props;
+const { data } = product;
+const universe = UNIVERSES[categoryUniverse(data.category)];
+const indexable = data.reviewStatus === 'published';
+const links = getMerchantLinks(product);
+const verified = data.lastVerified?.toISOString().slice(0, 10);
+---
+
+<BaseLayout title={`${data.name} review`} description={data.summary} noindex={!indexable} ogType="article">
+  <article class="container section stack">
+    <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />
+
+    {!indexable && <p class="notice"><strong>Not public.</strong> Status: {data.reviewStatus}. This page is hidden from search engines and excluded from production builds until its status is "published".</p>}
+
+    <p class="label">{categoryLabel(data.category)} · {data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
+    <h1>{data.name}</h1>
+    <p>{data.summary}</p>
+    <p>
+      <span class="badge">{data.testing === 'hands-on' ? 'Physically tested by us' : 'Not physically tested by us'}</span>
+      {verified && <span class="badge">Last verified {verified}</span>}
+    </p>
+
+    {data.description && <section><h2>Overview</h2><p>{data.description}</p></section>}
+
+    <section>
+      <h2>Specifications</h2>
+      {data.specs.length === 0 ? <p class="empty">No verified specifications yet.</p> : (
+        <div class="table-wrap"><table><tbody>
+          {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{s.source && <span class="label"> (source: {s.source})</span>}</td></tr>)}
+        </tbody></table></div>
+      )}
+    </section>
+
+    <section class="grid grid--2">
+      <div><h2>Advantages</h2>{data.pros.length ? <ul>{data.pros.map((x) => <li>{x}</li>)}</ul> : <p class="empty">Not yet assessed.</p>}</div>
+      <div><h2>Limitations</h2>{data.cons.length ? <ul>{data.cons.map((x) => <li>{x}</li>)}</ul> : <p class="empty">Not yet assessed.</p>}</div>
+    </section>
+
+    {data.useCases.length > 0 && <section><h2>Suitable use cases</h2><ul>{data.useCases.map((x) => <li>{x}</li>)}</ul></section>}
+
+    <section aria-labelledby="buy">
+      <h2 id="buy">Where to buy</h2>
+      <DisclosureNotice />
+      <p class="buttons">{links.map((l) => <AffiliateButton link={l} productId={product.id} />)}</p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .buttons { display: flex; flex-wrap: wrap; gap: var(--s-3); }
+  ul { max-width: var(--measure); }
+</style>

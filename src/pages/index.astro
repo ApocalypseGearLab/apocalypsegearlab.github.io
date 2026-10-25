@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import UniverseCard from '../components/UniverseCard.astro';
+import { SITE, UNIVERSES } from '../config/site';
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Organization', name: SITE.name, url: Astro.site?.href },
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: Astro.site?.href },
+];
+---
+
+<BaseLayout title="Survival Gear & Preparedness Guides" jsonLd={jsonLd}>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="label">Preparedness field manual</p>
+        <h1>Be ready before the grid goes down.</h1>
+        <p class="lead">Checklists and equipment guides for blackouts, disasters and long disruptions. We research first, and we say clearly what we have and have not verified.</p>
+        <p><a class="btn btn--primary" href="#sectors">Choose a sector</a></p>
+      </div>
+      <aside class="panel console" aria-label="Sector status">
+        <p class="label">Sector status</p>
+        <ul>
+          <li><span>Blackout</span><span class="badge">Guides in development</span></li>
+          <li><span>Fallout</span><span class="badge">Guides in development</span></li>
+          <li><span>Outbreak</span><span class="badge">Guides in development</span></li>
+          <li><span>Tools</span><span class="badge">Planned</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section id="sectors" class="section" aria-labelledby="sectors-title">
+    <div class="container" id="scenarios">
+      <h2 id="sectors-title">Three ways to prepare</h2>
+      <div class="grid grid--3">
+        {Object.values(UNIVERSES).map((u) => <UniverseCard universe={u} />)}
+      </div>
+    </div>
+  </section>
+
+  <section id="mission" class="section" aria-labelledby="rules-title">
+    <div class="container">
+      <h2 id="rules-title">How we work</h2>
+      <div class="grid grid--3">
+        <div class="panel"><h3>No invented data</h3><p>We do not publish prices, ratings, review counts or stock levels unless they come from a verified source.</p></div>
+        <div class="panel"><h3>No false testing claims</h3><p>A product is described as tested only if we physically tested it. Otherwise it is marked as researched.</p></div>
+        <div class="panel"><h3>Affiliate links disclosed</h3><p>Links that earn us a commission are labelled. <a href="/affiliate-disclosure/">Read the disclosure</a>.</p></div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero { padding-block: var(--s-8) var(--s-7); }
+  .hero-grid { display: grid; gap: var(--s-6); grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); align-items: center; }
+  .hero h1 { color: var(--c-text); max-width: 14ch; }
+  .lead { font-size: var(--fs-1); }
+  .console ul { list-style: none; margin: var(--s-3) 0 0; padding: 0; }
+  .console li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--s-3); align-items: center; padding: var(--s-3) 0; border-top: 1px solid var(--c-line); font-family: var(--f-mono); font-size: 0.9rem; }
+  .console li { animation: boot 0.5s steps(6) both; }
+  .console li:nth-child(2) { animation-delay: 0.25s; }
+  .console li:nth-child(3) { animation-delay: 0.5s; }
+  .console li:nth-child(4) { animation-delay: 0.75s; }
+  @keyframes boot { from { transform: translateX(-6px); } to { transform: none; } }
+</style>

@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { getVisibleProducts } from '../../lib/products';
+
+const products = await getVisibleProducts();
+const hasPublished = products.some((p) => p.data.reviewStatus === 'published');
+---
+
+<BaseLayout title="Survival gear catalogue" description="Researched survival and emergency preparedness gear, organised by sector." noindex={!hasPublished}>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Gear catalogue' }]} />
+    <h1>Gear catalogue</h1>
+    {products.length === 0 ? (
+      <p class="empty">No published reviews yet. Products appear here after editorial research.</p>
+    ) : (
+      <div class="grid grid--3">{products.map((p) => <ProductCard product={p} />)}</div>
+    )}
+  </div>
+</BaseLayout>

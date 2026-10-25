@@ -1,0 +1,29 @@
+---
+import type { Product } from '../lib/products';
+import { categoryLabel } from '../config/taxonomy';
+
+interface Props { product: Product }
+const { product } = Astro.props;
+const { data } = product;
+const isPublished = data.reviewStatus === 'published';
+---
+
+<article class="panel card">
+  <div class="media" role="img" aria-label={data.image?.alt ?? 'Product image pending'}>
+    {data.image?.src ? <img src={data.image.src} alt="" loading="lazy" decoding="async" /> : <span class="label">Image pending</span>}
+  </div>
+  <p class="label">{categoryLabel(data.category)}</p>
+  <h3><a href={`/gear/${product.id}/`}>{data.name}</a></h3>
+  <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
+  <p>{data.summary}</p>
+  {!isPublished && <p><span class="badge badge--warn">{data.reviewStatus} (not public)</span></p>}
+</article>
+
+<style>
+  .card h3 { margin-bottom: var(--s-2); }
+  .card h3 a { color: var(--c-text); text-decoration: none; }
+  .card h3 a:hover { color: var(--c-amber); }
+  .media { aspect-ratio: 4 / 3; background: var(--c-surface-2); display: grid; place-items: center; margin-bottom: var(--s-4); overflow: hidden; }
+  .media img { width: 100%; height: 100%; object-fit: cover; }
+  .brand { color: var(--c-muted); font-size: 0.9rem; }
+</style>

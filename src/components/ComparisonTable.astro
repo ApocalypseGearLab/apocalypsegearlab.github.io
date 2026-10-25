@@ -1,0 +1,32 @@
+---
+import type { Product } from '../lib/products';
+
+interface Props { products: Product[]; caption?: string }
+const { products, caption = 'Product comparison' } = Astro.props;
+
+// Rows = union of spec labels across products. Missing values are shown as
+// "Not verified" — never guessed or filled in.
+const labels = [...new Set(products.flatMap((p) => p.data.specs.map((s) => s.label)))];
+const valueFor = (p: Product, label: string) => p.data.specs.find((s) => s.label === label)?.value;
+---
+
+<div class="table-wrap" tabindex="0" role="region" aria-label={caption}>
+  <table>
+    <caption class="visually-hidden">{caption}</caption>
+    <thead>
+      <tr>
+        <th scope="col">Specification</th>
+        {products.map((p) => <th scope="col"><a href={`/gear/${p.id}/`}>{p.data.name}</a></th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {labels.length === 0 && <tr><td colspan={products.length + 1}>No verified specifications have been added yet.</td></tr>}
+      {labels.map((label) => (
+        <tr>
+          <th scope="row">{label}</th>
+          {products.map((p) => <td>{valueFor(p, label) ?? <span class="label">Not verified</span>}</td>)}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

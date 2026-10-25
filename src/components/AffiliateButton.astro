@@ -1,0 +1,21 @@
+---
+import { AFFILIATE_REL, type MerchantLink } from '../lib/affiliate';
+
+interface Props { link: MerchantLink; productId: string }
+const { link, productId } = Astro.props;
+---
+
+{link.href ? (
+  <a
+    class="btn btn--primary"
+    href={link.href}
+    target="_blank"
+    rel={AFFILIATE_REL}
+    data-affiliate-click
+    data-product={productId}
+    data-merchant={link.key}
+    data-marketplace={link.marketplace}
+  >{link.label} <span class="visually-hidden">(affiliate link, opens in a new tab)</span></a>
+) : (
+  <span class="btn" role="link" aria-disabled="true">{link.merchant}: link pending verification</span>
+)}
