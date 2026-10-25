@@ -1,5 +1,6 @@
 ---
 import { AFFILIATE_REL, type MerchantLink } from '../lib/affiliate';
+import { AMAZON_ASSOCIATE_ENROLLED } from '../config/site';
 
 interface Props { link: MerchantLink; productId: string }
 const { link, productId } = Astro.props;
@@ -17,5 +18,9 @@ const { link, productId } = Astro.props;
     data-marketplace={link.marketplace}
   >{link.label} <span class="visually-hidden">(affiliate link, opens in a new tab)</span></a>
 ) : (
-  <span class="btn" role="link" aria-disabled="true">{link.merchant}: link pending verification</span>
+  <span class="btn btn--pending" role="link" aria-disabled="true">{link.label}<span class="label">{link.marketplace !== 'other' && !AMAZON_ASSOCIATE_ENROLLED ? 'Awaiting Associates approval' : 'Link pending verification'}</span></span>
 )}
+
+<style>
+  .btn--pending { flex-direction: column; align-items: flex-start; max-width: 100%; }
+</style>

@@ -1,0 +1,135 @@
+{
+  "name": "Jackery Explorer 1000 v2",
+  "brand": "Jackery",
+  "modelNumber": "JE-1000D",
+  "category": "power-stations",
+  "summary": "A 1070 Wh LiFePO4 power station for a planned mix of lights, communications and compatible household loads during an outage.",
+  "description": "For blackout planning, separate stored energy from the power an appliance needs at startup. This model offers more rated AC headroom than the RIVER 2 Pro, but it still requires a load plan. Choose the devices that matter, check their labels and leave room for startup demand rather than treating a portable battery as whole-home backup.",
+  "specs": [
+    {
+      "label": "Battery capacity",
+      "value": "1070 Wh",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"
+    },
+    {
+      "label": "Battery chemistry",
+      "value": "LiFePO4",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"
+    },
+    {
+      "label": "Rated AC output",
+      "value": "1500 W total across three 120 V, 60 Hz outlets; 3000 W surge",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"
+    },
+    {
+      "label": "USB outputs",
+      "value": "USB-C: 100 W and 30 W maximum; USB-A: 18 W maximum",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"
+    },
+    {
+      "label": "Charging inputs",
+      "value": "AC wall power, compatible solar and car charging; no USB-C input",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"
+    },
+    {
+      "label": "Solar input",
+      "value": "16–60 V; 200 W maximum per port, 400 W total",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"
+    },
+    {
+      "label": "Charging temperature",
+      "value": "0–45 °C",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"
+    }
+  ],
+  "pros": [
+    "Three AC outlets share a 1500 W budget.",
+    "Wall, car and compatible solar charging provide different replenishment options."
+  ],
+  "cons": [
+    "A 1500 W rating is not a whole-home power guarantee.",
+    "USB-C ports are outputs, not charging inputs.",
+    "Battery depletion and overload protection can interrupt power."
+  ],
+  "useCases": [
+    "Prepare a written charging schedule for phones, radios and task lighting.",
+    "Evaluate individually verified appliance loads within the shared AC limit."
+  ],
+  "sources": [
+    {
+      "id": "jackery-1000-support",
+      "title": "Jackery Explorer 1000 V2 technical information",
+      "url": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "jackery-1000-ca",
+      "title": "Jackery Canada Explorer 1000 v2 and SolarSaga 100 Air bundle",
+      "url": "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [
+    "ecoflow-river-2-pro",
+    "jackery-solarsaga-100w-air",
+    "fenix-cl26r-pro"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20",
+      "asin": "B0D7PPG25F"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The manufacturer identifies the Explorer 1000 v2 as JE-1000D.",
+        "sourceIds": [
+          "jackery-1000-support"
+        ]
+      },
+      {
+        "text": "Jackery Canada lists a bundle with two SolarSaga 100 Air panels.",
+        "sourceIds": [
+          "jackery-1000-ca"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Do not apply advertised appliance runtimes or website-only warranty extensions to this Amazon purchase."
+    ],
+    "safetyNotes": [
+      "Jackery excludes medical, life-support and other safety-critical applications. Its changeover feature is not a zero-interruption UPS.",
+      "Canadian listing revision and certification labels still require a pre-publication check."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Review the exact Canadian unit, certification labels and intended loads before publication."
+    ]
+  }
+}

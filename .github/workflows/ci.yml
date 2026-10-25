@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [feat/astro-foundation]
+    branches: [feat/astro-foundation, 'content/**']
 
 permissions:
   contents: read

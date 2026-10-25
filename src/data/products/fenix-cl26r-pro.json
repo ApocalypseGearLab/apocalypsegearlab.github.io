@@ -1,0 +1,129 @@
+{
+  "name": "Fenix CL26R Pro rechargeable lantern",
+  "brand": "Fenix",
+  "modelNumber": "CL26R PRO",
+  "category": "lighting",
+  "summary": "A rechargeable lantern with separate area, downward and red lighting modes, prepared as a research draft for the owner-selected camouflage listing.",
+  "description": "Choose a lantern by the light pattern needed in the room as well as its maximum output. This model can hang above a work surface or illuminate a shared area. The maximum combined output and maximum runtime refer to different settings; neither should be presented as an independently measured blackout runtime.",
+  "specs": [
+    {
+      "label": "Maximum output",
+      "value": "650 lumens combined; 500-lumen high area mode",
+      "source": "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C; approximately 3.5 hours with a suitable 5 V / 2 A adapter",
+      "source": "https://www.fenixlight.com/product/cl26r-pro/"
+    },
+    {
+      "label": "Battery",
+      "value": "One ARB-L21-5000 V2.0 rechargeable 21700 cell",
+      "source": "https://www.fenixlight.com/product/cl26r-pro/"
+    },
+    {
+      "label": "Maximum advertised runtime",
+      "value": "Up to 408 hours; mode-dependent, not at maximum output",
+      "source": "https://www.fenixlight.com/product/cl26r-pro/"
+    },
+    {
+      "label": "Water resistance",
+      "value": "IP66 per manufacturer; not an immersion rating",
+      "source": "https://www.fenixlight.com/product/cl26r-pro/"
+    },
+    {
+      "label": "Lighting modes",
+      "value": "Nine: area levels, front light, downward levels, red and red flash",
+      "source": "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern"
+    }
+  ],
+  "pros": [
+    "Magnetic mounting and a hanging hook support hands-free placement.",
+    "Separate downward and area lighting provide useful placement choices."
+  ],
+  "cons": [
+    "Output can step down as the lantern gets hot.",
+    "Available modes are restricted while charging or powering another device.",
+    "Camouflage colour and included battery must still be matched to the listing."
+  ],
+  "useCases": [
+    "Plan rechargeable area lighting for a shared room.",
+    "Use directed light for a tabletop task without lighting the entire room."
+  ],
+  "sources": [
+    {
+      "id": "fenix-cl26r-pro",
+      "title": "Fenix CL26R PRO manufacturer specifications",
+      "url": "https://www.fenixlight.com/product/cl26r-pro/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "fenix-cl26r-pro-instructions",
+      "title": "Fenix Lighting CL26R PRO operating instructions and modes",
+      "url": "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [
+    "midland-er310",
+    "jackery-explorer-300"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0CGKWX5YT?tag=apocalypsegear-20",
+      "asin": "B0CGKWX5YT"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The sources identify CL26R PRO, not CL26R or CL27R.",
+        "sourceIds": [
+          "fenix-cl26r-pro"
+        ]
+      },
+      {
+        "text": "The 650-lumen figure combines high area lighting with downward lighting.",
+        "sourceIds": [
+          "fenix-cl26r-pro-instructions"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The owner reports a camouflage Amazon variant; exact colour, seller and box contents are not independently checked."
+    ],
+    "safetyNotes": [
+      "Use the manufacturer-specified protected battery and observe its heat and storage instructions.",
+      "Do not equate IP66 with suitability for immersion."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Match the camouflage variant and battery supplied to the manufacturer instructions."
+    ]
+  }
+}

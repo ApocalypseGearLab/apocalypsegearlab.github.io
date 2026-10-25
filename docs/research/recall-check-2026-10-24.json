@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-24",
+  "source": "https://recalls-rappels.canada.ca/sites/default/files/opendata-donneesouvertes/HCRSAMOpenData.json",
+  "records": 34285,
+  "sha256": "426d7479a696fc533815248f2a1df9040303f4b99b8ce42f6a73e3a2f42b710f",
+  "method": "Case-insensitive regular expressions searched across every supplied summary field. This snapshot is not a full-text search of every linked notice, PDF, certification register or serial-number checker. No-match results are not safety clearance.",
+  "results": [
+    {
+      "query": "\\bINIU\\b",
+      "matches": []
+    },
+    {
+      "query": "\\bP62(?:-E1)?\\b",
+      "matches": []
+    },
+    {
+      "query": "\\bC3010(?:-CA)?\\b",
+      "matches": []
+    },
+    {
+      "query": "21010045",
+      "matches": []
+    },
+    {
+      "query": "B0DB888L9F",
+      "matches": []
+    },
+    {
+      "query": "B00FHW7PBS",
+      "matches": []
+    },
+    {
+      "query": "\\bJackery\\b",
+      "matches": []
+    },
+    {
+      "query": "\\bFenix\\b",
+      "matches": []
+    },
+    {
+      "query": "\\bEcoFlow\\b",
+      "matches": [
+        {
+          "title": "EcoFlow Delta Max 2000 Power Stations recalled due to risk of serious burn injury and fire hazard ",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/ecoflow-delta-max-2000-power-stations-recalled-due-risk-serious-burn-injury-and-fire"
+        }
+      ]
+    },
+    {
+      "query": "\\bAnker\\b",
+      "matches": [
+        {
+          "title": "Anker Power Bank A1647 and Anker Zolo Power Banks A1681 and A1689 sold on Amazon.ca recalled due to fire hazard ",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/anker-power-bank-a1647-and-anker-zolo-power-banks-a1681-and-a1689-sold-amazonca"
+        },
+        {
+          "title": "Anker 334 MagGo Battery (PowerCore 10K), Model: A1642 recalled due to potential fire hazard ",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/anker-334-maggo-battery-powercore-10k-model-a1642-recalled-due-potential-fire-hazard"
+        },
+        {
+          "title": "Anker 321 Power Banks (PowerCore 5K) recalled due to potential fire hazard",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/anker-321-power-banks-powercore-5k-recalled-due-potential-fire-hazard"
+        },
+        {
+          "title": "Soundcore A3102 Speaker (Black) and AnkerWork A3302 PowerConf S3 Speakerphone recalled due to potential fire hazard",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/soundcore-a3102-speaker-black-and-ankerwork-a3302-powerconf-s3-speakerphone-recalled"
+        },
+        {
+          "title": "Battery Pack within certain Anker EverFrost Powered Coolers recalled due to Fire Hazard ",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/battery-pack-within-certain-anker-everfrost-powered-coolers-recalled-due-fire-hazard"
+        },
+        {
+          "title": "Battery Pack Within Certain eufy RoboVac X8 Hybrid Vacuums and Certain eufy Replacement Battery Packs Recalled due to Fire Hazard ",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/battery-pack-within-certain-eufy-robovac-x8-hybrid-vacuums-and-certain-eufy"
+        },
+        {
+          "title": "Anker 535 Power Bank (PowerCore 20K) A1366 recalled due to fire hazard",
+          "url": "https://recalls-rappels.canada.ca/en/alert-recall/anker-535-power-bank-powercore-20k-a1366-recalled-due-fire-hazard"
+        }
+      ]
+    }
+  ]
+}

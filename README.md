@@ -56,7 +56,17 @@ Change `site` in `astro.config.mjs` and add `public/CNAME`.
 
 ## Verification status
 
-See `docs/phase-1-status.md` for executed checks, results and remaining editorial work. The only supplied product is a template; production intentionally contains no product reviews or active Amazon links.
+See `docs/phase-1-status.md` for the original foundation audit and `docs/phase-2-blackout-status.md` for the BLACKOUT research and verification report. Eight selected Amazon.ca records are stored as drafts alongside the template; production intentionally contains no product reviews or active Amazon links.
+
+### BLACKOUT editorial workflow
+
+The eight selected ASINs use the owner-supplied `apocalypsegear-20` tracking ID. A correct URL is not evidence of account approval, commission attribution, seller identity or product safety. `AMAZON_ASSOCIATE_ENROLLED` remains false.
+
+Use `npm run dev` to preview `/blackout/`, `/gear/` and the draft product routes. Research previews distinguish manufacturer-documented facts, unverified claims and publication blockers, with linked primary sources. Never host the development server as a public preview: it intentionally includes drafts. Production builds omit those routes entirely.
+
+For records with research metadata, changing `reviewStatus` alone cannot publish the product. The shared schema requires `listingVerified: true`, `safetyStatus: "cleared"`, no publication blockers and `publicationApproved: true` before accepting `published`. Update these fields only after the underlying checks and owner approval; they are not a shortcut around those checks. Affiliate-program approval is a separate configuration gate.
+
+`research.checkedAt` dates the source review. `lastVerified` remains null while the exact listing and regional unit are unverified. Keep the eight records as drafts for this PR. Kidde and INIU have additional blocked safety reviews. Related-product links use the same visibility filter as the catalogue. Planned guides are documented in `docs/blackout-editorial-roadmap.md`; no empty guide routes are created.
 
 ### Portable Windows runtime used for verification
 

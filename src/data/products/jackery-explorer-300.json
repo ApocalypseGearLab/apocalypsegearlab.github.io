@@ -1,0 +1,142 @@
+{
+  "name": "Jackery Explorer 300",
+  "brand": "Jackery",
+  "modelNumber": "Explorer 300",
+  "category": "power-stations",
+  "summary": "The original Explorer 300 is a small lithium-ion station with a 300 W AC ceiling; its revision needs checking before purchase.",
+  "description": "This record covers the original Explorer 300, not the 300 Plus, 300 v2 or 300D. It is a candidate for small-device planning rather than heating or cooking loads. Manufacturer documentation and the current Canadian page describe different capacity figures, so the precise battery label must be matched to the supplied ASIN before this becomes a recommendation.",
+  "specs": [
+    {
+      "label": "Documented legacy capacity",
+      "value": "293.8 Wh in the original user manual; exact listing revision pending",
+      "source": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf"
+    },
+    {
+      "label": "Battery chemistry",
+      "value": "Lithium-ion NCM, not LiFePO4",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information"
+    },
+    {
+      "label": "Rated AC output",
+      "value": "300 W total, 110 V, 60 Hz; 500 W surge in the original manual",
+      "source": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf"
+    },
+    {
+      "label": "AC outlets",
+      "value": "Two, sharing the total AC rating",
+      "source": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf"
+    },
+    {
+      "label": "USB-C input/output",
+      "value": "60 W maximum",
+      "source": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information"
+    },
+    {
+      "label": "Charging options",
+      "value": "Wall adapter, car input, USB-C and a compatible solar panel",
+      "source": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf"
+    }
+  ],
+  "pros": [
+    "USB-C can charge the station and supported devices.",
+    "Two AC outlets allow a small shared load."
+  ],
+  "cons": [
+    "Capacity and regional revision are not yet matched to the Amazon listing.",
+    "This is NCM lithium-ion, not the newer LiFePO4 variant.",
+    "Jackery Canada explicitly excludes Explorer 300 from SolarSaga 100 Air recharging compatibility."
+  ],
+  "useCases": [
+    "Compare a small phone, radio and light charging kit.",
+    "Check a legacy unit label against its own manual before designing a load plan."
+  ],
+  "sources": [
+    {
+      "id": "jackery-300-manual",
+      "title": "Jackery Explorer 300 user manual, US English specifications",
+      "url": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "jackery-300-support",
+      "title": "Jackery Explorer 300 technical information",
+      "url": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "jackery-300-ca",
+      "title": "Jackery Canada Explorer 300 current regional page",
+      "url": "https://ca.jackery.com/products/explorer-300-portable-power-station",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "jackery-100-air-ca",
+      "title": "Jackery Canada SolarSaga 100 Air, included connections and exclusions",
+      "url": "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [
+    "ecoflow-river-2-pro",
+    "iniu-p62-20000mah-65w"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+      "asin": "B082TMBYR6"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The original manual lists 293.8 Wh; current Canadian navigation advertises 291.84 Wh. The selected listing cannot be assigned either revision with certainty.",
+        "sourceIds": [
+          "jackery-300-manual",
+          "jackery-300-ca"
+        ]
+      },
+      {
+        "text": "The manufacturer identifies the original battery chemistry as NCM.",
+        "sourceIds": [
+          "jackery-300-support"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The owner-selected listing is advertised as approximately 293 Wh; that is not a verified exact capacity for this unit."
+    ],
+    "safetyNotes": [
+      "Do not use the newer SolarSaga 100 Air compatibility claim for this legacy model.",
+      "Use the charging limits and regional label of the actual delivered unit."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label."
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Kidde C3010 carbon monoxide alarm",
+  "brand": "Kidde",
+  "modelNumber": "C3010",
+  "category": "home-outage-planning",
+  "summary": "A sealed-battery CO alarm listing held for Canadian compliance review; part 21010045 must not be treated as C3010-CA without evidence.",
+  "description": "A CO alarm is a safety device, so product identity and Canadian certification must be resolved before editorial recommendation. The owner-reported Amazon item number appears in the US C3010 data sheet. That connection supports identification of a US product family, not equivalence with a Canadian model or suitability for installation in a Canadian home.",
+  "specs": [
+    {
+      "label": "Manufacturer model family",
+      "value": "C3010; Canadian C3010-CA equivalence not established",
+      "source": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf"
+    },
+    {
+      "label": "Part number in US data sheet",
+      "value": "21010045",
+      "source": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf"
+    },
+    {
+      "label": "Power",
+      "value": "Sealed lithium battery; manufacturer advertises a 10-year alarm life",
+      "source": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf"
+    },
+    {
+      "label": "Sensing method",
+      "value": "Electrochemical / fuel-cell design",
+      "source": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf"
+    },
+    {
+      "label": "US standard named in data sheet",
+      "value": "UL 2034; this is not proof of Canadian certification",
+      "source": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf"
+    }
+  ],
+  "pros": [
+    "Sealed battery operation avoids dependence on mains power.",
+    "A test/reset control is documented for the C3010 family."
+  ],
+  "cons": [
+    "Canadian certification of the selected item has not been established.",
+    "The C3010-CA suffix cannot be inferred from the C3010 name.",
+    "Battery service life is a manufacturer claim, not a test result or exemption from replacement instructions."
+  ],
+  "useCases": [
+    "Editorial evaluation of a battery-powered CO alarm for an outage checklist, after Canadian compliance is resolved."
+  ],
+  "sources": [
+    {
+      "id": "kidde-c3010-ca",
+      "title": "Kidde Canada C3010-CA (separate Canadian designation)",
+      "url": "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "health-canada-co-prevention",
+      "title": "Health Canada CO alarm guidance and CSA 6.19 reference",
+      "url": "https://www.canada.ca/en/health-canada/services/air-quality/pollutants/carbon-monoxide/preventing-exposure.html",
+      "kind": "official-safety"
+    },
+    {
+      "id": "kidde-c3010-us",
+      "title": "Kidde C3010 US product data sheet with part 21010045",
+      "url": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "health-canada-alarm-marks",
+      "title": "Health Canada: Canadian certification marks on smoke and CO alarms",
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/when-purchasing-smoke-or-carbon-monoxide-alarms-look-canadian-certification-mark",
+      "kind": "official-safety"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+      "asin": "B00FHW7PBS"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Kidde's Canadian page identifies C3010-CA as a separate CSA-listed designation. It does not establish that the selected part 21010045 is that Canadian model.",
+        "sourceIds": ["kidde-c3010-ca", "kidde-c3010-us"]
+      },
+      {
+        "text": "Kidde lists part 21010045 in its US C3010 data sheet and names UL 2034.",
+        "sourceIds": [
+          "kidde-c3010-us"
+        ]
+      },
+      {
+        "text": "Health Canada advises checking for a recognized Canadian certification mark directly on an alarm.",
+        "sourceIds": [
+          "health-canada-alarm-marks"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Owner-transcribed Amazon details report item/model number 21010045, a sealed 10-year battery and a limited 10-year warranty. These do not resolve Canadian certification."
+    ],
+    "safetyNotes": [
+      "Health Canada's CO guidance references CSA 6.19 and recognized Canadian certification marks. Local installation requirements and the exact unit's certification still require confirmation.",
+      "Do not publish or recommend this item for Canadian installation until its actual label, certification listing and Canadian instructions are obtained.",
+      "A US UL listing is not evidence that the unit bears a Canadian-recognized mark. No Canadian certification is claimed for the selected Amazon item.",
+      "No exact C3010/21010045 recall match was identified in the downloaded Health Canada summary dataset; that does not clear compliance or prove recall-free status."
+    ],
+    "safetyStatus": "blocked",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Obtain manufacturer confirmation linking item 21010045 to a Canada-approved model, or retain this item unpublished.",
+      "Verify the Canadian mark on the actual product, certification file, installation instructions and applicable local requirements."
+    ]
+  }
+}
