@@ -1,0 +1,41 @@
+---
+import { productMedia, mediaUrl, mediaSrcset } from '../lib/media';
+import { assetReview, canDisplayProductArtwork } from '../lib/media-policy';
+
+interface Props { slug: string; detail?: boolean }
+const { slug, detail = false } = Astro.props;
+const asset = productMedia(slug);
+const review = assetReview(slug);
+const display = canDisplayProductArtwork(slug, import.meta.env.DEV);
+const small = asset?.variants[0];
+const large = asset?.variants.at(-1);
+---
+
+{asset && small && large && <figure data-artwork-status={review?.accuracyStatus ?? 'pending-review'} class:list={['product-artwork', { 'product-artwork--detail': detail }]}>
+  {display && small.src && large.src ? <>
+  <img
+    src={mediaUrl(detail ? large.src : small.src)}
+    srcset={mediaSrcset(asset)}
+    sizes={detail ? '(min-width: 680px) 640px, calc(100vw - 40px)' : '(min-width: 1192px) 220px, (min-width: 1136px) calc((100vw - 312px) / 4), (min-width: 856px) calc((100vw - 238px) / 3), (min-width: 576px) calc((100vw - 164px) / 2), calc(100vw - 90px)'}
+    width={large.width} height={large.height}
+    alt={asset.alt} loading={detail ? 'eager' : 'lazy'} decoding="async"
+  />
+  <figcaption>
+    <span>AI-assisted illustration · exact model not verified.</span>
+    {detail && <span class="identity-note">{review?.caption ?? review?.note ?? asset.identityNote} Commercial use and source-photo permissions await owner confirmation.</span>}
+  </figcaption>
+  </> : <>
+    <div class="artwork-withheld"><span>Illustration withheld</span><span class="label">{review?.accuracyStatus === 'rejected' ? 'Product details do not match the manufacturer reference.' : 'Commercial image permissions await confirmation.'}</span></div>
+    {detail && <figcaption>{review?.note} No replacement product image has been invented.</figcaption>}
+  </>}
+</figure>}
+
+<style>
+  .product-artwork { margin: 0 0 var(--s-4); min-width: 0; }
+  .product-artwork img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #080807; }
+  .product-artwork--detail { width: min(100%, 640px); }
+  figcaption { color: var(--c-muted); font-size: 0.8rem; line-height: 1.5; padding-top: var(--s-2); }
+  .identity-note { display: block; margin-top: var(--s-2); }
+  .artwork-withheld { aspect-ratio: 1; display: flex; flex-direction: column; justify-content: center; gap: var(--s-3); padding: var(--s-5); text-align: center; color: var(--c-text); background: #080807; border: 1px solid #3a3829; }
+  .artwork-withheld > :first-child { font-family: var(--f-mono); color: #f5a623; }
+</style>

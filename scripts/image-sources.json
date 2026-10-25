@@ -1,0 +1,65 @@
+[
+  {
+    "id": "midland-er310",
+    "source": "Radio d’urgence en halo ambré.png",
+    "basename": "midland-emergency-radio-blackout",
+    "alt": "AI-assisted illustration of a red Midland emergency radio with a solar panel and amber inventory frame",
+    "identityNote": "Intended for ER310 research. Branding and radio design are recognizable; exact model and rendered display details are not independently verified."
+  },
+  {
+    "id": "jackery-explorer-300",
+    "source": "Station d’énergie Jackery Explorer 300 futuriste.png",
+    "basename": "jackery-explorer-300-blackout",
+    "alt": "AI-assisted illustration of a black and orange Jackery Explorer 300 power station in an amber inventory frame",
+    "identityNote": "Unsuitable for commercial publication: artwork says USB-C 100 W and USB-A 15 W, while the legacy model has USB-C 60 W and different USB-A/Quick Charge markings. Its circular LCD graphic and POWER label also differ from the official battery-bar display and DISPLAY button label. Repairing one number would leave other invented details; no replacement was fabricated."
+  },
+  {
+    "id": "iniu-p62-20000mah-65w",
+    "source": "Batterie externe INIU futuriste lumineuse.png",
+    "basename": "iniu-power-bank-blackout",
+    "alt": "AI-assisted illustration of a black INIU power bank with a digital display and cable in an amber inventory frame",
+    "identityNote": "Intended for P62 research. P62-E1, capacity and output cannot be established from the artwork; cable design and exact model require owner review."
+  },
+  {
+    "id": "ecoflow-river-2-pro",
+    "source": "Station électrique EcoFlow futuriste.png",
+    "basename": "ecoflow-power-station-blackout",
+    "alt": "AI-assisted illustration of a silver and black EcoFlow power station with four AC outlets",
+    "identityNote": "Intended for RIVER 2 Pro research. EcoFlow branding and general housing are recognizable; no legible RIVER 2 Pro model identifier."
+  },
+  {
+    "id": "jackery-explorer-1000-v2",
+    "source": "Station d’énergie Jackery futuriste en lumière orange.png",
+    "basename": "jackery-explorer-1000-illustration-blackout",
+    "alt": "AI-assisted illustration of a black and orange Jackery Explorer 1000 power station in an amber inventory frame",
+    "identityNote": "The housing, raised handle, light, three AC outlets, two USB-C outputs and USB-A arrangement are consistent with the official Explorer 1000 v2 images. The official unit also has an Explorer 1000 badge without v2, so that earlier objection is withdrawn. Stylized small display lettering is not authenticated technical evidence; exact unit/listing and source-photo rights remain pending."
+  },
+  {
+    "id": "fenix-cl26r-pro",
+    "source": "Lanterne Fenix rétroéclairée en ambre.png",
+    "basename": "fenix-lantern-blackout",
+    "alt": "AI-assisted illustration of a Fenix lantern with a white diffuser and rotary dial in an amber inventory frame",
+    "identityNote": "The camouflage housing, diffuser, dial, indicator row and upper serial-style marking are consistent with the official CL26R Pro catalogue image. The earlier claim of an invented model marking is withdrawn: a similar marking is visible in the official image. This visual comparison does not authenticate a unit, serial number, listing or source-photo rights."
+  },
+  {
+    "id": "kidde-c3010-co-alarm",
+    "source": "Alarme Kidde futuriste sous éclairage ambré-2.png",
+    "basename": "kidde-co-alarm-blackout",
+    "alt": "AI-assisted illustration of a white Kidde carbon monoxide alarm with a test button in an amber inventory frame",
+    "identityNote": "Intended for C3010 research. Exact regional model and Canadian certification cannot be inferred from the rendered ten-year wording or appearance."
+  },
+  {
+    "id": "jackery-solarsaga-100w-air",
+    "source": "Panneau solaire Jackery, affichage tactique futuriste.png",
+    "basename": "jackery-folding-solar-panel-blackout",
+    "alt": "AI-assisted illustration of a four-section Jackery folding solar panel in an amber inventory frame",
+    "identityNote": "Intended for SolarSaga 100 W Air research. No legible JS-100H Air identifier; folding layout alone does not verify the Air variant."
+  },
+  {
+    "id": "hero",
+    "source": "Atelier de survie dans un bunker fortifié.png",
+    "basename": "apocalypsegearlab-survival-bunker-hero",
+    "alt": "AI-assisted illustration of an underground survival bunker stocked with emergency supplies and preparedness equipment",
+    "identityNote": "Fictional bunker scene with stored supplies, equipment and an open vault door; not a photograph of a real facility."
+  }
+]

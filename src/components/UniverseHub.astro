@@ -14,7 +14,7 @@ const products = await getProductsByUniverse(id);
 ---
 
 <BaseLayout title={`${universe.name}: ${universe.signal}`} description={universe.summary}>
-  <div class="container hub" style={`--accent: ${universe.accent}`}>
+  <div class="container hub" data-universe={id} style={`--accent: ${universe.accent}`}>
     <Breadcrumbs items={[{ label: universe.name }]} />
 
     <header class="section hub-head">
@@ -55,4 +55,5 @@ const products = await getProductsByUniverse(id);
   .hub-head .notice { margin-top: var(--s-4); }
   .topics { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); }
   .topics li { display: flex; justify-content: space-between; align-items: center; gap: var(--s-3); padding: var(--s-4); }
+  .hub[data-universe='blackout'] .topics .badge { flex-shrink: 0; white-space: nowrap; }
 </style>

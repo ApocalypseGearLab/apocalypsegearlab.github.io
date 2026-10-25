@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22.23.4", "npm": ">=9.6.5" },
+  "engines": {
+    "node": ">=22.23.4",
+    "npm": ">=9.6.5"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "tsx --test tests/affiliate.test.ts tests/catalog.test.ts",
+    "test": "tsx --test tests/affiliate.test.ts tests/catalog.test.ts tests/media-policy.test.ts",
     "test:site": "node scripts/verify-site.mjs",
     "test:products": "node scripts/verify-products.mjs",
-    "test:browser": "playwright test"
+    "test:browser": "playwright test",
+    "images:build": "node scripts/optimize-images.mjs",
+    "test:images": "node scripts/verify-images.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
@@ -23,6 +28,7 @@
     "@axe-core/playwright": "^4.10.2",
     "@playwright/test": "^1.56.0",
     "cheerio": "^1.1.2",
+    "sharp": "0.35.5",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }

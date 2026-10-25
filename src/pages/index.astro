@@ -2,6 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import UniverseCard from '../components/UniverseCard.astro';
 import { SITE, UNIVERSES } from '../config/site';
+import { heroMedia, mediaUrl, mediaSrcset } from '../lib/media';
+
+const hero = heroMedia.variants.at(-1)!;
 
 const jsonLd = [
   { '@context': 'https://schema.org', '@type': 'Organization', name: SITE.name, url: Astro.site?.href },
@@ -11,13 +14,19 @@ const jsonLd = [
 
 <BaseLayout title="Survival Gear & Preparedness Guides" jsonLd={jsonLd}>
   <section class="hero">
-    <div class="container hero-grid">
-      <div>
+    <div class="hero-scene">
+      <img class="hero-image" src={mediaUrl(hero.src)} srcset={mediaSrcset(heroMedia)} sizes="100vw" width={hero.width} height={hero.height} alt={heroMedia.alt} fetchpriority="high" loading="eager" decoding="async" />
+      <div class="container hero-copy">
+        <div class="hero-copy-panel">
         <p class="label">Preparedness field manual</p>
         <h1>Be ready before the grid goes down.</h1>
         <p class="lead">Checklists and equipment guides for blackouts, disasters and long disruptions. We research first, and we say clearly what we have and have not verified.</p>
         <p><a class="btn btn--primary" href="#sectors">Choose a sector</a></p>
+        </div>
       </div>
+    </div>
+    <div class="container hero-status">
+      <p class="label hero-caption">AI-assisted illustration of a fictional survival bunker.</p>
       <aside class="panel console" aria-label="Sector status">
         <p class="label">Sector status</p>
         <ul>
@@ -52,10 +61,23 @@ const jsonLd = [
 </BaseLayout>
 
 <style>
-  .hero { padding-block: var(--s-8) var(--s-7); }
-  .hero-grid { display: grid; gap: var(--s-6); grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); align-items: center; }
+  .hero { --c-amber: #f5a623; padding-bottom: var(--s-6); }
+  .hero-scene { position: relative; isolation: isolate; display: grid; align-items: center; }
+  .hero-image { display: block; width: 100%; height: auto; aspect-ratio: 1672 / 941; object-fit: contain; grid-area: 1 / 1; }
+  .hero-copy { grid-area: 1 / 1; padding-block: var(--s-6); z-index: 1; }
+  .hero-copy-panel { background: rgb(10 13 15 / 0.94); padding: clamp(1.25rem, 3vw, 2.5rem); max-width: 37rem; border-left: 3px solid #f5a623; }
+  .hero-copy-panel > :last-child { margin-bottom: 0; }
+  .hero-status { padding-top: var(--s-3); }
+  .hero-caption { font-size: 0.8rem; }
   .hero h1 { color: var(--c-text); max-width: 14ch; }
   .lead { font-size: var(--fs-1); }
+  .console ul { display: grid; gap: 0 var(--s-5); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (max-width: 959px) {
+    .hero-image { grid-area: auto; }
+    .hero-copy { grid-area: auto; padding-block: 0; margin-top: var(--s-4); }
+    .hero-copy-panel { max-width: none; }
+    .console ul { grid-template-columns: 1fr; }
+  }
   .console ul { list-style: none; margin: var(--s-3) 0 0; padding: 0; }
   .console li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--s-3); align-items: center; padding: var(--s-3) 0; border-top: 1px solid var(--c-line); font-family: var(--f-mono); font-size: 0.9rem; }
   .console li { animation: boot 0.5s steps(6) both; }

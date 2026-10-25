@@ -56,11 +56,26 @@ for (const [file, $] of documents) {
     }
     linkCount++;
   });
+  $('img[srcset]').each((_, image) => {
+    assert.ok(Number($(image).attr('width')) > 0 && Number($(image).attr('height')) > 0, 'Image needs intrinsic dimensions');
+    assert.ok($(image).attr('alt')?.trim(), 'Useful image needs alt text');
+    assert.ok($(image).attr('sizes'), 'Responsive image needs sizes');
+    for (const candidate of $(image).attr('srcset').split(',')) {
+      const [src, width] = candidate.trim().split(/\s+/);
+      assert.match(width, /^\d+w$/);
+      const url = new URL(src, new URL(pathname, site));
+      assert.equal(url.origin, site);
+      assert.ok(existsSync(fileFor(url.pathname)), `Broken srcset image: ${src}`);
+    }
+  });
 }
 
 const sitemapIndex = load(readFileSync(resolve(root, 'sitemap-index.xml'), 'utf8'), { xmlMode: true });
 assert.equal(readFileSync(resolve(root, 'sitemap.xml'), 'utf8'), readFileSync(resolve(root, 'sitemap-index.xml'), 'utf8'), 'Preserve the original sitemap.xml URL');
 const home = documents.get(resolve(root, 'index.html'));
+assert.equal(home('img[fetchpriority="high"]').length, 1, 'One priority hero image');
+assert.equal(home('img[fetchpriority="high"]').attr('loading'), 'eager');
+assert.equal(home('link[rel="preload"][as="image"]').length, 0, 'No competing image preloads');
 assert.equal(home('#scenarios').length, 1, 'Preserve the original scenarios anchor');
 assert.equal(home('#mission').length, 1, 'Preserve the original mission anchor');
 const urls = new Set();

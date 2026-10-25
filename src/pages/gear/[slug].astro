@@ -10,6 +10,7 @@ import { getVisibleProducts, type Product } from '../../lib/products';
 import { getMerchantLinks } from '../../lib/affiliate';
 import { productStructuredData } from '../../lib/product-seo';
 import ProductCard from '../../components/ProductCard.astro';
+import ProductImage from '../../components/ProductImage.astro';
 
 export const getStaticPaths = (async () => {
   const products = await getVisibleProducts();
@@ -55,6 +56,8 @@ const breadcrumbs = {
       <p>{research.identityNotes}</p>
       {!indexable && <p>This is an editorial preview, not a published recommendation. Source review does not mean the product was physically tested or certified by us.</p>}
     </aside>}
+
+    <ProductImage slug={product.id} detail />
 
     {data.description && <section><h2>Overview</h2><p>{data.description}</p></section>}
 

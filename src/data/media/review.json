@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-25",
+  "rightsStatus": "pending-owner-confirmation",
+  "rightsNote": "AI-generated outputs do not automatically establish rights to the original reference photographs. Commercial use remains pending until the owner confirms the necessary image and source-photo permissions.",
+  "assets": {
+    "fenix-cl26r-pro": {
+      "accuracyStatus": "reviewed-illustration",
+      "caption": "AI-assisted illustration consistent with the official CL26R Pro camouflage design. Rendered inscriptions are not authenticated serial numbers or technical specifications. Exact listing and source-photo permissions remain unverified.",
+      "note": "The camouflage housing, diffuser, dial, indicator row and upper serial-style marking are consistent with the official CL26R Pro catalogue image. The earlier claim of an invented model marking is withdrawn: a similar marking is visible in the official image. This visual comparison does not authenticate a unit, serial number, listing or source-photo rights.",
+      "references": ["https://www.fenixlight.com/product/cl26r-pro/", "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern"]
+    },
+    "jackery-explorer-300": {
+      "accuracyStatus": "rejected",
+      "note": "Unsuitable for commercial publication: artwork says USB-C 100 W and USB-A 15 W, while the legacy model has USB-C 60 W and different USB-A/Quick Charge markings. Its circular LCD graphic and POWER label also differ from the official battery-bar display and DISPLAY button label. Repairing one number would leave other invented details; no replacement was fabricated.",
+      "references": ["https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf", "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information", "https://ca.jackery.com/products/explorer-300-portable-power-station"]
+    },
+    "jackery-explorer-1000-v2": {
+      "accuracyStatus": "reviewed-illustration",
+      "caption": "AI-assisted illustration consistent with the official Explorer 1000 v2 catalogue design. Rendered display text is not technical evidence. Exact listing and source-photo permissions remain unverified.",
+      "note": "The housing, raised handle, light, three AC outlets, two USB-C outputs and USB-A arrangement are consistent with the official Explorer 1000 v2 images. The official unit also has an Explorer 1000 badge without v2, so that earlier objection is withdrawn. Stylized small display lettering is not authenticated technical evidence; exact unit/listing and source-photo rights remain pending.",
+      "references": ["https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station", "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information"]
+    }
+  }
+}
