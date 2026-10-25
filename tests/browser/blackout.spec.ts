@@ -24,7 +24,7 @@ for (const { slug, data } of drafts) {
     expect(schemas[0].itemListElement.map((item: { position: number }) => item.position)).toEqual([1, 2, 3]);
     expect(schemas[0].itemListElement[2].item).toBe(`https://apocalypsegearlab.github.io/gear/${slug}/`);
     expect(await page.locator('a[href^="#source-"]').evaluateAll((links) => links.every((link) => document.getElementById(link.getAttribute('href')!.slice(1))))).toBe(true);
-    for (const width of [320, 375, 768, 1440]) {
+    for (const width of [320, 375, 768, 1024, 1440, 1920]) {
       await page.setViewportSize({ width, height: 900 });
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
@@ -44,7 +44,7 @@ test('the two catalogues expose drafts only in development', async ({ page }) =>
   for (const route of ['/blackout/', '/gear/']) {
     await page.goto(`http://127.0.0.1:4322${route}`);
     for (const { slug } of drafts) await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
-    for (const width of [320, 768, 1440]) {
+    for (const width of [320, 375, 768, 1024, 1440, 1920]) {
       await page.setViewportSize({ width, height: 900 });
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);

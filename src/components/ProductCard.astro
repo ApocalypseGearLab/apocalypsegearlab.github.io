@@ -1,23 +1,26 @@
 ---
 import type { Product } from '../lib/products';
 import { categoryLabel } from '../config/taxonomy';
+import ProductImage from './ProductImage.astro';
+import { productMedia } from '../lib/media';
 
 interface Props { product: Product; headingLevel?: 2 | 3 }
 const { product, headingLevel = 3 } = Astro.props;
 const Heading = headingLevel === 2 ? 'h2' : 'h3';
 const { data } = product;
 const isPublished = data.reviewStatus === 'published';
+const artwork = productMedia(product.id);
 ---
 
-<article class="panel card">
-  <div class="media" role="img" aria-label={data.image?.alt ?? 'Product image pending'}>
+<article class:list={['panel', 'card', { 'card--illustrated': artwork }]}>
+  {artwork ? <ProductImage slug={product.id} /> : <div class="media" role="img" aria-label={data.image?.alt ?? 'Product image pending'}>
     {data.image?.src ? <img src={data.image.src} alt="" loading="lazy" decoding="async" /> : (
       <div class="photo-placeholder" aria-hidden="true">
         <svg width="56" height="56" viewBox="0 0 64 64" fill="none"><path d="M32 5 55 18v28L32 59 9 46V18Z" stroke="currentColor" stroke-width="2"/><path d="M23 32h18M32 23v18" stroke="currentColor" stroke-width="2"/></svg>
         <span class="label">Product photo not supplied</span>
       </div>
     )}
-  </div>
+  </div>}
   <p class="label">{categoryLabel(data.category)}</p>
   <Heading><a href={`/gear/${product.id}/`}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
@@ -29,6 +32,10 @@ const isPublished = data.reviewStatus === 'published';
   .card :is(h2, h3) { margin-bottom: var(--s-2); font-size: var(--fs-1); }
   .card :is(h2, h3) a { color: var(--c-text); text-decoration: none; }
   .card :is(h2, h3) a:hover { color: var(--c-amber); }
+  .card--illustrated { --c-amber: #f5a623; }
+  .card--illustrated::before, .card--illustrated::after { display: none; }
+  .card--illustrated:focus-within { border-color: #f5a623; }
+  @media (hover: hover) { .card--illustrated:hover { border-color: #f5a623; } }
   .photo-placeholder { display: grid; justify-items: center; gap: var(--s-3); padding: var(--s-4); text-align: center; color: var(--c-muted); }
   .media { aspect-ratio: 4 / 3; background: var(--c-surface-2); display: grid; place-items: center; margin-bottom: var(--s-4); overflow: hidden; }
   .media img { width: 100%; height: 100%; object-fit: cover; }

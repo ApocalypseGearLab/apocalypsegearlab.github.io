@@ -1,0 +1,31 @@
+---
+import { productMedia, mediaUrl, mediaSrcset } from '../lib/media';
+
+interface Props { slug: string; detail?: boolean }
+const { slug, detail = false } = Astro.props;
+const asset = productMedia(slug);
+const small = asset?.variants[0];
+const large = asset?.variants.at(-1);
+---
+
+{asset && small && large && <figure class:list={['product-artwork', { 'product-artwork--detail': detail }]}>
+  <img
+    src={mediaUrl(detail ? large.src : small.src)}
+    srcset={mediaSrcset(asset)}
+    sizes={detail ? '(min-width: 680px) 640px, calc(100vw - 40px)' : '(min-width: 1192px) 220px, (min-width: 1136px) calc((100vw - 312px) / 4), (min-width: 856px) calc((100vw - 238px) / 3), (min-width: 576px) calc((100vw - 164px) / 2), calc(100vw - 90px)'}
+    width={large.width} height={large.height}
+    alt={asset.alt} loading={detail ? 'eager' : 'lazy'} decoding="async"
+  />
+  <figcaption>
+    <span>AI-assisted illustration · exact model not verified.</span>
+    {detail && <span class="identity-note">{asset.identityNote} Image usage rights and source-photo permissions await owner confirmation.</span>}
+  </figcaption>
+</figure>}
+
+<style>
+  .product-artwork { margin: 0 0 var(--s-4); min-width: 0; }
+  .product-artwork img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #080807; }
+  .product-artwork--detail { width: min(100%, 640px); }
+  figcaption { color: var(--c-muted); font-size: 0.8rem; line-height: 1.5; padding-top: var(--s-2); }
+  .identity-note { display: block; margin-top: var(--s-2); }
+</style>

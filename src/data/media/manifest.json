@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0"
+  },
+  "assets": [
+    {
+      "id": "midland-er310",
+      "source": "Radio d’urgence en halo ambré.png",
+      "basename": "midland-emergency-radio-blackout",
+      "alt": "AI-assisted illustration of a red Midland emergency radio with a solar panel and amber inventory frame",
+      "identityNote": "Intended for ER310 research. Branding and radio design are recognizable; exact model and rendered display details are not independently verified.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2508688,
+        "sha256": "87455d771d5dd0897e8468752d7900e838aa5b9822e71ed1e50e718e05c23c9c"
+      },
+      "variants": [
+        {
+          "src": "/images/midland-emergency-radio-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 46628,
+          "sha256": "8ba092521d83dc21d86b4d21a6da386e7b150c2ce1ca71df9fcfe2fefbd456fc",
+          "quality": 83
+        },
+        {
+          "src": "/images/midland-emergency-radio-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 155352,
+          "sha256": "77bbf32f7273fd4c79b5afc45e5e794dc4ddcd198c307432a970683692ba1fdf",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "jackery-explorer-300",
+      "source": "Station d’énergie Jackery Explorer 300 futuriste.png",
+      "basename": "jackery-explorer-300-blackout",
+      "alt": "AI-assisted illustration of a black and orange Jackery Explorer 300 power station in an amber inventory frame",
+      "identityNote": "Explorer 300 label is visible. Rendered USB-C 100 W marking conflicts with the researched original Explorer 300 specification; do not use the artwork as specification evidence.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2289225,
+        "sha256": "16b8b0050249e7bdb9d65d5c1dc6f71c46eb516037069be1c73adb9cc45f7be4"
+      },
+      "variants": [
+        {
+          "src": "/images/jackery-explorer-300-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 33566,
+          "sha256": "9a5cdc6aed3fc0ab9b07062819dfd7a38dba0c0ed41bca6878896e24b9830958",
+          "quality": 83
+        },
+        {
+          "src": "/images/jackery-explorer-300-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 114412,
+          "sha256": "85137309b47a820b713fd04fa7f6f9e1a9078d24fa3cd4fa85d5bece6f91cac2",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "iniu-p62-20000mah-65w",
+      "source": "Batterie externe INIU futuriste lumineuse.png",
+      "basename": "iniu-power-bank-blackout",
+      "alt": "AI-assisted illustration of a black INIU power bank with a digital display and cable in an amber inventory frame",
+      "identityNote": "Intended for P62 research. P62-E1, capacity and output cannot be established from the artwork; cable design and exact model require owner review.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2158736,
+        "sha256": "90a0e35c6e9753d29954d5a4fee52ee130f982afb6480ee48f2f63774634f59c"
+      },
+      "variants": [
+        {
+          "src": "/images/iniu-power-bank-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 27878,
+          "sha256": "64b4d2a95f1bf4ed47f29f04e6994e62ce661662707a6e08db6ce18f70ea4f61",
+          "quality": 83
+        },
+        {
+          "src": "/images/iniu-power-bank-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 97092,
+          "sha256": "aaba5f0647c218f212e8bf5f46db6d483d733557dfc7b596cccdc71f1a68a37d",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "ecoflow-river-2-pro",
+      "source": "Station électrique EcoFlow futuriste.png",
+      "basename": "ecoflow-power-station-blackout",
+      "alt": "AI-assisted illustration of a silver and black EcoFlow power station with four AC outlets",
+      "identityNote": "Intended for RIVER 2 Pro research. EcoFlow branding and general housing are recognizable; no legible RIVER 2 Pro model identifier.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2042716,
+        "sha256": "3146e01c870aafd8d86929d69d8801aabb3ac4295923833bfffec2887d8a538f"
+      },
+      "variants": [
+        {
+          "src": "/images/ecoflow-power-station-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 25692,
+          "sha256": "23f8d6d864adfa11bcc34d902da0237322578639b40a19cc0a62371ef438268f",
+          "quality": 83
+        },
+        {
+          "src": "/images/ecoflow-power-station-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 82078,
+          "sha256": "d10031bba171c9afed80e39508deb6ed69ce246dd2432916f69357291b07d943",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "jackery-explorer-1000-v2",
+      "source": "Station d’énergie Jackery futuriste en lumière orange.png",
+      "basename": "jackery-explorer-1000-illustration-blackout",
+      "alt": "AI-assisted illustration of a black and orange Jackery Explorer 1000 power station in an amber inventory frame",
+      "identityNote": "Intended for Explorer 1000 v2 research. Artwork says Explorer 1000 without v2; exact variant and rendered port labels require correction or confirmation before publication.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2055300,
+        "sha256": "2eb9ec538065808d486393c6d7bc7b9bcac87ea53c99f3c63bf9c0b3da251178"
+      },
+      "variants": [
+        {
+          "src": "/images/jackery-explorer-1000-illustration-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 29158,
+          "sha256": "98aae2018a9320b9431e2e23d5d4b37137db4fd2886ad9672419508233b7efcb",
+          "quality": 83
+        },
+        {
+          "src": "/images/jackery-explorer-1000-illustration-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 85866,
+          "sha256": "000c3674cbf0472020f016c25ba5ade5a9ac2349fea74cb56b675f991ab8b38e",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "fenix-cl26r-pro",
+      "source": "Lanterne Fenix rétroéclairée en ambre.png",
+      "basename": "fenix-lantern-blackout",
+      "alt": "AI-assisted illustration of a Fenix lantern with a white diffuser and rotary dial in an amber inventory frame",
+      "identityNote": "Intended for CL26R Pro research, not identified as an exact CL26R Pro depiction. Garbled model text and housing/dial details require artwork review; do not present as a verified model photograph.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 1937211,
+        "sha256": "0124a592e1dffca2827405d957cb0c2cae8ccf552ac8f5bd64b9a777f9d44f5e"
+      },
+      "variants": [
+        {
+          "src": "/images/fenix-lantern-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 25238,
+          "sha256": "6c2d3eecd863cc9c2502ca20f38c40b2c93a559df13140ceb6b1d35de5c970e1",
+          "quality": 83
+        },
+        {
+          "src": "/images/fenix-lantern-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 78946,
+          "sha256": "2ae3afd1acb7a50bca23436e02935743ae839ec0efabb14fb31fc745cb80a8c2",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "kidde-c3010-co-alarm",
+      "source": "Alarme Kidde futuriste sous éclairage ambré-2.png",
+      "basename": "kidde-co-alarm-blackout",
+      "alt": "AI-assisted illustration of a white Kidde carbon monoxide alarm with a test button in an amber inventory frame",
+      "identityNote": "Intended for C3010 research. Exact regional model and Canadian certification cannot be inferred from the rendered ten-year wording or appearance.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2043206,
+        "sha256": "096bfbb3b9f6557dd5d0d42bff2c32593f6a35f3e770fbf8e8126ff6ed73d29a"
+      },
+      "variants": [
+        {
+          "src": "/images/kidde-co-alarm-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 22652,
+          "sha256": "eddef67fb3880b177d880982c934ac84438fea6d0a0aef525f1b179b189efe1d",
+          "quality": 83
+        },
+        {
+          "src": "/images/kidde-co-alarm-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 71340,
+          "sha256": "fd73dfc42fde36731ac86d074ab617e5d0157437dc31c61ddb2d0b5ec2c573c2",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "jackery-solarsaga-100w-air",
+      "source": "Panneau solaire Jackery, affichage tactique futuriste.png",
+      "basename": "jackery-folding-solar-panel-blackout",
+      "alt": "AI-assisted illustration of a four-section Jackery folding solar panel in an amber inventory frame",
+      "identityNote": "Intended for SolarSaga 100 W Air research. No legible JS-100H Air identifier; folding layout alone does not verify the Air variant.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 2429069,
+        "sha256": "8e70551d7e2b13e2d478be3fc244bddf4e87cdd8f5bcc37559f3811e4fb63b86"
+      },
+      "variants": [
+        {
+          "src": "/images/jackery-folding-solar-panel-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 25276,
+          "sha256": "fa8f526b7f5937dcc87fd9713ca87846c98dc2e059b291c9dbe605c211ab7637",
+          "quality": 83
+        },
+        {
+          "src": "/images/jackery-folding-solar-panel-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 112742,
+          "sha256": "e51e48f91d787f964de6100cba8e91ba17cd84b79423417b62596df06d05154e",
+          "quality": 83
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "source": "Atelier de survie dans un bunker fortifié.png",
+      "basename": "apocalypsegearlab-survival-bunker-hero",
+      "alt": "AI-assisted illustration of an underground survival bunker stocked with emergency supplies and preparedness equipment",
+      "identityNote": "Fictional bunker scene with stored supplies, equipment and an open vault door; not a photograph of a real facility.",
+      "kind": "ai-assisted-illustration",
+      "rightsStatus": "pending-owner-confirmation",
+      "modelVerified": false,
+      "original": {
+        "width": 1672,
+        "height": 941,
+        "format": "png",
+        "hasAlpha": false,
+        "bytes": 3157157,
+        "sha256": "77b91077417a663ac9754f197440f6425c08a112695b720bd0ec0083d4d8bdd0"
+      },
+      "variants": [
+        {
+          "src": "/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 108300,
+          "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6",
+          "quality": 83
+        },
+        {
+          "src": "/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 255560,
+          "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb",
+          "quality": 83
+        },
+        {
+          "src": "/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+          "width": 1672,
+          "height": 941,
+          "bytes": 374084,
+          "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277",
+          "quality": 83
+        }
+      ]
+    }
+  ]
+}
