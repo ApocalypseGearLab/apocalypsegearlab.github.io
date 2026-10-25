@@ -1,0 +1,156 @@
+{
+  "name": "Jackery SolarSaga 100 W Air",
+  "brand": "Jackery",
+  "modelNumber": "JS-100H",
+  "category": "solar",
+  "summary": "A folding 100 W Air-series solar panel with manufacturer-documented Explorer 1000 v2 compatibility; the exact Amazon variant still needs confirmation.",
+  "description": "Solar replenishment adds a weather-dependent part to an outage plan. The 100 W figure is a laboratory rating, not a promise of continuous household power. Reserve space for the unfolded panel, plan a cable route and keep a separate charging option for periods when useful sunlight is unavailable.",
+  "specs": [
+    {
+      "label": "Rated solar power",
+      "value": "100 W ±5% under STC",
+      "source": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air"
+    },
+    {
+      "label": "Open-circuit voltage",
+      "value": "29.7 V ±5% under STC",
+      "source": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air"
+    },
+    {
+      "label": "Main charging connection",
+      "value": "DC8020 via the solar charging cable",
+      "source": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air"
+    },
+    {
+      "label": "Weight",
+      "value": "3.2 kg ±0.2 kg",
+      "source": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air"
+    },
+    {
+      "label": "Unfolded dimensions",
+      "value": "1668 × 423 × 17 mm",
+      "source": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air"
+    },
+    {
+      "label": "Folded dimensions",
+      "value": "433 × 423 × 47 mm",
+      "source": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air"
+    },
+    {
+      "label": "Direct charging",
+      "value": "USB-A and USB-C outputs; shared real-world performance not tested",
+      "source": "https://ca.jackery.com/products/jackery-solarsaga-100-air"
+    },
+    {
+      "label": "Included regional accessories",
+      "value": "Multifunctional charging cable and DC8020-to-DC7909 adapter listed by Jackery Canada",
+      "source": "https://ca.jackery.com/products/jackery-solarsaga-100-air"
+    }
+  ],
+  "pros": [
+    "Folding construction supports storage between outages.",
+    "Manufacturer documentation explicitly pairs this panel family with Explorer 1000 v2."
+  ],
+  "cons": [
+    "Output depends on sunlight, positioning and temperature.",
+    "The Canadian page excludes Explorer 300, 300 v2, 300D and 240D recharging.",
+    "This record is for 100 Air, not 100 Light, 100 Prime or the older SolarSaga 100."
+  ],
+  "useCases": [
+    "Plan daytime replenishment of an Explorer 1000 v2 using the prescribed cable.",
+    "Compare solar placement space against the household outage plan."
+  ],
+  "sources": [
+    {
+      "id": "jackery-100-air-ca",
+      "title": "Jackery Canada SolarSaga 100 Air, included connections and exclusions",
+      "url": "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "jackery-100-air-guide",
+      "title": "Jackery SolarSaga 100 Air technical and compatibility guide",
+      "url": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "jackery-100-air-manual",
+      "title": "Jackery SolarSaga 100 Air user manual",
+      "url": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_100_Air_User_Manual.pdf?v=1758778870",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "jackery-1000-ca",
+      "title": "Jackery Canada Explorer 1000 v2 and SolarSaga 100 Air bundle",
+      "url": "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [
+    "jackery-explorer-1000-v2"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0FX8P4JST?tag=apocalypsegear-20",
+      "asin": "B0FX8P4JST"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The manufacturer manual identifies SolarSaga 100 Air as model JS-100H.",
+        "sourceIds": ["jackery-100-air-manual"]
+      },
+      {
+        "text": "The official guide and Canadian bundle document Explorer 1000 v2 compatibility at the manufacturer-model level.",
+        "sourceIds": [
+          "jackery-100-air-guide",
+          "jackery-1000-ca"
+        ]
+      },
+      {
+        "text": "The Canadian product page explicitly lists several smaller Explorer models as incompatible for recharging.",
+        "sourceIds": [
+          "jackery-100-air-ca"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The owner calls the listing Air/pneumatic-style; no inflatable construction claim is supported.",
+      "ASIN-to-model mapping and delivered cable contents remain owner-supplied, not independently verified."
+    ],
+    "safetyNotes": [
+      "A connector adapter alone does not establish electrical compatibility.",
+      "Canadian product-specific exclusions take precedence over generic adapter descriptions in the US guide. Do not recommend this Air panel for Explorer 300."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable."
+    ]
+  }
+}

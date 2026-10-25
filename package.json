@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "tsx --test tests/affiliate.test.ts",
+    "test": "tsx --test tests/affiliate.test.ts tests/catalog.test.ts",
     "test:site": "node scripts/verify-site.mjs",
     "test:products": "node scripts/verify-products.mjs",
     "test:browser": "playwright test"

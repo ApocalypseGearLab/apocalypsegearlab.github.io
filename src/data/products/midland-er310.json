@@ -1,0 +1,130 @@
+{
+  "name": "Midland ER310 emergency radio",
+  "brand": "Midland",
+  "modelNumber": "ER310",
+  "category": "weather-radios",
+  "summary": "An AM/FM emergency radio with several power options; its weather-band feature is not a replacement for the discontinued Canadian Weatheradio service.",
+  "description": "Keep the ER310 on the shortlist for listening to available local AM/FM broadcasts during an outage. Weather-band hardware and a working alert service are different things. Canada has discontinued Weatheradio, so a Canadian household should build its information plan around currently available services instead of assuming this radio will receive local weather alerts.",
+  "specs": [
+    {
+      "label": "Broadcast bands",
+      "value": "AM, FM and seven weather channels",
+      "source": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide"
+    },
+    {
+      "label": "Weather-band range",
+      "value": "162.400–162.550 MHz",
+      "source": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide"
+    },
+    {
+      "label": "Charging options",
+      "value": "Micro-USB input, hand crank and built-in solar panel",
+      "source": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide"
+    },
+    {
+      "label": "Battery options",
+      "value": "Rechargeable lithium-ion battery or six AA cells; AA cells are not recharged by the unit",
+      "source": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide"
+    },
+    {
+      "label": "Solar limitation",
+      "value": "Midland says solar is supplementary and will not recharge a depleted battery by itself",
+      "source": "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs"
+    }
+  ],
+  "pros": [
+    "AM/FM reception does not require a phone data connection.",
+    "AA backup and USB charging offer alternatives to the internal battery."
+  ],
+  "cons": [
+    "Canadian Weatheradio is no longer operating.",
+    "Hand-crank and solar charging are not substitutes for routine USB recharging.",
+    "The support guide contains conflicting battery-capacity figures; the supplied battery needs checking."
+  ],
+  "useCases": [
+    "Listen to available local AM/FM outage updates.",
+    "Include radio charging and spare-cell checks in a household readiness routine."
+  ],
+  "sources": [
+    {
+      "id": "midland-er310",
+      "title": "Midland ER310 user guide",
+      "url": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "midland-er310-faq",
+      "title": "Midland ER310 charging and alert FAQ",
+      "url": "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "eccc-weatheradio",
+      "title": "Environment and Climate Change Canada: Weatheradio service notice",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/weatheradio.html",
+      "kind": "official-safety"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [
+    "fenix-cl26r-pro",
+    "iniu-p62-20000mah-65w"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+      "asin": "B015QIC1PW"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "ECCC states that Weatheradio and Hello Weather are no longer in service.",
+        "sourceIds": [
+          "eccc-weatheradio"
+        ]
+      },
+      {
+        "text": "The ER310 has AM/FM and weather-band reception; this is not the ER310PRO.",
+        "sourceIds": [
+          "midland-er310"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "No guaranteed local weather alerts, battery runtime or phone recharge count is established."
+    ],
+    "safetyNotes": [
+      "Do not promise Canadian weather-alert coverage. Reception of any available US NOAA signal is location-dependent and has not been tested.",
+      "The current guide mentions both 3500 mAh and 2600 mAh; neither is assigned to this ASIN here."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation."
+    ]
+  }
+}

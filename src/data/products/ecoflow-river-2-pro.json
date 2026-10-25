@@ -1,0 +1,133 @@
+{
+  "name": "EcoFlow RIVER 2 Pro",
+  "brand": "EcoFlow",
+  "modelNumber": null,
+  "category": "power-stations",
+  "summary": "A 768 Wh LiFePO4 station with 800 W rated AC output for a deliberately limited blackout load plan.",
+  "description": "Use this as a candidate for a smaller set of essentials, then work from each device label and the expected outage length. Compare energy capacity and continuous output separately. A higher marketing boost number does not increase the normal AC budget or establish compatibility with a particular appliance.",
+  "specs": [
+    {
+      "label": "Battery capacity",
+      "value": "768 Wh",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    },
+    {
+      "label": "Battery chemistry",
+      "value": "LFP / LiFePO4",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    },
+    {
+      "label": "Rated AC output",
+      "value": "800 W total, 120 V pure sine wave; 1600 W surge",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    },
+    {
+      "label": "AC input",
+      "value": "100–120 V, 50/60 Hz; 940 W maximum",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    },
+    {
+      "label": "Solar input",
+      "value": "11–50 V, 13 A; 220 W maximum",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    },
+    {
+      "label": "USB-C input/output",
+      "value": "100 W maximum",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    },
+    {
+      "label": "Other outputs",
+      "value": "USB-A: 12 W maximum; DC: 126 W maximum",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    },
+    {
+      "label": "Charging temperature",
+      "value": "0–45 °C",
+      "source": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+    }
+  ],
+  "pros": [
+    "USB-C supports both charging directions.",
+    "A separate solar input supports a later charging plan."
+  ],
+  "cons": [
+    "The 800 W continuous limit constrains appliance selection.",
+    "Surge output is not continuous output.",
+    "Solar recharge time depends on conditions and panel choice."
+  ],
+  "useCases": [
+    "Budget energy for a compact collection of communications and lighting devices.",
+    "Compare USB-C charging needs against a larger AC-based setup."
+  ],
+  "sources": [
+    {
+      "id": "ecoflow-ca",
+      "title": "EcoFlow Canada RIVER 2 Pro specifications",
+      "url": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "ecoflow-other-model-recall",
+      "title": "Health Canada: DELTA Max 2000 recall (different model)",
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/ecoflow-delta-max-2000-power-stations-recalled-due-risk-serious-burn-injury-and-fire",
+      "kind": "official-recall"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [
+    "jackery-explorer-1000-v2",
+    "jackery-explorer-300"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+      "asin": "B0BVLPGS79"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Canadian specifications distinguish 800 W rated output from a 1600 W surge figure.",
+        "sourceIds": [
+          "ecoflow-ca"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "No claim that X-Boost supplies 1600 W of normal continuous AC power."
+    ],
+    "safetyNotes": [
+      "The Health Canada recall reviewed concerns DELTA Max 2000 / EFD310, not RIVER 2 Pro. It does not establish recall status for every EcoFlow product.",
+      "Check the current unit label and Canadian safety documentation before approval."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Confirm the Amazon unit model code and Canadian certification evidence."
+    ]
+  }
+}

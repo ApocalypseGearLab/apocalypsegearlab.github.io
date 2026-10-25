@@ -1,0 +1,143 @@
+{
+  "name": "INIU P62 20000 mAh 65 W power bank",
+  "brand": "INIU",
+  "modelNumber": "P62-E1",
+  "category": "battery-banks",
+  "summary": "A USB-C power bank documented as P62-E1, held in draft while its Canadian safety evidence and exact listing configuration are reviewed.",
+  "description": "This is a candidate for a device-specific USB charging kit, not an AC power station replacement. Check the device charging profile and shared-port limits before choosing a setup. The owner-reported P62 identifier agrees with a manufacturer P62-E1 page, but advertised protection features do not independently establish certification of the selected Canadian listing.",
+  "specs": [
+    {
+      "label": "Manufacturer model",
+      "value": "P62-E1",
+      "source": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+    },
+    {
+      "label": "Advertised cell capacity",
+      "value": "20000 mAh; usable USB-delivered capacity not independently measured",
+      "source": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+    },
+    {
+      "label": "Maximum single USB-C output",
+      "value": "65 W on USB-C1; compatible device and cable required",
+      "source": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+    },
+    {
+      "label": "Ports",
+      "value": "Two USB-C and one USB-A",
+      "source": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+    },
+    {
+      "label": "Maximum input",
+      "value": "45 W USB-C",
+      "source": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+    },
+    {
+      "label": "Shared output",
+      "value": "USB-C1 + USB-C2: 45 W + 20 W; three ports: 60 W total",
+      "source": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+    },
+    {
+      "label": "Display and cable",
+      "value": "Digital charge display; manufacturer describes a detachable USB-C GoCord",
+      "source": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+    }
+  ],
+  "pros": [
+    "USB-C input and output support a compact device-charging kit.",
+    "A digital indicator makes the reported charge level visible."
+  ],
+  "cons": [
+    "65 W is not available independently from every port at once.",
+    "Cell mAh is not a measured phone recharge count.",
+    "Canadian certification evidence for this exact unit has not been independently verified."
+  ],
+  "useCases": [
+    "Evaluate compatible phone and laptop charging profiles after safety review.",
+    "Plan a compact communications charging kit with separately checked cables."
+  ],
+  "sources": [
+    {
+      "id": "iniu-p62-e1",
+      "title": "INIU P62-E1 manufacturer specifications",
+      "url": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "iniu-b41-recall",
+      "title": "INIU recall notice for specific BI-B41 batches (different model)",
+      "url": "https://iniushop.com/pages/recall-b41",
+      "kind": "official-recall"
+    },
+    {
+      "id": "cpsc-iniu",
+      "title": "US CPSC recall: INIU BI-B41, December 2025",
+      "url": "https://www.cpsc.gov/Recalls/2026/INIU-Recalls-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon",
+      "kind": "official-recall"
+    },
+    {
+      "id": "health-canada-recall-data",
+      "title": "Health Canada recalls and safety alerts open dataset",
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "kind": "official-recall"
+    }
+  ],
+  "relatedProducts": [
+    "jackery-explorer-300",
+    "midland-er310"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+      "asin": "B0DB888L9F"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-24",
+    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The manufacturer identifies P62-E1 with 20000 mAh capacity and 65 W maximum USB-C output.",
+        "sourceIds": [
+          "iniu-p62-e1"
+        ]
+      },
+      {
+        "text": "The reviewed manufacturer and CPSC recall identifies specific BI-B41 batches, not P62-E1.",
+        "sourceIds": [
+          "iniu-b41-recall",
+          "cpsc-iniu"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Owner-transcribed seller claims include overcharge protection, short-circuit protection and a 3-year warranty; not independently verified.",
+      "The owner describes an integrated cable; the manufacturer describes a detachable GoCord. Confirm the supplied configuration."
+    ],
+    "safetyNotes": [
+      "No independent Canadian certification record or test report for this exact listing was obtained. Marketing safety badges are not treated as certification evidence.",
+      "The BI-B41 notice is a different-model recall; it neither proves P62-E1 is recalled nor certifies P62-E1 as safe.",
+      "No INIU/P62/P62-E1 exact match was identified in the downloaded Health Canada summary dataset; absence is not a safety clearance."
+    ],
+    "safetyStatus": "blocked",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Owner approval to publish is pending.",
+      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+      "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication."
+    ]
+  }
+}

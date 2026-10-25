@@ -2,27 +2,34 @@
 import type { Product } from '../lib/products';
 import { categoryLabel } from '../config/taxonomy';
 
-interface Props { product: Product }
-const { product } = Astro.props;
+interface Props { product: Product; headingLevel?: 2 | 3 }
+const { product, headingLevel = 3 } = Astro.props;
+const Heading = headingLevel === 2 ? 'h2' : 'h3';
 const { data } = product;
 const isPublished = data.reviewStatus === 'published';
 ---
 
 <article class="panel card">
   <div class="media" role="img" aria-label={data.image?.alt ?? 'Product image pending'}>
-    {data.image?.src ? <img src={data.image.src} alt="" loading="lazy" decoding="async" /> : <span class="label">Image pending</span>}
+    {data.image?.src ? <img src={data.image.src} alt="" loading="lazy" decoding="async" /> : (
+      <div class="photo-placeholder" aria-hidden="true">
+        <svg width="56" height="56" viewBox="0 0 64 64" fill="none"><path d="M32 5 55 18v28L32 59 9 46V18Z" stroke="currentColor" stroke-width="2"/><path d="M23 32h18M32 23v18" stroke="currentColor" stroke-width="2"/></svg>
+        <span class="label">Product photo not supplied</span>
+      </div>
+    )}
   </div>
   <p class="label">{categoryLabel(data.category)}</p>
-  <h3><a href={`/gear/${product.id}/`}>{data.name}</a></h3>
+  <Heading><a href={`/gear/${product.id}/`}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
   <p>{data.summary}</p>
   {!isPublished && <p><span class="badge badge--warn">{data.reviewStatus} (not public)</span></p>}
 </article>
 
 <style>
-  .card h3 { margin-bottom: var(--s-2); }
-  .card h3 a { color: var(--c-text); text-decoration: none; }
-  .card h3 a:hover { color: var(--c-amber); }
+  .card :is(h2, h3) { margin-bottom: var(--s-2); font-size: var(--fs-1); }
+  .card :is(h2, h3) a { color: var(--c-text); text-decoration: none; }
+  .card :is(h2, h3) a:hover { color: var(--c-amber); }
+  .photo-placeholder { display: grid; justify-items: center; gap: var(--s-3); padding: var(--s-4); text-align: center; color: var(--c-muted); }
   .media { aspect-ratio: 4 / 3; background: var(--c-surface-2); display: grid; place-items: center; margin-bottom: var(--s-4); overflow: hidden; }
   .media img { width: 100%; height: 100%; object-fit: cover; }
   .brand { color: var(--c-muted); font-size: 0.9rem; }

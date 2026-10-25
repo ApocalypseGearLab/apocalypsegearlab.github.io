@@ -7,6 +7,7 @@ const root = resolve('dist');
 assert.ok(existsSync(root), 'Run npm run build first');
 const site = 'https://apocalypsegearlab.github.io';
 const files = readdirSync(root, { recursive: true }).filter((name) => name.endsWith('.html'));
+const textArtifacts = readdirSync(root, { recursive: true }).filter((name) => /\.(html|xml|txt|json|js|css)$/.test(name)).map((name) => ({ name, text: readFileSync(resolve(root, name), 'utf8') }));
 const documents = new Map();
 const titles = new Set();
 const indexable = new Set();
@@ -78,5 +79,14 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
   const product = JSON.parse(readFileSync(resolve('src/data/products', file), 'utf8'));
   const slug = file.split(sep).join('/').replace(/\.json$/, '');
   assert.equal(existsSync(fileFor(`/gear/${slug}/`)), product.reviewStatus === 'published', `Publication status mismatch: ${slug}`);
+  if (product.reviewStatus !== 'published') {
+    const asin = product.links?.amazonCa?.asin;
+    if (asin) for (const artifact of textArtifacts) assert.ok(!artifact.text.includes(asin), `Draft ASIN leaked into ${artifact.name}`);
+    for (const [htmlFile, document] of documents) {
+      assert.ok(!document('a').toArray().some((node) => document(node).attr('href') === `/gear/${slug}/`), `Draft linked from ${htmlFile}`);
+      assert.ok(!document('body').text().includes(product.name), `Draft name leaked into ${htmlFile}`);
+    }
+    assert.ok(![...urls].some((url) => new URL(url).pathname === `/gear/${slug}/`), `Draft in sitemap: ${slug}`);
+  }
 }
 console.log(`Verified ${files.length} HTML pages, ${linkCount} internal references, ${urls.size} sitemap URLs, robots.txt, JSON-LD and product publication filtering.`);
