@@ -25,7 +25,9 @@ try {
       ...template, category, name: `QA fixture ${universe}`, brand: 'QA only',
       summary: 'Temporary test fixture. This is not a real product recommendation.',
       reviewStatus: 'published', lastVerified: '2026-10-24',
-      specs: [{ label: 'QA specification', value: 'Fixture value', source: 'Test fixture' }],
+      sources: [{ id: 'qa-source', title: 'Synthetic QA source, not real product evidence', url: 'https://example.com/qa-only', kind: 'manufacturer' }],
+      research: { checkedAt: '2026-10-25', identityNotes: 'Synthetic QA fixture only.', listingVerified: true, safetyStatus: 'cleared', publicationApproved: true, publicationBlockers: [], confirmed: [{ text: 'Fixture statement, not a product claim.', sourceIds: ['qa-source'] }], unverifiedClaims: [], safetyNotes: [] },
+      specs: [{ label: 'QA specification', value: 'Fixture value', source: 'https://example.com/qa-only' }],
       pros: ['QA advantage'], cons: ['QA limitation'], useCases: ['QA scenario'],
     }), { flag: 'wx' });
     created.push(file);
@@ -41,7 +43,12 @@ try {
     assert.ok(product('body').text().includes('Fixture value'));
     assert.ok(product('body').text().includes('Not physically tested by us'));
     assert.equal(product('a[data-affiliate-click]').length, 0);
-    assert.equal(product('[aria-disabled="true"]').length, 2);
+    assert.equal(product('[aria-disabled="true"]').length, 0);
+    assert.ok(product('body').text().includes('Retailer links are not available for this profile.'));
+    assert.equal(product('.product-artwork--detail .neutral-media').length, 1, 'Unlicensed or missing artwork needs a neutral visual');
+    assert.equal(product('.product-artwork--detail img').length, 0);
+    assert.equal(product('[aria-label="Research status"]').length, 0, 'Internal approval workflow stays out of public profiles');
+    assert.ok(!/AI-assisted|ChatGPT|Codex|Synthetic QA fixture only/.test(product('body').text()));
     assert.equal(catalogue(`a[href="/gear/${slug}/"]`).length, 1);
     const hub = load(readFileSync(`dist/${universe}/index.html`, 'utf8'));
     assert.equal(hub(`a[href="/gear/${slug}/"]`).length, 1);

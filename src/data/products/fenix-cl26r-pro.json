@@ -3,7 +3,7 @@
   "brand": "Fenix",
   "modelNumber": "CL26R PRO",
   "category": "lighting",
-  "summary": "A rechargeable lantern with separate area, downward and red lighting modes, prepared as a research draft for the owner-selected camouflage listing.",
+  "summary": "A rechargeable lantern with area, downward and red lighting modes for shared rooms, work surfaces and a portable blackout lighting kit.",
   "description": "Choose a lantern by the light pattern needed in the room as well as its maximum output. This model can hang above a work surface or illuminate a shared area. The maximum combined output and maximum runtime refer to different settings; neither should be presented as an independently measured blackout runtime.",
   "specs": [
     {
@@ -124,6 +124,12 @@
       "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Match the camouflage variant and battery supplied to the manufacturer instructions."
+    ]
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm CL26R Pro, the selected colour and the battery included in the package.",
+      "Choose the required lighting mode before estimating runtime; maximum output and longest advertised runtime describe different settings."
     ]
   }
 }

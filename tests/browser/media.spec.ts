@@ -17,11 +17,11 @@ test('hero reserves space, selects responsive sources and supports reduced motio
     await route.continue();
   });
   await page.setViewportSize({ width: 375, height: 900 });
-  await page.goto('/');
+  await page.goto('http://127.0.0.1:4322/');
   const hero = page.locator('.hero-image');
   await expect(hero).toHaveAttribute('fetchpriority', 'high');
   await expect(hero).toHaveAttribute('loading', 'eager');
-  await expect(hero).toHaveAttribute('alt', /AI-assisted illustration.*underground survival bunker/);
+  await expect(hero).toHaveAttribute('alt', /Concept illustration.*underground survival bunker/);
   await hero.evaluate((img: HTMLImageElement) => img.decode());
   expect(requests.filter((src) => src.includes('survival-bunker-hero'))).toHaveLength(1);
   expect(await page.evaluate(() => (window as any).imageLayoutShifts)).toBeLessThan(0.01);
@@ -61,8 +61,8 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
     await expect(images).toHaveCount(7);
     const rejected = page.locator('article.card').filter({ has: page.locator('a[href="/gear/jackery-explorer-300/"]') });
     await expect(rejected.locator('img')).toHaveCount(0);
-    await expect(rejected.locator('.artwork-withheld')).toContainText('Illustration withheld');
-    expect(await rejected.locator('.artwork-withheld').evaluate((element) => {
+    await expect(rejected.locator('.neutral-media')).toHaveCount(1);
+    expect(await rejected.locator('.neutral-media').evaluate((element) => {
       const box = element.getBoundingClientRect(); return Math.abs(box.width - box.height);
     })).toBeLessThan(1);
     const sources: string[] = [];
@@ -75,7 +75,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
       });
       expect(actual.width).toBeCloseTo(actual.height, 1);
       expect(actual.fit).toBe('contain');
-      expect(actual.alt).toMatch(/^AI-assisted illustration/);
+      expect(actual.alt).toMatch(/^Concept illustration/);
       sources.push(actual.src);
     }
     expect(new Set(sources).size).toBe(7);

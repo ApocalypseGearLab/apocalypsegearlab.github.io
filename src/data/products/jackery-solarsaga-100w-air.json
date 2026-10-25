@@ -3,7 +3,7 @@
   "brand": "Jackery",
   "modelNumber": "JS-100H",
   "category": "solar",
-  "summary": "A folding 100 W Air-series solar panel with manufacturer-documented Explorer 1000 v2 compatibility; the exact Amazon variant still needs confirmation.",
+  "summary": "A folding 100 W solar panel for weather-dependent charging. Match the station, connector and regional cable before building a backup-power kit.",
   "description": "Solar replenishment adds a weather-dependent part to an outage plan. The 100 W figure is a laboratory rating, not a promise of continuous household power. Reserve space for the unfolded panel, plan a cable route and keep a separate charging option for periods when useful sunlight is unavailable.",
   "specs": [
     {
@@ -121,7 +121,9 @@
     "confirmed": [
       {
         "text": "The manufacturer manual identifies SolarSaga 100 Air as model JS-100H.",
-        "sourceIds": ["jackery-100-air-manual"]
+        "sourceIds": [
+          "jackery-100-air-manual"
+        ]
       },
       {
         "text": "The official guide and Canadian bundle document Explorer 1000 v2 compatibility at the manufacturer-model level.",
@@ -151,6 +153,13 @@
       "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable."
+    ]
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the SolarSaga 100 Air revision and the charging cable supplied with the Canadian package.",
+      "Check the receiving station input limits and the manufacturer compatibility list; an adapter alone does not establish compatibility.",
+      "Allow for reduced or unavailable solar charging in poor weather."
     ]
   }
 }

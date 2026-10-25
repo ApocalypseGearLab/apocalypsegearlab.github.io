@@ -18,6 +18,7 @@ export const productSchema = z.object({
   category: z.enum(CATEGORY_IDS),
   summary: z.string().min(1),
   description: z.string().default(''),
+  editorial: z.object({ purchaseChecks: z.array(z.string().min(1)).default([]) }).optional(),
   specs: z.array(z.object({ label: z.string(), value: z.string(), source: z.string().optional() })).default([]),
   pros: z.array(z.string()).default([]),
   cons: z.array(z.string()).default([]),
@@ -65,6 +66,12 @@ export const productSchema = z.object({
     if (!['https:'].includes(url.protocol) || url.username || url.password || !(url.hostname === host || url.hostname.endsWith(`.${host}`)) || url.pathname !== `/dp/${link.asin}`) {
       context.addIssue({ code: 'custom', path: ['links', marketplace], message: 'Amazon marketplace URL must match its ASIN and domain' });
     }
+  }
+  if (product.reviewStatus === 'published' && !product.research) {
+    context.addIssue({ code: 'custom', path: ['research'], message: 'Published products require documented research and approval' });
+  }
+  if (product.reviewStatus === 'published' && (!product.specs.length || product.specs.some((spec) => !product.sources.some((source) => source.kind === 'manufacturer' && source.url === spec.source)))) {
+    context.addIssue({ code: 'custom', path: ['specs'], message: 'Published specifications must cite an included manufacturer source' });
   }
   if (product.reviewStatus === 'published' && product.research && (
     !product.research.publicationApproved || !product.research.listingVerified ||

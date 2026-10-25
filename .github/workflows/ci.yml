@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [feat/astro-foundation, feat/phase3-blackout-visual-assets, 'content/**']
+    branches: [feat/astro-foundation, feat/phase3-blackout-visual-assets, feat/phase3-5-safe-blackout-catalogue, 'content/**']
 
 permissions:
   contents: read
@@ -22,6 +22,7 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run test:images
+      - run: npm run release:check
       - run: npm run test:products
       - run: npm run build
       - run: npm run test:site

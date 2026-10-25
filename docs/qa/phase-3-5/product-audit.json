@@ -1,0 +1,102 @@
+{
+  "reviewedAt": "2026-10-25",
+  "scope": "Manufacturer identity/core-fact comparison and listing-access audit; not a physical test, safety clearance or current listing verification.",
+  "products": [
+    {
+      "slug": "ecoflow-river-2-pro",
+      "asin": "B0BVLPGS79",
+      "model": null,
+      "candidateForPreparation": true,
+      "eligibleForPublication": false,
+      "sourceReview": "Manufacturer identity/core-fact comparison; not a complete safety or listing verification.",
+      "facts": "Manufacturer identifies 768 Wh LFP capacity and 800 W rated output; boost marketing does not increase the normal AC budget.",
+      "limitation": "Cached Amazon result names the ASIN but contains conflicting fields and older variant reviews. It is not current listing or Canadian certification verification.",
+      "reference": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station",
+      "listing": "cached-inconsistent-not-verified"
+    },
+    {
+      "slug": "fenix-cl26r-pro",
+      "asin": "B0CGKWX5YT",
+      "model": "CL26R PRO",
+      "candidateForPreparation": true,
+      "eligibleForPublication": false,
+      "sourceReview": "Manufacturer identity/core-fact comparison; not a complete safety or listing verification.",
+      "facts": "Manufacturer identifies CL26R PRO, 650 lm combined maximum, ARB-L21-5000 V2.0 cell and IP66.",
+      "limitation": "Exact camouflage package, battery and current Canadian listing remain unverified.",
+      "reference": "https://www.fenixlight.com/product/cl26r-pro/",
+      "listing": "direct-page-unavailable-not-verified"
+    },
+    {
+      "slug": "jackery-explorer-1000-v2",
+      "asin": "B0D7PPG25F",
+      "model": "JE-1000D",
+      "candidateForPreparation": true,
+      "eligibleForPublication": false,
+      "sourceReview": "Manufacturer identity/core-fact comparison; not a complete safety or listing verification.",
+      "facts": "JE-1000D; 1070 Wh LiFePO4, 1500 W shared by three AC outlets, USB-C outputs 100/30 W.",
+      "limitation": "Exact Canadian unit, certification labels and ASIN listing identity remain unverified. No medical or whole-home backup claim.",
+      "reference": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information",
+      "listing": "direct-page-unavailable-not-verified"
+    },
+    {
+      "slug": "jackery-solarsaga-100w-air",
+      "asin": "B0FX8P4JST",
+      "model": "JS-100H",
+      "candidateForPreparation": true,
+      "eligibleForPublication": false,
+      "sourceReview": "Manufacturer identity/core-fact comparison; not a complete safety or listing verification.",
+      "facts": "Canadian manufacturer page identifies 100 Air; it excludes Explorer 300, 300 v2, 300D and 240D recharging.",
+      "limitation": "JS-100H revision, ASIN mapping and delivered regional cable need evidence. A connector adapter alone proves no electrical compatibility.",
+      "reference": "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+      "listing": "direct-page-unavailable-not-verified"
+    },
+    {
+      "slug": "midland-er310",
+      "asin": "B015QIC1PW",
+      "model": "ER310",
+      "candidateForPreparation": true,
+      "eligibleForPublication": false,
+      "sourceReview": "Manufacturer identity/core-fact comparison; not a complete safety or listing verification.",
+      "facts": "Manufacturer describes AM/FM, weather-band hardware, crank/solar/USB charging and battery options. Canadian Weatheradio is discontinued.",
+      "limitation": "Current ASIN battery revision is unverified; the guide has 2600/3500 mAh references. No Canadian weather-alert reception, runtime or recharge-count promise.",
+      "reference": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+      "listing": "direct-page-unavailable-not-verified"
+    },
+    {
+      "slug": "kidde-c3010-co-alarm",
+      "asin": "B00FHW7PBS",
+      "model": "C3010",
+      "candidateForPreparation": false,
+      "eligibleForPublication": false,
+      "sourceReview": "Current PDF unavailable; prior documented findings retained without claiming a fresh verification.",
+      "facts": "US C3010 data sheet identifies part 21010045 and UL 2034; it does not establish Canadian C3010-CA equivalence.",
+      "limitation": "Mandatory hold: actual Canadian certification mark, model and installation evidence missing.",
+      "reference": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf",
+      "listing": "direct-page-unavailable-not-verified"
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "asin": "B0DB888L9F",
+      "model": "P62-E1",
+      "candidateForPreparation": false,
+      "eligibleForPublication": false,
+      "sourceReview": "Manufacturer identity/core-fact comparison; not a complete safety or listing verification.",
+      "facts": "Manufacturer page identifies P62-E1 family and 20000 mAh/65 W marketing specifications; no independent delivered-capacity measurement.",
+      "limitation": "Mandatory hold: exact-model Canadian safety evidence and cable configuration are incomplete. Different-model recall does not clear this model.",
+      "reference": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w",
+      "listing": "direct-page-unavailable-not-verified"
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "asin": "B082TMBYR6",
+      "model": "Explorer 300",
+      "candidateForPreparation": false,
+      "eligibleForPublication": false,
+      "sourceReview": "Manufacturer identity/core-fact comparison; not a complete safety or listing verification.",
+      "facts": "Legacy manufacturer information identifies NCM, two AC outlets, 300 W maximum and USB-C 60 W.",
+      "limitation": "Mandatory hold: rejected artwork plus unresolved capacity/regional listing revision; neutral imagery does not remove this hold.",
+      "reference": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+      "listing": "direct-page-unavailable-not-verified"
+    }
+  ]
+}

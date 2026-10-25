@@ -1,0 +1,123 @@
+{
+  "amazonAssociatesConfirmed": false,
+  "eligible": 0,
+  "held": 3,
+  "products": [
+    {
+      "slug": "ecoflow-river-2-pro",
+      "asin": "B0BVLPGS79",
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm the Amazon unit model code and Canadian certification evidence."
+      ]
+    },
+    {
+      "slug": "fenix-cl26r-pro",
+      "asin": "B0CGKWX5YT",
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Match the camouflage variant and battery supplied to the manufacturer instructions."
+      ]
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "asin": "B0DB888L9F",
+      "eligible": false,
+      "held": true,
+      "issues": [
+        "Exact-model safety verification is incomplete.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication."
+      ]
+    },
+    {
+      "slug": "jackery-explorer-1000-v2",
+      "asin": "B0D7PPG25F",
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Review the exact Canadian unit, certification labels and intended loads before publication."
+      ]
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "asin": "B082TMBYR6",
+      "eligible": false,
+      "held": true,
+      "issues": [
+        "Accurate replacement artwork and regional model verification are required.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label."
+      ]
+    },
+    {
+      "slug": "jackery-solarsaga-100w-air",
+      "asin": "B0FX8P4JST",
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable."
+      ]
+    },
+    {
+      "slug": "kidde-c3010-co-alarm",
+      "asin": "B00FHW7PBS",
+      "eligible": false,
+      "held": true,
+      "issues": [
+        "Canadian model and certification evidence are incomplete.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain manufacturer confirmation linking item 21010045 to a Canada-approved model, or retain this item unpublished.",
+        "Verify the Canadian mark on the actual product, certification file, installation instructions and applicable local requirements."
+      ]
+    },
+    {
+      "slug": "midland-er310",
+      "asin": "B015QIC1PW",
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation."
+      ]
+    }
+  ]
+}

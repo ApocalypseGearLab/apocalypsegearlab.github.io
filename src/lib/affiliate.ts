@@ -1,5 +1,6 @@
 import type { Product } from './products';
 import { AMAZON_ASSOCIATE_ENROLLED } from '../config/site';
+import { isPublicProduct } from './release-policy';
 
 export type Marketplace = 'ca' | 'us' | 'other';
 
@@ -26,20 +27,21 @@ function isTrustedUrl(url: string | null, allowedHosts?: string[]): url is strin
 
 export function getMerchantLinks(product: Product, amazonEnrolled = AMAZON_ASSOCIATE_ENROLLED): MerchantLink[] {
   const { links } = product.data;
+  const canLink = isPublicProduct(product);
   const result: MerchantLink[] = [
     {
       key: 'amazon-ca',
       merchant: 'Amazon.ca',
       marketplace: 'ca',
       label: 'View on Amazon.ca',
-      href: amazonEnrolled && isTrustedUrl(links.amazonCa.url, ['amazon.ca', 'amzn.to']) ? links.amazonCa.url : null,
+      href: amazonEnrolled && canLink && isTrustedUrl(links.amazonCa.url, ['amazon.ca', 'amzn.to']) ? links.amazonCa.url : null,
     },
     {
       key: 'amazon-com',
       merchant: 'Amazon.com',
       marketplace: 'us',
       label: 'View on Amazon.com',
-      href: amazonEnrolled && isTrustedUrl(links.amazonCom.url, ['amazon.com', 'amzn.to']) ? links.amazonCom.url : null,
+      href: amazonEnrolled && canLink && isTrustedUrl(links.amazonCom.url, ['amazon.com', 'amzn.to']) ? links.amazonCom.url : null,
     },
   ];
   for (const partner of links.partners) {
@@ -48,7 +50,7 @@ export function getMerchantLinks(product: Product, amazonEnrolled = AMAZON_ASSOC
       merchant: partner.name,
       marketplace: 'other',
       label: `View at ${partner.name}`,
-      href: isTrustedUrl(partner.url) ? partner.url : null,
+      href: canLink && isTrustedUrl(partner.url) ? partner.url : null,
     });
   }
   return result;

@@ -57,4 +57,4 @@ for (const asset of manifest.assets) {
 assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) => path.slice('/images/'.length)).sort());
 assert.equal(paths.size, 17);
 assert.equal((await readdir('assets/rejected/blackout')).length, 2);
-console.log(`Verified 9 source mappings, 17 public WebP assets and 2 rejected files outside public; dimensions, hashes, metadata, rights and draft controls passed.`);
+console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and draft controls passed. Delivery permissions are checked against dist by test:site.`);
