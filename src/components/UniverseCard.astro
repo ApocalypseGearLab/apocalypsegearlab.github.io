@@ -1,0 +1,23 @@
+---
+import type { Universe } from '../config/site';
+
+interface Props { universe: Universe }
+const { universe } = Astro.props;
+---
+
+<a class="panel universe" href={`/${universe.id}/`} style={`--accent: ${universe.accent}`}>
+  <p class="label">{universe.signal}</p>
+  <h3>{universe.name}</h3>
+  <p>{universe.tagline}</p>
+  <p class="status">
+    {universe.fiction && <span class="badge badge--fiction">Includes fiction</span>}
+    <span class="badge">Guides in development</span>
+  </p>
+</a>
+
+<style>
+  .universe { display: block; color: var(--c-text); text-decoration: none; transition: border-color 0.15s; }
+  .universe:hover { border-color: var(--accent); color: var(--c-text); }
+  .universe h3 { color: var(--accent); font-size: var(--fs-2); text-transform: uppercase; }
+  .status { display: flex; gap: var(--s-2); flex-wrap: wrap; margin: 0; }
+</style>

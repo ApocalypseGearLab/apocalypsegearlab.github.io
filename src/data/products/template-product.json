@@ -1,0 +1,22 @@
+{
+  "name": "Template product (replace or delete)",
+  "brand": "Brand name",
+  "modelNumber": null,
+  "category": "power-stations",
+  "summary": "Placeholder entry that demonstrates the product data model. It contains no real product information.",
+  "description": "",
+  "specs": [],
+  "pros": [],
+  "cons": [],
+  "useCases": [],
+  "image": null,
+  "merchant": null,
+  "links": {
+    "amazonCa": { "url": null, "asin": null },
+    "amazonCom": { "url": null, "asin": null },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "template",
+  "lastVerified": null
+}

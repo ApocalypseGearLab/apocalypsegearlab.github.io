@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import ProductCard from './ProductCard.astro';
+import { UNIVERSES } from '../config/site';
+import { CATEGORIES, type UniverseId } from '../config/taxonomy';
+import { getProductsByUniverse } from '../lib/products';
+
+interface Props { id: UniverseId }
+const { id } = Astro.props;
+const universe = UNIVERSES[id];
+const categories = CATEGORIES.filter((c) => c.universe === id);
+const products = await getProductsByUniverse(id);
+---
+
+<BaseLayout title={`${universe.name}: ${universe.signal}`} description={universe.summary}>
+  <div class="container hub" style={`--accent: ${universe.accent}`}>
+    <Breadcrumbs items={[{ label: universe.name }]} />
+
+    <header class="section hub-head">
+      <p class="label">{universe.signal}</p>
+      <h1>{universe.name}</h1>
+      <p class="lead">{universe.summary}</p>
+      {universe.fiction && (
+        <div class="notice notice--fiction">
+          <p class="label">Fiction notice</p>
+          <p>Scenarios and simulations in this sector are fictional entertainment. They are never emergency advice. Real preparedness content is labelled separately.</p>
+        </div>
+      )}
+      <div class="notice"><p class="label">Sourcing</p><p>{universe.sourcingNote}</p></div>
+    </header>
+
+    <section class="section" aria-labelledby="topics">
+      <h2 id="topics">Planned topics</h2>
+      <p>These topics are on the editorial roadmap. A topic becomes a link only when its page is complete.</p>
+      <ul class="topics">
+        {categories.map((c) => <li class="panel"><span>{c.label}</span> <span class="badge">Planned</span></li>)}
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="gear">
+      <h2 id="gear">Gear in this sector</h2>
+      {products.length === 0 ? (
+        <p class="empty">No published reviews yet. Recommendations appear here after editorial research and affiliate disclosure.</p>
+      ) : (
+        <div class="grid grid--3">{products.map((p) => <ProductCard product={p} />)}</div>
+      )}
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .hub-head h1 { color: var(--accent); }
+  .lead { font-size: var(--fs-1); }
+  .hub-head .notice { margin-top: var(--s-4); }
+  .topics { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); }
+  .topics li { display: flex; justify-content: space-between; align-items: center; gap: var(--s-3); padding: var(--s-4); }
+</style>

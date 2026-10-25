@@ -1,0 +1,40 @@
+:root {
+  color-scheme: dark;
+
+  /* Palette */
+  --c-bg: #14130f;
+  --c-surface: #1c1b15;
+  --c-surface-2: #25241b;
+  --c-line: #3a3829;
+  --c-text: #dcd8c6;
+  --c-muted: #a39f8a;
+  --c-amber: #e3a42b;
+  --c-rust: #d0693a;
+  --c-moss: #9aae62;
+  --c-olive: #4b5230;
+  --c-danger: #e0553d;
+
+  /* Type: system stacks only (no external font requests). */
+  --f-display: 'Bahnschrift', 'DIN Alternate', 'Arial Narrow', 'Roboto Condensed', 'Helvetica Neue', Arial, sans-serif;
+  --f-body: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --f-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Consolas, 'Liberation Mono', monospace;
+
+  --fs-0: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+  --fs-1: clamp(1.15rem, 1.08rem + 0.35vw, 1.3rem);
+  --fs-2: clamp(1.5rem, 1.3rem + 1vw, 2.1rem);
+  --fs-3: clamp(2.2rem, 1.6rem + 3vw, 4.2rem);
+  --fs-mono: 0.8125rem;
+
+  /* Space */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2.5rem;
+  --s-7: 4rem;
+  --s-8: 6rem;
+
+  --measure: 68ch;
+  --container: 72rem;
+}
