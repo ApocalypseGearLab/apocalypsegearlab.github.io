@@ -19,7 +19,7 @@ const artwork = productMedia(product.id);
   <Heading><a href={`${releasePreview ? '/review' : ''}/gear/${product.id}/`}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
   <p>{data.summary}</p>
-  {!isPublished && <p><span class="badge badge--warn">{data.reviewStatus} (not public)</span></p>}
+  {!isPublished && <p><span class="badge badge--warn">Information only · Verification pending</span></p>}
 </article>
 
 <style>
