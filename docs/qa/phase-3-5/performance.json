@@ -1,12 +1,12 @@
 [
   {
     "mode": "mobile",
-    "fetchTime": "2026-10-25T22:55:02.819Z",
+    "fetchTime": "2026-10-26T00:01:54.534Z",
     "lighthouseVersion": "13.5.0",
     "environment": {
       "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
       "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
-      "benchmarkIndex": 2549,
+      "benchmarkIndex": 2436,
       "credits": {
         "axe-core": "4.14.0"
       }
@@ -28,31 +28,28 @@
       "cpuSlowdownMultiplier": 4
     },
     "throttlingMethod": "simulate",
+    "categories": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
     "metrics": {
-      "mode": "mobile",
-      "lighthouse": "13.5.0",
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
-      "categories": {
-        "performance": 100,
-        "accessibility": 100,
-        "best-practices": 100,
-        "seo": 100
-      },
-      "lcp": 919.56,
+      "lcp": 1514.418,
       "cls": 0,
-      "fcp": 769.56,
-      "bytes": 6426,
-      "warnings": []
-    }
+      "fcp": 764.4179999999999,
+      "bytes": 115184
+    },
+    "warnings": []
   },
   {
     "mode": "desktop",
-    "fetchTime": "2026-10-25T22:55:10.883Z",
+    "fetchTime": "2026-10-26T00:02:02.605Z",
     "lighthouseVersion": "13.5.0",
     "environment": {
       "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
       "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
-      "benchmarkIndex": 2530.5,
+      "benchmarkIndex": 2204.5,
       "credits": {
         "axe-core": "4.14.0"
       }
@@ -74,21 +71,18 @@
       "cpuSlowdownMultiplier": 1
     },
     "throttlingMethod": "simulate",
+    "categories": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
     "metrics": {
-      "mode": "desktop",
-      "lighthouse": "13.5.0",
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
-      "categories": {
-        "performance": 100,
-        "accessibility": 100,
-        "best-practices": 100,
-        "seo": 100
-      },
-      "lcp": 245.17970000000003,
+      "lcp": 569.1834,
       "cls": 0,
-      "fcp": 205.17970000000003,
-      "bytes": 6426,
-      "warnings": []
-    }
+      "fcp": 209.1834,
+      "bytes": 380968
+    },
+    "warnings": []
   }
 ]

@@ -8,9 +8,12 @@ test('rejected Explorer 300 artwork cannot render in development or production',
   assert.equal(canDisplayProductArtwork('jackery-explorer-300', false), false);
 });
 
-test('unconfirmed reference-photo rights also block the production hero', () => {
-  assert.equal(canDisplayHeroArtwork(false), false);
+test('owner confirmation permits the public bunker without authorizing product artwork', () => {
+  assert.equal(canDisplayHeroArtwork(false), true);
   assert.equal(canDisplayHeroArtwork(true), true);
+  for (const slug of ['fenix-cl26r-pro', 'jackery-explorer-1000-v2', 'midland-er310']) {
+    assert.equal(canDisplayProductArtwork(slug, false), false);
+  }
 });
 test('reference review allows editorial previews without granting commercial permissions', () => {
   for (const slug of ['fenix-cl26r-pro', 'jackery-explorer-1000-v2']) {

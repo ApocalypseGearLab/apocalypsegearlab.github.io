@@ -74,11 +74,11 @@ const sitemapIndex = load(readFileSync(resolve(root, 'sitemap-index.xml'), 'utf8
 assert.equal(readFileSync(resolve(root, 'sitemap.xml'), 'utf8'), readFileSync(resolve(root, 'sitemap-index.xml'), 'utf8'), 'Preserve the original sitemap.xml URL');
 const home = documents.get(resolve(root, 'index.html'));
 const mediaReview = JSON.parse(readFileSync('src/data/media/review.json', 'utf8'));
-const heroAllowed = mediaReview.rightsStatus === 'confirmed-by-owner';
+const heroAllowed = mediaReview.assets.hero?.rightsStatus === 'confirmed-by-owner';
 const mediaManifest = JSON.parse(readFileSync('src/data/media/manifest.json', 'utf8'));
 for (const asset of mediaManifest.assets) {
-  const permitted = heroAllowed && (asset.id === 'hero' || mediaReview.assets[asset.id]?.accuracyStatus === 'reviewed-illustration');
-  for (const variant of asset.variants) if (variant.src && !permitted) assert.equal(existsSync(fileFor(variant.src)), false, `Unapproved artwork entered delivery: ${variant.src}`);
+  const permitted = asset.id === 'hero' ? heroAllowed : mediaReview.rightsStatus === 'confirmed-by-owner' && mediaReview.assets[asset.id]?.accuracyStatus === 'reviewed-illustration';
+  for (const variant of asset.variants) if (variant.src) assert.equal(existsSync(fileFor(variant.src)), permitted, `Artwork delivery permission mismatch: ${variant.src}`);
 }
 assert.equal(home('img[fetchpriority="high"]').length, heroAllowed ? 1 : 0, 'Only rights-cleared hero artwork can render publicly');
 if (heroAllowed) assert.equal(home('img[fetchpriority="high"]').attr('loading'), 'eager');

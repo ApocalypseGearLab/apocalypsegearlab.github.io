@@ -12,5 +12,7 @@ export function canDisplayProductArtwork(slug: string, development: boolean): bo
 }
 
 export function canDisplayHeroArtwork(development: boolean): boolean {
-  return development || review.rightsStatus === 'confirmed-by-owner';
+  // The owner's bunker confirmation is asset-specific, independent of the
+  // still-pending rights to product illustrations and their reference photos.
+  return development || review.assets.hero.rightsStatus === 'confirmed-by-owner';
 }

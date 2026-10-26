@@ -1,5 +1,7 @@
 # ApocalypseGearLab — Phase 3.5 : catalogue et préparation de publication
 
+**Correction de la PR nº 5 :** bunker restauré dans le build public après confirmation du propriétaire, limitée à cette image. Voir le [rapport de correction](pr-5-bunker-correction.md). Verdict : **MERGE pour le site protégé**, sans publication de produits ni activation Amazon.
+
 Rapport du **25 octobre 2026**. Branche : `feat/phase3-5-safe-blackout-catalogue`, créée depuis le dernier main `8b0a722c70ed4ef15dd1f8e7ec0744d5d3412ef0`. La [PR #4](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/pull/4) était déjà fusionnée. État initial propre ; aucune modification de main, fusion ou publication effectuée.
 
 ## 1. Admissibilité réelle
@@ -51,11 +53,11 @@ Fichiers principaux : `src/lib/release-policy.ts`, `products.ts`, `product-schem
 
 ## 3. Illustrations et droits
 
-Les droits commerciaux et les permissions des photographies de référence restent **en attente de confirmation du propriétaire**. La génération d'une illustration n'établit pas les droits sur ces références. Le dépôt public n'est pas un stockage confidentiel.
+Les droits commerciaux et les permissions des photographies de référence des **illustrations produits** restent **en attente de confirmation du propriétaire**. La génération d'une illustration n'établit pas les droits sur ces références. Le dépôt public n'est pas un stockage confidentiel.
 
 Les **19 fichiers WebP sont inchangés octet pour octet**, dont les deux Explorer 300 déjà rejetés et conservés hors de public. Les 17 autres fichiers restent disponibles comme sources de revue, sans recompression. Le build retire seulement leurs copies générées non autorisées de dist ; aucun original ou fichier de travail n'est supprimé. Le test confirme **0 illustration non autorisée livrée**, y compris pour un accès direct à son ancien chemin.
 
-Cette protection s'applique aussi au bunker : il reste visible en développement pour revue, mais l'accueil de production utilise une grille neutre tant que les droits ne sont pas confirmés. Les variantes 768/1280/1672, leurs dimensions et leur priorité sont préservées pour une future utilisation autorisée. Aucun droit n'a été déclaré acquis.
+Le propriétaire confirme que le bunker a été créé pour ApocalypseGearLab sans reproduction d'une photographie appartenant à un tiers, et demande sa restauration publique. Cette autorisation est enregistrée uniquement pour hero dans review.json ; le manifeste et le pipeline la conservent. Les variantes 768/1280/1672 sont livrées publiquement avec leurs dimensions, srcset et priorité d'origine. Les illustrations produits non autorisées restent exclues de dist.
 
 ## 4. Affiliation
 
@@ -65,20 +67,20 @@ Cette protection s'applique aussi au bunker : il reste visible en développement
 
 Titles, H1 uniques, descriptions adaptées, canoniques et données de fil d'Ariane sont conservés. Les brouillons n'émettent aucun Product/Offer/Review ; un produit réellement validé conserve son JSON-LD d'identité sans prix ou avis inventés. Les essais avec trois fixtures synthétiques publiées vérifient la construction des fiches, le catalogue, les liens de secteur, le sitemap et les visuels neutres ; ces fixtures sont retirées dans finally et ne font jamais partie de la livraison réelle.
 
-Livrable réel : **7 pages HTML, 5 URL de sitemap, 116 références internes vérifiées**, catalogue vide noindex et huit fiches réelles toujours exclues. Les paramètres d'URL ne peuvent pas contourner ces filtres. Aucun produit FALLOUT de phase 4 ajouté.
+Livrable réel : **7 pages HTML, 5 URL de sitemap, 117 références internes vérifiées**, catalogue vide noindex et huit fiches réelles toujours exclues. Les paramètres d'URL ne peuvent pas contourner ces filtres. Aucun produit FALLOUT de phase 4 ajouté.
 
 Chromium et axe : **320, 375, 768, 1024, 1440 et 1920 px**. Contrôles du débordement, des proportions, des textes alternatifs, des contrastes WCAG 2 A/AA et 2.1 AA, du clavier, du menu, du lien d'évitement et du mouvement réduit. Les vues réelles de l'accueil, du catalogue et d'une fiche ont été inspectées sur captures. Les styles tactiques, les cadres complets des illustrations de revue et la transparence utile sont préservés.
 
 ## 6. Performance mesurée
 
-Lighthouse **13.5.0**, Chromium 156 headless, Windows, Node 22.23.4, serveur Astro de production sur loopback. Une mesure froide mobile et une ordinateur ; mesures de laboratoire, pas de données de terrain. La mesure porte sur l'accueil neutre réellement livrable, pas sur un catalogue fictivement publié. [Réglages et résultats exacts](qa/phase-3-5/performance.json).
+Lighthouse **13.5.0**, Chromium 156 headless, Windows, Node 22.23.4, serveur Astro de production sur loopback. Une mesure froide mobile et une ordinateur ; mesures de laboratoire, pas de données de terrain. La nouvelle mesure porte sur l'accueil avec bunker autorisé, pas sur un catalogue fictivement publié. [Réglages et résultats exacts](qa/phase-3-5/performance.json).
 
 | Profil | Performance | Accessibilité | Bonnes pratiques | SEO | LCP | CLS | Octets réseau |
 |---|---|---|---|---|---|---|---|
-| mobile | 100 | 100 | 100 | 100 | 920 ms | 0 | 6 426 octets |
-| desktop | 100 | 100 | 100 | 100 | 245 ms | 0 | 6 426 octets |
+| mobile | 100 | 100 | 100 | 100 | 1 514 ms | 0 | 115 184 octets |
+| desktop | 100 | 100 | 100 | 100 | 569 ms | 0 | 380 968 octets |
 
-Les caractéristiques WebP responsives sont testées dans la revue locale ; la production ne télécharge pas d'illustration non autorisée. Aucune mesure de cache GitHub Pages ou de Core Web Vitals de visiteurs n'est inventée.
+Les caractéristiques WebP responsives du bunker sont testées dans le build public et celles des produits dans la revue locale ; la production ne télécharge pas d'illustration non autorisée. Aucune mesure de cache GitHub Pages ou de Core Web Vitals de visiteurs n'est inventée.
 
 ## 7. Tests réellement exécutés
 
@@ -89,7 +91,7 @@ Les caractéristiques WebP responsives sont testées dans la revue locale ; la p
 | npm run test:images | 9 correspondances sources, 19 WebP décodés et empreintes/dimensions/permissions vérifiées |
 | npm run test:products | 3 fixtures publiées validées puis retirées ; build réel restauré |
 | npm run build | Réussite ; 7 pages réelles |
-| npm run test:site | 116 références, sitemap, robots, srcsets, absence de médias non autorisés et filtrage des brouillons validés |
+| npm run test:site | 117 références, sitemap, robots, srcsets, absence de médias non autorisés et filtrage des brouillons validés |
 | npm run test:browser | 30/30 réussis, dont 7 tests de préparation de publication |
 | npm run release:check | 0 admissible, 3 blocages obligatoires : diagnostic attendu |
 | npm run release:check -- --require-ready | Refus attendu, code 1 ; preuve qu'aucune publication n'est autorisée par défaut |
@@ -102,7 +104,7 @@ Les premiers essais ont détecté un problème de vue par paramètre sur les pag
 
 | Page | Mobile 375 px | Ordinateur 1440 px |
 |---|---|---|
-| Accueil public neutre | [Capture](qa/phase-3-5/home-public-375.webp) | [Capture](qa/phase-3-5/home-public-1440.webp) |
+| Accueil public avec bunker | [Capture](qa/phase-3-5/home-public-375.webp) | [Capture](qa/phase-3-5/home-public-1440.webp) |
 | Catalogue des cinq candidats, local uniquement | [Capture](qa/phase-3-5/catalogue-preview-375.webp) | [Capture](qa/phase-3-5/catalogue-preview-1440.webp) |
 | Fiche Explorer 1000 v2, local uniquement | [Capture](qa/phase-3-5/profile-preview-375.webp) | [Capture](qa/phase-3-5/profile-preview-1440.webp) |
 
@@ -112,4 +114,4 @@ La nouvelle PR vers main et ses résultats GitHub Actions sont fournis dans le m
 
 ## 9. Verdict — CORRECT avant publication des produits
 
-La préparation concrète des cinq candidats, des rendus neutres et des contrôles est livrée pour revue. **CORRECT** reste le verdict de publication : la vérification actuelle des annonces/modèles canadiens et les validations de sécurité/éditoriales requises ne sont pas acquises. Kidde/INIU/Explorer 300 restent expressément bloqués. L'inscription Associates et les droits des illustrations n'ont pas été confirmés. Ces points demandent des preuves réelles, pas une bascule de drapeaux. La PR ne prétend donc pas contenir cinq produits déjà publiables et ne contourne aucune protection pour remplir le catalogue.
+La préparation concrète des cinq candidats, des rendus neutres et des contrôles est livrée pour revue. **CORRECT** reste le verdict de publication : la vérification actuelle des annonces/modèles canadiens et les validations de sécurité/éditoriales requises ne sont pas acquises. Kidde/INIU/Explorer 300 restent expressément bloqués. L'inscription Associates et les droits des illustrations produits n'ont pas été confirmés. Le bunker bénéficie désormais de sa propre confirmation de provenance et de restauration publique. Ces points demandent des preuves réelles, pas une bascule de drapeaux. La PR ne prétend donc pas contenir cinq produits déjà publiables et ne contourne aucune protection pour remplir le catalogue.

@@ -23,7 +23,9 @@ export default defineConfig({
           const media = JSON.parse(readFileSync(new URL('./src/data/media/manifest.json', import.meta.url), 'utf8'));
           const review = JSON.parse(readFileSync(new URL('./src/data/media/review.json', import.meta.url), 'utf8'));
           for (const asset of media.assets) {
-            const permitted = review.rightsStatus === 'confirmed-by-owner' && (asset.id === 'hero' || review.assets[asset.id]?.accuracyStatus === 'reviewed-illustration');
+            const permitted = asset.id === 'hero'
+              ? review.assets.hero?.rightsStatus === 'confirmed-by-owner'
+              : review.rightsStatus === 'confirmed-by-owner' && review.assets[asset.id]?.accuracyStatus === 'reviewed-illustration';
             if (permitted) continue;
             for (const variant of asset.variants) {
               if (!variant.src) continue;
