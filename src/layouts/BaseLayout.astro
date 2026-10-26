@@ -6,6 +6,7 @@ import { SITE } from '../config/site';
 
 interface Props {
   title: string;
+  canonicalPath?: string;
   description?: string;
   noindex?: boolean;
   ogImage?: string;
@@ -15,6 +16,7 @@ interface Props {
 
 const {
   title,
+  canonicalPath: requestedCanonicalPath,
   description = SITE.defaultDescription,
   noindex = false,
   ogImage,
@@ -23,7 +25,7 @@ const {
 } = Astro.props;
 
 // Astro's special 404 route is emitted as /404.html on GitHub Pages.
-const canonicalPath = Astro.url.pathname === '/404/' ? '/404.html' : Astro.url.pathname;
+const canonicalPath = requestedCanonicalPath ?? (Astro.url.pathname === '/404/' ? '/404.html' : Astro.url.pathname);
 const canonical = new URL(canonicalPath, Astro.site).href;
 const fullTitle = `${title} | ${SITE.name}`;
 const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : undefined;

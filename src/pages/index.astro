@@ -3,8 +3,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import UniverseCard from '../components/UniverseCard.astro';
 import { SITE, UNIVERSES } from '../config/site';
 import { heroMedia, mediaUrl, mediaSrcset } from '../lib/media';
+import { canDisplayHeroArtwork } from '../lib/media-policy';
 
 const hero = heroMedia.variants.at(-1)!;
+const showHeroArtwork = canDisplayHeroArtwork(import.meta.env.DEV);
 
 const jsonLd = [
   { '@context': 'https://schema.org', '@type': 'Organization', name: SITE.name, url: Astro.site?.href },
@@ -14,8 +16,8 @@ const jsonLd = [
 
 <BaseLayout title="Survival Gear & Preparedness Guides" jsonLd={jsonLd}>
   <section class="hero">
-    <div class="hero-scene">
-      <img class="hero-image" src={mediaUrl(hero.src)} srcset={mediaSrcset(heroMedia)} sizes="100vw" width={hero.width} height={hero.height} alt={heroMedia.alt} fetchpriority="high" loading="eager" decoding="async" />
+    <div class:list={['hero-scene', { 'hero-scene--neutral': !showHeroArtwork }]}>
+      {showHeroArtwork && <img class="hero-image" src={mediaUrl(hero.src)} srcset={mediaSrcset(heroMedia)} sizes="100vw" width={hero.width} height={hero.height} alt={heroMedia.alt.replace('AI-assisted illustration', 'Concept illustration')} fetchpriority="high" loading="eager" decoding="async" />}
       <div class="container hero-copy">
         <div class="hero-copy-panel">
         <p class="label">Preparedness field manual</p>
@@ -26,7 +28,7 @@ const jsonLd = [
       </div>
     </div>
     <div class="container hero-status">
-      <p class="label hero-caption">AI-assisted illustration of a fictional survival bunker.</p>
+      {showHeroArtwork && <p class="label hero-caption">Concept illustration of a fictional survival bunker.</p>}
       <aside class="panel console" aria-label="Sector status">
         <p class="label">Sector status</p>
         <ul>
@@ -63,6 +65,7 @@ const jsonLd = [
 <style>
   .hero { --c-amber: #f5a623; padding-bottom: var(--s-6); }
   .hero-scene { position: relative; isolation: isolate; display: grid; align-items: center; }
+  .hero-scene--neutral { padding-block: var(--s-6); background: linear-gradient(90deg, rgb(245 166 35 / .07), transparent 70%), repeating-linear-gradient(0deg, transparent 0 47px, rgb(245 166 35 / .035) 47px 48px), repeating-linear-gradient(90deg, transparent 0 47px, rgb(245 166 35 / .035) 47px 48px); }
   .hero-image { display: block; width: 100%; height: auto; aspect-ratio: 1672 / 941; object-fit: contain; grid-area: 1 / 1; }
   .hero-copy { grid-area: 1 / 1; padding-block: var(--s-6); z-index: 1; }
   .hero-copy-panel { background: rgb(10 13 15 / 0.94); padding: clamp(1.25rem, 3vw, 2.5rem); max-width: 37rem; border-left: 3px solid #f5a623; }

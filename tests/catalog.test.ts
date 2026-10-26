@@ -44,7 +44,7 @@ test('eight selected records have exact ASIN, URL, category and unpublished stat
     for (const key of ['price', 'rating', 'aggregateRating', 'stock', 'discount']) assert.ok(!(key in raw));
     const product = { id: slug, data } as Product;
     assert.ok(getMerchantLinks(product).every((link) => link.href === null));
-    assert.equal(getMerchantLinks(product, true)[0]?.href, data.links.amazonCa.url);
+    assert.equal(getMerchantLinks(product, true)[0]?.href, null, 'Account enrollment alone cannot enable draft listing links');
   }
 });
 

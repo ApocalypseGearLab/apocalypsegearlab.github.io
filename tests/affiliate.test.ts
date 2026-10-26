@@ -4,7 +4,7 @@ import { AFFILIATE_REL, getMerchantLinks } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 
 function product(ca: string | null, us: string | null = null, partner: string | null = null): Product {
-  return { data: { links: {
+  return { id: 'qa-approved', data: { reviewStatus: 'published', research: { listingVerified: true, publicationApproved: true, safetyStatus: 'cleared', publicationBlockers: [] }, links: {
     amazonCa: { url: ca, asin: null }, amazonCom: { url: us, asin: null },
     partners: partner ? [{ name: 'Partner', url: partner }] : [],
   } } } as unknown as Product;

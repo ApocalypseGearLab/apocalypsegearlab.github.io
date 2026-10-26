@@ -3,7 +3,7 @@
   "brand": "Jackery",
   "modelNumber": "JE-1000D",
   "category": "power-stations",
-  "summary": "A 1070 Wh LiFePO4 power station for a planned mix of lights, communications and compatible household loads during an outage.",
+  "summary": "A 1070 Wh LiFePO4 power station with 1500 W rated AC output for a planned mix of lights, communications and compatible household loads.",
   "description": "For blackout planning, separate stored energy from the power an appliance needs at startup. This model offers more rated AC headroom than the RIVER 2 Pro, but it still requires a load plan. Choose the devices that matter, check their labels and leave room for startup demand rather than treating a portable battery as whole-home backup.",
   "specs": [
     {
@@ -130,6 +130,13 @@
       "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Review the exact Canadian unit, certification labels and intended loads before publication."
+    ]
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match the Canadian unit to model JE-1000D and review its electrical label and instructions.",
+      "Check each appliance and its startup demand against the shared 1500 W AC limit.",
+      "Confirm the retailer warranty terms rather than assuming manufacturer-store extensions apply."
     ]
   }
 }

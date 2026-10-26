@@ -3,7 +3,7 @@
   "brand": "Midland",
   "modelNumber": "ER310",
   "category": "weather-radios",
-  "summary": "An AM/FM emergency radio with several power options; its weather-band feature is not a replacement for the discontinued Canadian Weatheradio service.",
+  "summary": "An AM/FM emergency radio with rechargeable, AA, hand-crank and supplementary solar power options. Canadian Weatheradio coverage is no longer available.",
   "description": "Keep the ER310 on the shortlist for listening to available local AM/FM broadcasts during an outage. Weather-band hardware and a working alert service are different things. Canada has discontinued Weatheradio, so a Canadian household should build its information plan around currently available services instead of assuming this radio will receive local weather alerts.",
   "specs": [
     {
@@ -125,6 +125,13 @@
       "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation."
+    ]
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the rechargeable battery revision and the backup AA requirements of the supplied radio.",
+      "Check which local AM/FM stations provide useful outage information; do not rely on Canadian Weatheradio alerts.",
+      "Treat solar charging as supplementary rather than a guaranteed recharge plan."
     ]
   }
 }

@@ -3,7 +3,7 @@
   "brand": "EcoFlow",
   "modelNumber": null,
   "category": "power-stations",
-  "summary": "A 768 Wh LiFePO4 station with 800 W rated AC output for a deliberately limited blackout load plan.",
+  "summary": "A 768 Wh LiFePO4 power station with 800 W rated AC output for lights, communications and a carefully limited set of essential devices.",
   "description": "Use this as a candidate for a smaller set of essentials, then work from each device label and the expected outage length. Compare energy capacity and continuous output separately. A higher marketing boost number does not increase the normal AC budget or establish compatibility with a particular appliance.",
   "specs": [
     {
@@ -128,6 +128,12 @@
       "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm the Amazon unit model code and Canadian certification evidence."
+    ]
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match the Canadian model code and electrical certification label to the supplied unit.",
+      "Add the continuous wattage and startup demand of the devices you intend to power; the normal shared AC limit is 800 W."
     ]
   }
 }

@@ -33,7 +33,7 @@ for (const source of sources) {
   const asset = {
     ...source,
     kind: 'ai-assisted-illustration',
-    rightsStatus: 'pending-owner-confirmation',
+    rightsStatus: isHero ? review.assets.hero?.rightsStatus ?? 'pending-owner-confirmation' : 'pending-owner-confirmation',
     modelVerified: false,
     original: { width: metadata.width, height: metadata.height, format: metadata.format, hasAlpha: metadata.hasAlpha, bytes: bytes.length, sha256: digest },
     variants: [],

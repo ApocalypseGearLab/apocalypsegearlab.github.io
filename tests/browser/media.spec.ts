@@ -21,8 +21,9 @@ test('hero reserves space, selects responsive sources and supports reduced motio
   const hero = page.locator('.hero-image');
   await expect(hero).toHaveAttribute('fetchpriority', 'high');
   await expect(hero).toHaveAttribute('loading', 'eager');
-  await expect(hero).toHaveAttribute('alt', /AI-assisted illustration.*underground survival bunker/);
+  await expect(hero).toHaveAttribute('alt', /Concept illustration.*underground survival bunker/);
   await hero.evaluate((img: HTMLImageElement) => img.decode());
+  expect(await hero.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(/hero-768\.webp$/);
   expect(requests.filter((src) => src.includes('survival-bunker-hero'))).toHaveLength(1);
   expect(await page.evaluate(() => (window as any).imageLayoutShifts)).toBeLessThan(0.01);
   const observations = [];
@@ -37,6 +38,13 @@ test('hero reserves space, selects responsive sources and supports reduced motio
     expect(observation.width / observation.height).toBeCloseTo(1672 / 941, 2);
     expect(observation.fit).toBe('contain');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Choose a sector' })).toBeVisible();
+    if (width < 960) {
+      const imageBox = await hero.boundingBox();
+      const textBox = await page.locator('.hero-copy-panel').boundingBox();
+      expect(textBox!.y).toBeGreaterThanOrEqual(imageBox!.y + imageBox!.height);
+    }
     observations.push(observation);
     await page.screenshot({ path: `.tools/qa/phase-3/home-${width}.png`, fullPage: true });
   }
@@ -61,8 +69,8 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
     await expect(images).toHaveCount(7);
     const rejected = page.locator('article.card').filter({ has: page.locator('a[href="/gear/jackery-explorer-300/"]') });
     await expect(rejected.locator('img')).toHaveCount(0);
-    await expect(rejected.locator('.artwork-withheld')).toContainText('Illustration withheld');
-    expect(await rejected.locator('.artwork-withheld').evaluate((element) => {
+    await expect(rejected.locator('.neutral-media')).toHaveCount(1);
+    expect(await rejected.locator('.neutral-media').evaluate((element) => {
       const box = element.getBoundingClientRect(); return Math.abs(box.width - box.height);
     })).toBeLessThan(1);
     const sources: string[] = [];
@@ -75,7 +83,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
       });
       expect(actual.width).toBeCloseTo(actual.height, 1);
       expect(actual.fit).toBe('contain');
-      expect(actual.alt).toMatch(/^AI-assisted illustration/);
+      expect(actual.alt).toMatch(/^Concept illustration/);
       sources.push(actual.src);
     }
     expect(new Set(sources).size).toBe(7);

@@ -17,7 +17,7 @@ const year = new Date().getFullYear();
       </ul>
     </nav>
   </div>
-  <div class="container"><p class="label small">&copy; {year} {SITE.name} · Version {SITE.version}</p></div>
+  <div class="container"><p class="label small">&copy; {year} {SITE.name}{import.meta.env.DEV && <> · Version {SITE.version}</>}</p></div>
 </footer>
 
 <style>

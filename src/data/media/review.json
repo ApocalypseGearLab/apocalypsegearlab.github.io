@@ -1,8 +1,17 @@
 {
   "checkedAt": "2026-10-25",
   "rightsStatus": "pending-owner-confirmation",
-  "rightsNote": "AI-generated outputs do not automatically establish rights to the original reference photographs. Commercial use remains pending until the owner confirms the necessary image and source-photo permissions.",
+  "rightsNote": "Product illustration outputs do not automatically establish rights to the original reference photographs. Product artwork commercial use remains pending until the owner confirms the necessary image and source-photo permissions. The separate hero confirmation below does not authorize any product artwork.",
   "assets": {
+    "hero": {
+      "rightsStatus": "confirmed-by-owner",
+      "confirmedAt": "2026-10-25",
+      "confirmationSource": "Owner instruction: APOCALYPSEGEARLAB — CORRECTION PR #5",
+      "provenance": "The owner confirms that this bunker illustration was created for ApocalypseGearLab without reproducing a third-party photograph, and explicitly authorizes restoring it on the public homepage. This confirmation applies only to the hero and its three existing WebP variants; it grants no permissions for product illustrations.",
+      "accuracyStatus": "fictional-scene",
+      "note": "Fictional survival bunker illustration, not a photograph of a real facility. Owner provenance confirmation is recorded here; it is not an independent legal rights audit.",
+      "references": []
+    },
     "fenix-cl26r-pro": {
       "accuracyStatus": "reviewed-illustration",
       "caption": "AI-assisted illustration consistent with the official CL26R Pro camouflage design. Rendered inscriptions are not authenticated serial numbers or technical specifications. Exact listing and source-photo permissions remain unverified.",

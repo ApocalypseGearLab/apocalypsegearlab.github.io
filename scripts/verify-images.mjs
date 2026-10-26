@@ -7,6 +7,9 @@ const manifest = JSON.parse(await readFile('src/data/media/manifest.json', 'utf8
 const sources = JSON.parse(await readFile('scripts/image-sources.json', 'utf8'));
 const review = JSON.parse(await readFile('src/data/media/review.json', 'utf8'));
 assert.equal(review.rightsStatus, 'pending-owner-confirmation');
+assert.equal(review.assets.hero.rightsStatus, 'confirmed-by-owner');
+assert.equal(review.assets.hero.confirmedAt, '2026-10-25');
+assert.ok(review.assets.hero.provenance.includes('without reproducing a third-party photograph'));
 assert.deepEqual(Object.entries(review.assets).filter(([, value]) => value.accuracyStatus === 'rejected').map(([id]) => id), ['jackery-explorer-300']);
 const expected = ['ecoflow-river-2-pro', 'fenix-cl26r-pro', 'iniu-p62-20000mah-65w', 'jackery-explorer-1000-v2', 'jackery-explorer-300', 'jackery-solarsaga-100w-air', 'kidde-c3010-co-alarm', 'midland-er310'];
 assert.deepEqual(manifest.assets.filter((asset) => asset.id !== 'hero').map((asset) => asset.id).sort(), expected);
@@ -19,7 +22,7 @@ for (const asset of manifest.assets) {
   for (const key of ['source', 'basename', 'alt', 'identityNote']) assert.equal(asset[key], source[key]);
   assert.match(asset.alt, /^AI-assisted illustration of /);
   assert.equal(asset.kind, 'ai-assisted-illustration');
-  assert.equal(asset.rightsStatus, 'pending-owner-confirmation');
+  assert.equal(asset.rightsStatus, asset.id === 'hero' ? 'confirmed-by-owner' : 'pending-owner-confirmation');
   assert.equal(asset.modelVerified, false);
   if (asset.id !== 'hero') {
     const product = JSON.parse(await readFile(`src/data/products/${asset.id}.json`, 'utf8'));
@@ -57,4 +60,4 @@ for (const asset of manifest.assets) {
 assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) => path.slice('/images/'.length)).sort());
 assert.equal(paths.size, 17);
 assert.equal((await readdir('assets/rejected/blackout')).length, 2);
-console.log(`Verified 9 source mappings, 17 public WebP assets and 2 rejected files outside public; dimensions, hashes, metadata, rights and draft controls passed.`);
+console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and draft controls passed. Delivery permissions are checked against dist by test:site.`);

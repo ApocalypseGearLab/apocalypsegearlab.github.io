@@ -10,3 +10,9 @@ export function canDisplayProductArtwork(slug: string, development: boolean): bo
   if (assetReview(slug)?.accuracyStatus === 'rejected') return false;
   return development || (review.rightsStatus === 'confirmed-by-owner' && assetReview(slug)?.accuracyStatus === 'reviewed-illustration');
 }
+
+export function canDisplayHeroArtwork(development: boolean): boolean {
+  // The owner's bunker confirmation is asset-specific, independent of the
+  // still-pending rights to product illustrations and their reference photos.
+  return development || review.assets.hero.rightsStatus === 'confirmed-by-owner';
+}

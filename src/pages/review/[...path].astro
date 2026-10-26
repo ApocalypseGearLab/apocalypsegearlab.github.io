@@ -1,0 +1,23 @@
+---
+import type { GetStaticPaths } from 'astro';
+import ProductProfile from '../../components/ProductProfile.astro';
+import ProductCatalogue from '../../components/ProductCatalogue.astro';
+import UniverseHub from '../../components/UniverseHub.astro';
+import { getVisibleProducts, type Product } from '../../lib/products';
+import { mandatoryHold } from '../../lib/release-policy';
+
+// No environment variable, query parameter or approval bypass can emit these
+// /review routes in a production build. They share the real rendering components.
+export const getStaticPaths = (async () => {
+  if (!import.meta.env.DEV) return [];
+  const products = (await getVisibleProducts()).filter((product) => !mandatoryHold(product) && product.data.reviewStatus !== 'template');
+  return [
+    { params: { path: 'gear' }, props: { view: 'catalogue' } },
+    { params: { path: 'blackout' }, props: { view: 'blackout' } },
+    ...products.map((product) => ({ params: { path: `gear/${product.id}` }, props: { view: 'profile', product } })),
+  ];
+}) satisfies GetStaticPaths;
+interface Props { view: string; product?: Product }
+const { view, product } = Astro.props;
+---
+{view === 'catalogue' ? <ProductCatalogue releasePreview /> : view === 'blackout' ? <UniverseHub id="blackout" releasePreview /> : product && <ProductProfile product={product} releasePreview />}
