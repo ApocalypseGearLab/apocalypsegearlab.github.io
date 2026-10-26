@@ -3,12 +3,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import ProductCard from './ProductCard.astro';
 import { getVisibleProducts } from '../lib/products';
-import { isPublicProduct, mandatoryHold } from '../lib/release-policy';
+import { isCommerciallyApproved, mandatoryHold } from '../lib/release-policy';
 
 interface Props { releasePreview?: boolean }
 const { releasePreview = false } = Astro.props;
 const products = (await getVisibleProducts()).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
-const hasPublished = products.some(isPublicProduct);
+const hasPublished = products.some(isCommerciallyApproved);
 ---
 
 <BaseLayout canonicalPath="/gear/" title="Survival gear catalogue" description="Researched survival and emergency preparedness gear, organised by sector." noindex={!hasPublished}>

@@ -138,5 +138,13 @@
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label."
     ]
+  },
+  "visibility": "informational",
+  "editorial": {
+    "purchaseChecks": [
+      "Distinguish the original Explorer 300 from 300 Plus, 300 v2 and 300D.",
+      "Match the battery capacity and 110/120 V regional revision to the actual unit label and manual.",
+      "Do not assume compatibility with SolarSaga 100 Air: the Canadian manufacturer excludes Explorer 300 recharging."
+    ]
   }
 }

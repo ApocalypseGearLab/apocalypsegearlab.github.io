@@ -9,7 +9,9 @@ export const SITE = {
 } as const;
 
 /**
- * Set to true ONLY once the Amazon Associates account is approved.
+ * Set to true ONLY after confirming active Canadian Associates participation,
+ * the site's authorization and the Canadian tracking ID. Final application
+ * review is distinct from permission to participate during the initial period.
  * Verify the exact required wording against the current Associates Program
  * Operating Agreement before enabling.
  */

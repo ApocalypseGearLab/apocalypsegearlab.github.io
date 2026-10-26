@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-25",
+  "main": "f3559b7406b4b2fb80526e3e8d576d8eb7a16523",
+  "priorBranchHead": "348267359f9eccb9f88020d79c9c9b43bf45dee7",
+  "amazonAccount": "unconfirmed",
+  "amazonCurrentDirectPages": "All eight direct Amazon.ca /dp/ pages were inaccessible to the web reader. An old INIU search snapshot identifies P62 and the ASIN, but does not establish the current P62-E1 revision or safety. No current listing is marked verified.",
+  "sourceChecks": "Existing manufacturer specifications, sources and research dates are preserved; no physical tests or new safety clearance.",
+  "sourceWebpHashesCompared": 19,
+  "products": [
+    {
+      "slug": "ecoflow-river-2-pro",
+      "asin": "B0BVLPGS79",
+      "url": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "pending",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm the Amazon unit model code and Canadian certification evidence."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "htmlSha256": "b3aa6891e656d15c734cc0a85986939322366133981f59fde21adb770a4fb76a"
+    },
+    {
+      "slug": "fenix-cl26r-pro",
+      "asin": "B0CGKWX5YT",
+      "url": "https://www.amazon.ca/dp/B0CGKWX5YT?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "pending",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Match the camouflage variant and battery supplied to the manufacturer instructions."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "htmlSha256": "cef8cba17b54c939b0082c89e3139b3ae5f2d46a64fed80e933c44bf5876d3d8"
+    },
+    {
+      "slug": "jackery-explorer-1000-v2",
+      "asin": "B0D7PPG25F",
+      "url": "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "pending",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Review the exact Canadian unit, certification labels and intended loads before publication."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "htmlSha256": "933277816d29e2c1c49531faf2a58bf849112b623cfa88798f9f28b541e8dcac"
+    },
+    {
+      "slug": "jackery-solarsaga-100w-air",
+      "asin": "B0FX8P4JST",
+      "url": "https://www.amazon.ca/dp/B0FX8P4JST?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "pending",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "htmlSha256": "0b850c5b207faed1d8917c21682d4cd44e54ae3f41e6f0a0c796cc23b6237d20"
+    },
+    {
+      "slug": "midland-er310",
+      "asin": "B015QIC1PW",
+      "url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "pending",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/midland-er310/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "/images/blackout/midland-er310-emergency-radio-blackout.webp",
+      "htmlSha256": "d564375c973602250915bb50c49e4c06dda3cebc05770b41034a8b7374d3d781"
+    },
+    {
+      "slug": "kidde-c3010-co-alarm",
+      "asin": "B00FHW7PBS",
+      "url": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "blocked",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain manufacturer confirmation linking item 21010045 to a Canada-approved model, or retain this item unpublished.",
+        "Verify the Canadian mark on the actual product, certification file, installation instructions and applicable local requirements."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "htmlSha256": "c7e0f613432e554349b6bc4a38a7d9ad7c31357837d0afcad8ab7470b7ebba18"
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "asin": "B0DB888L9F",
+      "url": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "blocked",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "htmlSha256": "fff045771cf2f57d15e35075c0cddff37661089c3a1ec7d179ac23aaf1af6305"
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "asin": "B082TMBYR6",
+      "url": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+      "informationalVisible": true,
+      "commercialReviewStatus": "draft",
+      "listingVerified": false,
+      "safetyStatus": "pending",
+      "publicationApproved": false,
+      "amazonButton": "pending",
+      "missingChecks": [
+        "Active Canadian Associates participation, site authorization and Canadian tracking ID confirmation",
+        "Current exact ASIN/model/Canadian variant listing verification",
+        "Owner approval to publish is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label."
+      ],
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/",
+      "structuredData": [
+        "BreadcrumbList"
+      ],
+      "image": "neutral",
+      "htmlSha256": "9112e242d593f6a292800e29d0ce128bb8e02ee834cfadcfc96667e512278819"
+    }
+  ]
+}

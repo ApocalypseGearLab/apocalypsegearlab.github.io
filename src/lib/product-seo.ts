@@ -1,9 +1,9 @@
 import type { Product } from './products';
-import { isPublicProduct } from './release-policy';
+import { isCommerciallyApproved } from './release-policy';
 
 export function productStructuredData(product: Product, site: URL): Record<string, unknown> | undefined {
   const { data } = product;
-  if (!isPublicProduct(product)) return undefined;
+  if (!isCommerciallyApproved(product)) return undefined;
   return {
     '@context': 'https://schema.org', '@type': 'Product',
     name: data.name, description: data.summary,

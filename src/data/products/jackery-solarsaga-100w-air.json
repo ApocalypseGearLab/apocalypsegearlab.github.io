@@ -161,5 +161,6 @@
       "Check the receiving station input limits and the manufacturer compatibility list; an adapter alone does not establish compatibility.",
       "Allow for reduced or unavailable solar charging in poor weather."
     ]
-  }
+  },
+  "visibility": "informational"
 }

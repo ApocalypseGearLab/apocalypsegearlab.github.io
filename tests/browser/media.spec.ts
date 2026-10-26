@@ -1,7 +1,29 @@
 import { test, expect } from '@playwright/test';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { canPublishImportedAsset } from '../../src/lib/imported-media-policy.mjs';
+const importedMedia = JSON.parse(readFileSync('src/data/media/imported-manifest.json','utf8')).assets;
 
 const widths = [320, 375, 768, 1024, 1440, 1920];
+
+test('supplied SEO WebPs are delivered unchanged only for the seven reviewed product mappings', async ({ request, page }) => {
+  for(const asset of importedMedia){
+    const response=await request.get(asset.deliverySrc);
+    expect(response.status()).toBe(canPublishImportedAsset(asset)?200:404);
+    if(canPublishImportedAsset(asset)){
+      expect(createHash('sha256').update(await response.body()).digest('hex')).toBe(asset.sha256);
+      await page.goto(`/gear/${asset.productId}/`);
+      const image=page.locator('.product-artwork--detail img');
+      await expect(image).toHaveAttribute('src',asset.deliverySrc);
+      await expect(image).toHaveAttribute('alt',asset.alt);
+      await image.evaluate((img:HTMLImageElement)=>img.decode());
+      await expect(image).toHaveAttribute('width','1254');
+      await expect(image).toHaveAttribute('height','1254');
+      // naturalWidth is density-corrected when a w-descriptor srcset is used.
+      expect(await image.evaluate((img:HTMLImageElement)=>img.naturalWidth>0&&img.naturalWidth===img.naturalHeight)).toBe(true);
+    }
+  }
+});
 test('hero reserves space, selects responsive sources and supports reduced motion', async ({ page }) => {
   await page.addInitScript(() => {
     (window as any).imageLayoutShifts = 0;
@@ -95,10 +117,10 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
   }
   await page.goto('http://127.0.0.1:4322/gear/fenix-cl26r-pro/');
   await expect(page.locator('.product-artwork--detail')).toHaveCount(1);
-  await expect(page.locator('.product-artwork--detail figcaption')).toContainText('consistent with the official CL26R Pro camouflage design');
+  await expect(page.locator('.product-artwork--detail figcaption')).toContainText('Rendered markings and displays are not technical evidence');
   const detail = page.locator('.product-artwork--detail img');
   await detail.evaluate((img: HTMLImageElement) => img.decode());
-  expect(await detail.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(/fenix-lantern-blackout-960\.webp$/);
+  expect(await detail.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(/fenix-cl26r-pro-camping-lantern-blackout\.webp$/);
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
   await page.screenshot({ path: '.tools/qa/phase-3/detail-1920.png', fullPage: true });
 });
@@ -123,8 +145,8 @@ test('reviewed illustrations disclose their limits without displaying withdrawn 
     await page.goto(`http://127.0.0.1:4322/gear/${slug}/`);
     const figure = page.locator('.product-artwork--detail');
     await expect(figure).toHaveAttribute('data-artwork-status', 'reviewed-illustration');
-    await expect(figure.locator('figcaption')).toContainText('consistent with the official');
-    await expect(figure.locator('figcaption')).toContainText('source-photo permissions remain unverified');
+    await expect(figure.locator('figcaption')).toContainText('Concept illustration, not a product photograph');
+    await expect(figure.locator('figcaption')).toContainText('Rendered markings and displays are not technical evidence');
     await expect(figure.locator('figcaption')).not.toContainText('earlier');
     await figure.locator('img').evaluate((img: HTMLImageElement) => img.decode());
     for (const width of [375, 1440]) {

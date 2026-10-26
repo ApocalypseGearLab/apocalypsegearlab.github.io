@@ -2,10 +2,12 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { resolve, relative, sep } from 'node:path';
 import { load } from 'cheerio';
+import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
 
 const root = resolve('dist');
 assert.ok(existsSync(root), 'Run npm run build first');
 const site = 'https://apocalypsegearlab.github.io';
+const suppliedMedia = JSON.parse(readFileSync('src/data/media/imported-manifest.json', 'utf8')).assets;
 const files = readdirSync(root, { recursive: true }).filter((name) => name.endsWith('.html'));
 const textArtifacts = readdirSync(root, { recursive: true }).filter((name) => /\.(html|xml|txt|json|js|css)$/.test(name)).map((name) => ({ name, text: readFileSync(resolve(root, name), 'utf8') }));
 const documents = new Map();
@@ -76,6 +78,11 @@ const home = documents.get(resolve(root, 'index.html'));
 const mediaReview = JSON.parse(readFileSync('src/data/media/review.json', 'utf8'));
 const heroAllowed = mediaReview.assets.hero?.rightsStatus === 'confirmed-by-owner';
 const mediaManifest = JSON.parse(readFileSync('src/data/media/manifest.json', 'utf8'));
+for(const asset of suppliedMedia) {
+  const permitted = canPublishImportedAsset(asset);
+  assert.equal(existsSync(fileFor(asset.deliverySrc)),permitted,`Supplied image delivery mismatch: ${asset.id}`);
+  if(permitted) assert.deepEqual(readFileSync(fileFor(asset.deliverySrc)),readFileSync(asset.file),'Supplied WebP must not be recompressed');
+}
 for (const asset of mediaManifest.assets) {
   const permitted = asset.id === 'hero' ? heroAllowed : mediaReview.rightsStatus === 'confirmed-by-owner' && mediaReview.assets[asset.id]?.accuracyStatus === 'reviewed-illustration';
   for (const variant of asset.variants) if (variant.src) assert.equal(existsSync(fileFor(variant.src)), permitted, `Artwork delivery permission mismatch: ${variant.src}`);
@@ -101,8 +108,7 @@ for (const route of ['/', '/blackout/', '/fallout/', '/outbreak/', '/gear/', '/a
 for (const file of readdirSync('src/data/products', { recursive: true }).filter((name) => name.endsWith('.json'))) {
   const product = JSON.parse(readFileSync(resolve('src/data/products', file), 'utf8'));
   const slug = file.split(sep).join('/').replace(/\.json$/, '');
-  const held = new Set(['jackery-explorer-300', 'kidde-c3010-co-alarm', 'iniu-p62-20000mah-65w']);
-  const visible = product.reviewStatus !== 'template' && !held.has(slug);
+  const visible = product.reviewStatus === 'published' || (product.visibility === 'informational' && product.reviewStatus !== 'template');
   assert.equal(existsSync(fileFor(`/gear/${slug}/`)), visible, `Informational visibility mismatch: ${slug}`);
   if (product.reviewStatus !== 'published') {
     const asin = product.links?.amazonCa?.asin;
@@ -116,6 +122,12 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
       const document = documents.get(fileFor(`/gear/${slug}/`));
       assert.ok(document('meta[name="robots"]').attr('content')?.includes('noindex'), `Unapproved profile must be noindex: ${slug}`);
       assert.equal(document('a[data-affiliate-click]').length, 0, `No affiliate links before approval: ${slug}`);
+      const artwork = suppliedMedia.find(asset => asset.productId === slug);
+      assert.equal(document('.product-artwork--detail img').length, artwork && canPublishImportedAsset(artwork) ? 1 : 0, `Approved image mapping: ${slug}`);
+      if(artwork && canPublishImportedAsset(artwork)) assert.equal(document('.product-artwork--detail img').attr('src'),artwork.deliverySrc);
+      assert.equal(document('[aria-disabled="true"]').length, 1, `Prepare one disabled Amazon.ca button: ${slug}`);
+      assert.ok(!/Before this can be published|Related research drafts|Owner approval|Owner-selected|Not public\./i.test(document('body').text()), `Internal workflow in profile: ${slug}`);
+      for (const route of ['/gear/', '/blackout/']) assert.equal(documents.get(fileFor(route))(`article.card a[href="/gear/${slug}/"]`).length, 1, `Missing informational card in ${route}: ${slug}`);
     }
   }
 }

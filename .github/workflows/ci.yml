@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [feat/astro-foundation, feat/phase3-blackout-visual-assets, feat/phase3-5-safe-blackout-catalogue, 'content/**']
+    branches: [feat/astro-foundation, feat/phase3-blackout-visual-assets, feat/phase3-5-safe-blackout-catalogue, feat/visible-blackout-info-catalogue, 'content/**']
 
 permissions:
   contents: read

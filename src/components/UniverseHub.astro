@@ -31,13 +31,13 @@ const products = (await getProductsByUniverse(id)).filter((product) => !releaseP
       <div class="notice"><p class="label">Sourcing</p><p>{universe.sourcingNote}</p></div>
     </header>
 
-    <section class="section" aria-labelledby="topics">
+    {products.length === 0 && <section class="section" aria-labelledby="topics">
       <h2 id="topics">Planned topics</h2>
       <p>These topics are on the editorial roadmap. A topic becomes a link only when its page is complete.</p>
       <ul class="topics">
         {categories.map((c) => <li class="panel"><span>{c.label}</span> <span class="badge">Planned</span></li>)}
       </ul>
-    </section>
+    </section>}
 
     <section class="section" aria-labelledby="gear">
       <h2 id="gear">Gear in this sector</h2>

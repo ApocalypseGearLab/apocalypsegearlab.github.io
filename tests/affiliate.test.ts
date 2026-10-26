@@ -25,7 +25,13 @@ test('each Amazon marketplace uses its own domain', () => {
 });
 
 test('Amazon short links are supported for both marketplaces', () => {
-  assert.ok(getMerchantLinks(product('https://amzn.to/example', 'https://amzn.to/example'), true).every((link) => link.href));
+  assert.ok(getMerchantLinks(product('https://amzn.to/example', 'https://amzn.to/example'), { ca: true, us: true }).every((link) => link.href));
+});
+
+test('Canadian enrollment alone never activates Amazon.com links', () => {
+  const links=getMerchantLinks(product('https://www.amazon.ca/dp/B000000001','https://www.amazon.com/dp/B000000001'),true);
+  assert.ok(links[0]?.href);
+  assert.equal(links[1]?.href,null);
 });
 
 test('unsafe protocols, credentials and lookalike Amazon hosts are rejected', () => {

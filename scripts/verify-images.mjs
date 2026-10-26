@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import sharp from 'sharp';
 import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
 
 const manifest = JSON.parse(await readFile('src/data/media/manifest.json', 'utf8'));
 const sources = JSON.parse(await readFile('scripts/image-sources.json', 'utf8'));
@@ -61,3 +62,29 @@ assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) 
 assert.equal(paths.size, 17);
 assert.equal((await readdir('assets/rejected/blackout')).length, 2);
 console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and draft controls passed. Delivery permissions are checked against dist by test:site.`);
+
+const supplied=JSON.parse(await readFile('src/data/media/imported-manifest.json','utf8'));
+assert.equal(supplied.provenance.status,'confirmed-by-owner');
+assert.equal(supplied.assets.length,14);
+assert.equal(supplied.assets.filter(asset=>asset.productId).length,8);
+assert.equal(supplied.assets.filter(canPublishImportedAsset).length,7);
+assert.equal(supplied.assets.filter(asset=>asset.category==='fallout').length,5);
+assert.equal(supplied.assets.filter(asset=>asset.category==='blackout'&&!asset.productId).length,1);
+assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,14);
+assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,8);
+const csv=await readFile(supplied.csv,'utf8');
+for(const asset of supplied.assets){
+  assert.match(asset.file,/^assets\/media\/(blackout|fallout)\/[a-z0-9-]+\.webp$/);
+  assert.equal(asset.deliverySrc,asset.file.replace('assets/media/','/images/'));
+  assert.ok(csv.includes(asset.file.replace('assets/media/','')));
+  assert.equal(asset.rightsStatus,'confirmed-by-owner');
+  if(asset.productId) assert.ok(expected.includes(asset.productId));
+  const bytes=await readFile(asset.file),metadata=await sharp(bytes).metadata();
+  assert.equal(bytes.length,asset.bytes);
+  assert.equal(createHash('sha256').update(bytes).digest('hex'),asset.sha256);
+  assert.equal(metadata.format,'webp');
+  assert.equal(metadata.width,1254);assert.equal(metadata.height,1254);
+  await sharp(bytes).raw().toBuffer();
+  if(asset.productId==='jackery-explorer-300')assert.equal(asset.accuracyStatus,'rejected');
+}
+console.log('Verified all 14 imported WebPs, CSV mappings, immutable bytes, 7 approved illustrations, rejected Explorer 300 and 6 future assets.');

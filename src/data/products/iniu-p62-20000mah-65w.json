@@ -3,8 +3,8 @@
   "brand": "INIU",
   "modelNumber": "P62-E1",
   "category": "battery-banks",
-  "summary": "A USB-C power bank documented as P62-E1, held in draft while its Canadian safety evidence and exact listing configuration are reviewed.",
-  "description": "This is a candidate for a device-specific USB charging kit, not an AC power station replacement. Check the device charging profile and shared-port limits before choosing a setup. The owner-reported P62 identifier agrees with a manufacturer P62-E1 page, but advertised protection features do not independently establish certification of the selected Canadian listing.",
+  "summary": "A USB-C power bank marketed at 20000 mAh and 65 W, documented by the manufacturer as P62-E1. The exact Canadian listing configuration and safety evidence remain unverified.",
+  "description": "A USB power bank can serve a device-specific charging kit, but it does not replace an AC power station. Compare charging protocols and shared-port limits with the devices involved. The manufacturer documents a P62-E1 family; the P62 listing name alone does not confirm the delivered revision, cable or Canadian certification. Advertised protection features are not independent safety evidence.",
   "specs": [
     {
       "label": "Manufacturer model",
@@ -138,6 +138,14 @@
       "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication."
+    ]
+  },
+  "visibility": "informational",
+  "editorial": {
+    "purchaseChecks": [
+      "Match the P62 or P62-E1 model code, cable and package contents to the actual Canadian listing.",
+      "Obtain Canadian electrical safety evidence for the exact unit; protection-feature marketing and unrelated recall results do not establish clearance.",
+      "Check each device charging protocol and the total shared-port power rather than treating 65 W as available from every port."
     ]
   }
 }

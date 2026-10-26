@@ -11,13 +11,17 @@ for (const { slug, data } of drafts) {
   test(`${slug} draft evidence, mobile layout and safe informational publication`, async ({ page }) => {
     const errors: string[] = [];
     page.on('pageerror', (error) => errors.push(error.message));
-    await page.goto(`http://127.0.0.1:4322/gear/${slug}/`);
+    await page.goto(`/gear/${slug}/`);
     await expect(page.locator('h1')).toHaveText(data.name);
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', `https://apocalypsegearlab.github.io/gear/${slug}/`);
-    await expect(page.getByRole('link', { disabled: true })).toHaveCount(0);
+    await expect(page.getByRole('link', { disabled: true, name: /Voir sur Amazon.ca/ })).toHaveCount(1);
     await expect(page.locator('a[data-affiliate-click]')).toHaveCount(0);
-    await expect(page.getByText('Purchase links are unavailable while product verification and affiliate eligibility are pending.')).toBeVisible();
+    await expect(page.getByText('Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.')).toBeVisible();
+    await expect(page.locator('[aria-label="Research status"]')).toHaveCount(0);
+    await expect(page.locator('#publication')).toHaveCount(0);
+    if(heldSlugs.has(slug)) await expect(page.getByRole('complementary', { name: 'Important product limitation' })).toBeVisible();
+    expect(await page.locator('body').innerText()).not.toMatch(/ChatGPT|Codex|AI-assisted|Related research drafts|Before this can be published|Owner-selected|held in draft/);
     await expect(page.getByRole('region', { name: `${data.name} specifications`, exact: true })).toBeVisible();
     const jsonLd = await page.locator('script[type="application/ld+json"]').allTextContents();
     const schemas = jsonLd.map((text) => JSON.parse(text));
@@ -29,16 +33,20 @@ for (const { slug, data } of drafts) {
       await page.setViewportSize({ width, height: 900 });
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
-      if (slug === 'jackery-explorer-1000-v2' && (width === 320 || width === 1440)) {
-        mkdirSync('.tools/qa/phase-2', { recursive: true });
-        await page.screenshot({ path: `.tools/qa/phase-2/product-${width}.png`, fullPage: true });
+      if (width === 375 || width === 1440) {
+        mkdirSync('.tools/qa/public8', { recursive: true });
+        for(const image of await page.locator('main img').all()) {
+          await image.scrollIntoViewIfNeeded();
+          await image.evaluate((img:HTMLImageElement)=>img.decode());
+        }
+        await page.evaluate(() => scrollTo({top:0,behavior:'instant'}));
+        await page.screenshot({ path: `.tools/qa/public8/${slug}-${width}.png`, fullPage: true });
       }
     }
     expect(errors).toEqual([]);
     const response = await page.goto(`http://127.0.0.1:4321/gear/${slug}/`);
-    expect(response?.status()).toBe(heldSlugs.has(slug) ? 404 : 200);
-    if (heldSlugs.has(slug)) await expect(page.getByRole('heading', { level: 1 })).toHaveText('Page not found');
-    else {
+    expect(response?.status()).toBe(200);
+    {
       await expect(page.locator('h1')).toHaveText(data.name);
       await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
       await expect(page.locator('a[data-affiliate-click]')).toHaveCount(0);
@@ -46,24 +54,35 @@ for (const { slug, data } of drafts) {
   });
 }
 
-test('public catalogues expose five informational profiles while holding three', async ({ page }) => {
+test('public catalogues expose all eight informational profiles with neutral visuals', async ({ page }) => {
   for (const route of ['/blackout/', '/gear/']) {
-    await page.goto(`http://127.0.0.1:4322${route}`);
+    await page.goto(route);
+    await expect(page.locator('article.card')).toHaveCount(8);
+    await expect(page.locator('.neutral-media')).toHaveCount(1);
+    await expect(page.locator('article.card img')).toHaveCount(7);
+    for(const image of await page.locator('article.card img').all()) {
+      await image.scrollIntoViewIfNeeded();
+      await image.evaluate((img: HTMLImageElement)=>img.decode());
+    }
     for (const { slug } of drafts) await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
     for (const width of [320, 375, 768, 1024, 1440, 1920]) {
       await page.setViewportSize({ width, height: 900 });
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
+      if ([375,1440].includes(width)) {
+        mkdirSync('.tools/qa/public8', {recursive:true});
+        await page.evaluate(() => scrollTo({top:0,behavior:'instant'}));
+        await page.screenshot({path:`.tools/qa/public8/${route.includes('blackout')?'blackout':'catalogue'}-${width}.png`,fullPage:true});
+      }
     }
     if (route === '/gear/') {
-      await expect(page.locator('article.card h2')).toHaveCount(drafts.length + 1);
+      await expect(page.locator('article.card h2')).toHaveCount(drafts.length);
       mkdirSync('.tools/qa/phase-2', { recursive: true });
       await page.screenshot({ path: '.tools/qa/phase-2/catalogue-1440.png', fullPage: true });
     }
     await page.goto(`http://127.0.0.1:4321${route}`);
-    for (const { slug, data } of drafts) {
-      await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(heldSlugs.has(slug) ? 0 : 1);
-      if (heldSlugs.has(slug)) await expect(page.getByText(data.name, { exact: true })).toHaveCount(0);
+    for (const { slug } of drafts) {
+      await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
     }
   }
 });

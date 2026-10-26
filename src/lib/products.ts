@@ -1,14 +1,12 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { categoryUniverse, type UniverseId } from '../config/taxonomy';
-import { isPublicProduct, mandatoryHold } from './release-policy';
+import { isPubliclyVisible } from './release-policy';
 
 export type Product = CollectionEntry<'products'>;
 
-/** Production shows only published products. Dev also shows drafts/templates. */
+/** Production shows approved products and explicitly selected reference profiles. */
 export function isVisible(product: Product): boolean {
-  // Public informational profiles are independent from approved commercial recommendations.
-  // Do not expose templates or the three products with unresolved safety/identity holds.
-  return import.meta.env.DEV || isPublicProduct(product) || (product.data.reviewStatus !== 'template' && !mandatoryHold(product));
+  return import.meta.env.DEV || isPubliclyVisible(product);
 }
 
 export async function getVisibleProducts(): Promise<Product[]> {
