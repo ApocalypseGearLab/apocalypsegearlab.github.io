@@ -74,7 +74,7 @@ for (const slug of candidates) test(`${slug} release presentation remains privat
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', `https://apocalypsegearlab.github.io/gear/${slug}/`);
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
   await expect(page.getByRole('link', { disabled: true })).toHaveCount(0);
-  await expect(page.getByText('Retailer links are not available for this profile.')).toBeVisible();
+  await expect(page.getByText('Purchase links are unavailable while product verification and affiliate eligibility are pending.')).toBeVisible();
   await expect(page.locator('.product-artwork--detail .neutral-media')).toHaveCount(1);
   await expect(page.getByText('Not physically tested by us', { exact: true })).toBeVisible();
   await expect(page.getByRole('region', { name: `${data.name} specifications`, exact: true })).toBeVisible();
