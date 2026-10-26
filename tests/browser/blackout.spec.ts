@@ -2,12 +2,13 @@ import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { readFileSync, readdirSync, mkdirSync } from 'node:fs';
 
+const heldSlugs = new Set(['jackery-explorer-300', 'kidde-c3010-co-alarm', 'iniu-p62-20000mah-65w']);
 const drafts = readdirSync('src/data/products').filter((name) => name.endsWith('.json')).map((file) => ({
   slug: file.replace(/\.json$/, ''), data: JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8')),
 })).filter(({ data }) => data.reviewStatus === 'draft');
 
 for (const { slug, data } of drafts) {
-  test(`${slug} draft preview, evidence, mobile layout and production exclusion`, async ({ page }) => {
+  test(`${slug} draft evidence, mobile layout and safe informational publication`, async ({ page }) => {
     const errors: string[] = [];
     page.on('pageerror', (error) => errors.push(error.message));
     await page.goto(`http://127.0.0.1:4322/gear/${slug}/`);
@@ -35,12 +36,17 @@ for (const { slug, data } of drafts) {
     }
     expect(errors).toEqual([]);
     const response = await page.goto(`http://127.0.0.1:4321/gear/${slug}/`);
-    expect(response?.status()).toBe(404);
-    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Page not found');
+    expect(response?.status()).toBe(heldSlugs.has(slug) ? 404 : 200);
+    if (heldSlugs.has(slug)) await expect(page.getByRole('heading', { level: 1 })).toHaveText('Page not found');
+    else {
+      await expect(page.locator('h1')).toHaveText(data.name);
+      await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
+      await expect(page.locator('a[data-affiliate-click]')).toHaveCount(0);
+    }
   });
 }
 
-test('the two catalogues expose drafts only in development', async ({ page }) => {
+test('public catalogues expose five informational profiles while holding three', async ({ page }) => {
   for (const route of ['/blackout/', '/gear/']) {
     await page.goto(`http://127.0.0.1:4322${route}`);
     for (const { slug } of drafts) await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
@@ -56,8 +62,8 @@ test('the two catalogues expose drafts only in development', async ({ page }) =>
     }
     await page.goto(`http://127.0.0.1:4321${route}`);
     for (const { slug, data } of drafts) {
-      await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(0);
-      await expect(page.getByText(data.name, { exact: true })).toHaveCount(0);
+      await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(heldSlugs.has(slug) ? 0 : 1);
+      if (heldSlugs.has(slug)) await expect(page.getByText(data.name, { exact: true })).toHaveCount(0);
     }
   }
 });
