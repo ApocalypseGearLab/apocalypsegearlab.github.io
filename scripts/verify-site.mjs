@@ -101,15 +101,22 @@ for (const route of ['/', '/blackout/', '/fallout/', '/outbreak/', '/gear/', '/a
 for (const file of readdirSync('src/data/products', { recursive: true }).filter((name) => name.endsWith('.json'))) {
   const product = JSON.parse(readFileSync(resolve('src/data/products', file), 'utf8'));
   const slug = file.split(sep).join('/').replace(/\.json$/, '');
-  assert.equal(existsSync(fileFor(`/gear/${slug}/`)), product.reviewStatus === 'published', `Publication status mismatch: ${slug}`);
+  const held = new Set(['jackery-explorer-300', 'kidde-c3010-co-alarm', 'iniu-p62-20000mah-65w']);
+  const visible = product.reviewStatus !== 'template' && !held.has(slug);
+  assert.equal(existsSync(fileFor(`/gear/${slug}/`)), visible, `Informational visibility mismatch: ${slug}`);
   if (product.reviewStatus !== 'published') {
     const asin = product.links?.amazonCa?.asin;
-    if (asin) for (const artifact of textArtifacts) assert.ok(!artifact.text.includes(asin), `Draft ASIN leaked into ${artifact.name}`);
-    for (const [htmlFile, document] of documents) {
-      assert.ok(!document('a').toArray().some((node) => document(node).attr('href') === `/gear/${slug}/`), `Draft linked from ${htmlFile}`);
-      assert.ok(!document('body').text().includes(product.name), `Draft name leaked into ${htmlFile}`);
+    if (asin) for (const artifact of textArtifacts) assert.ok(!artifact.text.includes(asin), `Unverified ASIN leaked into ${artifact.name}`);
+    assert.ok(![...urls].some((url) => new URL(url).pathname === `/gear/${slug}/`), `Unapproved profile in sitemap: ${slug}`);
+    if (!visible) for (const [htmlFile, document] of documents) {
+      assert.ok(!document('a').toArray().some((node) => document(node).attr('href') === `/gear/${slug}/`), `Held draft linked from ${htmlFile}`);
+      assert.ok(!document('body').text().includes(product.name), `Held draft name leaked into ${htmlFile}`);
     }
-    assert.ok(![...urls].some((url) => new URL(url).pathname === `/gear/${slug}/`), `Draft in sitemap: ${slug}`);
+    if (visible) {
+      const document = documents.get(fileFor(`/gear/${slug}/`));
+      assert.ok(document('meta[name="robots"]').attr('content')?.includes('noindex'), `Unapproved profile must be noindex: ${slug}`);
+      assert.equal(document('a[data-affiliate-click]').length, 0, `No affiliate links before approval: ${slug}`);
+    }
   }
 }
 console.log(`Verified ${files.length} HTML pages, ${linkCount} internal references, ${urls.size} sitemap URLs, robots.txt, JSON-LD and product publication filtering.`);
