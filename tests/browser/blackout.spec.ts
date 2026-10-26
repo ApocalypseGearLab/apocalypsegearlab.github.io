@@ -15,9 +15,9 @@ for (const { slug, data } of drafts) {
     await expect(page.locator('h1')).toHaveText(data.name);
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', `https://apocalypsegearlab.github.io/gear/${slug}/`);
-    await expect(page.getByRole('link', { disabled: true })).toHaveCount(2);
+    await expect(page.getByRole('link', { disabled: true })).toHaveCount(0);
     await expect(page.locator('a[data-affiliate-click]')).toHaveCount(0);
-    await expect(page.getByText('Awaiting Associates approval', { exact: true })).toHaveCount(2);
+    await expect(page.getByText('Purchase links are unavailable while product verification and affiliate eligibility are pending.')).toBeVisible();
     await expect(page.getByRole('region', { name: `${data.name} specifications`, exact: true })).toBeVisible();
     const jsonLd = await page.locator('script[type="application/ld+json"]').allTextContents();
     const schemas = jsonLd.map((text) => JSON.parse(text));
