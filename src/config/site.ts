@@ -14,7 +14,8 @@ export const SITE = {
  * Final review is not a prerequisite for initial-period Special Links.
  * This operational switch is NOT independent verification of private account
  * standing or final approval. Disable immediately for a known closure,
- * rejection or suspension. Product listing/safety evidence is still mandatory.
+ * rejection or suspension. Per-product link review and concrete safety holds
+ * remain mandatory; an active URL does not claim that its listing is verified.
  */
 export const AMAZON_CA_LINKING_ENABLED = true;
 export const AMAZON_CA_FINAL_APPROVAL_CONFIRMED = false;

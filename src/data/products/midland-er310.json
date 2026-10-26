@@ -124,7 +124,17 @@
     "publicationBlockers": [
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B015QIC1PW",
+      "checkedAt": "2026-10-26",
+      "reason": "The manufacturer guide contains conflicting 2600 / 3500 mAh rechargeable-battery figures. Match the supplied battery revision and instructions before enabling this link.",
+      "sourceIds": [
+        "midland-er310",
+        "midland-er310-faq"
+      ]
+    }
   },
   "editorial": {
     "purchaseChecks": [

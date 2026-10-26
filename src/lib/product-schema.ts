@@ -46,6 +46,13 @@ export const productSchema = z.object({
     checkedAt: z.iso.date(),
     identityNotes: z.string().min(1),
     listingVerified: z.boolean().default(false),
+    // Permission to expose a recorded retailer link is not listing verification.
+    affiliateReview: z.object({
+      decision: z.enum(['link-permitted', 'hold']),
+      asin: z.string().regex(/^[A-Z0-9]{10}$/),
+      checkedAt: z.iso.date(), reason: z.string().min(1),
+      sourceIds: z.array(z.string()).min(1),
+    }).optional(),
     listingEvidence: z.object({
       url: httpsUrl, checkedAt: z.iso.date(),
       method: z.enum(['live-page', 'owner-document']),
@@ -65,6 +72,13 @@ export const productSchema = z.object({
   if (ids.size !== product.sources.length) context.addIssue({ code: 'custom', path: ['sources'], message: 'Source IDs must be unique' });
   for (const [index, fact] of (product.research?.confirmed ?? []).entries()) {
     if (fact.sourceIds.some((id) => !ids.has(id))) context.addIssue({ code: 'custom', path: ['research', 'confirmed', index], message: 'Evidence must reference an existing source' });
+  }
+  const affiliateReview = product.research?.affiliateReview;
+  if (affiliateReview && (affiliateReview.asin !== product.links.amazonCa.asin || affiliateReview.sourceIds.some(id => !ids.has(id)))) {
+    context.addIssue({ code: 'custom', path: ['research', 'affiliateReview'], message: 'Affiliate review must match the recorded ASIN and included sources' });
+  }
+  if (affiliateReview?.decision === 'link-permitted' && product.research?.safetyStatus === 'blocked') {
+    context.addIssue({ code: 'custom', path: ['research', 'affiliateReview'], message: 'A blocked safety review cannot permit affiliate linking' });
   }
   for (const marketplace of ['amazonCa', 'amazonCom'] as const) {
     const link = product.links[marketplace];
@@ -87,7 +101,7 @@ export const productSchema = z.object({
   }
   if (product.reviewStatus === 'published' && product.research && (
     !product.research.publicationApproved || !product.research.listingVerified ||
-    product.research.safetyStatus !== 'cleared' || product.research.publicationBlockers.length > 0
+    product.research.safetyStatus !== 'cleared' || product.research.publicationBlockers.length > 0 || product.research.affiliateReview?.decision === 'hold'
   )) context.addIssue({ code: 'custom', path: ['reviewStatus'], message: 'Documented research, listing verification and safety clearance are required before editorial publication' });
   if (product.visibility === 'informational' && product.reviewStatus === 'template') context.addIssue({ code: 'custom', path: ['visibility'], message: 'Templates cannot be public informational profiles' });
 });

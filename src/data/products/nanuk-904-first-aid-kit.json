@@ -134,6 +134,16 @@
     "publicationBlockers": [
       "Verify the current Canadian listing and exact model/package.",
       "Obtain the Canadian filled-kit SKU and inventory, resolve the manufacturer page’s 109/110-item discrepancy, and check expiry/sterility information. Do not infer workplace or medical suitability from the case model."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B0G3XYHL33",
+      "checkedAt": "2026-10-26",
+      "reason": "The manufacturer lists both 109 and 110 items, and the Canadian filled kit is not distinguished from US fills or an empty case. Resolve the kit inventory and applicable expiry/sterility information.",
+      "sourceIds": [
+        "nanuk-kit",
+        "nanuk-us-sheet"
+      ]
+    }
   }
 }

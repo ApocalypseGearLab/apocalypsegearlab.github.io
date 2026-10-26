@@ -139,6 +139,17 @@
     "publicationApproved": true,
     "publicationBlockers": [
       "Match the current Canadian ASIN to item 9410-03R, 7 US gallons, with the stated cap and spigot; do not substitute the 4-gallon model."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B001QC31G6",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted after documentary model review, with cleaning, potable-water, freezing and empty-only stacking precautions retained. The Canadian package remains unverified.",
+      "sourceIds": [
+        "reliance-aqua",
+        "reliance-care",
+        "reliance-faq"
+      ]
+    }
   }
 }

@@ -44,7 +44,7 @@ const breadcrumbs = {
   <article class="container section stack" data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : '#F5A623'}`}>
     <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />
 
-    {!indexable && <p class="notice"><strong>Informational profile{!hasBuyingLinks && ' — verification in progress'}.</strong> {hasBuyingLinks ? 'The linked Canadian model has documented listing and safety checks. ' : 'Product identity, Canadian listing and safety documentation have not all been confirmed. '}This is not a hands-on review, certification claim or purchase recommendation. {!hasBuyingLinks && 'Buying links are not active.'}</p>}
+    {!indexable && <p class="notice"><strong>Informational profile{!hasBuyingLinks && ' — verification in progress'}.</strong> {hasBuyingLinks ? (research?.listingVerified ? 'Consult the documented sources and model limitations before buying. ' : 'The retailer link uses the recorded ASIN. The current listing, seller and package have not been independently verified. ') : 'Product identity, Canadian listing and safety documentation have not all been confirmed. '}This is not a hands-on review, certification claim or purchase recommendation. {!hasBuyingLinks && 'Buying links are not active.'}</p>}
     {caution && <aside class="notice product-caution" aria-label="Important product limitation"><strong>{caution}</strong></aside>}
 
     <p class="label">{categoryLabel(data.category)} · {data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
@@ -97,7 +97,7 @@ const breadcrumbs = {
       <p class="label">A source-check date records the research visit. It does not guarantee the current seller, inventory, recall status or certification of a delivered unit.</p>
     </section>}
 
-    <section aria-labelledby="buy">
+    <section aria-labelledby="buy" data-product-purchase>
       <h2 id="buy">Where to buy</h2>
       <DisclosureNotice />
       {data.merchant?.notes && showInternalReview && <p>{data.merchant.notes}</p>}

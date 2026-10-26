@@ -138,7 +138,16 @@
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication.",
       "The retrieved Canadian page labels the item P62 but uses P62-E1 in comparison content. Resolve that revision and cable configuration; neither section proves Canadian safety certification."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B0DB888L9F",
+      "checkedAt": "2026-10-26",
+      "reason": "P62 and P62-E1 designations and integrated versus detachable cable descriptions conflict. Exact-model Canadian safety evidence is incomplete.",
+      "sourceIds": [
+        "iniu-p62-e1"
+      ]
+    }
   },
   "visibility": "informational",
   "editorial": {

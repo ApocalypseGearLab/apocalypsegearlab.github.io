@@ -96,7 +96,7 @@ try {
       assert.ok($('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'));
       for (const name of ['kidde-c3010-co-alarm','iniu-p62-20000mah-65w','jackery-explorer-300']) {
         const real = load(readFileSync('dist/gear/' + name + '/index.html', 'utf8'));
-        assert.equal(real('a[data-affiliate-click]').length, 0, name + ': account status cannot enable unapproved products');
+        assert.equal(real('[data-product-purchase] a[data-affiliate-click]').length, 0, name + ': account status cannot enable unapproved products');
       }
     }
     // Browser QA consumes real rendered component markup, with no external navigation.

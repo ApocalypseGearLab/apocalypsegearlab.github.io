@@ -121,6 +121,15 @@
     "publicationApproved": true,
     "publicationBlockers": [
       "Match the Canadian ASIN to the standard 84 × 36 inch Emergency Bivvy with whistle and tinder cord, including the selected colour; do not substitute XL or Escape."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B08NC9BLQ5",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted after documentary model review. No guaranteed temperature rating or sleeping-bag equivalence is claimed. Colour, seller and supplied accessories remain unverified.",
+      "sourceIds": [
+        "sol-bivvy"
+      ]
+    }
   }
 }

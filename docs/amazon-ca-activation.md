@@ -1,5 +1,7 @@
 # Reprise commerciale après PR nº 9 — résultat réel des 14 liens
 
+**Audit historique avant la dernière instruction de finalisation des boutons.** L’état courant et la règle d’activation des liens enregistrés sont décrits dans [le rapport de finalisation](amazon-ca-buttons.md). Les observations documentaires ci-dessous sont conservées ; le chiffre 0/14 n’est plus l’état courant.
+
 Contrôle du 26 octobre 2026, America/Toronto. **Résultat commercial : 0/14 boutons réels actifs.** Les 14 fiches restent visibles, avec les 13 illustrations permises et le visuel neutre Explorer 300. L’objectif 14/14 n’est pas revendiqué comme atteint.
 
 ## Dépôt et livraison

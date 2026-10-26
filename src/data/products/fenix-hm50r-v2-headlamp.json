@@ -127,6 +127,16 @@
     "publicationBlockers": [
       "Verify the current Canadian listing and exact model/package.",
       "Match the listed LED/battery revision to its instructions: Fenix global specifies ARB-L16-700P, while the US page includes ARB-L16-800P. Do not combine revision-specific performance or charging claims."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B0H6R34CBL",
+      "checkedAt": "2026-10-26",
+      "reason": "Manufacturer pages differ on LED and battery revisions: ARB-L16-700P versus ARB-L16-800P. Match the supplied cell and charging instructions before enabling this link.",
+      "sourceIds": [
+        "fenix-hm50r",
+        "fenix-hm50r-us"
+      ]
+    }
   }
 }

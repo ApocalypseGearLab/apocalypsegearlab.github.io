@@ -139,6 +139,17 @@
     "publicationApproved": true,
     "publicationBlockers": [
       "Match the Canadian ASIN to SP129 and its current pouch/adapter inventory; do not substitute MINI, Micro Squeeze or another kit."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00B1OSU4W",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted after documentary model review, with virus/chemical/radiological and freeze-damage limitations retained. The Canadian bundle and seller remain unverified.",
+      "sourceIds": [
+        "sawyer-squeeze",
+        "sawyer-care",
+        "sawyer-squeeze-care"
+      ]
+    }
   }
 }

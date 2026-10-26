@@ -40,7 +40,7 @@ test('Canadian enrollment alone never activates Amazon.com links', () => {
 });
 
 test('unsafe protocols, credentials and lookalike Amazon hosts are rejected', () => {
-  for (const url of ['http://amazon.ca/a', 'javascript:alert(1)', 'https://amazon.ca.evil.example/a', 'https://evilamazon.ca/a', 'https://amazon.ca@evil.example/a', 'https://user:password@amazon.ca/a', 'not a URL']) {
+  for (const url of ['http://amazon.ca/a', 'javascript:alert(1)', 'https://amazon.ca.evil.example/a', 'https://evilamazon.ca/a', 'https://amazon.ca@evil.example/a', 'https://user:password@amazon.ca/a', 'https://shop.amazon.ca/dp/B000000001?tag=apocalypsegear-20', 'https://www.amazon.ca:444/dp/B000000001?tag=apocalypsegear-20', 'not a URL']) {
     assert.equal(getMerchantLinks(product(url), true)[0]?.href, null, url);
   }
 });
@@ -97,6 +97,7 @@ test('all non-held profiles can activate independently after documented checks w
     const asin = candidate.data.links.amazonCa.asin!;
     // Simulation only. None of these approvals or evidence records are saved to product data.
     candidate.data.research = { ...candidate.data.research!, listingVerified: true, safetyStatus: 'cleared', publicationApproved: true, publicationBlockers: [],
+      affiliateReview: undefined,
       listingEvidence: { url: 'https://www.amazon.ca/dp/' + asin, checkedAt: '2026-10-26', method: 'owner-document', matchedAsin: asin, matchedModel: candidate.data.modelNumber ?? candidate.data.name, notes: 'SYNTHETIC unit-test evidence, not a real listing verification.' } };
     const link = getMerchantLinks(candidate, true)[0]!;
     if (mandatoryHold(candidate)) { assert.equal(link.href, null); retainedHolds++; }
@@ -117,4 +118,46 @@ test('the pending button identifies the missing prerequisite rather than final a
   candidate.data.research!.safetyStatus = 'cleared';
   candidate.data.research!.publicationApproved = false;
   assert.equal(getMerchantLinks(candidate, true)[0]?.unavailableReason, 'Product verification incomplete');
+});
+
+test('reviewed recorded links can activate without claiming live listing verification or final approval', () => {
+  const permitted = ['jackery-explorer-1000-v2', 'fenix-cl26r-pro', 'jackery-solarsaga-100w-air', 'sawyer-squeeze-sp129-water-filter', 'reliance-aqua-tainer-7-gallon', 'leatherman-wave-plus-multitool', 'sol-emergency-bivvy'];
+  let active = 0, held = 0;
+  for (const file of readdirSync('src/data/products').filter(file => file.endsWith('.json') && !file.startsWith('template'))) {
+    const p = {id:file.replace(/\.json$/, ''), data:productSchema.parse(JSON.parse(readFileSync('src/data/products/' + file, 'utf8')))} as Product;
+    const link = getMerchantLinks(p, true)[0]!;
+    assert.equal(p.data.research!.listingVerified, false);
+    assert.equal(p.data.reviewStatus, 'draft');
+    if (permitted.includes(p.id)) { assert.equal(link.href, p.data.links.amazonCa.url); active++; }
+    else { assert.equal(link.href, null); assert.ok(link.unavailableReason); held++; }
+    assert.equal(getMerchantLinks(p, false)[0]?.href, null, 'The account linking switch still applies');
+  }
+  assert.equal(active, 7); assert.equal(held, 7);
+});
+
+test('recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold', () => {
+  const p = {id:'leatherman-wave-plus-multitool', data:productSchema.parse(JSON.parse(readFileSync('src/data/products/leatherman-wave-plus-multitool.json', 'utf8')))} as Product;
+  for (const mutation of ['safety', 'asin', 'hold', 'missing-review', 'evidence-conflict'] as const) {
+    const changed = structuredClone(p);
+    if (mutation === 'safety') changed.data.research!.safetyStatus = 'blocked';
+    if (mutation === 'asin') changed.data.research!.affiliateReview!.asin = 'B000000001';
+    if (mutation === 'hold') changed.data.research!.affiliateReview!.decision = 'hold';
+    if (mutation === 'missing-review') changed.data.research!.affiliateReview = undefined;
+    if (mutation === 'evidence-conflict') changed.data.research!.listingEvidence = {url:'https://www.amazon.ca/dp/B000000001',checkedAt:'2026-10-26',method:'live-page',matchedAsin:'B000000001',matchedModel:'Different model',notes:'Synthetic conflicting evidence.'};
+    assert.equal(getMerchantLinks(changed, true)[0]?.href, null, mutation);
+  }
+  const blocked = structuredClone(p.data); blocked.research!.safetyStatus = 'blocked';
+  assert.equal(productSchema.safeParse(blocked).success, false);
+});
+
+test('the schema binds each link review to its ASIN and documented sources', () => {
+  const data = JSON.parse(readFileSync('src/data/products/leatherman-wave-plus-multitool.json', 'utf8'));
+  for (const mutation of ['asin', 'source', 'date', 'reason'] as const) {
+    const changed = structuredClone(data);
+    if (mutation === 'asin') changed.research.affiliateReview.asin = 'B000000001';
+    if (mutation === 'source') changed.research.affiliateReview.sourceIds = ['missing-source'];
+    if (mutation === 'date') changed.research.affiliateReview.checkedAt = 'invalid';
+    if (mutation === 'reason') changed.research.affiliateReview.reason = '';
+    assert.equal(productSchema.safeParse(changed).success, false, mutation);
+  }
 });

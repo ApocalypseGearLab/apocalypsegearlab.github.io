@@ -129,7 +129,16 @@
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm the Amazon unit model code and Canadian certification evidence.",
       "The retrieved Canadian product page contains selected-ASIN metadata B0D2HX1ZS9, different from the stored B0BVLPGS79. Resolve the parent/child or regional listing mapping before activating this URL."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B0BVLPGS79",
+      "checkedAt": "2026-10-26",
+      "reason": "The retrieved page for B0BVLPGS79 contains selected-ASIN B0D2HX1ZS9. Resolve this concrete listing identity conflict before enabling the recorded link.",
+      "sourceIds": [
+        "ecoflow-ca"
+      ]
+    }
   },
   "editorial": {
     "purchaseChecks": [

@@ -123,7 +123,17 @@
     "publicationBlockers": [
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Match the camouflage variant and battery supplied to the manufacturer instructions."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0CGKWX5YT",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted; the documented model and protected-cell precautions are disclosed. Colour and supplied accessories remain unverified; that absence of evidence is not a demonstrated product anomaly.",
+      "sourceIds": [
+        "fenix-cl26r-pro",
+        "fenix-cl26r-pro-instructions"
+      ]
+    }
   },
   "editorial": {
     "purchaseChecks": [

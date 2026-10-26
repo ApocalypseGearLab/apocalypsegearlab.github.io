@@ -152,7 +152,19 @@
     "publicationBlockers": [
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0FX8P4JST",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted with documented JS-100H compatibility limits. Explorer 300 incompatibility remains explicit; no compatibility with that model is claimed. Package cables and the live listing remain unverified.",
+      "sourceIds": [
+        "jackery-100-air-ca",
+        "jackery-100-air-guide",
+        "jackery-100-air-manual",
+        "jackery-1000-ca"
+      ]
+    }
   },
   "editorial": {
     "purchaseChecks": [

@@ -48,6 +48,21 @@ for (const file of files) {
 }
 
 for (const [file, $] of documents) {
+  $('a[data-affiliate-click]').each((_, element) => {
+    const link = $(element);
+    const state = commercialState.get(link.attr('data-product'));
+    assert.ok(state?.amazonCaActive, 'A held product cannot link from any card or profile');
+    assert.equal(link.attr('href'), state.url);
+    assert.equal(link.attr('target'), '_blank');
+    assert.equal(link.attr('rel'), 'sponsored nofollow noopener');
+    assert.ok(link.closest('.card-purchase, [data-product-purchase]').find('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'), 'Disclosure required next to each active button');
+  });
+  $('article.card[data-product-id]').each((_, element) => {
+    const card = $(element), state = commercialState.get(card.attr('data-product-id'));
+    if (!state) return;
+    assert.equal(card.find('a[data-affiliate-click]').length, state.amazonCaActive ? 1 : 0);
+    assert.equal(card.find('[aria-disabled="true"]').length, state.amazonCaActive ? 0 : 1);
+  });
   const pathname = `/${relative(root, file).split(sep).join('/')}`.replace(/index\.html$/, '');
   $('[href], [src]').each((_, element) => {
     const value = $(element).attr('href') ?? $(element).attr('src');
@@ -126,7 +141,7 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
   if (product.reviewStatus !== 'published') {
     const asin = product.links?.amazonCa?.asin;
     const affiliateEligible=commercialState.get(slug)?.amazonCaActive===true;
-    if (asin && !affiliateEligible) for (const artifact of textArtifacts) assert.ok(!artifact.text.includes(asin), `Unverified ASIN leaked into ${artifact.name}`);
+    if (asin && !affiliateEligible) for (const [htmlFile, document] of documents) assert.equal(document(`a[href*="${asin}"]`).length, 0, `Held ASIN linked from ${htmlFile}`);
     assert.ok(![...urls].some((url) => new URL(url).pathname === `/gear/${slug}/`), `Unapproved profile in sitemap: ${slug}`);
     if (!visible) for (const [htmlFile, document] of documents) {
       assert.ok(!document('a').toArray().some((node) => document(node).attr('href') === `/gear/${slug}/`), `Held draft linked from ${htmlFile}`);
@@ -135,11 +150,11 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
     if (visible) {
       const document = documents.get(fileFor(`/gear/${slug}/`));
       assert.ok(document('meta[name="robots"]').attr('content')?.includes('noindex'), `Unapproved profile must be noindex: ${slug}`);
-      assert.equal(document('a[data-affiliate-click]').length, affiliateEligible ? 1 : 0, `No affiliate links before approval: ${slug}`);
+      assert.equal(document('[data-product-purchase] a[data-affiliate-click]').length, affiliateEligible ? 1 : 0, `Per-product affiliate decision: ${slug}`);
       const artwork = suppliedMedia.find(asset => asset.productId === slug);
       assert.equal(document('.product-artwork--detail img').length, artwork && canPublishImportedAsset(artwork) ? 1 : 0, `Approved image mapping: ${slug}`);
       if(artwork && canPublishImportedAsset(artwork)) assert.equal(document('.product-artwork--detail img').attr('src'),artwork.deliverySrc);
-      assert.equal(document('[aria-disabled="true"]').length, affiliateEligible ? 0 : 1, `Prepare one disabled Amazon.ca button: ${slug}`);
+      assert.equal(document('[data-product-purchase] [aria-disabled="true"]').length, affiliateEligible ? 0 : 1, `Prepare one disabled Amazon.ca button: ${slug}`);
       assert.ok(!/Before this can be published|Related research drafts|Owner approval|Owner-selected|Not public\./i.test(document('body').text()), `Internal workflow in profile: ${slug}`);
       for (const route of ['/gear/', `/${universeFor(product.category)}/`]) assert.equal(documents.get(fileFor(route))(`article.card a[href="/gear/${slug}/"]`).length, 1, `Missing informational card in ${route}: ${slug}`);
     }

@@ -143,6 +143,17 @@
     "publicationApproved": true,
     "publicationBlockers": [
       "Verify the exact Canadian ASIN, stainless/black finish and whether the selected Amazon package includes a sheath or extra bits."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B079MJBP21",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted after documentary model review, with blade, lock and non-insulated-tool precautions retained. Finish, sheath and bits remain unverified and are not promised.",
+      "sourceIds": [
+        "leatherman-wave",
+        "leatherman-catalogue",
+        "leatherman-wave-ca"
+      ]
+    }
   }
 }

@@ -9,7 +9,7 @@ export interface MerchantLink {
   merchant: string;
   marketplace: Marketplace;
   label: string;
-  /** null = placeholder, no verified affiliate URL yet. */
+  /** null = linking is unavailable or held; a URL does not imply listing verification. */
   href: string | null;
   unavailableReason?: string;
 }
@@ -30,7 +30,7 @@ function matchesCanadianListing(link: Product['data']['links']['amazonCa']): boo
   if (!link.asin) return false;
   if (!isTrustedUrl(link.url, ['amazon.ca'])) return false;
   const url = new URL(link.url);
-  return url.pathname === `/dp/${link.asin}` && url.searchParams.get('tag') === 'apocalypsegear-20' && [...url.searchParams.keys()].length === 1 && !url.hash;
+  return ['amazon.ca', 'www.amazon.ca'].includes(url.hostname) && /^[A-Z0-9]{10}$/.test(link.asin) && url.port === '' && url.pathname === `/dp/${link.asin}` && url.searchParams.get('tag') === 'apocalypsegear-20' && [...url.searchParams.keys()].length === 1 && !url.hash;
 }
 
 function hasMatchingCanadianEvidence(product: Product): boolean {
@@ -43,15 +43,26 @@ function hasMatchingCanadianEvidence(product: Product): boolean {
     && evidence.notes.trim() && /^\d{4}-\d{2}-\d{2}$/.test(evidence.checkedAt));
 }
 
-/** Listing evidence is independent of final account review, image rights and SEO indexing. */
+/** Recorded-link permission is separate from listing verification and SEO publication. */
 export function canadianAffiliateIssues(product: Product): string[] {
-  const issues = publicationIssues(product);
+  const issues: string[] = [];
+  const hold = mandatoryHold(product);
+  if (hold) issues.push(hold);
   if (!isPubliclyVisible(product)) issues.push('The profile is not publicly visible.');
   const link = product.data.links.amazonCa;
   if (!matchesCanadianListing(link)) issues.push('The exact Canadian ASIN URL and tracking tag are required.');
-  const evidence = product.data.research?.listingEvidence;
-  if (!evidence) issues.push('Evidence matching the Canadian listing to the model is missing.');
-  else if (!hasMatchingCanadianEvidence(product)) issues.push('The documented Canadian listing evidence does not match this profile.');
+  const research = product.data.research;
+  const review = research?.affiliateReview;
+  if (research?.safetyStatus === 'blocked') issues.push('Product safety review is blocked.');
+  if (review) {
+    if (review.asin !== link.asin || !review.reason.trim() || !/^\d{4}-\d{2}-\d{2}$/.test(review.checkedAt) || !review.sourceIds.length || review.sourceIds.some(id => !product.data.sources.some(source => source.id === id))) issues.push('The affiliate review does not match this product.');
+    if (review.decision === 'hold') issues.push(review.reason);
+  } else {
+    // Unreviewed/new records do not acquire permission just by having a URL.
+    issues.push(...publicationIssues(product));
+    if (!research?.listingEvidence) issues.push('Evidence matching the Canadian listing to the model is missing.');
+  }
+  if ((research?.listingEvidence || research?.listingVerified) && !hasMatchingCanadianEvidence(product)) issues.push('The documented Canadian listing evidence does not match this profile.');
   return [...new Set(issues)];
 }
 
@@ -66,6 +77,7 @@ export function getMerchantLinks(product: Product, amazonPermission: Marketplace
   const unavailableReason = mandatoryHold(product)
     ?? (!caEnrolled ? 'Affiliate eligibility unconfirmed'
     : !matchesCanadianListing(links.amazonCa) ? 'Canadian retailer URL not verified'
+    : product.data.research?.affiliateReview ? caIssues[0] ?? 'Retailer link unavailable'
     : !product.data.research?.listingVerified || !hasMatchingCanadianEvidence(product) ? 'Canadian listing identity not verified'
     : product.data.research.safetyStatus !== 'cleared' ? 'Product safety review incomplete'
     : caIssues.length ? 'Product verification incomplete'

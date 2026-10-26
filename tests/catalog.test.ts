@@ -48,11 +48,9 @@ test('fourteen registered links retain exact identities and obey product-level e
     const product = { id: slug, data } as Product;
     const eligible = canadianAffiliateIssues(product).length === 0;
     assert.equal(getMerchantLinks(product, true)[0]?.href, eligible ? data.links.amazonCa.url : null);
-    if (eligible) {
-      assert.ok(data.research?.listingVerified);
-      assert.ok(data.research?.listingEvidence);
-      assert.equal(data.research?.safetyStatus, 'cleared');
-    }
+    assert.equal(data.research?.listingVerified, false, 'Link activation must not invent listing verification');
+    assert.equal(data.research?.listingEvidence, undefined);
+    if (eligible) assert.equal(data.research?.affiliateReview?.decision, 'link-permitted');
   }
 });
 

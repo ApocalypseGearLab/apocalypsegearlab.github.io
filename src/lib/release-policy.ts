@@ -24,6 +24,7 @@ export function publicationIssues(product: Product): string[] {
   if (!research.listingVerified) issues.push('Canadian listing identity has not been verified.');
   if (research.safetyStatus !== 'cleared') issues.push('Safety review has not been completed.');
   if (!research.publicationApproved) issues.push('Editorial publication approval is pending.');
+  if (research.affiliateReview?.decision === 'hold') issues.push(research.affiliateReview.reason);
   issues.push(...research.publicationBlockers);
   return [...new Set(issues)];
 }

@@ -138,7 +138,19 @@
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label.",
       "The newly retrieved Canadian page for B082TMBYR6 describes a 292 Wh LiFePO4 revision, while this profile documents the original NCM model. Resolve chemistry, capacity and regional output against the exact unit and correct instructions."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B082TMBYR6",
+      "checkedAt": "2026-10-26",
+      "reason": "The retrieved listing describes 292 Wh LiFePO4, while the documented original model is NCM / 293.8 Wh. Resolve chemistry, capacity and regional voltage before enabling the link.",
+      "sourceIds": [
+        "jackery-300-manual",
+        "jackery-300-support",
+        "jackery-300-ca",
+        "jackery-100-air-ca"
+      ]
+    }
   },
   "visibility": "informational",
   "editorial": {

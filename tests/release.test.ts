@@ -25,6 +25,19 @@ test('published specifications cannot lose their included manufacturer evidence'
   assert.equal(productSchema.safeParse(approved).success, true);
   assert.equal(productSchema.safeParse({ ...approved, specs: [{ label: 'Output', value: 'Invented value' }] }).success, false);
 });
+
+test('concrete per-product holds also prevent editorial publication after unrelated approval flags change', () => {
+  for (const id of ['ecoflow-river-2-pro', 'midland-er310', 'fenix-hm50r-v2-headlamp', 'nanuk-904-first-aid-kit']) {
+    const p = structuredClone(read(id));
+    p.data.reviewStatus = 'published';
+    Object.assign(p.data.research!, {listingVerified:true, safetyStatus:'cleared', publicationApproved:true, publicationBlockers:[],
+      listingEvidence:{url:'https://www.amazon.ca/dp/'+p.data.links.amazonCa.asin,checkedAt:'2026-10-26',method:'owner-document',matchedAsin:p.data.links.amazonCa.asin!,matchedModel:p.data.modelNumber ?? p.data.name,notes:'Synthetic evidence only, not a real verification.'}});
+    assert.equal(p.data.research!.affiliateReview!.decision, 'hold');
+    assert.equal(getMerchantLinks(p,true)[0]?.href, null);
+    assert.equal(isCommerciallyApproved(p), false);
+    assert.equal(productSchema.safeParse(p.data).success, false);
+  }
+});
 test('removing the research object cannot bypass the published schema guard', () => {
   const product = read('fenix-cl26r-pro');
   assert.equal(productSchema.safeParse({ ...product.data, reviewStatus: 'published', research: undefined }).success, false);
@@ -33,6 +46,7 @@ test('public reference visibility does not grant commercial approval or buying l
   const product = structuredClone(read('jackery-explorer-1000-v2'));
   product.data.research!.listingVerified = false;
   product.data.research!.listingEvidence = undefined;
+  product.data.research!.affiliateReview = undefined;
   assert.ok(!product.data.research!.publicationBlockers.includes('Owner approval to publish is pending.'), 'The owner has already authorized this work');
   assert.ok(publicationIssues(product).length);
   assert.equal(isCommerciallyApproved(product), false);
