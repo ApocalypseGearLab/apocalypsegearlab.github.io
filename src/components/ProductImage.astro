@@ -6,6 +6,7 @@ import { importedArtwork, canPublishImportedAsset } from '../lib/imported-media'
 interface Props { slug: string; label?: string; detail?: boolean; releasePreview?: boolean }
 const { slug, label = 'Equipment profile', detail = false, releasePreview = false } = Astro.props;
 const supplied = importedArtwork(slug);
+const imageAccent = supplied?.category === 'fallout' ? '240 123 118' : '245 166 35';
 const asset = supplied ? {
   alt: supplied.alt, identityNote: supplied.reviewNote,
   variants: [{ src: supplied.deliverySrc, width: supplied.width, height: supplied.height }],
@@ -17,7 +18,7 @@ const small = asset?.variants[0];
 const large = asset?.variants.at(-1);
 ---
 
-<figure data-artwork-status={display && asset ? supplied?.accuracyStatus ?? review?.accuracyStatus ?? 'pending-review' : 'neutral'} class:list={['product-artwork', { 'product-artwork--detail': detail }]}>
+<figure data-artwork-status={display && asset ? supplied?.accuracyStatus ?? review?.accuracyStatus ?? 'pending-review' : 'neutral'} class:list={['product-artwork', { 'product-artwork--detail': detail }]} style={`--media-accent: ${imageAccent}`} >
   {display && asset && small?.src && large?.src ? <>
   <img
     src={mediaUrl(detail ? large.src : small.src)}
@@ -43,5 +44,5 @@ const large = asset?.variants.at(-1);
   .product-artwork--detail { width: min(100%, 640px); }
   figcaption { color: var(--c-muted); font-size: 0.8rem; line-height: 1.5; padding-top: var(--s-2); }
   .identity-note { display: block; margin-top: var(--s-2); }
-  .neutral-media { aspect-ratio: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: var(--s-3); padding: var(--s-5); text-align: center; color: #f5a623; border: 1px solid var(--c-line); background: linear-gradient(rgb(245 166 35 / .045) 1px, transparent 1px) 0 0 / 32px 32px, linear-gradient(90deg, rgb(245 166 35 / .045) 1px, transparent 1px) 0 0 / 32px 32px, #10110f; }
+  .neutral-media { aspect-ratio: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: var(--s-3); padding: var(--s-5); text-align: center; color: rgb(var(--media-accent)); border: 1px solid var(--c-line); background: linear-gradient(rgb(var(--media-accent) / .045) 1px, transparent 1px) 0 0 / 32px 32px, linear-gradient(90deg, rgb(var(--media-accent) / .045) 1px, transparent 1px) 0 0 / 32px 32px, #10110f; }
 </style>

@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { importedMedia, canPublishImportedAsset } from '../../../lib/imported-media';
 
-export const getStaticPaths = (() => importedMedia.filter(canPublishImportedAsset).map((asset) => ({
+export const getStaticPaths = (() => importedMedia.filter((asset) => asset.category === 'blackout' && canPublishImportedAsset(asset)).map((asset) => ({
   params: { file: asset.deliverySrc.split('/').at(-1)!.replace(/\.webp$/, '') }, props: { asset },
 }))) satisfies GetStaticPaths;
 

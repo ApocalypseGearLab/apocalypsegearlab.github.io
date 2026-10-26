@@ -1,0 +1,139 @@
+{
+  "name": "Sawyer Squeeze SP129 water filtration system",
+  "brand": "Sawyer",
+  "modelNumber": "SP129",
+  "category": "water",
+  "summary": "A squeeze filter for appropriate fresh-water sources, with a cleanable hollow-fibre membrane. It is not a solution for chemical contamination, salt water or every microbiological hazard.",
+  "description": "A water plan starts with choosing a suitable source and keeping treated water separate from untreated water. The Squeeze provides a portable filtration step without a pump, but it cannot turn every disaster water source into drinking water. Store safe water first, keep the outlet clean and follow public-health advisories. The SP129 package must be checked separately from the filter family specifications.",
+  "specs": [
+    {
+      "label": "Membrane",
+      "value": "0.1 micron absolute hollow fibre, per Sawyer",
+      "source": "https://www.sawyer.com/product/squeeze-water-filter-system"
+    },
+    {
+      "label": "Bottle connection",
+      "value": "Standard 28 mm bottle threads; check a secure fit",
+      "source": "https://www.sawyer.com/product/squeeze-water-filter-system"
+    },
+    {
+      "label": "Filter mass",
+      "value": "Approximately 3 oz for the filter, not the full kit",
+      "source": "https://www.sawyer.com/product/squeeze-water-filter-system"
+    },
+    {
+      "label": "Maintenance",
+      "value": "Backwashing with clean water according to Sawyer instructions",
+      "source": "https://help.sawyer.com/retail/filtration"
+    },
+    {
+      "label": "Documented kit family",
+      "value": "Pouches, cleaning equipment and adapters are described; exact SP129 Canadian bundle unverified",
+      "source": "https://www.sawyer.com/product/squeeze-water-filter-system"
+    }
+  ],
+  "pros": [
+    "No battery is needed for the squeeze filtration step.",
+    "Bottle and pouch options allow different packing arrangements."
+  ],
+  "cons": [
+    "Cleaning supplies and a suitable source are still necessary.",
+    "The membrane does not remove dissolved chemicals, heavy metals or salt.",
+    "This filter must not be treated as a virus purifier or radiation treatment."
+  ],
+  "useCases": [
+    "Plan fresh-water filtration on a trip only after assessing the source and local health advice.",
+    "Pair a filter with stored drinking water and a separate clean collection container."
+  ],
+  "sources": [
+    {
+      "id": "sawyer-squeeze",
+      "title": "Sawyer Squeeze product specifications and kit family",
+      "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "sawyer-care",
+      "title": "Sawyer filtration maintenance and limitations",
+      "url": "https://help.sawyer.com/retail/filtration",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "water-advisories",
+      "title": "Health Canada drinking-water incident and avoidance advisories",
+      "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidance-providing-safe-drinking-water-areas-federal-jurisdiction-version-3.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "reliance-aqua-tainer-7-gallon",
+    "sol-emergency-bivvy",
+    "fenix-hm50r-v2-headlamp"
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm SP129 rather than MINI or Micro Squeeze and inspect the current package inventory.",
+      "Read the maintenance instructions before first use and bring clean water for backwashing.",
+      "Choose another safe supply when authorities issue a drinking-water avoidance advisory."
+    ]
+  },
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00B1OSU4W?tag=apocalypsegear-20",
+      "asin": "B00B1OSU4W"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-25",
+    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Sawyer specifies a 0.1 micron membrane and 28 mm bottle compatibility for Squeeze.",
+        "sourceIds": [
+          "sawyer-squeeze"
+        ]
+      },
+      {
+        "text": "Sawyer excludes dissolved chemicals, heavy metals and salt and advises replacing potentially freeze-damaged filters.",
+        "sourceIds": [
+          "sawyer-care"
+        ]
+      },
+      {
+        "text": "Chemical or radiological contamination may require avoiding the water supply.",
+        "sourceIds": [
+          "water-advisories"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The live SP129 Canadian bundle and seller are unverified; no independent field or microbiological test was performed."
+    ],
+    "safetyNotes": [
+      "Do not rely on this filter to remove viruses, chemicals, heavy metals, salt or radioactive contamination.",
+      "Sawyer advises replacement after suspected freezing of a wetted filter or other damage; apparent flow is not an integrity test.",
+      "Prevent contact between untreated water and the clean outlet or collection container. Follow local drinking-water advisories."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Verify the current Canadian listing and exact model/package.",
+      "Complete the safety and compatibility review for the delivered variant."
+    ]
+  }
+}

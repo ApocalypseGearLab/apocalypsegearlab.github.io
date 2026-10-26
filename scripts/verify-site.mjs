@@ -7,6 +7,12 @@ import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
 const root = resolve('dist');
 assert.ok(existsSync(root), 'Run npm run build first');
 const site = 'https://apocalypsegearlab.github.io';
+const taxonomy = readFileSync('src/config/taxonomy.ts', 'utf8');
+const universeFor = (category) => {
+  const match = [...taxonomy.matchAll(/id: '([^']+)', label: '[^']+', universe: '([^']+)'/g)].find((entry) => entry[1] === category);
+  assert.ok(match, `Unknown category: ${category}`);
+  return match[2];
+};
 const suppliedMedia = JSON.parse(readFileSync('src/data/media/imported-manifest.json', 'utf8')).assets;
 const files = readdirSync(root, { recursive: true }).filter((name) => name.endsWith('.html'));
 const textArtifacts = readdirSync(root, { recursive: true }).filter((name) => /\.(html|xml|txt|json|js|css)$/.test(name)).map((name) => ({ name, text: readFileSync(resolve(root, name), 'utf8') }));
@@ -127,7 +133,7 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
       if(artwork && canPublishImportedAsset(artwork)) assert.equal(document('.product-artwork--detail img').attr('src'),artwork.deliverySrc);
       assert.equal(document('[aria-disabled="true"]').length, 1, `Prepare one disabled Amazon.ca button: ${slug}`);
       assert.ok(!/Before this can be published|Related research drafts|Owner approval|Owner-selected|Not public\./i.test(document('body').text()), `Internal workflow in profile: ${slug}`);
-      for (const route of ['/gear/', '/blackout/']) assert.equal(documents.get(fileFor(route))(`article.card a[href="/gear/${slug}/"]`).length, 1, `Missing informational card in ${route}: ${slug}`);
+      for (const route of ['/gear/', `/${universeFor(product.category)}/`]) assert.equal(documents.get(fileFor(route))(`article.card a[href="/gear/${slug}/"]`).length, 1, `Missing informational card in ${route}: ${slug}`);
     }
   }
 }

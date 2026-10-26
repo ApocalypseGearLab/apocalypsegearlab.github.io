@@ -1,0 +1,132 @@
+{
+  "name": "Reliance Aqua-Tainer 7-gallon water container",
+  "brand": "Reliance",
+  "modelNumber": "9410-03R",
+  "category": "water",
+  "summary": "A rigid water-storage container with a reversible spigot and vent cap. Plan safe filling, cleaning and lifting; storage alone does not make contaminated water drinkable.",
+  "description": "A reserve container is useful only when it can be filled safely, carried to its storage location and dispensed without contaminating the contents. Choose the larger Aqua-Tainer for stationary storage when its loaded weight is manageable. Several smaller containers may be easier to move or rotate. Keep drinking water separate from fuel and household chemicals, and label the fill date as part of a routine storage plan.",
+  "specs": [
+    {
+      "label": "Nominal size",
+      "value": "7 US gallons; current manufacturer page labels this 26 L",
+      "source": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"
+    },
+    {
+      "label": "Manufacturer item",
+      "value": "9410-03R for the 7G version; distinguish 4G/15L",
+      "source": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"
+    },
+    {
+      "label": "External dimensions",
+      "value": "11.50 × 11.25 × 15.75 inches for 7G",
+      "source": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"
+    },
+    {
+      "label": "Empty weight",
+      "value": "2 lb advertised; filled weight is substantially greater",
+      "source": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"
+    },
+    {
+      "label": "Dispensing and storage",
+      "value": "Reversible hideaway spigot, screw vent cap; stack only when empty",
+      "source": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"
+    }
+  ],
+  "pros": [
+    "A dedicated reserve separates drinking water from general-purpose containers.",
+    "A stowable tap keeps the dispensing part protected during storage."
+  ],
+  "cons": [
+    "A full rigid container can be difficult to carry.",
+    "It provides storage rather than purification.",
+    "A rigid reserve needs adequate floor space and a stable dispensing position."
+  ],
+  "useCases": [
+    "Organize a stationary household water reserve using a safe water source.",
+    "Bring a clean-water container to a planned campsite with a manageable carrying distance."
+  ],
+  "sources": [
+    {
+      "id": "reliance-aqua",
+      "title": "Reliance Aqua-Tainer sizes, item numbers and storage design",
+      "url": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canada-kit",
+      "title": "Government of Canada emergency kit planning checklist",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    },
+    {
+      "id": "water-advisories",
+      "title": "Health Canada drinking-water incident guidance",
+      "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidance-providing-safe-drinking-water-areas-federal-jurisdiction-version-3.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "sawyer-squeeze-sp129-water-filter",
+    "nanuk-904-first-aid-kit"
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the 7G item and dimensions rather than the shorter 4G version.",
+      "Inspect the cap, gasket, vent and tap for damage or leaks.",
+      "Decide how to clean, rotate and lift the reserve before filling it."
+    ]
+  },
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B001QC31G6?tag=apocalypsegear-20",
+      "asin": "B001QC31G6"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-25",
+    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Reliance identifies 9410-03R as the 7G/26L container and specifies stacking when empty.",
+        "sourceIds": [
+          "reliance-aqua"
+        ]
+      },
+      {
+        "text": "Government guidance includes stored or bottled water in an emergency kit.",
+        "sourceIds": [
+          "canada-kit"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The Canadian listing and delivered cap/spigot revision have not been retrieved."
+    ],
+    "safetyNotes": [
+      "Use only potable water and follow local storage and cleaning guidance; this container does not purify water.",
+      "Do not stack filled containers; the manufacturer permits stacking when empty.",
+      "Protect against contamination, freezing damage and unsafe lifting. A stored supply does not override an avoidance advisory."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Verify the current Canadian listing and exact model/package.",
+      "Complete the safety and compatibility review for the delivered variant."
+    ]
+  }
+}

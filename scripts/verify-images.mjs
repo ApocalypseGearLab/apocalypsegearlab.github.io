@@ -66,19 +66,21 @@ console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected fi
 const supplied=JSON.parse(await readFile('src/data/media/imported-manifest.json','utf8'));
 assert.equal(supplied.provenance.status,'confirmed-by-owner');
 assert.equal(supplied.assets.length,14);
-assert.equal(supplied.assets.filter(asset=>asset.productId).length,8);
-assert.equal(supplied.assets.filter(canPublishImportedAsset).length,7);
+assert.equal(supplied.assets.filter(asset=>asset.productId).length,14);
+assert.equal(supplied.assets.filter(canPublishImportedAsset).length,11);
 assert.equal(supplied.assets.filter(asset=>asset.category==='fallout').length,5);
-assert.equal(supplied.assets.filter(asset=>asset.category==='blackout'&&!asset.productId).length,1);
+assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,9);
 assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,14);
-assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,8);
+assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,14);
+const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json').map(file => file.replace(/\.json$/, ''));
+assert.equal(productIds.length,14);
 const csv=await readFile(supplied.csv,'utf8');
 for(const asset of supplied.assets){
   assert.match(asset.file,/^assets\/media\/(blackout|fallout)\/[a-z0-9-]+\.webp$/);
   assert.equal(asset.deliverySrc,asset.file.replace('assets/media/','/images/'));
   assert.ok(csv.includes(asset.file.replace('assets/media/','')));
   assert.equal(asset.rightsStatus,'confirmed-by-owner');
-  if(asset.productId) assert.ok(expected.includes(asset.productId));
+  if(asset.productId) assert.ok(productIds.includes(asset.productId));
   const bytes=await readFile(asset.file),metadata=await sharp(bytes).metadata();
   assert.equal(bytes.length,asset.bytes);
   assert.equal(createHash('sha256').update(bytes).digest('hex'),asset.sha256);
@@ -87,4 +89,4 @@ for(const asset of supplied.assets){
   await sharp(bytes).raw().toBuffer();
   if(asset.productId==='jackery-explorer-300')assert.equal(asset.accuracyStatus,'rejected');
 }
-console.log('Verified all 14 imported WebPs, CSV mappings, immutable bytes, 7 approved illustrations, rejected Explorer 300 and 6 future assets.');
+console.log('Verified all 14 imported WebPs, CSV mappings, immutable bytes, 11 approved illustrations and 3 rejected assets, all mapped to distinct products.');

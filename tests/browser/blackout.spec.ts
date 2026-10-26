@@ -34,13 +34,13 @@ for (const { slug, data } of drafts) {
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
       if (width === 375 || width === 1440) {
-        mkdirSync('.tools/qa/public8', { recursive: true });
-        for(const image of await page.locator('main img').all()) {
+        mkdirSync('.tools/qa/phase4', { recursive: true });
+        for (const image of await page.locator('main img').all()) {
           await image.scrollIntoViewIfNeeded();
           await image.evaluate((img:HTMLImageElement)=>img.decode());
         }
         await page.evaluate(() => scrollTo({top:0,behavior:'instant'}));
-        await page.screenshot({ path: `.tools/qa/public8/${slug}-${width}.png`, fullPage: true });
+        await page.screenshot({ path: `.tools/qa/phase4/${slug}-${width}.png`, fullPage: true });
       }
     }
     expect(errors).toEqual([]);
@@ -54,25 +54,28 @@ for (const { slug, data } of drafts) {
   });
 }
 
-test('public catalogues expose all eight informational profiles with neutral visuals', async ({ page }) => {
-  for (const route of ['/blackout/', '/gear/']) {
+test('public catalogues expose fourteen profiles in their correct sectors', async ({ page }) => {
+  for (const route of ['/blackout/', '/fallout/', '/gear/']) {
+    const sector = route === '/gear/' ? null : route.slice(1,-1);
+    const selected = drafts.filter(({data}) => !sector || (['water','first-aid','tools','shelter'].includes(data.category) ? 'fallout' : 'blackout') === sector);
+    const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 3 : 11;
     await page.goto(route);
-    await expect(page.locator('article.card')).toHaveCount(8);
-    await expect(page.locator('.neutral-media')).toHaveCount(1);
-    await expect(page.locator('article.card img')).toHaveCount(7);
-    for(const image of await page.locator('article.card img').all()) {
+    await expect(page.locator('article.card')).toHaveCount(selected.length);
+    await expect(page.locator('.neutral-media')).toHaveCount(selected.length-images);
+    await expect(page.locator('article.card img')).toHaveCount(images);
+    for (const image of await page.locator('article.card img').all()) {
       await image.scrollIntoViewIfNeeded();
       await image.evaluate((img: HTMLImageElement)=>img.decode());
     }
-    for (const { slug } of drafts) await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
+    for (const { slug } of selected) await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
     for (const width of [320, 375, 768, 1024, 1440, 1920]) {
       await page.setViewportSize({ width, height: 900 });
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
       if ([375,1440].includes(width)) {
-        mkdirSync('.tools/qa/public8', {recursive:true});
+        mkdirSync('.tools/qa/phase4', {recursive:true});
         await page.evaluate(() => scrollTo({top:0,behavior:'instant'}));
-        await page.screenshot({path:`.tools/qa/public8/${route.includes('blackout')?'blackout':'catalogue'}-${width}.png`,fullPage:true});
+        await page.screenshot({path:`.tools/qa/phase4/${route === '/gear/' ? 'catalogue' : sector}-${width}.png`,fullPage:true});
       }
     }
     if (route === '/gear/') {
@@ -81,7 +84,7 @@ test('public catalogues expose all eight informational profiles with neutral vis
       await page.screenshot({ path: '.tools/qa/phase-2/catalogue-1440.png', fullPage: true });
     }
     await page.goto(`http://127.0.0.1:4321${route}`);
-    for (const { slug } of drafts) {
+    for (const { slug } of selected) {
       await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
     }
   }

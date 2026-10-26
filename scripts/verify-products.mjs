@@ -1,5 +1,6 @@
+import { affiliateFixtureFingerprint } from './fixture-fingerprint.mjs';
 import assert from 'node:assert/strict';
-import { readFileSync, writeFileSync, unlinkSync } from 'node:fs';
+import { readFileSync, writeFileSync, unlinkSync, mkdirSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { load } from 'cheerio';
 import { resolve } from 'node:path';
@@ -7,6 +8,8 @@ import { resolve } from 'node:path';
 // Temporary fixtures exercise production product routes without publishing
 // invented reviews. Exclusive creation and finally-cleanup protect user data.
 const created = [];
+const siteConfigPath = 'src/config/site.ts';
+const siteConfig = readFileSync(siteConfigPath, 'utf8');
 const fixtures = [
   ['blackout', 'power-stations'], ['fallout', 'water'], ['outbreak', 'inventory-management'],
 ];
@@ -58,8 +61,43 @@ try {
     assert.ok(readFileSync('dist/sitemap-0.xml', 'utf8').includes(`/gear/${slug}/`));
   }
   console.log('Verified three published product fixtures, universe filtering, populated catalogue indexing, specifications and pending affiliate links.');
+  // Exercise the actual active/pending Astro components using a SYNTHETIC ASIN.
+  // No Amazon request or click is made. Actual editorial products remain drafts.
+  const fixturePath = 'src/data/products/qa-fixture-blackout.json';
+  const fixture = JSON.parse(readFileSync(fixturePath, 'utf8'));
+  const affiliateUrl = 'https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20';
+  fixture.links.amazonCa = { asin: 'B000000001', url: affiliateUrl };
+  writeFileSync(fixturePath, JSON.stringify(fixture));
+  mkdirSync('.tools/qa/phase4', { recursive: true });
+  for (const enrolled of [false, true]) {
+    writeFileSync(siteConfigPath, siteConfig.replace(/AMAZON_ASSOCIATE_ENROLLED = (true|false)/, 'AMAZON_ASSOCIATE_ENROLLED = ' + enrolled));
+    build();
+    const html = readFileSync('dist/gear/qa-fixture-blackout/index.html', 'utf8');
+    const $ = load(html);
+    assert.equal($('a[data-affiliate-click]').length, enrolled ? 1 : 0);
+    assert.equal($('[aria-disabled="true"]').length, enrolled ? 0 : 1);
+    if (enrolled) {
+      const button = $('a[data-affiliate-click]');
+      assert.equal(button.attr('href'), affiliateUrl);
+      assert.equal(button.attr('target'), '_blank');
+      assert.equal(button.attr('rel'), 'sponsored nofollow noopener');
+      assert.match(button.text(), /Voir sur Amazon.ca/);
+      assert.ok($('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'));
+      for (const name of ['kidde-c3010-co-alarm','iniu-p62-20000mah-65w','jackery-explorer-300','nanuk-904-first-aid-kit']) {
+        const real = load(readFileSync('dist/gear/' + name + '/index.html', 'utf8'));
+        assert.equal(real('a[data-affiliate-click]').length, 0, name + ': account status cannot enable unapproved products');
+      }
+    }
+    // Browser QA consumes real rendered component markup, with no external navigation.
+    writeFileSync('.tools/qa/phase4/affiliate-' + (enrolled ? 'active' : 'pending') + '-fixture.html', '<!doctype html><html lang="en"><head><title>Affiliate component QA</title></head><body><main><h1>Affiliate component QA</h1>' + $('#buy').parent().html() + '</main></body></html>');
+  }
+  console.log('Verified actual active and pending affiliate rendering, exact ASIN/tag, disclosure, safe new-tab attributes and retained real-product holds.');
+
 } finally {
+  writeFileSync(siteConfigPath, siteConfig);
   for (const file of created) unlinkSync(file);
   // Always restore the distributable to actual editorial data.
   build();
 }
+
+writeFileSync('.tools/qa/phase4/affiliate-fixture-source.txt', affiliateFixtureFingerprint());

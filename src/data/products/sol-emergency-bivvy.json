@@ -1,0 +1,127 @@
+{
+  "name": "SOL Emergency Bivvy with rescue whistle",
+  "brand": "SOL",
+  "modelNumber": "Emergency Bivvy — standard size",
+  "category": "shelter",
+  "summary": "A compact reflective emergency bivvy for a temporary weather barrier. It is not an insulated sleeping system or a guarantee against hypothermia; confirm the size and package variant.",
+  "description": "An emergency bivvy takes little kit space, but its role needs to be clear before a trip. Treat this model as a temporary barrier while arranging safer shelter, insulation and help. Choose clothing and ground insulation for the expected conditions rather than relying on a reflective percentage. Check that the standard size fits the intended user and keep it accessible rather than buried under other supplies.",
+  "specs": [
+    {
+      "label": "Standard dimensions",
+      "value": "84 × 36 inches, per SOL",
+      "source": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+    },
+    {
+      "label": "Advertised mass",
+      "value": "3.8 oz for the documented standard version",
+      "source": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+    },
+    {
+      "label": "Colour options",
+      "value": "Orange and OD green; selected ASIN colour unverified",
+      "source": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+    },
+    {
+      "label": "Documented accessories",
+      "value": "Rescue whistle and tinder-cord drawstring in this manufacturer version",
+      "source": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+    },
+    {
+      "label": "Construction claim",
+      "value": "Waterproof/windproof material and sealed seams, per manufacturer; not independently tested here",
+      "source": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+    }
+  ],
+  "pros": [
+    "A small packed format leaves space for other emergency supplies.",
+    "An orange version offers visibility when a temporary shelter is needed."
+  ],
+  "cons": [
+    "Reflective material is not equivalent to insulating loft.",
+    "Condensation, damage and fit can limit practical use.",
+    "Standard, XL and Escape models have different designs and must not share specifications."
+  ],
+  "useCases": [
+    "Carry a temporary weather barrier alongside appropriate clothing, ground insulation and a communication plan.",
+    "Prepare for an unexpected delay while seeking safer shelter and professional assistance when needed."
+  ],
+  "sources": [
+    {
+      "id": "sol-bivvy",
+      "title": "SOL Emergency Bivvy standard-size specifications and warnings",
+      "url": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canada-kit",
+      "title": "Government of Canada emergency kit planning checklist",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "nanuk-904-first-aid-kit",
+    "fenix-hm50r-v2-headlamp",
+    "sawyer-squeeze-sp129-water-filter"
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the standard Emergency Bivvy, chosen colour and whistle/cord package.",
+      "Check user fit and inspect the material before relying on it.",
+      "Plan ground insulation, ventilation and an exit route; do not infer a temperature rating."
+    ]
+  },
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B08NC9BLQ5?tag=apocalypsegear-20",
+      "asin": "B08NC9BLQ5"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-25",
+    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "SOL lists a standard 84 × 36 inch, 3.8 oz version with whistle and tinder cord.",
+        "sourceIds": [
+          "sol-bivvy"
+        ]
+      },
+      {
+        "text": "Emergency planning requires supplies suited to household and individual needs.",
+        "sourceIds": [
+          "canada-kit"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The current Canadian ASIN colour, size and accessory package have not been independently retrieved."
+    ],
+    "safetyNotes": [
+      "Do not treat the advertised heat-reflection percentage as a temperature rating or a hypothermia-prevention guarantee.",
+      "Keep the bivvy clear of the face, flames and hot equipment; allow ventilation and manage condensation.",
+      "The manufacturer product page carries a California Proposition 65 warning; review the delivered packaging."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Verify the current Canadian listing and exact model/package.",
+      "Complete the safety and compatibility review for the delivered variant."
+    ]
+  }
+}

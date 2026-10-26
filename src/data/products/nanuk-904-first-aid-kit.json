@@ -1,0 +1,139 @@
+{
+  "name": "NANUK 904 first aid kit",
+  "brand": "NANUK",
+  "modelNumber": "904 — filled kit variant to confirm",
+  "category": "first-aid",
+  "summary": "A compact hard-case first aid kit for organized supplies. The exact Canadian fill, expiry dates and suitability for your needs must be checked; the case alone does not establish medical readiness.",
+  "description": "A first aid case should make essential supplies easy to find, protect their packaging and leave room for a clear inventory. The 904 offers a structured format, but the model name is also used for cases and different fills. Select it by the actual contents and intended users, then inspect sterile packaging and expiry dates. Training, emergency contacts and a plan to reach professional care matter as much as the container.",
+  "specs": [
+    {
+      "label": "Case family",
+      "value": "NANUK 904; filled kit must be distinguished from an empty first aid case",
+      "source": "https://nanuk.com/products/nanuk-904-first-aid-kit"
+    },
+    {
+      "label": "Exterior",
+      "value": "259 × 201 × 114 mm, manufacturer dimensions",
+      "source": "https://nanuk.com/products/nanuk-904-first-aid-kit"
+    },
+    {
+      "label": "Interior",
+      "value": "213 × 152 × 94 mm, before allowance for organizers",
+      "source": "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+    },
+    {
+      "label": "Case volume",
+      "value": "3.1 L advertised",
+      "source": "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+    },
+    {
+      "label": "Organization",
+      "value": "Divider and mesh lid organizer in the documented US filled kit",
+      "source": "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+    },
+    {
+      "label": "Contents uncertainty",
+      "value": "Manufacturer page uses both 109 and 110 items and allows substitutions; Canadian fill unverified",
+      "source": "https://nanuk.com/products/nanuk-904-first-aid-kit"
+    }
+  ],
+  "pros": [
+    "An organized case can make supplies easier to locate during a disruption.",
+    "Separate compartments support inventory and replacement routines."
+  ],
+  "cons": [
+    "The model name does not prove that medical supplies are included.",
+    "Current sources disagree on item count and allow substitutions.",
+    "It is not evidence of Canadian workplace compliance or clinical suitability."
+  ],
+  "useCases": [
+    "Plan a household or vehicle first aid inventory with appropriate training.",
+    "Keep inspected supplies organized for a short outing after confirming the actual kit contents."
+  ],
+  "sources": [
+    {
+      "id": "nanuk-kit",
+      "title": "NANUK 904 First Aid Kit contents and dimensions",
+      "url": "https://nanuk.com/products/nanuk-904-first-aid-kit",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "nanuk-us-sheet",
+      "title": "NANUK 904 filled-kit specification sheet — USA variant",
+      "url": "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "redcross-kit",
+      "title": "Canadian Red Cross first aid kit contents and maintenance",
+      "url": "https://www.redcross.ca/training-and-certification/first-aid-tips-and-resources/first-aid-tips/wellness-and-injury-prevention/kit-contents",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "fenix-hm50r-v2-headlamp",
+    "sol-emergency-bivvy",
+    "reliance-aqua-tainer-7-gallon"
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "Obtain the current Canadian SKU and itemized fill list; confirm filled kit versus empty case.",
+      "Check expiry dates, sterile seals, glove sizing and any personal needs.",
+      "Compare the contents with applicable workplace requirements if buying for an employer."
+    ]
+  },
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0G3XYHL33?tag=apocalypsegear-20",
+      "asin": "B0G3XYHL33"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-25",
+    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "NANUK documents the 904 case dimensions; the linked specification sheet explicitly covers a USA filled-kit variant.",
+        "sourceIds": [
+          "nanuk-kit",
+          "nanuk-us-sheet"
+        ]
+      },
+      {
+        "text": "The manufacturer warns that displayed contents can vary; the Canadian fill needs its own inventory.",
+        "sourceIds": [
+          "nanuk-kit"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Canadian SKU, exact item count, substitutions, expiry dates and workplace suitability remain unresolved."
+    ],
+    "safetyNotes": [
+      "A kit is not a substitute for first aid training or professional medical care.",
+      "Do not infer sterility, medication contents, trauma capability or Canadian workplace compliance from the illustration.",
+      "Inspect contents after use and regularly replace damaged, expired or missing supplies."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Verify the current Canadian listing and exact model/package.",
+      "Complete the safety and compatibility review for the delivered variant."
+    ]
+  }
+}

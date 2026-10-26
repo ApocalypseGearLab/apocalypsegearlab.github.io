@@ -9,11 +9,11 @@ test('rejected Explorer 300 artwork cannot render in development or production',
   assert.equal(canDisplayProductArtwork('jackery-explorer-300', false), false);
 });
 
-test('new owner-authorized pack maps eight products without publishing its extra headlamp or FALLOUT reserves', () => {
+test('owner-authorized pack maps fourteen products while withholding three inaccurate illustrations', () => {
   assert.equal(importedMedia.length, 14);
-  assert.equal(importedMedia.filter(asset => asset.productId).length, 8);
-  assert.equal(new Set(importedMedia.filter(asset => asset.productId).map(asset => asset.productId)).size, 8);
-  assert.equal(importedMedia.filter(canPublishImportedAsset).length, 7);
+  assert.equal(importedMedia.filter(asset => asset.productId).length, 14);
+  assert.equal(new Set(importedMedia.filter(asset => asset.productId).map(asset => asset.productId)).size, 14);
+  assert.equal(importedMedia.filter(canPublishImportedAsset).length, 11);
   assert.equal(canPublishImportedAsset(importedArtwork('jackery-explorer-300')!), false);
   for(const asset of importedMedia.filter(asset => !asset.productId)) assert.equal(canPublishImportedAsset(asset),false);
   const accepted=importedArtwork('fenix-cl26r-pro')!;
