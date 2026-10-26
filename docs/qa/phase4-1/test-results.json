@@ -24,7 +24,8 @@
       "Account-off state",
       "Exact ASIN/tag/disclosure/new-tab attributes",
       "Real product holds",
-      "Fixture cleanup and real production rebuild"
+      "Fixture cleanup and real production rebuild",
+      "A verified informational draft card no longer claims Verification pending"
     ]
   },
   "mediaTests": {
@@ -71,5 +72,10 @@
     "No Safari, Firefox or real-device test",
     "Automated axe checks do not establish exhaustive WCAG conformance",
     "No Lighthouse or field Core Web Vitals score claimed"
-  ]
+  ],
+  "finalTargetedBrowserTests": {
+    "passed": 16,
+    "failed": 0,
+    "scope": "After informational-card label correction: affiliate popup, 14 profiles and all catalogues"
+  }
 }

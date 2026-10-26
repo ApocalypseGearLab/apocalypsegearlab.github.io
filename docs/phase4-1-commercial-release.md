@@ -40,7 +40,7 @@ La déclaration obligatoire est maintenant présente en pied de page, sur la pag
 
 ### Activation technique livrée
 
-Le lien canadien ne dépend plus du statut SEO `published`. Une fiche informative en draft peut afficher son bouton après les vérifications nécessaires, tout en restant `noindex` sans Product/Review/Offer. L’image n’est pas un prérequis au bouton. La politique exige une annonce documentée, ASIN et modèle exacts, date, méthode de contrôle et notes de correspondance, une revue de sécurité terminée et aucun maintien applicable. `publicationApproved` enregistre la revue éditoriale terminée ; ce champ ne représente pas une nouvelle demande générale d’autorisation au propriétaire.
+Le libellé des cartes distingue également une fiche informative vérifiée d’une vérification encore en attente. Le lien canadien ne dépend plus du statut SEO `published`. Une fiche informative en draft peut afficher son bouton après les vérifications nécessaires, tout en restant `noindex` sans Product/Review/Offer. L’image n’est pas un prérequis au bouton. La politique exige une annonce documentée, ASIN et modèle exacts, date, méthode de contrôle et notes de correspondance, une revue de sécurité terminée et aucun maintien applicable. `publicationApproved` enregistre la revue éditoriale terminée ; ce champ ne représente pas une nouvelle demande générale d’autorisation au propriétaire.
 
 L’URL doit être HTTPS, sans identifiants, pointer sur `/dp/ASIN` au Canada avec un seul paramètre `tag=apocalypsegear-20`, sans fragment ni autre suivi. Les liens courts ne peuvent contourner ce contrôle canadien. Le droit de participation Canada n’active pas Amazon.com. Les maintiens Kidde/INIU/Explorer 300 restent attachés également aux ASIN pour résister à un simple renommage.
 
@@ -81,7 +81,7 @@ Les résultats finaux et les captures sont consignés ci-dessous après contrôl
 | npm run test:images | 14 associations ; 13 permises / 1 rejetée ; SHA, décodage et 11 images + 3 variantes du bunker conservées |
 | npm run build | Réussi ; 21 pages HTML, dont les 14 fiches |
 | npm run test:site | Réussi ; 526 références internes, 5 URL de sitemap, robots, canoniques, métadonnées, JSON-LD et exclusions vérifiés |
-| npm run test:browser | 38/38 réussis ; Chromium production + développement ; 320, 375, 768, 1024, 1440, 1920 px |
+| npm run test:browser | 38/38 réussis ; puis 16/16 tests ciblés repassés après le correctif des libellés ; Chromium production + développement ; 320, 375, 768, 1024, 1440, 1920 px |
 | npm run release:check | Réussi comme diagnostic ; 14 fiches informatives, 0 produit admissible à un lien réel, 3 maintiens spécifiques |
 
 Le test navigateur d’affiliation utilise le vrai composant Astro précompilé avec un ASIN synthétique : état désactivé hors tabulation, href exact, tag unique, target _blank, rel sponsored/nofollow/noopener, disclosure, focus, activation clavier, nouvel onglet et window.opener nul. Toute navigation Amazon de ce test est satisfaite localement par une réponse simulée ; aucune requête ni faux clic affilié n’est envoyé à Amazon. Le build réel est restauré après les fixtures et demeure à 0 bouton actif. [Résultats structurés](qa/phase4-1/test-results.json).
@@ -132,6 +132,7 @@ Détails conservés : [Wave+ ordinateur](qa/phase4-1/leatherman-wave-plus-multit
 - `src/components/DisclosureNotice.astro`
 - `src/components/Footer.astro`
 - `src/components/ProductCatalogue.astro`
+- `src/components/ProductCard.astro`
 - `src/components/ProductProfile.astro`
 - `src/components/UniverseHub.astro`
 - `src/config/site.ts`

@@ -79,6 +79,10 @@ try {
     const $ = load(html);
     assert.equal($('a[data-affiliate-click]').length, enrolled ? 1 : 0);
     assert.equal($('meta[name="robots"]').attr('content'),'noindex, nofollow');
+    const cards = load(readFileSync('dist/gear/index.html', 'utf8'));
+    const fixtureCard = cards('article.card').filter((_, el) => cards(el).find('a[href="/gear/qa-fixture-blackout/"]').length > 0);
+    assert.ok(fixtureCard.text().includes('Information only'));
+    assert.ok(!fixtureCard.text().includes('Verification pending'), 'A verified informational profile must not claim verification is pending');
     assert.ok(!readFileSync('dist/sitemap-0.xml','utf8').includes('/gear/qa-fixture-blackout/'));
     assert.ok(!$('script[type="application/ld+json"]').toArray().some(el=>JSON.parse($(el).text())['@type']==='Product'));
     if(enrolled) assert.ok(!$('body').text().includes('Buying links are not active.'));
