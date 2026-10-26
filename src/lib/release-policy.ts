@@ -45,6 +45,6 @@ export function productCaution(product: Product): string | undefined {
   const asin = product.data.links.amazonCa.asin;
   if (product.id === 'kidde-c3010-co-alarm' || asin === 'B00FHW7PBS') return 'Canadian certification unconfirmed. The US C3010 designation does not establish C3010-CA equivalence. Do not select this listing for a Canadian installation without the actual certification label and Canadian instructions.';
   if (product.id === 'iniu-p62-20000mah-65w' || asin === 'B0DB888L9F') return 'Safety verification incomplete. The exact P62 revision, cable configuration and Canadian safety evidence remain unverified. This profile does not establish the safety of the listed unit or recommend its purchase.';
-  if (product.id === 'jackery-explorer-300' || asin === 'B082TMBYR6') return 'Legacy model identity unresolved. Capacity and regional voltage revision have not been matched to the listing. Do not transfer specifications or SolarSaga 100 Air compatibility from a newer Explorer model.';
+  if (product.id === 'jackery-explorer-300' || asin === 'B082TMBYR6') return 'Explorer 300 revision unresolved. The retrieved retailer page describes a 292 Wh LiFePO4 version, while this profile documents the original NCM model. Battery chemistry, capacity and regional voltage must be matched before purchase. Do not assume SolarSaga 100 Air compatibility.';
   return undefined;
 }

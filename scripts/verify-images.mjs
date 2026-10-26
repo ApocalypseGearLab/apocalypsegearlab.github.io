@@ -27,10 +27,8 @@ for (const asset of manifest.assets) {
   assert.equal(asset.modelVerified, false);
   if (asset.id !== 'hero') {
     const product = JSON.parse(await readFile(`src/data/products/${asset.id}.json`, 'utf8'));
-    assert.equal(product.reviewStatus, 'draft');
-    assert.equal(product.research.listingVerified, false);
-    assert.equal(product.research.publicationApproved, false);
-    assert.notEqual(product.research.safetyStatus, 'cleared');
+    // Media permissions must not freeze independent product approval states.
+    assert.match(product.links.amazonCa.asin, /^[A-Z0-9]{10}$/);
     assert.deepEqual(asset.variants.map((variant) => variant.width), [480, 960]);
   } else assert.deepEqual(asset.variants.map((variant) => variant.width), [768, 1280, 1672]);
   for (const variant of asset.variants) {
@@ -61,7 +59,7 @@ for (const asset of manifest.assets) {
 assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) => path.slice('/images/'.length)).sort());
 assert.equal(paths.size, 17);
 assert.equal((await readdir('assets/rejected/blackout')).length, 2);
-console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and draft controls passed. Delivery permissions are checked against dist by test:site.`);
+console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and source mapping controls passed. Delivery permissions are checked against dist by test:site.`);
 
 const supplied=JSON.parse(await readFile('src/data/media/imported-manifest.json','utf8'));
 assert.equal(supplied.provenance.status,'confirmed-by-owner');

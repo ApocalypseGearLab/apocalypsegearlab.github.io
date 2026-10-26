@@ -30,7 +30,9 @@ test('removing the research object cannot bypass the published schema guard', ()
   assert.equal(productSchema.safeParse({ ...product.data, reviewStatus: 'published', research: undefined }).success, false);
 });
 test('public reference visibility does not grant commercial approval or buying links', () => {
-  const product = read('jackery-explorer-1000-v2');
+  const product = structuredClone(read('jackery-explorer-1000-v2'));
+  product.data.research!.listingVerified = false;
+  product.data.research!.listingEvidence = undefined;
   assert.ok(!product.data.research!.publicationBlockers.includes('Owner approval to publish is pending.'), 'The owner has already authorized this work');
   assert.ok(publicationIssues(product).length);
   assert.equal(isCommerciallyApproved(product), false);
@@ -54,8 +56,10 @@ test('all eight selected profiles are public references, including held products
     assert.equal(isInformationalProduct(product),true);
     assert.equal(isPubliclyVisible(product),true);
     assert.equal(isCommerciallyApproved(product),false);
-    assert.ok(getMerchantLinks(product,true).every(link=>link.href===null));
-    if(RELEASE_HOLDS[id]) assert.ok(productCaution(product));
+    if(RELEASE_HOLDS[id]) {
+      assert.ok(productCaution(product));
+      assert.ok(getMerchantLinks(product,true).every(link=>link.href===null));
+    }
   }
 });
 

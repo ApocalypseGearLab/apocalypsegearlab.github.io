@@ -1,0 +1,229 @@
+{
+  "checkedAt": "2026-10-26",
+  "scope": "Public documentary research; no physical product tests, purchases or real affiliate test clicks.",
+  "initialParticipation": {
+    "caLinkingEnabled": true,
+    "finalApprovalConfirmed": false,
+    "privateAccountStanding": "not-independently-confirmed",
+    "sources": [
+      "https://associates.amazon.ca/help/node/topic/G8TW5AE9XL2VX9VM",
+      "https://associates.amazon.ca/help/operating/agreement"
+    ],
+    "latestRelevantSupportResult": "No newer relevant support message was found confirming account standing. Private correspondence and identifiers are excluded."
+  },
+  "canonicalListingAttempts": {
+    "count": 14,
+    "result": "Canonical Amazon.ca URLs could not be read by the public connector. Search-discovered public listing sources supplied the limited observations below."
+  },
+  "observations": [
+    {
+      "slug": "ecoflow-river-2-pro",
+      "requestedAsin": "B0BVLPGS79",
+      "sourceUrl": "https://www.amazon.ca/EF-ECOFLOW-Portable-Charging-Generator/dp/B0BVLPGS79",
+      "readerCrawlLabel": "last week",
+      "observedAsin": "B0D2HX1ZS9",
+      "fields": {
+        "inputName": "ASIN",
+        "titleModel": "RIVER 2 Pro",
+        "capacity": "768 Wh"
+      },
+      "result": "selected-asin-conflict",
+      "notes": "The primary Canadian page retrieved by the public web reader contains a buy-form ASIN different from the stored target. A matching family title is insufficient to resolve the selection. No ASIN substitution is authorized or applied."
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "requestedAsin": "B082TMBYR6",
+      "sourceUrl": "https://www.amazon.ca/Jackery-Portable-Explorer-Generator-Emergency/dp/B082TMBYR6",
+      "readerCrawlLabel": "today",
+      "observedAsin": "B082TMBYR6",
+      "fields": {
+        "titleCapacity": "292 Wh",
+        "retailerChemistry": "LiFePO4",
+        "profileChemistry": "original NCM",
+        "profileLegacyCapacity": "293.8 Wh"
+      },
+      "result": "model-revision-conflict",
+      "notes": "The older indexed title described 293 Wh and 110 V. The newly retrieved representation differs in chemistry/capacity. Do not assign either specification set to the actual supplied unit without revision evidence."
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "requestedAsin": "B0DB888L9F",
+      "sourceUrl": "https://www.amazon.ca/INIU-20000mAh-Compact-Portable-Charger/dp/B0DB888L9F",
+      "readerCrawlLabel": "today",
+      "observedAsin": "B0DB888L9F",
+      "fields": {
+        "itemModel": "P62",
+        "comparisonModel": "P62-E1"
+      },
+      "result": "partial-identity-only",
+      "notes": "The page contains the expected ASIN and both family/revision labels. It does not establish the exact cable revision or Canadian safety evidence. No safety clearance is inferred."
+    }
+  ],
+  "manufacturerReads": [
+    {
+      "url": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station",
+      "finalUrl": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station",
+      "status": 200,
+      "title": "EcoFlow RIVER 2 Pro Portable Power Station",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.fenixlight.com/product/cl26r-pro/",
+      "finalUrl": "https://www.fenixlight.com/product/cl26r-pro/",
+      "status": 200,
+      "title": "Multifunctional Camping Lantern CL26R PRO | Fenixlight",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern",
+      "finalUrl": "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern",
+      "status": 200,
+      "title": "Fenix CL26R PRO Rechargeable Lantern - Fenix Lighting",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.fenixlight.com/product/hm50r-v2-0/",
+      "finalUrl": "https://www.fenixlight.com/product/hm50r-v2-0/",
+      "status": 200,
+      "title": "High-Performance HM50R V2.0 Headlamp | Fenixlight",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp",
+      "finalUrl": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp",
+      "status": 200,
+      "title": "Fenix HM50R V2.0 Rechargeable Headlamp - 700 Lumens - Fenix Lighting",
+      "asinMentions": []
+    },
+    {
+      "url": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w",
+      "finalUrl": "https://iniushop.com/en-ca/products/iniu-p62-e1-power-bank-smallest-20000mah-65w",
+      "status": 200,
+      "title": "INIU | P62-E1 | Smallest 20000mAh 65W Power Bank",
+      "asinMentions": []
+    },
+    {
+      "url": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information",
+      "finalUrl": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information",
+      "status": 403,
+      "title": "Just a moment...",
+      "asinMentions": []
+    },
+    {
+      "url": "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station",
+      "finalUrl": "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station",
+      "status": 200,
+      "title": "Jackery Explorer 1000 v2 1070Wh | Charge 0-100% in 1H - Jackery CAXX",
+      "asinMentions": []
+    },
+    {
+      "url": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+      "finalUrl": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+      "status": 403,
+      "title": "Just a moment...",
+      "asinMentions": []
+    },
+    {
+      "url": "https://ca.jackery.com/products/explorer-300-portable-power-station",
+      "finalUrl": "https://ca.jackery.com/products/explorer-300-portable-power-station",
+      "status": 200,
+      "title": "Jackery Explorer 300 | 293Wh Portable Power Station | Camping & Travel - Jackery CAXX",
+      "asinMentions": []
+    },
+    {
+      "url": "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+      "finalUrl": "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+      "status": 200,
+      "title": "SolarSaga 100 Air | 100W Bifacial Panel | IP68 Waterproof - Jackery CA",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air",
+      "finalUrl": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air",
+      "status": 200,
+      "title": "Complete Guide to Jackery SolarSaga 100 Air - Jackery",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca",
+      "finalUrl": "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca",
+      "status": 200,
+      "title": "Carbon Monoxide Alarm - C3010-CA | Kidde Canada",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.leatherman.com/products/wave",
+      "finalUrl": "https://www.leatherman.com/products/wave",
+      "status": 200,
+      "title": "Leatherman Wave Plus Multi-tool | Official Site",
+      "asinMentions": []
+    },
+    {
+      "url": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+      "finalUrl": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+      "status": 403,
+      "title": "Just a moment...",
+      "asinMentions": []
+    },
+    {
+      "url": "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs",
+      "finalUrl": "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs",
+      "status": 403,
+      "title": "Just a moment...",
+      "asinMentions": []
+    },
+    {
+      "url": "https://nanuk.com/products/nanuk-904-first-aid-kit",
+      "finalUrl": "https://nanuk.com/products/nanuk-904-first-aid-kit",
+      "status": 200,
+      "title": "NANUK 904 First Aid Kit With Medical Supplies",
+      "asinMentions": []
+    },
+    {
+      "url": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+      "finalUrl": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+      "status": 200,
+      "title": "Aqua-Tainer\n– Reliance Outdoors",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+      "finalUrl": "https://www.sawyer.com/product/squeeze-water-filter-system",
+      "status": 200,
+      "title": "Squeeze  | Sawyer Products",
+      "asinMentions": []
+    },
+    {
+      "url": "https://help.sawyer.com/retail/filtration",
+      "finalUrl": "https://help.sawyer.com/retail/filtration",
+      "status": 200,
+      "title": "Sawyer | Water Filters",
+      "asinMentions": []
+    },
+    {
+      "url": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+      "finalUrl": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+      "status": 200,
+      "title": "Emergency Bivvy with Rescue Whistle - SOL",
+      "asinMentions": []
+    }
+  ],
+  "additionalModelSources": [
+    "https://ca.leatherman.com/collections/work/products/wave",
+    "https://relianceoutdoors.com/pages/care-and-use",
+    "https://relianceoutdoors.com/pages/faqs",
+    "https://help.sawyer.com/retail/products/squeeze-water-filter"
+  ],
+  "browserAccess": {
+    "status": "rejected-by-automatic-approval-review",
+    "reason": "The computer-use tool cannot verify the current browser URL with enough confidence to enforce policy.",
+    "action": "No retry, URL-safety bypass, indirect UI execution or private-browser workaround. Manual source verification requested; public read-only research continued."
+  },
+  "actualActiveButtons": 0,
+  "documentaryModelReviewsComplete": 4,
+  "manualEvidenceRequest": {
+    "receivedAt": "2026-10-26",
+    "ownerResponse": "No additional evidence available",
+    "newListingEvidenceProvided": false
+  }
+}

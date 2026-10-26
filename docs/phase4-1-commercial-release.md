@@ -1,5 +1,7 @@
 # Phase 4.1 — images et activation Amazon.ca par produit
 
+État historique de la livraison Phase 4.1. La [reprise commerciale après PR nº 9](amazon-ca-activation.md) actualise les revues documentaires, les contradictions d’annonces et le résultat des boutons. Les résultats de tests ci-dessous restent ceux de cette livraison initiale.
+
 Contrôle du 26 octobre 2026, America/Toronto. Ce rapport décrit cette branche et son build de production local, pas une publication déjà effectuée. Il actualise les conclusions des rapports précédents sur les trois nouveaux visuels et sur l’affiliation.
 
 ## Résultat et périmètre

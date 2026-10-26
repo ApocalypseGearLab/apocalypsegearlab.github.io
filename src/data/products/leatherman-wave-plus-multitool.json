@@ -68,6 +68,12 @@
       "title": "Government of Canada emergency kit checklist",
       "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
       "kind": "official-safety"
+    },
+    {
+      "id": "leatherman-wave-ca",
+      "title": "Leatherman Canada Wave Plus specifications and current package note",
+      "url": "https://ca.leatherman.com/collections/work/products/wave",
+      "kind": "manufacturer"
     }
   ],
   "relatedProducts": [
@@ -84,7 +90,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+    "notes": "Documentary model review completed. The exact Canadian ASIN and package remain unverified; the retailer link stays disabled until that identity is documented."
   },
   "links": {
     "amazonCa": {
@@ -102,8 +108,8 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-25",
-    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "checkedAt": "2026-10-26",
+    "identityNotes": "Manufacturer-model editorial and safety documentation reviewed on 2026-10-26. Clearance covers the documented model and its stated limitations only. It does not verify the Canadian ASIN, seller, supplied accessories or delivered condition, and is not certification or hands-on testing.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -117,6 +123,12 @@
         "sourceIds": [
           "leatherman-catalogue"
         ]
+      },
+      {
+        "text": "The Canadian manufacturer page describes an 18-tool Wave Plus and states that the sheath is sold separately on its own current product offer. This does not establish the contents of the selected Amazon package.",
+        "sourceIds": [
+          "leatherman-wave-ca"
+        ]
       }
     ],
     "unverifiedClaims": [
@@ -127,11 +139,10 @@
       "Keep fingers clear of folding implements; close and lock tools according to the instructions.",
       "Use the correct tool for the load; do not improvise prying or other high-force applications."
     ],
-    "safetyStatus": "pending",
-    "publicationApproved": false,
+    "safetyStatus": "cleared",
+    "publicationApproved": true,
     "publicationBlockers": [
-      "Verify the current Canadian listing and exact model/package.",
-      "Complete the safety and compatibility review for the delivered variant."
+      "Verify the exact Canadian ASIN, stainless/black finish and whether the selected Amazon package includes a sheath or extra bits."
     ]
   }
 }

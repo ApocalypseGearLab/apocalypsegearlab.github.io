@@ -2,6 +2,9 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { AFFILIATE_REL, getMerchantLinks } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
+import { readFileSync, readdirSync } from 'node:fs';
+import { productSchema } from '../src/lib/product-schema';
+import { mandatoryHold } from '../src/lib/release-policy';
 
 function product(ca: string | null, us: string | null = null, partner: string | null = null): Product {
   return { id: 'qa-approved', data: { reviewStatus: 'published', research: { listingVerified: true, publicationApproved: true, safetyStatus: 'cleared', publicationBlockers: [], listingEvidence: {url:'https://www.amazon.ca/dp/B000000001', checkedAt:'2026-10-26', method:'live-page', matchedAsin:'B000000001', matchedModel:'QA approved', notes:'Synthetic QA listing evidence, not a real listing.'} }, name:'QA approved', links: {
@@ -85,4 +88,33 @@ test('a flag alone, mismatched listing evidence or missing ASIN cannot activate 
     if(mutation==='unverified') candidate.data.research!.listingVerified=false;
     assert.equal(getMerchantLinks(candidate,true)[0]?.href,null,mutation);
   }
+});
+
+test('all non-held profiles can activate independently after documented checks without changing their draft status', () => {
+  let activated = 0, retainedHolds = 0;
+  for (const file of readdirSync('src/data/products').filter(file => file.endsWith('.json') && file !== 'template-product.json')) {
+    const candidate = { id: file.replace(/\.json$/, ''), data: productSchema.parse(JSON.parse(readFileSync('src/data/products/' + file, 'utf8'))) } as Product;
+    const asin = candidate.data.links.amazonCa.asin!;
+    // Simulation only. None of these approvals or evidence records are saved to product data.
+    candidate.data.research = { ...candidate.data.research!, listingVerified: true, safetyStatus: 'cleared', publicationApproved: true, publicationBlockers: [],
+      listingEvidence: { url: 'https://www.amazon.ca/dp/' + asin, checkedAt: '2026-10-26', method: 'owner-document', matchedAsin: asin, matchedModel: candidate.data.modelNumber ?? candidate.data.name, notes: 'SYNTHETIC unit-test evidence, not a real listing verification.' } };
+    const link = getMerchantLinks(candidate, true)[0]!;
+    if (mandatoryHold(candidate)) { assert.equal(link.href, null); retainedHolds++; }
+    else { assert.equal(link.href, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`); activated++; }
+    assert.equal(candidate.data.reviewStatus, 'draft');
+  }
+  assert.equal(activated, 11);
+  assert.equal(retainedHolds, 3);
+});
+
+test('the pending button identifies the missing prerequisite rather than final account approval', () => {
+  const candidate = product('https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20');
+  candidate.data.research!.listingVerified = false;
+  assert.equal(getMerchantLinks(candidate, true)[0]?.unavailableReason, 'Canadian listing identity not verified');
+  candidate.data.research!.listingVerified = true;
+  candidate.data.research!.safetyStatus = 'pending';
+  assert.equal(getMerchantLinks(candidate, true)[0]?.unavailableReason, 'Product safety review incomplete');
+  candidate.data.research!.safetyStatus = 'cleared';
+  candidate.data.research!.publicationApproved = false;
+  assert.equal(getMerchantLinks(candidate, true)[0]?.unavailableReason, 'Product verification incomplete');
 });

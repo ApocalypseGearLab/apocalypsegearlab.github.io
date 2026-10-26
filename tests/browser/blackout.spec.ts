@@ -1,4 +1,6 @@
 import { test, expect } from '@playwright/test';
+import { getMerchantLinks } from '../../src/lib/affiliate';
+import type { Product } from '../../src/lib/products';
 import AxeBuilder from '@axe-core/playwright';
 import { readFileSync, readdirSync, mkdirSync } from 'node:fs';
 
@@ -8,6 +10,8 @@ const drafts = readdirSync('src/data/products').filter((name) => name.endsWith('
 })).filter(({ data }) => data.reviewStatus === 'draft');
 
 for (const { slug, data } of drafts) {
+  const merchant = getMerchantLinks({id:slug,data} as Product)[0]!;
+  const active = Boolean(merchant.href);
   test(`${slug} draft evidence, mobile layout and safe informational publication`, async ({ page }) => {
     const errors: string[] = [];
     page.on('pageerror', (error) => errors.push(error.message));
@@ -15,9 +19,18 @@ for (const { slug, data } of drafts) {
     await expect(page.locator('h1')).toHaveText(data.name);
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', `https://apocalypsegearlab.github.io/gear/${slug}/`);
-    await expect(page.getByRole('link', { disabled: true, name: /Voir sur Amazon.ca/ })).toHaveCount(1);
-    await expect(page.locator('a[data-affiliate-click]')).toHaveCount(0);
-    await expect(page.getByText('Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.')).toBeVisible();
+    await expect(page.getByRole('link', { disabled: true, name: /Voir sur Amazon.ca/ })).toHaveCount(active ? 0 : 1);
+    await expect(page.locator('a[data-affiliate-click]')).toHaveCount(active ? 1 : 0);
+    if (active) {
+      const button = page.locator('a[data-affiliate-click]');
+      await expect(button).toHaveAttribute('href', data.links.amazonCa.url);
+      await expect(button).toHaveAttribute('target', '_blank');
+      await expect(button).toHaveAttribute('rel', 'sponsored nofollow noopener');
+      await expect(page.getByRole('complementary', { name: 'Affiliate disclosure' })).toContainText('As an Amazon Associate I earn from qualifying purchases.');
+    } else {
+      await expect(page.getByRole('link', { disabled: true, name: /Voir sur Amazon.ca/ })).toContainText(merchant.unavailableReason!);
+      await expect(page.getByText('Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.')).toBeVisible();
+    }
     await expect(page.locator('[aria-label="Research status"]')).toHaveCount(0);
     await expect(page.locator('#publication')).toHaveCount(0);
     if(heldSlugs.has(slug)) await expect(page.getByRole('complementary', { name: 'Important product limitation' })).toBeVisible();
@@ -49,7 +62,7 @@ for (const { slug, data } of drafts) {
     {
       await expect(page.locator('h1')).toHaveText(data.name);
       await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
-      await expect(page.locator('a[data-affiliate-click]')).toHaveCount(0);
+      await expect(page.locator('a[data-affiliate-click]')).toHaveCount(active?1:0);
     }
   });
 }

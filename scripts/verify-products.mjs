@@ -94,7 +94,7 @@ try {
       assert.equal(button.attr('rel'), 'sponsored nofollow noopener');
       assert.match(button.text(), /Voir sur Amazon.ca/);
       assert.ok($('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'));
-      for (const name of ['kidde-c3010-co-alarm','iniu-p62-20000mah-65w','jackery-explorer-300','nanuk-904-first-aid-kit']) {
+      for (const name of ['kidde-c3010-co-alarm','iniu-p62-20000mah-65w','jackery-explorer-300']) {
         const real = load(readFileSync('dist/gear/' + name + '/index.html', 'utf8'));
         assert.equal(real('a[data-affiliate-click]').length, 0, name + ': account status cannot enable unapproved products');
       }

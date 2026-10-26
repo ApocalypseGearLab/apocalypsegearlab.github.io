@@ -33,6 +33,16 @@ function matchesCanadianListing(link: Product['data']['links']['amazonCa']): boo
   return url.pathname === `/dp/${link.asin}` && url.searchParams.get('tag') === 'apocalypsegear-20' && [...url.searchParams.keys()].length === 1 && !url.hash;
 }
 
+function hasMatchingCanadianEvidence(product: Product): boolean {
+  const link = product.data.links.amazonCa;
+  const evidence = product.data.research?.listingEvidence;
+  return Boolean(evidence && evidence.url === `https://www.amazon.ca/dp/${link.asin}`
+    && evidence.matchedAsin === link.asin
+    && evidence.matchedModel === (product.data.modelNumber ?? product.data.name)
+    && ['live-page', 'owner-document'].includes(evidence.method)
+    && evidence.notes.trim() && /^\d{4}-\d{2}-\d{2}$/.test(evidence.checkedAt));
+}
+
 /** Listing evidence is independent of final account review, image rights and SEO indexing. */
 export function canadianAffiliateIssues(product: Product): string[] {
   const issues = publicationIssues(product);
@@ -41,13 +51,7 @@ export function canadianAffiliateIssues(product: Product): string[] {
   if (!matchesCanadianListing(link)) issues.push('The exact Canadian ASIN URL and tracking tag are required.');
   const evidence = product.data.research?.listingEvidence;
   if (!evidence) issues.push('Evidence matching the Canadian listing to the model is missing.');
-  else {
-    const expected = `https://www.amazon.ca/dp/${link.asin}`;
-    const expectedModel = product.data.modelNumber ?? product.data.name;
-    if (evidence.url !== expected || evidence.matchedAsin !== link.asin || evidence.matchedModel !== expectedModel || !['live-page', 'owner-document'].includes(evidence.method) || !evidence.notes.trim() || !/^\d{4}-\d{2}-\d{2}$/.test(evidence.checkedAt)) {
-      issues.push('The documented Canadian listing evidence does not match this profile.');
-    }
-  }
+  else if (!hasMatchingCanadianEvidence(product)) issues.push('The documented Canadian listing evidence does not match this profile.');
   return [...new Set(issues)];
 }
 
@@ -59,7 +63,13 @@ export function getMerchantLinks(product: Product, amazonPermission: Marketplace
   // Canadian permission never grants participation in the US marketplace.
   const caEnrolled = typeof amazonPermission === 'boolean' ? amazonPermission : amazonPermission.ca;
   const usEnrolled = typeof amazonPermission === 'boolean' ? false : amazonPermission.us;
-  const unavailableReason = mandatoryHold(product) ? 'Product safety or identity review pending' : !caEnrolled ? 'Affiliate eligibility unconfirmed' : caIssues.length ? 'Listing and safety verification pending' : 'Verified retailer URL unavailable';
+  const unavailableReason = mandatoryHold(product)
+    ?? (!caEnrolled ? 'Affiliate eligibility unconfirmed'
+    : !matchesCanadianListing(links.amazonCa) ? 'Canadian retailer URL not verified'
+    : !product.data.research?.listingVerified || !hasMatchingCanadianEvidence(product) ? 'Canadian listing identity not verified'
+    : product.data.research.safetyStatus !== 'cleared' ? 'Product safety review incomplete'
+    : caIssues.length ? 'Product verification incomplete'
+    : 'Verified retailer URL unavailable');
   const result: MerchantLink[] = [
     {
       key: 'amazon-ca',

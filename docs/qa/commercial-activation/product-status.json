@@ -1,0 +1,263 @@
+{
+  "checkedAt": "2026-10-26",
+  "actualActiveButtons": 0,
+  "total": 14,
+  "products": [
+    {
+      "slug": "jackery-explorer-1000-v2",
+      "name": "Jackery Explorer 1000 v2",
+      "asin": "B0D7PPG25F",
+      "storedUrl": "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "unverified",
+      "missingVerification": "Exact Canadian ASIN B0D7PPG25F, JE-1000D revision and applicable certification/voltage evidence remain unmatched. A different Canadian ASIN found in search is not substituted.",
+      "primaryManufacturerSources": [
+        "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information",
+        "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station"
+      ]
+    },
+    {
+      "slug": "ecoflow-river-2-pro",
+      "name": "EcoFlow RIVER 2 Pro",
+      "asin": "B0BVLPGS79",
+      "storedUrl": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "conflicting-selection",
+      "missingVerification": "Stored ASIN B0BVLPGS79 versus observed buy-form B0D2HX1ZS9; resolve the selected Canadian model and certification.",
+      "primaryManufacturerSources": [
+        "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+      ]
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "name": "Jackery Explorer 300",
+      "asin": "B082TMBYR6",
+      "storedUrl": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Regional model identity, capacity and voltage must be matched to the Canadian listing.",
+      "status": "revision-conflict",
+      "missingVerification": "Resolve 292 Wh LiFePO4 versus original NCM/293.8 Wh, regional output and exact instructions. Mandatory hold retained; inaccurate artwork remains withheld.",
+      "primaryManufacturerSources": [
+        "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf",
+        "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+        "https://ca.jackery.com/products/explorer-300-portable-power-station",
+        "https://ca.jackery.com/products/jackery-solarsaga-100-air"
+      ]
+    },
+    {
+      "slug": "midland-er310",
+      "name": "Midland ER310 emergency radio",
+      "asin": "B015QIC1PW",
+      "storedUrl": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "unverified",
+      "missingVerification": "Match the Canadian ER310 listing and battery revision (manufacturer references include 2600/3500 mAh). Do not promise Canadian Weatheradio service.",
+      "primaryManufacturerSources": [
+        "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+        "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs"
+      ]
+    },
+    {
+      "slug": "fenix-cl26r-pro",
+      "name": "Fenix CL26R Pro rechargeable lantern",
+      "asin": "B0CGKWX5YT",
+      "storedUrl": "https://www.amazon.ca/dp/B0CGKWX5YT?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "unverified",
+      "missingVerification": "Match CL26R Pro, Grey Camo variant, included protected battery and organizer/contents to the supplied ASIN.",
+      "primaryManufacturerSources": [
+        "https://www.fenixlight.com/product/cl26r-pro/",
+        "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern"
+      ]
+    },
+    {
+      "slug": "jackery-solarsaga-100w-air",
+      "name": "Jackery SolarSaga 100 W Air",
+      "asin": "B0FX8P4JST",
+      "storedUrl": "https://www.amazon.ca/dp/B0FX8P4JST?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "unverified",
+      "missingVerification": "Match JS-100H / SolarSaga 100 Air and the included Canadian cable/adapter package; preserve Explorer 300 compatibility exclusion.",
+      "primaryManufacturerSources": [
+        "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+        "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air",
+        "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_100_Air_User_Manual.pdf?v=1758778870",
+        "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station"
+      ]
+    },
+    {
+      "slug": "kidde-c3010-co-alarm",
+      "name": "Kidde C3010 carbon monoxide alarm",
+      "asin": "B00FHW7PBS",
+      "storedUrl": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian model and certification evidence are incomplete.",
+      "status": "certification-hold",
+      "missingVerification": "Obtain the exact Canadian model and recognized certification label/instructions; C3010/21010045 US is not proved equivalent to C3010-CA.",
+      "primaryManufacturerSources": [
+        "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca",
+        "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf"
+      ]
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "name": "INIU P62 20000 mAh 65 W power bank",
+      "asin": "B0DB888L9F",
+      "storedUrl": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Exact-model safety verification is incomplete.",
+      "status": "safety-hold",
+      "missingVerification": "Resolve P62/P62-E1 and cable configuration; obtain exact-model Canadian safety evidence. The BI-B41 recall does not establish P62 clearance.",
+      "primaryManufacturerSources": [
+        "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+      ]
+    },
+    {
+      "slug": "fenix-hm50r-v2-headlamp",
+      "name": "Fenix HM50R V2.0 rechargeable headlamp",
+      "asin": "B0H6R34CBL",
+      "storedUrl": "https://www.amazon.ca/dp/B0H6R34CBL?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "unverified",
+      "missingVerification": "Match HM50R V2.0 revision, LED and included battery: global ARB-L16-700P versus US ARB-L16-800P.",
+      "primaryManufacturerSources": [
+        "https://www.fenixlight.com/product/hm50r-v2-0/",
+        "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp"
+      ]
+    },
+    {
+      "slug": "sawyer-squeeze-sp129-water-filter",
+      "name": "Sawyer Squeeze SP129 water filtration system",
+      "asin": "B00B1OSU4W",
+      "storedUrl": "https://www.amazon.ca/dp/B00B1OSU4W?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": true,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "listing-only",
+      "missingVerification": "Document the exact Canadian SP129 ASIN and current pouch/adapter inventory; model-level instructions and limitations are reviewed.",
+      "primaryManufacturerSources": [
+        "https://www.sawyer.com/product/squeeze-water-filter-system",
+        "https://help.sawyer.com/retail/filtration",
+        "https://help.sawyer.com/retail/products/squeeze-water-filter"
+      ]
+    },
+    {
+      "slug": "reliance-aqua-tainer-7-gallon",
+      "name": "Reliance Aqua-Tainer 7-gallon water container",
+      "asin": "B001QC31G6",
+      "storedUrl": "https://www.amazon.ca/dp/B001QC31G6?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": true,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "listing-only",
+      "missingVerification": "Document Canadian ASIN B001QC31G6 as 9410-03R / 7 US gal and its cap/spigot; do not substitute the 4-gallon version.",
+      "primaryManufacturerSources": [
+        "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+        "https://relianceoutdoors.com/pages/care-and-use",
+        "https://relianceoutdoors.com/pages/faqs"
+      ]
+    },
+    {
+      "slug": "nanuk-904-first-aid-kit",
+      "name": "NANUK 904 first aid kit",
+      "asin": "B0G3XYHL33",
+      "storedUrl": "https://www.amazon.ca/dp/B0G3XYHL33?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": false,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "kit-review-pending",
+      "missingVerification": "Obtain the Canadian filled-kit SKU, resolve 109/110 item counts and confirm content/expiry/sterility information; do not infer workplace compliance.",
+      "primaryManufacturerSources": [
+        "https://nanuk.com/products/nanuk-904-first-aid-kit",
+        "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+      ]
+    },
+    {
+      "slug": "leatherman-wave-plus-multitool",
+      "name": "Leatherman Wave+ multi-tool",
+      "asin": "B079MJBP21",
+      "storedUrl": "https://www.amazon.ca/dp/B079MJBP21?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": true,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "listing-only",
+      "missingVerification": "Document the Canadian Wave Plus ASIN, finish and sheath/bit contents. The Canadian manufacturer offer sells the sheath separately; the Amazon package may differ.",
+      "primaryManufacturerSources": [
+        "https://www.leatherman.com/products/wave",
+        "https://www.leatherman-japan.com/wp/wp-content/uploads/2022/04/Leatherman-2022-Digital-Catalog.pdf",
+        "https://ca.leatherman.com/collections/work/products/wave"
+      ]
+    },
+    {
+      "slug": "sol-emergency-bivvy",
+      "name": "SOL Emergency Bivvy with rescue whistle",
+      "asin": "B08NC9BLQ5",
+      "storedUrl": "https://www.amazon.ca/dp/B08NC9BLQ5?tag=apocalypsegear-20",
+      "reviewStatus": "draft",
+      "testing": "not-tested",
+      "documentaryModelReviewComplete": true,
+      "listingVerified": false,
+      "buttonActive": false,
+      "buttonReason": "Canadian listing identity not verified",
+      "status": "listing-only",
+      "missingVerification": "Document the Canadian standard 84 × 36 inch bivvy, colour and whistle/tinder-cord package; distinguish XL and Escape.",
+      "primaryManufacturerSources": [
+        "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+      ]
+    }
+  ]
+}

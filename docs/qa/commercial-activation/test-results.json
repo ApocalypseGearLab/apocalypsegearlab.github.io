@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-26",
+  "environment": "Windows, Node 22.23.4, npm 10.9.9, Playwright Chromium",
+  "astro": {
+    "files": 56,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 32,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 38,
+    "failed": 0,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "axe": "No violations on tested routes for WCAG A/AA and 2.1 AA tags",
+    "externalNavigation": "Synthetic ASIN popup fulfilled locally; no real affiliate test traffic"
+  },
+  "productFixtures": "Passed; active/pending informational draft, exact link, disclosure, model evidence and sensitive holds; final actual-data build restored",
+  "media": "Passed; hashes unchanged for the other eleven illustrations and all three bunker variants; thirteen permitted artworks and one neutral slot",
+  "build": {
+    "htmlPages": 21,
+    "visibleProfiles": 14
+  },
+  "site": {
+    "internalReferences": 527,
+    "sitemapUrls": 5
+  },
+  "commercial": {
+    "actualActiveButtons": 0,
+    "target": 14,
+    "documentaryModelReviewsComplete": 4,
+    "strictRequireAllExitCode": 1,
+    "strictRequireAllResult": "NOT READY — expected diagnostic failure; do not claim commercial readiness",
+    "finalApprovalConfirmed": false
+  },
+  "limitations": [
+    "No physical product tests",
+    "No independent final Amazon account approval",
+    "Selected Canadian listing identities unverified or conflicting",
+    "Private browser path rejected by automatic approval review; not bypassed",
+    "No real-device/Safari/Firefox or exhaustive WCAG certification"
+  ]
+}

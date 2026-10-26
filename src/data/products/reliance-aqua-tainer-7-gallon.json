@@ -63,6 +63,18 @@
       "title": "Health Canada drinking-water incident guidance",
       "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidance-providing-safe-drinking-water-areas-federal-jurisdiction-version-3.html",
       "kind": "official-safety"
+    },
+    {
+      "id": "reliance-care",
+      "title": "Reliance water-container care, cleaning and rotation instructions",
+      "url": "https://relianceoutdoors.com/pages/care-and-use",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "reliance-faq",
+      "title": "Reliance Aqua-Tainer stacking and freezing limitations",
+      "url": "https://relianceoutdoors.com/pages/faqs",
+      "kind": "manufacturer"
     }
   ],
   "relatedProducts": [
@@ -79,7 +91,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+    "notes": "Documentary model review completed. The exact Canadian ASIN and package remain unverified; the retailer link stays disabled until that identity is documented."
   },
   "links": {
     "amazonCa": {
@@ -97,8 +109,8 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-25",
-    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "checkedAt": "2026-10-26",
+    "identityNotes": "Manufacturer-model editorial and safety documentation reviewed on 2026-10-26. Clearance covers the documented model and its stated limitations only. It does not verify the Canadian ASIN, seller, supplied accessories or delivered condition, and is not certification or hands-on testing.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -120,13 +132,13 @@
     "safetyNotes": [
       "Use only potable water and follow local storage and cleaning guidance; this container does not purify water.",
       "Do not stack filled containers; the manufacturer permits stacking when empty.",
-      "Protect against contamination, freezing damage and unsafe lifting. A stored supply does not override an avoidance advisory."
+      "Protect against contamination, freezing damage and unsafe lifting. A stored supply does not override an avoidance advisory.",
+      "Reliance advises rotating stored water at least every 90 days, cleaning between fills and storing the container in a cool, dark place. Do not store it in freezing temperatures or use tape to patch a leaking sidewall."
     ],
-    "safetyStatus": "pending",
-    "publicationApproved": false,
+    "safetyStatus": "cleared",
+    "publicationApproved": true,
     "publicationBlockers": [
-      "Verify the current Canadian listing and exact model/package.",
-      "Complete the safety and compatibility review for the delivered variant."
+      "Match the current Canadian ASIN to item 9410-03R, 7 US gallons, with the stated cap and spigot; do not substitute the 4-gallon model."
     ]
   }
 }

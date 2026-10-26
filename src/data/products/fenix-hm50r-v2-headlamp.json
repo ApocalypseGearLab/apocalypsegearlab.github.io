@@ -96,7 +96,7 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-25",
+    "checkedAt": "2026-10-26",
     "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
     "listingVerified": false,
     "confirmed": [
@@ -126,7 +126,7 @@
     "publicationApproved": false,
     "publicationBlockers": [
       "Verify the current Canadian listing and exact model/package.",
-      "Complete the safety and compatibility review for the delivered variant."
+      "Match the listed LED/battery revision to its instructions: Fenix global specifies ARB-L16-700P, while the US page includes ARB-L16-800P. Do not combine revision-specific performance or charging claims."
     ]
   }
 }

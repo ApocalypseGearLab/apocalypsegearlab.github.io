@@ -4,7 +4,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { productSchema } from '../src/lib/product-schema';
 import { productStructuredData } from '../src/lib/product-seo';
 import { categoryUniverse } from '../src/config/taxonomy';
-import { getMerchantLinks } from '../src/lib/affiliate';
+import { getMerchantLinks, canadianAffiliateIssues } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 
 const expected = {
@@ -26,7 +26,7 @@ const expected = {
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
 
-test('fourteen selected records retain exact ASIN and commercial draft state with informational visibility', () => {
+test('fourteen registered links retain exact identities and obey product-level evidence decisions', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -39,19 +39,20 @@ test('fourteen selected records retain exact ASIN and commercial draft state wit
     assert.equal(data.testing, 'not-tested');
     assert.equal(data.reviewStatus, 'draft');
     assert.equal(data.visibility, 'informational');
-    assert.equal(data.lastVerified, null);
-    assert.equal(data.research?.publicationApproved, false);
-    assert.equal(data.research?.listingVerified, false);
     assert.ok(data.sources.length >= 2);
     assert.ok(data.research?.confirmed.length);
-    assert.ok(data.research?.publicationBlockers.length);
     assert.ok(data.description.length > 150);
     assert.ok(data.specs.length >= 5);
     assert.equal(data.image, null);
     for (const key of ['price', 'rating', 'aggregateRating', 'stock', 'discount']) assert.ok(!(key in raw));
     const product = { id: slug, data } as Product;
-    assert.ok(getMerchantLinks(product).every((link) => link.href === null));
-    assert.equal(getMerchantLinks(product, true)[0]?.href, null, 'Account enrollment alone cannot enable draft listing links');
+    const eligible = canadianAffiliateIssues(product).length === 0;
+    assert.equal(getMerchantLinks(product, true)[0]?.href, eligible ? data.links.amazonCa.url : null);
+    if (eligible) {
+      assert.ok(data.research?.listingVerified);
+      assert.ok(data.research?.listingEvidence);
+      assert.equal(data.research?.safetyStatus, 'cleared');
+    }
   }
 });
 
@@ -84,7 +85,7 @@ test('Kidde and INIU remain blocked and cannot be published by changing only edi
   }
 });
 
-test('all researched drafts require listing verification, safety clearance and owner approval', () => {
+test('editorial publication requires listing verification and safety clearance', () => {
   const raw = structuredClone(rawProducts.get('jackery-explorer-1000-v2'));
   raw.reviewStatus = 'published';
   assert.equal(productSchema.safeParse(raw).success, false);

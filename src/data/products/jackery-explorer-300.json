@@ -89,7 +89,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+    "notes": "The Canadian representation retrieved on 2026-10-26 for B082TMBYR6 describes 292 Wh and LiFePO4, conflicting with the original NCM model documented here. No exact-revision approval is granted."
   },
   "links": {
     "amazonCa": {
@@ -106,7 +106,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-24",
+    "checkedAt": "2026-10-26",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
     "listingVerified": false,
     "confirmed": [
@@ -125,7 +125,8 @@
       }
     ],
     "unverifiedClaims": [
-      "The owner-selected listing is advertised as approximately 293 Wh; that is not a verified exact capacity for this unit."
+      "The owner-selected listing is advertised as approximately 293 Wh; that is not a verified exact capacity for this unit.",
+      "The retrieved retailer page now describes 292 Wh and LiFePO4 for this ASIN; the older indexed 293 Wh / 110 V description does not establish the current revision."
     ],
     "safetyNotes": [
       "Do not use the newer SolarSaga 100 Air compatibility claim for this legacy model.",
@@ -135,7 +136,8 @@
     "publicationApproved": false,
     "publicationBlockers": [
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
-      "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label."
+      "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label.",
+      "The newly retrieved Canadian page for B082TMBYR6 describes a 292 Wh LiFePO4 revision, while this profile documents the original NCM model. Resolve chemistry, capacity and regional output against the exact unit and correct instructions."
     ]
   },
   "visibility": "informational",
@@ -143,7 +145,8 @@
     "purchaseChecks": [
       "Distinguish the original Explorer 300 from 300 Plus, 300 v2 and 300D.",
       "Match the battery capacity and 110/120 V regional revision to the actual unit label and manual.",
-      "Do not assume compatibility with SolarSaga 100 Air: the Canadian manufacturer excludes Explorer 300 recharging."
+      "Do not assume compatibility with SolarSaga 100 Air: the Canadian manufacturer excludes Explorer 300 recharging.",
+      "Confirm battery chemistry as well as capacity: the current retailer representation differs from the original NCM documentation."
     ]
   }
 }
