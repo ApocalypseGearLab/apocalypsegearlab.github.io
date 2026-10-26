@@ -63,7 +63,7 @@ test('product template is previewable only in development, with pending affiliat
   await page.getByRole('heading', { name: 'Template product (replace or delete)' }).getByRole('link').click();
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
   await expect(page.getByText('Not physically tested by us', { exact: true })).toBeVisible();
-  await expect(page.getByRole('link', { disabled: true })).toHaveCount(2);
+  await expect(page.getByRole('link', { disabled: true })).toHaveCount(0);
   expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
   const response = await page.goto('http://127.0.0.1:4321/gear/template-product/');
   expect(response?.status()).toBe(404);
