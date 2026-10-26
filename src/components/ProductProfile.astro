@@ -19,12 +19,12 @@ const { product, releasePreview = false } = Astro.props;
 const { data } = product;
 const universe = UNIVERSES[categoryUniverse(data.category)];
 const indexable = !releasePreview && isPublicProduct(product);
-const showInternalReview = !indexable && !releasePreview;
+const showInternalReview = import.meta.env.DEV && !releasePreview;
 const links = getMerchantLinks(product);
 const availableLinks = links.filter((link) => link.href);
 const verified = data.lastVerified?.toISOString().slice(0, 10);
 const research = data.research;
-const purchaseChecks = (indexable || releasePreview) && data.editorial?.purchaseChecks.length ? data.editorial.purchaseChecks : research?.unverifiedClaims ?? [];
+const purchaseChecks = data.editorial?.purchaseChecks.length ? data.editorial.purchaseChecks : research?.unverifiedClaims ?? [];
 const related = (await getVisibleProducts()).filter((candidate) => data.relatedProducts.includes(candidate.id));
 const productJson = Astro.site ? productStructuredData(product, Astro.site) : undefined;
 const breadcrumbs = {
@@ -40,7 +40,7 @@ const breadcrumbs = {
   <article class="container section stack">
     <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />
 
-    {!indexable && <p class="notice"><strong>Not public.</strong> {releasePreview ? 'Editorial preview — publication checks are pending. This profile is not a public recommendation.' : `Status: ${data.reviewStatus}. This page is hidden from search engines and excluded from production builds until all publication requirements are met.`}</p>}
+    {!indexable && <p class="notice"><strong>Informational profile — verification in progress.</strong> Product identity, Canadian listing and safety documentation have not all been confirmed. This is not a hands-on review, certification claim or purchase recommendation. Buying links are not active.</p>}
 
     <p class="label">{categoryLabel(data.category)} · {data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
     <h1>{data.name}</h1>
@@ -96,7 +96,7 @@ const breadcrumbs = {
       <h2 id="buy">Where to buy</h2>
       <DisclosureNotice />
       {data.merchant?.notes && showInternalReview && <p>{data.merchant.notes}</p>}
-      {(indexable || releasePreview) ? (availableLinks.length ? <p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p> : <p>Retailer links are not available for this profile.</p>) : <p class="buttons">{links.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p>}
+      {indexable && availableLinks.length ? <p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p> : <p>Purchase links are unavailable while product verification and affiliate eligibility are pending.</p>}
     </section>
 
     {related.length > 0 && !releasePreview && <section aria-labelledby="related"><h2 id="related">{indexable ? 'Related gear' : 'Related research drafts'}</h2>
