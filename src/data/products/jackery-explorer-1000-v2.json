@@ -138,5 +138,6 @@
       "Check each appliance and its startup demand against the shared 1500 W AC limit.",
       "Confirm the retailer warranty terms rather than assuming manufacturer-store extensions apply."
     ]
-  }
+  },
+  "visibility": "informational"
 }

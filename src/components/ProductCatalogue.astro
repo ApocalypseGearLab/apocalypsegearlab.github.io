@@ -3,12 +3,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import ProductCard from './ProductCard.astro';
 import { getVisibleProducts } from '../lib/products';
-import { isPublicProduct, mandatoryHold } from '../lib/release-policy';
+import { isCommerciallyApproved, mandatoryHold } from '../lib/release-policy';
 
 interface Props { releasePreview?: boolean }
 const { releasePreview = false } = Astro.props;
 const products = (await getVisibleProducts()).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
-const hasPublished = products.some(isPublicProduct);
+const hasPublished = products.some(isCommerciallyApproved);
 ---
 
 <BaseLayout canonicalPath="/gear/" title="Survival gear catalogue" description="Researched survival and emergency preparedness gear, organised by sector." noindex={!hasPublished}>
@@ -16,7 +16,7 @@ const hasPublished = products.some(isPublicProduct);
     <Breadcrumbs items={[{ label: 'Gear catalogue' }]} />
     <h1>Gear catalogue</h1>
     {releasePreview && <p class="notice">Editorial preview — publication checks are pending. These profiles are not public recommendations.</p>}
-    <p>Plan power, light and communication around the equipment you need to keep running. Compare documented limits, charging options and compatibility before choosing a kit.</p>
+    <p>Explore documented equipment profiles for backup power, lighting and communication. These are informational comparisons, not tested endorsements. Model identity, safety and Canadian availability remain under review; purchasing links are disabled until verified.</p>
     {products.length === 0 ? (
       <p class="empty">No published reviews yet. Products appear here after editorial research.</p>
     ) : (

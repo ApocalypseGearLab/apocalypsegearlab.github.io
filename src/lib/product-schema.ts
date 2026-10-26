@@ -34,6 +34,8 @@ export const productSchema = z.object({
   }).default({ amazonCa: { url: null, asin: null }, amazonCom: { url: null, asin: null }, partners: [] }),
   testing: z.enum(['not-tested', 'hands-on']).default('not-tested'),
   reviewStatus: z.enum(['template', 'draft', 'researched', 'published']).default('draft'),
+  // Public reference visibility never implies commercial or safety approval.
+  visibility: z.enum(['internal', 'informational']).default('internal'),
   lastVerified: z.coerce.date().nullable().default(null),
   sources: z.array(z.object({
     id: z.string().regex(/^[a-z0-9-]+$/), title: z.string().min(1), url: httpsUrl,
@@ -67,14 +69,15 @@ export const productSchema = z.object({
       context.addIssue({ code: 'custom', path: ['links', marketplace], message: 'Amazon marketplace URL must match its ASIN and domain' });
     }
   }
-  if (product.reviewStatus === 'published' && !product.research) {
+  if ((product.reviewStatus === 'published' || product.visibility === 'informational') && !product.research) {
     context.addIssue({ code: 'custom', path: ['research'], message: 'Published products require documented research and approval' });
   }
-  if (product.reviewStatus === 'published' && (!product.specs.length || product.specs.some((spec) => !product.sources.some((source) => source.kind === 'manufacturer' && source.url === spec.source)))) {
+  if ((product.reviewStatus === 'published' || product.visibility === 'informational') && (!product.specs.length || product.specs.some((spec) => !product.sources.some((source) => source.kind === 'manufacturer' && source.url === spec.source)))) {
     context.addIssue({ code: 'custom', path: ['specs'], message: 'Published specifications must cite an included manufacturer source' });
   }
   if (product.reviewStatus === 'published' && product.research && (
     !product.research.publicationApproved || !product.research.listingVerified ||
     product.research.safetyStatus !== 'cleared' || product.research.publicationBlockers.length > 0
   )) context.addIssue({ code: 'custom', path: ['reviewStatus'], message: 'Research, listing verification, safety clearance and owner approval are required before publication' });
+  if (product.visibility === 'informational' && product.reviewStatus === 'template') context.addIssue({ code: 'custom', path: ['visibility'], message: 'Templates cannot be public informational profiles' });
 });

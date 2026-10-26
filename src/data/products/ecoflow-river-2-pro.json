@@ -135,5 +135,6 @@
       "Match the Canadian model code and electrical certification label to the supplied unit.",
       "Add the continuous wattage and startup demand of the devices you intend to power; the normal shared AC limit is 800 W."
     ]
-  }
+  },
+  "visibility": "informational"
 }

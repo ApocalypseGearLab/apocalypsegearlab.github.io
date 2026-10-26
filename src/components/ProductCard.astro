@@ -3,13 +3,13 @@ import type { Product } from '../lib/products';
 import { categoryLabel } from '../config/taxonomy';
 import ProductImage from './ProductImage.astro';
 import { productMedia } from '../lib/media';
-import { isPublicProduct } from '../lib/release-policy';
+import { isCommerciallyApproved, productCaution } from '../lib/release-policy';
 
 interface Props { product: Product; headingLevel?: 2 | 3; releasePreview?: boolean }
 const { product, headingLevel = 3, releasePreview = false } = Astro.props;
 const Heading = headingLevel === 2 ? 'h2' : 'h3';
 const { data } = product;
-const isPublished = isPublicProduct(product);
+const isPublished = isCommerciallyApproved(product);
 const artwork = productMedia(product.id);
 ---
 
@@ -19,7 +19,8 @@ const artwork = productMedia(product.id);
   <Heading><a href={`${releasePreview ? '/review' : ''}/gear/${product.id}/`}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
   <p>{data.summary}</p>
-  {!isPublished && <p><span class="badge badge--warn">{data.reviewStatus} (not public)</span></p>}
+  {!isPublished && <p><span class="badge badge--warn">Information only · Verification pending</span></p>}
+  {productCaution(product) && <p class="card-caution">{productCaution(product)!.split('. ')[0]}.</p>}
 </article>
 
 <style>
@@ -31,4 +32,5 @@ const artwork = productMedia(product.id);
   .card--illustrated:focus-within { border-color: #f5a623; }
   @media (hover: hover) { .card--illustrated:hover { border-color: #f5a623; } }
   .brand { color: var(--c-muted); font-size: 0.9rem; }
+  .card-caution { font-size: 0.9rem; border-left: 2px solid #f5a623; padding-left: var(--s-3); }
 </style>

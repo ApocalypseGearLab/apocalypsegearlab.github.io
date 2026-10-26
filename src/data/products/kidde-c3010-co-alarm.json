@@ -3,8 +3,8 @@
   "brand": "Kidde",
   "modelNumber": "C3010",
   "category": "home-outage-planning",
-  "summary": "A sealed-battery CO alarm listing held for Canadian compliance review; part 21010045 must not be treated as C3010-CA without evidence.",
-  "description": "A CO alarm is a safety device, so product identity and Canadian certification must be resolved before editorial recommendation. The owner-reported Amazon item number appears in the US C3010 data sheet. That connection supports identification of a US product family, not equivalence with a Canadian model or suitability for installation in a Canadian home.",
+  "summary": "A sealed-battery carbon monoxide alarm in the C3010 family. Canadian certification and equivalence to C3010-CA have not been established for this listing.",
+  "description": "A carbon monoxide alarm must match the certification and installation requirements of the place where it will be used. The US C3010 data sheet documents part 21010045, a sealed battery and an electrochemical sensor. These details describe the US product family; they do not establish C3010-CA equivalence or suitability for installation in a Canadian home.",
   "specs": [
     {
       "label": "Manufacturer model family",
@@ -42,7 +42,7 @@
     "Battery service life is a manufacturer claim, not a test result or exemption from replacement instructions."
   ],
   "useCases": [
-    "Editorial evaluation of a battery-powered CO alarm for an outage checklist, after Canadian compliance is resolved."
+    "Compare battery-powered CO alarm designs for an outage checklist. Any Canadian installation requires a correctly certified model, its actual label and Canadian instructions."
   ],
   "sources": [
     {
@@ -103,7 +103,10 @@
     "confirmed": [
       {
         "text": "Kidde's Canadian page identifies C3010-CA as a separate CSA-listed designation. It does not establish that the selected part 21010045 is that Canadian model.",
-        "sourceIds": ["kidde-c3010-ca", "kidde-c3010-us"]
+        "sourceIds": [
+          "kidde-c3010-ca",
+          "kidde-c3010-us"
+        ]
       },
       {
         "text": "Kidde lists part 21010045 in its US C3010 data sheet and names UL 2034.",
@@ -134,6 +137,14 @@
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Obtain manufacturer confirmation linking item 21010045 to a Canada-approved model, or retain this item unpublished.",
       "Verify the Canadian mark on the actual product, certification file, installation instructions and applicable local requirements."
+    ]
+  },
+  "visibility": "informational",
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm a recognized Canadian certification mark on the actual alarm, with the exact model and certification listing.",
+      "Do not infer C3010-CA equivalence from the US C3010 name or part 21010045.",
+      "Check the Canadian installation instructions and replacement date before choosing a unit."
     ]
   }
 }

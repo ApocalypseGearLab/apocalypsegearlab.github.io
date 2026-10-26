@@ -133,5 +133,6 @@
       "Check which local AM/FM stations provide useful outage information; do not rely on Canadian Weatheradio alerts.",
       "Treat solar charging as supplementary rather than a guaranteed recharge plan."
     ]
-  }
+  },
+  "visibility": "informational"
 }

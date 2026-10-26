@@ -1,6 +1,6 @@
 import type { Product } from './products';
 import { AMAZON_ASSOCIATE_ENROLLED } from '../config/site';
-import { isPublicProduct } from './release-policy';
+import { isCommerciallyApproved } from './release-policy';
 
 export type Marketplace = 'ca' | 'us' | 'other';
 
@@ -25,23 +25,27 @@ function isTrustedUrl(url: string | null, allowedHosts?: string[]): url is strin
   }
 }
 
-export function getMerchantLinks(product: Product, amazonEnrolled = AMAZON_ASSOCIATE_ENROLLED): MerchantLink[] {
+type Enrollment = boolean | { ca: boolean; us: boolean };
+export function getMerchantLinks(product: Product, amazonEnrolled: Enrollment = { ca: AMAZON_ASSOCIATE_ENROLLED, us: false }): MerchantLink[] {
   const { links } = product.data;
-  const canLink = isPublicProduct(product);
+  const canLink = isCommerciallyApproved(product);
+  // Canadian permission never grants participation in the US marketplace.
+  const caEnrolled = typeof amazonEnrolled === 'boolean' ? amazonEnrolled : amazonEnrolled.ca;
+  const usEnrolled = typeof amazonEnrolled === 'boolean' ? false : amazonEnrolled.us;
   const result: MerchantLink[] = [
     {
       key: 'amazon-ca',
       merchant: 'Amazon.ca',
       marketplace: 'ca',
-      label: 'View on Amazon.ca',
-      href: amazonEnrolled && canLink && isTrustedUrl(links.amazonCa.url, ['amazon.ca', 'amzn.to']) ? links.amazonCa.url : null,
+      label: 'Voir sur Amazon.ca',
+      href: caEnrolled && canLink && isTrustedUrl(links.amazonCa.url, ['amazon.ca', 'amzn.to']) ? links.amazonCa.url : null,
     },
     {
       key: 'amazon-com',
       merchant: 'Amazon.com',
       marketplace: 'us',
       label: 'View on Amazon.com',
-      href: amazonEnrolled && canLink && isTrustedUrl(links.amazonCom.url, ['amazon.com', 'amzn.to']) ? links.amazonCom.url : null,
+      href: usEnrolled && canLink && isTrustedUrl(links.amazonCom.url, ['amazon.com', 'amzn.to']) ? links.amazonCom.url : null,
     },
   ];
   for (const partner of links.partners) {

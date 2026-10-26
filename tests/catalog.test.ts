@@ -20,7 +20,7 @@ const expected = {
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
 
-test('eight selected records have exact ASIN, URL, category and unpublished state', () => {
+test('eight selected records retain exact ASIN and commercial draft state with informational visibility', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -32,6 +32,7 @@ test('eight selected records have exact ASIN, URL, category and unpublished stat
     assert.equal(categoryUniverse(data.category), 'blackout');
     assert.equal(data.testing, 'not-tested');
     assert.equal(data.reviewStatus, 'draft');
+    assert.equal(data.visibility, 'informational');
     assert.equal(data.lastVerified, null);
     assert.equal(data.research?.publicationApproved, false);
     assert.equal(data.research?.listingVerified, false);

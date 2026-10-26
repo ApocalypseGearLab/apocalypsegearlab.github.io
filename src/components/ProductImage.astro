@@ -1,18 +1,23 @@
 ---
 import { productMedia, mediaUrl, mediaSrcset } from '../lib/media';
 import { assetReview, canDisplayProductArtwork } from '../lib/media-policy';
+import { importedArtwork, canPublishImportedAsset } from '../lib/imported-media';
 
 interface Props { slug: string; label?: string; detail?: boolean; releasePreview?: boolean }
 const { slug, label = 'Equipment profile', detail = false, releasePreview = false } = Astro.props;
-const asset = productMedia(slug);
+const supplied = importedArtwork(slug);
+const asset = supplied ? {
+  alt: supplied.alt, identityNote: supplied.reviewNote,
+  variants: [{ src: supplied.deliverySrc, width: supplied.width, height: supplied.height }],
+} : productMedia(slug);
 const review = assetReview(slug);
 const editorialArtwork = import.meta.env.DEV && !releasePreview;
-const display = canDisplayProductArtwork(slug, editorialArtwork);
+const display = supplied ? canPublishImportedAsset(supplied) : canDisplayProductArtwork(slug, editorialArtwork);
 const small = asset?.variants[0];
 const large = asset?.variants.at(-1);
 ---
 
-<figure data-artwork-status={display && asset ? review?.accuracyStatus ?? 'pending-review' : 'neutral'} class:list={['product-artwork', { 'product-artwork--detail': detail }]}>
+<figure data-artwork-status={display && asset ? supplied?.accuracyStatus ?? review?.accuracyStatus ?? 'pending-review' : 'neutral'} class:list={['product-artwork', { 'product-artwork--detail': detail }]}>
   {display && asset && small?.src && large?.src ? <>
   <img
     src={mediaUrl(detail ? large.src : small.src)}
@@ -23,7 +28,8 @@ const large = asset?.variants.at(-1);
   />
   <figcaption>
     <span>Concept illustration, not a product photograph. Appearance may differ.</span>
-    {detail && editorialArtwork && <span class="identity-note">{review?.caption ?? review?.note ?? asset.identityNote} Commercial use and source-photo permissions await owner confirmation.</span>}
+    {detail && supplied && <span class="identity-note">Rendered markings and displays are not technical evidence. Refer to the documented specifications and model limitations below.</span>}
+    {detail && editorialArtwork && !supplied && <span class="identity-note">{review?.caption ?? review?.note ?? asset.identityNote} Commercial use and source-photo permissions await owner confirmation.</span>}
   </figcaption>
   </> : <>
     <div class="neutral-media" aria-hidden="true"><svg width="64" height="64" viewBox="0 0 64 64" fill="none"><path d="M32 5 55 18v28L32 59 9 46V18Z" stroke="currentColor" stroke-width="1.5"/><path d="M22 25h20v19H22zM27 25v-5h10v5" stroke="currentColor" stroke-width="1.5"/></svg><span class="label">{label}</span></div>

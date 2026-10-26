@@ -10,7 +10,7 @@ import { getMerchantLinks } from '../lib/affiliate';
 import { productStructuredData } from '../lib/product-seo';
 import ProductCard from './ProductCard.astro';
 import ProductImage from './ProductImage.astro';
-import { isPublicProduct } from '../lib/release-policy';
+import { isCommerciallyApproved, isInformationalProduct, productCaution } from '../lib/release-policy';
 
 
 
@@ -18,13 +18,16 @@ interface Props { product: Product; releasePreview?: boolean }
 const { product, releasePreview = false } = Astro.props;
 const { data } = product;
 const universe = UNIVERSES[categoryUniverse(data.category)];
-const indexable = !releasePreview && isPublicProduct(product);
-const showInternalReview = !indexable && !releasePreview;
+const indexable = !releasePreview && isCommerciallyApproved(product);
+const informational = isInformationalProduct(product);
+const showInternalReview = import.meta.env.DEV && !releasePreview && !informational;
+const caution = productCaution(product);
 const links = getMerchantLinks(product);
-const availableLinks = links.filter((link) => link.href);
+const availableLinks = links.filter((link) => link.href || (link.key === 'amazon-ca' && data.links.amazonCa.url));
 const verified = data.lastVerified?.toISOString().slice(0, 10);
 const research = data.research;
-const purchaseChecks = (indexable || releasePreview) && data.editorial?.purchaseChecks.length ? data.editorial.purchaseChecks : research?.unverifiedClaims ?? [];
+const safetyNotes = research?.safetyNotes.map((note) => note.replace('Do not publish or recommend', 'Do not recommend').replace('before approval', 'before purchase or use').replace('a pre-publication check', 'a check before purchase or use')) ?? [];
+const purchaseChecks = data.editorial?.purchaseChecks.length ? data.editorial.purchaseChecks : research?.unverifiedClaims ?? [];
 const related = (await getVisibleProducts()).filter((candidate) => data.relatedProducts.includes(candidate.id));
 const productJson = Astro.site ? productStructuredData(product, Astro.site) : undefined;
 const breadcrumbs = {
@@ -40,7 +43,8 @@ const breadcrumbs = {
   <article class="container section stack">
     <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />
 
-    {!indexable && <p class="notice"><strong>Not public.</strong> {releasePreview ? 'Editorial preview — publication checks are pending. This profile is not a public recommendation.' : `Status: ${data.reviewStatus}. This page is hidden from search engines and excluded from production builds until all publication requirements are met.`}</p>}
+    {!indexable && <p class="notice"><strong>Informational profile — verification in progress.</strong> Product identity, Canadian listing and safety documentation have not all been confirmed. This is not a hands-on review, certification claim or purchase recommendation. Buying links are not active.</p>}
+    {caution && <aside class="notice product-caution" aria-label="Important product limitation"><strong>{caution}</strong></aside>}
 
     <p class="label">{categoryLabel(data.category)} · {data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
     <h1>{data.name}</h1>
@@ -62,7 +66,7 @@ const breadcrumbs = {
     {data.description && <section><h2>Overview</h2><p>{data.description}</p></section>}
 
     <section>
-      <h2>Specifications</h2>
+      <h2>Documented specifications</h2>
       {data.specs.length === 0 ? <p class="empty">No verified specifications yet.</p> : (
         <div class="table-wrap" tabindex="0" role="region" aria-label={`${data.name} specifications`}><table><caption class="visually-hidden">Documented specifications for {data.name}</caption><tbody>
           {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={s.source}>Source</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}
@@ -75,7 +79,7 @@ const breadcrumbs = {
       <div><h2>Limitations</h2>{data.cons.length ? <ul>{data.cons.map((x) => <li>{x}</li>)}</ul> : <p class="empty">Not yet assessed.</p>}</div>
     </section>
 
-    {data.useCases.length > 0 && <section><h2>Suitable use cases</h2><ul>{data.useCases.map((x) => <li>{x}</li>)}</ul></section>}
+    {data.useCases.length > 0 && <section><h2>Potential uses and conditions</h2><ul>{data.useCases.map((x) => <li>{x}</li>)}</ul></section>}
 
     {research && <>
       <section aria-labelledby="evidence"><h2 id="evidence">What the sources confirm</h2>
@@ -83,7 +87,7 @@ const breadcrumbs = {
         <ul>{research.confirmed.map((fact) => <li>{fact.text}{' '}{fact.sourceIds.map((id, index) => <>{index > 0 && ', '}<a href={`#source-${id}`}>Source {data.sources.findIndex((source) => source.id === id) + 1}</a></>)}</li>)}</ul>
       </section>
       {purchaseChecks.length > 0 && <section><h2>What to check before buying</h2><ul>{purchaseChecks.map((claim) => <li>{claim}</li>)}</ul></section>}
-      {research.safetyNotes.length > 0 && <section><h2>Safety and compatibility notes</h2><ul>{research.safetyNotes.map((note) => <li>{note}</li>)}</ul></section>}
+      {safetyNotes.length > 0 && <section><h2>Safety and compatibility notes</h2><ul>{safetyNotes.map((note) => <li>{note}</li>)}</ul></section>}
       {showInternalReview && research.publicationBlockers.length > 0 && <section class="notice" aria-labelledby="publication"><h2 id="publication">Before this can be published</h2><ul>{research.publicationBlockers.map((blocker) => <li>{blocker}</li>)}</ul></section>}
     </>}
 
@@ -96,11 +100,11 @@ const breadcrumbs = {
       <h2 id="buy">Where to buy</h2>
       <DisclosureNotice />
       {data.merchant?.notes && showInternalReview && <p>{data.merchant.notes}</p>}
-      {(indexable || releasePreview) ? (availableLinks.length ? <p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p> : <p>Retailer links are not available for this profile.</p>) : <p class="buttons">{links.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p>}
+      {availableLinks.length ? <><p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p>{!availableLinks.some((link) => link.href) && <p>Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.</p>}</> : <p>Retailer links are not available for this profile.</p>}
     </section>
 
-    {related.length > 0 && !releasePreview && <section aria-labelledby="related"><h2 id="related">{indexable ? 'Related gear' : 'Related research drafts'}</h2>
-      {!indexable && <p>Related research is shown for editorial review. Draft entries are not public recommendations.</p>}
+    {related.length > 0 && !releasePreview && <section aria-labelledby="related"><h2 id="related">Related equipment profiles</h2>
+      {!indexable && <p>These reference profiles describe documented features and unresolved limitations. They are not purchase recommendations.</p>}
       <div class="grid grid--3">{related.map((candidate) => <ProductCard product={candidate} />)}</div>
     </section>}
   </article>

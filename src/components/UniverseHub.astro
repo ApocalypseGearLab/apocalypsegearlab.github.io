@@ -31,17 +31,17 @@ const products = (await getProductsByUniverse(id)).filter((product) => !releaseP
       <div class="notice"><p class="label">Sourcing</p><p>{universe.sourcingNote}</p></div>
     </header>
 
-    <section class="section" aria-labelledby="topics">
+    {products.length === 0 && <section class="section" aria-labelledby="topics">
       <h2 id="topics">Planned topics</h2>
       <p>These topics are on the editorial roadmap. A topic becomes a link only when its page is complete.</p>
       <ul class="topics">
         {categories.map((c) => <li class="panel"><span>{c.label}</span> <span class="badge">Planned</span></li>)}
       </ul>
-    </section>
+    </section>}
 
     <section class="section" aria-labelledby="gear">
       <h2 id="gear">Gear in this sector</h2>
-      {releasePreview && <p class="notice">Editorial preview — publication checks are pending. These profiles are not public recommendations.</p>}
+      {products.some((product) => !product.data.research?.publicationApproved) && <p class="notice">Informational product profiles only. Canadian models and safety documentation are still being reviewed; no buying links or independent test claims.</p>}
       {products.length === 0 ? (
         <p class="empty">No published reviews yet. Recommendations appear here after editorial research and affiliate disclosure.</p>
       ) : (

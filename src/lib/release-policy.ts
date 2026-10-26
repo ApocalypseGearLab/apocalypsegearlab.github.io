@@ -14,7 +14,7 @@ export function mandatoryHold(product: Product): string | undefined {
   return RELEASE_HOLDS[product.id] ?? HELD_ASINS[product.data.links.amazonCa.asin ?? ''];
 }
 
-/** Editorial eligibility is separate from image rights and Associates enrollment. */
+/** Commercial approval is separate from informational visibility and image rights. */
 export function publicationIssues(product: Product): string[] {
   const issues: string[] = [];
   const hold = mandatoryHold(product);
@@ -28,6 +28,23 @@ export function publicationIssues(product: Product): string[] {
   return [...new Set(issues)];
 }
 
-export function isPublicProduct(product: Product): boolean {
+export function isCommerciallyApproved(product: Product): boolean {
   return product.data.reviewStatus === 'published' && publicationIssues(product).length === 0;
+}
+
+/** An explicit editorial choice, independent of all commercial/safety holds. */
+export function isInformationalProduct(product: Product): boolean {
+  return product.data.visibility === 'informational' && product.data.reviewStatus !== 'template';
+}
+
+export function isPubliclyVisible(product: Product): boolean {
+  return isInformationalProduct(product) || isCommerciallyApproved(product);
+}
+
+export function productCaution(product: Product): string | undefined {
+  const asin = product.data.links.amazonCa.asin;
+  if (product.id === 'kidde-c3010-co-alarm' || asin === 'B00FHW7PBS') return 'Canadian certification unconfirmed. The US C3010 designation does not establish C3010-CA equivalence. Do not select this listing for a Canadian installation without the actual certification label and Canadian instructions.';
+  if (product.id === 'iniu-p62-20000mah-65w' || asin === 'B0DB888L9F') return 'Safety verification incomplete. The exact P62 revision, cable configuration and Canadian safety evidence remain unverified. This profile does not establish the safety of the listed unit or recommend its purchase.';
+  if (product.id === 'jackery-explorer-300' || asin === 'B082TMBYR6') return 'Legacy model identity unresolved. Capacity and regional voltage revision have not been matched to the listing. Do not transfer specifications or SolarSaga 100 Air compatibility from a newer Explorer model.';
+  return undefined;
 }
