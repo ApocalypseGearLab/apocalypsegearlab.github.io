@@ -34,13 +34,13 @@ for (const { slug, data } of drafts) {
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
       if (width === 375 || width === 1440) {
-        mkdirSync('.tools/qa/phase4', { recursive: true });
+        mkdirSync('.tools/qa/phase4-1', { recursive: true });
         for (const image of await page.locator('main img').all()) {
           await image.scrollIntoViewIfNeeded();
           await image.evaluate((img:HTMLImageElement)=>img.decode());
         }
         await page.evaluate(() => scrollTo({top:0,behavior:'instant'}));
-        await page.screenshot({ path: `.tools/qa/phase4/${slug}-${width}.png`, fullPage: true });
+        await page.screenshot({ path: `.tools/qa/phase4-1/${slug}-${width}.png`, fullPage: true });
       }
     }
     expect(errors).toEqual([]);
@@ -58,7 +58,7 @@ test('public catalogues expose fourteen profiles in their correct sectors', asyn
   for (const route of ['/blackout/', '/fallout/', '/gear/']) {
     const sector = route === '/gear/' ? null : route.slice(1,-1);
     const selected = drafts.filter(({data}) => !sector || (['water','first-aid','tools','shelter'].includes(data.category) ? 'fallout' : 'blackout') === sector);
-    const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 3 : 11;
+    const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 5 : 13;
     await page.goto(route);
     await expect(page.locator('article.card')).toHaveCount(selected.length);
     await expect(page.locator('.neutral-media')).toHaveCount(selected.length-images);
@@ -73,9 +73,9 @@ test('public catalogues expose fourteen profiles in their correct sectors', asyn
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
       expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
       if ([375,1440].includes(width)) {
-        mkdirSync('.tools/qa/phase4', {recursive:true});
+        mkdirSync('.tools/qa/phase4-1', {recursive:true});
         await page.evaluate(() => scrollTo({top:0,behavior:'instant'}));
-        await page.screenshot({path:`.tools/qa/phase4/${route === '/gear/' ? 'catalogue' : sector}-${width}.png`,fullPage:true});
+        await page.screenshot({path:`.tools/qa/phase4-1/${route === '/gear/' ? 'catalogue' : sector}-${width}.png`,fullPage:true});
       }
     }
     if (route === '/gear/') {

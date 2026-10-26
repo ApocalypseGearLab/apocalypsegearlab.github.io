@@ -1,5 +1,5 @@
 ---
-import { SITE, NAV, AMAZON_ASSOCIATE_ENROLLED, AMAZON_ASSOCIATE_STATEMENT } from '../config/site';
+import { SITE, NAV, AMAZON_CA_LINKING_ENABLED, AMAZON_ASSOCIATE_STATEMENT } from '../config/site';
 const year = new Date().getFullYear();
 ---
 
@@ -8,7 +8,7 @@ const year = new Date().getFullYear();
     <div>
       <p class="label">{SITE.name}</p>
       <p class="small">Independent preparedness research. Product recommendations are published only after editorial research.</p>
-      {AMAZON_ASSOCIATE_ENROLLED && <p class="small">{AMAZON_ASSOCIATE_STATEMENT}</p>}
+      {AMAZON_CA_LINKING_ENABLED && <p class="small">{AMAZON_ASSOCIATE_STATEMENT}</p>}
     </div>
     <nav aria-label="Footer">
       <ul>

@@ -135,7 +135,6 @@
     "safetyStatus": "blocked",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication."
     ]

@@ -6,7 +6,7 @@ const importedMedia = JSON.parse(readFileSync('src/data/media/imported-manifest.
 
 const widths = [320, 375, 768, 1024, 1440, 1920];
 
-test('supplied SEO WebPs are delivered unchanged only for the eleven reviewed product mappings', async ({ request, page }) => {
+test('supplied SEO WebPs are delivered unchanged only for the thirteen reviewed product mappings', async ({ request, page }) => {
   for(const asset of importedMedia){
     const response=await request.get(asset.deliverySrc);
     expect(response.status()).toBe(canPublishImportedAsset(asset)?200:404);

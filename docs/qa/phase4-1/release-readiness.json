@@ -1,0 +1,267 @@
+{
+  "scope": "Commercial eligibility; informational visibility is independent",
+  "amazonCaLinkingEnabled": true,
+  "finalApprovalConfirmed": false,
+  "privateAccountStanding": "not-independently-confirmed",
+  "informationalVisible": 14,
+  "eligible": 0,
+  "held": 3,
+  "products": [
+    {
+      "slug": "ecoflow-river-2-pro",
+      "asin": "B0BVLPGS79",
+      "url": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm the Amazon unit model code and Canadian certification evidence.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "fenix-cl26r-pro",
+      "asin": "B0CGKWX5YT",
+      "url": "https://www.amazon.ca/dp/B0CGKWX5YT?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Match the camouflage variant and battery supplied to the manufacturer instructions.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "fenix-hm50r-v2-headlamp",
+      "asin": "B0H6R34CBL",
+      "url": "https://www.amazon.ca/dp/B0H6R34CBL?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Complete the safety and compatibility review for the delivered variant.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "asin": "B0DB888L9F",
+      "url": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Product safety or identity review pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": true,
+      "issues": [
+        "Exact-model safety verification is incomplete.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "jackery-explorer-1000-v2",
+      "asin": "B0D7PPG25F",
+      "url": "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Review the exact Canadian unit, certification labels and intended loads before publication.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "asin": "B082TMBYR6",
+      "url": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Product safety or identity review pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": true,
+      "issues": [
+        "Regional model identity, capacity and voltage must be matched to the Canadian listing.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "jackery-solarsaga-100w-air",
+      "asin": "B0FX8P4JST",
+      "url": "https://www.amazon.ca/dp/B0FX8P4JST?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "kidde-c3010-co-alarm",
+      "asin": "B00FHW7PBS",
+      "url": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Product safety or identity review pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": true,
+      "issues": [
+        "Canadian model and certification evidence are incomplete.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain manufacturer confirmation linking item 21010045 to a Canada-approved model, or retain this item unpublished.",
+        "Verify the Canadian mark on the actual product, certification file, installation instructions and applicable local requirements.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "leatherman-wave-plus-multitool",
+      "asin": "B079MJBP21",
+      "url": "https://www.amazon.ca/dp/B079MJBP21?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Complete the safety and compatibility review for the delivered variant.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "midland-er310",
+      "asin": "B015QIC1PW",
+      "url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "nanuk-904-first-aid-kit",
+      "asin": "B0G3XYHL33",
+      "url": "https://www.amazon.ca/dp/B0G3XYHL33?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Complete the safety and compatibility review for the delivered variant.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "reliance-aqua-tainer-7-gallon",
+      "asin": "B001QC31G6",
+      "url": "https://www.amazon.ca/dp/B001QC31G6?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Complete the safety and compatibility review for the delivered variant.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "sawyer-squeeze-sp129-water-filter",
+      "asin": "B00B1OSU4W",
+      "url": "https://www.amazon.ca/dp/B00B1OSU4W?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Complete the safety and compatibility review for the delivered variant.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    },
+    {
+      "slug": "sol-emergency-bivvy",
+      "asin": "B08NC9BLQ5",
+      "url": "https://www.amazon.ca/dp/B08NC9BLQ5?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Listing and safety verification pending",
+      "informationalVisible": true,
+      "eligible": false,
+      "held": false,
+      "issues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Complete the safety and compatibility review for the delivered variant.",
+        "Evidence matching the Canadian listing to the model is missing."
+      ]
+    }
+  ]
+}

@@ -67,14 +67,21 @@ try {
   const fixture = JSON.parse(readFileSync(fixturePath, 'utf8'));
   const affiliateUrl = 'https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20';
   fixture.links.amazonCa = { asin: 'B000000001', url: affiliateUrl };
+  // The same public informational draft may link after product checks, while staying noindex.
+  fixture.reviewStatus='draft'; fixture.visibility='informational';
+  fixture.research.listingEvidence={url:'https://www.amazon.ca/dp/B000000001',checkedAt:'2026-10-26',method:'live-page',matchedAsin:'B000000001',matchedModel:fixture.name,notes:'Synthetic QA evidence only; no real listing verification.'};
   writeFileSync(fixturePath, JSON.stringify(fixture));
   mkdirSync('.tools/qa/phase4', { recursive: true });
   for (const enrolled of [false, true]) {
-    writeFileSync(siteConfigPath, siteConfig.replace(/AMAZON_ASSOCIATE_ENROLLED = (true|false)/, 'AMAZON_ASSOCIATE_ENROLLED = ' + enrolled));
+    writeFileSync(siteConfigPath, siteConfig.replace(/AMAZON_CA_LINKING_ENABLED = (true|false)/, 'AMAZON_CA_LINKING_ENABLED = ' + enrolled));
     build();
     const html = readFileSync('dist/gear/qa-fixture-blackout/index.html', 'utf8');
     const $ = load(html);
     assert.equal($('a[data-affiliate-click]').length, enrolled ? 1 : 0);
+    assert.equal($('meta[name="robots"]').attr('content'),'noindex, nofollow');
+    assert.ok(!readFileSync('dist/sitemap-0.xml','utf8').includes('/gear/qa-fixture-blackout/'));
+    assert.ok(!$('script[type="application/ld+json"]').toArray().some(el=>JSON.parse($(el).text())['@type']==='Product'));
+    if(enrolled) assert.ok(!$('body').text().includes('Buying links are not active.'));
     assert.equal($('[aria-disabled="true"]').length, enrolled ? 0 : 1);
     if (enrolled) {
       const button = $('a[data-affiliate-click]');

@@ -3,7 +3,7 @@ import type { Product } from './products';
 export const RELEASE_HOLDS: Record<string, string> = {
   'kidde-c3010-co-alarm': 'Canadian model and certification evidence are incomplete.',
   'iniu-p62-20000mah-65w': 'Exact-model safety verification is incomplete.',
-  'jackery-explorer-300': 'Accurate replacement artwork and regional model verification are required.',
+  'jackery-explorer-300': 'Regional model identity, capacity and voltage must be matched to the Canadian listing.',
 };
 const HELD_ASINS: Record<string, string> = {
   B00FHW7PBS: RELEASE_HOLDS['kidde-c3010-co-alarm']!,

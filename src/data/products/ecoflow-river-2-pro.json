@@ -125,7 +125,6 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm the Amazon unit model code and Canadian certification evidence."
     ]

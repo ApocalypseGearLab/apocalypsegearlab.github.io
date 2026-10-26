@@ -46,10 +46,17 @@ export const productSchema = z.object({
     checkedAt: z.iso.date(),
     identityNotes: z.string().min(1),
     listingVerified: z.boolean().default(false),
+    listingEvidence: z.object({
+      url: httpsUrl, checkedAt: z.iso.date(),
+      method: z.enum(['live-page', 'owner-document']),
+      matchedAsin: z.string().regex(/^[A-Z0-9]{10}$/),
+      matchedModel: z.string().min(1), notes: z.string().min(1),
+    }).optional(),
     confirmed: z.array(z.object({ text: z.string().min(1), sourceIds: z.array(z.string()).min(1) })),
     unverifiedClaims: z.array(z.string()).default([]),
     safetyNotes: z.array(z.string()).default([]),
     safetyStatus: z.enum(['pending', 'blocked', 'cleared']),
+    // Completed editorial verification, not a request for the owner's general consent.
     publicationApproved: z.boolean().default(false),
     publicationBlockers: z.array(z.string()).default([]),
   }).optional(),
@@ -81,6 +88,6 @@ export const productSchema = z.object({
   if (product.reviewStatus === 'published' && product.research && (
     !product.research.publicationApproved || !product.research.listingVerified ||
     product.research.safetyStatus !== 'cleared' || product.research.publicationBlockers.length > 0
-  )) context.addIssue({ code: 'custom', path: ['reviewStatus'], message: 'Research, listing verification, safety clearance and owner approval are required before publication' });
+  )) context.addIssue({ code: 'custom', path: ['reviewStatus'], message: 'Documented research, listing verification and safety clearance are required before editorial publication' });
   if (product.visibility === 'informational' && product.reviewStatus === 'template') context.addIssue({ code: 'custom', path: ['visibility'], message: 'Templates cannot be public informational profiles' });
 });

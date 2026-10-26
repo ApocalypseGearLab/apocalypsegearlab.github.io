@@ -1,5 +1,5 @@
 ---
-import { AMAZON_ASSOCIATE_ENROLLED, AMAZON_ASSOCIATE_STATEMENT } from '../config/site';
+import { AMAZON_CA_LINKING_ENABLED, AMAZON_ASSOCIATE_STATEMENT } from '../config/site';
 ---
 
 <aside class="notice" aria-label="Affiliate disclosure">
@@ -8,5 +8,5 @@ import { AMAZON_ASSOCIATE_ENROLLED, AMAZON_ASSOCIATE_STATEMENT } from '../config
     Some links on this page may be affiliate links. If you buy through them we may earn a commission at no extra cost to you.
     Commissions never decide what we recommend. <a href="/affiliate-disclosure/">Read the full disclosure</a>.
   </p>
-  {AMAZON_ASSOCIATE_ENROLLED && <p>{AMAZON_ASSOCIATE_STATEMENT}</p>}
+  {AMAZON_CA_LINKING_ENABLED && <p>{AMAZON_ASSOCIATE_STATEMENT}</p>}
 </aside>

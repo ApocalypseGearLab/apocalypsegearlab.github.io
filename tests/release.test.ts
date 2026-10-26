@@ -31,6 +31,7 @@ test('removing the research object cannot bypass the published schema guard', ()
 });
 test('public reference visibility does not grant commercial approval or buying links', () => {
   const product = read('jackery-explorer-1000-v2');
+  assert.ok(!product.data.research!.publicationBlockers.includes('Owner approval to publish is pending.'), 'The owner has already authorized this work');
   assert.ok(publicationIssues(product).length);
   assert.equal(isCommerciallyApproved(product), false);
   assert.equal(isPubliclyVisible(product), true);
@@ -38,7 +39,13 @@ test('public reference visibility does not grant commercial approval or buying l
   const simulated = { ...product, data: { ...product.data, reviewStatus: 'published', research: { ...product.data.research!, listingVerified: true, publicationApproved: true, safetyStatus: 'cleared', publicationBlockers: [] } } } as Product;
   assert.equal(isCommerciallyApproved(simulated), true);
   assert.equal(getMerchantLinks(simulated, false)[0]?.href, null);
-  assert.equal(getMerchantLinks(simulated, true)[0]?.href, product.data.links.amazonCa.url);
+  assert.equal(getMerchantLinks(simulated, true)[0]?.href, null, 'Approval flags cannot substitute for listing evidence');
+  simulated.data.research!.listingEvidence={url:'https://www.amazon.ca/dp/'+product.data.links.amazonCa.asin,checkedAt:'2026-10-26',method:'owner-document',matchedAsin:product.data.links.amazonCa.asin!,matchedModel:product.data.modelNumber ?? product.data.name,notes:'Synthetic evidence used only in the unit test.'};
+  assert.equal(getMerchantLinks(simulated,true)[0]?.href,product.data.links.amazonCa.url);
+  simulated.data.reviewStatus='draft';
+  assert.equal(isCommerciallyApproved(simulated),false);
+  assert.equal(productStructuredData(simulated,new URL('https://apocalypsegearlab.github.io')),undefined);
+  assert.ok(getMerchantLinks(simulated,true)[0]?.href, 'Informational linking does not require search indexation');
 });
 
 test('all eight selected profiles are public references, including held products with prominent cautions', () => {

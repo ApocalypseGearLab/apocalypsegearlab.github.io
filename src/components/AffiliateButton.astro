@@ -1,6 +1,6 @@
 ---
 import { AFFILIATE_REL, type MerchantLink } from '../lib/affiliate';
-import { AMAZON_ASSOCIATE_ENROLLED } from '../config/site';
+import { AMAZON_CA_LINKING_ENABLED } from '../config/site';
 
 interface Props { link: MerchantLink; productId: string }
 const { link, productId } = Astro.props;
@@ -18,7 +18,7 @@ const { link, productId } = Astro.props;
     data-marketplace={link.marketplace}
   >{link.label} <span class="visually-hidden">(affiliate link, opens in a new tab)</span></a>
 ) : (
-  <span class="btn btn--pending" role="link" aria-disabled="true">{link.label}<span class="label">{link.unavailableReason ?? (link.marketplace !== 'other' && !AMAZON_ASSOCIATE_ENROLLED ? 'Affiliate eligibility unconfirmed' : 'Listing verification pending')}</span></span>
+  <span class="btn btn--pending" role="link" aria-disabled="true">{link.label}<span class="label">{link.unavailableReason ?? (link.marketplace !== 'other' && !AMAZON_CA_LINKING_ENABLED ? 'Affiliate eligibility unconfirmed' : 'Listing verification pending')}</span></span>
 )}
 
 <style>

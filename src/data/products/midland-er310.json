@@ -122,7 +122,6 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation."
     ]

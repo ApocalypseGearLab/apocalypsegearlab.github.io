@@ -2,8 +2,12 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { resolve, relative, sep } from 'node:path';
 import { load } from 'cheerio';
+import { spawnSync } from 'node:child_process';
 import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
 
+const policy = spawnSync(process.execPath, [resolve('node_modules/tsx/dist/cli.mjs'), 'scripts/release-check.ts'], {encoding:'utf8'});
+assert.equal(policy.status,0,policy.stderr);
+const commercialState = new Map(JSON.parse(policy.stdout).products.map(row=>[row.slug,row]));
 const root = resolve('dist');
 assert.ok(existsSync(root), 'Run npm run build first');
 const site = 'https://apocalypsegearlab.github.io';
@@ -89,6 +93,9 @@ for(const asset of suppliedMedia) {
   assert.equal(existsSync(fileFor(asset.deliverySrc)),permitted,`Supplied image delivery mismatch: ${asset.id}`);
   if(permitted) assert.deepEqual(readFileSync(fileFor(asset.deliverySrc)),readFileSync(asset.file),'Supplied WebP must not be recompressed');
 }
+const supersededAqua='/images/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp';
+assert.ok(!existsSync(fileFor(supersededAqua)), 'The superseded Aqua-Tainer illustration must not be delivered');
+for(const artifact of textArtifacts) assert.ok(!artifact.text.includes(supersededAqua), 'Superseded artwork URL leaked into production');
 for (const asset of mediaManifest.assets) {
   const permitted = asset.id === 'hero' ? heroAllowed : mediaReview.rightsStatus === 'confirmed-by-owner' && mediaReview.assets[asset.id]?.accuracyStatus === 'reviewed-illustration';
   for (const variant of asset.variants) if (variant.src) assert.equal(existsSync(fileFor(variant.src)), permitted, `Artwork delivery permission mismatch: ${variant.src}`);
@@ -118,7 +125,8 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
   assert.equal(existsSync(fileFor(`/gear/${slug}/`)), visible, `Informational visibility mismatch: ${slug}`);
   if (product.reviewStatus !== 'published') {
     const asin = product.links?.amazonCa?.asin;
-    if (asin) for (const artifact of textArtifacts) assert.ok(!artifact.text.includes(asin), `Unverified ASIN leaked into ${artifact.name}`);
+    const affiliateEligible=commercialState.get(slug)?.amazonCaActive===true;
+    if (asin && !affiliateEligible) for (const artifact of textArtifacts) assert.ok(!artifact.text.includes(asin), `Unverified ASIN leaked into ${artifact.name}`);
     assert.ok(![...urls].some((url) => new URL(url).pathname === `/gear/${slug}/`), `Unapproved profile in sitemap: ${slug}`);
     if (!visible) for (const [htmlFile, document] of documents) {
       assert.ok(!document('a').toArray().some((node) => document(node).attr('href') === `/gear/${slug}/`), `Held draft linked from ${htmlFile}`);
@@ -127,11 +135,11 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
     if (visible) {
       const document = documents.get(fileFor(`/gear/${slug}/`));
       assert.ok(document('meta[name="robots"]').attr('content')?.includes('noindex'), `Unapproved profile must be noindex: ${slug}`);
-      assert.equal(document('a[data-affiliate-click]').length, 0, `No affiliate links before approval: ${slug}`);
+      assert.equal(document('a[data-affiliate-click]').length, affiliateEligible ? 1 : 0, `No affiliate links before approval: ${slug}`);
       const artwork = suppliedMedia.find(asset => asset.productId === slug);
       assert.equal(document('.product-artwork--detail img').length, artwork && canPublishImportedAsset(artwork) ? 1 : 0, `Approved image mapping: ${slug}`);
       if(artwork && canPublishImportedAsset(artwork)) assert.equal(document('.product-artwork--detail img').attr('src'),artwork.deliverySrc);
-      assert.equal(document('[aria-disabled="true"]').length, 1, `Prepare one disabled Amazon.ca button: ${slug}`);
+      assert.equal(document('[aria-disabled="true"]').length, affiliateEligible ? 0 : 1, `Prepare one disabled Amazon.ca button: ${slug}`);
       assert.ok(!/Before this can be published|Related research drafts|Owner approval|Owner-selected|Not public\./i.test(document('body').text()), `Internal workflow in profile: ${slug}`);
       for (const route of ['/gear/', `/${universeFor(product.category)}/`]) assert.equal(documents.get(fileFor(route))(`article.card a[href="/gear/${slug}/"]`).length, 1, `Missing informational card in ${route}: ${slug}`);
     }

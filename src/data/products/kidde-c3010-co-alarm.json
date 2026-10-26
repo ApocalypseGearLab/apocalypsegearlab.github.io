@@ -133,7 +133,6 @@
     "safetyStatus": "blocked",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Obtain manufacturer confirmation linking item 21010045 to a Canada-approved model, or retain this item unpublished.",
       "Verify the Canadian mark on the actual product, certification file, installation instructions and applicable local requirements."

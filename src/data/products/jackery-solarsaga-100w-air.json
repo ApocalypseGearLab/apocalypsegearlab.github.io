@@ -150,7 +150,6 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable."
     ]

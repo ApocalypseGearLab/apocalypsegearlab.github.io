@@ -59,21 +59,53 @@
       "category": "fallout",
       "productId": "leatherman-wave-plus-multitool",
       "usage": "current-product",
-      "sourceOriginalName": "Multitool Leatherman futuriste sous néons rouges(1).png",
+      "sourceOriginalName": "Multi-outil en acier sous interface rouge.png",
       "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
       "deliverySrc": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
       "width": 1254,
       "height": 1254,
-      "bytes": 240496,
-      "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d",
-      "alt": "Concept illustration of Leatherman Wave+ multi-tool in a red inventory frame",
+      "bytes": 176614,
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da",
+      "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "rejected",
-      "reviewNote": "Unsuitable for commercial publication: deployed scissors, small driver and opener shapes/proportions are distorted compared with the official Wave Plus implement layout. Exact geometry cannot be corrected reliably without altering the source. Preserve file privately and use neutral artwork.",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with the complete official Wave Plus deployed-tool photo: pliers/cutters, outer blades/saw/file, scissors, fine driver, bit driver and opener arrangement agree in general form. This corrects the previous assessment made from an incomplete reference. Silver finish preserved. Concept art does not authenticate a package or exact dimensions.",
       "references": [
-        "https://www.leatherman.com/products/wave"
+        "https://www.leatherman.com/products/wave",
+        "https://www.leatherman.com/cdn/shop/files/wave_20260402201902_5dib.jpg?v=1777562829&width=1200"
       ],
-      "reviewedAt": "2026-10-25"
+      "reviewedAt": "2026-10-26",
+      "replacement": {
+        "phase": "4.1",
+        "source": {
+          "filename": "Multi-outil en acier sous interface rouge.png",
+          "bytes": 2166870,
+          "sha256": "e737dc1e2b0da07151ffb397c32391f35a0912391c7bf8175b034dc055d3f52e",
+          "width": 1254,
+          "height": 1254
+        },
+        "encoding": {
+          "format": "webp",
+          "quality": 83,
+          "effort": 6,
+          "resize": false,
+          "recolor": false
+        },
+        "previous": {
+          "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+          "bytes": 240496,
+          "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d",
+          "accuracyStatus": "rejected",
+          "originalFile": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp"
+        },
+        "reviewCsv": "assets/media/phase4-1-image-manifest.csv",
+        "provenance": {
+          "confirmedAt": "2026-10-26",
+          "status": "confirmed-by-owner",
+          "statement": "The owner confirms these three PNG illustrations were created for ApocalypseGearLab without unauthorized reproduction of third-party photographs and authorizes commercial use.",
+          "scope": "Only the three Phase 4.1 replacements; no product or Amazon account approval."
+        }
+      }
     },
     {
       "id": "sawyer-squeeze-sp129-water-filter-fallout",
@@ -124,21 +156,53 @@
       "category": "fallout",
       "productId": "reliance-aqua-tainer-7-gallon",
       "usage": "current-product",
-      "sourceOriginalName": "Bidon d’eau Aqua-Tainer bleu rétroéclairé(1).png",
-      "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
-      "deliverySrc": "/images/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "sourceOriginalName": "Jerrican Aqua-Tainer dans un halo rouge sci-fi.png",
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "deliverySrc": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
       "width": 1254,
       "height": 1254,
-      "bytes": 206064,
-      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
-      "alt": "Concept illustration of Reliance Aqua-Tainer 7-gallon water container in a red inventory frame",
+      "bytes": 204054,
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476",
+      "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "rejected",
-      "reviewNote": "Unsuitable for commercial publication: side copy is malformed and includes an unverified 22.7 kg / 50 lb marking, while the face invents a 5-year warranty claim not established by the reviewed source. The manufacturer currently labels the 7G model 26 L; the illustration says 26.5 L. No capacity or warranty evidence is taken from this artwork. Use a neutral placeholder.",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Blue 7G container, red caps and handle match the manufacturer family. The previous 22.7 kg / 50 lb side marking is absent. Reliance confirms a five-year limited warranty; the earlier objection to that marking is withdrawn. Seven US gallons is about 26.5 L; 26 L on the current page is rounding, not a different capacity. Fine print is illustrative, not an authenticated label. Exact Amazon variant remains unverified.",
       "references": [
-        "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"
+        "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+        "https://relianceoutdoors.com/pages/warranty-coverage"
       ],
-      "reviewedAt": "2026-10-25"
+      "reviewedAt": "2026-10-26",
+      "replacement": {
+        "phase": "4.1",
+        "source": {
+          "filename": "Jerrican Aqua-Tainer dans un halo rouge sci-fi.png",
+          "bytes": 2173121,
+          "sha256": "888de58351a76f6bdfcf0013db92a615134a760d18103d87e83fe9bd511e9ad7",
+          "width": 1254,
+          "height": 1254
+        },
+        "encoding": {
+          "format": "webp",
+          "quality": 83,
+          "effort": 6,
+          "resize": false,
+          "recolor": false
+        },
+        "previous": {
+          "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+          "bytes": 206064,
+          "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
+          "accuracyStatus": "rejected",
+          "originalFile": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp"
+        },
+        "reviewCsv": "assets/media/phase4-1-image-manifest.csv",
+        "provenance": {
+          "confirmedAt": "2026-10-26",
+          "status": "confirmed-by-owner",
+          "statement": "The owner confirms these three PNG illustrations were created for ApocalypseGearLab without unauthorized reproduction of third-party photographs and authorizes commercial use.",
+          "scope": "Only the three Phase 4.1 replacements; no product or Amazon account approval."
+        }
+      }
     },
     {
       "id": "midland-er310-emergency-radio-blackout",
@@ -165,20 +229,52 @@
       "category": "blackout",
       "productId": "jackery-explorer-300",
       "usage": "current-product",
-      "sourceOriginalName": "Station d’énergie Jackery Explorer 300 futuriste(2).png",
+      "sourceOriginalName": "Jackery Explorer 300 en lumière ambre.png",
       "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
       "deliverySrc": "/images/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
       "width": 1254,
       "height": 1254,
-      "bytes": 190232,
-      "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883",
-      "alt": "Concept illustration of a black and orange Jackery Explorer 300 power station",
+      "bytes": 168652,
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba",
+      "alt": "Concept illustration of Jackery Explorer 300 with an inaccurate control panel in an amber frame",
       "rightsStatus": "confirmed-by-owner",
       "accuracyStatus": "rejected",
-      "reviewNote": "Rejected: the artwork still shows USB-C 100 W instead of the documented 60 W, USB-A 15 W, a circular screen graphic and POWER label. This is not a corrected replacement.",
+      "reviewNote": "USB-C 100 W and USB-A 15 W markings remain incompatible with the legacy Explorer 300 documentation (60 W USB-C and 12 W USB-A). Circular screen and POWER label also remain unresolved. Do not publish this replacement.",
       "references": [
         "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information"
-      ]
+      ],
+      "reviewedAt": "2026-10-26",
+      "replacement": {
+        "phase": "4.1",
+        "source": {
+          "filename": "Jackery Explorer 300 en lumière ambre.png",
+          "bytes": 2194352,
+          "sha256": "147aed5b2727484731d52fd5a4396982f860a13c0c3f0e526162144bb4d25bb6",
+          "width": 1254,
+          "height": 1254
+        },
+        "encoding": {
+          "format": "webp",
+          "quality": 83,
+          "effort": 6,
+          "resize": false,
+          "recolor": false
+        },
+        "previous": {
+          "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+          "bytes": 190232,
+          "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883",
+          "accuracyStatus": "rejected",
+          "originalFile": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp"
+        },
+        "reviewCsv": "assets/media/phase4-1-image-manifest.csv",
+        "provenance": {
+          "confirmedAt": "2026-10-26",
+          "status": "confirmed-by-owner",
+          "statement": "The owner confirms these three PNG illustrations were created for ApocalypseGearLab without unauthorized reproduction of third-party photographs and authorizes commercial use.",
+          "scope": "Only the three Phase 4.1 replacements; no product or Amazon account approval."
+        }
+      }
     },
     {
       "id": "iniu-p62-20000mah-power-bank-blackout",

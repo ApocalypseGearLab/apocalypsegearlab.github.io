@@ -121,7 +121,6 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Match the camouflage variant and battery supplied to the manufacturer instructions."
     ]
