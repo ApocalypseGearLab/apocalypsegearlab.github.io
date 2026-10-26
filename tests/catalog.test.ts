@@ -16,11 +16,17 @@ const expected = {
   'jackery-solarsaga-100w-air': ['B0FX8P4JST', 'solar'],
   'kidde-c3010-co-alarm': ['B00FHW7PBS', 'home-outage-planning'],
   'iniu-p62-20000mah-65w': ['B0DB888L9F', 'battery-banks'],
+  'fenix-hm50r-v2-headlamp': ['B0H6R34CBL', 'lighting'],
+  'sawyer-squeeze-sp129-water-filter': ['B00B1OSU4W', 'water'],
+  'reliance-aqua-tainer-7-gallon': ['B001QC31G6', 'water'],
+  'nanuk-904-first-aid-kit': ['B0G3XYHL33', 'first-aid'],
+  'leatherman-wave-plus-multitool': ['B079MJBP21', 'tools'],
+  'sol-emergency-bivvy': ['B08NC9BLQ5', 'shelter'],
 } as const;
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
 
-test('eight selected records retain exact ASIN and commercial draft state with informational visibility', () => {
+test('fourteen selected records retain exact ASIN and commercial draft state with informational visibility', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -29,7 +35,7 @@ test('eight selected records retain exact ASIN and commercial draft state with i
     assert.equal(data.links.amazonCa.url, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
     assert.equal(new URL(data.links.amazonCa.url!).searchParams.getAll('tag').length, 1);
     assert.equal(data.category, category);
-    assert.equal(categoryUniverse(data.category), 'blackout');
+    assert.equal(categoryUniverse(data.category), ['water','first-aid','tools','shelter'].includes(category) ? 'fallout' : 'blackout');
     assert.equal(data.testing, 'not-tested');
     assert.equal(data.reviewStatus, 'draft');
     assert.equal(data.visibility, 'informational');
@@ -67,7 +73,7 @@ test('slugs, ASINs and related records are unique and refer to existing products
       assert.ok(rawProducts.has(related), `${slug} -> ${related}`);
     }
   }
-  assert.equal(asins.size, 8);
+  assert.equal(asins.size, 14);
 });
 
 test('Kidde and INIU remain blocked and cannot be published by changing only editorial status', () => {
@@ -112,4 +118,32 @@ test('approved Product structured data contains identity only, without invented 
   assert.equal(data.url, `${site.origin}/gear/jackery-explorer-1000-v2/`);
   assert.equal(data.model, 'JE-1000D');
   for (const key of ['offers', 'review', 'aggregateRating', 'image', 'award']) assert.ok(!(key in data));
+});
+
+
+test('Canadian ASIN links reject foreign tags, duplicate tags and extra tracking', () => {
+  const raw = structuredClone(rawProducts.get('nanuk-904-first-aid-kit'));
+  for (const query of ['tag=wrong-20', 'tag=apocalypsegear-20&tag=apocalypsegear-20', 'tag=apocalypsegear-20&ref=extra']) {
+    const links = { ...raw.links, amazonCa: { ...raw.links.amazonCa, url: 'https://www.amazon.ca/dp/B0G3XYHL33?' + query } };
+    assert.equal(productSchema.safeParse({ ...raw, links }).success, false);
+  }
+});
+
+test('Phase 4 has nine BLACKOUT and five FALLOUT profiles with substantive original content', () => {
+  const products = [...rawProducts].filter(([,raw]) => raw.visibility === 'informational');
+  assert.equal(products.length, 14);
+  const universes = products.map(([,raw]) => categoryUniverse(productSchema.parse(raw).category));
+  assert.equal(universes.filter(id => id === 'blackout').length, 9);
+  assert.equal(universes.filter(id => id === 'fallout').length, 5);
+  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size, 14);
+  assert.equal(new Set(products.map(([,raw]) => raw.description)).size, 14);
+  for (const id of ['fenix-hm50r-v2-headlamp','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','nanuk-904-first-aid-kit','leatherman-wave-plus-multitool','sol-emergency-bivvy']) {
+    const raw = rawProducts.get(id);
+    assert.ok(raw.editorial.purchaseChecks.length >= 3, id);
+    assert.ok(raw.pros.length >= 2 && raw.cons.length >= 3 && raw.useCases.length >= 2, id);
+    assert.ok(raw.research.safetyNotes.length >= 3, id);
+  }
+  assert.match(rawProducts.get('sawyer-squeeze-sp129-water-filter').research.safetyNotes.join(' '), /viruses.*chemicals.*radioactive/);
+  assert.match(rawProducts.get('nanuk-904-first-aid-kit').specs.map((s:any)=>s.value).join(' '), /109 and 110/);
+  assert.match(rawProducts.get('sol-emergency-bivvy').research.safetyNotes.join(' '), /temperature rating/);
 });

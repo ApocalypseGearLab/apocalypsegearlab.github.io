@@ -50,3 +50,15 @@ test('null links stay pending and partner links require credential-free HTTPS', 
 test('affiliate relations disclose sponsorship and isolate the new tab', () => {
   for (const rel of ['sponsored', 'nofollow', 'noopener']) assert.ok(AFFILIATE_REL.split(' ').includes(rel));
 });
+
+
+test('commercially approved ASIN links still require the exact Canadian model path and tag', () => {
+  const url = 'https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20';
+  const approved = product(url);
+  approved.data.links.amazonCa.asin = 'B000000001';
+  assert.equal(getMerchantLinks(approved, true)[0]?.href, url);
+  for (const invalid of [url.replace('B000000001','B000000002'),url.replace('apocalypsegear-20','wrong-20'),url+'&tag=wrong-20',url+'&ref=extra']) {
+    const changed = structuredClone(approved); changed.data.links.amazonCa.url = invalid;
+    assert.equal(getMerchantLinks(changed,true)[0]?.href,null);
+  }
+});

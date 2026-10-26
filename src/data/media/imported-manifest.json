@@ -14,8 +14,8 @@
     {
       "id": "fenix-hm50r-v2-headlamp-blackout",
       "category": "blackout",
-      "productId": null,
-      "usage": "future-phase",
+      "productId": "fenix-hm50r-v2-headlamp",
+      "usage": "current-product",
       "sourceOriginalName": "Lampe frontale Fenix HM50R futuriste(1).png",
       "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
       "deliverySrc": "/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
@@ -23,17 +23,21 @@
       "height": 1254,
       "bytes": 237356,
       "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2",
-      "alt": "Concept illustration of Fenix Hm50R V2 Headlamp in a amber inventory frame",
+      "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "pending-review",
-      "reviewNote": "Additional headlamp, not the CL26R Pro lantern and not one of the eight existing products. Model/variant comparison is deferred; no ninth product is created.",
-      "references": []
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with the official Fenix Lighting HM50R V2.0 image: black detachable right-angle body, end switch, clip and black/orange strap agree. The body marking HM50R also appears in the official V2 image. Rendered microtext is not a revision, LED or battery specification.",
+      "references": [
+        "https://www.fenixlight.com/product/hm50r-v2-0/",
+        "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp"
+      ],
+      "reviewedAt": "2026-10-25"
     },
     {
       "id": "sol-emergency-bivvy-survival-shelter-fallout",
       "category": "fallout",
-      "productId": null,
-      "usage": "future-phase",
+      "productId": "sol-emergency-bivvy",
+      "usage": "current-product",
       "sourceOriginalName": "Kit de survie d’urgence sous néons rouges(1).png",
       "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
       "deliverySrc": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
@@ -41,17 +45,20 @@
       "height": 1254,
       "bytes": 315398,
       "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b",
-      "alt": "Concept illustration of Sol Emergency Bivvy Survival Shelter in a red inventory frame",
+      "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "pending-review",
-      "reviewNote": "Reserved for Phase 4. Packaging photo, thermal text, whistle and cord claims require model/package review; not evidence of shelter performance.",
-      "references": []
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with official orange standard Emergency Bivvy packaging and product photos. Orange reflective bag, package family and whistle/cord agree in general appearance. Depicted packaging and 90% text are not independent thermal evidence or a temperature rating.",
+      "references": [
+        "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+      ],
+      "reviewedAt": "2026-10-25"
     },
     {
       "id": "leatherman-wave-plus-multitool-fallout",
       "category": "fallout",
-      "productId": null,
-      "usage": "future-phase",
+      "productId": "leatherman-wave-plus-multitool",
+      "usage": "current-product",
       "sourceOriginalName": "Multitool Leatherman futuriste sous néons rouges(1).png",
       "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
       "deliverySrc": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
@@ -59,17 +66,20 @@
       "height": 1254,
       "bytes": 240496,
       "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d",
-      "alt": "Concept illustration of Leatherman Wave Plus Multitool in a red inventory frame",
+      "alt": "Concept illustration of Leatherman Wave+ multi-tool in a red inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "pending-review",
-      "reviewNote": "Reserved for Phase 4. Tool geometry, deployed implements and etched model text require comparison against official Wave Plus references.",
-      "references": []
+      "accuracyStatus": "rejected",
+      "reviewNote": "Unsuitable for commercial publication: deployed scissors, small driver and opener shapes/proportions are distorted compared with the official Wave Plus implement layout. Exact geometry cannot be corrected reliably without altering the source. Preserve file privately and use neutral artwork.",
+      "references": [
+        "https://www.leatherman.com/products/wave"
+      ],
+      "reviewedAt": "2026-10-25"
     },
     {
       "id": "sawyer-squeeze-sp129-water-filter-fallout",
       "category": "fallout",
-      "productId": null,
-      "usage": "future-phase",
+      "productId": "sawyer-squeeze-sp129-water-filter",
+      "usage": "current-product",
       "sourceOriginalName": "Filtre Sawyer dans une ambiance sci-fi rouge(1).png",
       "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
       "deliverySrc": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
@@ -77,17 +87,21 @@
       "height": 1254,
       "bytes": 214632,
       "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede",
-      "alt": "Concept illustration of Sawyer Squeeze Sp129 Water Filter in a red inventory frame",
+      "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "pending-review",
-      "reviewNote": "Reserved for Phase 4. SP129 identifier and exact accessory bundle cannot be established from this scene alone; filtration claims are not authenticated.",
-      "references": []
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with Sawyer Squeeze component photo: black filter with blue branding, pouches, syringe, tubing and mesh bag are consistent with the documented family. This conceptual arrangement does not establish the current SP129 Canadian accessory inventory or filtration performance.",
+      "references": [
+        "https://www.sawyer.com/product/squeeze-water-filter-system",
+        "https://help.sawyer.com/retail/filtration"
+      ],
+      "reviewedAt": "2026-10-25"
     },
     {
       "id": "nanuk-904-first-aid-kit-fallout",
       "category": "fallout",
-      "productId": null,
-      "usage": "future-phase",
+      "productId": "nanuk-904-first-aid-kit",
+      "usage": "current-product",
       "sourceOriginalName": "Kit médical de survie futuriste rouge(1).png",
       "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
       "deliverySrc": "/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
@@ -95,17 +109,21 @@
       "height": 1254,
       "bytes": 313204,
       "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d",
-      "alt": "Concept illustration of Nanuk 904 First Aid Kit in a red inventory frame",
+      "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "pending-review",
-      "reviewNote": "Reserved for Phase 4. Rendered medical contents and printed instructions are not an authenticated inventory or medical guidance.",
-      "references": []
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with official red 904 filled-kit photographs and USA sheet: hard case, handle, latches, lid organizer and divided fill agree in general appearance. Contents are illustrative; exact count, sterile supplies and Canadian package are unverified and explicitly qualified on the profile.",
+      "references": [
+        "https://nanuk.com/products/nanuk-904-first-aid-kit",
+        "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+      ],
+      "reviewedAt": "2026-10-25"
     },
     {
       "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
       "category": "fallout",
-      "productId": null,
-      "usage": "future-phase",
+      "productId": "reliance-aqua-tainer-7-gallon",
+      "usage": "current-product",
       "sourceOriginalName": "Bidon d’eau Aqua-Tainer bleu rétroéclairé(1).png",
       "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
       "deliverySrc": "/images/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
@@ -113,11 +131,14 @@
       "height": 1254,
       "bytes": 206064,
       "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
-      "alt": "Concept illustration of Reliance Aqua Tainer 7 Gallon Water Container in a red inventory frame",
+      "alt": "Concept illustration of Reliance Aqua-Tainer 7-gallon water container in a red inventory frame",
       "rightsStatus": "confirmed-by-owner",
-      "accuracyStatus": "pending-review",
-      "reviewNote": "Reserved for Phase 4. Blue product colour preserved. Rendered label text includes ambiguous volume markings; capacity, spigot and exact model need verification.",
-      "references": []
+      "accuracyStatus": "rejected",
+      "reviewNote": "Unsuitable for commercial publication: side copy is malformed and includes an unverified 22.7 kg / 50 lb marking, while the face invents a 5-year warranty claim not established by the reviewed source. The manufacturer currently labels the 7G model 26 L; the illustration says 26.5 L. No capacity or warranty evidence is taken from this artwork. Use a neutral placeholder.",
+      "references": [
+        "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"
+      ],
+      "reviewedAt": "2026-10-25"
     },
     {
       "id": "midland-er310-emergency-radio-blackout",

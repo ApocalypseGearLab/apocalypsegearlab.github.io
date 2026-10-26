@@ -1,0 +1,132 @@
+{
+  "name": "Fenix HM50R V2.0 rechargeable headlamp",
+  "brand": "Fenix",
+  "modelNumber": "HM50R V2.0",
+  "category": "lighting",
+  "summary": "A compact rechargeable headlamp for hands-free outage tasks, with white and red light and a removable lamp body. Battery revision and Canadian listing remain to be matched.",
+  "description": "When the lights fail, a headlamp leaves both hands free to find supplies, read a panel label or move through a familiar room. The HM50R V2.0 suits that role more naturally than broad room lighting. Keep a separate area light for shared spaces and plan charging before an outage. Choose the setting needed for the task rather than treating peak output as an all-night operating level.",
+  "specs": [
+    {
+      "label": "Maximum white output",
+      "value": "700 lumens advertised; not a sustained-output measurement",
+      "source": "https://www.fenixlight.com/product/hm50r-v2-0/"
+    },
+    {
+      "label": "Power",
+      "value": "One rechargeable 16340 Li-ion cell",
+      "source": "https://www.fenixlight.com/product/hm50r-v2-0/"
+    },
+    {
+      "label": "Charging",
+      "value": "USB Type-C port on the lamp",
+      "source": "https://www.fenixlight.com/product/hm50r-v2-0/"
+    },
+    {
+      "label": "Light options",
+      "value": "White and red light; detachable lamp body",
+      "source": "https://www.fenixlight.com/product/hm50r-v2-0/"
+    },
+    {
+      "label": "Dimensions",
+      "value": "64 × 36 × 32 mm, per Fenix Lighting USA",
+      "source": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp"
+    },
+    {
+      "label": "Model variation",
+      "value": "Battery bundle, LED, beam range and weight differ between current manufacturer pages; exact revision unresolved",
+      "source": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp"
+    }
+  ],
+  "pros": [
+    "Keeps both hands available for low-light tasks.",
+    "A detachable body can serve as a small handheld light."
+  ],
+  "cons": [
+    "A personal beam does not replace a room lantern.",
+    "High output introduces heat and shorter operating time.",
+    "Manufacturer pages differ on the included cell and some performance figures; do not mix revisions."
+  ],
+  "useCases": [
+    "Read a household emergency checklist while keeping hands available.",
+    "Inspect supplies in a dark storage area; carry independent backup lighting."
+  ],
+  "sources": [
+    {
+      "id": "fenix-hm50r",
+      "title": "Fenix HM50R V2.0 specifications and safety FAQ",
+      "url": "https://www.fenixlight.com/product/hm50r-v2-0/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "fenix-hm50r-us",
+      "title": "Fenix Lighting USA HM50R V2.0 specifications and battery instructions",
+      "url": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "fenix-cl26r-pro",
+    "jackery-explorer-300"
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm HM50R V2.0, the actual included protected cell and the matching manual.",
+      "Compare manufacturer revision details before relying on beam distance, runtime or weight.",
+      "Check strap fit, charging cover and lockout instructions before adding it to a kit."
+    ]
+  },
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0H6R34CBL?tag=apocalypsegear-20",
+      "asin": "B0H6R34CBL"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-25",
+    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Fenix identifies a 700-lumen, USB-C rechargeable, detachable headlamp with white and red lighting.",
+        "sourceIds": [
+          "fenix-hm50r"
+        ]
+      },
+      {
+        "text": "The US and global pages differ on battery and performance details; a revision match is still necessary.",
+        "sourceIds": [
+          "fenix-hm50r",
+          "fenix-hm50r-us"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current Canadian ASIN, included battery and LED revision are not independently matched."
+    ],
+    "safetyNotes": [
+      "Do not stare into the beam or direct it toward other people.",
+      "Use the specified protected cell and charging instructions for the delivered revision; never recharge a primary cell.",
+      "Lock out the lamp for transport and keep a hot lamp away from combustible material."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Verify the current Canadian listing and exact model/package.",
+      "Complete the safety and compatibility review for the delivered variant."
+    ]
+  }
+}

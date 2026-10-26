@@ -1,8 +1,9 @@
 ---
 import type { Product } from '../lib/products';
-import { categoryLabel } from '../config/taxonomy';
+import { UNIVERSES } from '../config/site';
+import { categoryLabel, categoryUniverse } from '../config/taxonomy';
 import ProductImage from './ProductImage.astro';
-import { productMedia } from '../lib/media';
+import { importedArtwork, canPublishImportedAsset } from '../lib/imported-media';
 import { isCommerciallyApproved, productCaution } from '../lib/release-policy';
 
 interface Props { product: Product; headingLevel?: 2 | 3; releasePreview?: boolean }
@@ -10,12 +11,14 @@ const { product, headingLevel = 3, releasePreview = false } = Astro.props;
 const Heading = headingLevel === 2 ? 'h2' : 'h3';
 const { data } = product;
 const isPublished = isCommerciallyApproved(product);
-const artwork = productMedia(product.id);
+const universe = UNIVERSES[categoryUniverse(data.category)];
+const artwork = importedArtwork(product.id);
+const illustrated = artwork && canPublishImportedAsset(artwork);
 ---
 
-<article class:list={['panel', 'card', { 'card--illustrated': artwork }]}>
+<article class:list={['panel', 'card', { 'card--illustrated': illustrated }]} data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : '#F5A623'}`}>
   <ProductImage slug={product.id} label={categoryLabel(data.category)} releasePreview={releasePreview} />
-  <p class="label">{categoryLabel(data.category)}</p>
+  <p class="label">{universe.name} · {categoryLabel(data.category)}</p>
   <Heading><a href={`${releasePreview ? '/review' : ''}/gear/${product.id}/`}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
   <p>{data.summary}</p>
@@ -26,11 +29,10 @@ const artwork = productMedia(product.id);
 <style>
   .card :is(h2, h3) { margin-bottom: var(--s-2); font-size: var(--fs-1); }
   .card :is(h2, h3) a { color: var(--c-text); text-decoration: none; }
-  .card :is(h2, h3) a:hover { color: var(--c-amber); }
-  .card--illustrated { --c-amber: #f5a623; }
+  .card :is(h2, h3) a:hover { color: var(--accent); }
   .card--illustrated::before, .card--illustrated::after { display: none; }
-  .card--illustrated:focus-within { border-color: #f5a623; }
-  @media (hover: hover) { .card--illustrated:hover { border-color: #f5a623; } }
+  .card--illustrated:focus-within { border-color: var(--accent); }
+  @media (hover: hover) { .card--illustrated:hover { border-color: var(--accent); } }
   .brand { color: var(--c-muted); font-size: 0.9rem; }
-  .card-caution { font-size: 0.9rem; border-left: 2px solid #f5a623; padding-left: var(--s-3); }
+  .card-caution { font-size: 0.9rem; border-left: 2px solid var(--accent); padding-left: var(--s-3); }
 </style>

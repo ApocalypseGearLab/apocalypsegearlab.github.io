@@ -64,6 +64,9 @@ export const productSchema = z.object({
     if (!link.asin || !link.url) continue;
     const url = new URL(link.url);
     if (url.hostname === 'amzn.to') continue;
+    if (marketplace === 'amazonCa' && (url.searchParams.get('tag') !== 'apocalypsegear-20' || [...url.searchParams.keys()].length !== 1 || url.hash)) {
+      context.addIssue({ code: 'custom', path: ['links', marketplace], message: 'Canadian links require the unique apocalypsegear-20 tag and no extra tracking parameters' });
+    }
     const host = marketplace === 'amazonCa' ? 'amazon.ca' : 'amazon.com';
     if (!['https:'].includes(url.protocol) || url.username || url.password || !(url.hostname === host || url.hostname.endsWith(`.${host}`)) || url.pathname !== `/dp/${link.asin}`) {
       context.addIssue({ code: 'custom', path: ['links', marketplace], message: 'Amazon marketplace URL must match its ASIN and domain' });

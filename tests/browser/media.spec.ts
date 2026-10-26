@@ -6,7 +6,7 @@ const importedMedia = JSON.parse(readFileSync('src/data/media/imported-manifest.
 
 const widths = [320, 375, 768, 1024, 1440, 1920];
 
-test('supplied SEO WebPs are delivered unchanged only for the seven reviewed product mappings', async ({ request, page }) => {
+test('supplied SEO WebPs are delivered unchanged only for the eleven reviewed product mappings', async ({ request, page }) => {
   for(const asset of importedMedia){
     const response=await request.get(asset.deliverySrc);
     expect(response.status()).toBe(canPublishImportedAsset(asset)?200:404);
@@ -88,7 +88,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
     // Exclude Astro's development UI from site screenshots, without changing site content.
     await page.addStyleTag({ content: 'astro-dev-toolbar { display: none !important; }' });
     const images = page.locator('.product-artwork img');
-    await expect(images).toHaveCount(7);
+    await expect(images).toHaveCount(8);
     const rejected = page.locator('article.card').filter({ has: page.locator('a[href="/gear/jackery-explorer-300/"]') });
     await expect(rejected.locator('img')).toHaveCount(0);
     await expect(rejected.locator('.neutral-media')).toHaveCount(1);
@@ -108,7 +108,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
       expect(actual.alt).toMatch(/^Concept illustration/);
       sources.push(actual.src);
     }
-    expect(new Set(sources).size).toBe(7);
+    expect(new Set(sources).size).toBe(8);
     await page.locator('article.card a').first().focus();
     expect(await page.locator('article.card a').first().evaluate((link) => getComputedStyle(link).outlineStyle)).toBe('solid');
     await page.locator('article.card a').first().evaluate((link: HTMLElement) => link.blur());

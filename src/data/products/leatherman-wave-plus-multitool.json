@@ -1,0 +1,137 @@
+{
+  "name": "Leatherman Wave+ multi-tool",
+  "brand": "Leatherman",
+  "modelNumber": "Wave Plus",
+  "category": "tools",
+  "summary": "An 18-function folding multi-tool for small repairs and kit maintenance. Match the finish and included accessories, and use suitable tools for electrical or high-load work.",
+  "description": "A multi-tool can cover small jobs when a full toolbox is not available: opening packaging, trimming cord or adjusting a compatible fastener. The Wave+ combines several implements in a compact frame, but it does not replace correctly sized workshop tools. Choose the functions needed in your kit, practice opening and closing them safely and check the transport rules for its blades.",
+  "specs": [
+    {
+      "label": "Functions",
+      "value": "18 listed tools, including pliers, blades, files and bit drivers",
+      "source": "https://www.leatherman.com/products/wave"
+    },
+    {
+      "label": "Closed length",
+      "value": "4 inches advertised",
+      "source": "https://www.leatherman.com/products/wave"
+    },
+    {
+      "label": "Weight",
+      "value": "8.5 oz (approximately 241 g), without assuming accessory weight",
+      "source": "https://www.leatherman-japan.com/wp/wp-content/uploads/2022/04/Leatherman-2022-Digital-Catalog.pdf"
+    },
+    {
+      "label": "Primary blade",
+      "value": "420HC stainless steel; 2.92 inches on the current product page",
+      "source": "https://www.leatherman.com/products/wave"
+    },
+    {
+      "label": "Wire cutters",
+      "value": "Replaceable wire-cutter inserts; not insulated for energized work",
+      "source": "https://www.leatherman.com/products/wave"
+    },
+    {
+      "label": "Package variation",
+      "value": "Finish, sheath and additional bits must be checked separately",
+      "source": "https://www.leatherman.com/products/wave"
+    }
+  ],
+  "pros": [
+    "Several small repair functions share one carrying format.",
+    "Replaceable cutter inserts allow a worn component to be serviced."
+  ],
+  "cons": [
+    "Compact handles and implements offer less leverage than dedicated tools.",
+    "Blades require careful handling and may be subject to transport restrictions.",
+    "Finish and accessory bundles vary; a sheath or extra bits cannot be assumed."
+  ],
+  "useCases": [
+    "Adjust a compatible fastener on non-powered equipment during kit maintenance.",
+    "Prepare packaging or cord with the correct implement, stable footing and safe hand position."
+  ],
+  "sources": [
+    {
+      "id": "leatherman-wave",
+      "title": "Leatherman Wave Plus current specifications and tool list",
+      "url": "https://www.leatherman.com/products/wave",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "leatherman-catalogue",
+      "title": "Leatherman 2022 manufacturer catalogue — Wave Plus specifications",
+      "url": "https://www.leatherman-japan.com/wp/wp-content/uploads/2022/04/Leatherman-2022-Digital-Catalog.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canada-kit",
+      "title": "Government of Canada emergency kit checklist",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "fenix-hm50r-v2-headlamp",
+    "nanuk-904-first-aid-kit"
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm Wave Plus rather than the original Wave or Wave Alpha.",
+      "Match stainless or black finish and verify whether a sheath or extra bits are included.",
+      "Check local carry and transport rules and inspect tool locks before use."
+    ]
+  },
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B079MJBP21?tag=apocalypsegear-20",
+      "asin": "B079MJBP21"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-25",
+    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Leatherman lists 18 tools, replaceable wire cutters and a four-inch closed length for Wave Plus.",
+        "sourceIds": [
+          "leatherman-wave"
+        ]
+      },
+      {
+        "text": "The manufacturer catalogue lists 241 g; package accessories must be checked separately.",
+        "sourceIds": [
+          "leatherman-catalogue"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Canadian seller, finish, sheath and bit package are not independently matched to the ASIN."
+    ],
+    "safetyNotes": [
+      "Never use this non-insulated tool on energized electrical circuits.",
+      "Keep fingers clear of folding implements; close and lock tools according to the instructions.",
+      "Use the correct tool for the load; do not improvise prying or other high-force applications."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Verify the current Canadian listing and exact model/package.",
+      "Complete the safety and compatibility review for the delivered variant."
+    ]
+  }
+}

@@ -13,6 +13,7 @@ export const CATEGORIES = [
   { id: 'evacuation-bags', label: 'Emergency evacuation bags', universe: 'fallout' },
   { id: 'water', label: 'Water storage and purification', universe: 'fallout' },
   { id: 'food', label: 'Emergency food supplies', universe: 'fallout' },
+  { id: 'tools', label: 'Emergency repair tools', universe: 'fallout' },
   { id: 'first-aid', label: 'First aid supplies', universe: 'fallout' },
   { id: 'shelter', label: 'Emergency shelter', universe: 'fallout' },
   { id: 'protective-equipment', label: 'Protective equipment', universe: 'fallout' },

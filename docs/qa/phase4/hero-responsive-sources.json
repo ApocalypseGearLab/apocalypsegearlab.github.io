@@ -1,0 +1,44 @@
+[
+  {
+    "viewport": 320,
+    "width": 320,
+    "height": 180.09375,
+    "src": "http://127.0.0.1:4321/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+    "fit": "contain"
+  },
+  {
+    "viewport": 375,
+    "width": 375,
+    "height": 211.046875,
+    "src": "http://127.0.0.1:4321/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+    "fit": "contain"
+  },
+  {
+    "viewport": 768,
+    "width": 768,
+    "height": 432.21875,
+    "src": "http://127.0.0.1:4321/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+    "fit": "contain"
+  },
+  {
+    "viewport": 1024,
+    "width": 1024,
+    "height": 576.296875,
+    "src": "http://127.0.0.1:4321/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+    "fit": "contain"
+  },
+  {
+    "viewport": 1440,
+    "width": 1440,
+    "height": 810.421875,
+    "src": "http://127.0.0.1:4321/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+    "fit": "contain"
+  },
+  {
+    "viewport": 1920,
+    "width": 1920,
+    "height": 1080.5625,
+    "src": "http://127.0.0.1:4321/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+    "fit": "contain"
+  }
+]

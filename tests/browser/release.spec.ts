@@ -21,7 +21,7 @@ test('production restores the authorized bunker while excluding product artwork,
   }
   for (const route of ['/review/gear/', '/review/blackout/']) expect((await request.get(route)).status()).toBe(404);
   await page.goto('/gear/?view=release');
-  await expect(page.locator('article.card')).toHaveCount(8);
+  await expect(page.locator('article.card')).toHaveCount(14);
   await expect(page.locator('a[data-affiliate-click]')).toHaveCount(0);
   for (const slug of candidates) {
     await page.goto(`/gear/${slug}/`);
@@ -43,15 +43,15 @@ test('production restores the authorized bunker while excluding product artwork,
   }
 });
 
-test('five candidate previews use approved illustrations and exclude commercial holds', async ({ page }) => {
+test('BLACKOUT candidate previews use reviewed illustrations and exclude commercial holds', async ({ page }) => {
   mkdirSync('.tools/qa/phase-3-5', { recursive: true });
-  for (const route of ['/blackout/', '/gear/']) {
+  for (const route of ['/blackout/']) {
     await page.goto(`http://127.0.0.1:4322/review${route}`);
     await page.addStyleTag({ content: 'astro-dev-toolbar { display: none !important; }' });
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
-    await expect(page.locator('article.card')).toHaveCount(5);
+    await expect(page.locator('article.card')).toHaveCount(6);
     await expect(page.locator('.neutral-media')).toHaveCount(0);
-    await expect(page.locator('article.card img')).toHaveCount(5);
+    await expect(page.locator('article.card img')).toHaveCount(6);
     for (const slug of held) await expect(page.locator(`a[href*="/gear/${slug}/"]`)).toHaveCount(0);
     for (const slug of candidates) await expect(page.locator(`a[href="/review/gear/${slug}/"]`)).toHaveCount(1);
     for (const width of widths) {
