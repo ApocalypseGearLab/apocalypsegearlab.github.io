@@ -14,11 +14,11 @@
     {
       "label": "Bottle connection",
       "value": "Standard 28 mm bottle threads; check a secure fit",
-      "source": "https://www.sawyer.com/product/squeeze-water-filter-system"
+      "source": "https://help.sawyer.com/retail/products/squeeze-water-filter"
     },
     {
       "label": "Filter mass",
-      "value": "Approximately 3 oz for the filter, not the full kit",
+      "value": "Filter-only mass is not established for this Canadian listing; do not equate the manufacturer page’s kit weight with filter-only weight",
       "source": "https://www.sawyer.com/product/squeeze-water-filter-system"
     },
     {
@@ -63,6 +63,12 @@
       "title": "Health Canada drinking-water incident and avoidance advisories",
       "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidance-providing-safe-drinking-water-areas-federal-jurisdiction-version-3.html",
       "kind": "official-safety"
+    },
+    {
+      "id": "sawyer-squeeze-care",
+      "title": "Sawyer Squeeze instructions, compatibility and freeze-damage guidance",
+      "url": "https://help.sawyer.com/retail/products/squeeze-water-filter",
+      "kind": "manufacturer"
     }
   ],
   "relatedProducts": [
@@ -80,7 +86,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+    "notes": "Documentary model review completed. The exact Canadian ASIN and package remain unverified; the retailer link stays disabled until that identity is documented."
   },
   "links": {
     "amazonCa": {
@@ -98,8 +104,8 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-25",
-    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "checkedAt": "2026-10-26",
+    "identityNotes": "Manufacturer-model editorial and safety documentation reviewed on 2026-10-26. Clearance covers the documented model and its stated limitations only. It does not verify the Canadian ASIN, seller, supplied accessories or delivered condition, and is not certification or hands-on testing.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -129,11 +135,21 @@
       "Sawyer advises replacement after suspected freezing of a wetted filter or other damage; apparent flow is not an integrity test.",
       "Prevent contact between untreated water and the clean outlet or collection container. Follow local drinking-water advisories."
     ],
-    "safetyStatus": "pending",
-    "publicationApproved": false,
+    "safetyStatus": "cleared",
+    "publicationApproved": true,
     "publicationBlockers": [
-      "Verify the current Canadian listing and exact model/package.",
-      "Complete the safety and compatibility review for the delivered variant."
-    ]
+      "Match the Canadian ASIN to SP129 and its current pouch/adapter inventory; do not substitute MINI, Micro Squeeze or another kit."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00B1OSU4W",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted after documentary model review, with virus/chemical/radiological and freeze-damage limitations retained. The Canadian bundle and seller remain unverified.",
+      "sourceIds": [
+        "sawyer-squeeze",
+        "sawyer-care",
+        "sawyer-squeeze-care"
+      ]
+    }
   }
 }

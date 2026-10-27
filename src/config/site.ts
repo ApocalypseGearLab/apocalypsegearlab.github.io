@@ -9,13 +9,16 @@ export const SITE = {
 } as const;
 
 /**
- * Set to true ONLY after confirming active Canadian Associates participation,
- * the site's authorization and the Canadian tracking ID. Final application
- * review is distinct from permission to participate during the initial period.
- * Verify the exact required wording against the current Associates Program
- * Operating Agreement before enabling.
+ * Initial-period linking requested by the owner with a declared Canadian site,
+ * accessible account and a tracking tag recognized by Amazon's Link Checker.
+ * Final review is not a prerequisite for initial-period Special Links.
+ * This operational switch is NOT independent verification of private account
+ * standing or final approval. Disable immediately for a known closure,
+ * rejection or suspension. Per-product link review and concrete safety holds
+ * remain mandatory; an active URL does not claim that its listing is verified.
  */
-export const AMAZON_ASSOCIATE_ENROLLED = false;
+export const AMAZON_CA_LINKING_ENABLED = true;
+export const AMAZON_CA_FINAL_APPROVAL_CONFIRMED = false;
 export const AMAZON_ASSOCIATE_STATEMENT = 'As an Amazon Associate I earn from qualifying purchases.';
 
 export const NAV = [

@@ -4,12 +4,12 @@ import { readFileSync } from 'node:fs';
 test('actual Astro affiliate markup supports active and pending states without sending Amazon traffic', async ({ page, context }) => {
   // test:products renders these components with a synthetic approved fixture,
   // then restores the real account configuration and rebuilds actual data.
-  // No click or navigation to Amazon is performed.
+  // Every Amazon navigation is fulfilled locally; no affiliate traffic is sent.
   const externalRequests: string[] = [];
   await context.route('**/*', async route => {
     if (new URL(route.request().url()).hostname.endsWith('amazon.ca')) {
       externalRequests.push(route.request().url());
-      await route.abort();
+      await route.fulfill({ status: 200, contentType: 'text/html', body: '<!doctype html><html lang="en"><title>Simulated retailer</title><h1>Simulated retailer destination</h1></html>' });
     } else await route.continue();
   });
   for (const state of ['pending', 'active']) {
@@ -24,6 +24,13 @@ test('actual Astro affiliate markup supports active and pending states without s
       await button.focus();
       await expect(button).toBeFocused();
       await expect(page.getByRole('complementary', { name: 'Affiliate disclosure' })).toContainText('As an Amazon Associate I earn from qualifying purchases.');
+      const popupPromise = context.waitForEvent('page');
+      await page.keyboard.press('Enter');
+      const popup = await popupPromise;
+      await expect(popup).toHaveURL('https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20');
+      await expect(popup.getByRole('heading', { name: 'Simulated retailer destination' })).toBeVisible();
+      expect(await popup.evaluate(() => window.opener === null)).toBe(true);
+      await popup.close();
     } else {
       await expect(button).toHaveAttribute('aria-disabled', 'true');
       await expect(button).not.toHaveAttribute('href');
@@ -33,5 +40,5 @@ test('actual Astro affiliate markup supports active and pending states without s
       await expect(button).not.toBeFocused();
     }
   }
-  expect(externalRequests).toEqual([]);
+  expect(externalRequests).toEqual(['https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20']);
 });

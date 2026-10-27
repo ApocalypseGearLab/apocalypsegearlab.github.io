@@ -87,7 +87,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+    "notes": "The Canadian page representation retrieved on 2026-10-26 contains selected-ASIN metadata B0D2HX1ZS9 rather than the stored B0BVLPGS79. The exact selected Canadian model remains unresolved."
   },
   "links": {
     "amazonCa": {
@@ -104,7 +104,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-24",
+    "checkedAt": "2026-10-26",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
     "listingVerified": false,
     "confirmed": [
@@ -116,7 +116,8 @@
       }
     ],
     "unverifiedClaims": [
-      "No claim that X-Boost supplies 1600 W of normal continuous AC power."
+      "No claim that X-Boost supplies 1600 W of normal continuous AC power.",
+      "A matching RIVER 2 Pro title alone does not prove that the stored ASIN selects the intended Canadian variant."
     ],
     "safetyNotes": [
       "The Health Canada recall reviewed concerns DELTA Max 2000 / EFD310, not RIVER 2 Pro. It does not establish recall status for every EcoFlow product.",
@@ -125,10 +126,19 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
-      "Confirm the Amazon unit model code and Canadian certification evidence."
-    ]
+      "Confirm the Amazon unit model code and Canadian certification evidence.",
+      "The retrieved Canadian product page contains selected-ASIN metadata B0D2HX1ZS9, different from the stored B0BVLPGS79. Resolve the parent/child or regional listing mapping before activating this URL."
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B0BVLPGS79",
+      "checkedAt": "2026-10-26",
+      "reason": "The retrieved page for B0BVLPGS79 contains selected-ASIN B0D2HX1ZS9. Resolve this concrete listing identity conflict before enabling the recorded link.",
+      "sourceIds": [
+        "ecoflow-ca"
+      ]
+    }
   },
   "editorial": {
     "purchaseChecks": [

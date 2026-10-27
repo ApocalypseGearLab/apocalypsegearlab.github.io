@@ -1,0 +1,166 @@
+{
+  "baselineCommit": "13d7260cfd7db0ae8b3bcf5b0ddb2433286664a3",
+  "unchangedProductIllustrations": [
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc",
+      "unchanged": true
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977",
+      "unchanged": true
+    }
+  ],
+  "unchangedBunkerVariants": [
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+      "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6",
+      "unchanged": true
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+      "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb",
+      "unchanged": true
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+      "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277",
+      "unchanged": true
+    }
+  ],
+  "replacements": [
+    {
+      "productId": "leatherman-wave-plus-multitool",
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "bytes": 176614,
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da",
+      "status": "reviewed-illustration",
+      "rights": "confirmed-by-owner",
+      "source": {
+        "filename": "Multi-outil en acier sous interface rouge.png",
+        "bytes": 2166870,
+        "sha256": "e737dc1e2b0da07151ffb397c32391f35a0912391c7bf8175b034dc055d3f52e",
+        "width": 1254,
+        "height": 1254
+      },
+      "previous": {
+        "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+        "bytes": 240496,
+        "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d",
+        "accuracyStatus": "rejected",
+        "originalFile": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "resize": false,
+        "recolor": false
+      }
+    },
+    {
+      "productId": "reliance-aqua-tainer-7-gallon",
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "bytes": 204054,
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476",
+      "status": "reviewed-illustration",
+      "rights": "confirmed-by-owner",
+      "source": {
+        "filename": "Jerrican Aqua-Tainer dans un halo rouge sci-fi.png",
+        "bytes": 2173121,
+        "sha256": "888de58351a76f6bdfcf0013db92a615134a760d18103d87e83fe9bd511e9ad7",
+        "width": 1254,
+        "height": 1254
+      },
+      "previous": {
+        "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+        "bytes": 206064,
+        "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
+        "accuracyStatus": "rejected",
+        "originalFile": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "resize": false,
+        "recolor": false
+      }
+    },
+    {
+      "productId": "jackery-explorer-300",
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "bytes": 168652,
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba",
+      "status": "rejected",
+      "rights": "confirmed-by-owner",
+      "source": {
+        "filename": "Jackery Explorer 300 en lumière ambre.png",
+        "bytes": 2194352,
+        "sha256": "147aed5b2727484731d52fd5a4396982f860a13c0c3f0e526162144bb4d25bb6",
+        "width": 1254,
+        "height": 1254
+      },
+      "previous": {
+        "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+        "bytes": 190232,
+        "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883",
+        "accuracyStatus": "rejected",
+        "originalFile": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "resize": false,
+        "recolor": false
+      }
+    }
+  ]
+}

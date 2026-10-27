@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-26",
+  "environment": {
+    "node": "22.23.4",
+    "npm": "10.9.9",
+    "os": "Windows",
+    "browser": "Playwright Chromium"
+  },
+  "astroCheck": {
+    "files": 56,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unitTests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "productTests": {
+    "result": "passed",
+    "includes": [
+      "Three temporary published product routes",
+      "Informational draft with verified synthetic listing and active initial-period link",
+      "Account-off state",
+      "Exact ASIN/tag/disclosure/new-tab attributes",
+      "Real product holds",
+      "Fixture cleanup and real production rebuild",
+      "A verified informational draft card no longer claims Verification pending"
+    ]
+  },
+  "mediaTests": {
+    "result": "passed",
+    "currentMappings": 14,
+    "permittedImages": 13,
+    "rejectedImages": 1,
+    "otherProductImagesPreserved": 11,
+    "bunkerVariantsPreserved": 3
+  },
+  "productionBuild": {
+    "result": "passed",
+    "htmlPages": 21,
+    "visibleProductProfiles": 14
+  },
+  "siteValidation": {
+    "result": "passed",
+    "internalReferences": 526,
+    "sitemapUrls": 5
+  },
+  "browserTests": {
+    "passed": 38,
+    "failed": 0,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "accessibility": "No axe violations for WCAG A/AA and 2.1 AA tags on tested routes",
+    "externalNavigation": "One synthetic ASIN popup navigation fulfilled locally; no affiliate traffic sent"
+  },
+  "commercialRelease": {
+    "actualActiveButtons": 0,
+    "caSystemPrepared": true,
+    "finalAccountApprovalConfirmed": false
+  },
+  "limitations": [
+    "No physical product tests",
+    "No independent private Amazon account verification",
+    "No usable Amazon.ca listing identities returned",
+    "No Safari, Firefox or real-device test",
+    "Automated axe checks do not establish exhaustive WCAG conformance",
+    "No Lighthouse or field Core Web Vitals score claimed"
+  ],
+  "finalTargetedBrowserTests": {
+    "passed": 16,
+    "failed": 0,
+    "scope": "After informational-card label correction: affiliate popup, 14 profiles and all catalogues"
+  }
+}

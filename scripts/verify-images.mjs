@@ -27,10 +27,8 @@ for (const asset of manifest.assets) {
   assert.equal(asset.modelVerified, false);
   if (asset.id !== 'hero') {
     const product = JSON.parse(await readFile(`src/data/products/${asset.id}.json`, 'utf8'));
-    assert.equal(product.reviewStatus, 'draft');
-    assert.equal(product.research.listingVerified, false);
-    assert.equal(product.research.publicationApproved, false);
-    assert.notEqual(product.research.safetyStatus, 'cleared');
+    // Media permissions must not freeze independent product approval states.
+    assert.match(product.links.amazonCa.asin, /^[A-Z0-9]{10}$/);
     assert.deepEqual(asset.variants.map((variant) => variant.width), [480, 960]);
   } else assert.deepEqual(asset.variants.map((variant) => variant.width), [768, 1280, 1672]);
   for (const variant of asset.variants) {
@@ -61,13 +59,13 @@ for (const asset of manifest.assets) {
 assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) => path.slice('/images/'.length)).sort());
 assert.equal(paths.size, 17);
 assert.equal((await readdir('assets/rejected/blackout')).length, 2);
-console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and draft controls passed. Delivery permissions are checked against dist by test:site.`);
+console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and source mapping controls passed. Delivery permissions are checked against dist by test:site.`);
 
 const supplied=JSON.parse(await readFile('src/data/media/imported-manifest.json','utf8'));
 assert.equal(supplied.provenance.status,'confirmed-by-owner');
 assert.equal(supplied.assets.length,14);
 assert.equal(supplied.assets.filter(asset=>asset.productId).length,14);
-assert.equal(supplied.assets.filter(canPublishImportedAsset).length,11);
+assert.equal(supplied.assets.filter(canPublishImportedAsset).length,13);
 assert.equal(supplied.assets.filter(asset=>asset.category==='fallout').length,5);
 assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,9);
 assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,14);
@@ -78,7 +76,18 @@ const csv=await readFile(supplied.csv,'utf8');
 for(const asset of supplied.assets){
   assert.match(asset.file,/^assets\/media\/(blackout|fallout)\/[a-z0-9-]+\.webp$/);
   assert.equal(asset.deliverySrc,asset.file.replace('assets/media/','/images/'));
-  assert.ok(csv.includes(asset.file.replace('assets/media/','')));
+  const mappingCsv=asset.replacement ? await readFile(asset.replacement.reviewCsv,'utf8') : csv;
+  assert.ok(mappingCsv.includes(asset.file.replace('assets/media/','')));
+  if(asset.replacement){
+    const previous=asset.replacement.previous;
+    const archived=await readFile(previous.file);
+    assert.equal(archived.length,previous.bytes);
+    assert.equal(createHash('sha256').update(archived).digest('hex'),previous.sha256);
+    assert.equal(asset.replacement.provenance.status,'confirmed-by-owner');
+    assert.equal(asset.replacement.encoding.resize,false);
+    assert.equal(asset.replacement.encoding.recolor,false);
+    assert.ok(asset.bytes<asset.replacement.source.bytes);
+  }
   assert.equal(asset.rightsStatus,'confirmed-by-owner');
   if(asset.productId) assert.ok(productIds.includes(asset.productId));
   const bytes=await readFile(asset.file),metadata=await sharp(bytes).metadata();
@@ -89,4 +98,15 @@ for(const asset of supplied.assets){
   await sharp(bytes).raw().toBuffer();
   if(asset.productId==='jackery-explorer-300')assert.equal(asset.accuracyStatus,'rejected');
 }
-console.log('Verified all 14 imported WebPs, CSV mappings, immutable bytes, 11 approved illustrations and 3 rejected assets, all mapped to distinct products.');
+console.log('Verified all 14 imported WebPs, CSV mappings, hash-verified bytes, 13 approved illustrations and 1 rejected asset, all mapped to distinct products.');
+
+// Superseded sources are retained for traceability, never selected as fallbacks.
+assert.equal(supplied.assets.filter(asset=>asset.replacement).length,3);
+assert.deepEqual(supplied.assets.filter(asset=>!canPublishImportedAsset(asset)).map(asset=>asset.productId),['jackery-explorer-300']);
+const preservation=JSON.parse(await readFile('docs/qa/phase4-1/media-preservation.json','utf8'));
+assert.equal(preservation.unchangedProductIllustrations.length,11);
+assert.equal(preservation.unchangedBunkerVariants.length,3);
+for(const preserved of [...preservation.unchangedProductIllustrations,...preservation.unchangedBunkerVariants]) {
+  assert.equal(createHash('sha256').update(await readFile(preserved.file)).digest('hex'),preserved.sha256,`Unexpected recompression: ${preserved.file}`);
+}
+console.log('Confirmed byte-for-byte preservation of the other 11 product illustrations and all 3 bunker variants against the Phase 4.1 baseline.');

@@ -127,10 +127,19 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Owner approval to publish is pending.",
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Review the exact Canadian unit, certification labels and intended loads before publication."
-    ]
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0D7PPG25F",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded Canadian ASIN link permitted after review of documented JE-1000D limitations. No concrete listing contradiction or exact-model safety defect was established. The current listing, unit certification label and package remain independently unverified.",
+      "sourceIds": [
+        "jackery-1000-support",
+        "jackery-1000-ca"
+      ]
+    }
   },
   "editorial": {
     "purchaseChecks": [

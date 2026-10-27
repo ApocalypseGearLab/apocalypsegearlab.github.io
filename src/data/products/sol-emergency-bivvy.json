@@ -74,7 +74,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-provided ASIN and URL. Current Canadian listing was inaccessible during the 2026-10-25 audit; model, variant, seller and package are not independently verified."
+    "notes": "Documentary model review completed. The exact Canadian ASIN and package remain unverified; the retailer link stays disabled until that identity is documented."
   },
   "links": {
     "amazonCa": {
@@ -92,8 +92,8 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-25",
-    "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
+    "checkedAt": "2026-10-26",
+    "identityNotes": "Manufacturer-model editorial and safety documentation reviewed on 2026-10-26. Clearance covers the documented model and its stated limitations only. It does not verify the Canadian ASIN, seller, supplied accessories or delivered condition, and is not certification or hands-on testing.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -117,11 +117,19 @@
       "Keep the bivvy clear of the face, flames and hot equipment; allow ventilation and manage condensation.",
       "The manufacturer product page carries a California Proposition 65 warning; review the delivered packaging."
     ],
-    "safetyStatus": "pending",
-    "publicationApproved": false,
+    "safetyStatus": "cleared",
+    "publicationApproved": true,
     "publicationBlockers": [
-      "Verify the current Canadian listing and exact model/package.",
-      "Complete the safety and compatibility review for the delivered variant."
-    ]
+      "Match the Canadian ASIN to the standard 84 × 36 inch Emergency Bivvy with whistle and tinder cord, including the selected colour; do not substitute XL or Escape."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B08NC9BLQ5",
+      "checkedAt": "2026-10-26",
+      "reason": "Recorded ASIN link permitted after documentary model review. No guaranteed temperature rating or sleeping-bag equivalence is claimed. Colour, seller and supplied accessories remain unverified.",
+      "sourceIds": [
+        "sol-bivvy"
+      ]
+    }
   }
 }

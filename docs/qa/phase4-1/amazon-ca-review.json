@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-26",
+  "initialPeriodLinking": "Allowed under the programme subject to current participation and product checks; final application review is not a prerequisite.",
+  "configuration": {
+    "amazonCaLinkingEnabled": true,
+    "finalApprovalConfirmed": false,
+    "privateAccountStanding": "not-independently-confirmed"
+  },
+  "ownerConfirmed": {
+    "accountAccessible": true,
+    "siteDeclared": true,
+    "taxQuestionnaireAccepted": true,
+    "trackingId": "apocalypsegear-20",
+    "linkChecker": {
+      "checkedUrls": [
+        "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20"
+      ],
+      "scope": "Tag recognition only; not model, safety or account approval."
+    }
+  },
+  "supportReply": "The available support reply did not determine the current account status. No private correspondence or personal data is included.",
+  "remainingPrivateChecks": [
+    "Current Canadian application and initial-period dates, particularly if an earlier application expired.",
+    "No withdrawal, rejection, suspension or termination affecting the current tracking ID.",
+    "New application tracking ID if a previous application was rejected."
+  ],
+  "actualActiveButtons": 0,
+  "requiredStatement": "As an Amazon Associate I earn from qualifying purchases.",
+  "sources": [
+    "https://associates.amazon.ca/help/node/topic/G7MJTPEP9NC3YKMG",
+    "https://associates.amazon.ca/help/node/topic/G8TW5AE9XL2VX9VM",
+    "https://associates.amazon.ca/help/operating/agreement"
+  ]
+}

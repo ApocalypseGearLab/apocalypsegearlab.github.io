@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import { AMAZON_ASSOCIATE_ENROLLED, AMAZON_ASSOCIATE_STATEMENT } from '../config/site';
+import { AMAZON_CA_LINKING_ENABLED, AMAZON_ASSOCIATE_STATEMENT } from '../config/site';
 ---
 
 <BaseLayout title="Affiliate disclosure" description="How ApocalypseGearLab earns commissions from affiliate links and how that affects our editorial decisions.">
@@ -13,7 +13,7 @@ import { AMAZON_ASSOCIATE_ENROLLED, AMAZON_ASSOCIATE_STATEMENT } from '../config
     <p>Commissions do not decide which products we cover or how we rate them. Product pages state whether a product was researched from public information or physically tested, and when its details were last verified.</p>
     <h2>Prices and availability</h2>
     <p>We do not display prices, ratings or stock levels unless they come from an authorised source. Check the merchant page for current details.</p>
-    {AMAZON_ASSOCIATE_ENROLLED
+    {AMAZON_CA_LINKING_ENABLED
       ? <p>{AMAZON_ASSOCIATE_STATEMENT}</p>
       : <p class="notice">Affiliate programs are not active yet. This page will be updated when they are.</p>}
   </div>

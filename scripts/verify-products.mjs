@@ -67,14 +67,25 @@ try {
   const fixture = JSON.parse(readFileSync(fixturePath, 'utf8'));
   const affiliateUrl = 'https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20';
   fixture.links.amazonCa = { asin: 'B000000001', url: affiliateUrl };
+  // The same public informational draft may link after product checks, while staying noindex.
+  fixture.reviewStatus='draft'; fixture.visibility='informational';
+  fixture.research.listingEvidence={url:'https://www.amazon.ca/dp/B000000001',checkedAt:'2026-10-26',method:'live-page',matchedAsin:'B000000001',matchedModel:fixture.name,notes:'Synthetic QA evidence only; no real listing verification.'};
   writeFileSync(fixturePath, JSON.stringify(fixture));
   mkdirSync('.tools/qa/phase4', { recursive: true });
   for (const enrolled of [false, true]) {
-    writeFileSync(siteConfigPath, siteConfig.replace(/AMAZON_ASSOCIATE_ENROLLED = (true|false)/, 'AMAZON_ASSOCIATE_ENROLLED = ' + enrolled));
+    writeFileSync(siteConfigPath, siteConfig.replace(/AMAZON_CA_LINKING_ENABLED = (true|false)/, 'AMAZON_CA_LINKING_ENABLED = ' + enrolled));
     build();
     const html = readFileSync('dist/gear/qa-fixture-blackout/index.html', 'utf8');
     const $ = load(html);
     assert.equal($('a[data-affiliate-click]').length, enrolled ? 1 : 0);
+    assert.equal($('meta[name="robots"]').attr('content'),'noindex, nofollow');
+    const cards = load(readFileSync('dist/gear/index.html', 'utf8'));
+    const fixtureCard = cards('article.card').filter((_, el) => cards(el).find('a[href="/gear/qa-fixture-blackout/"]').length > 0);
+    assert.ok(fixtureCard.text().includes('Information only'));
+    assert.ok(!fixtureCard.text().includes('Verification pending'), 'A verified informational profile must not claim verification is pending');
+    assert.ok(!readFileSync('dist/sitemap-0.xml','utf8').includes('/gear/qa-fixture-blackout/'));
+    assert.ok(!$('script[type="application/ld+json"]').toArray().some(el=>JSON.parse($(el).text())['@type']==='Product'));
+    if(enrolled) assert.ok(!$('body').text().includes('Buying links are not active.'));
     assert.equal($('[aria-disabled="true"]').length, enrolled ? 0 : 1);
     if (enrolled) {
       const button = $('a[data-affiliate-click]');
@@ -83,9 +94,9 @@ try {
       assert.equal(button.attr('rel'), 'sponsored nofollow noopener');
       assert.match(button.text(), /Voir sur Amazon.ca/);
       assert.ok($('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'));
-      for (const name of ['kidde-c3010-co-alarm','iniu-p62-20000mah-65w','jackery-explorer-300','nanuk-904-first-aid-kit']) {
+      for (const name of ['kidde-c3010-co-alarm','iniu-p62-20000mah-65w','jackery-explorer-300']) {
         const real = load(readFileSync('dist/gear/' + name + '/index.html', 'utf8'));
-        assert.equal(real('a[data-affiliate-click]').length, 0, name + ': account status cannot enable unapproved products');
+        assert.equal(real('[data-product-purchase] a[data-affiliate-click]').length, 0, name + ': account status cannot enable unapproved products');
       }
     }
     // Browser QA consumes real rendered component markup, with no external navigation.
