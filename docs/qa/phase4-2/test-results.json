@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-27",
+  "environment": "Windows / Node 22.23.4 / npm 10.9.9 / Chromium",
+  "astro": {
+    "files": 60,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 37,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 47,
+    "failed": 0,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "affiliateNavigation": "45 real recorded-URL new tabs, entirely intercepted and served locally; no real Amazon traffic",
+    "axe": "No violations on tested routes with WCAG A/AA and 2.1 AA tags"
+  },
+  "production": {
+    "htmlPages": 28,
+    "profiles": 21,
+    "blackoutCards": 9,
+    "falloutCards": 5,
+    "outbreakCards": 7,
+    "catalogueCards": 21,
+    "internalReferences": 815,
+    "sitemapUrls": 5
+  },
+  "products": "Passed; temporary active/pending and published fixtures restored to real data",
+  "media": "Passed; 20 permitted illustrations, 1 rejected; 7 new three-variant sets; previous 14 images and 3 bunker variants unchanged",
+  "links": {
+    "active": 15,
+    "held": 6,
+    "finalApprovalConfirmed": false,
+    "strictRequireAllExit": 1
+  },
+  "initialBrowserFailures": [
+    "Development HMR destroyed a screenshot-injection context; production build is now inspected.",
+    "A cached larger responsive image was reused when shrinking a viewport; initial selection is now tested in a fresh browser context."
+  ],
+  "limitations": [
+    "No physical product tests",
+    "No independent live verification of the seven new Amazon listings",
+    "No independent seller, lot, expiry or delivered-unit authentication",
+    "No exhaustive WCAG certification or physical-device/Safari/Firefox tests",
+    "Explorer 300 supplied art remains technically unsuitable"
+  ]
+}

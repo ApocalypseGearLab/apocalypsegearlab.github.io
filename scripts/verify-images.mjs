@@ -63,20 +63,21 @@ console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected fi
 
 const supplied=JSON.parse(await readFile('src/data/media/imported-manifest.json','utf8'));
 assert.equal(supplied.provenance.status,'confirmed-by-owner');
-assert.equal(supplied.assets.length,14);
-assert.equal(supplied.assets.filter(asset=>asset.productId).length,14);
-assert.equal(supplied.assets.filter(canPublishImportedAsset).length,13);
+assert.equal(supplied.assets.length,21);
+assert.equal(supplied.assets.filter(asset=>asset.productId).length,21);
+assert.equal(supplied.assets.filter(canPublishImportedAsset).length,20);
 assert.equal(supplied.assets.filter(asset=>asset.category==='fallout').length,5);
 assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,9);
-assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,14);
-assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,14);
+assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,7);
+assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,21);
+assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,21);
 const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json').map(file => file.replace(/\.json$/, ''));
-assert.equal(productIds.length,14);
+assert.equal(productIds.length,21);
 const csv=await readFile(supplied.csv,'utf8');
 for(const asset of supplied.assets){
-  assert.match(asset.file,/^assets\/media\/(blackout|fallout)\/[a-z0-9-]+\.webp$/);
+  assert.match(asset.file,/^assets\/media\/(blackout|fallout|outbreak)\/[a-z0-9-]+\.webp$/);
   assert.equal(asset.deliverySrc,asset.file.replace('assets/media/','/images/'));
-  const mappingCsv=asset.replacement ? await readFile(asset.replacement.reviewCsv,'utf8') : csv;
+  const mappingCsv=asset.mappingCsv ? await readFile(asset.mappingCsv,'utf8') : asset.replacement ? await readFile(asset.replacement.reviewCsv,'utf8') : csv;
   assert.ok(mappingCsv.includes(asset.file.replace('assets/media/','')));
   if(asset.replacement){
     const previous=asset.replacement.previous;
@@ -96,9 +97,26 @@ for(const asset of supplied.assets){
   assert.equal(metadata.format,'webp');
   assert.equal(metadata.width,1254);assert.equal(metadata.height,1254);
   await sharp(bytes).raw().toBuffer();
+  if(asset.category==='outbreak') {
+    assert.equal(asset.provenance.confirmedAt,'2026-10-27');
+    assert.equal(asset.encoding.recolor,false);
+    assert.equal(asset.encoding.crop,false);
+    assert.deepEqual(asset.variants.map(variant=>variant.width),[480,960,1254]);
+    for(const variant of asset.variants) {
+      const data=await readFile(variant.file), info=await sharp(data).metadata();
+      assert.equal(info.format,'webp');
+      assert.equal(info.width,variant.width);assert.equal(info.height,variant.height);
+      assert.equal(data.length,variant.bytes);
+      assert.equal(createHash('sha256').update(data).digest('hex'),variant.sha256);
+      assert.ok(data.length<asset.source.bytes);
+      assert.ok(!info.exif && !info.xmp && !info.icc);
+      assert.ok(mappingCsv.includes(variant.file.replace('assets/media/','')));
+      await sharp(data).raw().toBuffer();
+    }
+  }
   if(asset.productId==='jackery-explorer-300')assert.equal(asset.accuracyStatus,'rejected');
 }
-console.log('Verified all 14 imported WebPs, CSV mappings, hash-verified bytes, 13 approved illustrations and 1 rejected asset, all mapped to distinct products.');
+console.log('Verified all 21 product mappings, CSV associations, hash-verified bytes, 20 approved illustrations and 1 rejected asset, all mapped to distinct products.');
 
 // Superseded sources are retained for traceability, never selected as fallbacks.
 assert.equal(supplied.assets.filter(asset=>asset.replacement).length,3);

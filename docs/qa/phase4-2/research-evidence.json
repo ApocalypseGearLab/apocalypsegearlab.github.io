@@ -1,0 +1,223 @@
+{
+  "checkedAt": "2026-10-27",
+  "method": "Primary manufacturer web/PDF documentation, permitted public retailer representations, ordinary public image downloads and visual inspection. No private Amazon browser session was retried.",
+  "ownerMediaAuthority": "Phase 4.2 work order identifies seven owner-created OUTBREAK illustrations for integration. Authorization is scoped to those supplied files; manufacturer reference photographs are not published or committed.",
+  "newListingAttempts": [
+    {
+      "asin": "B09FM2P1KF",
+      "url": "https://www.amazon.ca/dp/B09FM2P1KF",
+      "result": "Canonical URL unavailable to the public reader; this is not evidence of an invalid link. ListingVerified remains false."
+    },
+    {
+      "asin": "B016L26QS0",
+      "url": "https://www.amazon.ca/dp/B016L26QS0",
+      "result": "Canonical URL unavailable to the public reader; this is not evidence of an invalid link. ListingVerified remains false."
+    },
+    {
+      "asin": "B0D9R239MT",
+      "url": "https://www.amazon.ca/dp/B0D9R239MT",
+      "result": "Canonical URL unavailable to the public reader; this is not evidence of an invalid link. ListingVerified remains false."
+    },
+    {
+      "asin": "B0C3WQPQPL",
+      "url": "https://www.amazon.ca/dp/B0C3WQPQPL",
+      "result": "Canonical URL unavailable to the public reader; this is not evidence of an invalid link. ListingVerified remains false."
+    },
+    {
+      "asin": "B0CMS33YXX",
+      "url": "https://www.amazon.ca/dp/B0CMS33YXX",
+      "result": "Canonical URL unavailable to the public reader; this is not evidence of an invalid link. ListingVerified remains false."
+    },
+    {
+      "asin": "B00939MRAA",
+      "url": "https://www.amazon.ca/dp/B00939MRAA",
+      "result": "Canonical URL unavailable to the public reader; this is not evidence of an invalid link. ListingVerified remains false."
+    },
+    {
+      "asin": "B0987Z7CKY",
+      "url": "https://www.amazon.ca/dp/B0987Z7CKY",
+      "result": "Canonical URL unavailable to the public reader; this is not evidence of an invalid link. ListingVerified remains false."
+    }
+  ],
+  "manufacturerSources": [
+    {
+      "productId": "3m-aura-9205-n95-respirator",
+      "sources": [
+        {
+          "id": "aura-ca",
+          "title": "3M Canada Aura 9205+ product information",
+          "url": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101271017/",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "aura-spec",
+          "title": "3M Canadian 9205+ technical specification and use limits",
+          "url": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "aura-instructions",
+          "title": "3M 9205+/9210+/9211+ user instructions",
+          "url": "https://multimedia.3m.com/mws/media/994462O/3m-particulate-respirator-n95-9205-9210-9211-user-instructions.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-counterfeit",
+          "title": "3M counterfeit alert: standard respirators, including 9205+",
+          "url": "https://multimedia.3m.com/mws/media/1960842O/3m-8210-9205-9210-counterfeit-communication-letter.pdf",
+          "kind": "manufacturer"
+        }
+      ]
+    },
+    {
+      "productId": "3m-gogglegear-500-safety-goggles",
+      "sources": [
+        {
+          "id": "goggles-ca",
+          "title": "3M Canada GG501SGAF protective goggles and standards",
+          "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "goggles-spec",
+          "title": "3M GoggleGear 500 series technical sheet and Canadian variants",
+          "url": "https://multimedia.3m.com/mws/media/2567231O/3m-gogglegear-protective-goggle-500-series.pdf?fn=tds-gogglegear-500-series-en.pdf",
+          "kind": "manufacturer"
+        }
+      ]
+    },
+    {
+      "productId": "511-tactical-rush72-2-backpack",
+      "sources": [
+        {
+          "id": "rush72",
+          "title": "5.11 Tactical RUSH72 2.0 dimensions and materials",
+          "url": "https://www.511tactical.com/rush72-2-0-backpack.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "canada-kit",
+          "title": "Government of Canada emergency kit checklist",
+          "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+          "kind": "official-safety"
+        }
+      ]
+    },
+    {
+      "productId": "garmin-gpsmap-67i-satellite-gps",
+      "sources": [
+        {
+          "id": "garmin-manual",
+          "title": "Garmin GPSMAP 67i owner’s manual",
+          "url": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "garmin-activation",
+          "title": "Garmin GPSMAP 67i activation and subscription requirements",
+          "url": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GUID-9DDF5575-3DDE-4FA7-8165-F47F128F5180.html",
+          "kind": "manufacturer"
+        }
+      ]
+    },
+    {
+      "productId": "marmot-precip-rain-jacket",
+      "sources": [
+        {
+          "id": "precip-eco",
+          "title": "Marmot PreCip Eco reference construction, not ASIN verification",
+          "url": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "canada-kit",
+          "title": "Government of Canada emergency kit checklist",
+          "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+          "kind": "official-safety"
+        }
+      ]
+    },
+    {
+      "productId": "mechanix-m-pact-work-gloves",
+      "sources": [
+        {
+          "id": "mpact",
+          "title": "Mechanix Wear M-Pact Black/Grey current model and intended uses",
+          "url": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "canada-kit",
+          "title": "Government of Canada emergency kit checklist",
+          "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+          "kind": "official-safety"
+        }
+      ]
+    },
+    {
+      "productId": "merrell-moab-3-mid-waterproof-boots",
+      "sources": [
+        {
+          "id": "moab-ca",
+          "title": "Merrell Canada Moab 3 Mid Waterproof construction and variants",
+          "url": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "canada-kit",
+          "title": "Government of Canada emergency kit checklist",
+          "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+          "kind": "official-safety"
+        }
+      ]
+    }
+  ],
+  "oldHolds": [
+    {
+      "productId": "fenix-hm50r-v2-headlamp",
+      "result": "Link hold resolved: manufacturer battery table recommends the ARB-L16 family at 3.6/3.7 V. No exact-runtime/indicator/charge-time claim is assigned to the unverified variant.",
+      "source": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp"
+    },
+    {
+      "productId": "midland-er310",
+      "result": "Still held: current user guide says 3500 mAh; current FAQ says 2600 mAh.",
+      "sources": [
+        "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-NOAA-Weather-Radio-Owner-s-Manual",
+        "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs"
+      ]
+    },
+    {
+      "productId": "nanuk-904-first-aid-kit",
+      "result": "Still held: page labels SKU 904S-880RD-PA0-FSA02, 109 items, but description also states 110; it is a USA reference and permits contents substitutions. Canadian fill remains unresolved.",
+      "source": "https://nanuk.com/products/nanuk-904-first-aid-kit"
+    },
+    {
+      "productId": "ecoflow-river-2-pro",
+      "result": "Still held: requested B0BVLPGS79 page contains selected ASIN B0D2HX1ZS9.",
+      "source": "https://www.amazon.ca/EF-ECOFLOW-Portable-Charging-Generator/dp/B0BVLPGS79"
+    },
+    {
+      "productId": "jackery-explorer-300",
+      "result": "Still held: title 292 Wh, feature text 293 Wh Lithium Ion, product-summary string LiFePO4, fields 110/120 V. The summary does not prove that the selected unit is a LiFePO4 revision. Public caution qualified accordingly.",
+      "source": "https://www.amazon.ca/Jackery-Portable-Explorer-Generator-Emergency/dp/B082TMBYR6"
+    },
+    {
+      "productId": "iniu-p62-20000mah-65w",
+      "result": "Still held: Mfr Part Number P62-E1 is corroborated in the retailer representation, but exact cable/unit safety and Canadian evidence remain unresolved.",
+      "sources": [
+        "https://www.amazon.ca/INIU-20000mAh-Compact-Portable-Charger/dp/B0DB888L9F",
+        "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+      ]
+    },
+    {
+      "productId": "kidde-c3010-co-alarm",
+      "result": "Still held: Canadian manufacturer reference is C3010-CA; no evidence maps the recorded US C3010/21010045 to the approved Canadian variant.",
+      "source": "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca"
+    }
+  ],
+  "imageComparison": "All seven supplied PNGs and seven manufacturer reference images were inspected. Conceptual shapes/colour families were retained; no certification, performance or unit identity is inferred from rendered markings. Exact colours/packages remain unverified where stated.",
+  "officialAmazonSources": [
+    "https://associates.amazon.ca/help/node/topic/G8TW5AE9XL2VX9VM",
+    "https://associates.amazon.ca/help/operating/agreement"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "5.11 Tactical RUSH72 2.0 55 L backpack",
+  "brand": "5.11 Tactical",
+  "modelNumber": "RUSH72 2.0 / 56565",
+  "category": "tactical-backpacks",
+  "summary": "A large compartmentalized pack for an evacuation load or a planned multi-day outing. Its 55 L capacity is a manufacturer specification, not a guarantee of comfortable carrying weight.",
+  "description": "Organize an evacuation load by what you need to reach first: documents, water, a light and a weather layer. The RUSH72 2.0 provides a substantial main compartment and external organization, but filling every pocket can make it difficult to carry. Pack to your own walking ability, test the fit with your intended load and keep critical items accessible without emptying the bag.",
+  "specs": [
+    {
+      "label": "Documented capacity",
+      "value": "55 L / 3342 cubic inches",
+      "source": "https://www.511tactical.com/rush72-2-0-backpack.html"
+    },
+    {
+      "label": "Main compartment",
+      "value": "23 × 13.5 × 8.5 inches, manufacturer dimensions",
+      "source": "https://www.511tactical.com/rush72-2-0-backpack.html"
+    },
+    {
+      "label": "Fabric",
+      "value": "1050D nylon for standard colours; MultiCam uses a different fabric",
+      "source": "https://www.511tactical.com/rush72-2-0-backpack.html"
+    },
+    {
+      "label": "Hydration compartment",
+      "value": "Rear compartment described for a 3 L reservoir; included reservoir not established",
+      "source": "https://www.511tactical.com/rush72-2-0-backpack.html"
+    },
+    {
+      "label": "Support",
+      "value": "Contoured shoulder straps, waist strap and reinforced back with aluminium stay",
+      "source": "https://www.511tactical.com/rush72-2-0-backpack.html"
+    }
+  ],
+  "pros": [
+    "Multiple compartments support an organized grab-and-go inventory.",
+    "External webbing provides attachment options for compatible pouches."
+  ],
+  "cons": [
+    "A 55 L load can become heavy before the bag is full.",
+    "Water-repellent fabric does not establish waterproof storage.",
+    "Colour, seller and included accessories of the recorded ASIN are unverified."
+  ],
+  "useCases": [
+    "Build and periodically check a household evacuation bag.",
+    "Carry a deliberately limited load on a planned outing after checking fit."
+  ],
+  "sources": [
+    {
+      "id": "rush72",
+      "title": "5.11 Tactical RUSH72 2.0 dimensions and materials",
+      "url": "https://www.511tactical.com/rush72-2-0-backpack.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canada-kit",
+      "title": "Government of Canada emergency kit checklist",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "garmin-gpsmap-67i-satellite-gps",
+    "marmot-precip-rain-jacket",
+    "reliance-aqua-tainer-7-gallon"
+  ],
+  "image": {
+    "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+    "alt": "Concept illustration of 5.11 Tactical RUSH72 2.0 55 L backpack in a tactical green inventory frame",
+    "credit": "ApocalypseGearLab owner-created concept illustration",
+    "license": "Owner-authorized site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN. Model documentation reviewed; the live Canadian listing, seller, size and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0D9R239MT?tag=apocalypsegear-20",
+      "asin": "B0D9R239MT"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-27",
+    "identityNotes": "Manufacturer-model documents reviewed for an informational profile. No physical testing, seller authentication or live ASIN/model verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "5.11 documents the RUSH72 2.0 as a 55 L pack with a rear hydration compartment.",
+        "sourceIds": [
+          "rush72"
+        ]
+      },
+      {
+        "text": "Standard-colour fabric, pockets and support features are documented for the model; the selected Amazon package is not verified.",
+        "sourceIds": [
+          "rush72"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Live Canadian listing, selected size/variant, seller, package and availability remain unverified."
+    ],
+    "safetyNotes": [
+      "Keep load within your own carrying ability; pack capacity is not a recommended lifting limit.",
+      "Protect water-sensitive supplies separately; do not treat the pack as a dry bag.",
+      "Keep straps secure and inspect seams, zippers and attachment points before travel."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match the Canadian listing, variant and current seller before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0D9R239MT",
+      "checkedAt": "2026-10-27",
+      "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+      "sourceIds": [
+        "rush72"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm RUSH72 2.0 rather than another RUSH size or generation.",
+      "Check the selected colour and whether any reservoir or pouches are included.",
+      "Walk with the intended load and adjust straps before relying on it."
+    ]
+  }
+}

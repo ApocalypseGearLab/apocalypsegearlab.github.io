@@ -4,15 +4,12 @@ interface Props { compact?: boolean }
 const { compact = false } = Astro.props;
 ---
 
-<aside class:list={['notice', { 'disclosure--compact': compact }]} aria-label="Affiliate disclosure">
-  <p class="label">Affiliate disclosure</p>
-  <p>
-    Some links on this page may be affiliate links. If you buy through them we may earn a commission at no extra cost to you.
-    {!compact && 'Commissions never decide what we recommend. '}<a href="/affiliate-disclosure/">Read the full disclosure</a>.
-  </p>
-  {AMAZON_CA_LINKING_ENABLED && <p>{AMAZON_ASSOCIATE_STATEMENT}</p>}
+<aside class:list={['affiliate-note', { 'affiliate-note--compact': compact }]} aria-label="Affiliate disclosure">
+  <p>{AMAZON_CA_LINKING_ENABLED ? AMAZON_ASSOCIATE_STATEMENT : 'Purchases through affiliate links may earn us a commission.'} <a href="/affiliate-disclosure/">Full disclosure</a>.</p>
 </aside>
 
 <style>
-  .disclosure--compact { font-size: 0.85rem; padding: var(--s-3); }
+  .affiliate-note { color: var(--c-muted); font-size: 0.8rem; line-height: 1.4; }
+  .affiliate-note p { margin: 0; }
+  .affiliate-note--compact { font-size: 0.75rem; }
 </style>

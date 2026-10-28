@@ -22,7 +22,8 @@ const products = (await getProductsByUniverse(id)).filter((product) => !releaseP
       <p class="label">{universe.signal}</p>
       <h1>{universe.name}</h1>
       <p class="lead">{universe.summary}</p>
-      {universe.fiction && (
+      {universe.fiction && products.length > 0 && <p class="label">Equipment profiles are factual references. Any fictional scenarios are labelled separately.</p>}
+      {universe.fiction && products.length === 0 && (
         <div class="notice notice--fiction">
           <p class="label">Fiction notice</p>
           <p>Scenarios and simulations in this sector are fictional entertainment. They are never emergency advice. Real preparedness content is labelled separately.</p>

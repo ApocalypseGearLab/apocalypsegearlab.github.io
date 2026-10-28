@@ -1,0 +1,140 @@
+{
+  "name": "Marmot PreCip rain jacket",
+  "brand": "Marmot",
+  "modelNumber": null,
+  "category": "rainwear",
+  "summary": "A PreCip-family rain shell for an outdoor weather layer. The exact generation, size and colour are unverified; Eco reference features are kept separate from claims about the selected listing.",
+  "description": "An accessible rain layer helps you adjust to changing weather without unpacking the whole bag. Choose a shell that works over your intended clothing and check its hood and cuffs before leaving. The manufacturer reference below is PreCip Eco; this record does not assume that every PreCip generation uses the same fabric or construction. Confirm the actual garment label before relying on generation-specific details.",
+  "specs": [
+    {
+      "label": "Manufacturer reference",
+      "value": "PreCip Eco; exact generation of the recorded ASIN unverified",
+      "source": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html"
+    },
+    {
+      "label": "Eco reference fabric",
+      "value": "Marmot NanoPro Eco waterproof/breathable fabric; not assigned to an unverified generation",
+      "source": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html"
+    },
+    {
+      "label": "Eco reference seams",
+      "value": "Fully taped in the documented Eco reference",
+      "source": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html"
+    },
+    {
+      "label": "Eco reference hood",
+      "value": "Attached adjustable hood that rolls into the collar",
+      "source": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html"
+    },
+    {
+      "label": "Eco reference ventilation",
+      "value": "Underarm pit zips in the documented Eco reference",
+      "source": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html"
+    }
+  ],
+  "pros": [
+    "A dedicated rain layer can be kept accessible in an evacuation load.",
+    "The manufacturer documents construction details for the Eco reference."
+  ],
+  "cons": [
+    "Generation-specific fabric, waterproof ratings and recycled-content claims are not established for this ASIN.",
+    "No chemical, biological, flame or immersion protection is claimed.",
+    "Colour, size, seller and condition remain unverified."
+  ],
+  "useCases": [
+    "Pack a weather layer for an ordinary outdoor route.",
+    "Compare garment features and layering fit before choosing a rain shell."
+  ],
+  "sources": [
+    {
+      "id": "precip-eco",
+      "title": "Marmot PreCip Eco reference construction, not ASIN verification",
+      "url": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canada-kit",
+      "title": "Government of Canada emergency kit checklist",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "merrell-moab-3-mid-waterproof-boots",
+    "511-tactical-rush72-2-backpack",
+    "sol-emergency-bivvy"
+  ],
+  "image": {
+    "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+    "alt": "Concept illustration of Marmot PreCip rain jacket in a tactical green inventory frame",
+    "credit": "ApocalypseGearLab owner-created concept illustration",
+    "license": "Owner-authorized site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN. Model documentation reviewed; the live Canadian listing, seller, size and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0CMS33YXX?tag=apocalypsegear-20",
+      "asin": "B0CMS33YXX"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-27",
+    "identityNotes": "Manufacturer-model documents reviewed for an informational profile. No physical testing, seller authentication or live ASIN/model verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Marmot’s current Eco reference documents NanoPro Eco fabric, taped seams, a roll-away hood and pit zips.",
+        "sourceIds": [
+          "precip-eco"
+        ]
+      },
+      {
+        "text": "Those Eco reference details are not attributed to the recorded ASIN until the garment generation is established.",
+        "sourceIds": [
+          "precip-eco"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Live Canadian listing, selected size/variant, seller, package and availability remain unverified."
+    ],
+    "safetyNotes": [
+      "Rainwear is not chemical or biological protective clothing.",
+      "Do not assume insulation, flame resistance or protection during immersion.",
+      "Waterproof performance depends on condition, care and the actual garment; damaged seams or coatings need inspection."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match the Canadian listing, variant and current seller before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0CMS33YXX",
+      "checkedAt": "2026-10-27",
+      "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+      "sourceIds": [
+        "precip-eco"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm PreCip versus PreCip Eco and the exact garment style number.",
+      "Check colour, size and garment care label on the selected item.",
+      "Test hood, cuffs and layering fit; follow the garment’s actual care instructions."
+    ]
+  }
+}

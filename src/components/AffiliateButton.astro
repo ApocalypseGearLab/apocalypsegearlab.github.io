@@ -23,4 +23,6 @@ const { link, productId } = Astro.props;
 
 <style>
   .btn--pending { flex-direction: column; align-items: flex-start; max-width: 100%; }
+  .btn--primary { background: var(--accent, var(--c-amber)); border-color: var(--accent, var(--c-amber)); }
+  .btn--primary:hover { background: var(--accent, var(--c-amber)); border-color: var(--accent, var(--c-amber)); filter: brightness(1.1); }
 </style>

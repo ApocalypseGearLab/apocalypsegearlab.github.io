@@ -14,7 +14,7 @@ test('actual Astro affiliate markup supports active and pending states without s
   });
   for (const state of ['pending', 'active']) {
     await page.setContent(readFileSync(`.tools/qa/phase4/affiliate-${state}-fixture.html`, 'utf8'));
-    const button = page.getByRole('link', { name: /Voir sur Amazon.ca/ });
+    const button = page.getByRole('link', { name: /View on Amazon.ca/ });
     await expect(button).toHaveCount(1);
     if (state === 'active') {
       await expect(button).toHaveAttribute('href', 'https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20');

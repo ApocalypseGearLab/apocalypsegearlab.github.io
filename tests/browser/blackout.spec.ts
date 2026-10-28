@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { getMerchantLinks } from '../../src/lib/affiliate';
+import { categoryUniverse } from '../../src/config/taxonomy';
 import type { Product } from '../../src/lib/products';
 import AxeBuilder from '@axe-core/playwright';
 import { readFileSync, readdirSync, mkdirSync } from 'node:fs';
@@ -20,7 +21,7 @@ for (const { slug, data } of drafts) {
     await expect(page.locator('h1')).toHaveText(data.name);
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', `https://apocalypsegearlab.github.io/gear/${slug}/`);
-    await expect(purchase.getByRole('link', { disabled: true, name: /Voir sur Amazon.ca/ })).toHaveCount(active ? 0 : 1);
+    await expect(purchase.getByRole('link', { disabled: true, name: /View on Amazon.ca/ })).toHaveCount(active ? 0 : 1);
     await expect(purchase.locator('a[data-affiliate-click]')).toHaveCount(active ? 1 : 0);
     if (active) {
       const button = purchase.locator('a[data-affiliate-click]');
@@ -31,7 +32,7 @@ for (const { slug, data } of drafts) {
       await expect(page.getByText('The retailer link uses the recorded ASIN.', {exact:false})).toBeVisible();
       expect(await page.locator('main').innerText()).not.toContain('The linked Canadian model has documented listing and safety checks.');
     } else {
-      await expect(purchase.getByRole('link', { disabled: true, name: /Voir sur Amazon.ca/ })).toContainText(merchant.unavailableReason!);
+      await expect(purchase.getByRole('link', { disabled: true, name: /View on Amazon.ca/ })).toContainText(merchant.unavailableReason!);
       await expect(page.getByText('Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.')).toBeVisible();
     }
     await expect(page.locator('[aria-label="Research status"]')).toHaveCount(0);
@@ -70,11 +71,11 @@ for (const { slug, data } of drafts) {
   });
 }
 
-test('public catalogues expose fourteen profiles in their correct sectors', async ({ page }) => {
-  for (const route of ['/blackout/', '/fallout/', '/gear/']) {
+test('public catalogues expose twenty-one profiles in their correct sectors', async ({ page }) => {
+  for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
     const sector = route === '/gear/' ? null : route.slice(1,-1);
-    const selected = drafts.filter(({data}) => !sector || (['water','first-aid','tools','shelter'].includes(data.category) ? 'fallout' : 'blackout') === sector);
-    const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 5 : 13;
+    const selected = drafts.filter(({data}) => !sector || categoryUniverse(data.category) === sector);
+    const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 5 : route === '/outbreak/' ? 7 : 20;
     await page.goto(route);
     await expect(page.locator('article.card')).toHaveCount(selected.length);
     await expect(page.locator('.neutral-media')).toHaveCount(selected.length-images);
@@ -88,7 +89,7 @@ test('public catalogues expose fourteen profiles in their correct sectors', asyn
       const card = page.locator(`article.card[data-product-id="${slug}"]`);
       const merchant = getMerchantLinks({id:slug,data} as Product)[0]!;
       await expect(card.locator('a[data-affiliate-click]')).toHaveCount(merchant.href ? 1 : 0);
-      await expect(card.getByRole('link', {disabled:true, name:/Voir sur Amazon.ca/})).toHaveCount(merchant.href ? 0 : 1);
+      await expect(card.getByRole('link', {disabled:true, name:/View on Amazon.ca/})).toHaveCount(merchant.href ? 0 : 1);
       if (merchant.href) {
         await expect(card.locator('a[data-affiliate-click]')).toHaveAttribute('href', merchant.href);
         await expect(card.getByRole('complementary', {name:'Affiliate disclosure'})).toContainText('As an Amazon Associate I earn from qualifying purchases.');

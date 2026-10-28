@@ -1,0 +1,140 @@
+{
+  "name": "3M GoggleGear 500 protective goggles",
+  "brand": "3M",
+  "modelNumber": "GG501SGAF — listing variant unverified",
+  "category": "protective-eyewear",
+  "summary": "Low-profile protective goggles, documented here against the clear GG501SGAF reference. The actual lens markings, Canadian variant and suitability for the task must be checked.",
+  "description": "Eye protection needs to match the task, the wearer and other equipment used at the same time. GoggleGear 500 uses a wraparound lens and adjustable strap, with indirect ventilation on the documented clear reference. Check the fit alongside a respirator rather than assuming the two seals will work together. Impact resistance and splash markings have defined limits; they do not make goggles unbreakable or provide complete face protection.",
+  "specs": [
+    {
+      "label": "Reference model",
+      "value": "GG501SGAF / 3M 7100079187, clear lens",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/"
+    },
+    {
+      "label": "Lens material",
+      "value": "Polycarbonate, with Scotchgard anti-fog coating",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/"
+    },
+    {
+      "label": "Ventilation",
+      "value": "Indirect ventilation on the GG501SGAF reference",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/"
+    },
+    {
+      "label": "Fit",
+      "value": "Adjustable removable cloth strap; optional prescription insert",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/"
+    },
+    {
+      "label": "Standards scope",
+      "value": "3M Canada documents CSA Z94.3 and ANSI Z87.1 for its reference; verify the actual unit markings",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/"
+    }
+  ],
+  "pros": [
+    "Adjustable fit and replaceable components support cleaning and maintenance.",
+    "Low-profile design can be assessed alongside other protective equipment."
+  ],
+  "cons": [
+    "Impact resistant does not mean unbreakable.",
+    "Not complete face, respiratory or universal chemical protection.",
+    "Exact Amazon variant and certification markings of a delivered unit remain unverified."
+  ],
+  "useCases": [
+    "Select eye protection for a defined workshop hazard with appropriate training.",
+    "Assess compatibility with other PPE before using it for a task."
+  ],
+  "sources": [
+    {
+      "id": "goggles-ca",
+      "title": "3M Canada GG501SGAF protective goggles and standards",
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "goggles-spec",
+      "title": "3M GoggleGear 500 series technical sheet and Canadian variants",
+      "url": "https://multimedia.3m.com/mws/media/2567231O/3m-gogglegear-protective-goggle-500-series.pdf?fn=tds-gogglegear-500-series-en.pdf",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "3m-aura-9205-n95-respirator",
+    "mechanix-m-pact-work-gloves"
+  ],
+  "image": {
+    "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+    "alt": "Concept illustration of 3M GoggleGear 500 protective goggles in a tactical green inventory frame",
+    "credit": "ApocalypseGearLab owner-created concept illustration",
+    "license": "Owner-authorized site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN. Model documentation reviewed; the live Canadian listing, seller, size and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B016L26QS0?tag=apocalypsegear-20",
+      "asin": "B016L26QS0"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-27",
+    "identityNotes": "Manufacturer-model documents reviewed for an informational profile. No physical testing, seller authentication or live ASIN/model verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "3M Canada identifies GG501SGAF as its clear, indirectly ventilated goggle with adjustable strap.",
+        "sourceIds": [
+          "goggles-ca"
+        ]
+      },
+      {
+        "text": "The series sheet distinguishes Canadian GG501SGAF from other lens and strap variants; series membership alone is not a delivered-unit certification.",
+        "sourceIds": [
+          "goggles-spec"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Live Canadian listing, selected size/variant, seller, package and availability remain unverified."
+    ],
+    "safetyNotes": [
+      "These goggles do not replace machine guards or engineering controls.",
+      "Splash and dust ratings apply to specified hazards; do not infer gas-tight, biological or full-face protection.",
+      "Check compatibility with a respirator without disturbing its face seal; damaged lenses require attention before use."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match the Canadian listing, variant and current seller before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B016L26QS0",
+      "checkedAt": "2026-10-27",
+      "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+      "sourceIds": [
+        "goggles-ca",
+        "goggles-spec"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm GG501SGAF, clear lens and strap type rather than another 500-series variant.",
+      "Check actual CSA/ANSI and hazard markings against the intended application.",
+      "Inspect lens damage and fit; follow cleaning instructions and any employer hazard assessment."
+    ]
+  }
+}

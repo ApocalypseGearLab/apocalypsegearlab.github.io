@@ -1,0 +1,458 @@
+{
+  "scope": "Commercial eligibility; informational visibility is independent",
+  "amazonCaLinkingEnabled": true,
+  "finalApprovalConfirmed": false,
+  "privateAccountStanding": "not-independently-confirmed",
+  "targetProducts": 21,
+  "activeAmazonCaButtons": 15,
+  "allAmazonCaLinksReady": false,
+  "documentaryModelReviewsComplete": 4,
+  "informationalVisible": 21,
+  "eligible": 15,
+  "held": 6,
+  "products": [
+    {
+      "slug": "3m-aura-9205-n95-respirator",
+      "name": "3M Aura 9205+ N95 particulate respirator",
+      "collection": "outbreak",
+      "asin": "B09FM2P1KF",
+      "url": "https://www.amazon.ca/dp/B09FM2P1KF?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/3m-aura-9205-n95-respirator/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B09FM2P1KF",
+        "checkedAt": "2026-10-27",
+        "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+        "sourceIds": [
+          "aura-ca",
+          "aura-spec",
+          "aura-instructions",
+          "3m-counterfeit"
+        ]
+      }
+    },
+    {
+      "slug": "3m-gogglegear-500-safety-goggles",
+      "name": "3M GoggleGear 500 protective goggles",
+      "collection": "outbreak",
+      "asin": "B016L26QS0",
+      "url": "https://www.amazon.ca/dp/B016L26QS0?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/3m-gogglegear-500-safety-goggles/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B016L26QS0",
+        "checkedAt": "2026-10-27",
+        "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+        "sourceIds": [
+          "goggles-ca",
+          "goggles-spec"
+        ]
+      }
+    },
+    {
+      "slug": "511-tactical-rush72-2-backpack",
+      "name": "5.11 Tactical RUSH72 2.0 55 L backpack",
+      "collection": "outbreak",
+      "asin": "B0D9R239MT",
+      "url": "https://www.amazon.ca/dp/B0D9R239MT?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/511-tactical-rush72-2-backpack/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0D9R239MT",
+        "checkedAt": "2026-10-27",
+        "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+        "sourceIds": [
+          "rush72"
+        ]
+      }
+    },
+    {
+      "slug": "ecoflow-river-2-pro",
+      "name": "EcoFlow RIVER 2 Pro",
+      "collection": "blackout",
+      "asin": "B0BVLPGS79",
+      "url": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/",
+      "active": false,
+      "reason": "The retrieved page for B0BVLPGS79 contains selected-ASIN B0D2HX1ZS9. Resolve this concrete listing identity conflict before enabling the recorded link.",
+      "listingVerified": false,
+      "review": {
+        "decision": "hold",
+        "asin": "B0BVLPGS79",
+        "checkedAt": "2026-10-26",
+        "reason": "The retrieved page for B0BVLPGS79 contains selected-ASIN B0D2HX1ZS9. Resolve this concrete listing identity conflict before enabling the recorded link.",
+        "sourceIds": [
+          "ecoflow-ca"
+        ]
+      }
+    },
+    {
+      "slug": "fenix-cl26r-pro",
+      "name": "Fenix CL26R Pro rechargeable lantern",
+      "collection": "blackout",
+      "asin": "B0CGKWX5YT",
+      "url": "https://www.amazon.ca/dp/B0CGKWX5YT?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0CGKWX5YT",
+        "checkedAt": "2026-10-26",
+        "reason": "Recorded ASIN link permitted; the documented model and protected-cell precautions are disclosed. Colour and supplied accessories remain unverified; that absence of evidence is not a demonstrated product anomaly.",
+        "sourceIds": [
+          "fenix-cl26r-pro",
+          "fenix-cl26r-pro-instructions"
+        ]
+      }
+    },
+    {
+      "slug": "fenix-hm50r-v2-headlamp",
+      "name": "Fenix HM50R V2.0 rechargeable headlamp",
+      "collection": "blackout",
+      "asin": "B0H6R34CBL",
+      "url": "https://www.amazon.ca/dp/B0H6R34CBL?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/fenix-hm50r-v2-headlamp/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0H6R34CBL",
+        "checkedAt": "2026-10-27",
+        "reason": "The manufacturer battery table recommends the ARB-L16 family (16340, 3.6/3.7 V). The 700P and 800P references are documented revisions, not proof of an unsafe listing. No revision-specific runtime, charge time or indicator calibration is assigned to the unverified ASIN.",
+        "sourceIds": [
+          "fenix-hm50r",
+          "fenix-hm50r-us"
+        ]
+      }
+    },
+    {
+      "slug": "garmin-gpsmap-67i-satellite-gps",
+      "name": "Garmin GPSMAP 67i satellite communicator",
+      "collection": "outbreak",
+      "asin": "B0C3WQPQPL",
+      "url": "https://www.amazon.ca/dp/B0C3WQPQPL?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/garmin-gpsmap-67i-satellite-gps/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0C3WQPQPL",
+        "checkedAt": "2026-10-27",
+        "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+        "sourceIds": [
+          "garmin-manual",
+          "garmin-activation"
+        ]
+      }
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "name": "INIU P62 20000 mAh 65 W power bank",
+      "collection": "blackout",
+      "asin": "B0DB888L9F",
+      "url": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/",
+      "active": false,
+      "reason": "Exact-model safety verification is incomplete.",
+      "listingVerified": false,
+      "review": {
+        "decision": "hold",
+        "asin": "B0DB888L9F",
+        "checkedAt": "2026-10-26",
+        "reason": "P62 and P62-E1 designations and integrated versus detachable cable descriptions conflict. Exact-model Canadian safety evidence is incomplete.",
+        "sourceIds": [
+          "iniu-p62-e1"
+        ]
+      }
+    },
+    {
+      "slug": "jackery-explorer-1000-v2",
+      "name": "Jackery Explorer 1000 v2",
+      "collection": "blackout",
+      "asin": "B0D7PPG25F",
+      "url": "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0D7PPG25F",
+        "checkedAt": "2026-10-26",
+        "reason": "Recorded Canadian ASIN link permitted after review of documented JE-1000D limitations. No concrete listing contradiction or exact-model safety defect was established. The current listing, unit certification label and package remain independently unverified.",
+        "sourceIds": [
+          "jackery-1000-support",
+          "jackery-1000-ca"
+        ]
+      }
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "name": "Jackery Explorer 300",
+      "collection": "blackout",
+      "asin": "B082TMBYR6",
+      "url": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/",
+      "active": false,
+      "reason": "Regional model identity, capacity and voltage must be matched to the Canadian listing.",
+      "listingVerified": false,
+      "review": {
+        "decision": "hold",
+        "asin": "B082TMBYR6",
+        "checkedAt": "2026-10-27",
+        "reason": "The retailer representation contains inconsistent 292/293 Wh, Lithium Ion/LiFePO4 and 110/120 V fields. Resolve the actual unit revision and manual; do not infer a definite LiFePO4 model from the product-summary string.",
+        "sourceIds": [
+          "jackery-300-manual",
+          "jackery-300-support",
+          "jackery-300-ca",
+          "jackery-100-air-ca"
+        ]
+      }
+    },
+    {
+      "slug": "jackery-solarsaga-100w-air",
+      "name": "Jackery SolarSaga 100 W Air",
+      "collection": "blackout",
+      "asin": "B0FX8P4JST",
+      "url": "https://www.amazon.ca/dp/B0FX8P4JST?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0FX8P4JST",
+        "checkedAt": "2026-10-26",
+        "reason": "Recorded ASIN link permitted with documented JS-100H compatibility limits. Explorer 300 incompatibility remains explicit; no compatibility with that model is claimed. Package cables and the live listing remain unverified.",
+        "sourceIds": [
+          "jackery-100-air-ca",
+          "jackery-100-air-guide",
+          "jackery-100-air-manual",
+          "jackery-1000-ca"
+        ]
+      }
+    },
+    {
+      "slug": "kidde-c3010-co-alarm",
+      "name": "Kidde C3010 carbon monoxide alarm",
+      "collection": "blackout",
+      "asin": "B00FHW7PBS",
+      "url": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/",
+      "active": false,
+      "reason": "Canadian model and certification evidence are incomplete.",
+      "listingVerified": false,
+      "review": {
+        "decision": "hold",
+        "asin": "B00FHW7PBS",
+        "checkedAt": "2026-10-26",
+        "reason": "The US C3010 / 21010045 is not established as the Canada-approved C3010-CA. Obtain the actual Canadian certification label and matching instructions.",
+        "sourceIds": [
+          "kidde-c3010-ca",
+          "kidde-c3010-us"
+        ]
+      }
+    },
+    {
+      "slug": "leatherman-wave-plus-multitool",
+      "name": "Leatherman Wave+ multi-tool",
+      "collection": "fallout",
+      "asin": "B079MJBP21",
+      "url": "https://www.amazon.ca/dp/B079MJBP21?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/leatherman-wave-plus-multitool/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B079MJBP21",
+        "checkedAt": "2026-10-26",
+        "reason": "Recorded ASIN link permitted after documentary model review, with blade, lock and non-insulated-tool precautions retained. Finish, sheath and bits remain unverified and are not promised.",
+        "sourceIds": [
+          "leatherman-wave",
+          "leatherman-catalogue",
+          "leatherman-wave-ca"
+        ]
+      }
+    },
+    {
+      "slug": "marmot-precip-rain-jacket",
+      "name": "Marmot PreCip rain jacket",
+      "collection": "outbreak",
+      "asin": "B0CMS33YXX",
+      "url": "https://www.amazon.ca/dp/B0CMS33YXX?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/marmot-precip-rain-jacket/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0CMS33YXX",
+        "checkedAt": "2026-10-27",
+        "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+        "sourceIds": [
+          "precip-eco"
+        ]
+      }
+    },
+    {
+      "slug": "mechanix-m-pact-work-gloves",
+      "name": "Mechanix Wear M-Pact work gloves",
+      "collection": "outbreak",
+      "asin": "B00939MRAA",
+      "url": "https://www.amazon.ca/dp/B00939MRAA?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/mechanix-m-pact-work-gloves/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B00939MRAA",
+        "checkedAt": "2026-10-27",
+        "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+        "sourceIds": [
+          "mpact"
+        ]
+      }
+    },
+    {
+      "slug": "merrell-moab-3-mid-waterproof-boots",
+      "name": "Merrell Moab 3 Mid Waterproof hiking boots",
+      "collection": "outbreak",
+      "asin": "B0987Z7CKY",
+      "url": "https://www.amazon.ca/dp/B0987Z7CKY?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/merrell-moab-3-mid-waterproof-boots/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B0987Z7CKY",
+        "checkedAt": "2026-10-27",
+        "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+        "sourceIds": [
+          "moab-ca"
+        ]
+      }
+    },
+    {
+      "slug": "midland-er310",
+      "name": "Midland ER310 emergency radio",
+      "collection": "blackout",
+      "asin": "B015QIC1PW",
+      "url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/midland-er310/",
+      "active": false,
+      "reason": "The manufacturer guide contains conflicting 2600 / 3500 mAh rechargeable-battery figures. Match the supplied battery revision and instructions before enabling this link.",
+      "listingVerified": false,
+      "review": {
+        "decision": "hold",
+        "asin": "B015QIC1PW",
+        "checkedAt": "2026-10-26",
+        "reason": "The manufacturer guide contains conflicting 2600 / 3500 mAh rechargeable-battery figures. Match the supplied battery revision and instructions before enabling this link.",
+        "sourceIds": [
+          "midland-er310",
+          "midland-er310-faq"
+        ]
+      }
+    },
+    {
+      "slug": "nanuk-904-first-aid-kit",
+      "name": "NANUK 904 first aid kit",
+      "collection": "fallout",
+      "asin": "B0G3XYHL33",
+      "url": "https://www.amazon.ca/dp/B0G3XYHL33?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/nanuk-904-first-aid-kit/",
+      "active": false,
+      "reason": "The manufacturer lists both 109 and 110 items, and the Canadian filled kit is not distinguished from US fills or an empty case. Resolve the kit inventory and applicable expiry/sterility information.",
+      "listingVerified": false,
+      "review": {
+        "decision": "hold",
+        "asin": "B0G3XYHL33",
+        "checkedAt": "2026-10-26",
+        "reason": "The manufacturer lists both 109 and 110 items, and the Canadian filled kit is not distinguished from US fills or an empty case. Resolve the kit inventory and applicable expiry/sterility information.",
+        "sourceIds": [
+          "nanuk-kit",
+          "nanuk-us-sheet"
+        ]
+      }
+    },
+    {
+      "slug": "reliance-aqua-tainer-7-gallon",
+      "name": "Reliance Aqua-Tainer 7-gallon water container",
+      "collection": "fallout",
+      "asin": "B001QC31G6",
+      "url": "https://www.amazon.ca/dp/B001QC31G6?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/reliance-aqua-tainer-7-gallon/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B001QC31G6",
+        "checkedAt": "2026-10-26",
+        "reason": "Recorded ASIN link permitted after documentary model review, with cleaning, potable-water, freezing and empty-only stacking precautions retained. The Canadian package remains unverified.",
+        "sourceIds": [
+          "reliance-aqua",
+          "reliance-care",
+          "reliance-faq"
+        ]
+      }
+    },
+    {
+      "slug": "sawyer-squeeze-sp129-water-filter",
+      "name": "Sawyer Squeeze SP129 water filtration system",
+      "collection": "fallout",
+      "asin": "B00B1OSU4W",
+      "url": "https://www.amazon.ca/dp/B00B1OSU4W?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/sawyer-squeeze-sp129-water-filter/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B00B1OSU4W",
+        "checkedAt": "2026-10-26",
+        "reason": "Recorded ASIN link permitted after documentary model review, with virus/chemical/radiological and freeze-damage limitations retained. The Canadian bundle and seller remain unverified.",
+        "sourceIds": [
+          "sawyer-squeeze",
+          "sawyer-care",
+          "sawyer-squeeze-care"
+        ]
+      }
+    },
+    {
+      "slug": "sol-emergency-bivvy",
+      "name": "SOL Emergency Bivvy with rescue whistle",
+      "collection": "fallout",
+      "asin": "B08NC9BLQ5",
+      "url": "https://www.amazon.ca/dp/B08NC9BLQ5?tag=apocalypsegear-20",
+      "profileUrl": "https://apocalypsegearlab.github.io/gear/sol-emergency-bivvy/",
+      "active": true,
+      "reason": null,
+      "listingVerified": false,
+      "review": {
+        "decision": "link-permitted",
+        "asin": "B08NC9BLQ5",
+        "checkedAt": "2026-10-26",
+        "reason": "Recorded ASIN link permitted after documentary model review. No guaranteed temperature rating or sleeping-bag equivalence is claimed. Colour, seller and supplied accessories remain unverified.",
+        "sourceIds": [
+          "sol-bivvy"
+        ]
+      }
+    }
+  ]
+}

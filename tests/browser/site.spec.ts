@@ -54,7 +54,7 @@ test('navigation and skip link work without JavaScript', async ({ browser }) => 
   await expect(page.locator('#main')).toBeFocused();
   await page.getByRole('navigation', { name: 'Primary' }).getByRole('link', { name: 'Outbreak' }).click();
   await expect(page).toHaveURL(/\/outbreak\/$/);
-  await expect(page.getByText('Scenarios and simulations in this sector are fictional entertainment.', { exact: false })).toBeVisible();
+  await expect(page.getByText('Equipment profiles are factual references. Any fictional scenarios are labelled separately.', { exact: true })).toBeVisible();
   await context.close();
 });
 

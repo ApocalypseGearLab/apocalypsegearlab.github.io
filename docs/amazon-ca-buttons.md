@@ -1,5 +1,7 @@
 # Finalisation des boutons Amazon.ca — liens enregistrés et anomalies concrètes
 
+**Rapport historique de la PR nº 9.** Le catalogue courant de la Phase 4.2 et ses décisions sur 21 produits sont décrits dans [le rapport OUTBREAK](phase4-2-outbreak.md). Les chiffres 7/14 ci-dessous décrivent la livraison précédente.
+
 Contrôle du 26 octobre 2026. **7 liens actifs / 14 produits visibles ; 7 liens bloqués pour anomalies documentées.** Cette livraison complète la PR nº 9 existante, sans fusion ni déploiement.
 
 ## Règle appliquée

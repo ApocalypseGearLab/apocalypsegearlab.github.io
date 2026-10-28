@@ -1,0 +1,139 @@
+{
+  "name": "Mechanix Wear M-Pact work gloves",
+  "brand": "Mechanix Wear",
+  "modelNumber": "M-Pact — Black/Grey",
+  "category": "work-gloves",
+  "summary": "Work gloves with protective panels for selected impact and abrasion tasks. The black/grey model is the intended reference; size, generation and supplied performance label remain unverified.",
+  "description": "A work glove should preserve enough dexterity to handle tools while addressing the hazards of a particular task. M-Pact uses flexible protective panels and a padded palm in the manufacturer reference. Check the size with the work you expect to perform, and inspect the glove after use. This profile does not turn a workshop glove into protective medical equipment or a defence against bites.",
+  "specs": [
+    {
+      "label": "Model family",
+      "value": "Mechanix Wear M-Pact",
+      "source": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html"
+    },
+    {
+      "label": "Reference colour",
+      "value": "Black/Grey; supplied size and generation unverified",
+      "source": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html"
+    },
+    {
+      "label": "Back-of-hand protection",
+      "value": "Thermoplastic rubber impact panels on the documented model",
+      "source": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html"
+    },
+    {
+      "label": "Palm",
+      "value": "Synthetic leather and padding; construction varies with generation",
+      "source": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html"
+    },
+    {
+      "label": "Closure",
+      "value": "Adjustable hook-and-loop wrist closure",
+      "source": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html"
+    }
+  ],
+  "pros": [
+    "Protective panels can be useful for appropriately selected general work.",
+    "A fitted glove can retain more tool-handling control than an oversized glove."
+  ],
+  "cons": [
+    "Not biological, chemical or electrical protective equipment.",
+    "No guaranteed protection from punctures, needles or bites.",
+    "Current manufacturer redesign ratings are not assigned to the unverified Amazon revision."
+  ],
+  "useCases": [
+    "General maintenance tasks after selecting suitable hand protection.",
+    "Handling routine kit organization and repair tools within the glove limits."
+  ],
+  "sources": [
+    {
+      "id": "mpact",
+      "title": "Mechanix Wear M-Pact Black/Grey current model and intended uses",
+      "url": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canada-kit",
+      "title": "Government of Canada emergency kit checklist",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "3m-gogglegear-500-safety-goggles",
+    "leatherman-wave-plus-multitool"
+  ],
+  "image": {
+    "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+    "alt": "Concept illustration of Mechanix Wear M-Pact work gloves in a tactical green inventory frame",
+    "credit": "ApocalypseGearLab owner-created concept illustration",
+    "license": "Owner-authorized site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN. Model documentation reviewed; the live Canadian listing, seller, size and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00939MRAA?tag=apocalypsegear-20",
+      "asin": "B00939MRAA"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-27",
+    "identityNotes": "Manufacturer-model documents reviewed for an informational profile. No physical testing, seller authentication or live ASIN/model verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Mechanix documents TPR protective panels and a synthetic palm for the current M-Pact Black/Grey model.",
+        "sourceIds": [
+          "mpact"
+        ]
+      },
+      {
+        "text": "The current page is marked as a new design; its generation-specific ratings do not establish the recorded Amazon variant.",
+        "sourceIds": [
+          "mpact"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Live Canadian listing, selected size/variant, seller, package and availability remain unverified."
+    ],
+    "safetyNotes": [
+      "Do not use as biological or medical barrier gloves.",
+      "Do not assume puncture, needle, bite, chemical, heat or electrical protection.",
+      "Follow equipment instructions concerning gloves near rotating machinery; damaged gloves need replacement."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match the Canadian listing, variant and current seller before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00939MRAA",
+      "checkedAt": "2026-10-27",
+      "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+      "sourceIds": [
+        "mpact"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm M-Pact Black/Grey, glove size and exact generation.",
+      "Read the supplied performance label instead of transferring ratings from a newer design.",
+      "Inspect fingers, seams and protective panels before use."
+    ]
+  }
+}

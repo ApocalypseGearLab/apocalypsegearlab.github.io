@@ -107,6 +107,10 @@ for(const asset of suppliedMedia) {
   const permitted = canPublishImportedAsset(asset);
   assert.equal(existsSync(fileFor(asset.deliverySrc)),permitted,`Supplied image delivery mismatch: ${asset.id}`);
   if(permitted) assert.deepEqual(readFileSync(fileFor(asset.deliverySrc)),readFileSync(asset.file),'Supplied WebP must not be recompressed');
+  for(const variant of asset.variants ?? []) {
+    assert.equal(existsSync(fileFor(variant.src)),permitted,'Responsive variant permission mismatch');
+    if(permitted) assert.deepEqual(readFileSync(fileFor(variant.src)),readFileSync(variant.file),'Responsive WebP delivery bytes changed');
+  }
 }
 const supersededAqua='/images/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp';
 assert.ok(!existsSync(fileFor(supersededAqua)), 'The superseded Aqua-Tainer illustration must not be delivered');
