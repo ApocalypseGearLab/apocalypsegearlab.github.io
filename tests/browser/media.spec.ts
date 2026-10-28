@@ -6,7 +6,7 @@ const importedMedia = JSON.parse(readFileSync('src/data/media/imported-manifest.
 
 const widths = [320, 375, 768, 1024, 1440, 1920];
 
-test('supplied SEO WebPs are delivered unchanged only for the thirteen reviewed product mappings', async ({ request, page }) => {
+test('supplied SEO WebPs are delivered unchanged only for the twenty reviewed product mappings', async ({ request, page }) => {
   for(const asset of importedMedia){
     const response=await request.get(asset.deliverySrc);
     expect(response.status()).toBe(canPublishImportedAsset(asset)?200:404);
@@ -84,9 +84,8 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
   mkdirSync('.tools/qa/phase-3', { recursive: true });
   for (const width of widths) {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto('http://127.0.0.1:4322/blackout/');
-    // Exclude Astro's development UI from site screenshots, without changing site content.
-    await page.addStyleTag({ content: 'astro-dev-toolbar { display: none !important; }' });
+    // Inspect the actual production build, independent of development HMR reloads.
+    await page.goto('/blackout/');
     const images = page.locator('.product-artwork img');
     await expect(images).toHaveCount(8);
     const rejected = page.locator('article.card').filter({ has: page.locator('a[href="/gear/jackery-explorer-300/"]') });
@@ -115,9 +114,9 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
     await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' }));
     await page.screenshot({ path: `.tools/qa/phase-3/blackout-${width}.png`, fullPage: true });
   }
-  await page.goto('http://127.0.0.1:4322/gear/fenix-cl26r-pro/');
+  await page.goto('/gear/fenix-cl26r-pro/');
   await expect(page.locator('.product-artwork--detail')).toHaveCount(1);
-  await expect(page.locator('.product-artwork--detail figcaption')).toContainText('Rendered markings and displays are not technical evidence');
+  await expect(page.locator('.product-artwork--detail figcaption')).toContainText('Illustrated labels are not specifications');
   const detail = page.locator('.product-artwork--detail img');
   await detail.evaluate((img: HTMLImageElement) => img.decode());
   expect(await detail.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(/fenix-cl26r-pro-camping-lantern-blackout\.webp$/);
@@ -146,7 +145,7 @@ test('reviewed illustrations disclose their limits without displaying withdrawn 
     const figure = page.locator('.product-artwork--detail');
     await expect(figure).toHaveAttribute('data-artwork-status', 'reviewed-illustration');
     await expect(figure.locator('figcaption')).toContainText('Concept illustration, not a product photograph');
-    await expect(figure.locator('figcaption')).toContainText('Rendered markings and displays are not technical evidence');
+    await expect(figure.locator('figcaption')).toContainText('Illustrated labels are not specifications');
     await expect(figure.locator('figcaption')).not.toContainText('earlier');
     await figure.locator('img').evaluate((img: HTMLImageElement) => img.decode());
     for (const width of [375, 1440]) {

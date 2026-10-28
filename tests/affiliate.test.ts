@@ -4,6 +4,7 @@ import { AFFILIATE_REL, getMerchantLinks } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 import { readFileSync, readdirSync } from 'node:fs';
 import { productSchema } from '../src/lib/product-schema';
+import { ACTIVE_PRODUCTS } from './catalogue-fixture';
 import { mandatoryHold } from '../src/lib/release-policy';
 
 function product(ca: string | null, us: string | null = null, partner: string | null = null): Product {
@@ -104,7 +105,7 @@ test('all non-held profiles can activate independently after documented checks w
     else { assert.equal(link.href, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`); activated++; }
     assert.equal(candidate.data.reviewStatus, 'draft');
   }
-  assert.equal(activated, 11);
+  assert.equal(activated, 18);
   assert.equal(retainedHolds, 3);
 });
 
@@ -121,7 +122,7 @@ test('the pending button identifies the missing prerequisite rather than final a
 });
 
 test('reviewed recorded links can activate without claiming live listing verification or final approval', () => {
-  const permitted = ['jackery-explorer-1000-v2', 'fenix-cl26r-pro', 'jackery-solarsaga-100w-air', 'sawyer-squeeze-sp129-water-filter', 'reliance-aqua-tainer-7-gallon', 'leatherman-wave-plus-multitool', 'sol-emergency-bivvy'];
+  const permitted = ACTIVE_PRODUCTS;
   let active = 0, held = 0;
   for (const file of readdirSync('src/data/products').filter(file => file.endsWith('.json') && !file.startsWith('template'))) {
     const p = {id:file.replace(/\.json$/, ''), data:productSchema.parse(JSON.parse(readFileSync('src/data/products/' + file, 'utf8')))} as Product;
@@ -132,7 +133,7 @@ test('reviewed recorded links can activate without claiming live listing verific
     else { assert.equal(link.href, null); assert.ok(link.unavailableReason); held++; }
     assert.equal(getMerchantLinks(p, false)[0]?.href, null, 'The account linking switch still applies');
   }
-  assert.equal(active, 7); assert.equal(held, 7);
+  assert.equal(active, 15); assert.equal(held, 6);
 });
 
 test('recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold', () => {

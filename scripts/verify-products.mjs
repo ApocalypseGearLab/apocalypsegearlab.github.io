@@ -92,7 +92,7 @@ try {
       assert.equal(button.attr('href'), affiliateUrl);
       assert.equal(button.attr('target'), '_blank');
       assert.equal(button.attr('rel'), 'sponsored nofollow noopener');
-      assert.match(button.text(), /Voir sur Amazon.ca/);
+      assert.match(button.text(), /View on Amazon.ca/);
       assert.ok($('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'));
       for (const name of ['kidde-c3010-co-alarm','iniu-p62-20000mah-65w','jackery-explorer-300']) {
         const real = load(readFileSync('dist/gear/' + name + '/index.html', 'utf8'));

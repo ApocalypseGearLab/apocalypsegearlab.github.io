@@ -1,0 +1,155 @@
+{
+  "name": "3M Aura 9205+ N95 particulate respirator",
+  "brand": "3M",
+  "modelNumber": "9205+",
+  "category": "respiratory-protection",
+  "summary": "A disposable particulate respirator documented by 3M as N95. Correct selection, fit and genuine supply matter; this is not protection against gases, vapours or oxygen deficiency.",
+  "description": "Respiratory protection starts with identifying the hazard and selecting a suitable respirator. The Aura 9205+ is a three-panel filtering facepiece for specified non-oil particulates, rather than a general-purpose escape mask. A catalogue page cannot establish fit or authenticity. Read the supplied instructions, obtain the required fit testing and training for occupational use, and choose a genuine supply channel.",
+  "specs": [
+    {
+      "label": "Documented class",
+      "value": "NIOSH N95 for certain non-oil particles; not a delivered-unit authenticity claim",
+      "source": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf"
+    },
+    {
+      "label": "Construction",
+      "value": "Three-panel flat-fold filtering facepiece",
+      "source": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf"
+    },
+    {
+      "label": "Fit features",
+      "value": "Adjustable nose clip and nose foam",
+      "source": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf"
+    },
+    {
+      "label": "Headbands",
+      "value": "Two stapled headbands; not ear loops",
+      "source": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf"
+    },
+    {
+      "label": "Approval reference",
+      "value": "3M Canadian technical sheet identifies TC-84A-8590 for the documented model",
+      "source": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf"
+    }
+  ],
+  "pros": [
+    "Flat-fold form is convenient to store in its original packaging.",
+    "The manufacturer provides model-specific instructions and Canadian technical documentation."
+  ],
+  "cons": [
+    "No gas, vapour or oxygen-supply capability.",
+    "A poor face seal can defeat the intended protection.",
+    "Seller, lot, expiry date, package quantity and authenticity are not independently verified."
+  ],
+  "useCases": [
+    "Include appropriate particulate protection in a workplace plan selected through a hazard assessment.",
+    "Keep genuine, undamaged packaged respirators for tasks within the manufacturer limits."
+  ],
+  "sources": [
+    {
+      "id": "aura-ca",
+      "title": "3M Canada Aura 9205+ product information",
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101271017/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "aura-spec",
+      "title": "3M Canadian 9205+ technical specification and use limits",
+      "url": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "aura-instructions",
+      "title": "3M 9205+/9210+/9211+ user instructions",
+      "url": "https://multimedia.3m.com/mws/media/994462O/3m-particulate-respirator-n95-9205-9210-9211-user-instructions.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-counterfeit",
+      "title": "3M counterfeit alert: standard respirators, including 9205+",
+      "url": "https://multimedia.3m.com/mws/media/1960842O/3m-8210-9205-9210-counterfeit-communication-letter.pdf",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "3m-gogglegear-500-safety-goggles",
+    "511-tactical-rush72-2-backpack"
+  ],
+  "image": {
+    "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+    "alt": "Concept illustration of 3M Aura 9205+ N95 particulate respirator in a tactical green inventory frame",
+    "credit": "ApocalypseGearLab owner-created concept illustration",
+    "license": "Owner-authorized site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN. Model documentation reviewed; the live Canadian listing, seller, size and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B09FM2P1KF?tag=apocalypsegear-20",
+      "asin": "B09FM2P1KF"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-27",
+    "identityNotes": "Manufacturer-model documents reviewed for an informational profile. No physical testing, seller authentication or live ASIN/model verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The Canadian technical sheet identifies the 9205+ model, N95 class and approval reference. This does not authenticate a seller or unit.",
+        "sourceIds": [
+          "aura-spec"
+        ]
+      },
+      {
+        "text": "3M warns of counterfeit 9205+ products and recommends authorized distributors; its alert is not a recall of all genuine 9205+ respirators.",
+        "sourceIds": [
+          "3m-counterfeit"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Live Canadian listing, selected size/variant, seller, package and availability remain unverified."
+    ],
+    "safetyNotes": [
+      "Do not use for gases, vapours, oxygen deficiency, unknown concentrations or immediately dangerous atmospheres.",
+      "Facial hair or other interference at the seal can prevent a proper fit; follow the manufacturer instructions and required fit testing.",
+      "This model is for appropriately trained adults within its instructions; it is not a surgical fluid-resistance or universal infection-prevention guarantee.",
+      "Replace a dirty, damaged or difficult-to-breathe-through respirator. Suspected counterfeit units should not be used."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match the Canadian listing, variant and current seller before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B09FM2P1KF",
+      "checkedAt": "2026-10-27",
+      "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+      "sourceIds": [
+        "aura-ca",
+        "aura-spec",
+        "aura-instructions",
+        "3m-counterfeit"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Buy through a 3M-authorized supply channel and check current counterfeit alerts, lot codes and packaging.",
+      "Confirm 9205+, quantity, expiry date and headbands; a printed approval number alone does not prove authenticity.",
+      "Follow the applicable respiratory-protection programme, fit-test requirements and seal checks."
+    ]
+  }
+}

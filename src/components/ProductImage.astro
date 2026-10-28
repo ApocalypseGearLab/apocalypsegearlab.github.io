@@ -6,10 +6,10 @@ import { importedArtwork, canPublishImportedAsset } from '../lib/imported-media'
 interface Props { slug: string; label?: string; detail?: boolean; releasePreview?: boolean }
 const { slug, label = 'Equipment profile', detail = false, releasePreview = false } = Astro.props;
 const supplied = importedArtwork(slug);
-const imageAccent = supplied?.category === 'fallout' ? '240 123 118' : '245 166 35';
+const imageAccent = supplied?.category === 'fallout' ? '240 123 118' : supplied?.category === 'outbreak' ? '182 245 102' : '245 166 35';
 const asset = supplied ? {
   alt: supplied.alt, identityNote: supplied.reviewNote,
-  variants: [{ src: supplied.deliverySrc, width: supplied.width, height: supplied.height }],
+  variants: ('variants' in supplied && supplied.variants) || [{ src: supplied.deliverySrc, width: supplied.width, height: supplied.height }],
 } : productMedia(slug);
 const review = assetReview(slug);
 const editorialArtwork = import.meta.env.DEV && !releasePreview;
@@ -28,8 +28,8 @@ const large = asset?.variants.at(-1);
     alt={asset.alt.replace('AI-assisted illustration', 'Concept illustration')} loading={detail ? 'eager' : 'lazy'} decoding="async"
   />
   <figcaption>
-    <span>Concept illustration, not a product photograph. Appearance may differ.</span>
-    {detail && supplied && <span class="identity-note">Rendered markings and displays are not technical evidence. Refer to the documented specifications and model limitations below.</span>}
+    <span>Concept illustration, not a product photograph.</span>
+    {detail && supplied && <span class="identity-note">Illustrated labels are not specifications; see the documented model details.</span>}
     {detail && editorialArtwork && !supplied && <span class="identity-note">{review?.caption ?? review?.note ?? asset.identityNote} Commercial use and source-photo permissions await owner confirmation.</span>}
   </figcaption>
   </> : <>
@@ -42,7 +42,7 @@ const large = asset?.variants.at(-1);
   .product-artwork { margin: 0 0 var(--s-4); min-width: 0; }
   .product-artwork img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #080807; }
   .product-artwork--detail { width: min(100%, 640px); }
-  figcaption { color: var(--c-muted); font-size: 0.8rem; line-height: 1.5; padding-top: var(--s-2); }
-  .identity-note { display: block; margin-top: var(--s-2); }
+  figcaption { color: var(--c-muted); font-size: 10.5px; line-height: 1.35; padding-top: var(--s-1); }
+  .identity-note { display: block; margin-top: 2px; }
   .neutral-media { aspect-ratio: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: var(--s-3); padding: var(--s-5); text-align: center; color: rgb(var(--media-accent)); border: 1px solid var(--c-line); background: linear-gradient(rgb(var(--media-accent) / .045) 1px, transparent 1px) 0 0 / 32px 32px, linear-gradient(90deg, rgb(var(--media-accent) / .045) 1px, transparent 1px) 0 0 / 32px 32px, #10110f; }
 </style>

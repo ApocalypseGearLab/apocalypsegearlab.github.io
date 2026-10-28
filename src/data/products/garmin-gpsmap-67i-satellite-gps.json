@@ -1,0 +1,141 @@
+{
+  "name": "Garmin GPSMAP 67i satellite communicator",
+  "brand": "Garmin",
+  "modelNumber": "GPSMAP 67i",
+  "category": "satellite-navigation",
+  "summary": "A handheld navigation device with inReach satellite communication. Messaging and satellite SOS require a compatible active subscription, activation and suitable operating conditions.",
+  "description": "A handheld navigator can help you follow a planned route and keep location information available away from a phone connection. The GPSMAP 67i adds inReach communication to that role, with requirements that ordinary GPS navigation does not share. Activate and test the correct service before travel, keep a view of the sky when communicating, and carry a backup navigation plan rather than treating SOS as a guaranteed rescue.",
+  "specs": [
+    {
+      "label": "Model",
+      "value": "GPSMAP 67i, with inReach; distinct from GPSMAP 67",
+      "source": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf"
+    },
+    {
+      "label": "Navigation hardware",
+      "value": "GNSS antenna, map navigation and physical controls",
+      "source": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf"
+    },
+    {
+      "label": "Satellite communication",
+      "value": "Iridium-based inReach messaging and SOS subject to active service",
+      "source": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf"
+    },
+    {
+      "label": "Connectivity and charging",
+      "value": "USB port beneath weather cap; dry before connecting",
+      "source": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf"
+    },
+    {
+      "label": "Storage expansion",
+      "value": "microSD card slot documented in the manual",
+      "source": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf"
+    }
+  ],
+  "pros": [
+    "Physical controls support use without relying solely on a phone touchscreen.",
+    "Navigation and subscription-based messaging can be planned within one device workflow."
+  ],
+  "cons": [
+    "Satellite communication requires compatible paid service and activation.",
+    "Coverage, sky obstruction, battery condition and local rules can affect use.",
+    "A device cannot guarantee message delivery or rescue response time."
+  ],
+  "useCases": [
+    "Carry a planned route with independent backup navigation.",
+    "Arrange remote check-ins using an activated and tested inReach plan."
+  ],
+  "sources": [
+    {
+      "id": "garmin-manual",
+      "title": "Garmin GPSMAP 67i owner’s manual",
+      "url": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "garmin-activation",
+      "title": "Garmin GPSMAP 67i activation and subscription requirements",
+      "url": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GUID-9DDF5575-3DDE-4FA7-8165-F47F128F5180.html",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "511-tactical-rush72-2-backpack",
+    "fenix-hm50r-v2-headlamp",
+    "merrell-moab-3-mid-waterproof-boots"
+  ],
+  "image": {
+    "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+    "alt": "Concept illustration of Garmin GPSMAP 67i satellite communicator in a tactical green inventory frame",
+    "credit": "ApocalypseGearLab owner-created concept illustration",
+    "license": "Owner-authorized site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN. Model documentation reviewed; the live Canadian listing, seller, size and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0C3WQPQPL?tag=apocalypsegear-20",
+      "asin": "B0C3WQPQPL"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-27",
+    "identityNotes": "Manufacturer-model documents reviewed for an informational profile. No physical testing, seller authentication or live ASIN/model verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The Garmin manual distinguishes navigation hardware from inReach functions requiring active service.",
+        "sourceIds": [
+          "garmin-manual"
+        ]
+      },
+      {
+        "text": "Garmin requires activation and an active satellite subscription for messaging, SOS, tracking and inReach weather.",
+        "sourceIds": [
+          "garmin-activation"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Live Canadian listing, selected size/variant, seller, package and availability remain unverified."
+    ],
+    "safetyNotes": [
+      "Messaging, satellite tracking, inReach weather and SOS require a compatible active subscription.",
+      "Communication depends on sky visibility, coverage and permitted use; delivery and rescue timing are not guaranteed.",
+      "Keep a backup navigation and communication plan, monitor battery and dry the USB port before charging."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match the Canadian listing, variant and current seller before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0C3WQPQPL",
+      "checkedAt": "2026-10-27",
+      "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+      "sourceIds": [
+        "garmin-manual",
+        "garmin-activation"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm GPSMAP 67i rather than 67, regional mapping and the seller’s package.",
+      "Check compatible inReach service, fees, activation and local satellite-device rules before travel.",
+      "Use the manufacturer’s test function and practice before relying on the device outdoors."
+    ]
+  }
+}

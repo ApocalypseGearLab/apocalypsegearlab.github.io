@@ -88,7 +88,7 @@ export function getMerchantLinks(product: Product, amazonPermission: Marketplace
       merchant: 'Amazon.ca',
       marketplace: 'ca',
       unavailableReason,
-      label: 'Voir sur Amazon.ca',
+      label: 'View on Amazon.ca',
       href: caEnrolled && caIssues.length === 0 ? links.amazonCa.url : null,
     },
     {

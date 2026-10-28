@@ -1,0 +1,418 @@
+{
+  "baseCommit": "5a765de8181a13c226864e4fa50343d43b4cdc16",
+  "preservedProductImages": [
+    {
+      "productId": "fenix-hm50r-v2-headlamp",
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2"
+    },
+    {
+      "productId": "sol-emergency-bivvy",
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b"
+    },
+    {
+      "productId": "leatherman-wave-plus-multitool",
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da"
+    },
+    {
+      "productId": "sawyer-squeeze-sp129-water-filter",
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede"
+    },
+    {
+      "productId": "nanuk-904-first-aid-kit",
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d"
+    },
+    {
+      "productId": "reliance-aqua-tainer-7-gallon",
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476"
+    },
+    {
+      "productId": "midland-er310",
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c"
+    },
+    {
+      "productId": "jackery-explorer-300",
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba"
+    },
+    {
+      "productId": "iniu-p62-20000mah-65w",
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa"
+    },
+    {
+      "productId": "ecoflow-river-2-pro",
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0"
+    },
+    {
+      "productId": "jackery-explorer-1000-v2",
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d"
+    },
+    {
+      "productId": "fenix-cl26r-pro",
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943"
+    },
+    {
+      "productId": "kidde-c3010-co-alarm",
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc"
+    },
+    {
+      "productId": "jackery-solarsaga-100w-air",
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977"
+    }
+  ],
+  "preservedBunkerVariants": [
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+      "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+      "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+      "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277"
+    }
+  ],
+  "newImages": [
+    {
+      "productId": "511-tactical-rush72-2-backpack",
+      "source": {
+        "filename": "Sac tactique noir sous halo vert.png",
+        "bytes": 2545134,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "689bc817dc77e0bcd26527069163ff9756fdda48c881e82ee982e7920f2cb0d0"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 33360,
+          "sha256": "5307f04f62c4d546b72bd9c0496f271dc58fe42305a7d29572831bbe64610e88",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 122220,
+          "sha256": "bbfab58e7edb85fefb8a634e142ccfa25cdb23d3602ee6ddb929d2767e4ca11a",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 210890,
+          "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92",
+          "quality": 83
+        }
+      ],
+      "rights": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "reviewNote": "Black tactical backpack with front webbing and side pockets; illustration does not authenticate a 5.11 package."
+    },
+    {
+      "productId": "3m-aura-9205-n95-respirator",
+      "source": {
+        "filename": "Masque N95 3M Aura sous surveillance futuriste.png",
+        "bytes": 2441563,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "89b74a84ff0c1f90677fc72bf549e9b6ae8e21c7c7f57d1cc76e54a598412a7c"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 39654,
+          "sha256": "70d673984dc376f9c8525457fde40eb72fc6131865787aaedfe59fe5b324cbd3",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 143230,
+          "sha256": "e09010cbf796ccb376bde61ed3732c5079bf5602aa18d086898b93aa2fb1f399",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 215282,
+          "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8",
+          "quality": 83
+        }
+      ],
+      "rights": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "reviewNote": "White three-panel facepiece, blue headbands and depicted 9205+/TC-84A-8590 agree with the Canadian model reference. Printed approval markings in concept art do not authenticate any unit."
+    },
+    {
+      "productId": "3m-gogglegear-500-safety-goggles",
+      "source": {
+        "filename": "Lunettes de protection tactiques néon vert-2.png",
+        "bytes": 2484233,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "f836417a87b81ae0ef7f74220241f6fb2089c5605801e158ff287146a15adaa8"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 48354,
+          "sha256": "0b1e82a6f653ae9cb08f3c492ac07862e6d32988f3e983c614045d2d28ba6d4a",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 163354,
+          "sha256": "4153680698daf753f855be1d3ef1a7f853f4c442fee82c30daba64e6e2da8997",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 243558,
+          "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82",
+          "quality": 83
+        }
+      ],
+      "rights": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "reviewNote": "Clear wraparound lens, grey/red shroud and adjustable cloth strap agree in general form with the GG501SGAF reference. No depicted certification mark is treated as evidence."
+    },
+    {
+      "productId": "mechanix-m-pact-work-gloves",
+      "source": {
+        "filename": "Gants tactiques sous halo néon.png",
+        "bytes": 2729429,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "710a1d9b480ad54421c1d98d3984681ae4a695010be909593ef60d597a439e27"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 49176,
+          "sha256": "11f90e0f5df206682bc7921b8231f16ab0cec5406d05a8f0c15a8238161dfd4c",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 181684,
+          "sha256": "ffa32c7a96887b4f66b5f5f0a7587cf46dadadaf5f0792503149ea542d5a5182",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 281774,
+          "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578",
+          "quality": 83
+        }
+      ],
+      "rights": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "reviewNote": "Black/grey glove pair with back-of-hand panels and palm padding; illustration is not an exact generation, label or performance-rating reference. No biological, bite or puncture guarantee is inferred."
+    },
+    {
+      "productId": "merrell-moab-3-mid-waterproof-boots",
+      "source": {
+        "filename": "Bottes de randonnée néon en terrain hostile.png",
+        "bytes": 2819337,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "413988fc9f6fdea103cf5ce9a18734cdfba932f1a80020da809f86e6460d8118"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 55808,
+          "sha256": "19ba80bba904e74455697eba09a3c22b1b80cc3cd49f081b13602b51bfaa0cf2",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 196676,
+          "sha256": "0492954a40e398a38cd73d2e809ba199eed0c7d93a0c1b62c71d9c9d400966c8",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 304318,
+          "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335",
+          "quality": 83
+        }
+      ],
+      "rights": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "reviewNote": "Dark mid-height suede/mesh hiking boots with rubber toe protection; preserved colours. Illustration does not establish the exact Beluga colour, size or delivered revision."
+    },
+    {
+      "productId": "marmot-precip-rain-jacket",
+      "source": {
+        "filename": "Veste Marmot dans un HUD néon futuriste.png",
+        "bytes": 2076115,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "64e18994e352d790d4861bb3e2ee68d637f1c8a4e6e8cec55835f9b68c6246de"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 34460,
+          "sha256": "5141031364537cb3d659d45adce8665a2351d8d8dc09f603bf06a1d0db2fbf74",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 101892,
+          "sha256": "ad5287ec648575a06ac2e308cd5b377ba08b414659ff6be1e715428d892b8d6d",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 148556,
+          "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc",
+          "quality": 83
+        }
+      ],
+      "rights": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "reviewNote": "Black hooded Marmot-style rain shell without a person or mannequin. Illustration cannot determine the PreCip generation, fabric or waterproof rating."
+    },
+    {
+      "productId": "garmin-gpsmap-67i-satellite-gps",
+      "source": {
+        "filename": "GPSMAP au cœur du brouillard néon.png",
+        "bytes": 2364491,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "260fb85aeac1ba5f3c55f5cc6536b34065b4ed94ce7ced133bcf3a605224a4a4"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 46694,
+          "sha256": "dfdbe056ded78707d3c066147bb7150c36e81826b174b05465961982504f059d",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 148766,
+          "sha256": "73a8bd4169f40c07606f1c4f634f5f43a31e498020c6ea00044b850c1af3ab47",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 225804,
+          "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3",
+          "quality": 83
+        }
+      ],
+      "rights": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "reviewNote": "Handheld GPS with antenna, physical controls and side SOS cover in the documented family form. Screen/map/message graphics are illustrative, not proof of service or actual navigation data."
+    }
+  ],
+  "originalPngBytes": 17460302,
+  "mainWebpBytes": 1630182,
+  "allVariantBytes": 2995510,
+  "explorer300": {
+    "checkedAt": "2026-10-27",
+    "sourceFilename": "Jackery Explorer 300 en lumière ambre.png",
+    "sourceSha256": "147aed5b2727484731d52fd5a4396982f860a13c0c3f0e526162144bb4d25bb6",
+    "ownerStylePermission": "Reconfirmed in Phase 4.2 work order; no further consent requested.",
+    "status": "rejected",
+    "defect": "The same PNG still shows USB-C 100 W and both USB-A 15 W inscriptions.",
+    "proposedCorrection": "Remove the unsupported 100 W and 15 W legends. Retain only generic USB-C / USB-A port labels until the exact depicted revision is established; do not substitute guessed power ratings. Inspect any corrected pixels before replacing this rejected asset."
+  }
+}

@@ -66,7 +66,8 @@
   ],
   "relatedProducts": [
     "fenix-cl26r-pro",
-    "jackery-explorer-300"
+    "jackery-explorer-300",
+    "garmin-gpsmap-67i-satellite-gps"
   ],
   "editorial": {
     "purchaseChecks": [
@@ -96,7 +97,7 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
     "listingVerified": false,
     "confirmed": [
@@ -112,6 +113,12 @@
           "fenix-hm50r",
           "fenix-hm50r-us"
         ]
+      },
+      {
+        "text": "Fenix Lighting’s battery table recommends the ARB-L16 family. Revision-specific indicator and charging behaviour must follow the supplied manual.",
+        "sourceIds": [
+          "fenix-hm50r-us"
+        ]
       }
     ],
     "unverifiedClaims": [
@@ -120,7 +127,8 @@
     "safetyNotes": [
       "Do not stare into the beam or direct it toward other people.",
       "Use the specified protected cell and charging instructions for the delivered revision; never recharge a primary cell.",
-      "Lock out the lamp for transport and keep a hot lamp away from combustible material."
+      "Lock out the lamp for transport and keep a hot lamp away from combustible material.",
+      "Use the correct protected ARB-L16 cell and the delivered revision’s instructions. Do not recharge a primary CR123A cell or assume shared battery-indicator calibration."
     ],
     "safetyStatus": "pending",
     "publicationApproved": false,
@@ -129,10 +137,10 @@
       "Match the listed LED/battery revision to its instructions: Fenix global specifies ARB-L16-700P, while the US page includes ARB-L16-800P. Do not combine revision-specific performance or charging claims."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B0H6R34CBL",
-      "checkedAt": "2026-10-26",
-      "reason": "Manufacturer pages differ on LED and battery revisions: ARB-L16-700P versus ARB-L16-800P. Match the supplied cell and charging instructions before enabling this link.",
+      "checkedAt": "2026-10-27",
+      "reason": "The manufacturer battery table recommends the ARB-L16 family (16340, 3.6/3.7 V). The 700P and 800P references are documented revisions, not proof of an unsafe listing. No revision-specific runtime, charge time or indicator calibration is assigned to the unverified ASIN.",
       "sourceIds": [
         "fenix-hm50r",
         "fenix-hm50r-us"

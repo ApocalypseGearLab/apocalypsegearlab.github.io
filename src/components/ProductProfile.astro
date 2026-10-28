@@ -41,7 +41,7 @@ const breadcrumbs = {
 ---
 
 <BaseLayout canonicalPath={`/gear/${product.id}/`} title={`${data.name}: specs, uses & limitations`} description={data.summary} noindex={!indexable} ogType="article" jsonLd={[breadcrumbs, ...(productJson ? [productJson] : [])]}>
-  <article class="container section stack" data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : '#F5A623'}`}>
+  <article class="container section stack" data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
     <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />
 
     {!indexable && <p class="notice"><strong>Informational profile{!hasBuyingLinks && ' — verification in progress'}.</strong> {hasBuyingLinks ? (research?.listingVerified ? 'Consult the documented sources and model limitations before buying. ' : 'The retailer link uses the recorded ASIN. The current listing, seller and package have not been independently verified. ') : 'Product identity, Canadian listing and safety documentation have not all been confirmed. '}This is not a hands-on review, certification claim or purchase recommendation. {!hasBuyingLinks && 'Buying links are not active.'}</p>}

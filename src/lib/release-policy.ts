@@ -44,8 +44,10 @@ export function isPubliclyVisible(product: Product): boolean {
 
 export function productCaution(product: Product): string | undefined {
   const asin = product.data.links.amazonCa.asin;
+  if(product.data.category === 'respiratory-protection') return 'Particulate protection has strict limits. No protection against gases, vapours or oxygen deficiency is provided. Correct fit, required training and genuine supply are essential; this profile does not authenticate a seller or respirator.';
+  if(product.data.category === 'satellite-navigation') return 'Satellite messaging and SOS require a compatible active subscription and activation. Coverage, sky visibility and local rules affect operation; message delivery and rescue are not guaranteed.';
   if (product.id === 'kidde-c3010-co-alarm' || asin === 'B00FHW7PBS') return 'Canadian certification unconfirmed. The US C3010 designation does not establish C3010-CA equivalence. Do not select this listing for a Canadian installation without the actual certification label and Canadian instructions.';
   if (product.id === 'iniu-p62-20000mah-65w' || asin === 'B0DB888L9F') return 'Safety verification incomplete. The exact P62 revision, cable configuration and Canadian safety evidence remain unverified. This profile does not establish the safety of the listed unit or recommend its purchase.';
-  if (product.id === 'jackery-explorer-300' || asin === 'B082TMBYR6') return 'Explorer 300 revision unresolved. The retrieved retailer page describes a 292 Wh LiFePO4 version, while this profile documents the original NCM model. Battery chemistry, capacity and regional voltage must be matched before purchase. Do not assume SolarSaga 100 Air compatibility.';
+  if (product.id === 'jackery-explorer-300' || asin === 'B082TMBYR6') return 'Explorer 300 revision unresolved. The retailer representation mixes 292/293 Wh, a LiFePO4 summary and Lithium Ion specifications, plus 110/120 V fields. This profile documents the original NCM model. Match the actual unit and manual before purchase; do not assume SolarSaga 100 Air compatibility.';
   return undefined;
 }

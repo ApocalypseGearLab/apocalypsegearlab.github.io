@@ -66,12 +66,12 @@ export const UNIVERSES: Record<UniverseId, Universe> = {
   outbreak: {
     id: 'outbreak',
     name: 'Outbreak',
-    signal: 'Survival scenarios',
-    tagline: 'General preparedness, plus clearly labelled fiction.',
+    signal: 'Field readiness',
+    tagline: 'Carry, protect and navigate. Fiction stays clearly labelled.',
     summary:
-      'Long-term supply planning, storage and inventory management, alongside fictional scenario simulations that are never presented as real advice.',
+      'Equipment profiles for evacuation, outdoor travel and practical protection. Plan your load, understand each item’s limits and follow the manufacturer instructions.',
     accent: 'var(--c-moss)',
     fiction: true,
-    sourcingNote: 'Real preparedness content and fictional scenarios are kept visibly separate.',
+    sourcingNote: 'Equipment guidance cites manufacturer documents. Respirator fit, eye protection and satellite subscriptions have specific limits; fictional scenarios are kept separate from real safety advice.',
   },
 };

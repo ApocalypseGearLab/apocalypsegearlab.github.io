@@ -27,7 +27,7 @@ test('recorded product buttons work on catalogues and profiles in isolated new t
     expect(await popup.evaluate(() => window.opener === null)).toBe(true);
     await popup.close();
   };
-  for (const path of ['/gear/', '/blackout/', '/fallout/']) {
+  for (const path of ['/gear/', '/blackout/', '/fallout/', '/outbreak/']) {
     await page.goto(path);
     for (const button of await page.locator('a[data-affiliate-click]').all()) await checkNewTab(button);
   }
@@ -46,6 +46,6 @@ test('recorded product buttons work on catalogues and profiles in isolated new t
       await expect(card.locator('a[data-affiliate-click]')).toHaveCount(getMerchantLinks(related)[0]?.href ? 1 : 0);
     }
   }
-  expect(intercepted).toHaveLength(21); // 7 catalogue + 7 sector + 7 individual buttons
+  expect(intercepted).toHaveLength(45); // 15 catalogue + 15 sector + 15 individual buttons
   expect(new Set(intercepted)).toEqual(permittedUrls);
 });

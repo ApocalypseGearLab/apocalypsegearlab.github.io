@@ -1,0 +1,140 @@
+{
+  "name": "Merrell Moab 3 Mid Waterproof hiking boots",
+  "brand": "Merrell",
+  "modelNumber": "Moab 3 Mid Waterproof — men",
+  "category": "hiking-footwear",
+  "summary": "Mid-height waterproof hiking boots for men, with Beluga selected by the owner. Fit, width and the size-specific ASIN need checking; no size availability is promised.",
+  "description": "Footwear for an evacuation route has to fit the feet that will wear it. The Moab 3 Mid Waterproof combines a mid-height upper with a waterproof membrane in the documented model. Try it with your intended socks and load before a long walk. A familiar hiking boot is more useful than an untested fit, and waterproof construction does not make it safe to wade through deep or contaminated water.",
+  "specs": [
+    {
+      "label": "Documented style",
+      "value": "Men’s Moab 3 Mid Waterproof",
+      "source": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html"
+    },
+    {
+      "label": "Upper",
+      "value": "Pig suede leather and breathable mesh",
+      "source": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html"
+    },
+    {
+      "label": "Weather construction",
+      "value": "Waterproof membrane; water can still enter over the collar",
+      "source": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html"
+    },
+    {
+      "label": "Outsole",
+      "value": "Vibram TC5+ in the documented manufacturer model",
+      "source": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html"
+    },
+    {
+      "label": "Tongue and protection",
+      "value": "Bellows tongue, rubber toe and heel protection",
+      "source": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html"
+    }
+  ],
+  "pros": [
+    "Mid-height form and bellows tongue suit ordinary trail use.",
+    "The manufacturer provides a specific waterproof model rather than a generic boot description."
+  ],
+  "cons": [
+    "Fit and break-in comfort have not been tested by us.",
+    "Not certified safety-toe, puncture-resistant or biological protective footwear in this profile.",
+    "Beluga selection and the recorded ASIN do not establish availability of other sizes or widths."
+  ],
+  "useCases": [
+    "Plan a walking route with footwear already checked for fit.",
+    "Ordinary hiking and outdoor kit transport within local conditions."
+  ],
+  "sources": [
+    {
+      "id": "moab-ca",
+      "title": "Merrell Canada Moab 3 Mid Waterproof construction and variants",
+      "url": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canada-kit",
+      "title": "Government of Canada emergency kit checklist",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "511-tactical-rush72-2-backpack",
+    "marmot-precip-rain-jacket",
+    "garmin-gpsmap-67i-satellite-gps"
+  ],
+  "image": {
+    "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+    "alt": "Concept illustration of Merrell Moab 3 Mid Waterproof hiking boots in a tactical green inventory frame",
+    "credit": "ApocalypseGearLab owner-created concept illustration",
+    "license": "Owner-authorized site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN. Model documentation reviewed; the live Canadian listing, seller, size and package are not independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0987Z7CKY?tag=apocalypsegear-20",
+      "asin": "B0987Z7CKY"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-27",
+    "identityNotes": "Manufacturer-model documents reviewed for an informational profile. No physical testing, seller authentication or live ASIN/model verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Merrell Canada documents a waterproof membrane, suede/mesh upper and Vibram TC5+ outsole for this model.",
+        "sourceIds": [
+          "moab-ca"
+        ]
+      },
+      {
+        "text": "The manufacturer page separates size and width selections; the owner-provided ASIN is not evidence for all sizes.",
+        "sourceIds": [
+          "moab-ca"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Live Canadian listing, selected size/variant, seller, package and availability remain unverified."
+    ],
+    "safetyNotes": [
+      "No guarantee of grip on ice, oil or every wet surface is made.",
+      "Do not treat a waterproof membrane as protection against chemical or biological contamination.",
+      "Use appropriate footwear and local advice for the actual terrain; foot discomfort or damage needs attention."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match the Canadian listing, variant and current seller before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0987Z7CKY",
+      "checkedAt": "2026-10-27",
+      "reason": "Recorded link permitted after manufacturer-model and safety-limitation review. No concrete ASIN/model contradiction was established. This does not verify listing identity, seller authenticity, certification of a delivered unit or suitability for a particular hazard.",
+      "sourceIds": [
+        "moab-ca"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm men’s Moab 3 Mid Waterproof, colour, size and width on the selected listing.",
+      "Check whether choosing another size changes the ASIN or seller.",
+      "Try the boots with intended socks and inspect soles before a loaded walk."
+    ]
+  }
+}

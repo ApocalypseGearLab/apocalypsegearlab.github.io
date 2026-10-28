@@ -106,7 +106,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
     "listingVerified": false,
     "confirmed": [
@@ -126,7 +126,7 @@
     ],
     "unverifiedClaims": [
       "The owner-selected listing is advertised as approximately 293 Wh; that is not a verified exact capacity for this unit.",
-      "The retrieved retailer page now describes 292 Wh and LiFePO4 for this ASIN; the older indexed 293 Wh / 110 V description does not establish the current revision."
+      "The current retailer representation mixes a 292 Wh title, 293 Wh Lithium Ion feature text, a LiFePO4 product summary and 110/120 V fields. No single delivered-unit chemistry, capacity or regional revision can be assigned from this inconsistent representation."
     ],
     "safetyNotes": [
       "Do not use the newer SolarSaga 100 Air compatibility claim for this legacy model.",
@@ -137,13 +137,13 @@
     "publicationBlockers": [
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
       "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label.",
-      "The newly retrieved Canadian page for B082TMBYR6 describes a 292 Wh LiFePO4 revision, while this profile documents the original NCM model. Resolve chemistry, capacity and regional output against the exact unit and correct instructions."
+      "Resolve the inconsistent 292/293 Wh, Lithium Ion/LiFePO4 and 110/120 V statements against the actual unit label and matching manual. A product-summary string is not proof that the delivered model is LiFePO4."
     ],
     "affiliateReview": {
       "decision": "hold",
       "asin": "B082TMBYR6",
-      "checkedAt": "2026-10-26",
-      "reason": "The retrieved listing describes 292 Wh LiFePO4, while the documented original model is NCM / 293.8 Wh. Resolve chemistry, capacity and regional voltage before enabling the link.",
+      "checkedAt": "2026-10-27",
+      "reason": "The retailer representation contains inconsistent 292/293 Wh, Lithium Ion/LiFePO4 and 110/120 V fields. Resolve the actual unit revision and manual; do not infer a definite LiFePO4 model from the product-summary string.",
       "sourceIds": [
         "jackery-300-manual",
         "jackery-300-support",
