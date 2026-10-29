@@ -46,6 +46,6 @@ test('recorded product buttons work on catalogues and profiles in isolated new t
       await expect(card.locator('a[data-affiliate-click]')).toHaveCount(getMerchantLinks(related)[0]?.href ? 1 : 0);
     }
   }
-  expect(intercepted).toHaveLength(45); // 15 catalogue + 15 sector + 15 individual buttons
+  expect(intercepted).toHaveLength(51); // 17 catalogue + 17 sector + 17 individual buttons
   expect(new Set(intercepted)).toEqual(permittedUrls);
 });

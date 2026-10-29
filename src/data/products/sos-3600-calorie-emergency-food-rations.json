@@ -1,0 +1,154 @@
+{
+  "name": "S.O.S. Emergency Food Rations — 3600 Calories",
+  "brand": "S.O.S. Food Lab",
+  "modelNumber": "3600 KCAL Emergency Food Ration",
+  "category": "food-rations",
+  "summary": "A ready-to-eat ration marketed as 3,600 kcal per packet. The possible two-pack Canadian listing and inconsistent manufacturer calorie arithmetic remain unconfirmed; no 7,200-kcal lot is asserted.",
+  "description": "A compact ration can provide a reserve when ordinary food is unavailable, but packet count and energy figures must be clear. S.O.S. describes a nine-portion emergency ration without a cooking requirement. The supplied ASIN may represent two packets; that quantity has not been confirmed. The manufacturer nutrition sheet also lists nine 410-kcal servings alongside a 3,600-kcal product name, so this page does not turn either figure into a verified lot total.",
+  "specs": [
+    {
+      "label": "Product designation",
+      "value": "Manufacturer markets a 3600 KCAL emergency-food packet",
+      "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
+    },
+    {
+      "label": "Portions",
+      "value": "Nine servings per container in the manufacturer sheet",
+      "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
+    },
+    {
+      "label": "Energy inconsistency",
+      "value": "Label: 410 kcal per serving; 9×410 = 3,690 kcal, conflicting with the 3,600-kcal designation",
+      "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
+    },
+    {
+      "label": "Preparation",
+      "value": "Ready-to-eat ration in foil packaging",
+      "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
+    },
+    {
+      "label": "Declared storage life",
+      "value": "Five-year design claim; check manufacture/expiry dates and sealed packaging",
+      "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
+    },
+    {
+      "label": "Allergen reference",
+      "value": "Manufacturer sheet lists wheat, coconut and soy-related ingredients; check the actual lot",
+      "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
+    }
+  ],
+  "pros": [
+    "The documented ration can be eaten without heating.",
+    "Portioned format supports measured short-term distribution once the actual packet label is checked."
+  ],
+  "cons": [
+    "Canadian two-pack quantity is not established, so 7,200 kcal for the lot is not verified.",
+    "Manufacturer calorie figures conflict.",
+    "Contains wheat and other potential allergens; a nut-free facility claim does not mean allergen-free food."
+  ],
+  "useCases": [
+    "Compare compact ready-to-eat options for an evacuation bag after checking pack quantity and labels.",
+    "Plan a rotated reserve with water and a broader range of suitable foods."
+  ],
+  "sources": [
+    {
+      "id": "sos-sheet",
+      "title": "S.O.S. 3600 KCAL manufacturer nutrition and product sheet",
+      "url": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "sos-faq",
+      "title": "S.O.S. storage and gluten-free FAQ",
+      "url": "https://sosfoodlab.com/faq/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "kit-planning",
+      "title": "Public Safety Canada: emergency kit planning",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "datrex-dx2400f-emergency-food-ration",
+    "readywise-84-servings-emergency-food-bucket",
+    "reliance-aqua-tainer-7-gallon"
+  ],
+  "image": {
+    "src": "/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+    "alt": "Concept illustration of S.O.S. Emergency Food Rations — 3600 Calories in a red tactical inventory frame",
+    "credit": "ApocalypseGearLab owner-approved concept illustration",
+    "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN; manufacturer-model references do not independently establish the current Canadian listing or seller."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00W20PIHQ?tag=apocalypsegear-20",
+      "asin": "B00W20PIHQ"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-28",
+    "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "S.O.S. describes a five-year ration and nine servings. Its sheet contains both the 3,600-kcal designation and 410 kcal per serving, which do not reconcile.",
+        "sourceIds": [
+          "sos-sheet"
+        ]
+      },
+      {
+        "text": "The manufacturer FAQ does not offer this ration as gluten-free.",
+        "sourceIds": [
+          "sos-faq"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+    ],
+    "safetyNotes": [
+      "Read the delivered wheat, coconut and soy declarations and full ingredients; this ration is not documented as gluten-free.",
+      "A five-year design life is not a promise of five years remaining on an unknown lot. Inspect packaging and dates, and follow storage directions.",
+      "Keep potable water available; do not use the illustration as nutrition, ingredient or certification evidence."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication.",
+      "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. Manufacturer data also conflicts: nine 410-kcal servings equal 3,690 rather than 3,600 kcal. Resolve the lot and nutrition label before enabling the CTA; 7,200 kcal is not established."
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B00W20PIHQ",
+      "checkedAt": "2026-10-28",
+      "reason": "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. Manufacturer data also conflicts: nine 410-kcal servings equal 3,690 rather than 3,600 kcal. Resolve the lot and nutrition label before enabling the CTA; 7,200 kcal is not established.",
+      "sourceIds": [
+        "sos-sheet",
+        "sos-faq",
+        "kit-planning"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm whether B00W20PIHQ contains one or two sealed packets; do not assume a two-pack.",
+      "Ask for consistent calorie and portion information matching the delivered lot.",
+      "Check ingredients, allergens, dates and seal integrity; distinguish S.O.S. from Datrex."
+    ]
+  }
+}

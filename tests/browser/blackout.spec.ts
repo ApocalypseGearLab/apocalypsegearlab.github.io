@@ -71,11 +71,11 @@ for (const { slug, data } of drafts) {
   });
 }
 
-test('public catalogues expose twenty-one profiles in their correct sectors', async ({ page }) => {
-  for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
+for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
+  test(`${route} exposes the registered profiles in its correct sector`, async ({ page }) => {
     const sector = route === '/gear/' ? null : route.slice(1,-1);
     const selected = drafts.filter(({data}) => !sector || categoryUniverse(data.category) === sector);
-    const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 5 : route === '/outbreak/' ? 7 : 20;
+    const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 9 : route === '/outbreak/' ? 8 : 25;
     await page.goto(route);
     await expect(page.locator('article.card')).toHaveCount(selected.length);
     await expect(page.locator('.neutral-media')).toHaveCount(selected.length-images);
@@ -114,5 +114,5 @@ test('public catalogues expose twenty-one profiles in their correct sectors', as
     for (const { slug } of selected) {
       await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
     }
-  }
-});
+  });
+}

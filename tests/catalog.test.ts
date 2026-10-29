@@ -7,9 +7,11 @@ import { categoryUniverse } from '../src/config/taxonomy';
 import { getMerchantLinks, canadianAffiliateIssues } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 
-import { OUTBREAK } from './catalogue-fixture';
+import { OUTBREAK, PHASE43_FALLOUT } from './catalogue-fixture';
+import { productCaution } from '../src/lib/release-policy';
 const expected = {
   ...OUTBREAK,
+  ...PHASE43_FALLOUT,
   'jackery-explorer-1000-v2': ['B0D7PPG25F', 'power-stations'],
   'ecoflow-river-2-pro': ['B0BVLPGS79', 'power-stations'],
   'jackery-explorer-300': ['B082TMBYR6', 'power-stations'],
@@ -28,7 +30,43 @@ const expected = {
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
 
-test('twenty-one registered links retain exact identities and obey product-level evidence decisions', () => {
+test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits', () => {
+  const get = (id:string) => productSchema.parse(rawProducts.get(id));
+  const gc=get('fnirsi-gc-01-geiger-counter');
+  assert.equal(gc.research?.affiliateReview?.decision,'hold');
+  assert.match(gc.research!.affiliateReview!.reason,/1,000 versus 10,000/);
+  assert.match(gc.research!.affiliateReview!.reason,/exact.*Canadian listing\/model/);
+  const rw=get('readywise-84-servings-emergency-food-bucket');
+  assert.equal(rw.research?.affiliateReview?.decision,'hold');
+  assert.match(rw.research!.affiliateReview!.reason,/15,420.*15,180/);
+  assert.match(rw.research!.safetyNotes.join(' '),/soy.*milk/);
+  const sos=get('sos-3600-calorie-emergency-food-rations');
+  assert.equal(sos.research?.affiliateReview?.decision,'hold');
+  assert.match(sos.research!.affiliateReview!.reason,/two-pack.*unconfirmed/);
+  assert.match(sos.research!.affiliateReview!.reason,/3,690.*3,600/);
+  const datrex=get('datrex-dx2400f-emergency-food-ration');
+  assert.match(datrex.specs.find(s=>s.label==='Energy per packet')!.value,/whole packet/);
+  assert.match(datrex.specs.find(s=>s.label==='Individual bars')!.value,/12.*200 kcal/);
+  const mask=get('3m-6800-full-facepiece-respirator');
+  assert.equal(mask.modelNumber,'6800');
+  assert.match(mask.specs[0]!.value,/Medium/);
+  assert.match(mask.cons.join(' '),/not confirmed as included/);
+  const caution=productCaution({id:'3m-6800-full-facepiece-respirator',data:mask} as Product)!;
+  assert.match(caution,/alone does not filter air/);
+  assert.match(caution,/supplies no oxygen/);
+  assert.doesNotMatch(caution,/No protection against gases/,'Do not apply the N95-only caution to a configurable full facepiece');
+});
+
+test('new product holds cannot be bypassed by setting unrelated editorial approval flags', () => {
+  for(const id of ['fnirsi-gc-01-geiger-counter','readywise-84-servings-emergency-food-bucket','sos-3600-calorie-emergency-food-rations']) {
+    const data=productSchema.parse(rawProducts.get(id));
+    data.research={...data.research!,listingVerified:true,safetyStatus:'cleared',publicationApproved:true,publicationBlockers:[]};
+    assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,null);
+    assert.equal(productSchema.safeParse({...data,reviewStatus:'published'}).success,false);
+  }
+});
+
+test('twenty-six registered links retain exact identities and obey product-level evidence decisions', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -37,7 +75,7 @@ test('twenty-one registered links retain exact identities and obey product-level
     assert.equal(data.links.amazonCa.url, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
     assert.equal(new URL(data.links.amazonCa.url!).searchParams.getAll('tag').length, 1);
     assert.equal(data.category, category);
-    assert.equal(categoryUniverse(data.category), slug in OUTBREAK ? 'outbreak' : ['water','first-aid','tools','shelter'].includes(category) ? 'fallout' : 'blackout');
+    assert.equal(categoryUniverse(data.category), slug in OUTBREAK ? 'outbreak' : ['water','first-aid','tools','shelter','food-storage','food-rations','radiation-detection'].includes(category) ? 'fallout' : 'blackout');
     assert.equal(data.testing, 'not-tested');
     assert.equal(data.reviewStatus, 'draft');
     assert.equal(data.visibility, 'informational');
@@ -45,7 +83,7 @@ test('twenty-one registered links retain exact identities and obey product-level
     assert.ok(data.research?.confirmed.length);
     assert.ok(data.description.length > 150);
     assert.ok(data.specs.length >= 5);
-    if(slug in OUTBREAK) assert.ok(data.image?.src?.startsWith('/images/outbreak/')); else assert.equal(data.image, null);
+    if(slug in OUTBREAK || slug in PHASE43_FALLOUT) assert.ok(data.image?.src?.startsWith('/images/'+categoryUniverse(data.category)+'/')); else assert.equal(data.image, null);
     for (const key of ['price', 'rating', 'aggregateRating', 'stock', 'discount']) assert.ok(!(key in raw));
     const product = { id: slug, data } as Product;
     const eligible = canadianAffiliateIssues(product).length === 0;
@@ -74,7 +112,7 @@ test('slugs, ASINs and related records are unique and refer to existing products
       assert.ok(rawProducts.has(related), `${slug} -> ${related}`);
     }
   }
-  assert.equal(asins.size, 21);
+  assert.equal(asins.size, 26);
 });
 
 test('Kidde and INIU remain blocked and cannot be published by changing only editorial status', () => {
@@ -149,15 +187,15 @@ test('OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits
   }
 });
 
-test('Phase 4.2 has nine BLACKOUT, five FALLOUT and seven OUTBREAK profiles with substantive original content', () => {
+test('Phase 4.3 has nine BLACKOUT, nine FALLOUT and eight OUTBREAK profiles with substantive original content', () => {
   const products = [...rawProducts].filter(([,raw]) => raw.visibility === 'informational');
-  assert.equal(products.length, 21);
+  assert.equal(products.length, 26);
   const universes = products.map(([,raw]) => categoryUniverse(productSchema.parse(raw).category));
   assert.equal(universes.filter(id => id === 'blackout').length, 9);
-  assert.equal(universes.filter(id => id === 'fallout').length, 5);
-  assert.equal(universes.filter(id => id === 'outbreak').length, 7);
-  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size, 21);
-  assert.equal(new Set(products.map(([,raw]) => raw.description)).size, 21);
+  assert.equal(universes.filter(id => id === 'fallout').length, 9);
+  assert.equal(universes.filter(id => id === 'outbreak').length, 8);
+  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size, 26);
+  assert.equal(new Set(products.map(([,raw]) => raw.description)).size, 26);
   for (const id of ['fenix-hm50r-v2-headlamp','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','nanuk-904-first-aid-kit','leatherman-wave-plus-multitool','sol-emergency-bivvy']) {
     const raw = rawProducts.get(id);
     assert.ok(raw.editorial.purchaseChecks.length >= 3, id);

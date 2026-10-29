@@ -1,0 +1,154 @@
+{
+  "name": "Datrex DX2400F Emergency Food Ration — 2400 Calories",
+  "brand": "Datrex",
+  "modelNumber": "DX2400F",
+  "category": "food-rations",
+  "summary": "A compact ready-to-eat ration documented as twelve 200-kcal bars: 2,400 kcal for the complete packet. Contains wheat; check the delivered ingredients, seals, dates and Canadian pack quantity.",
+  "description": "Compact rations trade menu variety for space and simple preparation. The DX2400F reference contains twelve individually wrapped bars within an outer foil pack and can be eaten without heating. It is a short-term energy reserve rather than a complete diet or substitute for drinking water. Match the model and actual pack count when comparing listings; the manufacturer also sells larger rations and commercial cases.",
+  "specs": [
+    {
+      "label": "Model",
+      "value": "DX2400F; separate from the DX3600F ration",
+      "source": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf"
+    },
+    {
+      "label": "Energy per packet",
+      "value": "2,400 kcal for the whole packet",
+      "source": "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf"
+    },
+    {
+      "label": "Individual bars",
+      "value": "12 individually wrapped bars, 200 kcal each in the model sheet",
+      "source": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf"
+    },
+    {
+      "label": "Preparation",
+      "value": "Ready to eat; the sheet also describes mixing with water",
+      "source": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf"
+    },
+    {
+      "label": "Declared shelf life",
+      "value": "Five years from manufacture; inspect the actual date, intact packaging and storage instructions",
+      "source": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf"
+    },
+    {
+      "label": "Ingredient reference",
+      "value": "Current catalogue: wheat flour, vegetable shortening (palm oil), cane sugar and coconut flavouring; check the actual lot label",
+      "source": "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf"
+    }
+  ],
+  "pros": [
+    "No heating step is required for the documented ration.",
+    "Individual inner wraps make the twelve-bar format easier to portion."
+  ],
+  "cons": [
+    "Contains wheat; this is not a gluten-free food.",
+    "A compact energy ration does not provide a varied, complete long-term diet.",
+    "Listing quantity, lot, remaining shelf life and delivered-unit labelling are not independently verified."
+  ],
+  "useCases": [
+    "Keep a dated compact food reserve in an evacuation kit together with potable water.",
+    "Rotate an emergency ration reserve after inspecting seals and storage conditions."
+  ],
+  "sources": [
+    {
+      "id": "datrex-sheet",
+      "title": "Datrex DX2400F model specification",
+      "url": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "datrex-catalogue",
+      "title": "Datrex commercial catalogue: DX2400F and DX3600F",
+      "url": "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "kit-planning",
+      "title": "Public Safety Canada: emergency kit planning",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "sos-3600-calorie-emergency-food-rations",
+    "readywise-84-servings-emergency-food-bucket",
+    "511-tactical-rush72-2-backpack"
+  ],
+  "image": {
+    "src": "/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+    "alt": "Concept illustration of Datrex DX2400F Emergency Food Ration — 2400 Calories in a red tactical inventory frame",
+    "credit": "ApocalypseGearLab owner-approved concept illustration",
+    "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN; manufacturer-model references do not independently establish the current Canadian listing or seller."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B08T57RVBY?tag=apocalypsegear-20",
+      "asin": "B08T57RVBY"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-28",
+    "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The model sheet describes twelve individually wrapped 200-kcal bars; the current catalogue assigns 2,400 kcal to one DX2400F packet.",
+        "sourceIds": [
+          "datrex-sheet",
+          "datrex-catalogue"
+        ]
+      },
+      {
+        "text": "Wheat-containing ingredients and a five-year manufacturer shelf-life claim are documented. The pictured regulatory markings are not evidence for a sold packet.",
+        "sourceIds": [
+          "datrex-sheet"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+    ],
+    "safetyNotes": [
+      "Check the complete delivered ingredient and allergen statement, including wheat and coconut-related ingredients; no allergy suitability is guaranteed.",
+      "Do not eat from damaged, leaking or compromised packaging; follow the lot-specific dates and storage directions.",
+      "A non-thirst-provoking marketing description does not remove the need for safe drinking water."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B08T57RVBY",
+      "checkedAt": "2026-10-28",
+      "reason": "Recorded-link permission follows model-document and food-safety-limitation review. No concrete ASIN/model contradiction was established. Canadian listing, pack count, ingredients of the delivered lot and seller remain unverified; no certification or exact mass is inferred.",
+      "sourceIds": [
+        "datrex-sheet",
+        "datrex-catalogue",
+        "kit-planning"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm DX2400F and the number of packets sold under B08T57RVBY; a case quantity is not an individual packet.",
+      "Check current ingredients, manufacture/expiry date and remaining shelf life.",
+      "Model documents differ on packet mass (482 g versus 500 g); do not assume a delivered weight from this profile."
+    ]
+  }
+}

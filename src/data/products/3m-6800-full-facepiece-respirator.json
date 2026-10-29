@@ -1,0 +1,159 @@
+{
+  "name": "3M 6800 Full Facepiece Reusable Respirator",
+  "brand": "3M",
+  "modelNumber": "6800",
+  "category": "respiratory-protection",
+  "summary": "A medium reusable full facepiece with a clear lens and bayonet filter connections. The facepiece alone does not filter air; hazard selection, compatible approved components and a tight fit are essential.",
+  "description": "The 6800 is the medium facepiece in 3M’s 6000 series. It is a component of a respiratory-protection system, not a ready-to-use universal emergency mask. Filters or cartridges must match the assessed hazard and approved assembly. This illustration intentionally shows empty connections: it does not establish included accessories or authenticate a seller. Occupational selection, training, fit testing and the supplied instructions take priority over a catalogue description.",
+  "specs": [
+    {
+      "label": "Model and size",
+      "value": "6800, Medium; Canadian manufacturer reference",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/"
+    },
+    {
+      "label": "Construction",
+      "value": "Reusable full facepiece with silicone faceseal",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/"
+    },
+    {
+      "label": "Lens",
+      "value": "Large transparent polycarbonate lens",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/"
+    },
+    {
+      "label": "Harness",
+      "value": "Four-point strap suspension",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/"
+    },
+    {
+      "label": "Connections",
+      "value": "Bayonet connections for compatible 3M filters/cartridges in approved combinations",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/"
+    },
+    {
+      "label": "Air supply",
+      "value": "Air-purifying configuration supplies no oxygen; follow configuration-specific instructions",
+      "source": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+    },
+    {
+      "label": "Use limitation",
+      "value": "For workplace/occupational use, according to the Canadian manufacturer page",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/"
+    }
+  ],
+  "pros": [
+    "Reusable construction with documented replacement parts and maintenance instructions.",
+    "A broad clear lens and adjustable harness are documented model features."
+  ],
+  "cons": [
+    "The facepiece alone does not filter air; filters or cartridges are necessary and not confirmed as included.",
+    "Facial hair, damage or an unsuitable fit can compromise the seal.",
+    "No seller authentication, delivered-unit certification or universal hazard protection is established."
+  ],
+  "useCases": [
+    "Evaluate a complete respiratory-protection assembly with a competent occupational-safety professional.",
+    "Plan inspection, cleaning, storage and cartridge-change procedures for a known workplace hazard."
+  ],
+  "sources": [
+    {
+      "id": "3m-canada-6800",
+      "title": "3M Canada: 6800 medium full facepiece",
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-6000-instructions",
+      "title": "3M 6000-series user instructions and use limitations",
+      "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-6000-sheet",
+      "title": "3M 6000 full-facepiece technical sheet",
+      "url": "https://multimedia.3m.com/mws/media/2602924O/3m-6000-full-facepiece-reusable-respirator.pdf",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "3m-aura-9205-n95-respirator",
+    "mechanix-m-pact-work-gloves",
+    "fnirsi-gc-01-geiger-counter"
+  ],
+  "image": {
+    "src": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+    "alt": "Concept illustration of 3M 6800 Full Facepiece Reusable Respirator, without filters or cartridges, in a green tactical inventory frame",
+    "credit": "ApocalypseGearLab owner-approved concept illustration",
+    "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN; manufacturer-model references do not independently establish the current Canadian listing or seller."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00MA4K4C8?tag=apocalypsegear-20",
+      "asin": "B00MA4K4C8"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-28",
+    "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "3M Canada identifies 6800 as the medium bayonet full facepiece with a clear polycarbonate lens and four-point harness.",
+        "sourceIds": [
+          "3m-canada-6800"
+        ]
+      },
+      {
+        "text": "Use limitations and approved assemblies must be read in the manufacturer instructions; a facepiece without suitable filters is not ready to filter air.",
+        "sourceIds": [
+          "3m-6000-instructions"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+    ],
+    "safetyNotes": [
+      "Use only compatible filters or cartridges in the manufacturer-approved configuration selected for the actual hazard.",
+      "Required fit testing, training and a user seal check are essential; a seal check does not replace a fit test.",
+      "The respirator supplies no oxygen. Do not use in oxygen-deficient, unknown or immediately dangerous to life or health atmospheres.",
+      "It does not automatically protect against every gas, virus, chemical or nuclear hazard. The facepiece alone is not a complete protective system."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00MA4K4C8",
+      "checkedAt": "2026-10-28",
+      "reason": "Recorded-link permission follows Canadian manufacturer model/Medium-size and use-limitation review, with no concrete ASIN/model contradiction established. This does not authenticate the seller or unit, establish included filters, or verify the live Canadian listing.",
+      "sourceIds": [
+        "3m-canada-6800",
+        "3m-6000-instructions",
+        "3m-6000-sheet"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm genuine 3M 6800 Medium through an authorised supply channel, including the exact Canadian listing and current seller.",
+      "Check whether any filters or cartridges are included; none are promised by this profile or the bare-facepiece illustration.",
+      "Read the delivered instructions, approved assembly labels and inspection/maintenance requirements before use."
+    ]
+  }
+}
