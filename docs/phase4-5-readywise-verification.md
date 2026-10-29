@@ -104,6 +104,10 @@ Le CTA, sa mention d’affiliation et le contenu sont lisibles sans débordement
 
 ## GitHub et verdict
 
-Les contrôles locaux sont terminés. La création de la PR et le contrôle de la CI GitHub sont en cours ; leur URL et leur résultat seront consignés ici avant la livraison finale.
+PR unique créée vers `main` : [Phase 4.5 — Verify ReadyWise 84 Servings & Amazon CTA, nº 15](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/pull/15).
 
-Verdict conditionné à la validation : **MERGE avec les cinq blocages restants maintenus**. Aucune fusion, suppression de branche ou publication automatique.
+Le commit fonctionnel `db22e2b22aed1565de51a3c3e89c7b90367b1bcd` a passé la [CI GitHub « Validate Astro site », exécution 40972665460](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/40972665460) : **success**. Les journaux terminés confirment les 46 tests unitaires, les 64 tests navigateur et la validation des 33 pages / 1 038 références internes / cinq URL sitemap. Les étapes Astro, médias, statut commercial, scénarios produits, build et installation Chromium ont également réussi sur Ubuntu.
+
+Ce résultat concerne le commit fonctionnel indiqué. La mise à jour suivante ajoute uniquement les coordonnées de livraison et cette preuve CI au rapport et à ses résultats structurés ; la CI du dernier commit est également contrôlée avant livraison dans la description de la PR. Le contenu de `main` n’est pas modifié par cette préparation. La PR reste ouverte, non fusionnée ; aucun workflow de déploiement n’a été déclenché et la branche est conservée.
+
+Verdict : **MERGE avec les cinq blocages restants maintenus**. Aucune fusion, suppression de branche ou publication automatique.
