@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-10-29",
+  "baseCommit": "7985ad230a520a04352ce93621f9e3313926160f",
+  "environment": "Windows / Node 22.23.4 / npm 10.9.9 / Chromium",
+  "astro": {
+    "files": 62,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 44,
+    "failed": 0,
+    "initialFailure": "An earlier release test still classified Midland as held; updated that fixture to another genuinely held product. Mandatory hold checks and editorial guards remain."
+  },
+  "products": {
+    "passed": true,
+    "scenarios": "Three synthetic published profiles, affiliation off/on, real mandatory holds and restoration of actual data/configuration"
+  },
+  "media": {
+    "passed": true,
+    "mappings": 26,
+    "allowedIllustrations": 25,
+    "rejectedIllustrations": 1,
+    "protectedMediaAndPolicyFiles": 80,
+    "productReencoding": false
+  },
+  "build": {
+    "htmlPages": 33,
+    "internalReferences": 1035,
+    "sitemapUrls": 5,
+    "informationalProfiles": 26,
+    "noindexProfiles": 26
+  },
+  "browser": {
+    "passed": 63,
+    "failed": 0,
+    "elapsed": "2.9m",
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "axe": "No violations with WCAG 2 A/AA and WCAG 2.1 AA tags on tested routes; not an exhaustive conformance certificate",
+    "simulatedNewTabs": 57,
+    "externalAmazonRequests": 0,
+    "midland": "Active on catalogue, BLACKOUT and individual profile; correct attributes, tag, disclosure and isolated new tab; related cards follow the same decision."
+  },
+  "visualReview": {
+    "cardsInspectedAt": [
+      375,
+      1440
+    ],
+    "files": [
+      "card-375.webp",
+      "card-1440.webp"
+    ],
+    "note": "Actual production card screenshots; sticky header hidden only during element screenshots. No product illustration altered."
+  },
+  "commercial": {
+    "activeBefore": 18,
+    "heldBefore": 8,
+    "activeAfter": 19,
+    "heldAfter": 7,
+    "changedProduct": "midland-er310",
+    "independentListingVerified": false,
+    "finalAmazonApprovalConfirmed": false
+  },
+  "limitations": [
+    "Owner-transcribed listing fields, not inspected screenshot pixels.",
+    "No manufacturer-defined MFN battery revision established.",
+    "No physical tests, delivered-pack inspection, seller authentication, live Amazon availability validation or guaranteed battery capacity/runtime."
+  ]
+}

@@ -27,7 +27,7 @@ test('published specifications cannot lose their included manufacturer evidence'
 });
 
 test('concrete per-product holds also prevent editorial publication after unrelated approval flags change', () => {
-  for (const id of ['ecoflow-river-2-pro', 'midland-er310', 'nanuk-904-first-aid-kit']) {
+  for (const id of ['ecoflow-river-2-pro', 'readywise-84-servings-emergency-food-bucket', 'nanuk-904-first-aid-kit']) {
     const p = structuredClone(read(id));
     p.data.reviewStatus = 'published';
     Object.assign(p.data.research!, {listingVerified:true, safetyStatus:'cleared', publicationApproved:true, publicationBlockers:[],

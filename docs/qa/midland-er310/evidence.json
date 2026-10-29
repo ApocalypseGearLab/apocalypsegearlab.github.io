@@ -1,0 +1,45 @@
+{
+  "reviewedAt": "2026-10-29",
+  "asin": "B015QIC1PW",
+  "affiliateUrl": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+  "ownerEvidence": {
+    "method": "owner-transcription",
+    "brand": "Midland",
+    "manufacturerPartNumber": "ER310",
+    "listingModel": "ER310-MFN",
+    "colour": "red/black",
+    "originalMessage": "Midland ER310 — ASIN B015QIC1PW. Captures Amazon.ca fournies : marque Midland, référence fabricant ER310, modèle ER310-MFN, variante rouge/noir. Documentation Midland contradictoire sur la batterie 2600/3500 mAh. Ne pas publier de capacité garantie. Vérifier que ces références concernent la même variante, puis autoriser le CTA si les autres contrôles passent.",
+    "limitation": "The owner provided these listing fields in text in this turn. No screenshot file was attached to that message or visually inspected. This record is an owner transcription, not an independently retrieved or authenticated Amazon capture."
+  },
+  "manufacturerEvidence": {
+    "model": "ER310",
+    "productUrl": "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio",
+    "manualUrl": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+    "faqUrl": "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs",
+    "scope": "Manufacturer ER310 product family and operating/charging limits; no manufacturer statement defining the MFN suffix or equating battery revisions was found."
+  },
+  "assessment": "The owner-reported manufacturer part ER310 binds the retail model ER310-MFN and red/black selection to the documented ER310 family. This supports permission to expose the recorded link; it does not establish identical battery revision, exact shipped capacity, seller authenticity or inspection of the delivered unit. ER310PRO claims are excluded.",
+  "remainingUncertainty": [
+    "2600/3500 mAh manufacturer conflict unresolved; neither value nor any battery runtime is guaranteed.",
+    "The MFN suffix has no manufacturer-defined revision equivalence in the reviewed sources.",
+    "Selected current seller, supplied pack revision and package contents were not independently inspected."
+  ],
+  "safety": [
+    "Canadian Weatheradio closure remains disclosed. No local NOAA alert reception is guaranteed.",
+    "Use the specified Midland battery and follow the delivered unit instructions. Solar and hand-crank charging are supplementary; phone charging is not guaranteed.",
+    "No claim of complete recall clearance, electrical certification or physical testing."
+  ],
+  "accessLimitation": "The public Amazon.ca reader remained unavailable for canonical and descriptive URLs; the access failure is not a finding that the URL is invalid.",
+  "decision": "link-permitted",
+  "before": {
+    "active": 18,
+    "held": 8
+  },
+  "after": {
+    "active": 19,
+    "held": 7
+  },
+  "independentListingVerified": false,
+  "editorialPublicationApproved": false,
+  "amazonFinalApprovalConfirmed": false
+}
