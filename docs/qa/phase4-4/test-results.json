@@ -55,7 +55,13 @@
     "axe": "No violations for tested routes under WCAG 2 A/AA and WCAG 2.1 AA tags; not an exhaustive conformance certificate.",
     "isolatedNewTabs": 54,
     "amazonNetworkRequests": 0,
-    "keyboard": "All eight pending Details links focused and opened with Enter; full reason present on destination profile."
+    "keyboard": "All eight pending Details links focused and opened with Enter; full reason present on destination profile.",
+    "heroDecodeRegression": {
+      "passed": 5,
+      "failed": 0,
+      "reason": "The first GitHub execution passed 62/63 browser tests but img.decode() rejected during a responsive currentSrc change. The test now polls for a successfully decoded, complete, positive-width and unchanged source, with a 5-second bound; broken assets still fail. No hero code or media changed.",
+      "initialGithubRun": "https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/40952652097"
+    }
   },
   "commercial": {
     "before": {
