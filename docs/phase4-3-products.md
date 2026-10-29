@@ -117,6 +117,10 @@ Branche : `feat/phase4-3-new-fallout-outbreak-products` ; base main : `8955a3f84
 
 Commit d'implémentation : **ac4cb3a64170ba59de480319adc14ece812d90d1**. Le commit de rapport suivant documente ce SHA ; le HEAD final et le résultat réel de CI sont indiqués dans la PR.
 
-PR unique demandée : **Phase 4.3 — Add 5 Fallout & Outbreak Products**. Lien et état de CI renseignés dans la livraison GitHub ; ce rapport décrit la validation locale avant ouverture. Aucune fusion, suppression de branche ou exécution manuelle du workflow Pages.
+PR unique créée : [**nº 11 — Phase 4.3 — Add 5 Fallout & Outbreak Products**](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/pull/11), ouverte et fusionnable.
+
+**CI GitHub réussie** sur le commit de code et QA `cc91d6cb4a91dde6b5744a575334d38b35989219` : [run 40936476462](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/40936476462), terminé le 29 octobre 2026 à 19:05:14 UTC. Journaux Ubuntu relus : Astro 61 fichiers sans erreur/avertissement/hint, **39 tests unitaires et 56 tests navigateur tous réussis en une seule exécution**, 33 HTML, 993 références internes, 5 URL sitemap.
+
+Le commit documentaire suivant ajoute uniquement le lien de la PR et cette preuve ; le [statut du HEAD final est visible dans ses contrôles](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/pull/11/checks). [Preuve structurée de CI](qa/phase4-3/github-ci.json). Aucune fusion, suppression de branche ou exécution manuelle du workflow Pages.
 
 Après revue : fusionner cette unique PR si la CI est verte. Le déploiement reste une action séparée du propriétaire dans le workflow Pages manuel existant, sur main et avec sa confirmation explicite. Les trois nouveaux CTA bloqués et les six anciens ne doivent être activés qu'après résolution des points documentés. Les droits non divulgués de références éventuelles restent une responsabilité de provenance à clarifier si de telles références existent.
