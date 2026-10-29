@@ -1,0 +1,109 @@
+{
+  "baseCommit": "11cfc3963529f2c51ad80a284b4658ecf090277e",
+  "unchangedProducts": [
+    {
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "sha256Canonical": "ae3e0236c34b7a07a3843d0deacaac81e998efeef2770783c951a41504f3ff9e"
+    },
+    {
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "sha256Canonical": "fb33a18a9a2f5efc9fd103ca4f19693119b3c7457e8f82b0e796f36b30555d50"
+    },
+    {
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "sha256Canonical": "908908efd973ff2525c1830727225e90783254e865a1f81437ebbcb8643b75c3"
+    },
+    {
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "sha256Canonical": "d5600500dd766ed00761b06ac6a0883bcb8b2528c20c6e198fa2585b29210c54"
+    },
+    {
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "sha256Canonical": "69651ba58bf72b4c13de60c83f014f8f268bdb4953f2d0982dbf80e2b7d16800"
+    },
+    {
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "sha256Canonical": "038dbb80c4fdcf41fdd55712b7539fdde27c79278827aad39f77ba8e937591ca"
+    },
+    {
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "sha256Canonical": "dffc85253e48975a36a38a61b7404e4133ebf3bb483cd69642bc06b317b797e8"
+    },
+    {
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "sha256Canonical": "93d49088d2381bacf9dc8710d95434bda0eaa9358c37d93236f5a69ab8bb6a8c"
+    },
+    {
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "sha256Canonical": "740606c8d2fc8639564358c1b76dbcd9c318c27239d35ac0110fbcc5c90d5760"
+    },
+    {
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "sha256Canonical": "5de4eb9c16e2d2cb3820b6ae6bd8a4ca9876bd643fb449fab0a3908f4d097843"
+    },
+    {
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "sha256Canonical": "90e88d95f706bb92e375fed7ae34dbf14065fa99b4805caaae70343ba3413f2d"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "sha256Canonical": "40815930374b45578e33fa19ba86f4dfc262764307fbaad5eabaf498ecdfaa79"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-300.json",
+      "sha256Canonical": "e8282f82a90c3985cbd99fc44759c4d1153c7f419d9207dd59562439de77b1f0"
+    },
+    {
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "sha256Canonical": "d701bc868e170cd6bdfcdaaf5901523060a100a5d7bfb9724839f98fbab500cf"
+    },
+    {
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "sha256Canonical": "7a0a0ec29cd38abef60bcd99d15a3ab04533db0cba7c0628d53ee9469ad4694a"
+    },
+    {
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "sha256Canonical": "81ddf58fed82dcbc25d0e91fcbdf7d35225d3bbced06a108e8710b78831a7fc0"
+    },
+    {
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "sha256Canonical": "40a161cb468bf97233e328c7bf1a64d698fa71abd1dc4624573e4a39e46c66d5"
+    },
+    {
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "sha256Canonical": "0d558ddb64dc1a558c8780914fcd207fb4452f585ff7e4857ee81639da0b11d4"
+    },
+    {
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "sha256Canonical": "4752ba53301c7354005cb174ba83b568c3d12003d8fa1ab3e10f05a39341fb5d"
+    },
+    {
+      "file": "src/data/products/midland-er310.json",
+      "sha256Canonical": "3fb2e8b57d71c6eb5fe248fc02ef54b11608ae4fbb3b99a1d69b819fa83cfb2d"
+    },
+    {
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "sha256Canonical": "51300bf544f2aab41ff73ae67fc78ef6ce3493a72623716204e2924bbd20364b"
+    },
+    {
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "sha256Canonical": "328b4acf5a75ab7a352dd1df7a10972a1f965765f4778a89ee6955edd4e216c0"
+    },
+    {
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "sha256Canonical": "95fbd0c7d6a05c45d5d60c4eb487e5c739ce875459841dac54e6f738cb92f5e7"
+    },
+    {
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "sha256Canonical": "857bdf0cc768c33406578ba6c2fbbdececcef721c74a7843b00c3e36a686be68"
+    },
+    {
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "sha256Canonical": "23529b96212e5881e215e090a0d23ac0bd3d856c53f7b534a3830ea8875783f8"
+    },
+    {
+      "file": "src/data/products/template-product.json",
+      "sha256Canonical": "40154d8a4a9b778614f81e2d24dc2b07b2b0ad3f292e670dcf62b8096176b97d"
+    }
+  ]
+}
