@@ -33,8 +33,13 @@
     },
     {
       "label": "Contents uncertainty",
-      "value": "Manufacturer page uses both 109 and 110 items and allows substitutions; Canadian fill unverified",
+      "value": "US FSA02 uses 109 and 110 across repeated descriptions; Canadian FSA03 labels 108 but also says 110. No complete ASIN inventory is established.",
       "source": "https://nanuk.com/products/nanuk-904-first-aid-kit"
+    },
+    {
+      "label": "Canadian reference",
+      "value": "Filled-kit SKU 904S-880RD-PA0-FSA03; not matched to the recorded ASIN",
+      "source": "https://nanukcases.ca/products/nanuk-904-first-aid-kit"
     }
   ],
   "pros": [
@@ -42,7 +47,7 @@
     "Separate compartments support inventory and replacement routines."
   ],
   "cons": [
-    "The model name does not prove that medical supplies are included.",
+    "The manufacturer documents a Canadian filled kit, but that does not prove this ASIN sells that filled configuration rather than a case or another regional fill.",
     "Current sources disagree on item count and allow substitutions.",
     "It is not evidence of Canadian workplace compliance or clinical suitability."
   ],
@@ -68,6 +73,12 @@
       "title": "Canadian Red Cross first aid kit contents and maintenance",
       "url": "https://www.redcross.ca/training-and-certification/first-aid-tips-and-resources/first-aid-tips/wellness-and-injury-prevention/kit-contents",
       "kind": "official-safety"
+    },
+    {
+      "id": "nanuk-ca-kit",
+      "title": "NANUK Canada: 904 filled kit, Canadian SKU and indicative contents",
+      "url": "https://nanukcases.ca/products/nanuk-904-first-aid-kit",
+      "kind": "manufacturer"
     }
   ],
   "relatedProducts": [
@@ -77,7 +88,7 @@
   ],
   "editorial": {
     "purchaseChecks": [
-      "Obtain the current Canadian SKU and itemized fill list; confirm filled kit versus empty case.",
+      "Match B0G3XYHL33 to an explicit filled-kit SKU and current itemised contents; the Canadian manufacturer reference is 904S-880RD-PA0-FSA03, not proof of the listing.",
       "Check expiry dates, sterile seals, glove sizing and any personal needs.",
       "Compare the contents with applicable workplace requirements if buying for an employer."
     ]
@@ -103,7 +114,7 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Manufacturer documentation reviewed for the model family. Owner-provided ASIN is not independent listing evidence; no hands-on testing.",
     "listingVerified": false,
     "confirmed": [
@@ -119,10 +130,23 @@
         "sourceIds": [
           "nanuk-kit"
         ]
+      },
+      {
+        "text": "NANUK Canada documents a filled 904 kit, SKU 904S-880RD-PA0-FSA03. Its heading says 108 items while descriptive text says 110; contents are illustrative and may differ.",
+        "sourceIds": [
+          "nanuk-ca-kit"
+        ]
+      },
+      {
+        "text": "The US FSA02 page says 109 in its selected heading and first overview, but still says 110 in a repeated description. Its full-page inconsistency is not resolved by the updated first paragraph.",
+        "sourceIds": [
+          "nanuk-kit"
+        ]
       }
     ],
     "unverifiedClaims": [
-      "Canadian SKU, exact item count, substitutions, expiry dates and workplace suitability remain unresolved."
+      "Canadian SKU, exact item count, substitutions, expiry dates and workplace suitability remain unresolved.",
+      "Canadian manufacturer filled-kit availability is established; its mapping to B0G3XYHL33, actual included supplies, expiry dates and sterile packaging are not."
     ],
     "safetyNotes": [
       "A kit is not a substitute for first aid training or professional medical care.",
@@ -138,11 +162,12 @@
     "affiliateReview": {
       "decision": "hold",
       "asin": "B0G3XYHL33",
-      "checkedAt": "2026-10-26",
-      "reason": "The manufacturer lists both 109 and 110 items, and the Canadian filled kit is not distinguished from US fills or an empty case. Resolve the kit inventory and applicable expiry/sterility information.",
+      "checkedAt": "2026-10-29",
+      "reason": "NANUK Canada documents a filled FSA03 kit, but B0G3XYHL33 is not matched to that SKU or confirmed as filled. US FSA02 still has 109/110 across repeated descriptions; Canadian FSA03 has 108/110. Substitutions, delivered expiry and sterile seals remain unverified. Obtain the actual Canadian SKU and current fill list.",
       "sourceIds": [
         "nanuk-kit",
-        "nanuk-us-sheet"
+        "nanuk-us-sheet",
+        "nanuk-ca-kit"
       ]
     }
   }

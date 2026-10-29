@@ -105,7 +105,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved. Recheck 2026-10-27: the public retailer representation states Mfr Part Number P62-E1. This partial corroboration does not resolve cable configuration or establish Canadian safety evidence for the delivered unit.",
     "listingVerified": false,
     "confirmed": [
@@ -125,7 +125,8 @@
     ],
     "unverifiedClaims": [
       "Owner-transcribed seller claims include overcharge protection, short-circuit protection and a 3-year warranty; not independently verified.",
-      "The owner describes an integrated cable; the manufacturer describes a detachable GoCord. Confirm the supplied configuration."
+      "The owner describes an integrated cable; the manufacturer describes a detachable GoCord. Confirm the supplied configuration.",
+      "P62-E1 is corroborated by the retailer part-number field. That does not independently establish included cable, electrical ratings or safety documentation for the delivered Canadian unit."
     ],
     "safetyNotes": [
       "No independent Canadian certification record or test report for this exact listing was obtained. Marketing safety badges are not treated as certification evidence.",
@@ -142,8 +143,8 @@
     "affiliateReview": {
       "decision": "hold",
       "asin": "B0DB888L9F",
-      "checkedAt": "2026-10-26",
-      "reason": "P62 and P62-E1 designations and integrated versus detachable cable descriptions conflict. Exact-model Canadian safety evidence is incomplete.",
+      "checkedAt": "2026-10-29",
+      "reason": "The public Canadian representation identifies B0DB888L9F with manufacturer part P62-E1, narrowing the model-name ambiguity. Delivered cable/port configuration and applicable exact-unit electrical safety evidence remain incomplete; marketing protections or an unrelated BI-B41 recall do not provide that clearance.",
       "sourceIds": [
         "iniu-p62-e1"
       ]

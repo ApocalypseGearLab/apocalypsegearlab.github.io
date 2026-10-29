@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFileSync, readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { productSchema } from '../src/lib/product-schema';
 import { productStructuredData } from '../src/lib/product-seo';
 import { categoryUniverse } from '../src/config/taxonomy';
@@ -30,12 +31,73 @@ const expected = {
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
 
+test('Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits', () => {
+  const decisions={
+    'fnirsi-gc-01-geiger-counter':['B0BHH9X1WG',true],
+    'readywise-84-servings-emergency-food-bucket':['B00TX5J74S',false],
+    'sos-3600-calorie-emergency-food-rations':['B00W20PIHQ',false],
+    'nanuk-904-first-aid-kit':['B0G3XYHL33',false],
+    'ecoflow-river-2-pro':['B0BVLPGS79',false],
+    'jackery-explorer-300':['B082TMBYR6',false],
+    'midland-er310':['B015QIC1PW',false],
+    'kidde-c3010-co-alarm':['B00FHW7PBS',false],
+    'iniu-p62-20000mah-65w':['B0DB888L9F',false],
+  } as const;
+  for(const [id,[asin,active]]of Object.entries(decisions)){
+    const data=productSchema.parse(rawProducts.get(id));
+    assert.equal(data.links.amazonCa.asin,asin);
+    assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,active?`https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`:null);
+    assert.equal(data.research!.affiliateReview!.decision,active?'link-permitted':'hold');
+    assert.equal(data.research!.listingVerified,false);
+    assert.equal(data.lastVerified,null);
+    assert.equal(data.reviewStatus,'draft');
+    assert.match(data.research!.affiliateReview!.reason,/Canadian|public|Kidde|NANUK/);
+  }
+  const gc=rawProducts.get('fnirsi-gc-01-geiger-counter');
+  assert.match(gc.research.confirmed.map((f:any)=>f.text).join(' '),/older.*Amazon.ca.*B0BHH9X1WG.*GC-01/);
+  assert.match(gc.research.identityNotes,/five months old/);
+  assert.match(rawProducts.get('midland-er310').research.affiliateReview.reason,/capacity conflict alone is not/);
+  assert.match(rawProducts.get('nanuk-904-first-aid-kit').research.affiliateReview.reason,/FSA03.*B0G3XYHL33.*not matched/);
+  assert.match(rawProducts.get('ecoflow-river-2-pro').research.affiliateReview.reason,/B0D2HX1ZS9.*EFR620.*EFR617/);
+});
+
+test('all 26 product identities and the 17 unaudited records are preserved against main', () => {
+  const baseline=JSON.parse(readFileSync('docs/qa/phase4-4/preservation.json','utf8'));
+  assert.equal(baseline.baseCommit,'e3f65a79895fc66215d42bdd1cbd29372a648c7d');
+  assert.equal(baseline.products.length,26);
+  assert.equal(baseline.products.filter((p:any)=>p.audited).length,9);
+  for(const p of baseline.products){
+    const current=rawProducts.get(p.id);assert.ok(current,p.id);
+    for(const [key,value]of Object.entries(p.protected))assert.deepEqual(current[key]??null,value,`${p.id}: protected ${key}`);
+    if(!p.audited)assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),p.sha256Canonical,p.id);
+  }
+});
+
+test('media, bunker, affiliate configuration, taxonomy and mandatory safety controls remain unchanged', () => {
+  const baseline=JSON.parse(readFileSync('docs/qa/phase4-4/preservation.json','utf8'));
+  for(const p of baseline.unchangedFiles){
+    const raw=readFileSync(p.file),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;
+    assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
+  }
+});
+
+test('retailer identity evidence cannot replace manufacturer technical evidence or editorial publication approval', () => {
+  const gc=structuredClone(rawProducts.get('fnirsi-gc-01-geiger-counter'));
+  const source=gc.sources.find((s:any)=>s.kind==='retailer');assert.ok(source);
+  gc.specs[0].source=source.url;
+  assert.equal(productSchema.safeParse(gc).success,false);
+  gc.specs[0].source=gc.sources.find((s:any)=>s.kind==='manufacturer').url;
+  gc.reviewStatus='published';
+  assert.equal(productSchema.safeParse(gc).success,false,'Recorded retailer-link permission is not approval to publish an indexed product review');
+});
+
 test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits', () => {
   const get = (id:string) => productSchema.parse(rawProducts.get(id));
   const gc=get('fnirsi-gc-01-geiger-counter');
-  assert.equal(gc.research?.affiliateReview?.decision,'hold');
-  assert.match(gc.research!.affiliateReview!.reason,/1,000 versus 10,000/);
-  assert.match(gc.research!.affiliateReview!.reason,/exact.*Canadian listing\/model/);
+  assert.equal(gc.research?.affiliateReview?.decision,'link-permitted');
+  assert.match(gc.research!.affiliateReview!.reason,/older crawl/);
+  assert.ok(gc.sources.some(s=>s.id==='gc01-ca-snapshot' && s.kind==='retailer'));
+  assert.ok(!gc.specs.some(s=>/1,000|10,000|1000|10000/.test(s.value)), 'No uncertain numerical upper range is promoted');
   const rw=get('readywise-84-servings-emergency-food-bucket');
   assert.equal(rw.research?.affiliateReview?.decision,'hold');
   assert.match(rw.research!.affiliateReview!.reason,/15,420.*15,180/);
@@ -43,7 +105,7 @@ test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly
   const sos=get('sos-3600-calorie-emergency-food-rations');
   assert.equal(sos.research?.affiliateReview?.decision,'hold');
   assert.match(sos.research!.affiliateReview!.reason,/two-pack.*unconfirmed/);
-  assert.match(sos.research!.affiliateReview!.reason,/3,690.*3,600/);
+  assert.match(sos.research!.affiliateReview!.reason,/3600 Calorie.*3,690/);
   const datrex=get('datrex-dx2400f-emergency-food-ration');
   assert.match(datrex.specs.find(s=>s.label==='Energy per packet')!.value,/whole packet/);
   assert.match(datrex.specs.find(s=>s.label==='Individual bars')!.value,/12.*200 kcal/);
@@ -58,7 +120,7 @@ test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly
 });
 
 test('new product holds cannot be bypassed by setting unrelated editorial approval flags', () => {
-  for(const id of ['fnirsi-gc-01-geiger-counter','readywise-84-servings-emergency-food-bucket','sos-3600-calorie-emergency-food-rations']) {
+  for(const id of ['readywise-84-servings-emergency-food-bucket','sos-3600-calorie-emergency-food-rations']) {
     const data=productSchema.parse(rawProducts.get(id));
     data.research={...data.research!,listingVerified:true,safetyStatus:'cleared',publicationApproved:true,publicationBlockers:[]};
     assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,null);
@@ -203,6 +265,6 @@ test('Phase 4.3 has nine BLACKOUT, nine FALLOUT and eight OUTBREAK profiles with
     assert.ok(raw.research.safetyNotes.length >= 3, id);
   }
   assert.match(rawProducts.get('sawyer-squeeze-sp129-water-filter').research.safetyNotes.join(' '), /viruses.*chemicals.*radioactive/);
-  assert.match(rawProducts.get('nanuk-904-first-aid-kit').specs.map((s:any)=>s.value).join(' '), /109 and 110/);
+  assert.match(rawProducts.get('nanuk-904-first-aid-kit').specs.map((s:any)=>s.value).join(' '), /109.*108.*110/);
   assert.match(rawProducts.get('sol-emergency-bivvy').research.safetyNotes.join(' '), /temperature rating/);
 });

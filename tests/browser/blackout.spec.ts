@@ -33,7 +33,7 @@ for (const { slug, data } of drafts) {
       expect(await page.locator('main').innerText()).not.toContain('The linked Canadian model has documented listing and safety checks.');
     } else {
       await expect(purchase.getByRole('link', { disabled: true, name: /View on Amazon.ca/ })).toContainText(merchant.unavailableReason!);
-      await expect(page.getByText('Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.')).toBeVisible();
+      await expect(page.getByText('Amazon.ca links are unavailable until the documented product checks are resolved. No price, availability or seller is confirmed.')).toBeVisible();
     }
     await expect(page.locator('[aria-label="Research status"]')).toHaveCount(0);
     await expect(page.locator('#publication')).toHaveCount(0);
@@ -87,12 +87,14 @@ for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
       await image.scrollIntoViewIfNeeded();
       await image.evaluate((img: HTMLImageElement)=>img.decode());
     }
-    for (const { slug } of selected) await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
+    for (const { slug } of selected) await expect(page.locator(`article.card :is(h2, h3) a[href="/gear/${slug}/"]`)).toHaveCount(1);
     for (const {slug, data} of selected) {
       const card = page.locator(`article.card[data-product-id="${slug}"]`);
       const merchant = getMerchantLinks({id:slug,data} as Product)[0]!;
       await expect(card.locator('a[data-affiliate-click]')).toHaveCount(merchant.href ? 1 : 0);
-      await expect(card.getByRole('link', {disabled:true, name:/View on Amazon.ca/})).toHaveCount(merchant.href ? 0 : 1);
+      await expect(card.getByRole('link', {disabled:true, name:/View on Amazon.ca/})).toHaveCount(0);
+      await expect(card.locator('[data-amazon-pending]')).toHaveCount(merchant.href ? 0 : 1);
+      await expect(card.locator('[data-pending-details]')).toHaveCount(merchant.href ? 0 : 1);
       if (merchant.href) {
         await expect(card.locator('a[data-affiliate-click]')).toHaveAttribute('href', merchant.href);
         await expect(card.getByRole('complementary', {name:'Affiliate disclosure'})).toContainText('As an Amazon Associate I earn from qualifying purchases.');
@@ -115,7 +117,7 @@ for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
     }
     await page.goto(`http://127.0.0.1:4321${route}`);
     for (const { slug } of selected) {
-      await expect(page.locator(`a[href="/gear/${slug}/"]`)).toHaveCount(1);
+      await expect(page.locator(`article.card :is(h2, h3) a[href="/gear/${slug}/"]`)).toHaveCount(1);
     }
   });
 }

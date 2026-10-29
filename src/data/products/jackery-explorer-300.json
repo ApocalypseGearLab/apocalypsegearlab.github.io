@@ -13,12 +13,12 @@
     },
     {
       "label": "Battery chemistry",
-      "value": "Lithium-ion NCM, not LiFePO4",
+      "value": "Original manufacturer reference: NCM lithium-ion; chemistry of the selected Canadian unit is not established",
       "source": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information"
     },
     {
       "label": "Rated AC output",
-      "value": "300 W total, 110 V, 60 Hz; 500 W surge in the original manual",
+      "value": "Original US manual reference: 300 W total at 110 V / 60 Hz, 500 W surge; not a verified Canadian unit rating",
       "source": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "label": "USB-C input/output",
-      "value": "60 W maximum",
+      "value": "Original manufacturer reference: 60 W maximum; match the actual delivered revision",
       "source": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information"
     },
     {
@@ -43,7 +43,7 @@
   ],
   "cons": [
     "Capacity and regional revision are not yet matched to the Amazon listing.",
-    "This is NCM lithium-ion, not the newer LiFePO4 variant.",
+    "The original NCM reference is distinct from newer models; the recorded listing cannot be assigned a chemistry from inconsistent retailer fields.",
     "Jackery Canada explicitly excludes Explorer 300 from SolarSaga 100 Air recharging compatibility."
   ],
   "useCases": [
@@ -89,7 +89,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "The Canadian representation retrieved on 2026-10-26 for B082TMBYR6 describes 292 Wh and LiFePO4, conflicting with the original NCM model documented here. No exact-revision approval is granted."
+    "notes": "The public representation associates B082TMBYR6 with Explorer 300 / JE-300E, but its 292/293 Wh, Lithium Ion/LiFePO4 and 110/120 V fields remain inconsistent. A product-summary string does not establish the actual chemistry."
   },
   "links": {
     "amazonCa": {
@@ -106,7 +106,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
     "listingVerified": false,
     "confirmed": [
@@ -126,7 +126,8 @@
     ],
     "unverifiedClaims": [
       "The owner-selected listing is advertised as approximately 293 Wh; that is not a verified exact capacity for this unit.",
-      "The current retailer representation mixes a 292 Wh title, 293 Wh Lithium Ion feature text, a LiFePO4 product summary and 110/120 V fields. No single delivered-unit chemistry, capacity or regional revision can be assigned from this inconsistent representation."
+      "The current retailer representation mixes a 292 Wh title, 293 Wh Lithium Ion feature text, a LiFePO4 product summary and 110/120 V fields. No single delivered-unit chemistry, capacity or regional revision can be assigned from this inconsistent representation.",
+      "The retailer Model Number field says JE-300E; that documentary family match does not resolve the chemistry and regional electrical conflicts."
     ],
     "safetyNotes": [
       "Do not use the newer SolarSaga 100 Air compatibility claim for this legacy model.",
@@ -142,8 +143,8 @@
     "affiliateReview": {
       "decision": "hold",
       "asin": "B082TMBYR6",
-      "checkedAt": "2026-10-27",
-      "reason": "The retailer representation contains inconsistent 292/293 Wh, Lithium Ion/LiFePO4 and 110/120 V fields. Resolve the actual unit revision and manual; do not infer a definite LiFePO4 model from the product-summary string.",
+      "checkedAt": "2026-10-29",
+      "reason": "The Canadian representation associates B082TMBYR6 with Explorer 300 / JE-300E, but battery chemistry and regional electrical configuration remain unresolved across its capacity, Lithium Ion/LiFePO4 and 110/120 V fields. Match the actual rating label and Canadian instructions; the excluded USB illustration remains rejected.",
       "sourceIds": [
         "jackery-300-manual",
         "jackery-300-support",

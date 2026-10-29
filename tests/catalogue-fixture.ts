@@ -15,4 +15,4 @@ export const PHASE43_FALLOUT = {
   'datrex-dx2400f-emergency-food-ration':['B08T57RVBY','food-rations'],
   'sos-3600-calorie-emergency-food-rations':['B00W20PIHQ','food-rations'],
 } as const;
-export const ACTIVE_PRODUCTS = ['jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration',...Object.keys(OUTBREAK)];
+export const ACTIVE_PRODUCTS = ['jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration','fnirsi-gc-01-geiger-counter',...Object.keys(OUTBREAK)];

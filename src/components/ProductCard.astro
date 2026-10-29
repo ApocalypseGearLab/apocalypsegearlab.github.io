@@ -19,19 +19,23 @@ const amazonLink = getMerchantLinks(product).find(link => link.key === 'amazon-c
 const universe = UNIVERSES[categoryUniverse(data.category)];
 const artwork = importedArtwork(product.id);
 const illustrated = artwork && canPublishImportedAsset(artwork);
+const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
 ---
 
 <article class:list={['panel', 'card', { 'card--illustrated': illustrated }]} data-product-id={product.id} data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
   <ProductImage slug={product.id} label={categoryLabel(data.category)} releasePreview={releasePreview} />
   <p class="label">{universe.name} · {categoryLabel(data.category)}</p>
-  <Heading><a href={`${releasePreview ? '/review' : ''}/gear/${product.id}/`}>{data.name}</a></Heading>
+  <Heading><a href={profileHref}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
   <p>{data.summary}</p>
   {!isPublished && <p><span class="badge badge--warn">Information only{verificationPending && ' · Verification pending'}</span></p>}
   {productCaution(product) && <p class="card-caution">{productCaution(product)!.split('. ')[0]}.</p>}
   {data.links.amazonCa.url && amazonLink && <div class="card-purchase">
     {amazonLink.href && <DisclosureNotice compact />}
-    <AffiliateButton link={amazonLink} productId={product.id} />
+    {amazonLink.href ? <AffiliateButton link={amazonLink} productId={product.id} /> : <>
+      <p class="label pending-message" data-amazon-pending>Amazon link pending verification</p>
+      <a href={profileHref} data-pending-details>Details<span class="visually-hidden"> about {data.name}</span></a>
+    </>}
   </div>}
 </article>
 
@@ -44,5 +48,6 @@ const illustrated = artwork && canPublishImportedAsset(artwork);
   @media (hover: hover) { .card--illustrated:hover { border-color: var(--accent); } }
   .brand { color: var(--c-muted); font-size: 0.9rem; }
   .card-purchase { display: grid; gap: var(--s-3); margin-top: auto; }
+  .pending-message { margin: 0; }
   .card-caution { font-size: 0.9rem; border-left: 2px solid var(--accent); padding-left: var(--s-3); }
 </style>

@@ -52,7 +52,13 @@ test('hero reserves space, selects responsive sources and supports reduced motio
   mkdirSync('.tools/qa/phase-3', { recursive: true });
   for (const width of widths) {
     await page.setViewportSize({ width, height: 900 });
-    await hero.evaluate((img: HTMLImageElement) => img.decode());
+    // Resizing can replace currentSrc while decode() is pending. Wait for a
+    // successfully decoded, unchanged source; a genuinely broken image still fails.
+    await expect.poll(() => hero.evaluate(async (img: HTMLImageElement) => {
+      const source = img.currentSrc;
+      try { await img.decode(); } catch { return false; }
+      return img.complete && img.naturalWidth > 0 && img.currentSrc === source;
+    }), { timeout: 5_000, message: 'The selected responsive hero source must finish decoding' }).toBe(true);
     const observation = await hero.evaluate((img: HTMLImageElement) => {
       const rect = img.getBoundingClientRect();
       return { viewport: innerWidth, width: rect.width, height: rect.height, src: img.currentSrc, fit: getComputedStyle(img).objectFit };

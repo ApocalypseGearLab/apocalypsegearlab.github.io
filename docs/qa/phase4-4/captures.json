@@ -1,0 +1,182 @@
+{
+  "capturedAt": "2026-10-29",
+  "method": "Chromium full-page production screenshots from the browser suite; original before PNGs saved before changes; after PNGs captured on the current build. Comparison crops show EcoFlow, the first held card. Card-only screenshots hide the sticky header during capture to avoid an automation scroll artefact; full-page screenshots retain the actual header. No product media modified.",
+  "captures": [
+    {
+      "route": "catalogue",
+      "viewportWidth": 375,
+      "when": "before",
+      "sourceWidth": 375,
+      "sourceHeight": 23358,
+      "exportWidth": 257,
+      "scale": 0.6849901532665468,
+      "file": "catalogue-375-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "catalogue",
+      "viewportWidth": 375,
+      "when": "after",
+      "sourceWidth": 375,
+      "sourceHeight": 22572,
+      "exportWidth": 266,
+      "scale": 0.708842814105972,
+      "file": "catalogue-375-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "catalogue",
+      "viewportWidth": 1440,
+      "when": "before",
+      "sourceWidth": 1440,
+      "sourceHeight": 7631,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "catalogue-1440-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "catalogue",
+      "viewportWidth": 1440,
+      "when": "after",
+      "sourceWidth": 1440,
+      "sourceHeight": 7232,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "catalogue-1440-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "blackout",
+      "viewportWidth": 375,
+      "when": "before",
+      "sourceWidth": 375,
+      "sourceHeight": 9085,
+      "exportWidth": 375,
+      "scale": 1,
+      "file": "blackout-375-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "blackout",
+      "viewportWidth": 375,
+      "when": "after",
+      "sourceWidth": 375,
+      "sourceHeight": 8794,
+      "exportWidth": 375,
+      "scale": 1,
+      "file": "blackout-375-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "blackout",
+      "viewportWidth": 1440,
+      "when": "before",
+      "sourceWidth": 1440,
+      "sourceHeight": 3990,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "blackout-1440-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "blackout",
+      "viewportWidth": 1440,
+      "when": "after",
+      "sourceWidth": 1440,
+      "sourceHeight": 3826,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "blackout-1440-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "fallout",
+      "viewportWidth": 375,
+      "when": "before",
+      "sourceWidth": 375,
+      "sourceHeight": 9646,
+      "exportWidth": 375,
+      "scale": 1,
+      "file": "fallout-375-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "fallout",
+      "viewportWidth": 375,
+      "when": "after",
+      "sourceWidth": 375,
+      "sourceHeight": 9151,
+      "exportWidth": 375,
+      "scale": 1,
+      "file": "fallout-375-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "fallout",
+      "viewportWidth": 1440,
+      "when": "before",
+      "sourceWidth": 1440,
+      "sourceHeight": 4409,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "fallout-1440-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "fallout",
+      "viewportWidth": 1440,
+      "when": "after",
+      "sourceWidth": 1440,
+      "sourceHeight": 4057,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "fallout-1440-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "outbreak",
+      "viewportWidth": 375,
+      "when": "before",
+      "sourceWidth": 375,
+      "sourceHeight": 8630,
+      "exportWidth": 375,
+      "scale": 1,
+      "file": "outbreak-375-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "outbreak",
+      "viewportWidth": 375,
+      "when": "after",
+      "sourceWidth": 375,
+      "sourceHeight": 8630,
+      "exportWidth": 375,
+      "scale": 1,
+      "file": "outbreak-375-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "outbreak",
+      "viewportWidth": 1440,
+      "when": "before",
+      "sourceWidth": 1440,
+      "sourceHeight": 3284,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "outbreak-1440-before.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    },
+    {
+      "route": "outbreak",
+      "viewportWidth": 1440,
+      "when": "after",
+      "sourceWidth": 1440,
+      "sourceHeight": 3284,
+      "exportWidth": 1440,
+      "scale": 1,
+      "file": "outbreak-1440-after.webp",
+      "encoding": "QA screenshot only: WebP quality 83; product media unchanged"
+    }
+  ]
+}

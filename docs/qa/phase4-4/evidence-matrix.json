@@ -1,0 +1,378 @@
+{
+  "reviewedAt": "2026-10-29",
+  "baseCommit": "e3f65a79895fc66215d42bdd1cbd29372a648c7d",
+  "method": "Primary manufacturer pages/instructions and accessible public Amazon.ca representations. Reader crawl age is distinguished from retrieval date. No private browser retry, physical testing, unit authentication or private Amazon account validation.",
+  "limitations": "An inaccessible reader URL is not evidence of a valid or invalid listing. No alternative ASIN has been substituted. Technical claims are manufacturer-sourced; retailer fields document identity and contradictions only.",
+  "products": [
+    {
+      "id": "fnirsi-gc-01-geiger-counter",
+      "identity": "FNIRSI GC-01 explicitement nommé par le fabricant et dans les détails Amazon.ca.",
+      "asinStatus": "documented-older-public-snapshot",
+      "asinEvidence": "La représentation publique Amazon.ca indique B0BHH9X1WG, FNIRSI, modèle GC-01. Le lecteur annonce un crawl vieux d’environ cinq mois : aucune offre en temps réel ou authentification du vendeur.",
+      "variant": "Jaune, une unité dans cette représentation ; révision livrée non inspectée.",
+      "reliableFacts": [
+        "Principe GM et types de rayonnements décrits par le fabricant, sans mesure indépendante.",
+        "Correspondance documentaire ASIN/modèle/couleur/unité dans la page canadienne publique."
+      ],
+      "contradictions": [
+        "Plage fabricant : caractéristiques 0–10 000 µSv/h, tableau 0–1 000 µSv/h avec conversion entre parenthèses incompatible."
+      ],
+      "safety": [
+        "Aucune calibration professionnelle, détection universelle, validation de nourriture/eau ou garantie de sécurité nucléaire."
+      ],
+      "resolved": [
+        "Identité documentaire ASIN/modèle établie dans une source primaire canadienne.",
+        "Maximum numérique incertain retiré des spécifications commerciales ; aucune valeur n’est choisie arbitrairement."
+      ],
+      "remaining": [
+        "Plage exacte, calibration, révision livrée et offre/vendeur actuels non établis ; ces limites sont publiées et aucun usage de sûreté n’est garanti."
+      ],
+      "requiredEvidence": [
+        "Pour une publication éditoriale complète : capture actuelle de la sélection canadienne et manuel de la révision livrée ; confirmation fabricant de la plage si elle doit être chiffrée."
+      ],
+      "sources": [
+        "https://www.amazon.ca/Geiger-Counter-Nuclear-Radiation-Detector/dp/B0BHH9X1WG",
+        "https://www.fnirsi.com/products/gc-01",
+        "https://www.cnsc-ccsn.gc.ca/eng/resources/emergency-management-and-safety/protecting-your-family-during-a-nuclear-emergency.cfm"
+      ],
+      "name": "FNIRSI GC-01 Geiger Counter",
+      "asin": "B0BHH9X1WG",
+      "url": "https://www.amazon.ca/dp/B0BHH9X1WG?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "active",
+      "decision": "The public Canadian representation explicitly matches the recorded ASIN to FNIRSI GC-01, Yellow, one unit. Its older crawl is documentary identity evidence, not a live-offer or seller-authenticity check. The conflicting precise maximum is omitted; no professional accuracy, universal detection or nuclear-safety guarantee is made."
+    },
+    {
+      "id": "readywise-84-servings-emergency-food-bucket",
+      "identity": "Référence fabricant 84 Serving Gluten Free Grab and Go Bucket établie ; variante exacte vendue au Canada non établie.",
+      "asinStatus": "not-established",
+      "asinEvidence": "Lectures publiques du lien canonique et d’une URL descriptive indisponibles ; cela ne prouve ni validité ni invalidité.",
+      "variant": "Un seau de référence fabricant, 84 portions comprenant plusieurs recettes et un dessert ; assortiment de B00TX5J74S inconnu.",
+      "reliableFacts": [
+        "La page fabricant annonce 15 420 kcal, environ 63 cups d’eau et une conservation maximale conditionnelle de 25 ans.",
+        "Les étiquettes fabricant utilisées dans la revue précédente et encore liées donnent 270/160/190/100 kcal ; 24/18/18/24 portions donnent 15 180 par calcul.",
+        "Les étiquettes de référence déclarent du soja dans le riz et du lait dans le plat de pommes de terre et le pudding."
+      ],
+      "contradictions": [
+        "Total marketing 15 420 ≠ calcul documentaire 15 180 ; aucun des deux ne vérifie un lot livré.",
+        "Dessert décrit comme yogourt dans la liste et pudding vanille dans la rubrique nutrition."
+      ],
+      "safety": [
+        "84 portions ne sont pas 84 repas complets.",
+        "Le gluten-free du nom de référence ne garantit pas le lot vendu, ni l’absence d’autres allergènes.",
+        "Eau potable, préparation, emballages et conditions de stockage à contrôler."
+      ],
+      "resolved": [
+        "Distinction explicite entre marketing fabricant, calcul documentaire et contenu réel du lot Amazon ; aucune mesure du lot n’est inventée."
+      ],
+      "remaining": [
+        "Assortiment canadien, dessert, étiquettes et conditionnement exacts non confirmés."
+      ],
+      "requiredEvidence": [
+        "Capture Amazon.ca montrant URL/ASIN B00TX5J74S, titre, variante sélectionnée « 84 servings — gluten-free », nombre de seaux et contenu vendu.",
+        "Liste des recettes/sachets du SKU canadien, photographies de leurs étiquettes nutritionnelles et allergènes, et dessert inclus.",
+        "Dates/lot ou politique de fraîcheur du vendeur et conditions fabricant ; une capture de prix ou une simple URL ne suffit pas."
+      ],
+      "sources": [
+        "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFteriyakirice.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFheartytortillasoup.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFpotpie.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528"
+      ],
+      "name": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply",
+      "asin": "B00TX5J74S",
+      "url": "https://www.amazon.ca/dp/B00TX5J74S?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "The exact B00TX5J74S Canadian 84-serving gluten-free assortment and dessert are not confirmed. Manufacturer marketing says 15,420 kcal while the linked labels and listed counts calculate to 15,180; neither establishes the delivered lot. Match the actual package and allergen labels before enabling the CTA."
+    },
+    {
+      "id": "sos-3600-calorie-emergency-food-rations",
+      "identity": "Ration S.O.S. commercialisée sous la désignation « 3600 Calorie » documentée par le fabricant.",
+      "asinStatus": "not-established",
+      "asinEvidence": "B00W20PIHQ enregistré sans confirmation de la sélection/quantité canadienne ; lecteur public indisponible.",
+      "variant": "Possible lot de deux non établi. Aucun total de 7 200 kcal n’est attribué à l’ASIN.",
+      "reliableFacts": [
+        "Le fabricant décrit neuf portions et une ration prête à manger.",
+        "La fiche nutritionnelle porte 410 kcal par portion ; la désignation commerciale 3600 n’est pas une mesure indépendante.",
+        "Durée fabricant de cinq ans liée à la fabrication et aux conditions, pas cinq ans garantis après achat."
+      ],
+      "contradictions": [
+        "9 × 410 = 3 690, différent de la désignation 3 600 ; le lot et sa révision ne sont pas établis."
+      ],
+      "safety": [
+        "Blé, noix de coco et soja dans les informations de référence ; vérifier le lot réel.",
+        "Contrôler intégrité, dates et eau potable disponible."
+      ],
+      "resolved": [
+        "La désignation commerciale est distinguée d’un total nutritionnel mesuré ; aucune déduction 7 200 kcal."
+      ],
+      "remaining": [
+        "Nombre de paquets et étiquettes du lot canadien inconnus."
+      ],
+      "requiredEvidence": [
+        "Capture Amazon.ca de B00W20PIHQ avec la sélection du lot et le nombre exact de paquets vendus.",
+        "Faces avant/arrière ou document fournisseur correspondant au paquet : nom, poids, ingrédients/allergènes, portions et nutrition.",
+        "Dates de fabrication/péremption ou politique du lot ; pas de promesse de cinq ans restants sans preuve."
+      ],
+      "sources": [
+        "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+        "https://sosfoodlab.com/faq/"
+      ],
+      "name": "S.O.S. Emergency Food Rations — 3600 Calories",
+      "asin": "B00W20PIHQ",
+      "url": "https://www.amazon.ca/dp/B00W20PIHQ?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. The 3600 Calorie trade designation is not a precise measurement: the manufacturer sheet also gives nine 410-kcal portions (3,690 by calculation). No 7,200-kcal lot is established. Match packet count and actual labels before enabling the CTA."
+    },
+    {
+      "id": "nanuk-904-first-aid-kit",
+      "identity": "Famille NANUK 904 et deux références remplies fabricant documentées ; un même numéro de valise ne définit pas le remplissage.",
+      "asinStatus": "not-established",
+      "asinEvidence": "Aucune preuve que B0G3XYHL33 sélectionne la trousse remplie canadienne plutôt qu’une valise ou un autre remplissage.",
+      "variant": "US : 904S-880RD-PA0-FSA02 ; Canada : 904S-880RD-PA0-FSA03. Ne pas transférer un inventaire entre ces références.",
+      "reliableFacts": [
+        "Une trousse remplie existe sur la page canadienne, avec une liste indicative de consommables.",
+        "Les dimensions de la valise ne prouvent ni le contenu médical ni la conformité au travail."
+      ],
+      "contradictions": [
+        "US : 109 dans le titre/premier aperçu, mais 110 dans une description répétée.",
+        "Canada : 108 dans le titre et la sélection, mais 110 dans le descriptif.",
+        "Le fabricant autorise des différences de contenu selon disponibilité."
+      ],
+      "safety": [
+        "Dates et emballages stériles du lot non inspectés.",
+        "Aucune conformité réglementaire de trousse médicale ou aptitude clinique déduite de la valise."
+      ],
+      "resolved": [
+        "Référence canadienne remplie et SKU FSA03 identifiés ; distinction avec FSA02 américaine ajoutée.",
+        "La lecture du second descriptif évite de déclarer à tort la contradiction américaine résolue."
+      ],
+      "remaining": [
+        "ASIN/SKU/remplissage non reliés ; inventaire réel, dates et conditions de stérilité non établis."
+      ],
+      "requiredEvidence": [
+        "Capture B0G3XYHL33 indiquant explicitement trousse remplie, SKU choisi, région et accessoires inclus.",
+        "Liste datée du contenu du SKU canadien réellement vendu, fournie par NANUK/First Aid Central ou le fournisseur correspondant.",
+        "Informations fournisseur sur péremption et conditionnement stérile ; inspection du lot avant utilisation."
+      ],
+      "sources": [
+        "https://nanuk.com/products/nanuk-904-first-aid-kit",
+        "https://nanukcases.ca/products/nanuk-904-first-aid-kit",
+        "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+      ],
+      "name": "NANUK 904 first aid kit",
+      "asin": "B0G3XYHL33",
+      "url": "https://www.amazon.ca/dp/B0G3XYHL33?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "NANUK Canada documents a filled FSA03 kit, but B0G3XYHL33 is not matched to that SKU or confirmed as filled. US FSA02 still has 109/110 across repeated descriptions; Canadian FSA03 has 108/110. Substitutions, delivered expiry and sterile seals remain unverified. Obtain the actual Canadian SKU and current fill list."
+    },
+    {
+      "id": "ecoflow-river-2-pro",
+      "identity": "La référence canadienne fabricant RIVER 2 Pro 768 Wh / 800 W est documentée, mais la sélection de l’URL enregistrée est incohérente.",
+      "asinStatus": "conflicting-selected-asin",
+      "asinEvidence": "URL B0BVLPGS79 ; les champs de sélection et détails de la représentation publique indiquent B0D2HX1ZS9.",
+      "variant": "Titre RIVER 2 Pro, modèle EFR620, Manufacturer Part Number EFR617 dans la même représentation ; aucune substitution ASIN effectuée.",
+      "reliableFacts": [
+        "La page EcoFlow Canada décrit 768 Wh et 800 W ; le chiffre X-Boost ne devient pas une puissance continue normale."
+      ],
+      "contradictions": [
+        "ASIN demandé différent de l’ASIN sélectionné.",
+        "Modèle EFR620 et numéro de pièce EFR617 différents dans les champs de l’annonce."
+      ],
+      "safety": [
+        "Configuration électrique et marquage du modèle canadien à établir.",
+        "Le rappel DELTA Max 2000 ne constitue ni un rappel RIVER 2 Pro ni une preuve d’absence de risque."
+      ],
+      "resolved": [
+        "Le titre, les deux identifiants de modèle/pièce et l’ASIN sélectionné sont désormais distingués explicitement."
+      ],
+      "remaining": [
+        "Correspondance exacte du lien et de la variante canadienne non établie. Aucun remplacement ASIN fiable proposé faute de preuve."
+      ],
+      "requiredEvidence": [
+        "Capture de B0BVLPGS79 avec la variante sélectionnée et les détails indiquant l’ASIN final.",
+        "Étiquette du modèle/numéro de pièce, valeurs AC et documentation canadienne correspondant à la station vendue.",
+        "Si le vendeur propose B0D2HX1ZS9 : preuve fabricant ou annonce reliant explicitement les références et différences avant toute modification du lien."
+      ],
+      "sources": [
+        "https://www.amazon.ca/EF-ECOFLOW-Portable-Charging-Generator/dp/B0BVLPGS79",
+        "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+      ],
+      "name": "EcoFlow RIVER 2 Pro",
+      "asin": "B0BVLPGS79",
+      "url": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "The requested B0BVLPGS79 public representation still selects B0D2HX1ZS9 and displays model EFR620 but manufacturer part EFR617. The Canadian electrical variant and exact ASIN configuration are unresolved. No ASIN substitution is authorised by this evidence."
+    },
+    {
+      "id": "jackery-explorer-300",
+      "identity": "La représentation canadienne associe B082TMBYR6 à Explorer 300 / JE-300E. Cette correspondance de famille ne résout pas la configuration électrique.",
+      "asinStatus": "model-family-documented-configuration-conflicting",
+      "asinEvidence": "ASIN B082TMBYR6 et Model Number JE-300E dans les détails publics.",
+      "variant": "Révision canadienne livrée inconnue ; ne pas confondre original, 300 Plus, 300 v2 ou 300D.",
+      "reliableFacts": [
+        "Le manuel/FAQ fabricant original documente NCM, 293,8 Wh et 110 V ; ces valeurs restent étiquetées comme références originales, pas comme données de l’unité vendue.",
+        "La navigation canadienne actuelle emploie 291,84 Wh pour Explorer 300."
+      ],
+      "contradictions": [
+        "Représentation détaillant 292/293 Wh et Lithium Ion, mais titre différenciateur/résumé LiFePO4.",
+        "Champs régionaux 110/120 V non réconciliés avec un manuel de l’unité."
+      ],
+      "safety": [
+        "Chimie, tension et limites d’entrée ne doivent pas être déduites d’une famille de nom.",
+        "Illustration erronée USB toujours rejetée ; aucune réactivation.",
+        "Ne pas supposer la compatibilité SolarSaga 100 Air."
+      ],
+      "resolved": [
+        "JE-300E corroboré dans les détails ; la valeur LiFePO4 n’est plus présentée comme chimie certaine.",
+        "Spécifications NCM/110 V/60 W USB-C qualifiées comme références originales uniquement."
+      ],
+      "remaining": [
+        "Chimie, capacité nominale et variante électrique réellement vendues non établies."
+      ],
+      "requiredEvidence": [
+        "Capture de la sélection B082TMBYR6 et photographie de la plaque JE-300E/variante effectivement vendue.",
+        "Manuel fabricant canadien de la même révision donnant chimie, capacité, sortie AC et entrées de charge.",
+        "Confirmation fabricant si les titres LiFePO4 et les champs électriques restent contradictoires ; conserver le visuel neutre."
+      ],
+      "sources": [
+        "https://www.amazon.ca/Jackery-Portable-Explorer-Generator-Emergency/dp/B082TMBYR6",
+        "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf",
+        "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+        "https://ca.jackery.com/products/explorer-300-portable-power-station"
+      ],
+      "name": "Jackery Explorer 300",
+      "asin": "B082TMBYR6",
+      "url": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "The Canadian representation associates B082TMBYR6 with Explorer 300 / JE-300E, but battery chemistry and regional electrical configuration remain unresolved across its capacity, Lithium Ion/LiFePO4 and 110/120 V fields. Match the actual rating label and Canadian instructions; the excluded USB illustration remains rejected."
+    },
+    {
+      "id": "midland-er310",
+      "identity": "Modèle ER310 documenté, distinct du ER310PRO ; aucune sélection canadienne accessible ne relie actuellement l’ASIN au conditionnement.",
+      "asinStatus": "not-established",
+      "asinEvidence": "Lectures publiques B015QIC1PW indisponibles ; aucun diagnostic de validité déduit de ces échecs.",
+      "variant": "Révision de batterie livrée inconnue. La capacité et l’autonomie peuvent rester non chiffrées si ER310 et configuration sont confirmés.",
+      "reliableFacts": [
+        "AM/FM, WX matériel, Li-ion ou AA de secours et recharge USB documentés.",
+        "Midland BATT26L 2600 mAh est déclaré compatible avec ER310 de seconde génération.",
+        "Weatheradio Canada n’est plus en service."
+      ],
+      "contradictions": [
+        "Guide actuel : 3500 mAh dans les fonctions/options et 2600 mAh dans son tableau ; FAQ et ancienne instruction : 2600.",
+        "La compatibilité BATT26L ne prouve pas une chronologie de révisions 2600 → 3500."
+      ],
+      "safety": [
+        "Ne pas promettre d’alerte Weatheradio canadienne.",
+        "Utiliser le pack Midland prévu, pas une cellule arbitraire ; aucune garantie de capacité livrée."
+      ],
+      "resolved": [
+        "La divergence de capacité seule n’est plus considérée comme blocage commercial suffisant.",
+        "Les sources ne sont pas transformées en histoire de révision inventée."
+      ],
+      "remaining": [
+        "Modèle ER310 et configuration de l’offre canadienne à confirmer."
+      ],
+      "requiredEvidence": [
+        "Capture B015QIC1PW montrant ER310 (pas ER310PRO), variante et contenu de boîte.",
+        "Référence/étiquette du pack fourni ou documentation Midland correspondant au lot ; aucune capacité garantie n’est exigée si elle demeure explicitement non établie."
+      ],
+      "sources": [
+        "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+        "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs",
+        "https://midlandusa.com/products/batt26l-e-ready-rechargeable-battery",
+        "https://www.canada.ca/en/environment-climate-change/services/weatheradio.html"
+      ],
+      "name": "Midland ER310 emergency radio",
+      "asin": "B015QIC1PW",
+      "url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "The offered B015QIC1PW Canadian ER310 model and package are not independently established. No battery capacity or runtime is guaranteed; the optional capacity conflict alone is not treated as a reason to reject an otherwise confirmed ER310. Obtain the selected listing/model and supplied pack identity."
+    },
+    {
+      "id": "kidde-c3010-co-alarm",
+      "identity": "Références C3010 / 21010045 US et C3010-CA canadienne distinctes ; aucune équivalence établie pour l’ASIN.",
+      "asinStatus": "canadian-compliance-not-established",
+      "asinEvidence": "B00FHW7PBS conservé ; l’annonce ne fournit pas de preuve de modèle canadien dans les éléments accessibles.",
+      "variant": "Modèle C3010-CA explicitement CSA Listed chez Kidde Canada, mais pas attribué au détecteur enregistré.",
+      "reliableFacts": [
+        "La page canadienne nomme C3010-CA et sa déclaration CSA Listed."
+      ],
+      "contradictions": [
+        "Un nom C3010 proche ou une certification UL américaine ne prouve pas l’équivalence canadienne de l’exemplaire."
+      ],
+      "safety": [
+        "Détecteur de CO : conformité du modèle et instructions canadiennes indispensables.",
+        "Aucun marquage canadien ou conformité locale inventé."
+      ],
+      "resolved": [
+        "La déclaration fabricant CSA Listed du modèle canadien est documentée séparément du produit vendu."
+      ],
+      "remaining": [
+        "Équivalence ASIN/modèle canadien, marquage et documentation de certification non établis."
+      ],
+      "requiredEvidence": [
+        "Photo lisible du modèle et du marquage canadien figurant sur l’alarme réellement vendue sous B00FHW7PBS.",
+        "Document fabricant ou fichier de certification reliant cette référence exacte au modèle/mark reconnu au Canada.",
+        "Instructions canadiennes correspondantes et informations de remplacement ; un simple texte vendeur « certifié » ne suffit pas."
+      ],
+      "sources": [
+        "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca"
+      ],
+      "name": "Kidde C3010 carbon monoxide alarm",
+      "asin": "B00FHW7PBS",
+      "url": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "Kidde Canada explicitly lists C3010-CA as CSA Listed; no evidence maps the recorded B00FHW7PBS C3010 / 21010045 to that Canadian model and mark. Obtain the actual model/rating label, recognised Canadian certification file and matching instructions before enabling this CO-alarm link."
+    },
+    {
+      "id": "iniu-p62-20000mah-65w",
+      "identity": "Fabricant P62-E1 documenté et champ Mfr Part Number P62-E1 corroboré dans la représentation canadienne B0DB888L9F.",
+      "asinStatus": "part-number-documented-safety-pending",
+      "asinEvidence": "ASIN et numéro de pièce présents dans la représentation publique ; pas d’inspection du lot ou d’authentification vendeur.",
+      "variant": "Configuration/câble du lot encore à établir ; le fabricant décrit deux USB-C, un USB-A et un GoCord USB-C détachable.",
+      "reliableFacts": [
+        "Capacité fabricant de cellule 20 000 mAh ; maximum USB-C1 65 W et entrée 45 W sous conditions.",
+        "Répartition fabricante dépendante des ports ; 65 W non attribués indépendamment à chaque port."
+      ],
+      "contradictions": [
+        "P62 comme nom abrégé ne suffit pas à spécifier toutes les révisions et le contenu de boîte.",
+        "La description de protections et le rappel BI-B41, autre modèle, ne constituent pas une preuve de sécurité du lot P62-E1."
+      ],
+      "safety": [
+        "Câble, valeurs électriques, révision et documents de sécurité applicables à l’unité non établis.",
+        "Aucune obligation universelle de marquage CSA pour toute batterie USB n’est inventée ; les preuves doivent être adaptées au produit réel."
+      ],
+      "resolved": [
+        "Numéro de pièce P62-E1 corroboré ; ambiguïté de nom réduite sans prétendre certifier l’unité."
+      ],
+      "remaining": [
+        "Configuration livrée, câble et documentation de sécurité exacte incomplets."
+      ],
+      "requiredEvidence": [
+        "Capture B0DB888L9F avec variante/numéro de pièce et contenu de boîte.",
+        "Photos de la plaque du produit et des ports, référence et puissance du câble fourni ; manuel de cette révision.",
+        "Documentation fabricant de sécurité/essais applicable au modèle et au lot concernés, plutôt qu’une simple promesse vendeur ou le rappel d’un autre modèle."
+      ],
+      "sources": [
+        "https://www.amazon.ca/INIU-20000mAh-Compact-Portable-Charger/dp/B0DB888L9F",
+        "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w",
+        "https://iniushop.com/pages/recall-b41"
+      ],
+      "name": "INIU P62 20000 mAh 65 W power bank",
+      "asin": "B0DB888L9F",
+      "url": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+      "before": "blocked",
+      "after": "blocked",
+      "decision": "The public Canadian representation identifies B0DB888L9F with manufacturer part P62-E1, narrowing the model-name ambiguity. Delivered cable/port configuration and applicable exact-unit electrical safety evidence remain incomplete; marketing protections or an unrelated BI-B41 recall do not provide that clearance."
+    }
+  ]
+}

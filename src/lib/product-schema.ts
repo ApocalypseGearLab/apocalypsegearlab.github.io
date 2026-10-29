@@ -39,7 +39,9 @@ export const productSchema = z.object({
   lastVerified: z.coerce.date().nullable().default(null),
   sources: z.array(z.object({
     id: z.string().regex(/^[a-z0-9-]+$/), title: z.string().min(1), url: httpsUrl,
-    kind: z.enum(['manufacturer', 'official-safety', 'official-recall']),
+    // Retailer evidence can document an ASIN/variant, never replace the
+    // manufacturer evidence required for technical specifications below.
+    kind: z.enum(['manufacturer', 'retailer', 'official-safety', 'official-recall']),
   })).default([]),
   relatedProducts: z.array(z.string().regex(/^[a-z0-9-]+$/)).default([]),
   research: z.object({

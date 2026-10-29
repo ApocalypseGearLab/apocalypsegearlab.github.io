@@ -1,0 +1,96 @@
+{
+  "checkedAt": "2026-10-29",
+  "environment": "Windows / Node 22.23.4 / npm 10.9.9 / Chromium",
+  "astro": {
+    "files": 62,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 43,
+    "failed": 0
+  },
+  "products": {
+    "passed": true,
+    "scenarios": "Three synthetic published product fixtures; initial linking disabled/enabled states; exact synthetic ASIN/tag and disclosure; real Kidde/INIU/Explorer 300 holds retained; real data/config restored and rebuilt"
+  },
+  "images": {
+    "passed": true,
+    "productMappings": 26,
+    "publishableIllustrations": 25,
+    "rejectedIllustrations": 1,
+    "protectedFilesHashChecked": 80,
+    "productImageReencoding": false
+  },
+  "production": {
+    "htmlPages": 33,
+    "internalReferences": 1035,
+    "sitemapUrls": 5,
+    "informationalProfiles": 26,
+    "noindexProfiles": 26
+  },
+  "browser": {
+    "passed": 63,
+    "failed": 0,
+    "initialRun": {
+      "passed": 57,
+      "failed": 6,
+      "reason": "Existing assertions counted both the title and new Details link, or expected the former profile eligibility wording; updated selectors to heading links and exact corrected wording, retaining navigation/axe/viewport assertions."
+    },
+    "finalFullRun": "63 passed (2.8m)",
+    "additionalCaptureRun": {
+      "passed": 2,
+      "failed": 0,
+      "purpose": "375/1440 card captures hide the sticky header only during element screenshots, preventing a capture-scroll artefact; actual page/full screenshots unchanged."
+    },
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "axe": "No violations for tested routes under WCAG 2 A/AA and WCAG 2.1 AA tags; not an exhaustive conformance certificate.",
+    "isolatedNewTabs": 54,
+    "amazonNetworkRequests": 0,
+    "keyboard": "All eight pending Details links focused and opened with Enter; full reason present on destination profile.",
+    "heroDecodeRegression": {
+      "passed": 5,
+      "failed": 0,
+      "reason": "The first GitHub execution passed 62/63 browser tests but img.decode() rejected during a responsive currentSrc change. The test now polls for a successfully decoded, complete, positive-width and unchanged source, with a 5-second bound; broken assets still fail. No hero code or media changed.",
+      "initialGithubRun": "https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/40952652097"
+    }
+  },
+  "commercial": {
+    "before": {
+      "active": 17,
+      "held": 9
+    },
+    "after": {
+      "active": 18,
+      "held": 8
+    },
+    "newlyPermitted": "fnirsi-gc-01-geiger-counter",
+    "finalAmazonApprovalConfirmed": false,
+    "listingVerifiedFlagsChanged": false
+  },
+  "manualVisualReview": {
+    "auditedCards": 9,
+    "widths": [
+      375,
+      1440
+    ],
+    "comparisonsInspected": [
+      "catalogue-375-comparison.webp",
+      "catalogue-1440-comparison.webp"
+    ],
+    "imageChanges": "None; Explorer 300 remains neutral; owner-approved bunker and all 25 allowed product illustrations preserved."
+  },
+  "limitations": [
+    "Documentary source review, not physical product tests or current seller authentication.",
+    "Responsive checks use Chromium viewports, not physical devices.",
+    "No Lighthouse or external Amazon availability test."
+  ]
+}

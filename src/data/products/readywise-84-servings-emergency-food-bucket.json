@@ -8,12 +8,12 @@
   "specs": [
     {
       "label": "Documented assortment",
-      "value": "24 teriyaki-rice, 18 tortilla-soup, 18 potato/chicken-flavoured-pot-pie and 24 dessert servings; not 84 complete meals",
+      "value": "Manufacturer reference: 24 rice, 18 soup, 18 potato entrée and 24 dessert servings; Canadian ASIN assortment unconfirmed, and portions are not complete meals",
       "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
     },
     {
       "label": "Declared energy",
-      "value": "Manufacturer headline: 15,420 kcal per bucket; not a verified total for the recorded Canadian listing",
+      "value": "Manufacturer marketing total: 15,420 kcal for its reference bucket; not an established nutritional total for B00TX5J74S",
       "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
     },
     {
@@ -114,7 +114,7 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
     "listingVerified": false,
     "confirmed": [
@@ -135,7 +135,7 @@
       }
     ],
     "unverifiedClaims": [
-      "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      "The actual Canadian bucket, pouch assortment, dessert, lot, dietary labels, dates and nutrition totals are unconfirmed; the source-label calculation is not a measured lot total."
     ],
     "safetyNotes": [
       "Gluten-free does not mean allergen-free. The linked rice label declares soy; potato and vanilla-pudding labels declare milk. Check every delivered pouch.",
@@ -151,8 +151,8 @@
     "affiliateReview": {
       "decision": "hold",
       "asin": "B00TX5J74S",
-      "checkedAt": "2026-10-28",
-      "reason": "Exact Canadian gluten-free assortment is unverified. Manufacturer content conflicts on dessert identity and total energy: 15,420 kcal advertised versus 15,180 from the linked labels and listed portions. Reconcile the delivered variant and allergen labels before enabling the CTA.",
+      "checkedAt": "2026-10-29",
+      "reason": "The exact B00TX5J74S Canadian 84-serving gluten-free assortment and dessert are not confirmed. Manufacturer marketing says 15,420 kcal while the linked labels and listed counts calculate to 15,180; neither establishes the delivered lot. Match the actual package and allergen labels before enabling the CTA.",
       "sourceIds": [
         "readywise-bucket",
         "rw-rice",

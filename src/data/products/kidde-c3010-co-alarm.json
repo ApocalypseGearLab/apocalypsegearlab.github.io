@@ -97,7 +97,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-24",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
     "listingVerified": false,
     "confirmed": [
@@ -118,6 +118,12 @@
         "text": "Health Canada advises checking for a recognized Canadian certification mark directly on an alarm.",
         "sourceIds": [
           "health-canada-alarm-marks"
+        ]
+      },
+      {
+        "text": "The Kidde Canada C3010-CA page explicitly says CSA Listed. This is a model-reference statement, not certification evidence for B00FHW7PBS or an actual delivered alarm.",
+        "sourceIds": [
+          "kidde-c3010-ca"
         ]
       }
     ],
@@ -140,8 +146,8 @@
     "affiliateReview": {
       "decision": "hold",
       "asin": "B00FHW7PBS",
-      "checkedAt": "2026-10-26",
-      "reason": "The US C3010 / 21010045 is not established as the Canada-approved C3010-CA. Obtain the actual Canadian certification label and matching instructions.",
+      "checkedAt": "2026-10-29",
+      "reason": "Kidde Canada explicitly lists C3010-CA as CSA Listed; no evidence maps the recorded B00FHW7PBS C3010 / 21010045 to that Canadian model and mark. Obtain the actual model/rating label, recognised Canadian certification file and matching instructions before enabling this CO-alarm link.",
       "sourceIds": [
         "kidde-c3010-ca",
         "kidde-c3010-us"
