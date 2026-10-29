@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-29",
+  "environment": "Windows / Node 22.23.4 / npm 10.9.9 / Chromium",
+  "astro": {
+    "files": 61,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 39,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 56,
+    "failed": 0,
+    "initialRun": {
+      "passed": 54,
+      "timedOut": 2
+    },
+    "targetedRerun": {
+      "passed": 2,
+      "failed": 0
+    },
+    "rerunReason": "Full catalogue six-width audits and 51 simulated new tabs exceeded the previous 30-second test deadline; scoped budgets now 60/90 seconds, all assertions retained",
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "axe": "No violations with WCAG 2 A/AA and 2.1 AA tags on tested routes",
+    "affiliateNavigation": "51 actual recorded-URL new tabs entirely intercepted and fulfilled locally, no Amazon traffic"
+  },
+  "production": {
+    "htmlPages": 33,
+    "internalReferences": 993,
+    "sitemapUrls": 5,
+    "profiles": 26,
+    "blackout": 9,
+    "fallout": 9,
+    "outbreak": 8
+  },
+  "products": "Passed: schema, publication fixtures, active/pending markup, exact ASIN/tag; temporary records removed and actual build restored",
+  "media": "Passed: 26 unique mappings, 25 allowed illustrations, Explorer 300 rejected; 15 new variant files; all 21 old entries and 38 prior media files unchanged",
+  "seo": "Unique titles/H1/canonicals, descriptions, internal links, JSON-LD and draft noindex controls passed. Sitemap remains five indexable URLs.",
+  "limitations": [
+    "No physical product testing or professional calibration",
+    "No live Canadian listing/seller/package verification of these five ASINs",
+    "No independent image chain-of-title audit; owner-specific approval recorded",
+    "Automated accessibility is not a complete WCAG audit; no physical-device/Safari/Firefox testing",
+    "No Lighthouse/Core Web Vitals field benchmark claimed"
+  ]
+}

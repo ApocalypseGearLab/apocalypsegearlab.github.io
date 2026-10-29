@@ -1,0 +1,114 @@
+[
+  {
+    "file": "docs/qa/phase4-3/catalogue-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 23358,
+    "scaledForWebpHeightLimit": true
+  },
+  {
+    "file": "docs/qa/phase4-3/catalogue-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 7631,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/fallout-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 9646,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/fallout-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 4409,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/outbreak-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 8630,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/outbreak-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 3284,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/fnirsi-gc-01-geiger-counter-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 8348,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/fnirsi-gc-01-geiger-counter-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 5296,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/readywise-84-servings-emergency-food-bucket-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 8738,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/readywise-84-servings-emergency-food-bucket-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 5428,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/datrex-dx2400f-emergency-food-ration-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 8223,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/datrex-dx2400f-emergency-food-ration-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 5227,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/sos-3600-calorie-emergency-food-rations-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 8189,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/sos-3600-calorie-emergency-food-rations-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 5332,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/3m-6800-full-facepiece-respirator-375.webp",
+    "viewportWidth": 375,
+    "sourceWidth": 375,
+    "sourceHeight": 8663,
+    "scaledForWebpHeightLimit": false
+  },
+  {
+    "file": "docs/qa/phase4-3/3m-6800-full-facepiece-respirator-1440.webp",
+    "viewportWidth": 1440,
+    "sourceWidth": 1440,
+    "sourceHeight": 5524,
+    "scaledForWebpHeightLimit": false
+  }
+]

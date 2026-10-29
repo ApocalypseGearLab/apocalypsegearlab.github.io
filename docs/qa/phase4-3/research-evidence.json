@@ -1,0 +1,336 @@
+{
+  "researchedAt": "2026-10-28",
+  "reportedAt": "2026-10-29",
+  "method": "Primary manufacturer pages, specifications, public nutrition labels and safety instructions. Supplied PNGs and encoded WebPs visually inspected. No physical product testing or private account validation.",
+  "amazonReadAttempts": [
+    {
+      "asin": "B0BHH9X1WG",
+      "url": "https://www.amazon.ca/dp/B0BHH9X1WG",
+      "result": "Canonical public-reader request unavailable; not evidence of an invalid URL and not a verified model match."
+    },
+    {
+      "asin": "B00TX5J74S",
+      "url": "https://www.amazon.ca/dp/B00TX5J74S",
+      "result": "Canonical public-reader request unavailable; not evidence of an invalid URL and not a verified model match."
+    },
+    {
+      "asin": "B08T57RVBY",
+      "url": "https://www.amazon.ca/dp/B08T57RVBY",
+      "result": "Canonical public-reader request unavailable; not evidence of an invalid URL and not a verified model match."
+    },
+    {
+      "asin": "B00W20PIHQ",
+      "url": "https://www.amazon.ca/dp/B00W20PIHQ",
+      "result": "Canonical public-reader request unavailable; not evidence of an invalid URL and not a verified model match."
+    },
+    {
+      "asin": "B00MA4K4C8",
+      "url": "https://www.amazon.ca/dp/B00MA4K4C8",
+      "result": "Canonical public-reader request unavailable; not evidence of an invalid URL and not a verified model match."
+    }
+  ],
+  "readywiseLabels": {
+    "method": "Four manufacturer-linked nutrition images downloaded to ignored local QA storage and inspected. Not published as replacement product photos.",
+    "arithmetic": "24*270 + 18*160 + 18*190 + 24*100 = 15180 kcal; page claims 15420 kcal; dessert labels/list disagree.",
+    "allergens": "Rice label contains soy; potato and pudding labels contain milk. No delivered-lot dietary guarantee."
+  },
+  "foodRecallSearch": {
+    "scope": "Public searches of Canadian recalls and FDA for Datrex, SOS and ReadyWise; historical BrucePac/ReadyWise results also surfaced.",
+    "limits": "This was not a comprehensive lot-level recall clearance. Other ReadyWise assortments/old recall references are not automatically assigned to the 84-serving gluten-free ASIN, nor used to clear it. No absence-of-recall or delivered-unit safety claim is made."
+  },
+  "mediaPermission": "The Phase 4.3 owner work order explicitly selects these five final PNG illustrations for integration. Scope does not authenticate manufacturer marks or independently establish title to undisclosed reference photographs.",
+  "account": {
+    "tag": "apocalypsegear-20",
+    "finalApprovalConfirmed": false,
+    "independentPrivateAccountValidation": false,
+    "officialSources": [
+      "https://associates.amazon.ca/help/node/topic/G8TW5AE9XL2VX9VM",
+      "https://associates.amazon.ca/help/operating/agreement"
+    ]
+  },
+  "products": [
+    {
+      "productId": "fnirsi-gc-01-geiger-counter",
+      "asin": "B0BHH9X1WG",
+      "manufacturerSources": [
+        {
+          "id": "fnirsi-model",
+          "title": "FNIRSI GC-01 model page and conflicting range table",
+          "url": "https://www.fnirsi.com/products/gc-01",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "cnsc-emergency",
+          "title": "CNSC: protecting your family in a nuclear emergency",
+          "url": "https://www.cnsc-ccsn.gc.ca/eng/resources/emergency-management-and-safety/protecting-your-family-during-a-nuclear-emergency.cfm",
+          "kind": "official-safety"
+        }
+      ],
+      "confirmed": [
+        {
+          "text": "FNIRSI documents a GC-01 using a GM tube and several alarm modes. This is a manufacturer description, not a calibration result.",
+          "sourceIds": [
+            "fnirsi-model"
+          ]
+        },
+        {
+          "text": "Canadian emergency guidance prioritises sheltering and following official directions.",
+          "sourceIds": [
+            "cnsc-emergency"
+          ]
+        }
+      ],
+      "unverifiedClaims": [
+        "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      ],
+      "affiliateReview": {
+        "decision": "hold",
+        "asin": "B0BHH9X1WG",
+        "checkedAt": "2026-10-28",
+        "reason": "The exact B0BHH9X1WG Canadian listing/model match is not established, and the manufacturer page conflicts on the maximum dose-rate range (1,000 versus 10,000 µSv/h). Resolve both before enabling the CTA.",
+        "sourceIds": [
+          "fnirsi-model",
+          "cnsc-emergency"
+        ]
+      },
+      "imageReview": "Yellow and black GC-01-style handheld with a green chart. The displayed rate omits /h and min/max/graph values do not reconcile; all readings are illustrative. No calibration, authentic display or nuclear-safety result is implied."
+    },
+    {
+      "productId": "readywise-84-servings-emergency-food-bucket",
+      "asin": "B00TX5J74S",
+      "manufacturerSources": [
+        {
+          "id": "readywise-bucket",
+          "title": "ReadyWise 84-serving gluten-free bucket, contents and storage guidance",
+          "url": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "rw-rice",
+          "title": "ReadyWise linked rice nutrition and ingredient label",
+          "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFteriyakirice.png?v=1696354528",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "rw-soup",
+          "title": "ReadyWise linked tortilla-soup label",
+          "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFheartytortillasoup.png?v=1696354528",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "rw-potato",
+          "title": "ReadyWise linked potato entrée label",
+          "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFpotpie.png?v=1696354528",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "rw-dessert",
+          "title": "ReadyWise linked vanilla-pudding label",
+          "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "kit-planning",
+          "title": "Public Safety Canada: emergency kit planning",
+          "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+          "kind": "official-safety"
+        }
+      ],
+      "confirmed": [
+        {
+          "text": "The product page names an 84-serving gluten-free bucket, estimates 63 cups of water and describes cool, dry storage.",
+          "sourceIds": [
+            "readywise-bucket"
+          ]
+        },
+        {
+          "text": "The displayed counts and labels give 24×270 + 18×160 + 18×190 + 24×100 = 15,180 kcal, not the headline 15,420. Rice declares soy; potato entrée and pudding declare milk.",
+          "sourceIds": [
+            "rw-rice",
+            "rw-soup",
+            "rw-potato",
+            "rw-dessert"
+          ]
+        }
+      ],
+      "unverifiedClaims": [
+        "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      ],
+      "affiliateReview": {
+        "decision": "hold",
+        "asin": "B00TX5J74S",
+        "checkedAt": "2026-10-28",
+        "reason": "Exact Canadian gluten-free assortment is unverified. Manufacturer content conflicts on dessert identity and total energy: 15,420 kcal advertised versus 15,180 from the linked labels and listed portions. Reconcile the delivered variant and allergen labels before enabling the CTA.",
+        "sourceIds": [
+          "readywise-bucket",
+          "rw-rice",
+          "rw-soup",
+          "rw-potato",
+          "rw-dessert",
+          "kit-planning"
+        ]
+      },
+      "imageReview": "Approved black bucket, red lid, two pouches and soup bowl retained. Serving, shelf-life, ingredient and gluten-free markings in concept art are not evidence for a Canadian lot. Public profile documents manufacturer calorie/dessert inconsistencies and milk/soy warnings."
+    },
+    {
+      "productId": "datrex-dx2400f-emergency-food-ration",
+      "asin": "B08T57RVBY",
+      "manufacturerSources": [
+        {
+          "id": "datrex-sheet",
+          "title": "Datrex DX2400F model specification",
+          "url": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "datrex-catalogue",
+          "title": "Datrex commercial catalogue: DX2400F and DX3600F",
+          "url": "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "kit-planning",
+          "title": "Public Safety Canada: emergency kit planning",
+          "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+          "kind": "official-safety"
+        }
+      ],
+      "confirmed": [
+        {
+          "text": "The model sheet describes twelve individually wrapped 200-kcal bars; the current catalogue assigns 2,400 kcal to one DX2400F packet.",
+          "sourceIds": [
+            "datrex-sheet",
+            "datrex-catalogue"
+          ]
+        },
+        {
+          "text": "Wheat-containing ingredients and a five-year manufacturer shelf-life claim are documented. The pictured regulatory markings are not evidence for a sold packet.",
+          "sourceIds": [
+            "datrex-sheet"
+          ]
+        }
+      ],
+      "unverifiedClaims": [
+        "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      ],
+      "affiliateReview": {
+        "decision": "link-permitted",
+        "asin": "B08T57RVBY",
+        "checkedAt": "2026-10-28",
+        "reason": "Recorded-link permission follows model-document and food-safety-limitation review. No concrete ASIN/model contradiction was established. Canadian listing, pack count, ingredients of the delivered lot and seller remain unverified; no certification or exact mass is inferred.",
+        "sourceIds": [
+          "datrex-sheet",
+          "datrex-catalogue",
+          "kit-planning"
+        ]
+      },
+      "imageReview": "White/red DX2400F-style pack and unwrapped bars retained. Illustrated count, texture, regulatory numbers and label spelling are not authoritative. Twelve 200-kcal bars and 2400 kcal per packet come from manufacturer documents, not the art."
+    },
+    {
+      "productId": "sos-3600-calorie-emergency-food-rations",
+      "asin": "B00W20PIHQ",
+      "manufacturerSources": [
+        {
+          "id": "sos-sheet",
+          "title": "S.O.S. 3600 KCAL manufacturer nutrition and product sheet",
+          "url": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "sos-faq",
+          "title": "S.O.S. storage and gluten-free FAQ",
+          "url": "https://sosfoodlab.com/faq/",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "kit-planning",
+          "title": "Public Safety Canada: emergency kit planning",
+          "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+          "kind": "official-safety"
+        }
+      ],
+      "confirmed": [
+        {
+          "text": "S.O.S. describes a five-year ration and nine servings. Its sheet contains both the 3,600-kcal designation and 410 kcal per serving, which do not reconcile.",
+          "sourceIds": [
+            "sos-sheet"
+          ]
+        },
+        {
+          "text": "The manufacturer FAQ does not offer this ration as gluten-free.",
+          "sourceIds": [
+            "sos-faq"
+          ]
+        }
+      ],
+      "unverifiedClaims": [
+        "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      ],
+      "affiliateReview": {
+        "decision": "hold",
+        "asin": "B00W20PIHQ",
+        "checkedAt": "2026-10-28",
+        "reason": "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. Manufacturer data also conflicts: nine 410-kcal servings equal 3,690 rather than 3,600 kcal. Resolve the lot and nutrition label before enabling the CTA; 7,200 kcal is not established.",
+        "sourceIds": [
+          "sos-sheet",
+          "sos-faq",
+          "kit-planning"
+        ]
+      },
+      "imageReview": "Silver SOS-style packet and bars retained. Printed nutrition, ingredients and certification strings include synthetic inaccuracies and must not be used for dietary decisions. The manufacturer also has a 3600 versus 9x410 calorie conflict. Image depicts one packet, not proof of an ASIN two-pack."
+    },
+    {
+      "productId": "3m-6800-full-facepiece-respirator",
+      "asin": "B00MA4K4C8",
+      "manufacturerSources": [
+        {
+          "id": "3m-canada-6800",
+          "title": "3M Canada: 6800 medium full facepiece",
+          "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-6000-instructions",
+          "title": "3M 6000-series user instructions and use limitations",
+          "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-6000-sheet",
+          "title": "3M 6000 full-facepiece technical sheet",
+          "url": "https://multimedia.3m.com/mws/media/2602924O/3m-6000-full-facepiece-reusable-respirator.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "confirmed": [
+        {
+          "text": "3M Canada identifies 6800 as the medium bayonet full facepiece with a clear polycarbonate lens and four-point harness.",
+          "sourceIds": [
+            "3m-canada-6800"
+          ]
+        },
+        {
+          "text": "Use limitations and approved assemblies must be read in the manufacturer instructions; a facepiece without suitable filters is not ready to filter air.",
+          "sourceIds": [
+            "3m-6000-instructions"
+          ]
+        }
+      ],
+      "unverifiedClaims": [
+        "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      ],
+      "affiliateReview": {
+        "decision": "link-permitted",
+        "asin": "B00MA4K4C8",
+        "checkedAt": "2026-10-28",
+        "reason": "Recorded-link permission follows Canadian manufacturer model/Medium-size and use-limitation review, with no concrete ASIN/model contradiction established. This does not authenticate the seller or unit, establish included filters, or verify the live Canadian listing.",
+        "sourceIds": [
+          "3m-canada-6800",
+          "3m-6000-instructions",
+          "3m-6000-sheet"
+        ]
+      },
+      "imageReview": "Grey full facepiece, clear visor, harness and empty orange side connections retained. No filters or cartridges are installed. Branding and shape are conceptual, not proof of authenticity, approved assembly or included accessories."
+    }
+  ]
+}

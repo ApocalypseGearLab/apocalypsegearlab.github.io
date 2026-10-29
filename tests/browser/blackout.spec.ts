@@ -73,6 +73,9 @@ for (const { slug, data } of drafts) {
 
 for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
   test(`${route} exposes the registered profiles in its correct sector`, async ({ page }) => {
+    // The full catalogue decodes 25 pictures and runs six axe audits plus
+    // screenshots. Bound that deliberate workload separately from one profile.
+    test.setTimeout(60_000);
     const sector = route === '/gear/' ? null : route.slice(1,-1);
     const selected = drafts.filter(({data}) => !sector || categoryUniverse(data.category) === sector);
     const images = route === '/blackout/' ? 8 : route === '/fallout/' ? 9 : route === '/outbreak/' ? 8 : 25;

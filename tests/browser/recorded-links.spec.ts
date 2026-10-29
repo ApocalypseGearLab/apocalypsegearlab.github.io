@@ -7,6 +7,9 @@ const products = readdirSync('src/data/products').filter(file => file.endsWith('
 const permittedUrls = new Set(products.map(p => getMerchantLinks(p)[0]?.href).filter(Boolean));
 
 test('recorded product buttons work on catalogues and profiles in isolated new tabs without Amazon traffic', async ({page, context}) => {
+  // 51 isolated new tabs and 26 profiles are checked sequentially; this is
+  // functional QA, not a 30-second performance budget for the entire catalogue.
+  test.setTimeout(90_000);
   const intercepted: string[] = [];
   await context.route('https://www.amazon.ca/**', async route => {
     const url = route.request().url();
