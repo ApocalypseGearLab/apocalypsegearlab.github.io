@@ -35,7 +35,7 @@ test('Phase 4.4 nine independent commercial decisions retain exact Canadian ASIN
   const decisions={
     'fnirsi-gc-01-geiger-counter':['B0BHH9X1WG',true],
     'readywise-84-servings-emergency-food-bucket':['B00TX5J74S',false],
-    'sos-3600-calorie-emergency-food-rations':['B00W20PIHQ',false],
+    'sos-3600-calorie-emergency-food-rations':['B00W20PIHQ',true],
     'nanuk-904-first-aid-kit':['B0G3XYHL33',false],
     'ecoflow-river-2-pro':['B0BVLPGS79',false],
     'jackery-explorer-300':['B082TMBYR6',false],
@@ -101,8 +101,40 @@ test('Midland owner-transcribed ER310-MFN identity permits only the recorded lin
   assert.equal(getMerchantLinks({id:'midland-er310',data} as Product,false)[0]!.href,null);
   assert.ok(!data.specs.some(spec=>/\b(?:2600|3500|2,600|3,500)\b|\bmAh\b|\bhours\b/i.test(spec.value)),'No battery capacity or runtime is guaranteed');
   assert.match(data.research!.safetyNotes.join(' '),/Canadian weather-alert coverage/);
-  const baseline=JSON.parse(readFileSync('docs/qa/midland-er310/preservation.json','utf8'));
-  assert.equal(baseline.baseCommit,'7985ad230a520a04352ce93621f9e3313926160f');
+});
+
+test('S.O.S. two-pack link permission retains rounded nutrition, dated shelf life and all other product records', () => {
+  const data=productSchema.parse(rawProducts.get('sos-3600-calorie-emergency-food-rations'));
+  const evidence=JSON.parse(readFileSync('docs/qa/sos-two-pack/evidence.json','utf8'));
+  assert.equal(evidence.ownerEvidence.method,'owner-transcription');
+  assert.equal(evidence.ownerEvidence.titleQuantity,'2 PK');
+  assert.equal(evidence.ownerEvidence.aboutQuantity,'2 Pack');
+  assert.equal(evidence.ownerEvidence.numberOfItems,2);
+  assert.deepEqual(evidence.ownerEvidence.unitCount,{value:1512,unit:'gram'});
+  assert.deepEqual(evidence.ownerEvidence.label,{servingsPerPacket:9,servingGrams:84,caloriesPerServing:410});
+  assert.equal(9*84*2,1512,'Only a nominal label-mass consistency check, not a weighing');
+  assert.equal(data.research!.listingVerified,false);
+  assert.equal(data.research!.listingEvidence,undefined);
+  assert.equal(data.research!.publicationApproved,false);
+  assert.equal(data.research!.safetyStatus,'pending');
+  assert.equal(data.reviewStatus,'draft');
+  assert.equal(data.lastVerified,null);
+  const product={id:'sos-3600-calorie-emergency-food-rations',data} as Product;
+  assert.equal(getMerchantLinks(product,true)[0]!.href,'https://www.amazon.ca/dp/B00W20PIHQ?tag=apocalypsegear-20');
+  assert.equal(getMerchantLinks(product,false)[0]!.href,null);
+  assert.equal(productSchema.safeParse({...data,reviewStatus:'published'}).success,false);
+  assert.equal(productStructuredData(product,site),undefined);
+  const publicText=JSON.stringify([data.summary,data.description,data.specs,data.cons,data.research!.confirmed,data.research!.safetyNotes,data.editorial]);
+  assert.doesNotMatch(publicText,/\b7[,\s]?200\b|\b7[,\s]?380\b/,'No exact lot-energy total is promoted');
+  assert.match(data.specs.find(s=>s.label==='Portions')!.value,/nine.*84 g/);
+  assert.match(data.specs.find(s=>s.label==='Energy inconsistency')!.value,/410.*Rounded/);
+  assert.match(data.research!.safetyNotes.join(' '),/from manufacture\/packaging, not purchase/);
+  assert.match(data.research!.safetyNotes.join(' '),/wheat, coconut and soy/);
+  // The latest follow-up baseline protects every other product, including Midland.
+  // Earlier preservation reports remain historical snapshots, not mutable baselines.
+  const baseline=JSON.parse(readFileSync('docs/qa/sos-two-pack/preservation.json','utf8'));
+  assert.equal(baseline.baseCommit,'11cfc3963529f2c51ad80a284b4658ecf090277e');
+  assert.equal(baseline.unchangedProducts.length,26,'25 other products and the internal template');
   for(const entry of baseline.unchangedProducts){
     const current=JSON.parse(readFileSync(entry.file,'utf8'));
     assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),entry.sha256Canonical,entry.file);
@@ -131,8 +163,8 @@ test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly
   assert.match(rw.research!.affiliateReview!.reason,/15,420.*15,180/);
   assert.match(rw.research!.safetyNotes.join(' '),/soy.*milk/);
   const sos=get('sos-3600-calorie-emergency-food-rations');
-  assert.equal(sos.research?.affiliateReview?.decision,'hold');
-  assert.match(sos.research!.affiliateReview!.reason,/two-pack.*unconfirmed/);
+  assert.equal(sos.research?.affiliateReview?.decision,'link-permitted');
+  assert.match(sos.research!.affiliateReview!.reason,/2 PK.*2 Pack.*Number of Items 2/);
   assert.match(sos.research!.affiliateReview!.reason,/3600 Calorie.*3,690/);
   const datrex=get('datrex-dx2400f-emergency-food-ration');
   assert.match(datrex.specs.find(s=>s.label==='Energy per packet')!.value,/whole packet/);
@@ -147,8 +179,8 @@ test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly
   assert.doesNotMatch(caution,/No protection against gases/,'Do not apply the N95-only caution to a configurable full facepiece');
 });
 
-test('new product holds cannot be bypassed by setting unrelated editorial approval flags', () => {
-  for(const id of ['readywise-84-servings-emergency-food-bucket','sos-3600-calorie-emergency-food-rations']) {
+test('remaining product holds cannot be bypassed by setting unrelated editorial approval flags', () => {
+  for(const id of ['readywise-84-servings-emergency-food-bucket','nanuk-904-first-aid-kit','ecoflow-river-2-pro']) {
     const data=productSchema.parse(rawProducts.get(id));
     data.research={...data.research!,listingVerified:true,safetyStatus:'cleared',publicationApproved:true,publicationBlockers:[]};
     assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,null);

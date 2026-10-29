@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-10-29",
+  "baseCommit": "11cfc3963529f2c51ad80a284b4658ecf090277e",
+  "environment": "Windows / Node 22.23.4 / npm 10.9.9 / Chromium",
+  "astro": {
+    "files": 62,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 45,
+    "failed": 0,
+    "specificChecks": "Owner-transcribed 2 PK/2 Pack/items 2/1512 gram and nine 84 g servings at 410 calories; no exact promoted lot total; shelf life from manufacture; editorial/account guards; all other product JSON preserved."
+  },
+  "products": {
+    "passed": true,
+    "scenarios": "Three synthetic published profiles; affiliation off/on; retained real mandatory holds; actual data/configuration restored and rebuilt."
+  },
+  "media": {
+    "passed": true,
+    "mappings": 26,
+    "allowedIllustrations": 25,
+    "rejectedIllustrations": 1,
+    "protectedMediaAndPolicyFiles": 80,
+    "productImageChanges": false
+  },
+  "build": {
+    "htmlPages": 33,
+    "internalReferences": 1036,
+    "sitemapUrls": 5,
+    "informationalProfiles": 26,
+    "noindexProfiles": 26
+  },
+  "browser": {
+    "passed": 63,
+    "failed": 0,
+    "elapsed": "2.7m",
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "axe": "No violations with WCAG 2 A/AA and WCAG 2.1 AA tags on tested routes; not an exhaustive conformance certificate.",
+    "simulatedNewTabs": 60,
+    "externalAmazonRequests": 0,
+    "sos": "Active on catalogue, FALLOUT, individual profile and related cards; exact ASIN/tag, disclosure, secure new tab and outbound tracking tested."
+  },
+  "visualReview": {
+    "cardsInspectedAt": [
+      375,
+      1440
+    ],
+    "files": [
+      "card-375.webp",
+      "card-1440.webp"
+    ],
+    "note": "Actual rendered production cards; sticky header hidden only for element capture. No product illustration recompressed or replaced."
+  },
+  "commercial": {
+    "activeBefore": 19,
+    "heldBefore": 7,
+    "activeAfter": 20,
+    "heldAfter": 6,
+    "changedProduct": "sos-3600-calorie-emergency-food-rations",
+    "independentListingVerified": false,
+    "finalAmazonApprovalConfirmed": false
+  },
+  "limitations": [
+    "Owner-described captures and label photo were supplied in text, not as inspected image files.",
+    "Manufacturer reference nutrition corroborates the stated portions but does not authenticate the delivered lot.",
+    "No exact lot calorie total, five years remaining after purchase, actual weighing, seller authentication or physical food test claimed."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "reviewedAt": "2026-10-29",
+  "asin": "B00W20PIHQ",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00W20PIHQ?tag=apocalypsegear-20",
+  "ownerEvidence": {
+    "method": "owner-transcription",
+    "captureDateReported": "2026-10-29",
+    "titleQuantity": "2 PK",
+    "aboutQuantity": "2 Pack",
+    "numberOfItems": 2,
+    "unitCount": {
+      "value": 1512,
+      "unit": "gram"
+    },
+    "label": {
+      "servingsPerPacket": 9,
+      "servingGrams": 84,
+      "caloriesPerServing": 410
+    },
+    "limitation": "The owner described the listing captures and label photograph in text. No screenshot/photo file was attached to this message and no pixels from those captures were inspected. These fields are owner-transcribed evidence, not an independently retrieved live offer."
+  },
+  "manufacturerEvidence": {
+    "nutritionUrl": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+    "faqUrl": "https://sosfoodlab.com/faq/",
+    "label": {
+      "servingsPerPacket": 9,
+      "servingGrams": 84,
+      "caloriesPerServing": 410
+    },
+    "tradeDesignation": "3600 KCAL / 3600 Calorie",
+    "storageLife": "Five-year design shelf life from manufacture/packaging, subject to dates, packaging and manufacturer storage conditions.",
+    "referenceWeightCaveat": "The same reference sheet has a separate shipping-weight field of 1.60 lb per packet. It is not used to authenticate a measured Canadian lot mass or to override the reported label/Unit Count."
+  },
+  "assessment": "The Title, About and Number of Items fields in the owner transcription consistently identify a two-packet offer. 9 × 84 g × 2 = 1512 g is a nominal label arithmetic cross-check, not a weighing of the supplied lot. The primary manufacturer label corroborates 9 portions of 84 g and 410 calories. This is enough for recorded-link permission without exact lot-energy or freshness guarantees.",
+  "energy": {
+    "roundedServingArithmeticPerPacket": 3690,
+    "scope": "9 × 410 using rounded label values; not independently measured energy.",
+    "noExactLotEnergyClaim": true,
+    "forbiddenExactLotTotals": [
+      7200,
+      7380
+    ]
+  },
+  "safety": [
+    "Wheat, coconut and soy-related declarations/full ingredients must be checked on the delivered lot; no gluten-free or allergen-free claim.",
+    "Check manufacture/expiry dates and seals at receipt; five years is not guaranteed remaining life after purchase.",
+    "Potable water and varied suitable foods remain necessary; the illustration is not label or certification evidence."
+  ],
+  "accessLimitation": "The public Amazon.ca reader could not open the canonical URL; that failure does not establish an invalid listing.",
+  "decision": "link-permitted",
+  "before": {
+    "active": 19,
+    "held": 7
+  },
+  "after": {
+    "active": 20,
+    "held": 6
+  },
+  "independentListingVerified": false,
+  "editorialPublicationApproved": false,
+  "amazonFinalApprovalConfirmed": false
+}

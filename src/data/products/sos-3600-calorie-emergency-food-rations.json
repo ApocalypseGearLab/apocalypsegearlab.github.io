@@ -3,8 +3,8 @@
   "brand": "S.O.S. Food Lab",
   "modelNumber": "3600 KCAL Emergency Food Ration",
   "category": "food-rations",
-  "summary": "A ready-to-eat ration marketed as 3,600 kcal per packet. The possible two-pack Canadian listing and inconsistent manufacturer calorie arithmetic remain unconfirmed; no 7,200-kcal lot is asserted.",
-  "description": "A compact ration can provide a reserve when ordinary food is unavailable, but packet count and energy figures must be clear. S.O.S. describes a nine-portion emergency ration without a cooking requirement. The supplied ASIN may represent two packets; that quantity has not been confirmed. The manufacturer nutrition sheet also lists nine 410-kcal servings alongside a 3,600-kcal product name, so this page does not turn either figure into a verified lot total.",
+  "summary": "Two packets of ready-to-eat emergency rations sold under the '3600 Calorie' designation. Check the delivered labels, seals and dates; no exact energy total is claimed for the lot.",
+  "description": "The recorded Canadian offer is described as a two-pack. The manufacturer reference label gives nine portions of 84 g and 410 calories per portion. The commercial '3600 Calorie' name and multiplication of rounded serving values do not establish an exact measured energy total for either packet or the lot. Use the delivered ingredients, dates and storage instructions when planning your reserve.",
   "specs": [
     {
       "label": "Product designation",
@@ -13,12 +13,12 @@
     },
     {
       "label": "Portions",
-      "value": "Nine servings per container in the manufacturer sheet",
+      "value": "Manufacturer reference label: nine servings of 84 g per packet; match the delivered label",
       "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
     },
     {
       "label": "Energy inconsistency",
-      "value": "Manufacturer sheet labels nine portions at 410 kcal; that arithmetic differs from the product designation and does not verify any Amazon lot total",
+      "value": "Reference label: 410 calories per 84 g serving. Rounded serving values and the commercial designation do not establish an exact packet or lot energy total",
       "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "label": "Declared storage life",
-      "value": "Five-year design claim; check manufacture/expiry dates and sealed packaging",
+      "value": "Manufacturer five-year design shelf life from manufacture/packaging; check actual manufacture/expiry dates, seals and storage conditions at receipt",
       "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
     },
     {
@@ -42,8 +42,8 @@
     "Portioned format supports measured short-term distribution once the actual packet label is checked."
   ],
   "cons": [
-    "Canadian two-pack quantity is not established, so 7,200 kcal for the lot is not verified.",
-    "Manufacturer calorie figures conflict.",
+    "No exact measured energy total is established for the two-pack; do not multiply the commercial designation into a guaranteed lot total.",
+    "Serving calories are rounded, and multiplying them differs from the commercial designation.",
     "Contains wheat and other potential allergens; a nut-free facility claim does not mean allergen-free food."
   ],
   "useCases": [
@@ -68,6 +68,12 @@
       "title": "Public Safety Canada: emergency kit planning",
       "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
       "kind": "official-safety"
+    },
+    {
+      "id": "sos-owner-listing",
+      "title": "Amazon.ca S.O.S. two-pack — listing and label fields reported by the owner",
+      "url": "https://www.amazon.ca/dp/B00W20PIHQ",
+      "kind": "retailer"
     }
   ],
   "relatedProducts": [
@@ -83,7 +89,7 @@
   },
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-recorded ASIN; manufacturer-model references do not independently establish the current Canadian listing or seller."
+    "notes": "Owner reports B00W20PIHQ with title 2 PK, About 2 Pack, Number of Items 2 and Unit Count 1512 gram, plus a label of nine 84 g portions at 410 calories. Archived as text transcription in docs/qa/sos-two-pack/evidence.json; no screenshot pixels, current seller or delivered lot independently inspected."
   },
   "links": {
     "amazonCa": {
@@ -102,11 +108,11 @@
   "lastVerified": null,
   "research": {
     "checkedAt": "2026-10-29",
-    "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
+    "identityNotes": "Owner-transcribed Amazon.ca fields for B00W20PIHQ consistently identify a two-pack. The manufacturer reference label corroborates nine 84 g portions at 410 calories. Nominal mass arithmetic supports consistency, not a measured lot mass; no live listing or capture pixels were independently inspected.",
     "listingVerified": false,
     "confirmed": [
       {
-        "text": "S.O.S. describes a five-year ration and nine servings. Its sheet contains both the 3,600-kcal designation and 410 kcal per serving, which do not reconcile.",
+        "text": "The manufacturer reference label gives nine portions of 84 g and 410 calories per portion alongside the 3600 KCAL commercial designation. Rounded label arithmetic is not an independently measured energy total.",
         "sourceIds": [
           "sos-sheet"
         ]
@@ -116,28 +122,35 @@
         "sourceIds": [
           "sos-faq"
         ]
+      },
+      {
+        "text": "The owner reports the Canadian listing as 2 PK / 2 Pack, Number of Items 2 and Unit Count 1512 gram. These are transcribed listing fields, not an independent inspection or weighing of the delivered lot.",
+        "sourceIds": [
+          "sos-owner-listing"
+        ]
       }
     ],
     "unverifiedClaims": [
-      "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      "The current seller, delivered lot, actual manufacture/expiry dates and exact packet or lot energy are not independently verified."
     ],
     "safetyNotes": [
       "Read the delivered wheat, coconut and soy declarations and full ingredients; this ration is not documented as gluten-free.",
-      "A five-year design life is not a promise of five years remaining on an unknown lot. Inspect packaging and dates, and follow storage directions.",
+      "The manufacturer five-year design life runs from manufacture/packaging, not purchase. It is not a promise of five years remaining; inspect the delivered dates and seals and follow storage instructions.",
       "Keep potable water available; do not use the illustration as nutrition, ingredient or certification evidence."
     ],
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication.",
-      "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. Manufacturer data also conflicts: nine 410-kcal servings equal 3,690 rather than 3,600 kcal. Resolve the lot and nutrition label before enabling the CTA; 7,200 kcal is not established."
+      "Independent listing, delivered-label and safety review remains required before full editorial publication.",
+      "Exact lot energy, freshness, seller and delivered packaging integrity are not established; no exact calorie total or remaining shelf life is guaranteed."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B00W20PIHQ",
       "checkedAt": "2026-10-29",
-      "reason": "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. The 3600 Calorie trade designation is not a precise measurement: the manufacturer sheet also gives nine 410-kcal portions (3,690 by calculation). No 7,200-kcal lot is established. Match packet count and actual labels before enabling the CTA.",
+      "reason": "Owner-transcribed Canadian B00W20PIHQ fields consistently identify 2 PK / 2 Pack, Number of Items 2 and Unit Count 1512 gram. The reported nine 84 g portions at 410 calories match the manufacturer reference label. The 3600 Calorie trade designation and 3,690 rounded-serving arithmetic do not establish exact packet or lot energy. This permits the recorded link without independent live-listing, screenshot or delivered-lot verification; date, seal and allergen checks remain.",
       "sourceIds": [
+        "sos-owner-listing",
         "sos-sheet",
         "sos-faq",
         "kit-planning"
@@ -146,9 +159,9 @@
   },
   "editorial": {
     "purchaseChecks": [
-      "Confirm whether B00W20PIHQ contains one or two sealed packets; do not assume a two-pack.",
-      "Match the trade designation and actual nutrition label; a calculation from a reference sheet is not a measured energy total for the Canadian lot.",
-      "Check ingredients, allergens, dates and seal integrity; distinguish S.O.S. from Datrex."
+      "Recheck the selected two-pack under B00W20PIHQ and inspect both sealed packets on receipt.",
+      "Read the actual nutrition label and ingredients; the commercial name and rounded serving values are not an exact lot-energy measurement.",
+      "Check manufacture/expiry dates, storage history, allergens and seals; five years from manufacture is not five years guaranteed after purchase."
     ]
   }
 }
