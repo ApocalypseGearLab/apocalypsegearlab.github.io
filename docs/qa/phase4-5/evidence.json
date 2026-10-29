@@ -1,0 +1,136 @@
+{
+  "reviewedAt": "2026-10-29",
+  "baseCommit": "3d13b171558115a67413ddb6a046865913abe51a",
+  "asin": "B00TX5J74S",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00TX5J74S?tag=apocalypsegear-20",
+  "identity": {
+    "brand": "ReadyWise",
+    "model": "WGF01-184",
+    "upc": "851238005318",
+    "gtin": "00851238005318",
+    "bucketCount": 1,
+    "servings": 84,
+    "dietVariant": "gluten-free",
+    "excludedVariants": [
+      72,
+      120,
+      240
+    ]
+  },
+  "ownerAmazonEvidence": {
+    "method": "owner-transcription",
+    "scope": "The attached work order reports Canadian Amazon model/UPC/GTIN/ASIN, one 84-serving gluten-free bucket and four recipe images. Separate Amazon screenshot files were not attached; no independent live offer, seller or lot inspection is claimed.",
+    "ambiguousField": "Number of Packs: 84 is not interpreted as 84 pouches."
+  },
+  "labelEvidence": {
+    "method": "direct-visual-inspection",
+    "conversationImageInspected": true,
+    "manufacturerImageIndependentlyDownloadedAndInspected": true,
+    "url": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894",
+    "sha256": "6d00d75d5fb511ceee0f65a15571c73f0cf7cbb28565afb2d759690d998e67bb",
+    "bytes": 347338,
+    "scope": "Attached bucket-back image and the visually corresponding image linked by the manufacturer page were read directly; enlarged recipe panels and advisory text were inspected. The label itself gives 6/6/6/8 servings per pouch, not the full-bucket recipe totals.",
+    "allergens": {
+      "rice": "Soy",
+      "potatoEntree": "Milk",
+      "yogurtDessert": "Milk",
+      "sharedEquipment": [
+        "milk",
+        "soy",
+        "wheat",
+        "egg",
+        "tree nuts"
+      ]
+    },
+    "oxygenAbsorberWarning": true
+  },
+  "recipes": [
+    {
+      "name": "Teriyaki Rice",
+      "pouches": 4,
+      "servingsPerPouch": 6,
+      "servings": 24,
+      "servingGrams": 76,
+      "kcalPerServing": 270,
+      "kcalSubtotal": 6480,
+      "waterCupsPerPouch": 6
+    },
+    {
+      "name": "Hearty Tortilla Soup",
+      "pouches": 3,
+      "servingsPerPouch": 6,
+      "servings": 18,
+      "servingGrams": 44,
+      "kcalPerServing": 160,
+      "kcalSubtotal": 2880,
+      "waterCupsPerPouch": 6
+    },
+    {
+      "name": "Potatoes & Chicken Flavored Pot Pie",
+      "pouches": 3,
+      "servingsPerPouch": 6,
+      "servings": 18,
+      "servingGrams": 47,
+      "kcalPerServing": 190,
+      "kcalSubtotal": 3420,
+      "waterCupsPerPouch": 6
+    },
+    {
+      "name": "Creamy Yogurt Style Dessert",
+      "pouches": 3,
+      "servingsPerPouch": 8,
+      "servings": 24,
+      "servingGrams": 25,
+      "kcalPerServing": 110,
+      "kcalSubtotal": 2640,
+      "waterCupsPerPouch": 1
+    }
+  ],
+  "totals": {
+    "pouches": 13,
+    "servings": 84,
+    "declaredKcal": 15420,
+    "calculatedFromDeclaredRoundedValues": 15420,
+    "waterCupsReference": 63
+  },
+  "manufacturerEvidence": {
+    "page": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+    "contents": "4/3/3/3 pouches and 24/18/18/24 servings, one bucket; 15420 kcal; about 63 cups; up to 25 years under suitable storage.",
+    "instructions": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/PKGRW113.081624_ReadyWise_Cooking_Instructions.pdf?v=1727709879",
+    "preparation": "Two-page official instructions rendered and inspected. Reference entrées use heat; yogurt dessert is mixed with water. Use delivered pouch instructions rather than treating this reference as a guarantee for every lot.",
+    "modelMetadataLimitation": "Public Shopify product JSON could not be retrieved. No manufacturer barcode validation or universal formulation equivalence is claimed."
+  },
+  "identityCrossReference": {
+    "url": "https://www.zoro.com/wise-84-serving-breakfast-and-entree-grab-and-go-gluten-free-kit-wgf01-184/i/G410909013/",
+    "scope": "The retailer own catalogue corroborates WGF01-184 and UPC 851238005318 for its 84-serving gluten-free record. Not an Amazon.ca offer or proof of the delivered formulation; unrelated country/category/general warning fields are not transferred as manufacturer food claims."
+  },
+  "legacyReference": {
+    "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528",
+    "recipe": "Vanilla Pudding",
+    "kcalPerServing": 100,
+    "servingsPerPouch": 8,
+    "servingGrams": 22,
+    "calculationWithListedBucketCounts": 15180,
+    "differenceKcal": 240,
+    "scope": "The official page still links this distinct 100-kcal pudding sheet while its contents and bucket-back image show 110-kcal yogurt. No manufacturer-confirmed chronology of shipped formulations is established. Do not substitute pudding data for the inspected yogurt label."
+  },
+  "decision": "link-permitted",
+  "rationale": "Owner-reported Canadian identifiers and 84-serving gluten-free selection agree with the manufacturer family and recipe list. The actually inspected yogurt label reconciles 15420 kcal for that version; the remaining legacy link is documented separately. No unresolved critical lot-specific hazard is invented or cleared; delivered allergens, dates and seals remain checks before use.",
+  "remaining": [
+    "Canadian live offer, seller authenticity and delivered lot are not independently verified.",
+    "Calories are declared/rounded label values, not laboratory measurements or a guarantee for every formulation.",
+    "Current manufacturer page still has the separate legacy pudding nutrition link.",
+    "Advertised maximum storage life requires suitable unopened-pouch storage; check delivered dates and seals."
+  ],
+  "before": {
+    "active": 20,
+    "held": 6
+  },
+  "after": {
+    "active": 21,
+    "held": 5
+  },
+  "independentListingVerified": false,
+  "editorialPublicationApproved": false,
+  "amazonFinalApprovalConfirmed": false
+}

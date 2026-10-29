@@ -3,7 +3,7 @@ import {readFileSync,mkdirSync,writeFileSync} from 'node:fs';
 
 const decisions={
   'fnirsi-gc-01-geiger-counter':['B0BHH9X1WG',true],
-  'readywise-84-servings-emergency-food-bucket':['B00TX5J74S',false],
+  'readywise-84-servings-emergency-food-bucket':['B00TX5J74S',true],
   'sos-3600-calorie-emergency-food-rations':['B00W20PIHQ',true],
   'nanuk-904-first-aid-kit':['B0G3XYHL33',false],
   'ecoflow-river-2-pro':['B0BVLPGS79',false],
@@ -17,8 +17,8 @@ for(const width of [320,375,768,1024,1440,1920])test(`Phase 4.4 compact pending 
   test.setTimeout(60_000);
   await page.setViewportSize({width,height:900});await page.goto('/gear/');
   await expect(page.locator('article.card')).toHaveCount(26);
-  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(20);
-  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(6);
+  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(21);
+  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(5);
   await expect(page.locator('article.card [aria-disabled]')).toHaveCount(0);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   for(const [id,[asin,active]] of Object.entries(decisions)){
