@@ -1,0 +1,173 @@
+{
+  "name": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply",
+  "brand": "ReadyWise",
+  "modelNumber": "84 Serving Gluten Free Grab and Go Bucket",
+  "category": "food-storage",
+  "summary": "An 84-serving gluten-free bucket reference with rice, soup, potato entrée and dessert. Servings are not complete meals; the manufacturer’s calorie figures and Canadian assortment need reconciliation.",
+  "description": "Longer food storage requires a water and preparation plan as well as space on a shelf. The documented ReadyWise gluten-free bucket combines several dishes and dessert rather than 84 complete meals. Use the delivered pouch labels to plan actual energy intake and dietary suitability. The manufacturer page has inconsistent nutrition and dessert information, so this profile keeps the buying link pending rather than guessing which assortment the recorded Canadian ASIN contains.",
+  "specs": [
+    {
+      "label": "Documented assortment",
+      "value": "24 teriyaki-rice, 18 tortilla-soup, 18 potato/chicken-flavoured-pot-pie and 24 dessert servings; not 84 complete meals",
+      "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
+    },
+    {
+      "label": "Declared energy",
+      "value": "Manufacturer headline: 15,420 kcal per bucket; not a verified total for the recorded Canadian listing",
+      "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
+    },
+    {
+      "label": "Water planning",
+      "value": "Product-specific estimate: about 63 cups; use the instructions on each actual pouch",
+      "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
+    },
+    {
+      "label": "Storage claim",
+      "value": "Up to 25 years under suitable storage; cool, dry conditions away from moisture, oxygen and light; not a guarantee",
+      "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
+    },
+    {
+      "label": "Nutrition discrepancy",
+      "value": "Linked labels yield 15,180 kcal for the stated counts; dessert is called yogurt-style in the list but vanilla pudding in nutrition",
+      "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
+    }
+  ],
+  "pros": [
+    "Several dish types can complement a broader food reserve.",
+    "Sealed pouches allow the contents to be prepared separately."
+  ],
+  "cons": [
+    "Requires potable water and a practical preparation/heat plan.",
+    "Calorie total and dessert identity differ within manufacturer materials.",
+    "The exact gluten-free Canadian assortment, lot, expiry and current labels are unverified."
+  ],
+  "useCases": [
+    "Plan a household food reserve alongside water, cooking equipment and familiar shelf-stable foods.",
+    "Compare labelled portions and calories with household needs instead of counting servings as days or meals."
+  ],
+  "sources": [
+    {
+      "id": "readywise-bucket",
+      "title": "ReadyWise 84-serving gluten-free bucket, contents and storage guidance",
+      "url": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "rw-rice",
+      "title": "ReadyWise linked rice nutrition and ingredient label",
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFteriyakirice.png?v=1696354528",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "rw-soup",
+      "title": "ReadyWise linked tortilla-soup label",
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFheartytortillasoup.png?v=1696354528",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "rw-potato",
+      "title": "ReadyWise linked potato entrée label",
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFpotpie.png?v=1696354528",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "rw-dessert",
+      "title": "ReadyWise linked vanilla-pudding label",
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "kit-planning",
+      "title": "Public Safety Canada: emergency kit planning",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "datrex-dx2400f-emergency-food-ration",
+    "sos-3600-calorie-emergency-food-rations",
+    "reliance-aqua-tainer-7-gallon"
+  ],
+  "image": {
+    "src": "/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+    "alt": "Concept illustration of ReadyWise 84 Servings Gluten-Free Emergency Food Supply in a red tactical inventory frame",
+    "credit": "ApocalypseGearLab owner-approved concept illustration",
+    "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN; manufacturer-model references do not independently establish the current Canadian listing or seller."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00TX5J74S?tag=apocalypsegear-20",
+      "asin": "B00TX5J74S"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-28",
+    "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The product page names an 84-serving gluten-free bucket, estimates 63 cups of water and describes cool, dry storage.",
+        "sourceIds": [
+          "readywise-bucket"
+        ]
+      },
+      {
+        "text": "The displayed counts and labels give 24×270 + 18×160 + 18×190 + 24×100 = 15,180 kcal, not the headline 15,420. Rice declares soy; potato entrée and pudding declare milk.",
+        "sourceIds": [
+          "rw-rice",
+          "rw-soup",
+          "rw-potato",
+          "rw-dessert"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+    ],
+    "safetyNotes": [
+      "Gluten-free does not mean allergen-free. The linked rice label declares soy; potato and vanilla-pudding labels declare milk. Check every delivered pouch.",
+      "Do not infer ingredients or dietary suitability from the concept packaging; manufacturer page and label revisions do not fully agree.",
+      "Store unopened pouches as instructed, inspect seals and dates, and do not assume the advertised maximum shelf life applies after opening."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication.",
+      "Exact Canadian gluten-free assortment is unverified. Manufacturer content conflicts on dessert identity and total energy: 15,420 kcal advertised versus 15,180 from the linked labels and listed portions. Reconcile the delivered variant and allergen labels before enabling the CTA."
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B00TX5J74S",
+      "checkedAt": "2026-10-28",
+      "reason": "Exact Canadian gluten-free assortment is unverified. Manufacturer content conflicts on dessert identity and total energy: 15,420 kcal advertised versus 15,180 from the linked labels and listed portions. Reconcile the delivered variant and allergen labels before enabling the CTA.",
+      "sourceIds": [
+        "readywise-bucket",
+        "rw-rice",
+        "rw-soup",
+        "rw-potato",
+        "rw-dessert",
+        "kit-planning"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match B00TX5J74S to the 84-serving gluten-free variant, not another ReadyWise bucket.",
+      "Reconcile 15,420 advertised kcal with 15,180 calculated from the four linked labels and listed serving counts.",
+      "Confirm dessert, ingredients, milk/soy warnings, water requirements and dates on the actual lot."
+    ]
+  }
+}
