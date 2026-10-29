@@ -34,7 +34,7 @@ const site = new URL('https://apocalypsegearlab.github.io');
 test('Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits', () => {
   const decisions={
     'fnirsi-gc-01-geiger-counter':['B0BHH9X1WG',true],
-    'readywise-84-servings-emergency-food-bucket':['B00TX5J74S',false],
+    'readywise-84-servings-emergency-food-bucket':['B00TX5J74S',true],
     'sos-3600-calorie-emergency-food-rations':['B00W20PIHQ',true],
     'nanuk-904-first-aid-kit':['B0G3XYHL33',false],
     'ecoflow-river-2-pro':['B0BVLPGS79',false],
@@ -68,7 +68,9 @@ test('all 26 product identities and the 17 unaudited records are preserved again
   assert.equal(baseline.products.filter((p:any)=>p.audited).length,9);
   for(const p of baseline.products){
     const current=rawProducts.get(p.id);assert.ok(current,p.id);
-    for(const [key,value]of Object.entries(p.protected))assert.deepEqual(current[key]??null,value,`${p.id}: protected ${key}`);
+    // Phase 4.5 explicitly corrects only ReadyWise's full name and recorded model.
+    const readywiseIdentity:Record<string,string>={name:'ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket',modelNumber:'WGF01-184'};
+    for(const [key,value]of Object.entries(p.protected))assert.deepEqual(current[key]??null,p.id==='readywise-84-servings-emergency-food-bucket'?(readywiseIdentity[key]??value):value,`${p.id}: protected ${key}`);
     if(!p.audited)assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),p.sha256Canonical,p.id);
   }
 });
@@ -130,11 +132,52 @@ test('S.O.S. two-pack link permission retains rounded nutrition, dated shelf lif
   assert.match(data.specs.find(s=>s.label==='Energy inconsistency')!.value,/410.*Rounded/);
   assert.match(data.research!.safetyNotes.join(' '),/from manufacture\/packaging, not purchase/);
   assert.match(data.research!.safetyNotes.join(' '),/wheat, coconut and soy/);
-  // The latest follow-up baseline protects every other product, including Midland.
-  // Earlier preservation reports remain historical snapshots, not mutable baselines.
-  const baseline=JSON.parse(readFileSync('docs/qa/sos-two-pack/preservation.json','utf8'));
-  assert.equal(baseline.baseCommit,'11cfc3963529f2c51ad80a284b4658ecf090277e');
-  assert.equal(baseline.unchangedProducts.length,26,'25 other products and the internal template');
+});
+
+test('ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared kcal without changing other commercial decisions', () => {
+  const id='readywise-84-servings-emergency-food-bucket',data=productSchema.parse(rawProducts.get(id));
+  const evidence=JSON.parse(readFileSync('docs/qa/phase4-5/evidence.json','utf8'));
+  assert.equal(data.name,'ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket');
+  assert.equal(data.modelNumber,'WGF01-184');
+  assert.equal(evidence.identity.upc,'851238005318');
+  assert.equal(evidence.identity.gtin,`00${evidence.identity.upc}`);
+  const digits=[...evidence.identity.upc].map(Number);
+  assert.equal(digits.reduce((n,d,i)=>n+d*(i%2===0?3:1),0)%10,0,'UPC check digit validates syntax, not product authenticity');
+  assert.equal(evidence.labelEvidence.method,'direct-visual-inspection');
+  assert.equal(evidence.labelEvidence.conversationImageInspected,true);
+  assert.equal(evidence.labelEvidence.manufacturerImageIndependentlyDownloadedAndInspected,true);
+  assert.deepEqual(evidence.recipes.map((r:any)=>[r.pouches,r.servingsPerPouch,r.servings,r.kcalPerServing,r.kcalSubtotal]),[[4,6,24,270,6480],[3,6,18,160,2880],[3,6,18,190,3420],[3,8,24,110,2640]]);
+  assert.equal(24+18+18+24,84);
+  assert.equal(6480+2880+3420+2640,15420);
+  assert.equal(evidence.recipes.reduce((n:number,r:any)=>n+r.servings,0),84);
+  assert.equal(evidence.recipes.reduce((n:number,r:any)=>n+r.servings*r.kcalPerServing,0),15420);
+  assert.equal(evidence.recipes.reduce((n:number,r:any)=>n+r.pouches,0),13);
+  assert.equal(evidence.recipes.reduce((n:number,r:any)=>n+r.pouches*r.waterCupsPerPouch,0),63);
+  assert.equal(evidence.legacyReference.calculationWithListedBucketCounts,15180);
+  assert.equal(evidence.legacyReference.kcalPerServing,100);
+  assert.match(data.specs.find(s=>s.label==='Declared energy')!.value,/15,420.*rounded/);
+  assert.match(data.specs.find(s=>s.label==='Creamy Yogurt Style Dessert')!.value,/110 kcal/);
+  assert.ok(!data.specs.some(s=>/15,180/.test(s.value)),'Pudding totals cannot override yogurt-version specifications');
+  assert.match(data.research!.safetyNotes.join(' '),/soy.*milk/i);
+  assert.match(data.research!.safetyNotes.join(' '),/wheat, egg and tree nuts/);
+  assert.match(data.research!.safetyNotes.join(' '),/conditional manufacturer maximum/);
+  assert.equal(data.research!.affiliateReview!.decision,'link-permitted');
+  const product={id,data} as Product;
+  assert.equal(getMerchantLinks(product,true)[0]!.href,'https://www.amazon.ca/dp/B00TX5J74S?tag=apocalypsegear-20');
+  assert.equal(getMerchantLinks(product,false)[0]!.href,null);
+  assert.equal(data.research!.listingVerified,false);
+  assert.equal(data.research!.listingEvidence,undefined);
+  assert.equal(data.research!.publicationApproved,false);
+  assert.equal(data.research!.safetyStatus,'pending');
+  assert.equal(data.reviewStatus,'draft');
+  assert.equal(data.lastVerified,null);
+  assert.equal(productSchema.safeParse({...data,reviewStatus:'published'}).success,false);
+  assert.equal(productStructuredData(product,site),undefined);
+  // Current preservation covers every other product, including Midland and S.O.S.;
+  // previous reports remain immutable snapshots of their respective deliveries.
+  const baseline=JSON.parse(readFileSync('docs/qa/phase4-5/preservation.json','utf8'));
+  assert.equal(baseline.baseCommit,'3d13b171558115a67413ddb6a046865913abe51a');
+  assert.equal(baseline.unchangedProducts.length,26);
   for(const entry of baseline.unchangedProducts){
     const current=JSON.parse(readFileSync(entry.file,'utf8'));
     assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),entry.sha256Canonical,entry.file);
@@ -159,8 +202,8 @@ test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly
   assert.ok(gc.sources.some(s=>s.id==='gc01-ca-snapshot' && s.kind==='retailer'));
   assert.ok(!gc.specs.some(s=>/1,000|10,000|1000|10000/.test(s.value)), 'No uncertain numerical upper range is promoted');
   const rw=get('readywise-84-servings-emergency-food-bucket');
-  assert.equal(rw.research?.affiliateReview?.decision,'hold');
-  assert.match(rw.research!.affiliateReview!.reason,/15,420.*15,180/);
+  assert.equal(rw.research?.affiliateReview?.decision,'link-permitted');
+  assert.match(rw.research!.affiliateReview!.reason,/15,420.*separate 100-kcal pudding.*15,180/);
   assert.match(rw.research!.safetyNotes.join(' '),/soy.*milk/);
   const sos=get('sos-3600-calorie-emergency-food-rations');
   assert.equal(sos.research?.affiliateReview?.decision,'link-permitted');
@@ -180,8 +223,9 @@ test('Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly
 });
 
 test('remaining product holds cannot be bypassed by setting unrelated editorial approval flags', () => {
-  for(const id of ['readywise-84-servings-emergency-food-bucket','nanuk-904-first-aid-kit','ecoflow-river-2-pro']) {
+  for(const id of ['nanuk-904-first-aid-kit','ecoflow-river-2-pro','jackery-explorer-300','kidde-c3010-co-alarm','iniu-p62-20000mah-65w']) {
     const data=productSchema.parse(rawProducts.get(id));
+    assert.equal(data.research!.affiliateReview!.decision,'hold');
     data.research={...data.research!,listingVerified:true,safetyStatus:'cleared',publicationApproved:true,publicationBlockers:[]};
     assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,null);
     assert.equal(productSchema.safeParse({...data,reviewStatus:'published'}).success,false);

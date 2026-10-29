@@ -1,34 +1,54 @@
 {
-  "name": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply",
+  "name": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket",
   "brand": "ReadyWise",
-  "modelNumber": "84 Serving Gluten Free Grab and Go Bucket",
+  "modelNumber": "WGF01-184",
   "category": "food-storage",
-  "summary": "An 84-serving gluten-free bucket reference with rice, soup, potato entrée and dessert. Servings are not complete meals; the manufacturer’s calorie figures and Canadian assortment need reconciliation.",
-  "description": "Longer food storage requires a water and preparation plan as well as space on a shelf. The documented ReadyWise gluten-free bucket combines several dishes and dessert rather than 84 complete meals. Use the delivered pouch labels to plan actual energy intake and dietary suitability. The manufacturer page has inconsistent nutrition and dessert information, so this profile keeps the buying link pending rather than guessing which assortment the recorded Canadian ASIN contains.",
+  "summary": "One gluten-free bucket with 84 labelled servings across four recipes. ReadyWise declares 15,420 kcal, corroborated by the inspected yogurt-dessert label version; servings are not complete meals.",
+  "description": "The recorded WGF01-184 listing is for one 84-serving gluten-free bucket, with rice, tortilla soup, a potato entrée and yogurt-style dessert in separate pouches. The manufacturer contents list and inspected back label agree on 15,420 declared kcal when their serving counts are combined. These are rounded label values, not laboratory measurements or a promise that every lot has the same formulation. Plan potable water and preparation equipment, then check the labels, dates and seals of the delivered pouches.",
   "specs": [
     {
       "label": "Documented assortment",
-      "value": "Manufacturer reference: 24 rice, 18 soup, 18 potato entrée and 24 dessert servings; Canadian ASIN assortment unconfirmed, and portions are not complete meals",
+      "value": "One bucket, 13 pouches: 24 Teriyaki Rice, 18 Hearty Tortilla Soup, 18 Potatoes & Chicken Flavored Pot Pie and 24 Creamy Yogurt Style Dessert servings; 84 servings are not 84 complete meals",
       "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
     },
     {
       "label": "Declared energy",
-      "value": "Manufacturer marketing total: 15,420 kcal for its reference bucket; not an established nutritional total for B00TX5J74S",
+      "value": "15,420 kcal per reference bucket, declared by ReadyWise and corroborated using the inspected label values; rounded nutrition figures, not independently measured energy",
       "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
+    },
+    {
+      "label": "Teriyaki Rice",
+      "value": "6 servings per reference pouch; 270 kcal per 76 g labelled serving",
+      "source": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894"
+    },
+    {
+      "label": "Hearty Tortilla Soup",
+      "value": "6 servings per reference pouch; 160 kcal per 44 g labelled serving",
+      "source": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894"
+    },
+    {
+      "label": "Potatoes & Chicken Flavored Pot Pie",
+      "value": "6 servings per reference pouch; 190 kcal per 47 g labelled serving",
+      "source": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894"
+    },
+    {
+      "label": "Creamy Yogurt Style Dessert",
+      "value": "8 servings per reference pouch; 110 kcal per 25 g labelled serving",
+      "source": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894"
     },
     {
       "label": "Water planning",
-      "value": "Product-specific estimate: about 63 cups; use the instructions on each actual pouch",
+      "value": "About 63 cups for the reference bucket; use the instructions on the delivered pouches and plan drinking water separately",
       "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
+    },
+    {
+      "label": "Preparation",
+      "value": "Reference entrées require heating; the yogurt-style dessert mixes with water. Follow each delivered pouch for water quantity, temperature and preparation time",
+      "source": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/PKGRW113.081624_ReadyWise_Cooking_Instructions.pdf?v=1727709879"
     },
     {
       "label": "Storage claim",
-      "value": "Up to 25 years under suitable storage; cool, dry conditions away from moisture, oxygen and light; not a guarantee",
-      "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
-    },
-    {
-      "label": "Nutrition discrepancy",
-      "value": "Linked labels yield 15,180 kcal for the stated counts; dessert is called yogurt-style in the list but vanilla pudding in nutrition",
+      "value": "Up to 25 years under suitable unopened-pouch storage: cool, dry and protected from moisture, oxygen and light. Check dates and seals; no unconditional lifetime guarantee",
       "source": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1"
     }
   ],
@@ -38,8 +58,8 @@
   ],
   "cons": [
     "Requires potable water and a practical preparation/heat plan.",
-    "Calorie total and dessert identity differ within manufacturer materials.",
-    "The exact gluten-free Canadian assortment, lot, expiry and current labels are unverified."
+    "Serving values may be rounded and formulations can differ; 84 servings are not 84 complete meals.",
+    "Gluten-free does not mean allergen-free. Check every delivered pouch, dates, seals and storage instructions."
   ],
   "useCases": [
     "Plan a household food reserve alongside water, cooking equipment and familiar shelf-stable foods.",
@@ -72,7 +92,7 @@
     },
     {
       "id": "rw-dessert",
-      "title": "ReadyWise linked vanilla-pudding label",
+      "title": "Separate linked vanilla-pudding label — 100 kcal; not the inspected yogurt-dessert formulation",
       "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528",
       "kind": "manufacturer"
     },
@@ -81,6 +101,30 @@
       "title": "Public Safety Canada: emergency kit planning",
       "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
       "kind": "official-safety"
+    },
+    {
+      "id": "rw-bucket-label-yogurt",
+      "title": "ReadyWise bucket-back nutrition label — Creamy Yogurt Style Dessert at 110 kcal, visually inspected",
+      "url": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "rw-preparation",
+      "title": "ReadyWise preparation instructions — reference recipes, two pages visually inspected",
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/PKGRW113.081624_ReadyWise_Cooking_Instructions.pdf?v=1727709879",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "rw-owner-listing",
+      "title": "Amazon.ca 84-serving gluten-free bucket — Canadian identifiers and selection reported by the owner",
+      "url": "https://www.amazon.ca/dp/B00TX5J74S",
+      "kind": "retailer"
+    },
+    {
+      "id": "rw-model-upc",
+      "title": "Zoro own catalogue record — WGF01-184 / UPC 851238005318 identity cross-reference only",
+      "url": "https://www.zoro.com/wise-84-serving-breakfast-and-entree-grab-and-go-gluten-free-kit-wgf01-184/i/G410909013/",
+      "kind": "retailer"
     }
   ],
   "relatedProducts": [
@@ -96,7 +140,7 @@
   },
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-recorded ASIN; manufacturer-model references do not independently establish the current Canadian listing or seller."
+    "notes": "Owner-reported Amazon.ca B00TX5J74S: WGF01-184, UPC 851238005318, GTIN 00851238005318, one 84-serving gluten-free bucket with the four yogurt-version recipes. The attached label image was inspected; separate Amazon screenshots and current seller/offer were not independently inspected. Number of Packs 84 is not treated as a pouch count."
   },
   "links": {
     "amazonCa": {
@@ -115,59 +159,73 @@
   "lastVerified": null,
   "research": {
     "checkedAt": "2026-10-29",
-    "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
+    "identityNotes": "Manufacturer 84-serving gluten-free product family, contents and bucket-back label reviewed directly. Owner-reported Canadian listing identifiers WGF01-184 / UPC 851238005318 / GTIN 00851238005318 agree with an independent retailer model/UPC cross-reference; this is not live Amazon.ca verification. The inspected 110-kcal yogurt formulation is distinguished from the separate linked 100-kcal pudding label.",
     "listingVerified": false,
     "confirmed": [
       {
-        "text": "The product page names an 84-serving gluten-free bucket, estimates 63 cups of water and describes cool, dry storage.",
+        "text": "ReadyWise lists one gluten-free bucket with 4 rice, 3 soup, 3 potato-entrée and 3 yogurt-dessert pouches: 13 pouches and 84 servings, not 84 complete meals.",
         "sourceIds": [
           "readywise-bucket"
         ]
       },
       {
-        "text": "The displayed counts and labels give 24×270 + 18×160 + 18×190 + 24×100 = 15,180 kcal, not the headline 15,420. Rice declares soy; potato entrée and pudding declare milk.",
+        "text": "The inspected label gives 270/160/190/110 kcal per serving for rice/soup/potato entrée/yogurt dessert. Combined with 24/18/18/24 servings, the calculation is 6,480 + 2,880 + 3,420 + 2,640 = 15,420 declared kcal. This corroborates the manufacturer total for this label version, not an independent energy measurement.",
         "sourceIds": [
-          "rw-rice",
-          "rw-soup",
-          "rw-potato",
-          "rw-dessert"
+          "rw-bucket-label-yogurt",
+          "readywise-bucket"
+        ]
+      },
+      {
+        "text": "The separately linked vanilla-pudding sheet gives 100 kcal per serving. It is a different dessert reference and is not substituted for the inspected yogurt-style label at 110 kcal.",
+        "sourceIds": [
+          "rw-dessert",
+          "rw-bucket-label-yogurt"
+        ]
+      },
+      {
+        "text": "The owner reports Canadian ASIN B00TX5J74S, model WGF01-184, UPC 851238005318 and GTIN 00851238005318 for one 84-serving gluten-free bucket. The model/UPC pair is also present in the cited retailer catalogue; neither statement authenticates a current Amazon seller or delivered lot.",
+        "sourceIds": [
+          "rw-owner-listing",
+          "rw-model-upc"
         ]
       }
     ],
     "unverifiedClaims": [
-      "The actual Canadian bucket, pouch assortment, dessert, lot, dietary labels, dates and nutrition totals are unconfirmed; the source-label calculation is not a measured lot total."
+      "The current Canadian offer, seller, actual delivered formulation, dates and package integrity are not independently verified. Nutrition figures are manufacturer-declared and may be rounded; no laboratory test or identical formulation across all lots is claimed."
     ],
     "safetyNotes": [
-      "Gluten-free does not mean allergen-free. The linked rice label declares soy; potato and vanilla-pudding labels declare milk. Check every delivered pouch.",
-      "Do not infer ingredients or dietary suitability from the concept packaging; manufacturer page and label revisions do not fully agree.",
-      "Store unopened pouches as instructed, inspect seals and dates, and do not assume the advertised maximum shelf life applies after opening."
+      "Gluten-free does not mean allergen-free. The inspected rice label declares soy; the potato entrée and yogurt dessert declare milk. Check all delivered ingredients and allergen labels.",
+      "The inspected back label warns of shared equipment processing milk, soy, wheat, egg and tree nuts. Do not infer dietary suitability from the concept illustration or transfer generic ingredient claims between formulations.",
+      "Remove oxygen absorbers before preparation. Use potable water and follow delivered-pouch instructions, including heating where required.",
+      "Store unopened pouches as instructed; inspect dates and seals. Up to 25 years is a conditional manufacturer maximum, not a guarantee for every lot or after opening."
     ],
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication.",
-      "Exact Canadian gluten-free assortment is unverified. Manufacturer content conflicts on dessert identity and total energy: 15,420 kcal advertised versus 15,180 from the linked labels and listed portions. Reconcile the delivered variant and allergen labels before enabling the CTA."
+      "Independent live-listing, delivered-variant and safety review remains required before full editorial publication.",
+      "Delivered lot, dates and allergen labels remain checks before use. The old pudding link does not override the inspected yogurt formulation, and no laboratory nutrition or unconditional shelf-life guarantee is made."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B00TX5J74S",
       "checkedAt": "2026-10-29",
-      "reason": "The exact B00TX5J74S Canadian 84-serving gluten-free assortment and dessert are not confirmed. Manufacturer marketing says 15,420 kcal while the linked labels and listed counts calculate to 15,180; neither establishes the delivered lot. Match the actual package and allergen labels before enabling the CTA.",
+      "reason": "Owner-reported Canadian WGF01-184 / UPC 851238005318 / GTIN 00851238005318 identifies one 84-serving gluten-free bucket. Manufacturer contents and the actually inspected yogurt-dessert label agree: 24×270 + 18×160 + 18×190 + 24×110 = 15,420 declared kcal. The separate 100-kcal pudding link explains the former 15,180 calculation and is not mixed into this version. This permits the recorded link without claiming a live offer, seller authentication, laboratory testing or identical formulation in every lot; allergens, dates and storage limits remain disclosed.",
       "sourceIds": [
+        "rw-owner-listing",
+        "rw-model-upc",
         "readywise-bucket",
-        "rw-rice",
-        "rw-soup",
-        "rw-potato",
+        "rw-bucket-label-yogurt",
         "rw-dessert",
-        "kit-planning"
+        "rw-preparation"
       ]
     }
   },
   "editorial": {
     "purchaseChecks": [
-      "Match B00TX5J74S to the 84-serving gluten-free variant, not another ReadyWise bucket.",
-      "Reconcile 15,420 advertised kcal with 15,180 calculated from the four linked labels and listed serving counts.",
-      "Confirm dessert, ingredients, milk/soy warnings, water requirements and dates on the actual lot."
+      "Recheck WGF01-184 / B00TX5J74S as one 84-serving gluten-free bucket, not a 72-, 120- or 240-serving variant.",
+      "Match the four delivered recipes, including Creamy Yogurt Style Dessert, and read each nutrition/allergen label; do not replace them with a pudding sheet or interpret 84 servings as 84 pouches or complete meals.",
+      "Plan about 63 cups of preparation water for the reference assortment, plus drinking water, and follow the actual pouch cooking instructions.",
+      "Check dates, seals and cool/dry storage conditions; up to 25 years is conditional and does not apply automatically after opening."
     ]
   }
 }

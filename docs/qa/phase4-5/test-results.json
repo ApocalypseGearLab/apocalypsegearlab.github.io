@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-29",
+  "scope": "Local production build and localhost browser validation; no live Amazon request or physical food testing",
+  "node": "22.23.4",
+  "npm": "10.9.9",
+  "commands": [
+    {
+      "command": "npm run check",
+      "result": "passed"
+    },
+    {
+      "command": "npm test",
+      "result": "passed"
+    },
+    {
+      "command": "npm run test:images",
+      "result": "passed"
+    },
+    {
+      "command": "npm run test:products",
+      "result": "passed"
+    },
+    {
+      "command": "npm run build",
+      "result": "passed"
+    },
+    {
+      "command": "npm run test:site",
+      "result": "passed"
+    },
+    {
+      "command": "npm run test:browser",
+      "result": "passed"
+    }
+  ],
+  "astro": {
+    "files": 63,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 46,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 64,
+    "failed": 0,
+    "isolatedSimulatedAmazonNewTabs": 63,
+    "liveAmazonTraffic": false,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "automatedAccessibility": "axe WCAG checks in existing browser suite; no claim of full manual WCAG certification"
+  },
+  "production": {
+    "htmlPages": 33,
+    "internalReferences": 1038,
+    "sitemapUrls": 5,
+    "informationalProducts": 26,
+    "activeAffiliateLinks": 21,
+    "heldAffiliateLinks": 5,
+    "finalAmazonApprovalConfirmed": false
+  },
+  "preservation": {
+    "otherProductJson": 25,
+    "internalTemplate": 1,
+    "protectedMediaConfigurationPolicyFiles": 80,
+    "productMediaRecompressed": false
+  },
+  "captures": [
+    {
+      "path": "docs/qa/phase4-5/card-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 847,
+      "bytes": 132214,
+      "source": ".tools/qa/phase4-4/cards/readywise-84-servings-emergency-food-bucket-375.png"
+    },
+    {
+      "path": "docs/qa/phase4-5/purchase-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 123,
+      "bytes": 3962,
+      "source": ".tools/qa/phase4-5/purchase-375.png"
+    },
+    {
+      "path": "docs/qa/phase4-5/card-1440.webp",
+      "viewportWidth": 1440,
+      "width": 270,
+      "height": 897,
+      "bytes": 101726,
+      "source": ".tools/qa/phase4-4/cards/readywise-84-servings-emergency-food-bucket-1440.png"
+    },
+    {
+      "path": "docs/qa/phase4-5/purchase-1440.webp",
+      "viewportWidth": 1440,
+      "width": 1152,
+      "height": 115,
+      "bytes": 4722,
+      "source": ".tools/qa/phase4-5/purchase-1440.png"
+    }
+  ]
+}
