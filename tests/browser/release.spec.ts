@@ -25,7 +25,7 @@ test('production restores the authorized bunker while enforcing artwork permissi
   for (const route of ['/review/gear/', '/review/blackout/']) expect((await request.get(route)).status()).toBe(404);
   await page.goto('/gear/?view=release');
   await expect(page.locator('article.card')).toHaveCount(26);
-  await expect(page.locator('a[data-affiliate-click]')).toHaveCount(17);
+  await expect(page.locator('a[data-affiliate-click]')).toHaveCount(18);
   for (const slug of candidates) {
     await page.goto(`/gear/${slug}/`);
     await expect(page.getByText(merchantFor(slug).href ? 'Informational profile.' : 'Informational profile — verification in progress.',{exact:true})).toBeVisible();
@@ -56,7 +56,7 @@ test('BLACKOUT candidate previews use reviewed illustrations and exclude commerc
     await expect(page.locator('.neutral-media')).toHaveCount(0);
     await expect(page.locator('article.card img')).toHaveCount(6);
     for (const slug of held) await expect(page.locator(`a[href*="/gear/${slug}/"]`)).toHaveCount(0);
-    for (const slug of candidates) await expect(page.locator(`a[href="/review/gear/${slug}/"]`)).toHaveCount(1);
+    for (const slug of candidates) await expect(page.locator(`article.card :is(h2, h3) a[href="/review/gear/${slug}/"]`)).toHaveCount(1);
     for (const width of widths) {
       await page.setViewportSize({ width, height: 900 });
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
@@ -79,7 +79,7 @@ for (const slug of candidates) test(`${slug} release presentation stays private 
   const active=Boolean(merchantFor(slug).href);
   await expect(page.locator('[data-product-purchase]').getByRole('link', { disabled: true })).toHaveCount(active?0:1);
   await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveCount(active?1:0);
-  if(!active) await expect(page.getByText('Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.')).toBeVisible();
+  if(!active) await expect(page.getByText('Amazon.ca links are unavailable until the documented product checks are resolved. No price, availability or seller is confirmed.')).toBeVisible();
   await expect(page.locator('.product-artwork--detail img')).toHaveCount(1);
   await expect(page.getByText('Not physically tested by us', { exact: true })).toBeVisible();
   await expect(page.getByRole('region', { name: `${data.name} specifications`, exact: true })).toBeVisible();

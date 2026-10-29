@@ -87,7 +87,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "The Canadian page representation retrieved on 2026-10-26 contains selected-ASIN metadata B0D2HX1ZS9 rather than the stored B0BVLPGS79. The exact selected Canadian model remains unresolved."
+    "notes": "Public Canadian representation rechecked: requested B0BVLPGS79, selected B0D2HX1ZS9, model EFR620 and manufacturer part EFR617. No confirmed replacement ASIN is assigned."
   },
   "links": {
     "amazonCa": {
@@ -104,7 +104,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
     "listingVerified": false,
     "confirmed": [
@@ -117,7 +117,8 @@
     ],
     "unverifiedClaims": [
       "No claim that X-Boost supplies 1600 W of normal continuous AC power.",
-      "A matching RIVER 2 Pro title alone does not prove that the stored ASIN selects the intended Canadian variant."
+      "A matching RIVER 2 Pro title alone does not prove that the stored ASIN selects the intended Canadian variant.",
+      "The retrieved representation identifies EFR620 and EFR617 in separate model/part fields. A matching RIVER 2 Pro title alone does not resolve those identifiers or certify the delivered unit."
     ],
     "safetyNotes": [
       "The Health Canada recall reviewed concerns DELTA Max 2000 / EFD310, not RIVER 2 Pro. It does not establish recall status for every EcoFlow product.",
@@ -133,8 +134,8 @@
     "affiliateReview": {
       "decision": "hold",
       "asin": "B0BVLPGS79",
-      "checkedAt": "2026-10-26",
-      "reason": "The retrieved page for B0BVLPGS79 contains selected-ASIN B0D2HX1ZS9. Resolve this concrete listing identity conflict before enabling the recorded link.",
+      "checkedAt": "2026-10-29",
+      "reason": "The requested B0BVLPGS79 public representation still selects B0D2HX1ZS9 and displays model EFR620 but manufacturer part EFR617. The Canadian electrical variant and exact ASIN configuration are unresolved. No ASIN substitution is authorised by this evidence.",
       "sourceIds": [
         "ecoflow-ca"
       ]

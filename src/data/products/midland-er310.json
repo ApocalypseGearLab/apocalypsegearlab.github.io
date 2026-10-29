@@ -39,7 +39,7 @@
   "cons": [
     "Canadian Weatheradio is no longer operating.",
     "Hand-crank and solar charging are not substitutes for routine USB recharging.",
-    "The support guide contains conflicting battery-capacity figures; the supplied battery needs checking."
+    "The documented battery capacities differ and are not assigned to the supplied radio; no runtime or delivered capacity is guaranteed."
   ],
   "useCases": [
     "Listen to available local AM/FM outage updates.",
@@ -69,6 +69,12 @@
       "title": "Health Canada recalls and safety alerts open dataset",
       "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
       "kind": "official-recall"
+    },
+    {
+      "id": "midland-batt26l",
+      "title": "Midland BATT26L replacement battery: second-generation ER310 compatibility",
+      "url": "https://midlandusa.com/products/batt26l-e-ready-rechargeable-battery",
+      "kind": "manufacturer"
     }
   ],
   "relatedProducts": [
@@ -95,7 +101,7 @@
   "reviewStatus": "draft",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-24",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
     "listingVerified": false,
     "confirmed": [
@@ -110,6 +116,12 @@
         "sourceIds": [
           "midland-er310"
         ]
+      },
+      {
+        "text": "Midland documents BATT26L as a 2600 mAh replacement for second-generation ER310. That is not evidence that the conflicting guide values describe a verified shipment change.",
+        "sourceIds": [
+          "midland-batt26l"
+        ]
       }
     ],
     "unverifiedClaims": [
@@ -117,22 +129,23 @@
     ],
     "safetyNotes": [
       "Do not promise Canadian weather-alert coverage. Reception of any available US NOAA signal is location-dependent and has not been tested.",
-      "The current guide mentions both 3500 mAh and 2600 mAh; neither is assigned to this ASIN here."
+      "Manufacturer materials conflict on capacity, including within the current guide. BATT26L is documented for second-generation ER310, but this does not establish a 2600/3500 revision history or the battery shipped under this ASIN. Use only the specified Midland pack."
     ],
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
       "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
-      "Confirm the battery revision and remove any Canadian Weatheradio sales claim from the listing-based recommendation."
+      "Match the ER310 and supplied pack to the actual Canadian listing. No capacity or runtime is promised, and Canadian Weatheradio service must not be claimed."
     ],
     "affiliateReview": {
       "decision": "hold",
       "asin": "B015QIC1PW",
-      "checkedAt": "2026-10-26",
-      "reason": "The manufacturer guide contains conflicting 2600 / 3500 mAh rechargeable-battery figures. Match the supplied battery revision and instructions before enabling this link.",
+      "checkedAt": "2026-10-29",
+      "reason": "The offered B015QIC1PW Canadian ER310 model and package are not independently established. No battery capacity or runtime is guaranteed; the optional capacity conflict alone is not treated as a reason to reject an otherwise confirmed ER310. Obtain the selected listing/model and supplied pack identity.",
       "sourceIds": [
         "midland-er310",
-        "midland-er310-faq"
+        "midland-er310-faq",
+        "midland-batt26l"
       ]
     }
   },

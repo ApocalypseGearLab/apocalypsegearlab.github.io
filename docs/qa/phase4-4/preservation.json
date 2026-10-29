@@ -1,0 +1,1521 @@
+{
+  "baseCommit": "e3f65a79895fc66215d42bdd1cbd29372a648c7d",
+  "products": [
+    {
+      "id": "3m-6800-full-facepiece-respirator",
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "audited": false,
+      "sha256Canonical": "ae3e0236c34b7a07a3843d0deacaac81e998efeef2770783c951a41504f3ff9e",
+      "protected": {
+        "name": "3M 6800 Full Facepiece Reusable Respirator",
+        "brand": "3M",
+        "modelNumber": "6800",
+        "category": "respiratory-protection",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B00MA4K4C8?tag=apocalypsegear-20",
+            "asin": "B00MA4K4C8"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+          "alt": "Concept illustration of 3M 6800 Full Facepiece Reusable Respirator, without filters or cartridges, in a green tactical inventory frame",
+          "credit": "ApocalypseGearLab owner-approved concept illustration",
+          "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "3m-aura-9205-n95-respirator",
+          "mechanix-m-pact-work-gloves",
+          "fnirsi-gc-01-geiger-counter"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Reusable construction with documented replacement parts and maintenance instructions.",
+          "A broad clear lens and adjustable harness are documented model features."
+        ],
+        "useCases": [
+          "Evaluate a complete respiratory-protection assembly with a competent occupational-safety professional.",
+          "Plan inspection, cleaning, storage and cartridge-change procedures for a known workplace hazard."
+        ]
+      }
+    },
+    {
+      "id": "3m-aura-9205-n95-respirator",
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "audited": false,
+      "sha256Canonical": "fb33a18a9a2f5efc9fd103ca4f19693119b3c7457e8f82b0e796f36b30555d50",
+      "protected": {
+        "name": "3M Aura 9205+ N95 particulate respirator",
+        "brand": "3M",
+        "modelNumber": "9205+",
+        "category": "respiratory-protection",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B09FM2P1KF?tag=apocalypsegear-20",
+            "asin": "B09FM2P1KF"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+          "alt": "Concept illustration of 3M Aura 9205+ N95 particulate respirator in a tactical green inventory frame",
+          "credit": "ApocalypseGearLab owner-created concept illustration",
+          "license": "Owner-authorized site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "3m-gogglegear-500-safety-goggles",
+          "511-tactical-rush72-2-backpack",
+          "3m-6800-full-facepiece-respirator"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Flat-fold form is convenient to store in its original packaging.",
+          "The manufacturer provides model-specific instructions and Canadian technical documentation."
+        ],
+        "useCases": [
+          "Include appropriate particulate protection in a workplace plan selected through a hazard assessment.",
+          "Keep genuine, undamaged packaged respirators for tasks within the manufacturer limits."
+        ]
+      }
+    },
+    {
+      "id": "3m-gogglegear-500-safety-goggles",
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "audited": false,
+      "sha256Canonical": "908908efd973ff2525c1830727225e90783254e865a1f81437ebbcb8643b75c3",
+      "protected": {
+        "name": "3M GoggleGear 500 protective goggles",
+        "brand": "3M",
+        "modelNumber": "GG501SGAF — listing variant unverified",
+        "category": "protective-eyewear",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B016L26QS0?tag=apocalypsegear-20",
+            "asin": "B016L26QS0"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+          "alt": "Concept illustration of 3M GoggleGear 500 protective goggles in a tactical green inventory frame",
+          "credit": "ApocalypseGearLab owner-created concept illustration",
+          "license": "Owner-authorized site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "3m-aura-9205-n95-respirator",
+          "mechanix-m-pact-work-gloves"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Adjustable fit and replaceable components support cleaning and maintenance.",
+          "Low-profile design can be assessed alongside other protective equipment."
+        ],
+        "useCases": [
+          "Select eye protection for a defined workshop hazard with appropriate training.",
+          "Assess compatibility with other PPE before using it for a task."
+        ]
+      }
+    },
+    {
+      "id": "511-tactical-rush72-2-backpack",
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "audited": false,
+      "sha256Canonical": "d5600500dd766ed00761b06ac6a0883bcb8b2528c20c6e198fa2585b29210c54",
+      "protected": {
+        "name": "5.11 Tactical RUSH72 2.0 55 L backpack",
+        "brand": "5.11 Tactical",
+        "modelNumber": "RUSH72 2.0 / 56565",
+        "category": "tactical-backpacks",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0D9R239MT?tag=apocalypsegear-20",
+            "asin": "B0D9R239MT"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+          "alt": "Concept illustration of 5.11 Tactical RUSH72 2.0 55 L backpack in a tactical green inventory frame",
+          "credit": "ApocalypseGearLab owner-created concept illustration",
+          "license": "Owner-authorized site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "garmin-gpsmap-67i-satellite-gps",
+          "marmot-precip-rain-jacket",
+          "reliance-aqua-tainer-7-gallon"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Multiple compartments support an organized grab-and-go inventory.",
+          "External webbing provides attachment options for compatible pouches."
+        ],
+        "useCases": [
+          "Build and periodically check a household evacuation bag.",
+          "Carry a deliberately limited load on a planned outing after checking fit."
+        ]
+      }
+    },
+    {
+      "id": "datrex-dx2400f-emergency-food-ration",
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "audited": false,
+      "sha256Canonical": "69651ba58bf72b4c13de60c83f014f8f268bdb4953f2d0982dbf80e2b7d16800",
+      "protected": {
+        "name": "Datrex DX2400F Emergency Food Ration — 2400 Calories",
+        "brand": "Datrex",
+        "modelNumber": "DX2400F",
+        "category": "food-rations",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B08T57RVBY?tag=apocalypsegear-20",
+            "asin": "B08T57RVBY"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+          "alt": "Concept illustration of Datrex DX2400F Emergency Food Ration — 2400 Calories in a red tactical inventory frame",
+          "credit": "ApocalypseGearLab owner-approved concept illustration",
+          "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "sos-3600-calorie-emergency-food-rations",
+          "readywise-84-servings-emergency-food-bucket",
+          "511-tactical-rush72-2-backpack"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "No heating step is required for the documented ration.",
+          "Individual inner wraps make the twelve-bar format easier to portion."
+        ],
+        "useCases": [
+          "Keep a dated compact food reserve in an evacuation kit together with potable water.",
+          "Rotate an emergency ration reserve after inspecting seals and storage conditions."
+        ]
+      }
+    },
+    {
+      "id": "ecoflow-river-2-pro",
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "audited": true,
+      "sha256Canonical": "a8fdac592ef67ba519ce688679fb1800d889127096229e676634c5175a84bb5a",
+      "protected": {
+        "name": "EcoFlow RIVER 2 Pro",
+        "brand": "EcoFlow",
+        "modelNumber": null,
+        "category": "power-stations",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+            "asin": "B0BVLPGS79"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "jackery-explorer-1000-v2",
+          "jackery-explorer-300"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "USB-C supports both charging directions.",
+          "A separate solar input supports a later charging plan."
+        ],
+        "useCases": [
+          "Budget energy for a compact collection of communications and lighting devices.",
+          "Compare USB-C charging needs against a larger AC-based setup."
+        ]
+      }
+    },
+    {
+      "id": "fenix-cl26r-pro",
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "audited": false,
+      "sha256Canonical": "dffc85253e48975a36a38a61b7404e4133ebf3bb483cd69642bc06b317b797e8",
+      "protected": {
+        "name": "Fenix CL26R Pro rechargeable lantern",
+        "brand": "Fenix",
+        "modelNumber": "CL26R PRO",
+        "category": "lighting",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0CGKWX5YT?tag=apocalypsegear-20",
+            "asin": "B0CGKWX5YT"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "midland-er310",
+          "jackery-explorer-300",
+          "511-tactical-rush72-2-backpack"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Magnetic mounting and a hanging hook support hands-free placement.",
+          "Separate downward and area lighting provide useful placement choices."
+        ],
+        "useCases": [
+          "Plan rechargeable area lighting for a shared room.",
+          "Use directed light for a tabletop task without lighting the entire room."
+        ]
+      }
+    },
+    {
+      "id": "fenix-hm50r-v2-headlamp",
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "audited": false,
+      "sha256Canonical": "93d49088d2381bacf9dc8710d95434bda0eaa9358c37d93236f5a69ab8bb6a8c",
+      "protected": {
+        "name": "Fenix HM50R V2.0 rechargeable headlamp",
+        "brand": "Fenix",
+        "modelNumber": "HM50R V2.0",
+        "category": "lighting",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0H6R34CBL?tag=apocalypsegear-20",
+            "asin": "B0H6R34CBL"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "fenix-cl26r-pro",
+          "jackery-explorer-300",
+          "garmin-gpsmap-67i-satellite-gps"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Keeps both hands available for low-light tasks.",
+          "A detachable body can serve as a small handheld light."
+        ],
+        "useCases": [
+          "Read a household emergency checklist while keeping hands available.",
+          "Inspect supplies in a dark storage area; carry independent backup lighting."
+        ]
+      }
+    },
+    {
+      "id": "fnirsi-gc-01-geiger-counter",
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "audited": true,
+      "sha256Canonical": "91afe84759c3d0a32f7180b25541450bc62352f8277d416960826b57182b3cae",
+      "protected": {
+        "name": "FNIRSI GC-01 Geiger Counter",
+        "brand": "FNIRSI",
+        "modelNumber": "GC-01",
+        "category": "radiation-detection",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0BHH9X1WG?tag=apocalypsegear-20",
+            "asin": "B0BHH9X1WG"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+          "alt": "Concept illustration of FNIRSI GC-01 Geiger Counter in a red tactical inventory frame",
+          "credit": "ApocalypseGearLab owner-approved concept illustration",
+          "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "3m-6800-full-facepiece-respirator",
+          "reliance-aqua-tainer-7-gallon",
+          "garmin-gpsmap-67i-satellite-gps"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Portable format for learning about instrument readings within a supervised, non-hazardous setting.",
+          "Separate rate and accumulated-dose displays are described in the model documentation."
+        ],
+        "useCases": [
+          "Study radiation terminology and the distinction between counts, dose rate and cumulative dose.",
+          "Discuss appropriate monitoring equipment with a radiation-protection professional before relying on a meter."
+        ]
+      }
+    },
+    {
+      "id": "garmin-gpsmap-67i-satellite-gps",
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "audited": false,
+      "sha256Canonical": "5de4eb9c16e2d2cb3820b6ae6bd8a4ca9876bd643fb449fab0a3908f4d097843",
+      "protected": {
+        "name": "Garmin GPSMAP 67i satellite communicator",
+        "brand": "Garmin",
+        "modelNumber": "GPSMAP 67i",
+        "category": "satellite-navigation",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0C3WQPQPL?tag=apocalypsegear-20",
+            "asin": "B0C3WQPQPL"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+          "alt": "Concept illustration of Garmin GPSMAP 67i satellite communicator in a tactical green inventory frame",
+          "credit": "ApocalypseGearLab owner-created concept illustration",
+          "license": "Owner-authorized site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "511-tactical-rush72-2-backpack",
+          "fenix-hm50r-v2-headlamp",
+          "merrell-moab-3-mid-waterproof-boots"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Physical controls support use without relying solely on a phone touchscreen.",
+          "Navigation and subscription-based messaging can be planned within one device workflow."
+        ],
+        "useCases": [
+          "Carry a planned route with independent backup navigation.",
+          "Arrange remote check-ins using an activated and tested inReach plan."
+        ]
+      }
+    },
+    {
+      "id": "iniu-p62-20000mah-65w",
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "audited": true,
+      "sha256Canonical": "9cdf80b30f4e40b7aa37eb96d60068a13c572ba79ef159bebe90c811a9651363",
+      "protected": {
+        "name": "INIU P62 20000 mAh 65 W power bank",
+        "brand": "INIU",
+        "modelNumber": "P62-E1",
+        "category": "battery-banks",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+            "asin": "B0DB888L9F"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "jackery-explorer-300",
+          "midland-er310"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "USB-C input and output support a compact device-charging kit.",
+          "A digital indicator makes the reported charge level visible."
+        ],
+        "useCases": [
+          "Evaluate compatible phone and laptop charging profiles after safety review.",
+          "Plan a compact communications charging kit with separately checked cables."
+        ]
+      }
+    },
+    {
+      "id": "jackery-explorer-1000-v2",
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "audited": false,
+      "sha256Canonical": "40815930374b45578e33fa19ba86f4dfc262764307fbaad5eabaf498ecdfaa79",
+      "protected": {
+        "name": "Jackery Explorer 1000 v2",
+        "brand": "Jackery",
+        "modelNumber": "JE-1000D",
+        "category": "power-stations",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20",
+            "asin": "B0D7PPG25F"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "ecoflow-river-2-pro",
+          "jackery-solarsaga-100w-air",
+          "fenix-cl26r-pro"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Three AC outlets share a 1500 W budget.",
+          "Wall, car and compatible solar charging provide different replenishment options."
+        ],
+        "useCases": [
+          "Prepare a written charging schedule for phones, radios and task lighting.",
+          "Evaluate individually verified appliance loads within the shared AC limit."
+        ]
+      }
+    },
+    {
+      "id": "jackery-explorer-300",
+      "file": "src/data/products/jackery-explorer-300.json",
+      "audited": true,
+      "sha256Canonical": "8fb75e174cb2569359b7c63e8bf34e6e3d4a43dbb4f5891e2e9e4a110df7a89a",
+      "protected": {
+        "name": "Jackery Explorer 300",
+        "brand": "Jackery",
+        "modelNumber": "Explorer 300",
+        "category": "power-stations",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+            "asin": "B082TMBYR6"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "ecoflow-river-2-pro",
+          "iniu-p62-20000mah-65w"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "USB-C can charge the station and supported devices.",
+          "Two AC outlets allow a small shared load."
+        ],
+        "useCases": [
+          "Compare a small phone, radio and light charging kit.",
+          "Check a legacy unit label against its own manual before designing a load plan."
+        ]
+      }
+    },
+    {
+      "id": "jackery-solarsaga-100w-air",
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "audited": false,
+      "sha256Canonical": "d701bc868e170cd6bdfcdaaf5901523060a100a5d7bfb9724839f98fbab500cf",
+      "protected": {
+        "name": "Jackery SolarSaga 100 W Air",
+        "brand": "Jackery",
+        "modelNumber": "JS-100H",
+        "category": "solar",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0FX8P4JST?tag=apocalypsegear-20",
+            "asin": "B0FX8P4JST"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "jackery-explorer-1000-v2"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Folding construction supports storage between outages.",
+          "Manufacturer documentation explicitly pairs this panel family with Explorer 1000 v2."
+        ],
+        "useCases": [
+          "Plan daytime replenishment of an Explorer 1000 v2 using the prescribed cable.",
+          "Compare solar placement space against the household outage plan."
+        ]
+      }
+    },
+    {
+      "id": "kidde-c3010-co-alarm",
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "audited": true,
+      "sha256Canonical": "cec75da9064801c56a5178d9df88c0c6596b088708286b740024c920667c373c",
+      "protected": {
+        "name": "Kidde C3010 carbon monoxide alarm",
+        "brand": "Kidde",
+        "modelNumber": "C3010",
+        "category": "home-outage-planning",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+            "asin": "B00FHW7PBS"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Sealed battery operation avoids dependence on mains power.",
+          "A test/reset control is documented for the C3010 family."
+        ],
+        "useCases": [
+          "Compare battery-powered CO alarm designs for an outage checklist. Any Canadian installation requires a correctly certified model, its actual label and Canadian instructions."
+        ]
+      }
+    },
+    {
+      "id": "leatherman-wave-plus-multitool",
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "audited": false,
+      "sha256Canonical": "81ddf58fed82dcbc25d0e91fcbdf7d35225d3bbced06a108e8710b78831a7fc0",
+      "protected": {
+        "name": "Leatherman Wave+ multi-tool",
+        "brand": "Leatherman",
+        "modelNumber": "Wave Plus",
+        "category": "tools",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B079MJBP21?tag=apocalypsegear-20",
+            "asin": "B079MJBP21"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "fenix-hm50r-v2-headlamp",
+          "nanuk-904-first-aid-kit",
+          "mechanix-m-pact-work-gloves"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Several small repair functions share one carrying format.",
+          "Replaceable cutter inserts allow a worn component to be serviced."
+        ],
+        "useCases": [
+          "Adjust a compatible fastener on non-powered equipment during kit maintenance.",
+          "Prepare packaging or cord with the correct implement, stable footing and safe hand position."
+        ]
+      }
+    },
+    {
+      "id": "marmot-precip-rain-jacket",
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "audited": false,
+      "sha256Canonical": "40a161cb468bf97233e328c7bf1a64d698fa71abd1dc4624573e4a39e46c66d5",
+      "protected": {
+        "name": "Marmot PreCip rain jacket",
+        "brand": "Marmot",
+        "modelNumber": null,
+        "category": "rainwear",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0CMS33YXX?tag=apocalypsegear-20",
+            "asin": "B0CMS33YXX"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+          "alt": "Concept illustration of Marmot PreCip rain jacket in a tactical green inventory frame",
+          "credit": "ApocalypseGearLab owner-created concept illustration",
+          "license": "Owner-authorized site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "merrell-moab-3-mid-waterproof-boots",
+          "511-tactical-rush72-2-backpack",
+          "sol-emergency-bivvy"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "A dedicated rain layer can be kept accessible in an evacuation load.",
+          "The manufacturer documents construction details for the Eco reference."
+        ],
+        "useCases": [
+          "Pack a weather layer for an ordinary outdoor route.",
+          "Compare garment features and layering fit before choosing a rain shell."
+        ]
+      }
+    },
+    {
+      "id": "mechanix-m-pact-work-gloves",
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "audited": false,
+      "sha256Canonical": "0d558ddb64dc1a558c8780914fcd207fb4452f585ff7e4857ee81639da0b11d4",
+      "protected": {
+        "name": "Mechanix Wear M-Pact work gloves",
+        "brand": "Mechanix Wear",
+        "modelNumber": "M-Pact — Black/Grey",
+        "category": "work-gloves",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B00939MRAA?tag=apocalypsegear-20",
+            "asin": "B00939MRAA"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+          "alt": "Concept illustration of Mechanix Wear M-Pact work gloves in a tactical green inventory frame",
+          "credit": "ApocalypseGearLab owner-created concept illustration",
+          "license": "Owner-authorized site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "3m-gogglegear-500-safety-goggles",
+          "leatherman-wave-plus-multitool"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Protective panels can be useful for appropriately selected general work.",
+          "A fitted glove can retain more tool-handling control than an oversized glove."
+        ],
+        "useCases": [
+          "General maintenance tasks after selecting suitable hand protection.",
+          "Handling routine kit organization and repair tools within the glove limits."
+        ]
+      }
+    },
+    {
+      "id": "merrell-moab-3-mid-waterproof-boots",
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "audited": false,
+      "sha256Canonical": "4752ba53301c7354005cb174ba83b568c3d12003d8fa1ab3e10f05a39341fb5d",
+      "protected": {
+        "name": "Merrell Moab 3 Mid Waterproof hiking boots",
+        "brand": "Merrell",
+        "modelNumber": "Moab 3 Mid Waterproof — men",
+        "category": "hiking-footwear",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0987Z7CKY?tag=apocalypsegear-20",
+            "asin": "B0987Z7CKY"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+          "alt": "Concept illustration of Merrell Moab 3 Mid Waterproof hiking boots in a tactical green inventory frame",
+          "credit": "ApocalypseGearLab owner-created concept illustration",
+          "license": "Owner-authorized site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "511-tactical-rush72-2-backpack",
+          "marmot-precip-rain-jacket",
+          "garmin-gpsmap-67i-satellite-gps"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Mid-height form and bellows tongue suit ordinary trail use.",
+          "The manufacturer provides a specific waterproof model rather than a generic boot description."
+        ],
+        "useCases": [
+          "Plan a walking route with footwear already checked for fit.",
+          "Ordinary hiking and outdoor kit transport within local conditions."
+        ]
+      }
+    },
+    {
+      "id": "midland-er310",
+      "file": "src/data/products/midland-er310.json",
+      "audited": true,
+      "sha256Canonical": "97667200ec600d9de9a02c0e58255583efa10814dafda1c584a615f02b6fd10b",
+      "protected": {
+        "name": "Midland ER310 emergency radio",
+        "brand": "Midland",
+        "modelNumber": "ER310",
+        "category": "weather-radios",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+            "asin": "B015QIC1PW"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "fenix-cl26r-pro",
+          "iniu-p62-20000mah-65w"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "AM/FM reception does not require a phone data connection.",
+          "AA backup and USB charging offer alternatives to the internal battery."
+        ],
+        "useCases": [
+          "Listen to available local AM/FM outage updates.",
+          "Include radio charging and spare-cell checks in a household readiness routine."
+        ]
+      }
+    },
+    {
+      "id": "nanuk-904-first-aid-kit",
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "audited": true,
+      "sha256Canonical": "6ce67539688cf1e6d1f02a7ebfee7c6a9fd583388486daa35047cfa0e5a74147",
+      "protected": {
+        "name": "NANUK 904 first aid kit",
+        "brand": "NANUK",
+        "modelNumber": "904 — filled kit variant to confirm",
+        "category": "first-aid",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B0G3XYHL33?tag=apocalypsegear-20",
+            "asin": "B0G3XYHL33"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "fenix-hm50r-v2-headlamp",
+          "sol-emergency-bivvy",
+          "reliance-aqua-tainer-7-gallon"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "An organized case can make supplies easier to locate during a disruption.",
+          "Separate compartments support inventory and replacement routines."
+        ],
+        "useCases": [
+          "Plan a household or vehicle first aid inventory with appropriate training.",
+          "Keep inspected supplies organized for a short outing after confirming the actual kit contents."
+        ]
+      }
+    },
+    {
+      "id": "readywise-84-servings-emergency-food-bucket",
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "audited": true,
+      "sha256Canonical": "42f2dfa6f018713a00773a88682e7ffc91ecc304fb099ff0cb666980dad97918",
+      "protected": {
+        "name": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply",
+        "brand": "ReadyWise",
+        "modelNumber": "84 Serving Gluten Free Grab and Go Bucket",
+        "category": "food-storage",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B00TX5J74S?tag=apocalypsegear-20",
+            "asin": "B00TX5J74S"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+          "alt": "Concept illustration of ReadyWise 84 Servings Gluten-Free Emergency Food Supply in a red tactical inventory frame",
+          "credit": "ApocalypseGearLab owner-approved concept illustration",
+          "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "datrex-dx2400f-emergency-food-ration",
+          "sos-3600-calorie-emergency-food-rations",
+          "reliance-aqua-tainer-7-gallon"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "Several dish types can complement a broader food reserve.",
+          "Sealed pouches allow the contents to be prepared separately."
+        ],
+        "useCases": [
+          "Plan a household food reserve alongside water, cooking equipment and familiar shelf-stable foods.",
+          "Compare labelled portions and calories with household needs instead of counting servings as days or meals."
+        ]
+      }
+    },
+    {
+      "id": "reliance-aqua-tainer-7-gallon",
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "audited": false,
+      "sha256Canonical": "95fbd0c7d6a05c45d5d60c4eb487e5c739ce875459841dac54e6f738cb92f5e7",
+      "protected": {
+        "name": "Reliance Aqua-Tainer 7-gallon water container",
+        "brand": "Reliance",
+        "modelNumber": "9410-03R",
+        "category": "water",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B001QC31G6?tag=apocalypsegear-20",
+            "asin": "B001QC31G6"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "sawyer-squeeze-sp129-water-filter",
+          "nanuk-904-first-aid-kit",
+          "readywise-84-servings-emergency-food-bucket"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "A dedicated reserve separates drinking water from general-purpose containers.",
+          "A stowable tap keeps the dispensing part protected during storage."
+        ],
+        "useCases": [
+          "Organize a stationary household water reserve using a safe water source.",
+          "Bring a clean-water container to a planned campsite with a manageable carrying distance."
+        ]
+      }
+    },
+    {
+      "id": "sawyer-squeeze-sp129-water-filter",
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "audited": false,
+      "sha256Canonical": "857bdf0cc768c33406578ba6c2fbbdececcef721c74a7843b00c3e36a686be68",
+      "protected": {
+        "name": "Sawyer Squeeze SP129 water filtration system",
+        "brand": "Sawyer",
+        "modelNumber": "SP129",
+        "category": "water",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B00B1OSU4W?tag=apocalypsegear-20",
+            "asin": "B00B1OSU4W"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "reliance-aqua-tainer-7-gallon",
+          "sol-emergency-bivvy",
+          "fenix-hm50r-v2-headlamp"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "No battery is needed for the squeeze filtration step.",
+          "Bottle and pouch options allow different packing arrangements."
+        ],
+        "useCases": [
+          "Plan fresh-water filtration on a trip only after assessing the source and local health advice.",
+          "Pair a filter with stored drinking water and a separate clean collection container."
+        ]
+      }
+    },
+    {
+      "id": "sol-emergency-bivvy",
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "audited": false,
+      "sha256Canonical": "23529b96212e5881e215e090a0d23ac0bd3d856c53f7b534a3830ea8875783f8",
+      "protected": {
+        "name": "SOL Emergency Bivvy with rescue whistle",
+        "brand": "SOL",
+        "modelNumber": "Emergency Bivvy — standard size",
+        "category": "shelter",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B08NC9BLQ5?tag=apocalypsegear-20",
+            "asin": "B08NC9BLQ5"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": null,
+        "relatedProducts": [
+          "nanuk-904-first-aid-kit",
+          "fenix-hm50r-v2-headlamp",
+          "sawyer-squeeze-sp129-water-filter",
+          "marmot-precip-rain-jacket"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "A small packed format leaves space for other emergency supplies.",
+          "An orange version offers visibility when a temporary shelter is needed."
+        ],
+        "useCases": [
+          "Carry a temporary weather barrier alongside appropriate clothing, ground insulation and a communication plan.",
+          "Prepare for an unexpected delay while seeking safer shelter and professional assistance when needed."
+        ]
+      }
+    },
+    {
+      "id": "sos-3600-calorie-emergency-food-rations",
+      "file": "src/data/products/sos-3600-calorie-emergency-food-rations.json",
+      "audited": true,
+      "sha256Canonical": "2630a73d635b297553769da3ef135203c5fcb943906537d3ea3144b050db3022",
+      "protected": {
+        "name": "S.O.S. Emergency Food Rations — 3600 Calories",
+        "brand": "S.O.S. Food Lab",
+        "modelNumber": "3600 KCAL Emergency Food Ration",
+        "category": "food-rations",
+        "links": {
+          "amazonCa": {
+            "url": "https://www.amazon.ca/dp/B00W20PIHQ?tag=apocalypsegear-20",
+            "asin": "B00W20PIHQ"
+          },
+          "amazonCom": {
+            "url": null,
+            "asin": null
+          },
+          "partners": []
+        },
+        "image": {
+          "src": "/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+          "alt": "Concept illustration of S.O.S. Emergency Food Rations — 3600 Calories in a red tactical inventory frame",
+          "credit": "ApocalypseGearLab owner-approved concept illustration",
+          "license": "Owner-authorized Phase 4.3 site integration; see media provenance record"
+        },
+        "relatedProducts": [
+          "datrex-dx2400f-emergency-food-ration",
+          "readywise-84-servings-emergency-food-bucket",
+          "reliance-aqua-tainer-7-gallon"
+        ],
+        "testing": "not-tested",
+        "reviewStatus": "draft",
+        "visibility": "informational",
+        "lastVerified": null,
+        "pros": [
+          "The documented ration can be eaten without heating.",
+          "Portioned format supports measured short-term distribution once the actual packet label is checked."
+        ],
+        "useCases": [
+          "Compare compact ready-to-eat options for an evacuation bag after checking pack quantity and labels.",
+          "Plan a rotated reserve with water and a broader range of suitable foods."
+        ]
+      }
+    }
+  ],
+  "unchangedFiles": [
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0",
+      "bytes": 131338
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943",
+      "bytes": 120578
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2",
+      "bytes": 237356
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa",
+      "bytes": 169576
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d",
+      "bytes": 135916
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba",
+      "bytes": 168652
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977",
+      "bytes": 205778
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc",
+      "bytes": 118340
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c",
+      "bytes": 249316
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+      "sha256": "0e1c9565679ea01c7fa6c692e903c116aa7a25ce83de34cab3f847e0d1c58644",
+      "bytes": 57962
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+      "sha256": "e0f7f48d61b53c03a4cc69700e568791378c31203580d9a123b8773229eb6d05",
+      "bytes": 183176
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "sha256": "4a2275237b619e58505040e80b6c71217225b0e60794bf2774c979c3063f99b6",
+      "bytes": 271838
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+      "sha256": "0a99aeef7cdb3764879f80461db5e3f6308b5e6dd5042142af50d1e690fcf3f3",
+      "bytes": 37808
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+      "sha256": "9e73916ed8f2d709c87fbb6dc048eb0e03be659e0897a924df59a68900ff3373",
+      "bytes": 109692
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "sha256": "e94df88c2912a8bd32b518a3af0897e8aa8f5a6bfff49ca2296b20c963c1221a",
+      "bytes": 162448
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da",
+      "bytes": 176614
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d",
+      "bytes": 313204
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+      "sha256": "18b4311dc4881a7918637030329aa2daab3e453c1f18c6394e6997daf460847e",
+      "bytes": 44044
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+      "sha256": "bce8f04ef999c0bbdf0813f878a6eedf34e6c360b0f6c2c44316ab2981c95ca8",
+      "bytes": 132172
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "sha256": "b3b988c154e0a4184bbaa3a7720af7989d341dad742c9d9219347205ad5b5fc6",
+      "bytes": 194652
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
+      "bytes": 206064
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476",
+      "bytes": 204054
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede",
+      "bytes": 214632
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b",
+      "bytes": 315398
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+      "sha256": "b82a9e13ce4051710a32d5f7a08e9485df4caca90d1d5e268cab65f47c071e4e",
+      "bytes": 61554
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+      "sha256": "bee74334fb8f82f523cf7167ba94d1203d8cee4ef8649f6552d813c21c26469c",
+      "bytes": 212148
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "sha256": "03b3373f03cd760ea4d61003244334119ad7bd374f95feea933f335b1ce50137",
+      "bytes": 317940
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+      "sha256": "546b84c1e9804bc67859b76f416e5bbd7a6e72b7dbb3c83709e3517981c94dd1",
+      "bytes": 48862
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+      "sha256": "05da50496e11588a14af2a2fbc8969be79b2e57ca21ac5235125418171f7c6f3",
+      "bytes": 153988
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "sha256": "3ca0106c777dea863e6548a68f3ce628774ce6b3644b06043fab74f41062d0fe",
+      "bytes": 228614
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+      "sha256": "70d673984dc376f9c8525457fde40eb72fc6131865787aaedfe59fe5b324cbd3",
+      "bytes": 39654
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+      "sha256": "e09010cbf796ccb376bde61ed3732c5079bf5602aa18d086898b93aa2fb1f399",
+      "bytes": 143230
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8",
+      "bytes": 215282
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+      "sha256": "0b1e82a6f653ae9cb08f3c492ac07862e6d32988f3e983c614045d2d28ba6d4a",
+      "bytes": 48354
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+      "sha256": "4153680698daf753f855be1d3ef1a7f853f4c442fee82c30daba64e6e2da8997",
+      "bytes": 163354
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82",
+      "bytes": 243558
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+      "sha256": "5307f04f62c4d546b72bd9c0496f271dc58fe42305a7d29572831bbe64610e88",
+      "bytes": 33360
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+      "sha256": "bbfab58e7edb85fefb8a634e142ccfa25cdb23d3602ee6ddb929d2767e4ca11a",
+      "bytes": 122220
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92",
+      "bytes": 210890
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+      "sha256": "dfdbe056ded78707d3c066147bb7150c36e81826b174b05465961982504f059d",
+      "bytes": 46694
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+      "sha256": "73a8bd4169f40c07606f1c4f634f5f43a31e498020c6ea00044b850c1af3ab47",
+      "bytes": 148766
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3",
+      "bytes": 225804
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+      "sha256": "5141031364537cb3d659d45adce8665a2351d8d8dc09f603bf06a1d0db2fbf74",
+      "bytes": 34460
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+      "sha256": "ad5287ec648575a06ac2e308cd5b377ba08b414659ff6be1e715428d892b8d6d",
+      "bytes": 101892
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc",
+      "bytes": 148556
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+      "sha256": "11f90e0f5df206682bc7921b8231f16ab0cec5406d05a8f0c15a8238161dfd4c",
+      "bytes": 49176
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+      "sha256": "ffa32c7a96887b4f66b5f5f0a7587cf46dadadaf5f0792503149ea542d5a5182",
+      "bytes": 181684
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578",
+      "bytes": 281774
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+      "sha256": "19ba80bba904e74455697eba09a3c22b1b80cc3cd49f081b13602b51bfaa0cf2",
+      "bytes": 55808
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+      "sha256": "0492954a40e398a38cd73d2e809ba199eed0c7d93a0c1b62c71d9c9d400966c8",
+      "bytes": 196676
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335",
+      "bytes": 304318
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-480.webp",
+      "sha256": "9a5cdc6aed3fc0ab9b07062819dfd7a38dba0c0ed41bca6878896e24b9830958",
+      "bytes": 33566
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-960.webp",
+      "sha256": "85137309b47a820b713fd04fa7f6f9e1a9078d24fa3cd4fa85d5bece6f91cac2",
+      "bytes": 114412
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+      "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883",
+      "bytes": 190232
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+      "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d",
+      "bytes": 240496
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
+      "bytes": 206064
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+      "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb",
+      "bytes": 255560
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+      "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277",
+      "bytes": 374084
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+      "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6",
+      "bytes": 108300
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-480.webp",
+      "sha256": "23f8d6d864adfa11bcc34d902da0237322578639b40a19cc0a62371ef438268f",
+      "bytes": 25692
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-960.webp",
+      "sha256": "d10031bba171c9afed80e39508deb6ed69ce246dd2432916f69357291b07d943",
+      "bytes": 82078
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-480.webp",
+      "sha256": "6c2d3eecd863cc9c2502ca20f38c40b2c93a559df13140ceb6b1d35de5c970e1",
+      "bytes": 25238
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-960.webp",
+      "sha256": "2ae3afd1acb7a50bca23436e02935743ae839ec0efabb14fb31fc745cb80a8c2",
+      "bytes": 78946
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-480.webp",
+      "sha256": "64b4d2a95f1bf4ed47f29f04e6994e62ce661662707a6e08db6ce18f70ea4f61",
+      "bytes": 27878
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-960.webp",
+      "sha256": "aaba5f0647c218f212e8bf5f46db6d483d733557dfc7b596cccdc71f1a68a37d",
+      "bytes": 97092
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-480.webp",
+      "sha256": "98aae2018a9320b9431e2e23d5d4b37137db4fd2886ad9672419508233b7efcb",
+      "bytes": 29158
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-960.webp",
+      "sha256": "000c3674cbf0472020f016c25ba5ade5a9ac2349fea74cb56b675f991ab8b38e",
+      "bytes": 85866
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-480.webp",
+      "sha256": "fa8f526b7f5937dcc87fd9713ca87846c98dc2e059b291c9dbe605c211ab7637",
+      "bytes": 25276
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-960.webp",
+      "sha256": "e51e48f91d787f964de6100cba8e91ba17cd84b79423417b62596df06d05154e",
+      "bytes": 112742
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-480.webp",
+      "sha256": "eddef67fb3880b177d880982c934ac84438fea6d0a0aef525f1b179b189efe1d",
+      "bytes": 22652
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-960.webp",
+      "sha256": "fd73dfc42fde36731ac86d074ab617e5d0157437dc31c61ddb2d0b5ec2c573c2",
+      "bytes": 71340
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-480.webp",
+      "sha256": "8ba092521d83dc21d86b4d21a6da386e7b150c2ce1ca71df9fcfe2fefbd456fc",
+      "bytes": 46628
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-960.webp",
+      "sha256": "77bbf32f7273fd4c79b5afc45e5e794dc4ddcd198c307432a970683692ba1fdf",
+      "bytes": 155352
+    },
+    {
+      "file": "src/data/media/imported-manifest.json",
+      "sha256": "dd6e5a9a52f057e65f17cb79293ce8148b16d68f716da3485b0d709c3d7d0f2d",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/media/manifest.json",
+      "sha256": "76e22cd459c54b72b2f8790bdb56208ca685d90dfb5714054fc1c6b570c75f9d",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/media/review.json",
+      "sha256": "4ef227b8f3714aee14eacc9dfaee7439fdb29097ed71b62bf35743085ee62265",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/config/site.ts",
+      "sha256": "f918dceb5dbcc4ed48e15857b471eca0256cb455c8c25c4305ee94bed4e63f21",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/config/taxonomy.ts",
+      "sha256": "b8613bb4e7cc8f2671d6f483f4ffc0ae74b8cc3d2a63739b10f5da478a665eb7",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/release-policy.ts",
+      "sha256": "1a71543f3760f7cab33fb0293dc8bed0c66e2a8c887438e4404cffd5681a08ce",
+      "normaliseNewlines": true
+    },
+    {
+      "file": ".github/workflows/deploy.yml",
+      "sha256": "04bb6e046456187e4d6ad4ac986cf1c520ee689ed4c3c1035de3148120711a03",
+      "normaliseNewlines": true
+    }
+  ]
+}

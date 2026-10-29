@@ -61,7 +61,15 @@ for (const [file, $] of documents) {
     const card = $(element), state = commercialState.get(card.attr('data-product-id'));
     if (!state) return;
     assert.equal(card.find('a[data-affiliate-click]').length, state.amazonCaActive ? 1 : 0);
-    assert.equal(card.find('[aria-disabled="true"]').length, state.amazonCaActive ? 0 : 1);
+    assert.equal(card.find('[aria-disabled="true"]').length, 0, 'Cards must not present a fake disabled Amazon button');
+    assert.equal(card.find('[data-amazon-pending]').length, state.amazonCaActive ? 0 : 1);
+    assert.equal(card.find('[data-pending-details]').length, state.amazonCaActive ? 0 : 1);
+    if (!state.amazonCaActive) {
+      assert.equal(card.find('[data-amazon-pending]').text().trim(), 'Amazon link pending verification');
+      assert.equal(card.find('[data-pending-details]').attr('href'), `/gear/${state.slug}/`);
+      assert.ok(!card.find('.card-purchase').text().includes(state.buttonReason), 'Technical hold explanations belong on the profile, not the card');
+      assert.ok(card.find('.card-purchase').text().trim().length < 200, 'Pending card controls must stay concise');
+    }
   });
   const pathname = `/${relative(root, file).split(sep).join('/')}`.replace(/index\.html$/, '');
   $('[href], [src]').each((_, element) => {
@@ -160,7 +168,7 @@ for (const file of readdirSync('src/data/products', { recursive: true }).filter(
       if(artwork && canPublishImportedAsset(artwork)) assert.equal(document('.product-artwork--detail img').attr('src'),artwork.deliverySrc);
       assert.equal(document('[data-product-purchase] [aria-disabled="true"]').length, affiliateEligible ? 0 : 1, `Prepare one disabled Amazon.ca button: ${slug}`);
       assert.ok(!/Before this can be published|Related research drafts|Owner approval|Owner-selected|Not public\./i.test(document('body').text()), `Internal workflow in profile: ${slug}`);
-      for (const route of ['/gear/', `/${universeFor(product.category)}/`]) assert.equal(documents.get(fileFor(route))(`article.card a[href="/gear/${slug}/"]`).length, 1, `Missing informational card in ${route}: ${slug}`);
+      for (const route of ['/gear/', `/${universeFor(product.category)}/`]) assert.equal(documents.get(fileFor(route))(`article.card :is(h2, h3) a[href="/gear/${slug}/"]`).length, 1, `Missing informational card in ${route}: ${slug}`);
     }
   }
 }

@@ -3,7 +3,7 @@
   "brand": "FNIRSI",
   "modelNumber": "GC-01",
   "category": "radiation-detection",
-  "summary": "A portable Geiger-counter reference for certain ionising radiation. It cannot certify food, water or an area as safe; Canadian listing identity and conflicting range specifications remain unresolved.",
+  "summary": "A portable Geiger-counter reference for certain ionising radiation. The upper measurement limit is not established here, and this instrument cannot certify food, water or an area as safe.",
   "description": "A radiation meter is useful only when its response and limitations are understood. This profile covers the GC-01 model documented by FNIRSI, not a calibrated survey instrument or an emergency clearance service. Its readings cannot identify every radionuclide or establish contamination levels in food. Keep public emergency instructions at the centre of a preparedness plan; never enter a suspect area to obtain a measurement.",
   "specs": [
     {
@@ -27,8 +27,8 @@
       "source": "https://www.fnirsi.com/products/gc-01"
     },
     {
-      "label": "Range discrepancy",
-      "value": "The page states 0–10,000 µSv/h in features and 0–1,000 µSv/h in its table; no verified range is assigned here",
+      "label": "Measurement limit",
+      "value": "Upper measurement limit unconfirmed because manufacturer materials conflict; no precise maximum or professional calibration is claimed",
       "source": "https://www.fnirsi.com/products/gc-01"
     }
   ],
@@ -39,7 +39,7 @@
   "cons": [
     "No traceable calibration or delivered-unit accuracy has been established.",
     "The manufacturer page contains incompatible maximum dose-rate values.",
-    "The exact Canadian ASIN/model match has not been established; the buying button remains unavailable."
+    "The public Canadian page documents the recorded model, but its older crawl does not authenticate the current seller, offer or delivered unit."
   ],
   "useCases": [
     "Study radiation terminology and the distinction between counts, dose rate and cumulative dose.",
@@ -57,6 +57,12 @@
       "title": "CNSC: protecting your family in a nuclear emergency",
       "url": "https://www.cnsc-ccsn.gc.ca/eng/resources/emergency-management-and-safety/protecting-your-family-during-a-nuclear-emergency.cfm",
       "kind": "official-safety"
+    },
+    {
+      "id": "gc01-ca-snapshot",
+      "title": "Amazon.ca public representation: FNIRSI GC-01, B0BHH9X1WG (older crawl)",
+      "url": "https://www.amazon.ca/Geiger-Counter-Nuclear-Radiation-Detector/dp/B0BHH9X1WG",
+      "kind": "retailer"
     }
   ],
   "relatedProducts": [
@@ -72,7 +78,7 @@
   },
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-recorded ASIN; manufacturer-model references do not independently establish the current Canadian listing or seller."
+    "notes": "Recorded ASIN/model identity is supported by an older public Amazon.ca representation. No current offer, seller, calibration or delivered-unit verification is claimed."
   },
   "links": {
     "amazonCa": {
@@ -90,8 +96,8 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-28",
-    "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
+    "checkedAt": "2026-10-29",
+    "identityNotes": "Manufacturer documentation and an older public Amazon.ca representation reviewed. Its product details explicitly bind B0BHH9X1WG to FNIRSI GC-01, Yellow, one unit. The reader reports a crawl about five months old; this is documentary identity evidence, not live offer, seller or calibration verification.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -105,10 +111,16 @@
         "sourceIds": [
           "cnsc-emergency"
         ]
+      },
+      {
+        "text": "An older Amazon.ca public representation lists ASIN B0BHH9X1WG, model GC-01, FNIRSI, Yellow and one unit. Its crawl predates this review; current offer and seller authenticity are not established.",
+        "sourceIds": [
+          "gc01-ca-snapshot"
+        ]
       }
     ],
     "unverifiedClaims": [
-      "Current Canadian ASIN/model selection, seller, package, lot and delivered-unit labels remain unverified."
+      "Current offer, seller authenticity, delivered revision, calibration and exact maximum measurement range remain unverified."
     ],
     "safetyNotes": [
       "No universal alpha, neutron, radionuclide-identification or contamination-measurement capability is established.",
@@ -118,15 +130,16 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication.",
-      "The exact B0BHH9X1WG Canadian listing/model match is not established, and the manufacturer page conflicts on the maximum dose-rate range (1,000 versus 10,000 µSv/h). Resolve both before enabling the CTA."
+      "Current-offer and delivered-revision verification is required before full editorial publication.",
+      "The manufacturer maximum-range conflict is unresolved; no numerical maximum or traceable calibration is assigned."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B0BHH9X1WG",
-      "checkedAt": "2026-10-28",
-      "reason": "The exact B0BHH9X1WG Canadian listing/model match is not established, and the manufacturer page conflicts on the maximum dose-rate range (1,000 versus 10,000 µSv/h). Resolve both before enabling the CTA.",
+      "checkedAt": "2026-10-29",
+      "reason": "The public Canadian representation explicitly matches the recorded ASIN to FNIRSI GC-01, Yellow, one unit. Its older crawl is documentary identity evidence, not a live-offer or seller-authenticity check. The conflicting precise maximum is omitted; no professional accuracy, universal detection or nuclear-safety guarantee is made.",
       "sourceIds": [
+        "gc01-ca-snapshot",
         "fnirsi-model",
         "cnsc-emergency"
       ]
@@ -134,7 +147,7 @@
   },
   "editorial": {
     "purchaseChecks": [
-      "Confirm FNIRSI GC-01, the exact ASIN and selected Canadian listing before buying.",
+      "Recheck FNIRSI GC-01, Yellow, one unit and the selected Canadian offer before buying; the identity evidence here is an older public representation.",
       "Obtain a consistent manufacturer range, calibration documentation and instructions for the delivered revision.",
       "Treat every graph, unit and number in the illustration as illustrative, not a real measurement."
     ]

@@ -8,7 +8,7 @@
   "specs": [
     {
       "label": "Product designation",
-      "value": "Manufacturer markets a 3600 KCAL emergency-food packet",
+      "value": "3600 Calorie / 3600 KCAL is the manufacturer commercial designation, not an independent energy measurement",
       "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "label": "Energy inconsistency",
-      "value": "Label: 410 kcal per serving; 9×410 = 3,690 kcal, conflicting with the 3,600-kcal designation",
+      "value": "Manufacturer sheet labels nine portions at 410 kcal; that arithmetic differs from the product designation and does not verify any Amazon lot total",
       "source": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf"
     },
     {
@@ -101,7 +101,7 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "identityNotes": "Primary manufacturer materials reviewed. No physical testing, traceable calibration, seller authentication or live Canadian listing verification is claimed.",
     "listingVerified": false,
     "confirmed": [
@@ -135,8 +135,8 @@
     "affiliateReview": {
       "decision": "hold",
       "asin": "B00W20PIHQ",
-      "checkedAt": "2026-10-28",
-      "reason": "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. Manufacturer data also conflicts: nine 410-kcal servings equal 3,690 rather than 3,600 kcal. Resolve the lot and nutrition label before enabling the CTA; 7,200 kcal is not established.",
+      "checkedAt": "2026-10-29",
+      "reason": "The B00W20PIHQ Canadian packet count (possible two-pack) is unconfirmed. The 3600 Calorie trade designation is not a precise measurement: the manufacturer sheet also gives nine 410-kcal portions (3,690 by calculation). No 7,200-kcal lot is established. Match packet count and actual labels before enabling the CTA.",
       "sourceIds": [
         "sos-sheet",
         "sos-faq",
@@ -147,7 +147,7 @@
   "editorial": {
     "purchaseChecks": [
       "Confirm whether B00W20PIHQ contains one or two sealed packets; do not assume a two-pack.",
-      "Ask for consistent calorie and portion information matching the delivered lot.",
+      "Match the trade designation and actual nutrition label; a calculation from a reference sheet is not a measured energy total for the Canadian lot.",
       "Check ingredients, allergens, dates and seal integrity; distinguish S.O.S. from Datrex."
     ]
   }

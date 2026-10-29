@@ -84,7 +84,7 @@ const breadcrumbs = {
 
     {research && <>
       <section aria-labelledby="evidence"><h2 id="evidence">What the sources confirm</h2>
-        <p>These statements are documented by the linked manufacturer or official sources. They are not independent performance measurements.</p>
+        <p>These statements cite the linked sources. Manufacturer documentation and retailer representations are identified separately; they are not independent performance measurements.</p>
         <ul>{research.confirmed.map((fact) => <li>{fact.text}{' '}{fact.sourceIds.map((id, index) => <>{index > 0 && ', '}<a href={`#source-${id}`}>Source {data.sources.findIndex((source) => source.id === id) + 1}</a></>)}</li>)}</ul>
       </section>
       {purchaseChecks.length > 0 && <section><h2>What to check before buying</h2><ul>{purchaseChecks.map((claim) => <li>{claim}</li>)}</ul></section>}
@@ -100,8 +100,9 @@ const breadcrumbs = {
     <section aria-labelledby="buy" data-product-purchase>
       <h2 id="buy">Where to buy</h2>
       <DisclosureNotice />
+      {research?.affiliateReview?.decision === 'hold' && !availableLinks.some(link => link.unavailableReason === research.affiliateReview?.reason) && <p data-commercial-hold-details>{research.affiliateReview.reason}</p>}
       {data.merchant?.notes && showInternalReview && <p>{data.merchant.notes}</p>}
-      {availableLinks.length ? <><p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p>{!availableLinks.some((link) => link.href) && <p>Amazon.ca links are pending confirmation of the Canadian listing and affiliate eligibility. No price, availability or seller is confirmed.</p>}</> : <p>Retailer links are not available for this profile.</p>}
+      {availableLinks.length ? <><p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p>{!availableLinks.some((link) => link.href) && <p>Amazon.ca links are unavailable until the documented product checks are resolved. No price, availability or seller is confirmed.</p>}</> : <p>Retailer links are not available for this profile.</p>}
     </section>
 
     {related.length > 0 && !releasePreview && <section aria-labelledby="related"><h2 id="related">Related equipment profiles</h2>
