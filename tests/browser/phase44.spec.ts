@@ -8,7 +8,7 @@ const decisions={
   'nanuk-904-first-aid-kit':['B0G3XYHL33',false],
   'ecoflow-river-2-pro':['B0BVLPGS79',false],
   'jackery-explorer-300':['B082TMBYR6',false],
-  'midland-er310':['B015QIC1PW',false],
+  'midland-er310':['B015QIC1PW',true],
   'kidde-c3010-co-alarm':['B00FHW7PBS',false],
   'iniu-p62-20000mah-65w':['B0DB888L9F',false],
 } as const;
@@ -17,8 +17,8 @@ for(const width of [320,375,768,1024,1440,1920])test(`Phase 4.4 compact pending 
   test.setTimeout(60_000);
   await page.setViewportSize({width,height:900});await page.goto('/gear/');
   await expect(page.locator('article.card')).toHaveCount(26);
-  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(18);
-  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(8);
+  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(19);
+  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(7);
   await expect(page.locator('article.card [aria-disabled]')).toHaveCount(0);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   for(const [id,[asin,active]] of Object.entries(decisions)){

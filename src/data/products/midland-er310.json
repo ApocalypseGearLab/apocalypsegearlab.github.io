@@ -75,6 +75,18 @@
       "title": "Midland BATT26L replacement battery: second-generation ER310 compatibility",
       "url": "https://midlandusa.com/products/batt26l-e-ready-rechargeable-battery",
       "kind": "manufacturer"
+    },
+    {
+      "id": "midland-product",
+      "title": "Midland ER310 manufacturer product page",
+      "url": "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "midland-owner-listing",
+      "title": "Amazon.ca ER310 listing — ER310-MFN and red/black fields reported by the owner",
+      "url": "https://www.amazon.ca/dp/B015QIC1PW",
+      "kind": "retailer"
     }
   ],
   "relatedProducts": [
@@ -84,7 +96,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-selected ASIN. Live listing retrieval was unavailable; check seller, model revision, Canadian labeling and package contents before approval."
+    "notes": "Owner reports Amazon.ca B015QIC1PW as Midland, manufacturer part ER310, listing model ER310-MFN, red/black. The text transcription is archived in docs/qa/midland-er310/evidence.json; no screenshot pixels or live listing were independently inspected. No delivered battery revision, capacity or runtime is guaranteed."
   },
   "links": {
     "amazonCa": {
@@ -102,7 +114,7 @@
   "lastVerified": null,
   "research": {
     "checkedAt": "2026-10-29",
-    "identityNotes": "Manufacturer-model documentation reviewed. ASIN mapping supplied by the owner; live Amazon listing identity was not independently retrieved.",
+    "identityNotes": "Manufacturer documentation identifies ER310. The owner reports Amazon.ca B015QIC1PW with manufacturer part ER310, retail model ER310-MFN and red/black selection. These fields support family-level identity for the recorded link; the MFN suffix is not treated as a manufacturer-confirmed battery revision. This is owner-transcribed evidence, not an independently retrieved listing or an inspected screenshot.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -125,7 +137,8 @@
       }
     ],
     "unverifiedClaims": [
-      "No guaranteed local weather alerts, battery runtime or phone recharge count is established."
+      "No guaranteed local weather alerts, battery runtime or phone recharge count is established.",
+      "The exact supplied battery capacity, current seller and box contents are not independently established. The ER310-MFN listing designation does not establish a battery revision."
     ],
     "safetyNotes": [
       "Do not promise Canadian weather-alert coverage. Reception of any available US NOAA signal is location-dependent and has not been tested.",
@@ -134,23 +147,26 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
-      "Match the ER310 and supplied pack to the actual Canadian listing. No capacity or runtime is promised, and Canadian Weatheradio service must not be claimed."
+      "Full editorial publication still requires independent listing, delivered-revision and safety review.",
+      "No exact battery capacity or runtime is assigned; confirm the supplied Midland pack against the delivered instructions."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B015QIC1PW",
       "checkedAt": "2026-10-29",
-      "reason": "The offered B015QIC1PW Canadian ER310 model and package are not independently established. No battery capacity or runtime is guaranteed; the optional capacity conflict alone is not treated as a reason to reject an otherwise confirmed ER310. Obtain the selected listing/model and supplied pack identity.",
+      "reason": "The owner reports Canadian ASIN B015QIC1PW as Midland, manufacturer part ER310, listing model ER310-MFN, red/black, matching the documented ER310 family rather than ER310PRO. This owner transcription supports the recorded link, not independent live-listing verification or equivalence of battery revisions. The capacity conflict alone is not a hold: no delivered capacity or runtime is guaranteed. Canadian Weatheradio and charging limits remain disclosed.",
       "sourceIds": [
+        "midland-owner-listing",
+        "midland-product",
         "midland-er310",
         "midland-er310-faq",
-        "midland-batt26l"
+        "eccc-weatheradio"
       ]
     }
   },
   "editorial": {
     "purchaseChecks": [
+      "Recheck the ER310 / ER310-MFN red-and-black selection and supplied accessories; the recorded listing identity comes from owner-reported fields, not independent seller authentication.",
       "Confirm the rechargeable battery revision and the backup AA requirements of the supplied radio.",
       "Check which local AM/FM stations provide useful outage information; do not rely on Canadian Weatheradio alerts.",
       "Treat solar charging as supplementary rather than a guaranteed recharge plan."

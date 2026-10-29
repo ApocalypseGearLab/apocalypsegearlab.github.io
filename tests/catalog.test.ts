@@ -39,7 +39,7 @@ test('Phase 4.4 nine independent commercial decisions retain exact Canadian ASIN
     'nanuk-904-first-aid-kit':['B0G3XYHL33',false],
     'ecoflow-river-2-pro':['B0BVLPGS79',false],
     'jackery-explorer-300':['B082TMBYR6',false],
-    'midland-er310':['B015QIC1PW',false],
+    'midland-er310':['B015QIC1PW',true],
     'kidde-c3010-co-alarm':['B00FHW7PBS',false],
     'iniu-p62-20000mah-65w':['B0DB888L9F',false],
   } as const;
@@ -78,6 +78,34 @@ test('media, bunker, affiliate configuration, taxonomy and mandatory safety cont
   for(const p of baseline.unchangedFiles){
     const raw=readFileSync(p.file),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
+  }
+});
+
+test('Midland owner-transcribed ER310-MFN identity permits only the recorded link without a battery or verification guarantee', () => {
+  const data=productSchema.parse(rawProducts.get('midland-er310'));
+  const evidence=JSON.parse(readFileSync('docs/qa/midland-er310/evidence.json','utf8'));
+  assert.equal(evidence.ownerEvidence.method,'owner-transcription');
+  assert.equal(evidence.ownerEvidence.manufacturerPartNumber,'ER310');
+  assert.equal(evidence.ownerEvidence.listingModel,'ER310-MFN');
+  assert.equal(evidence.ownerEvidence.colour,'red/black');
+  assert.match(data.research!.identityNotes,/not.*inspected screenshot/);
+  assert.match(data.research!.affiliateReview!.reason,/ER310-MFN.*ER310 family.*rather than ER310PRO/);
+  assert.equal(data.research!.listingVerified,false);
+  assert.equal(data.research!.listingEvidence,undefined);
+  assert.equal(data.research!.publicationApproved,false);
+  assert.equal(data.research!.safetyStatus,'pending');
+  assert.equal(data.reviewStatus,'draft');
+  assert.equal(data.lastVerified,null);
+  assert.equal(productSchema.safeParse({...data,reviewStatus:'published'}).success,false,'Link permission does not approve editorial publication');
+  assert.equal(getMerchantLinks({id:'midland-er310',data} as Product,true)[0]!.href,'https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20');
+  assert.equal(getMerchantLinks({id:'midland-er310',data} as Product,false)[0]!.href,null);
+  assert.ok(!data.specs.some(spec=>/\b(?:2600|3500|2,600|3,500)\b|\bmAh\b|\bhours\b/i.test(spec.value)),'No battery capacity or runtime is guaranteed');
+  assert.match(data.research!.safetyNotes.join(' '),/Canadian weather-alert coverage/);
+  const baseline=JSON.parse(readFileSync('docs/qa/midland-er310/preservation.json','utf8'));
+  assert.equal(baseline.baseCommit,'7985ad230a520a04352ce93621f9e3313926160f');
+  for(const entry of baseline.unchangedProducts){
+    const current=JSON.parse(readFileSync(entry.file,'utf8'));
+    assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),entry.sha256Canonical,entry.file);
   }
 });
 
