@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 import { readFileSync } from 'node:fs';
 
 test('actual Astro affiliate markup supports active and pending states without sending Amazon traffic', async ({ page, context }) => {

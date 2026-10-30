@@ -1,0 +1,340 @@
+{
+  "checkedAt": "2026-10-30T02:51:30.238Z",
+  "base": "http://127.0.0.1:4323",
+  "liveGoogleTraffic": true,
+  "affiliateSmoke": true,
+  "note": "HTTP delivery and GA endpoint responses do not prove visibility in private GA4 or Search Console reports. Request IDs, cookies and client IDs are deliberately omitted.",
+  "resources": [
+    {
+      "path": "/",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/",
+      "contentType": "text/html",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 14086,
+      "canonical": "https://apocalypsegearlab.github.io/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/gear/",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/gear/",
+      "contentType": "text/html",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 80879,
+      "canonical": "https://apocalypsegearlab.github.io/gear/",
+      "robots": "noindex, nofollow",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/blackout/",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/blackout/",
+      "contentType": "text/html",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 30700,
+      "canonical": "https://apocalypsegearlab.github.io/blackout/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/fallout/",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/fallout/",
+      "contentType": "text/html",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 33452,
+      "canonical": "https://apocalypsegearlab.github.io/fallout/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/outbreak/",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/outbreak/",
+      "contentType": "text/html",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 41326,
+      "canonical": "https://apocalypsegearlab.github.io/outbreak/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/sitemap.xml",
+      "contentType": "text/xml",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 198,
+      "gaLoaders": 0,
+      "locs": [
+        "https://apocalypsegearlab.github.io/sitemap-0.xml"
+      ]
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/sitemap-index.xml",
+      "contentType": "text/xml",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 198,
+      "gaLoaders": 0,
+      "locs": [
+        "https://apocalypsegearlab.github.io/sitemap-0.xml"
+      ]
+    },
+    {
+      "path": "/sitemap-0.xml",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/sitemap-0.xml",
+      "contentType": "text/xml",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 671,
+      "gaLoaders": 0,
+      "locs": [
+        "https://apocalypsegearlab.github.io/",
+        "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+        "https://apocalypsegearlab.github.io/blackout/",
+        "https://apocalypsegearlab.github.io/fallout/",
+        "https://apocalypsegearlab.github.io/outbreak/"
+      ]
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "redirected": false,
+      "url": "http://127.0.0.1:4323/robots.txt",
+      "contentType": "text/plain",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 87,
+      "gaLoaders": 0,
+      "locs": [],
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://apocalypsegearlab.github.io/sitemap-index.xml\n"
+    }
+  ],
+  "submitted": [
+    {
+      "url": "https://apocalypsegearlab.github.io/",
+      "status": 200,
+      "canonical": "https://apocalypsegearlab.github.io/",
+      "robots": null
+    },
+    {
+      "url": "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+      "status": 200,
+      "canonical": "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+      "robots": null
+    },
+    {
+      "url": "https://apocalypsegearlab.github.io/blackout/",
+      "status": 200,
+      "canonical": "https://apocalypsegearlab.github.io/blackout/",
+      "robots": null
+    },
+    {
+      "url": "https://apocalypsegearlab.github.io/fallout/",
+      "status": 200,
+      "canonical": "https://apocalypsegearlab.github.io/fallout/",
+      "robots": null
+    },
+    {
+      "url": "https://apocalypsegearlab.github.io/outbreak/",
+      "status": 200,
+      "canonical": "https://apocalypsegearlab.github.io/outbreak/",
+      "robots": null
+    }
+  ],
+  "bot": [
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "note": "User-agent simulation, not a request from Google infrastructure"
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 200,
+      "note": "User-agent simulation, not a request from Google infrastructure"
+    },
+    {
+      "path": "/sitemap-0.xml",
+      "status": 200,
+      "note": "User-agent simulation, not a request from Google infrastructure"
+    }
+  ],
+  "xml": [
+    {
+      "path": "/sitemap.xml",
+      "parseError": false,
+      "root": "sitemapindex",
+      "namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
+      "encoding": "UTF-8",
+      "locations": [
+        "https://apocalypsegearlab.github.io/sitemap-0.xml"
+      ]
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "parseError": false,
+      "root": "sitemapindex",
+      "namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
+      "encoding": "UTF-8",
+      "locations": [
+        "https://apocalypsegearlab.github.io/sitemap-0.xml"
+      ]
+    },
+    {
+      "path": "/sitemap-0.xml",
+      "parseError": false,
+      "root": "urlset",
+      "namespace": "http://www.sitemaps.org/schemas/sitemap/0.9",
+      "encoding": "UTF-8",
+      "locations": [
+        "https://apocalypsegearlab.github.io/",
+        "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+        "https://apocalypsegearlab.github.io/blackout/",
+        "https://apocalypsegearlab.github.io/fallout/",
+        "https://apocalypsegearlab.github.io/outbreak/"
+      ]
+    }
+  ],
+  "runtime": [
+    {
+      "path": "/",
+      "gtag": "function",
+      "configCount": 1,
+      "loaderCount": 1
+    },
+    {
+      "path": "/gear/midland-er310/",
+      "gtag": "function",
+      "configCount": 1,
+      "loaderCount": 1
+    },
+    {
+      "path": "/gear/fenix-cl26r-pro/",
+      "gtag": "function",
+      "configCount": 1,
+      "loaderCount": 1
+    }
+  ],
+  "network": [
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "method": "GET",
+      "events": [
+        {}
+      ],
+      "status": 200
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "page_view",
+          "dl": "http://127.0.0.1:4323/"
+        }
+      ],
+      "status": 204
+    },
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "method": "GET",
+      "events": [
+        {}
+      ],
+      "status": 200
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "page_view",
+          "dl": "http://127.0.0.1:4323/gear/midland-er310/"
+        }
+      ],
+      "status": 204
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "affiliate_click",
+          "dl": "http://127.0.0.1:4323/gear/midland-er310/",
+          "ep.product_id": "midland-er310",
+          "ep.asin": "B015QIC1PW",
+          "ep.merchant": "amazon-ca",
+          "ep.marketplace": "ca",
+          "ep.destination_url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20"
+        }
+      ],
+      "status": 204
+    },
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "method": "GET",
+      "events": [
+        {}
+      ],
+      "status": 200
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "page_view",
+          "dl": "http://127.0.0.1:4323/gear/fenix-cl26r-pro/"
+        }
+      ],
+      "status": 204
+    }
+  ],
+  "jsErrors": []
+}

@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect,blockAnalytics} from './fixtures';
 import {OUTBREAK} from '../catalogue-fixture';
 
 test('OUTBREAK has twelve green inventory cards with eight active links, compact disclosures and small readable concept captions',async({page,request,browser})=>{
@@ -20,6 +20,7 @@ test('OUTBREAK has twelve green inventory cards with eight active links, compact
     // A fresh cache/viewport tests initial source selection, rather than the
     // browser's legitimate reuse of a larger image after a viewport shrinks.
     const context=await browser.newContext({viewport:{width,height:900}});
+    await blockAnalytics(context);
     const capture=await context.newPage();
     try { for(const id of Object.keys(OUTBREAK)) {
       await capture.goto(`http://127.0.0.1:4321/gear/${id}/`);

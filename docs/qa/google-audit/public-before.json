@@ -1,0 +1,187 @@
+{
+  "checkedAt": "2026-10-30T02:43:47.378Z",
+  "scope": "Public deployed site before corrections; fresh Chromium, no extensions; no affiliate clicks",
+  "resources": [
+    {
+      "path": "/",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/",
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 12406,
+      "canonical": "https://apocalypsegearlab.github.io/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/gear/",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/gear/",
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 79199,
+      "canonical": "https://apocalypsegearlab.github.io/gear/",
+      "robots": "noindex, nofollow",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/blackout/",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/blackout/",
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 29020,
+      "canonical": "https://apocalypsegearlab.github.io/blackout/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/fallout/",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/fallout/",
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 31772,
+      "canonical": "https://apocalypsegearlab.github.io/fallout/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/outbreak/",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/outbreak/",
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 39646,
+      "canonical": "https://apocalypsegearlab.github.io/outbreak/",
+      "verification": "L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk",
+      "gaLoaders": 1,
+      "locs": []
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/sitemap.xml",
+      "contentType": "application/xml",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 198,
+      "gaLoaders": 0,
+      "locs": [
+        "https://apocalypsegearlab.github.io/sitemap-0.xml"
+      ]
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/sitemap-index.xml",
+      "contentType": "application/xml",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 198,
+      "gaLoaders": 0,
+      "locs": [
+        "https://apocalypsegearlab.github.io/sitemap-0.xml"
+      ]
+    },
+    {
+      "path": "/sitemap-0.xml",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/sitemap-0.xml",
+      "contentType": "application/xml",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 671,
+      "gaLoaders": 0,
+      "locs": [
+        "https://apocalypsegearlab.github.io/",
+        "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+        "https://apocalypsegearlab.github.io/blackout/",
+        "https://apocalypsegearlab.github.io/fallout/",
+        "https://apocalypsegearlab.github.io/outbreak/"
+      ]
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "redirected": false,
+      "url": "https://apocalypsegearlab.github.io/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "xRobotsTag": null,
+      "csp": null,
+      "utf8": true,
+      "bytes": 87,
+      "gaLoaders": 0,
+      "locs": [],
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://apocalypsegearlab.github.io/sitemap-index.xml\n"
+    }
+  ],
+  "runtime": {
+    "gtag": "function",
+    "commands": [
+      [
+        "js",
+        "Date",
+        null
+      ],
+      [
+        "config",
+        "G-YFJJ5N9RBX",
+        null
+      ]
+    ]
+  },
+  "network": [
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "status": 200,
+      "measurementId": "G-YFJJ5N9RBX",
+      "event": null,
+      "page": null
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "status": 204,
+      "measurementId": "G-YFJJ5N9RBX",
+      "event": "page_view",
+      "page": "https://apocalypsegearlab.github.io/"
+    },
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "status": 200,
+      "measurementId": "G-YFJJ5N9RBX",
+      "event": null,
+      "page": null
+    }
+  ],
+  "jsErrors": []
+}
