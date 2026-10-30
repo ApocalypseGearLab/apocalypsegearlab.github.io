@@ -133,6 +133,12 @@ Les neuf blocages documentés restent à résoudre par leurs preuves propres : i
 
 ## GitHub
 
-Les contrôles locaux sont terminés. La PR et la CI GitHub sont en cours de préparation ; leurs coordonnées et résultats seront consignés avant livraison finale.
+PR unique créée : [Audit Amazon.ca links and add distinct 3M 2091 profile — nº 17](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/pull/17).
+
+Le commit fonctionnel `3a1277668acd6c9c09f238e438fdcc96d8c41002` a passé la [CI Validate Astro site, exécution 40988436007](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/40988436007) : **success**. Les journaux terminés confirment 55 tests unitaires, 74 tests navigateur, l’audit sans anomalie technique des URL et 37 pages / 1 201 références internes / cinq URL sitemap. Les autres étapes Astro, médias, état commercial, scénarios produits et build ont également réussi sur Ubuntu.
+
+Ce résultat concerne le commit fonctionnel nommé. Le commit documentaire suivant consigne seulement les coordonnées de livraison et cette preuve CI ; la CI du dernier commit est également contrôlée et liée dans la description de la PR avant livraison finale.
+
+La livraison technique est prête pour revue avec les **21 liens autorisés fonctionnels dans le build**, les 29 anciennes fiches inchangées et le 2091 distinct. Les trois activations prioritaires demeurent conditionnées aux preuves d’annonce et de quantité explicitement manquantes ; leur absence n’est pas présentée comme un problème de code corrigé.
 
 Aucune fusion ni aucun déploiement automatique. Le site public ne reçoit le nouveau 2091 qu’après revue, fusion approuvée et déclenchement explicite du workflow de publication.
