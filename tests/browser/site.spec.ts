@@ -5,7 +5,7 @@ import { mkdirSync } from 'node:fs';
 const routes = ['/', '/blackout/', '/fallout/', '/outbreak/', '/gear/', '/affiliate-disclosure/', '/404.html'];
 for (const route of routes) {
   test(`${route === '/' ? 'homepage' : route} accessibility and responsive layout`, async ({ page }) => {
-    if (route === '/gear/') test.setTimeout(60_000); // Six axe audits of the full 26-card catalogue.
+    if (route === '/gear/') test.setTimeout(60_000); // Six axe audits of the full 29-card catalogue.
     const errors: string[] = [];
     page.on('pageerror', (error) => errors.push(error.message));
     await page.goto(route);

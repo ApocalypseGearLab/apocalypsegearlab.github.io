@@ -1,0 +1,162 @@
+{
+  "name": "3M 60921 Organic Vapor/P100 Cartridge Filters",
+  "brand": "3M",
+  "modelNumber": "60921",
+  "category": "respiratory-protection",
+  "summary": "Combined organic-vapor cartridges and P100 filters for compatible 3M bayonet respirators. Select them for an identified hazard; they are not multi-gas cartridges or an oxygen source.",
+  "description": "The 60921 combines a gas/vapor cartridge with a P100 particulate filter. Its documented scope covers certain organic vapors and oil or non-oil airborne particles when the complete respirator is properly selected and fitted. On a compatible 6800 full facepiece, use a matching pair in the approved configuration. The Canadian offer is recorded as a pair, but its actual model, seller and package quantity have not been independently verified.",
+  "specs": [
+    {
+      "label": "Model / filter class",
+      "value": "3M 60921; P100 particulate filter combined with a chemical cartridge. Manufacturer designation, not authentication of the listed unit",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/"
+    },
+    {
+      "label": "Protection scope",
+      "value": "P100 particulate filtration combined with protection against certain organic vapors in an approved respirator assembly.",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/"
+    },
+    {
+      "label": "Compatible respirators",
+      "value": "3M bayonet 6000-series full facepieces, including 6800 Medium, in configurations covered by the applicable instructions and approval label; mechanical fit alone does not establish hazard suitability",
+      "source": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+    },
+    {
+      "label": "Components in use",
+      "value": "Two matching filters or cartridges on the facepiece; replace as instructed. This is the assembly count, not a verified Amazon package quantity",
+      "source": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+    },
+    {
+      "label": "Service and replacement",
+      "value": "Use before expiration and follow an established cartridge change schedule; leave the contaminated area if damaged, soiled or breathing becomes difficult. No universal service life is promised",
+      "source": "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf"
+    },
+    {
+      "label": "Air supply / exclusions",
+      "value": "Supplies no oxygen; not for oxygen-deficient, unknown or immediately dangerous to life or health (IDLH) atmospheres",
+      "source": "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf"
+    }
+  ],
+  "pros": [
+    "Combines the documented chemical-cartridge scope and P100 particulate filtration in one component.",
+    "Manufacturer installation and replacement instructions are available for the exact model family."
+  ],
+  "cons": [
+    "Organic-vapor scope does not make the 60921 a multi-gas cartridge; do not substitute it for a cartridge selected for acid gases or other unlisted hazards.",
+    "Requires a compatible facepiece, matching components, fit testing, training and a user seal check; a seal check does not replace a fit test.",
+    "The Canadian listing, genuine supply, package quantity, delivered lot and expiration remain unverified."
+  ],
+  "useCases": [
+    "Compare cartridge scope against an identified occupational chemical and particulate hazard with a competent respiratory-protection professional.",
+    "Plan approved components, inspection, fit and replacement procedures before entering any assessed work area."
+  ],
+  "sources": [
+    {
+      "id": "3m-model",
+      "title": "3M Canada: 60921 model specifications (manufacturer case, not Amazon sale pack)",
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-filter-instructions",
+      "title": "3M 6000-series combination cartridge/filter user instructions",
+      "url": "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-6800-instructions",
+      "title": "3M 6000 full-facepiece instructions: 6800 compatibility, two-component installation and limits",
+      "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "3m-6800-full-facepiece-respirator",
+    "3m-60926-multi-gas-vapor-p100-cartridges",
+    "3m-2097-p100-particulate-filters"
+  ],
+  "image": {
+    "src": "/images/outbreak/3m-60921-outbreak.webp",
+    "alt": "Concept illustration of two pink 3M 60921-style cartridge filters with black bands in a green OUTBREAK inventory frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 4.6 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded offer: One pair (two cartridges). Quantity not independently verified and not inferred from the image or 3M case packaging."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B07571LR2K?tag=apocalypsegear-20",
+      "asin": "B07571LR2K"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-29",
+    "identityNotes": "Primary 3M model specifications and exact family instructions reviewed. Canadian offer not retrieved; ASIN/model and sale-pack quantity are owner-recorded, not independently verified. No physical test or seller authentication is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "3M documents 60921: P100 particulate filtration combined with protection against certain organic vapors in an approved respirator assembly.",
+        "sourceIds": [
+          "3m-model"
+        ]
+      },
+      {
+        "text": "The 6800 facepiece instructions list this reference and describe installing a second matching filter/cartridge. Applicable approvals and hazard selection still govern the complete assembly.",
+        "sourceIds": [
+          "3m-6800-instructions"
+        ]
+      },
+      {
+        "text": "Organic-vapor scope does not make the 60921 a multi-gas cartridge; do not substitute it for a cartridge selected for acid gases or other unlisted hazards.",
+        "sourceIds": [
+          "3m-filter-instructions"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The recorded offer is one pair (two cartridges), but ASIN/model correspondence and actual Canadian package quantity remain unverified."
+    ],
+    "safetyNotes": [
+      "Organic-vapor scope does not make the 60921 a multi-gas cartridge; do not substitute it for a cartridge selected for acid gases or other unlisted hazards.",
+      "These air-purifying components supply no oxygen. Do not use in oxygen-deficient, unknown or immediately dangerous to life or health (IDLH) atmospheres.",
+      "Use two matching compatible components on the 3M 6800 only as an approved assembly selected for the assessed contaminant and concentration; mechanical compatibility is not hazard suitability.",
+      "Correct fit, required fit testing, training and a user seal check are essential. Facial hair or damaged parts can compromise the seal.",
+      "No universal protection against radiation, biological agents or chemical weapons is established. Particle filtration does not shield ionizing radiation or eliminate infection risk. This is not a CBRN escape system.",
+      "Check genuine supply, labels, package integrity and expiration. Follow the delivered manufacturer instructions, change schedule and applicable respiratory-protection program."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Canadian ASIN/model and exact package quantity need independent verification.",
+      "Complete the delivered-variant, approved-assembly and safety review before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B07571LR2K",
+      "checkedAt": "2026-10-29",
+      "reason": "Canadian ASIN B07571LR2K: verify genuine 3M 60921 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "sourceIds": [
+        "3m-model",
+        "3m-6800-instructions"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Verify B07571LR2K is genuine 3M 60921, not a generic or different variant, and confirm one pair (two cartridges) in the selected current offer.",
+      "Confirm the approved facepiece/component configuration and suitability for the assessed hazard with a competent professional.",
+      "Inspect unopened packaging, genuine identifiers and expiration; follow the actual instructions before use."
+    ]
+  }
+}

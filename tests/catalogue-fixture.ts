@@ -15,4 +15,9 @@ export const PHASE43_FALLOUT = {
   'datrex-dx2400f-emergency-food-ration':['B08T57RVBY','food-rations'],
   'sos-3600-calorie-emergency-food-rations':['B00W20PIHQ','food-rations'],
 } as const;
+export const PHASE46_FILTERS = {
+  '3m-60921-organic-vapor-p100-cartridges':['B07571LR2K','respiratory-protection'],
+  '3m-60926-multi-gas-vapor-p100-cartridges':['B009POHLRC','respiratory-protection'],
+  '3m-2097-p100-particulate-filters':['B07FMJPFTY','respiratory-protection'],
+} as const;
 export const ACTIVE_PRODUCTS = ['jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration','fnirsi-gc-01-geiger-counter','midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket',...Object.keys(OUTBREAK)];

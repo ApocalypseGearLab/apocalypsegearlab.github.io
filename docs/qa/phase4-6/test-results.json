@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-29",
+  "scope": "Local production build, localhost Chromium, automatic axe checks and emulated viewports; no live Amazon offer or physical respirator test",
+  "runtime": {
+    "node": "22.23.4",
+    "npm": "10.9.9"
+  },
+  "astro": {
+    "files": 65,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 50,
+    "failed": 0
+  },
+  "media": {
+    "mappings": 29,
+    "approvedIllustrations": 28,
+    "rejectedIllustrations": 1,
+    "newSourceImages": 3,
+    "newWebpVariants": 9,
+    "originalBytes": 7705420,
+    "fullSizeWebpBytes": 862708,
+    "allVariantBytes": 1618238,
+    "fullSizeReductionPercent": 88.8,
+    "existingMediaRecompressed": false
+  },
+  "production": {
+    "htmlPages": 36,
+    "internalReferences": 1161,
+    "sitemapUrls": 5,
+    "profiles": 29,
+    "blackout": 9,
+    "fallout": 9,
+    "outbreak": 11,
+    "activeAmazonLinks": 21,
+    "heldAmazonLinks": 8,
+    "finalAmazonApprovalConfirmed": false
+  },
+  "browser": {
+    "passed": 71,
+    "failed": 0,
+    "isolatedSimulatedNewTabs": 63,
+    "liveAmazonTraffic": false,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "accessibility": "axe WCAG2 A/AA and WCAG2.1 AA checks in the existing suite; no manual WCAG certification"
+  },
+  "commands": [
+    "npm run check",
+    "npm test",
+    "npm run test:images",
+    "npm run test:products",
+    "npm run build",
+    "npm run test:site",
+    "npm run test:browser",
+    "node --import tsx scripts/release-check.ts"
+  ],
+  "captures": [
+    {
+      "file": "docs/qa/phase4-6/card-60921-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 833,
+      "bytes": 136736
+    },
+    {
+      "file": "docs/qa/phase4-6/card-60926-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 858,
+      "bytes": 141138
+    },
+    {
+      "file": "docs/qa/phase4-6/card-2097-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 864,
+      "bytes": 165186
+    },
+    {
+      "file": "docs/qa/phase4-6/compatible-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 3180,
+      "bytes": 448132
+    },
+    {
+      "file": "docs/qa/phase4-6/card-60921-1440.webp",
+      "viewportWidth": 1440,
+      "width": 270,
+      "height": 939,
+      "bytes": 92206
+    },
+    {
+      "file": "docs/qa/phase4-6/card-60926-1440.webp",
+      "viewportWidth": 1440,
+      "width": 270,
+      "height": 939,
+      "bytes": 95014
+    },
+    {
+      "file": "docs/qa/phase4-6/card-2097-1440.webp",
+      "viewportWidth": 1440,
+      "width": 270,
+      "height": 939,
+      "bytes": 107314
+    },
+    {
+      "file": "docs/qa/phase4-6/compatible-1440.webp",
+      "viewportWidth": 1440,
+      "width": 1152,
+      "height": 1248,
+      "bytes": 549430
+    }
+  ]
+}

@@ -1262,6 +1262,213 @@
         "crop": false
       },
       "mappingCsv": "assets/media/phase4-3-image-manifest.csv"
+    },
+    {
+      "id": "3m-60921-outbreak",
+      "category": "outbreak",
+      "productId": "3m-60921-organic-vapor-p100-cartridges",
+      "usage": "current-product",
+      "sourceOriginalName": "Cartouches 3M 60921 dans la brume néon.png",
+      "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-60921-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 227560,
+      "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+          "src": "/images/outbreak/3m-60921-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 52086,
+          "sha256": "fcd18927bdcb2e39f36307cbf24ba843bb952c50af654346225f1a6e4c73ead7"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+          "src": "/images/outbreak/3m-60921-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 156900,
+          "sha256": "3fcb38f8351cf9251b0e6054204c4a82dc147edf985a04c6a30b19977793215f"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+          "src": "/images/outbreak/3m-60921-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 227560,
+          "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2"
+        }
+      ],
+      "alt": "Concept illustration of two pink 3M 60921-style cartridge filters with black bands in a green OUTBREAK inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Two swept-back pink cartridge/filter housings, black organic-vapor bands, pale bases and 60921 model marks retained. Synthetic small print and NIOSH lettering are not authentic approval labels, service-life evidence or seller authentication.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/",
+        "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.6 work order explicitly supplies these final PNGs and instructs their site integration.",
+        "scope": "The owner explicitly supplies these three final images and instructs their use on the site. This records site-integration authorization only, not an independent chain-of-title audit, manufacturer endorsement or authentic labels.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Cartouches 3M 60921 dans la brume néon.png",
+        "bytes": 2261170,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "3d3043ee1ee38a3655f4f97ac221e26ffeb2756706b5f48f940c5ed124696e71"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-6-image-manifest.csv"
+    },
+    {
+      "id": "3m-60926-outbreak",
+      "category": "outbreak",
+      "productId": "3m-60926-multi-gas-vapor-p100-cartridges",
+      "usage": "current-product",
+      "sourceOriginalName": "Cartouches 3M 60926 dans la brume néon.png",
+      "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-60926-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 229298,
+      "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+          "src": "/images/outbreak/3m-60926-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 52790,
+          "sha256": "2f1cedf82400ebd968c1e6c541a6f2e051966563a3d280fa14989b4642fe2aa2"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+          "src": "/images/outbreak/3m-60926-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 159818,
+          "sha256": "d6934859b4821590a8a8187394d619ea82e4392dcb043e75ffa9b2e2b7df7e6b"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+          "src": "/images/outbreak/3m-60926-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 229298,
+          "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589"
+        }
+      ],
+      "alt": "Concept illustration of two pink 3M 60926-style cartridge filters with olive-yellow bands in a green OUTBREAK inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Two pink swept-back housings with olive/yellow multi-gas bands, pale bases and 60926 markings retained. Generated fine print and certification-style markings are illustrative, not proof of an approved or genuine delivered assembly.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000057497/",
+        "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.6 work order explicitly supplies these final PNGs and instructs their site integration.",
+        "scope": "The owner explicitly supplies these three final images and instructs their use on the site. This records site-integration authorization only, not an independent chain-of-title audit, manufacturer endorsement or authentic labels.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Cartouches 3M 60926 dans la brume néon.png",
+        "bytes": 2222687,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "8ac9659b8056da750b57c3ac059db5f664b58796727d2e6fa2d33940b81c4a27"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-6-image-manifest.csv"
+    },
+    {
+      "id": "3m-2097-outbreak",
+      "category": "outbreak",
+      "productId": "3m-2097-p100-particulate-filters",
+      "usage": "current-product",
+      "sourceOriginalName": "Filtres 3M 2097 sous néons futuristes.png",
+      "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-2097-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 405850,
+      "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+          "src": "/images/outbreak/3m-2097-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 71724,
+          "sha256": "b043cedd7ea0110b19d6273555af4dfb09c60cad35e0fc2c15d68c9aa826c6bd"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+          "src": "/images/outbreak/3m-2097-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 262212,
+          "sha256": "2506c57e2bc9c30bc08779da33677c0710083394ebf0b986a86e504120b0d415"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+          "src": "/images/outbreak/3m-2097-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 405850,
+          "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4"
+        }
+      ],
+      "alt": "Concept illustration of ten pink 3M 2097-style round filters in a green OUTBREAK inventory frame; pictured quantity is not a verified sale pack",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Ten circular pink 2097-style filters counted in five visual pairs. Repeated or distorted batch/date/NIOSH markings are synthetic and not evidence of authenticity, expiration, approval or the quantity actually sold under the ASIN.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/",
+        "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.6 work order explicitly supplies these final PNGs and instructs their site integration.",
+        "scope": "The owner explicitly supplies these three final images and instructs their use on the site. This records site-integration authorization only, not an independent chain-of-title audit, manufacturer endorsement or authentic labels.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Filtres 3M 2097 sous néons futuristes.png",
+        "bytes": 3221563,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "c1b2ca49870c3752f91ab31c4d1b6476f99c41d1d40a7c61421fd6b3e4160ace"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-6-image-manifest.csv"
     }
   ]
 }

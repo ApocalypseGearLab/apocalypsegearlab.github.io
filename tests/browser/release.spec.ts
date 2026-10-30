@@ -24,7 +24,7 @@ test('production restores the authorized bunker while enforcing artwork permissi
   }
   for (const route of ['/review/gear/', '/review/blackout/']) expect((await request.get(route)).status()).toBe(404);
   await page.goto('/gear/?view=release');
-  await expect(page.locator('article.card')).toHaveCount(26);
+  await expect(page.locator('article.card')).toHaveCount(29);
   await expect(page.locator('a[data-affiliate-click]')).toHaveCount(21);
   for (const slug of candidates) {
     await page.goto(`/gear/${slug}/`);

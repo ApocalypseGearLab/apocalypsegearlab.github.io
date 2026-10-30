@@ -1,0 +1,208 @@
+{
+  "reviewedAt": "2026-10-29",
+  "baseCommit": "f027d539fd2b4621fc55ec4b103dcdc63245d0ee",
+  "priorPr": {
+    "number": 15,
+    "merged": true,
+    "mergeCommit": "f027d539fd2b4621fc55ec4b103dcdc63245d0ee"
+  },
+  "before": {
+    "products": 26,
+    "blackout": 9,
+    "fallout": 9,
+    "outbreak": 8,
+    "active": 21,
+    "held": 5
+  },
+  "amazonMethod": "public-reader-unavailable",
+  "amazonScope": "All three canonical Amazon.ca /dp/ URLs were attempted with the public web reader. No current listing or quantity was retrieved. Search/manufacturer case quantities and illustrations do not verify the Canadian sale pack. All three new CTAs remain held under the explicit Phase 4.6 requirement.",
+  "imagesScope": "The owner explicitly supplies these three final images and instructs their use on the site. This records site-integration authorization only, not an independent chain-of-title audit, manufacturer endorsement or authentic labels.",
+  "products": [
+    {
+      "slug": "3m-60921-organic-vapor-p100-cartridges",
+      "model": "60921",
+      "asin": "B07571LR2K",
+      "url": "https://www.amazon.ca/dp/B07571LR2K?tag=apocalypsegear-20",
+      "ownerReportedQuantity": "One pair (two cartridges)",
+      "independentlyVerifiedQuantity": null,
+      "cta": "hold",
+      "reason": "Canadian ASIN B07571LR2K: verify genuine 3M 60921 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "manufacturerSources": [
+        {
+          "id": "3m-model",
+          "title": "3M Canada: 60921 model specifications (manufacturer case, not Amazon sale pack)",
+          "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-filter-instructions",
+          "title": "3M 6000-series combination cartridge/filter user instructions",
+          "url": "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-6800-instructions",
+          "title": "3M 6000 full-facepiece instructions: 6800 compatibility, two-component installation and limits",
+          "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "image": {
+        "source": "Cartouches 3M 60921 dans la brume néon.png",
+        "sourceSha256": "3d3043ee1ee38a3655f4f97ac221e26ffeb2756706b5f48f940c5ed124696e71",
+        "sourceBytes": 2261170,
+        "variants": [
+          {
+            "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+            "src": "/images/outbreak/3m-60921-outbreak-480.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 52086,
+            "sha256": "fcd18927bdcb2e39f36307cbf24ba843bb952c50af654346225f1a6e4c73ead7"
+          },
+          {
+            "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+            "src": "/images/outbreak/3m-60921-outbreak-960.webp",
+            "width": 960,
+            "height": 960,
+            "bytes": 156900,
+            "sha256": "3fcb38f8351cf9251b0e6054204c4a82dc147edf985a04c6a30b19977793215f"
+          },
+          {
+            "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+            "src": "/images/outbreak/3m-60921-outbreak.webp",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 227560,
+            "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2"
+          }
+        ],
+        "visualReview": "Two swept-back pink cartridge/filter housings, black organic-vapor bands, pale bases and 60921 model marks retained. Synthetic small print and NIOSH lettering are not authentic approval labels, service-life evidence or seller authentication."
+      }
+    },
+    {
+      "slug": "3m-60926-multi-gas-vapor-p100-cartridges",
+      "model": "60926",
+      "asin": "B009POHLRC",
+      "url": "https://www.amazon.ca/dp/B009POHLRC?tag=apocalypsegear-20",
+      "ownerReportedQuantity": "One pair (two cartridges)",
+      "independentlyVerifiedQuantity": null,
+      "cta": "hold",
+      "reason": "Canadian ASIN B009POHLRC: verify genuine 3M 60926 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "manufacturerSources": [
+        {
+          "id": "3m-model",
+          "title": "3M Canada: 60926 model specifications (manufacturer case, not Amazon sale pack)",
+          "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057497/",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-filter-instructions",
+          "title": "3M 6000-series combination cartridge/filter user instructions",
+          "url": "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-6800-instructions",
+          "title": "3M 6000 full-facepiece instructions: 6800 compatibility, two-component installation and limits",
+          "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "image": {
+        "source": "Cartouches 3M 60926 dans la brume néon.png",
+        "sourceSha256": "8ac9659b8056da750b57c3ac059db5f664b58796727d2e6fa2d33940b81c4a27",
+        "sourceBytes": 2222687,
+        "variants": [
+          {
+            "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+            "src": "/images/outbreak/3m-60926-outbreak-480.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 52790,
+            "sha256": "2f1cedf82400ebd968c1e6c541a6f2e051966563a3d280fa14989b4642fe2aa2"
+          },
+          {
+            "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+            "src": "/images/outbreak/3m-60926-outbreak-960.webp",
+            "width": 960,
+            "height": 960,
+            "bytes": 159818,
+            "sha256": "d6934859b4821590a8a8187394d619ea82e4392dcb043e75ffa9b2e2b7df7e6b"
+          },
+          {
+            "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+            "src": "/images/outbreak/3m-60926-outbreak.webp",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 229298,
+            "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589"
+          }
+        ],
+        "visualReview": "Two pink swept-back housings with olive/yellow multi-gas bands, pale bases and 60926 markings retained. Generated fine print and certification-style markings are illustrative, not proof of an approved or genuine delivered assembly."
+      }
+    },
+    {
+      "slug": "3m-2097-p100-particulate-filters",
+      "model": "2097",
+      "asin": "B07FMJPFTY",
+      "url": "https://www.amazon.ca/dp/B07FMJPFTY?tag=apocalypsegear-20",
+      "ownerReportedQuantity": "Five pairs (ten filters)",
+      "independentlyVerifiedQuantity": null,
+      "cta": "hold",
+      "reason": "Canadian ASIN B07FMJPFTY: verify genuine 3M 2097 and the current five pairs (ten filters) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "manufacturerSources": [
+        {
+          "id": "3m-model",
+          "title": "3M Canada: 2097 model specifications (manufacturer case, not Amazon sale pack)",
+          "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-filter-instructions",
+          "title": "3M 2000/2200-series particulate user instructions",
+          "url": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "3m-6800-instructions",
+          "title": "3M 6000 full-facepiece instructions: 6800 compatibility, two-component installation and limits",
+          "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+          "kind": "manufacturer"
+        }
+      ],
+      "image": {
+        "source": "Filtres 3M 2097 sous néons futuristes.png",
+        "sourceSha256": "c1b2ca49870c3752f91ab31c4d1b6476f99c41d1d40a7c61421fd6b3e4160ace",
+        "sourceBytes": 3221563,
+        "variants": [
+          {
+            "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+            "src": "/images/outbreak/3m-2097-outbreak-480.webp",
+            "width": 480,
+            "height": 480,
+            "bytes": 71724,
+            "sha256": "b043cedd7ea0110b19d6273555af4dfb09c60cad35e0fc2c15d68c9aa826c6bd"
+          },
+          {
+            "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+            "src": "/images/outbreak/3m-2097-outbreak-960.webp",
+            "width": 960,
+            "height": 960,
+            "bytes": 262212,
+            "sha256": "2506c57e2bc9c30bc08779da33677c0710083394ebf0b986a86e504120b0d415"
+          },
+          {
+            "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+            "src": "/images/outbreak/3m-2097-outbreak.webp",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 405850,
+            "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4"
+          }
+        ],
+        "visualReview": "Ten circular pink 2097-style filters counted in five visual pairs. Repeated or distorted batch/date/NIOSH markings are synthetic and not evidence of authenticity, expiration, approval or the quantity actually sold under the ASIN."
+      }
+    }
+  ]
+}
