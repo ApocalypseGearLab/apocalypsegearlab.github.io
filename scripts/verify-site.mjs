@@ -55,6 +55,8 @@ for (const [file, $] of documents) {
     assert.equal(link.attr('href'), state.url);
     assert.equal(link.attr('target'), '_blank');
     assert.equal(link.attr('rel'), 'sponsored nofollow noopener');
+    assert.equal(link.attr('data-merchant'), 'amazon-ca', 'Keep the merchant tracking key');
+    assert.equal(link.attr('data-marketplace'), 'ca', 'Keep the Canadian marketplace tracking key');
     assert.ok(link.closest('.card-purchase, [data-product-purchase]').find('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'), 'Disclosure required next to each active button');
   });
   $('article.card[data-product-id]').each((_, element) => {

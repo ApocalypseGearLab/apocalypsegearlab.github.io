@@ -2,11 +2,13 @@
 import { productMedia, mediaUrl, mediaSrcset } from '../lib/media';
 import { assetReview, canDisplayProductArtwork } from '../lib/media-policy';
 import { importedArtwork, canPublishImportedAsset } from '../lib/imported-media';
+import type { UniverseId } from '../config/taxonomy';
 
-interface Props { slug: string; label?: string; detail?: boolean; releasePreview?: boolean }
-const { slug, label = 'Equipment profile', detail = false, releasePreview = false } = Astro.props;
+interface Props { slug: string; label?: string; detail?: boolean; releasePreview?: boolean; universe?: UniverseId }
+const { slug, label = 'Equipment profile', detail = false, releasePreview = false, universe = 'blackout' } = Astro.props;
 const supplied = importedArtwork(slug);
-const imageAccent = supplied?.category === 'fallout' ? '240 123 118' : supplied?.category === 'outbreak' ? '182 245 102' : '245 166 35';
+const mediaUniverse = supplied?.category ?? universe;
+const imageAccent = mediaUniverse === 'fallout' ? '240 123 118' : mediaUniverse === 'outbreak' ? '182 245 102' : '245 166 35';
 const asset = supplied ? {
   alt: supplied.alt, identityNote: supplied.reviewNote,
   variants: ('variants' in supplied && supplied.variants) || [{ src: supplied.deliverySrc, width: supplied.width, height: supplied.height }],

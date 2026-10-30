@@ -8,12 +8,13 @@ import { categoryUniverse } from '../src/config/taxonomy';
 import { getMerchantLinks, canadianAffiliateIssues } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 
-import { OUTBREAK, PHASE43_FALLOUT, PHASE46_FILTERS } from './catalogue-fixture';
+import { OUTBREAK, PHASE43_FALLOUT, PHASE46_FILTERS, FILTER_2091 } from './catalogue-fixture';
 import { productCaution } from '../src/lib/release-policy';
 import { productCaution as filterCaution, COMPATIBLE_3M_FILTERS } from '../src/lib/respirator-filters';
 const expected = {
   ...OUTBREAK,
   ...PHASE46_FILTERS,
+  ...FILTER_2091,
   ...PHASE43_FALLOUT,
   'jackery-explorer-1000-v2': ['B0D7PPG25F', 'power-stations'],
   'ecoflow-river-2-pro': ['B0BVLPGS79', 'power-stations'],
@@ -32,6 +33,31 @@ const expected = {
 } as const;
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
+
+test('2091 is a separate particulate-only record with the exact ASIN and neutral artwork, not a relabelled 2097',()=>{
+  const id='3m-2091-p100-particulate-filters',data=productSchema.parse(rawProducts.get(id));
+  assert.equal(data.modelNumber,'2091');assert.equal(data.links.amazonCa.asin,'B001D1JCK4');
+  assert.equal(data.links.amazonCa.url,'https://www.amazon.ca/dp/B001D1JCK4?tag=apocalypsegear-20');
+  assert.equal(data.image,null);assert.equal(data.research!.affiliateReview!.decision,'hold');
+  assert.equal(data.research!.listingVerified,false);assert.equal(data.research!.listingEvidence,undefined);
+  assert.match(data.summary,/no documented nuisance-level organic-vapor relief/);
+  assert.match(data.research!.affiliateReview!.reason,/sale-pack quantity/);
+  assert.equal(data.reviewStatus,'draft');assert.equal(data.testing,'not-tested');
+  assert.equal(data.research!.publicationApproved,false);assert.equal(data.lastVerified,null);
+  assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,null);
+  assert.equal(productStructuredData({id,data} as Product,site),undefined);
+  assert.equal(rawProducts.get('3m-2097-p100-particulate-filters').links.amazonCa.asin,'B07FMJPFTY');
+  assert.ok(COMPATIBLE_3M_FILTERS.some(f=>f.id===id&&f.model==='2091'));
+  assert.ok(data.relatedProducts.includes('3m-6800-full-facepiece-respirator'));
+});
+
+test('the catalogue audit preserves every previous product, artwork, affiliate policy and commercial decision',()=>{
+  const baseline=JSON.parse(readFileSync('docs/qa/affiliate-audit/preservation.json','utf8'));
+  assert.equal(baseline.baseCommit,'836f7e10dae4b381a2d6c51607165509d4996bc4');
+  assert.equal(baseline.products.length,30,'All 29 previous products and the internal template');
+  for(const p of baseline.products)assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
+  for(const p of baseline.files){const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);}
+});
 
 for (const [id, [asin]] of Object.entries(PHASE46_FILTERS)) test(`${id} keeps exact identity, distinct respiratory limits and an unverified-quantity hold`, () => {
   const data = productSchema.parse(rawProducts.get(id));
@@ -295,7 +321,7 @@ test('remaining product holds cannot be bypassed by setting unrelated editorial 
   }
 });
 
-test('twenty-nine registered links retain exact identities and obey product-level evidence decisions', () => {
+test('thirty registered links retain exact identities and obey product-level evidence decisions', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -304,7 +330,7 @@ test('twenty-nine registered links retain exact identities and obey product-leve
     assert.equal(data.links.amazonCa.url, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
     assert.equal(new URL(data.links.amazonCa.url!).searchParams.getAll('tag').length, 1);
     assert.equal(data.category, category);
-    assert.equal(categoryUniverse(data.category), slug in OUTBREAK || slug in PHASE46_FILTERS ? 'outbreak' : ['water','first-aid','tools','shelter','food-storage','food-rations','radiation-detection'].includes(category) ? 'fallout' : 'blackout');
+    assert.equal(categoryUniverse(data.category), slug in OUTBREAK || slug in PHASE46_FILTERS || slug in FILTER_2091 ? 'outbreak' : ['water','first-aid','tools','shelter','food-storage','food-rations','radiation-detection'].includes(category) ? 'fallout' : 'blackout');
     assert.equal(data.testing, 'not-tested');
     assert.equal(data.reviewStatus, 'draft');
     assert.equal(data.visibility, 'informational');
@@ -341,7 +367,7 @@ test('slugs, ASINs and related records are unique and refer to existing products
       assert.ok(rawProducts.has(related), `${slug} -> ${related}`);
     }
   }
-  assert.equal(asins.size, 29);
+  assert.equal(asins.size, 30);
 });
 
 test('Kidde and INIU remain blocked and cannot be published by changing only editorial status', () => {
@@ -416,15 +442,15 @@ test('OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits
   }
 });
 
-test('Catalogue has nine BLACKOUT, nine FALLOUT and eleven OUTBREAK profiles with substantive original content', () => {
+test('Catalogue has nine BLACKOUT, nine FALLOUT and twelve OUTBREAK profiles with substantive original content', () => {
   const products = [...rawProducts].filter(([,raw]) => raw.visibility === 'informational');
-  assert.equal(products.length, 29);
+  assert.equal(products.length, 30);
   const universes = products.map(([,raw]) => categoryUniverse(productSchema.parse(raw).category));
   assert.equal(universes.filter(id => id === 'blackout').length, 9);
   assert.equal(universes.filter(id => id === 'fallout').length, 9);
-  assert.equal(universes.filter(id => id === 'outbreak').length, 11);
-  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size, 29);
-  assert.equal(new Set(products.map(([,raw]) => raw.description)).size, 29);
+  assert.equal(universes.filter(id => id === 'outbreak').length, 12);
+  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size, 30);
+  assert.equal(new Set(products.map(([,raw]) => raw.description)).size, 30);
   for (const id of ['fenix-hm50r-v2-headlamp','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','nanuk-904-first-aid-kit','leatherman-wave-plus-multitool','sol-emergency-bivvy']) {
     const raw = rawProducts.get(id);
     assert.ok(raw.editorial.purchaseChecks.length >= 3, id);

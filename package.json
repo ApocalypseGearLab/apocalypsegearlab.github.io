@@ -18,7 +18,8 @@
     "test:browser": "node scripts/prepare-browser-fixtures.mjs && playwright test",
     "images:build": "node scripts/optimize-images.mjs",
     "test:images": "node scripts/verify-images.mjs",
-    "release:check": "tsx scripts/release-check.ts"
+    "release:check": "tsx scripts/release-check.ts",
+    "audit:affiliate": "tsx scripts/audit-affiliate-links.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

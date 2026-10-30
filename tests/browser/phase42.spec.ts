@@ -1,9 +1,9 @@
 import {test,expect} from '@playwright/test';
 import {OUTBREAK} from '../catalogue-fixture';
 
-test('OUTBREAK has eleven green inventory cards with eight active links, compact disclosures and small readable concept captions',async({page,request,browser})=>{
+test('OUTBREAK has twelve green inventory cards with eight active links, compact disclosures and small readable concept captions',async({page,request,browser})=>{
   await page.goto('/outbreak/');
-  await expect(page.locator('article.card')).toHaveCount(11);
+  await expect(page.locator('article.card')).toHaveCount(12);
   await expect(page.locator('article.card img')).toHaveCount(11);
   await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(8);
   for(const id of Object.keys(OUTBREAK)) {

@@ -69,7 +69,7 @@ const breadcrumbs = {
       {!indexable && <p>This is an editorial preview, not a published recommendation. Source review does not mean the product was physically tested or certified by us.</p>}
     </aside>}
 
-    <ProductImage releasePreview={releasePreview} slug={product.id} label={categoryLabel(data.category)} detail />
+    <ProductImage releasePreview={releasePreview} slug={product.id} label={categoryLabel(data.category)} universe={universe.id} detail />
 
     {data.description && <section><h2>Overview</h2><p>{data.description}</p></section>}
 

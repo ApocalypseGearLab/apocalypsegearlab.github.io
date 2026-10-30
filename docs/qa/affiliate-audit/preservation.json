@@ -1,0 +1,617 @@
+{
+  "baseCommit": "836f7e10dae4b381a2d6c51607165509d4996bc4",
+  "products": [
+    {
+      "file": "src/data/products/3m-2097-p100-particulate-filters.json",
+      "sha256Canonical": "b834f8369eb9de08fa0550f17df892b89e33400730eb42ab27124a1aac75c893"
+    },
+    {
+      "file": "src/data/products/3m-60921-organic-vapor-p100-cartridges.json",
+      "sha256Canonical": "b707e70bd80e6f542586f40484f1484d3e4a38fe5d6beef1d2057b4d2e2e6057"
+    },
+    {
+      "file": "src/data/products/3m-60926-multi-gas-vapor-p100-cartridges.json",
+      "sha256Canonical": "9da9ede934258c6b2ee3ed6b3a103f1f03902f58aede5d4662cf1543f58470e7"
+    },
+    {
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "sha256Canonical": "ae3e0236c34b7a07a3843d0deacaac81e998efeef2770783c951a41504f3ff9e"
+    },
+    {
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "sha256Canonical": "fb33a18a9a2f5efc9fd103ca4f19693119b3c7457e8f82b0e796f36b30555d50"
+    },
+    {
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "sha256Canonical": "908908efd973ff2525c1830727225e90783254e865a1f81437ebbcb8643b75c3"
+    },
+    {
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "sha256Canonical": "d5600500dd766ed00761b06ac6a0883bcb8b2528c20c6e198fa2585b29210c54"
+    },
+    {
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "sha256Canonical": "69651ba58bf72b4c13de60c83f014f8f268bdb4953f2d0982dbf80e2b7d16800"
+    },
+    {
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "sha256Canonical": "038dbb80c4fdcf41fdd55712b7539fdde27c79278827aad39f77ba8e937591ca"
+    },
+    {
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "sha256Canonical": "dffc85253e48975a36a38a61b7404e4133ebf3bb483cd69642bc06b317b797e8"
+    },
+    {
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "sha256Canonical": "93d49088d2381bacf9dc8710d95434bda0eaa9358c37d93236f5a69ab8bb6a8c"
+    },
+    {
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "sha256Canonical": "740606c8d2fc8639564358c1b76dbcd9c318c27239d35ac0110fbcc5c90d5760"
+    },
+    {
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "sha256Canonical": "5de4eb9c16e2d2cb3820b6ae6bd8a4ca9876bd643fb449fab0a3908f4d097843"
+    },
+    {
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "sha256Canonical": "90e88d95f706bb92e375fed7ae34dbf14065fa99b4805caaae70343ba3413f2d"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "sha256Canonical": "40815930374b45578e33fa19ba86f4dfc262764307fbaad5eabaf498ecdfaa79"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-300.json",
+      "sha256Canonical": "e8282f82a90c3985cbd99fc44759c4d1153c7f419d9207dd59562439de77b1f0"
+    },
+    {
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "sha256Canonical": "d701bc868e170cd6bdfcdaaf5901523060a100a5d7bfb9724839f98fbab500cf"
+    },
+    {
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "sha256Canonical": "7a0a0ec29cd38abef60bcd99d15a3ab04533db0cba7c0628d53ee9469ad4694a"
+    },
+    {
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "sha256Canonical": "81ddf58fed82dcbc25d0e91fcbdf7d35225d3bbced06a108e8710b78831a7fc0"
+    },
+    {
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "sha256Canonical": "40a161cb468bf97233e328c7bf1a64d698fa71abd1dc4624573e4a39e46c66d5"
+    },
+    {
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "sha256Canonical": "0d558ddb64dc1a558c8780914fcd207fb4452f585ff7e4857ee81639da0b11d4"
+    },
+    {
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "sha256Canonical": "4752ba53301c7354005cb174ba83b568c3d12003d8fa1ab3e10f05a39341fb5d"
+    },
+    {
+      "file": "src/data/products/midland-er310.json",
+      "sha256Canonical": "3fb2e8b57d71c6eb5fe248fc02ef54b11608ae4fbb3b99a1d69b819fa83cfb2d"
+    },
+    {
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "sha256Canonical": "51300bf544f2aab41ff73ae67fc78ef6ce3493a72623716204e2924bbd20364b"
+    },
+    {
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "sha256Canonical": "00de4ee758c1ebd64e47fe0a7dcce8c1473263ef5602dde6cae6daa2983e7841"
+    },
+    {
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "sha256Canonical": "95fbd0c7d6a05c45d5d60c4eb487e5c739ce875459841dac54e6f738cb92f5e7"
+    },
+    {
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "sha256Canonical": "857bdf0cc768c33406578ba6c2fbbdececcef721c74a7843b00c3e36a686be68"
+    },
+    {
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "sha256Canonical": "23529b96212e5881e215e090a0d23ac0bd3d856c53f7b534a3830ea8875783f8"
+    },
+    {
+      "file": "src/data/products/sos-3600-calorie-emergency-food-rations.json",
+      "sha256Canonical": "74e7f9f075dd3b88ba0da9a0e6dd64f7a23221ca431edb29b16fbb84508fbd19"
+    },
+    {
+      "file": "src/data/products/template-product.json",
+      "sha256Canonical": "40154d8a4a9b778614f81e2d24dc2b07b2b0ad3f292e670dcf62b8096176b97d"
+    }
+  ],
+  "files": [
+    {
+      "file": ".github/workflows/deploy.yml",
+      "normaliseNewlines": true,
+      "sha256": "04bb6e046456187e4d6ad4ac986cf1c520ee689ed4c3c1035de3148120711a03"
+    },
+    {
+      "file": "assets/media/README.txt",
+      "normaliseNewlines": true,
+      "sha256": "7ab13eac82370835aff35f41d0d25518a7a33329f2d2e86feb064a389602bbaf"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0"
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943"
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2"
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba"
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977"
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc"
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "0e1c9565679ea01c7fa6c692e903c116aa7a25ce83de34cab3f847e0d1c58644"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "e0f7f48d61b53c03a4cc69700e568791378c31203580d9a123b8773229eb6d05"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "4a2275237b619e58505040e80b6c71217225b0e60794bf2774c979c3063f99b6"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "0a99aeef7cdb3764879f80461db5e3f6308b5e6dd5042142af50d1e690fcf3f3"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "9e73916ed8f2d709c87fbb6dc048eb0e03be659e0897a924df59a68900ff3373"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "e94df88c2912a8bd32b518a3af0897e8aa8f5a6bfff49ca2296b20c963c1221a"
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da"
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "18b4311dc4881a7918637030329aa2daab3e453c1f18c6394e6997daf460847e"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "bce8f04ef999c0bbdf0813f878a6eedf34e6c360b0f6c2c44316ab2981c95ca8"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "b3b988c154e0a4184bbaa3a7720af7989d341dad742c9d9219347205ad5b5fc6"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476"
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede"
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "b82a9e13ce4051710a32d5f7a08e9485df4caca90d1d5e268cab65f47c071e4e"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "bee74334fb8f82f523cf7167ba94d1203d8cee4ef8649f6552d813c21c26469c"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "03b3373f03cd760ea4d61003244334119ad7bd374f95feea933f335b1ce50137"
+    },
+    {
+      "file": "assets/media/image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "b043cedd7ea0110b19d6273555af4dfb09c60cad35e0fc2c15d68c9aa826c6bd"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "2506c57e2bc9c30bc08779da33677c0710083394ebf0b986a86e504120b0d415"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "fcd18927bdcb2e39f36307cbf24ba843bb952c50af654346225f1a6e4c73ead7"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "3fcb38f8351cf9251b0e6054204c4a82dc147edf985a04c6a30b19977793215f"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "2f1cedf82400ebd968c1e6c541a6f2e051966563a3d280fa14989b4642fe2aa2"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "d6934859b4821590a8a8187394d619ea82e4392dcb043e75ffa9b2e2b7df7e6b"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "546b84c1e9804bc67859b76f416e5bbd7a6e72b7dbb3c83709e3517981c94dd1"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "05da50496e11588a14af2a2fbc8969be79b2e57ca21ac5235125418171f7c6f3"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "3ca0106c777dea863e6548a68f3ce628774ce6b3644b06043fab74f41062d0fe"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "70d673984dc376f9c8525457fde40eb72fc6131865787aaedfe59fe5b324cbd3"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "e09010cbf796ccb376bde61ed3732c5079bf5602aa18d086898b93aa2fb1f399"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "0b1e82a6f653ae9cb08f3c492ac07862e6d32988f3e983c614045d2d28ba6d4a"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "4153680698daf753f855be1d3ef1a7f853f4c442fee82c30daba64e6e2da8997"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "5307f04f62c4d546b72bd9c0496f271dc58fe42305a7d29572831bbe64610e88"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "bbfab58e7edb85fefb8a634e142ccfa25cdb23d3602ee6ddb929d2767e4ca11a"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "dfdbe056ded78707d3c066147bb7150c36e81826b174b05465961982504f059d"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "73a8bd4169f40c07606f1c4f634f5f43a31e498020c6ea00044b850c1af3ab47"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "5141031364537cb3d659d45adce8665a2351d8d8dc09f603bf06a1d0db2fbf74"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "ad5287ec648575a06ac2e308cd5b377ba08b414659ff6be1e715428d892b8d6d"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "11f90e0f5df206682bc7921b8231f16ab0cec5406d05a8f0c15a8238161dfd4c"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "ffa32c7a96887b4f66b5f5f0a7587cf46dadadaf5f0792503149ea542d5a5182"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "19ba80bba904e74455697eba09a3c22b1b80cc3cd49f081b13602b51bfaa0cf2"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "0492954a40e398a38cd73d2e809ba199eed0c7d93a0c1b62c71d9c9d400966c8"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335"
+    },
+    {
+      "file": "assets/media/phase4-1-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "0fb240da0f6b91ea5c88e14d69b7edf207977b0aafcc5500a9b98faa3890c987"
+    },
+    {
+      "file": "assets/media/phase4-2-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "f0bbe726923977def4d870234b4e6098afb8f0da1f23a75ce22c0d0910589532"
+    },
+    {
+      "file": "assets/media/phase4-3-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "91f617562a7b84ca9981af5b607849df23fdbd9212ce7a06d212f192a2cf5ac6"
+    },
+    {
+      "file": "assets/media/phase4-6-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "0d79dbe00a743a03feccc1da6a5cb9ab3b8f011c11ab36447abdf41c4070d39b"
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "9a5cdc6aed3fc0ab9b07062819dfd7a38dba0c0ed41bca6878896e24b9830958"
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "85137309b47a820b713fd04fa7f6f9e1a9078d24fa3cd4fa85d5bece6f91cac2"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+      "normaliseNewlines": false,
+      "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+      "normaliseNewlines": false,
+      "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+      "normaliseNewlines": false,
+      "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6"
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "23f8d6d864adfa11bcc34d902da0237322578639b40a19cc0a62371ef438268f"
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "d10031bba171c9afed80e39508deb6ed69ce246dd2432916f69357291b07d943"
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "6c2d3eecd863cc9c2502ca20f38c40b2c93a559df13140ceb6b1d35de5c970e1"
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "2ae3afd1acb7a50bca23436e02935743ae839ec0efabb14fb31fc745cb80a8c2"
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "64b4d2a95f1bf4ed47f29f04e6994e62ce661662707a6e08db6ce18f70ea4f61"
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "aaba5f0647c218f212e8bf5f46db6d483d733557dfc7b596cccdc71f1a68a37d"
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "98aae2018a9320b9431e2e23d5d4b37137db4fd2886ad9672419508233b7efcb"
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "000c3674cbf0472020f016c25ba5ade5a9ac2349fea74cb56b675f991ab8b38e"
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "fa8f526b7f5937dcc87fd9713ca87846c98dc2e059b291c9dbe605c211ab7637"
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "e51e48f91d787f964de6100cba8e91ba17cd84b79423417b62596df06d05154e"
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "eddef67fb3880b177d880982c934ac84438fea6d0a0aef525f1b179b189efe1d"
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "fd73dfc42fde36731ac86d074ab617e5d0157437dc31c61ddb2d0b5ec2c573c2"
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "8ba092521d83dc21d86b4d21a6da386e7b150c2ce1ca71df9fcfe2fefbd456fc"
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "77bbf32f7273fd4c79b5afc45e5e794dc4ddcd198c307432a970683692ba1fdf"
+    },
+    {
+      "file": "src/config/site.ts",
+      "normaliseNewlines": true,
+      "sha256": "f918dceb5dbcc4ed48e15857b471eca0256cb455c8c25c4305ee94bed4e63f21"
+    },
+    {
+      "file": "src/config/taxonomy.ts",
+      "normaliseNewlines": true,
+      "sha256": "b8613bb4e7cc8f2671d6f483f4ffc0ae74b8cc3d2a63739b10f5da478a665eb7"
+    },
+    {
+      "file": "src/data/media/imported-manifest.json",
+      "normaliseNewlines": true,
+      "sha256": "77fd9e550777b2a93b6548dd95f853a186ae7de497e7c66b15d0ecf8f3f7dc1e"
+    },
+    {
+      "file": "src/data/media/manifest.json",
+      "normaliseNewlines": true,
+      "sha256": "76e22cd459c54b72b2f8790bdb56208ca685d90dfb5714054fc1c6b570c75f9d"
+    },
+    {
+      "file": "src/data/media/review.json",
+      "normaliseNewlines": true,
+      "sha256": "4ef227b8f3714aee14eacc9dfaee7439fdb29097ed71b62bf35743085ee62265"
+    },
+    {
+      "file": "src/lib/affiliate.ts",
+      "normaliseNewlines": true,
+      "sha256": "bb1ad3d5144c532734efb957d040df9b442f64a3b55c5afdbb7a82a6ed63f616"
+    },
+    {
+      "file": "src/lib/imported-media-policy.mjs",
+      "normaliseNewlines": true,
+      "sha256": "03d6b23de7dd83df002e71c3761bd5932c692114804702d16cdfdd93671781fb"
+    },
+    {
+      "file": "src/lib/product-schema.ts",
+      "normaliseNewlines": true,
+      "sha256": "bbe9a5266e2db404d1a640b4aefbf052b22b2629f8aadad86a62288a8e9b8125"
+    },
+    {
+      "file": "src/lib/release-policy.ts",
+      "normaliseNewlines": true,
+      "sha256": "1a71543f3760f7cab33fb0293dc8bed0c66e2a8c887438e4404cffd5681a08ce"
+    }
+  ]
+}

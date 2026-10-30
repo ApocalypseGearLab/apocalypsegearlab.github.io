@@ -1,0 +1,159 @@
+{
+  "name": "3M 2091 P100 Particulate Filters",
+  "brand": "3M",
+  "modelNumber": "2091",
+  "category": "respiratory-protection",
+  "summary": "P100 particulate filters for approved 3M bayonet assemblies. The 2091 is distinct from 2097 and has no documented nuisance-level organic-vapor relief. Canadian package quantity remains unverified.",
+  "description": "The 2091 is a particulate filter for certain oil and non-oil aerosols when used in a correctly selected and fitted approved respirator assembly. It is not a gas/vapor cartridge. Unlike the 2097, its manufacturer specifications do not list nuisance-level organic-vapor relief. The 6800 full-facepiece instructions list 2091 and describe using two matching filters. The recorded Canadian ASIN is B001D1JCK4, but the current model selection, seller and sale-pack quantity could not be independently checked.",
+  "specs": [
+    {
+      "label": "Model / filter class",
+      "value": "3M 2091, P100 particulate filter; manufacturer model designation, not authentication of a delivered unit",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/"
+    },
+    {
+      "label": "Particle scope",
+      "value": "Certain oil and non-oil airborne particles in an approved assembly selected for the assessed exposure",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/"
+    },
+    {
+      "label": "Gas and vapor limitations",
+      "value": "Not a chemical cartridge; no nuisance-level organic-vapor relief is listed for 2091. Do not transfer 2097 features to this model",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/"
+    },
+    {
+      "label": "6800 compatibility",
+      "value": "Listed in the 3M 6000-series full-facepiece instructions; use two matching 2091 filters in an approved configuration. Mechanical fit alone does not establish hazard suitability",
+      "source": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+    },
+    {
+      "label": "Oxygen and atmosphere",
+      "value": "Supplies no oxygen; not for oxygen-deficient, unknown or immediately dangerous to life or health (IDLH) atmospheres",
+      "source": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf"
+    },
+    {
+      "label": "Inspection and replacement",
+      "value": "Inspect before use, follow the package use-by date and applicable time limits, and leave the contaminated area to replace damaged, soiled or difficult-to-breathe-through filters",
+      "source": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf"
+    }
+  ],
+  "pros": [
+    "Documented P100 particulate-filter model with manufacturer installation and inspection instructions.",
+    "A distinct particulate-only option for comparison within an appropriately assessed respirator assembly."
+  ],
+  "cons": [
+    "Does not protect against hazardous gases or vapors and supplies no oxygen.",
+    "Fit testing, training, a tight seal and correct hazard selection remain essential.",
+    "Canadian package quantity, genuine supply, seller and delivered-unit labels remain unverified."
+  ],
+  "useCases": [
+    "Compare particulate-filter options for an identified occupational aerosol hazard with a competent respiratory-protection professional.",
+    "Plan approved matching components, inspection and replacement procedures before use."
+  ],
+  "sources": [
+    {
+      "id": "3m-model",
+      "title": "3M Canada 2091: P100 particulate-filter specifications (manufacturer case, not Amazon pack)",
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-filter-instructions",
+      "title": "3M 2000/2200-series user instructions including 2091 and 2097",
+      "url": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-6800-instructions",
+      "title": "3M 6000 full-facepiece instructions including 6800: filter table and paired installation",
+      "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "3m-6800-full-facepiece-respirator",
+    "3m-2097-p100-particulate-filters",
+    "3m-60921-organic-vapor-p100-cartridges",
+    "3m-60926-multi-gas-vapor-p100-cartridges"
+  ],
+  "image": null,
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded ASIN B001D1JCK4 for 2091; no sale-pack count, current seller or delivered variant independently verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B001D1JCK4?tag=apocalypsegear-20",
+      "asin": "B001D1JCK4"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-29",
+    "identityNotes": "3M Canada and the exact 2000/2200-series and 6800-family instructions reviewed. The ASIN/model association is owner-recorded; current Amazon.ca selection and quantity are not independently verified. No physical testing, seller authentication or unit certification is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "3M identifies 2091 as a P100 particulate filter for certain oil and non-oil particles; nuisance organic-vapor relief is not listed for this model.",
+        "sourceIds": [
+          "3m-model"
+        ]
+      },
+      {
+        "text": "The 6800-family instructions list 2091 and describe installation of a second matching filter. Approval labels and assessed exposure determine a suitable complete assembly.",
+        "sourceIds": [
+          "3m-6800-instructions"
+        ]
+      },
+      {
+        "text": "These filters supply no oxygen and are not for oxygen-deficient, unknown or IDLH atmospheres.",
+        "sourceIds": [
+          "3m-filter-instructions"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current Canadian ASIN/model selection, sale-pack quantity, seller, genuine supply, lot and expiration remain unverified."
+    ],
+    "safetyNotes": [
+      "The 2091 filters particulates; it does not replace cartridges for hazardous gases or vapors. Do not attribute the 2097 nuisance-level organic-vapor feature to 2091.",
+      "Use two matching 2091 filters on a compatible facepiece only in the approved configuration selected for the actual contaminant and concentration.",
+      "These filters supply no oxygen. Do not use in oxygen-deficient, unknown or immediately dangerous to life or health (IDLH) atmospheres.",
+      "Required fit testing, training and a user seal check are essential; facial hair and damaged components can compromise the seal. A seal check does not replace a fit test.",
+      "No universal radiation, biological-agent or chemical-weapon protection is established. Particle filtration does not shield ionizing radiation or eliminate infection risk.",
+      "Check genuine supply, package integrity, expiration and delivered instructions. Follow inspection and application-specific replacement requirements."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independently match Canadian ASIN B001D1JCK4 to the genuine 2091 variant and exact sale-pack quantity.",
+      "Complete the delivered-variant and approved-assembly review before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B001D1JCK4",
+      "checkedAt": "2026-10-29",
+      "reason": "Canadian ASIN B001D1JCK4 is owner-recorded for 3M 2091. Independently match the current brand, 2091 variant, seller and sale-pack quantity before linking. Amazon.ca could not be read; the manufacturer case size is not the Canadian retailer pack. No current offer or authenticity is verified.",
+      "sourceIds": [
+        "3m-model",
+        "3m-filter-instructions",
+        "3m-6800-instructions"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm B001D1JCK4 is genuine 3M 2091, not 2097 or a generic, and verify the selected sale-pack quantity and seller.",
+      "Confirm the facepiece approval label, matching filter pair, fit and suitability for the assessed hazard.",
+      "Inspect packaging, expiration and delivered instructions; no picture or model name authenticates a unit."
+    ]
+  }
+}

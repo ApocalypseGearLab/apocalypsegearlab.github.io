@@ -36,11 +36,11 @@ for(const [slug,model,asin] of filters)test(`3M ${model} artwork and profile ret
   }
 });
 
-test('6800 compares three compatible components with explicit hazard limits and reciprocal navigation',async({page})=>{
+test('6800 compares four compatible components with explicit hazard limits and reciprocal navigation',async({page})=>{
   for(const width of [320,375,768,1024,1440,1920]) {
     await page.setViewportSize({width,height:900});await page.goto('/gear/3m-6800-full-facepiece-respirator/');
     const section=page.getByRole('region',{name:'Compatible 3M Filters & Cartridges',exact:true});
-    await expect(section.locator('article.card')).toHaveCount(3);
+    await expect(section.locator('article.card')).toHaveCount(4);
     await expect(section.locator('a[data-affiliate-click]')).toHaveCount(0);
     await expect(section).toContainText('compatibility does not establish suitability');
     await expect(section).toContainText('nuisance-level');
