@@ -121,5 +121,20 @@
       "height": 1248,
       "bytes": 549430
     }
-  ]
+  ],
+  "github": {
+    "pullRequest": "https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/pull/16",
+    "implementationCommit": "a14e8fb8b1bd8d131a31f40b1c453f46d015ba58",
+    "implementationCi": {
+      "runId": 40981842977,
+      "url": "https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/40981842977",
+      "status": "completed",
+      "conclusion": "success",
+      "unitPassed": 50,
+      "browserPassed": 71
+    },
+    "deliveryNote": "The following documentation-only commit records this completed implementation CI. Latest-head CI is checked and linked in the PR description before final delivery.",
+    "merged": false,
+    "deployed": false
+  }
 }

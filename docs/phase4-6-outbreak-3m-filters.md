@@ -91,6 +91,12 @@ Les tests de nouvel onglet restent des simulations locales isolées du réseau A
 
 ## GitHub
 
-Les contrôles locaux sont terminés. La création de la PR et la vérification de la CI GitHub sont en cours ; les liens et résultats seront consignés avant livraison finale.
+PR unique : [Add 3M 60921, 60926 and 2097 Filters to OUTBREAK — nº 16](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/pull/16).
+
+Le commit fonctionnel `a14e8fb8b1bd8d131a31f40b1c453f46d015ba58` a passé la [CI GitHub Validate Astro site, exécution 40981842977](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/40981842977) : **success**. Les journaux terminés confirment 50 tests unitaires, 71 tests navigateur et 36 pages / 1 161 références internes / cinq URL sitemap. Toutes les étapes Astro, médias, état commercial, scénarios produits et build ont réussi sur Ubuntu.
+
+Ce résultat est rattaché au commit fonctionnel indiqué. Le commit suivant ajoute seulement ces coordonnées de livraison et la preuve CI au rapport/résultats structurés ; la CI du dernier commit est contrôlée et liée dans la description de la PR avant livraison finale.
+
+**Verdict : MERGE pour l’intégration informative des trois composants, avec leurs trois CTA en attente et les cinq blocages précédents maintenus.** Leur activation commerciale reste conditionnée aux vérifications d’annonce et de conditionnement décrites plus haut.
 
 Aucune fusion ni publication automatique ; la branche est conservée pour la revue du propriétaire. La mise en ligne nécessite une fusion explicitement approuvée, puis le workflow manuel de déploiement existant.
