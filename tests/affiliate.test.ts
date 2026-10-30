@@ -134,7 +134,7 @@ test('reviewed recorded links can activate without claiming live listing verific
     else { assert.equal(link.href, null); assert.ok(link.unavailableReason); held++; }
     assert.equal(getMerchantLinks(p, false)[0]?.href, null, 'The account linking switch still applies');
   }
-  assert.equal(active, 21); assert.equal(held, 9);
+  assert.equal(active, 24); assert.equal(held, 6);
 });
 
 test('recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold', () => {
@@ -197,7 +197,7 @@ test('complete catalogue audit distinguishes valid recorded URLs, offer verifica
   const audit=auditCanadianCatalogue(products);
   assert.equal(audit.products,30);assert.equal(audit.invalidUrls,0);
   assert.equal(audit.duplicateAsins,0);assert.equal(audit.duplicateUrls,0);
-  assert.equal(audit.active,21);assert.equal(audit.blocked,9);assert.equal(audit.undocumentedBlocks,0);
+  assert.equal(audit.active,24);assert.equal(audit.blocked,6);assert.equal(audit.undocumentedBlocks,0);
   assert.equal(audit.offersVerified,0,'Recorded-link permission does not invent an independently verified offer');
   for(const row of audit.rows)assert.equal(row.buttonActive,ACTIVE_PRODUCTS.includes(row.slug),row.slug);
 });

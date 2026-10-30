@@ -1,0 +1,368 @@
+
+> apocalypsegearlab@0.1.0 test
+> tsx --test tests/affiliate.test.ts tests/analytics.test.ts tests/catalog.test.ts tests/media-policy.test.ts tests/phase47.test.ts tests/release.test.ts
+
+TAP version 13
+# Subtest: Amazon links remain pending before Associates enrollment
+ok 1 - Amazon links remain pending before Associates enrollment
+  ---
+  duration_ms: 4.5672
+  type: 'test'
+  ...
+# Subtest: verified HTTPS Amazon links keep their affiliate tags
+ok 2 - verified HTTPS Amazon links keep their affiliate tags
+  ---
+  duration_ms: 1.0878
+  type: 'test'
+  ...
+# Subtest: each Amazon marketplace uses its own domain
+ok 3 - each Amazon marketplace uses its own domain
+  ---
+  duration_ms: 0.5565
+  type: 'test'
+  ...
+# Subtest: Canadian short links cannot bypass exact ASIN and tracking checks
+ok 4 - Canadian short links cannot bypass exact ASIN and tracking checks
+  ---
+  duration_ms: 0.4203
+  type: 'test'
+  ...
+# Subtest: Canadian enrollment alone never activates Amazon.com links
+ok 5 - Canadian enrollment alone never activates Amazon.com links
+  ---
+  duration_ms: 0.6883
+  type: 'test'
+  ...
+# Subtest: unsafe protocols, credentials and lookalike Amazon hosts are rejected
+ok 6 - unsafe protocols, credentials and lookalike Amazon hosts are rejected
+  ---
+  duration_ms: 1.8894
+  type: 'test'
+  ...
+# Subtest: null links stay pending and partner links require credential-free HTTPS
+ok 7 - null links stay pending and partner links require credential-free HTTPS
+  ---
+  duration_ms: 0.8706
+  type: 'test'
+  ...
+# Subtest: affiliate relations disclose sponsorship and isolate the new tab
+ok 8 - affiliate relations disclose sponsorship and isolate the new tab
+  ---
+  duration_ms: 0.2875
+  type: 'test'
+  ...
+# Subtest: commercially approved ASIN links still require the exact Canadian model path and tag
+ok 9 - commercially approved ASIN links still require the exact Canadian model path and tag
+  ---
+  duration_ms: 1.6046
+  type: 'test'
+  ...
+# Subtest: initial-period linking permits a verified informational draft without final account approval
+ok 10 - initial-period linking permits a verified informational draft without final account approval
+  ---
+  duration_ms: 1.0586
+  type: 'test'
+  ...
+# Subtest: a flag alone, mismatched listing evidence or missing ASIN cannot activate a Canadian link
+ok 11 - a flag alone, mismatched listing evidence or missing ASIN cannot activate a Canadian link
+  ---
+  duration_ms: 0.5597
+  type: 'test'
+  ...
+# Subtest: all non-held profiles can activate independently after documented checks without changing their draft status
+ok 12 - all non-held profiles can activate independently after documented checks without changing their draft status
+  ---
+  duration_ms: 51.3553
+  type: 'test'
+  ...
+# Subtest: the pending button identifies the missing prerequisite rather than final account approval
+ok 13 - the pending button identifies the missing prerequisite rather than final account approval
+  ---
+  duration_ms: 0.4116
+  type: 'test'
+  ...
+# Subtest: reviewed recorded links can activate without claiming live listing verification or final approval
+ok 14 - reviewed recorded links can activate without claiming live listing verification or final approval
+  ---
+  duration_ms: 39.3636
+  type: 'test'
+  ...
+# Subtest: recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold
+ok 15 - recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold
+  ---
+  duration_ms: 7.6077
+  type: 'test'
+  ...
+# Subtest: the schema binds each link review to its ASIN and documented sources
+ok 16 - the schema binds each link review to its ASIN and documented sources
+  ---
+  duration_ms: 2.6236
+  type: 'test'
+  ...
+# Subtest: independent URL audit rejects wrong domains, ASIN paths, tags, credentials and fragments without enabling them
+ok 17 - independent URL audit rejects wrong domains, ASIN paths, tags, credentials and fragments without enabling them
+  ---
+  duration_ms: 2.5502
+  type: 'test'
+  ...
+# Subtest: catalogue audit detects accidental duplicate targets and undocumented blocks independently of rendering
+ok 18 - catalogue audit detects accidental duplicate targets and undocumented blocks independently of rendering
+  ---
+  duration_ms: 4.7264
+  type: 'test'
+  ...
+# Subtest: complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission
+ok 19 - complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission
+  ---
+  duration_ms: 26.9125
+  type: 'test'
+  ...
+# Subtest: affiliate parameters identify the recorded Canadian destination without page query data
+ok 20 - affiliate parameters identify the recorded Canadian destination without page query data
+  ---
+  duration_ms: 4.5685
+  type: 'test'
+  ...
+# Subtest: malformed, foreign, retagged and incomplete destinations cannot be tracked as affiliate clicks
+ok 21 - malformed, foreign, retagged and incomplete destinations cannot be tracked as affiliate clicks
+  ---
+  duration_ms: 6.1449
+  type: 'test'
+  ...
+# Subtest: 2091 is a separate particulate-only record with the exact ASIN and distinct artwork, not a relabelled 2097
+ok 22 - 2091 is a separate particulate-only record with the exact ASIN and distinct artwork, not a relabelled 2097
+  ---
+  duration_ms: 22.0944
+  type: 'test'
+  ...
+# Subtest: the catalogue audit preserves every previous product, artwork, affiliate policy and commercial decision
+ok 23 - the catalogue audit preserves every previous product, artwork, affiliate policy and commercial decision
+  ---
+  duration_ms: 257.8964
+  type: 'test'
+  ...
+# Subtest: Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision
+ok 24 - Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision
+  ---
+  duration_ms: 107.0606
+  type: 'test'
+  ...
+# Subtest: Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits
+ok 25 - Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits
+  ---
+  duration_ms: 17.1217
+  type: 'test'
+  ...
+# Subtest: all 26 product identities and the 17 unaudited records are preserved against main
+ok 26 - all 26 product identities and the 17 unaudited records are preserved against main
+  ---
+  duration_ms: 5.8753
+  type: 'test'
+  ...
+# Subtest: media, bunker, affiliate configuration, taxonomy and mandatory safety controls remain unchanged
+ok 27 - media, bunker, affiliate configuration, taxonomy and mandatory safety controls remain unchanged
+  ---
+  duration_ms: 125.505
+  type: 'test'
+  ...
+# Subtest: Midland owner-transcribed ER310-MFN identity permits only the recorded link without a battery or verification guarantee
+ok 28 - Midland owner-transcribed ER310-MFN identity permits only the recorded link without a battery or verification guarantee
+  ---
+  duration_ms: 12.2165
+  type: 'test'
+  ...
+# Subtest: S.O.S. two-pack link permission retains rounded nutrition, dated shelf life and all other product records
+ok 29 - S.O.S. two-pack link permission retains rounded nutrition, dated shelf life and all other product records
+  ---
+  duration_ms: 4.4971
+  type: 'test'
+  ...
+# Subtest: ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared kcal without changing other commercial decisions
+ok 30 - ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared kcal without changing other commercial decisions
+  ---
+  duration_ms: 16.6419
+  type: 'test'
+  ...
+# Subtest: retailer identity evidence cannot replace manufacturer technical evidence or editorial publication approval
+ok 31 - retailer identity evidence cannot replace manufacturer technical evidence or editorial publication approval
+  ---
+  duration_ms: 4.2895
+  type: 'test'
+  ...
+# Subtest: Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits
+ok 32 - Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits
+  ---
+  duration_ms: 3.6352
+  type: 'test'
+  ...
+# Subtest: remaining product holds cannot be bypassed by setting unrelated editorial approval flags
+ok 33 - remaining product holds cannot be bypassed by setting unrelated editorial approval flags
+  ---
+  duration_ms: 4.1307
+  type: 'test'
+  ...
+# Subtest: thirty registered links retain exact identities and obey product-level evidence decisions
+ok 34 - thirty registered links retain exact identities and obey product-level evidence decisions
+  ---
+  duration_ms: 15.7978
+  type: 'test'
+  ...
+# Subtest: slugs, ASINs and related records are unique and refer to existing products
+ok 35 - slugs, ASINs and related records are unique and refer to existing products
+  ---
+  duration_ms: 17.5408
+  type: 'test'
+  ...
+# Subtest: Kidde and INIU remain blocked and cannot be published by changing only editorial status
+ok 36 - Kidde and INIU remain blocked and cannot be published by changing only editorial status
+  ---
+  duration_ms: 1.6779
+  type: 'test'
+  ...
+# Subtest: editorial publication requires listing verification and safety clearance
+ok 37 - editorial publication requires listing verification and safety clearance
+  ---
+  duration_ms: 1.6449
+  type: 'test'
+  ...
+# Subtest: schema rejects missing evidence, duplicate sources and incorrect ASIN mappings
+ok 38 - schema rejects missing evidence, duplicate sources and incorrect ASIN mappings
+  ---
+  duration_ms: 7.6249
+  type: 'test'
+  ...
+# Subtest: no Product, Review, Offer or AggregateRating data is emitted for drafts
+ok 39 - no Product, Review, Offer or AggregateRating data is emitted for drafts
+  ---
+  duration_ms: 27.43
+  type: 'test'
+  ...
+# Subtest: approved Product structured data contains identity only, without invented commercial or review data
+ok 40 - approved Product structured data contains identity only, without invented commercial or review data
+  ---
+  duration_ms: 6.7193
+  type: 'test'
+  ...
+# Subtest: Canadian ASIN links reject foreign tags, duplicate tags and extra tracking
+ok 41 - Canadian ASIN links reject foreign tags, duplicate tags and extra tracking
+  ---
+  duration_ms: 6.8175
+  type: 'test'
+  ...
+# Subtest: OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits without fictional safety promises
+ok 42 - OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits without fictional safety promises
+  ---
+  duration_ms: 12.1615
+  type: 'test'
+  ...
+# Subtest: Catalogue has nine BLACKOUT, nine FALLOUT and twelve OUTBREAK profiles with substantive original content
+ok 43 - Catalogue has nine BLACKOUT, nine FALLOUT and twelve OUTBREAK profiles with substantive original content
+  ---
+  duration_ms: 11.5852
+  type: 'test'
+  ...
+# Subtest: rejected Explorer 300 artwork cannot render in development or production
+ok 44 - rejected Explorer 300 artwork cannot render in development or production
+  ---
+  duration_ms: 15.4331
+  type: 'test'
+  ...
+# Subtest: owner-authorized pack maps thirty products while withholding the inaccurate Explorer 300 illustration
+ok 45 - owner-authorized pack maps thirty products while withholding the inaccurate Explorer 300 illustration
+  ---
+  duration_ms: 2.2699
+  type: 'test'
+  ...
+# Subtest: owner confirmation permits the public bunker without authorizing product artwork
+ok 46 - owner confirmation permits the public bunker without authorizing product artwork
+  ---
+  duration_ms: 0.4277
+  type: 'test'
+  ...
+# Subtest: reference review allows editorial previews without granting commercial permissions
+ok 47 - reference review allows editorial previews without granting commercial permissions
+  ---
+  duration_ms: 0.2973
+  type: 'test'
+  ...
+# Subtest: Phase 4.7 changes only three commercial records and appends only the 2091 media mapping
+ok 48 - Phase 4.7 changes only three commercial records and appends only the 2091 media mapping
+  ---
+  duration_ms: 170.9486
+  type: 'test'
+  ...
+# Subtest: 3m-60921-organic-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 49 - 3m-60921-organic-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 59.7516
+  type: 'test'
+  ...
+# Subtest: 3m-60926-multi-gas-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 50 - 3m-60926-multi-gas-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 4.4725
+  type: 'test'
+  ...
+# Subtest: 3m-2097-p100-particulate-filters permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 51 - 3m-2097-p100-particulate-filters permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 13.183
+  type: 'test'
+  ...
+# Subtest: 2091 uses the supplied original and its own authorized image without granting pack or link permission
+ok 52 - 2091 uses the supplied original and its own authorized image without granting pack or link permission
+  ---
+  duration_ms: 19.8344
+  type: 'test'
+  ...
+# Subtest: mandatory holds survive accidental status and approval flag changes
+ok 53 - mandatory holds survive accidental status and approval flag changes
+  ---
+  duration_ms: 28.9831
+  type: 'test'
+  ...
+# Subtest: published specifications cannot lose their included manufacturer evidence
+ok 54 - published specifications cannot lose their included manufacturer evidence
+  ---
+  duration_ms: 7.7937
+  type: 'test'
+  ...
+# Subtest: concrete per-product holds also prevent editorial publication after unrelated approval flags change
+ok 55 - concrete per-product holds also prevent editorial publication after unrelated approval flags change
+  ---
+  duration_ms: 23.215
+  type: 'test'
+  ...
+# Subtest: removing the research object cannot bypass the published schema guard
+ok 56 - removing the research object cannot bypass the published schema guard
+  ---
+  duration_ms: 1.1268
+  type: 'test'
+  ...
+# Subtest: public reference visibility does not grant commercial approval or buying links
+ok 57 - public reference visibility does not grant commercial approval or buying links
+  ---
+  duration_ms: 2.491
+  type: 'test'
+  ...
+# Subtest: all eight selected profiles are public references, including held products with prominent cautions
+ok 58 - all eight selected profiles are public references, including held products with prominent cautions
+  ---
+  duration_ms: 11.5301
+  type: 'test'
+  ...
+# Subtest: new drafts and templates stay internal without an explicit visibility selection
+ok 59 - new drafts and templates stay internal without an explicit visibility selection
+  ---
+  duration_ms: 4.5248
+  type: 'test'
+  ...
+1..59
+# tests 59
+# suites 0
+# pass 59
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2332.8719

@@ -10,7 +10,7 @@ import type { Product } from '../src/lib/products';
 
 import { OUTBREAK, PHASE43_FALLOUT, PHASE46_FILTERS, FILTER_2091 } from './catalogue-fixture';
 import { productCaution } from '../src/lib/release-policy';
-import { productCaution as filterCaution, COMPATIBLE_3M_FILTERS } from '../src/lib/respirator-filters';
+import { COMPATIBLE_3M_FILTERS } from '../src/lib/respirator-filters';
 const expected = {
   ...OUTBREAK,
   ...PHASE46_FILTERS,
@@ -34,7 +34,7 @@ const expected = {
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
 
-test('2091 is a separate particulate-only record with the exact ASIN and neutral artwork, not a relabelled 2097',()=>{
+test('2091 is a separate particulate-only record with the exact ASIN and distinct artwork, not a relabelled 2097',()=>{
   const id='3m-2091-p100-particulate-filters',data=productSchema.parse(rawProducts.get(id));
   assert.equal(data.modelNumber,'2091');assert.equal(data.links.amazonCa.asin,'B001D1JCK4');
   assert.equal(data.links.amazonCa.url,'https://www.amazon.ca/dp/B001D1JCK4?tag=apocalypsegear-20');
@@ -55,48 +55,18 @@ test('the catalogue audit preserves every previous product, artwork, affiliate p
   const baseline=JSON.parse(readFileSync('docs/qa/affiliate-audit/preservation.json','utf8'));
   assert.equal(baseline.baseCommit,'836f7e10dae4b381a2d6c51607165509d4996bc4');
   assert.equal(baseline.products.length,30,'All 29 previous products and the internal template');
-  for(const p of baseline.products)assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files){const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);}
+  for(const p of baseline.products.filter((p:any)=>!Object.keys(PHASE46_FILTERS).some(id=>p.file.endsWith('/'+id+'.json'))))assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
+  for(const p of baseline.files){
+    // Phase 4.7 appends one mapping; its first 29 entries and all prior files
+    // are checked against the immutable Phase 4.7 baseline in phase47.test.ts.
+    if(p.file==='src/data/media/imported-manifest.json') continue;
+    const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
+    assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
+  }
 });
 
-for (const [id, [asin]] of Object.entries(PHASE46_FILTERS)) test(`${id} keeps exact identity, distinct respiratory limits and an unverified-quantity hold`, () => {
-  const data = productSchema.parse(rawProducts.get(id));
-  const product = {id, data} as Product;
-  const evidence = JSON.parse(readFileSync('docs/qa/phase4-6/evidence.json','utf8')).products.find((p:any) => p.slug === id);
-  assert.equal(data.links.amazonCa.asin, asin);
-  assert.equal(data.links.amazonCa.url, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
-  assert.equal(data.modelNumber, id.split('-')[1]);
-  assert.equal(evidence.independentlyVerifiedQuantity, null);
-  assert.equal(data.research!.affiliateReview!.decision, 'hold');
-  assert.match(data.research!.affiliateReview!.reason, /model\/quantity check/);
-  assert.equal(getMerchantLinks(product,true)[0]!.href, null);
-  assert.equal(data.research!.listingEvidence, undefined);
-  assert.ok(data.sources.every(source=>!source.url.includes('amazon.ca')),'An unread held retailer URL is not a verified public source or an alternate buying link');
-  assert.equal(data.research!.listingVerified, false);
-  assert.equal(data.research!.publicationApproved, false);
-  assert.equal(data.reviewStatus,'draft');
-  assert.equal(data.visibility,'informational');
-  assert.equal(data.testing,'not-tested');
-  assert.equal(data.lastVerified,null);
-  assert.equal(productStructuredData(product,site),undefined);
-  assert.equal(productSchema.safeParse({...data,reviewStatus:'published'}).success,false);
-  const changed=structuredClone(product);
-  Object.assign(changed.data.research!,{listingVerified:true,safetyStatus:'cleared',publicationApproved:true,publicationBlockers:[]});
-  assert.equal(getMerchantLinks(changed,true)[0]!.href,null,'Unrelated flags must not bypass the package/model hold');
-  const safety=data.research!.safetyNotes.join(' ');
-  assert.match(safety,/two matching/);
-  assert.match(safety,/supply no oxygen/);
-  assert.match(safety,/oxygen-deficient, unknown.*IDLH/);
-  assert.match(safety,/fit testing/);
-  assert.match(safety,/No universal protection against radiation, biological agents or chemical weapons/);
-  assert.ok(data.relatedProducts.includes('3m-6800-full-facepiece-respirator'));
-  assert.equal(COMPATIBLE_3M_FILTERS.filter(f=>f.id===id).length,1);
-  assert.match(filterCaution(product)!,new RegExp(data.modelNumber==='2097'?'nuisance-level':'P100'));
-  if(data.modelNumber==='2097') {
-    assert.match(data.specs.find(s=>s.label==='Protection scope')!.value,/not protection against hazardous gas\/vapor/);
-    assert.match(data.summary,/five-pair.*quantity verification/);
-  } else assert.doesNotMatch(filterCaution(product)!,/No protection against gases, vapours/);
-});
+// Current linking decisions are verified against the new owner evidence in phase47.test.ts.
+// Historical Phase 4.6 snapshots remain immutable and still protect prior media.
 
 test('Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision', () => {
   const baseline=JSON.parse(readFileSync('docs/qa/phase4-6/preservation.json','utf8'));
@@ -108,7 +78,7 @@ test('Phase 4.6 appends only three media records and preserves every previous pr
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
   }
   const manifest=JSON.parse(readFileSync('src/data/media/imported-manifest.json','utf8'));
-  assert.equal(manifest.assets.length,29);
+  assert.equal(manifest.assets.length,30);
   assert.deepEqual(manifest.assets.slice(0,26),baseline.importedAssets);
   for(const id of Object.keys(PHASE46_FILTERS)) {
     const asset=manifest.assets.find((a:any)=>a.productId===id);
@@ -344,7 +314,8 @@ test('thirty registered links retain exact identities and obey product-level evi
     const eligible = canadianAffiliateIssues(product).length === 0;
     assert.equal(getMerchantLinks(product, true)[0]?.href, eligible ? data.links.amazonCa.url : null);
     assert.equal(data.research?.listingVerified, false, 'Link activation must not invent listing verification');
-    assert.equal(data.research?.listingEvidence, undefined);
+    if(slug in PHASE46_FILTERS) assert.equal(data.research?.listingEvidence?.method,'owner-document');
+    else assert.equal(data.research?.listingEvidence, undefined);
     if (eligible) assert.equal(data.research?.affiliateReview?.decision, 'link-permitted');
   }
 });

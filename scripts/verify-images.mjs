@@ -63,17 +63,17 @@ console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected fi
 
 const supplied=JSON.parse(await readFile('src/data/media/imported-manifest.json','utf8'));
 assert.equal(supplied.provenance.status,'confirmed-by-owner');
-assert.equal(supplied.assets.length,29);
-assert.equal(supplied.assets.filter(asset=>asset.productId).length,29);
-assert.equal(supplied.assets.filter(canPublishImportedAsset).length,28);
+assert.equal(supplied.assets.length,30);
+assert.equal(supplied.assets.filter(asset=>asset.productId).length,30);
+assert.equal(supplied.assets.filter(canPublishImportedAsset).length,29);
 assert.equal(supplied.assets.filter(asset=>asset.category==='fallout').length,9);
 assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,9);
-assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,11);
-assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,29);
-assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,29);
+assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,12);
+assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,30);
+assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,30);
 const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json').map(file => file.replace(/\.json$/, ''));
 assert.equal(productIds.length,30);
-assert.deepEqual(productIds.filter(id=>!supplied.assets.some(asset=>asset.productId===id)),['3m-2091-p100-particulate-filters'],'2091 remains a distinct neutral profile; never reuse 2097 artwork');
+assert.deepEqual(productIds.filter(id=>!supplied.assets.some(asset=>asset.productId===id)),[],'Every product maps to its distinct artwork record; Explorer 300 remains rejected');
 const csv=await readFile(supplied.csv,'utf8');
 for(const asset of supplied.assets){
   assert.match(asset.file,/^assets\/media\/(blackout|fallout|outbreak)\/[a-z0-9-]+\.webp$/);
@@ -99,7 +99,14 @@ for(const asset of supplied.assets){
   assert.equal(metadata.width,1254);assert.equal(metadata.height,1254);
   await sharp(bytes).raw().toBuffer();
   if(asset.variants) {
-    assert.equal(asset.provenance.confirmedAt,asset.mappingCsv==='assets/media/phase4-6-image-manifest.csv'?'2026-10-29':asset.mappingCsv==='assets/media/phase4-3-image-manifest.csv'?'2026-10-28':'2026-10-27');
+    if (asset.source.file) {
+      const original = await readFile(asset.source.file);
+      const info = await sharp(original).metadata();
+      assert.equal(original.length,asset.source.bytes);
+      assert.equal(createHash('sha256').update(original).digest('hex'),asset.source.sha256);
+      assert.equal(info.format,'png');assert.equal(info.width,asset.source.width);assert.equal(info.height,asset.source.height);
+    }
+    assert.equal(asset.provenance.confirmedAt,['assets/media/phase4-6-image-manifest.csv','assets/media/phase4-7-image-manifest.csv'].includes(asset.mappingCsv)?'2026-10-29':asset.mappingCsv==='assets/media/phase4-3-image-manifest.csv'?'2026-10-28':'2026-10-27');
     assert.equal(asset.encoding.recolor,false);
     assert.equal(asset.encoding.crop,false);
     assert.deepEqual(asset.variants.map(variant=>variant.width),[480,960,1254]);
@@ -117,7 +124,7 @@ for(const asset of supplied.assets){
   }
   if(asset.productId==='jackery-explorer-300')assert.equal(asset.accuracyStatus,'rejected');
 }
-console.log('Verified all 29 product mappings, CSV associations, hash-verified bytes, 28 approved illustrations and 1 rejected asset, all mapped to distinct products.');
+console.log('Verified all 30 product mappings, CSV associations, hash-verified bytes, 29 approved illustrations and 1 rejected asset, all mapped to distinct products.');
 
 // Superseded sources are retained for traceability, never selected as fallbacks.
 assert.equal(supplied.assets.filter(asset=>asset.replacement).length,3);
