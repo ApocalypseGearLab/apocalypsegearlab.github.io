@@ -3,8 +3,8 @@
   "brand": "3M",
   "modelNumber": "2097",
   "category": "respiratory-protection",
-  "summary": "Round P100 particulate filters with nuisance-level organic-vapor relief. They do not replace gas/vapor cartridges. The recorded five-pair Amazon.ca pack still needs quantity verification.",
-  "description": "The 2097 is a particulate filter, not a chemical cartridge. 3M documents P100 filtration and limited organic-vapor odor relief below the applicable occupational exposure limit, whichever limit is lower. On an approved 6800 configuration, two matching filters are used at a time. The illustration shows ten filters, but it cannot establish the contents of Canadian ASIN B07FMJPFTY; the claimed five-pair pack remains unverified.",
+  "summary": "P100 particulate filters with limited nuisance-level organic-vapor relief. The documented Canadian offer advertises five pairs (ten filters); check the selected pack and approved use.",
+  "description": "The 2097 is a particulate filter, not a chemical cartridge. 3M documents P100 filtration and limited organic-vapor odor relief below the applicable occupational exposure limit, whichever limit is lower. On an approved 6800 configuration, two matching filters are used at a time. The documented Canadian listing associates ASIN B07FMJPFTY with model 2097 and an advertised five pairs (ten filters). This records the advertised pack, not an inspection or authentication of delivered contents.",
   "specs": [
     {
       "label": "Model / filter class",
@@ -44,7 +44,7 @@
   "cons": [
     "Nuisance-level organic-vapor relief is not protection against hazardous gases or vapors. The 2097 does not replace a chemical cartridge selected for those hazards.",
     "Requires a compatible facepiece, matching components, fit testing, training and a user seal check; a seal check does not replace a fit test.",
-    "The Canadian listing, genuine supply, package quantity, delivered lot and expiration remain unverified."
+    "The current seller, genuine supply, delivered contents, lot and expiration are not independently verified; check the selected offer and packaging before use."
   ],
   "useCases": [
     "Compare particulate-filter options for an identified occupational aerosol hazard with a competent respiratory-protection professional.",
@@ -68,6 +68,12 @@
       "title": "3M 6000 full-facepiece instructions: 6800 compatibility, two-component installation and limits",
       "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
       "kind": "manufacturer"
+    },
+    {
+      "id": "owner-canadian-listing",
+      "title": "Amazon.ca B07FMJPFTY: model 2097, advertised five pairs (ten filters) (owner-transcribed listing evidence)",
+      "url": "https://www.amazon.ca/dp/B07FMJPFTY",
+      "kind": "retailer"
     }
   ],
   "relatedProducts": [
@@ -83,7 +89,7 @@
   },
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-recorded offer: Five pairs (ten filters). Quantity not independently verified and not inferred from the image or 3M case packaging."
+    "notes": "Owner-documented Canadian offer for model 2097: advertised five pairs (ten filters). No current price, seller, stock, authenticity or delivered-unit guarantee."
   },
   "links": {
     "amazonCa": {
@@ -102,7 +108,7 @@
   "lastVerified": null,
   "research": {
     "checkedAt": "2026-10-29",
-    "identityNotes": "Primary 3M model specifications and exact family instructions reviewed. Canadian offer not retrieved; ASIN/model and sale-pack quantity are owner-recorded, not independently verified. No physical test or seller authentication is claimed.",
+    "identityNotes": "Manufacturer model and instructions reviewed. The owner's Phase 4.7 written capture transcription documents ASIN B07FMJPFTY, model 2097 and advertised five pairs (ten filters). Amazon.ca could not be independently read, and the original capture files were not attached to this phase. No physical test, delivered-unit authentication or full safety/publication clearance is claimed.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -122,10 +128,16 @@
         "sourceIds": [
           "3m-filter-instructions"
         ]
+      },
+      {
+        "text": "The owner-provided Amazon.ca listing transcription associates ASIN B07FMJPFTY with 3M 2097 and advertises five pairs (ten filters). This is a retailer representation, not a checked delivery quantity.",
+        "sourceIds": [
+          "owner-canadian-listing"
+        ]
       }
     ],
     "unverifiedClaims": [
-      "The recorded offer is five pairs (ten filters), but ASIN/model correspondence and actual Canadian package quantity remain unverified."
+      "Current offer changes, seller, authentic supply, delivered contents, lot and expiration have not been independently verified."
     ],
     "safetyNotes": [
       "Nuisance-level organic-vapor relief is not protection against hazardous gases or vapors. The 2097 does not replace a chemical cartridge selected for those hazards.",
@@ -138,23 +150,32 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Canadian ASIN/model and exact package quantity need independent verification.",
-      "Complete the delivered-variant, approved-assembly and safety review before full editorial publication."
+      "Complete the independent current-offer, delivered-variant, approved-assembly and safety review before full editorial publication."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B07FMJPFTY",
       "checkedAt": "2026-10-29",
-      "reason": "Canadian ASIN B07FMJPFTY: verify genuine 3M 2097 and the current five pairs (ten filters) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "reason": "Canadian recorded-link permission: the owner documents model 2097, ASIN B07FMJPFTY, and advertised five pairs (ten filters) in the Phase 4.7 capture transcription. This resolves the former model/quantity linking hold only. The live listing and genuine delivered units are not independently verified. Safety cautions, informational draft status and editorial noindex remain; no final Associates approval or physical test is claimed.",
       "sourceIds": [
+        "owner-canadian-listing",
         "3m-model",
+        "3m-filter-instructions",
         "3m-6800-instructions"
       ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B07FMJPFTY",
+      "checkedAt": "2026-10-29",
+      "method": "owner-document",
+      "matchedAsin": "B07FMJPFTY",
+      "matchedModel": "2097",
+      "notes": "Owner Phase 4.7 written transcription: model 2097 and five pairs / ten filters; advertised five pairs (ten filters). Capture date not supplied; no independent live page access or parcel inspection."
     }
   },
   "editorial": {
     "purchaseChecks": [
-      "Verify B07FMJPFTY is genuine 3M 2097, not a generic or different variant, and confirm five pairs (ten filters) in the selected current offer.",
+      "Recheck the selected B07FMJPFTY offer is 3M 2097 and still advertises five pairs (ten filters); listing titles do not authenticate delivered contents or the current seller.",
       "Confirm the approved facepiece/component configuration and suitability for the assessed hazard with a competent professional.",
       "Inspect unopened packaging, genuine identifiers and expiration; follow the actual instructions before use."
     ]

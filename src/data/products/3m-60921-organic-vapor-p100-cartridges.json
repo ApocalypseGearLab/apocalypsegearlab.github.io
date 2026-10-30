@@ -3,8 +3,8 @@
   "brand": "3M",
   "modelNumber": "60921",
   "category": "respiratory-protection",
-  "summary": "Combined organic-vapor cartridges and P100 filters for compatible 3M bayonet respirators. Select them for an identified hazard; they are not multi-gas cartridges or an oxygen source.",
-  "description": "The 60921 combines a gas/vapor cartridge with a P100 particulate filter. Its documented scope covers certain organic vapors and oil or non-oil airborne particles when the complete respirator is properly selected and fitted. On a compatible 6800 full facepiece, use a matching pair in the approved configuration. The Canadian offer is recorded as a pair, but its actual model, seller and package quantity have not been independently verified.",
+  "summary": "Cartridge/filter components for certain organic vapors and P100 particulates. The documented Canadian offer advertises one pair; approved selection, fit and use limits remain essential.",
+  "description": "The 60921 combines a gas/vapor cartridge with a P100 particulate filter. Its documented scope covers certain organic vapors and oil or non-oil airborne particles when the complete respirator is properly selected and fitted. On a compatible 6800 full facepiece, use a matching pair in the approved configuration. The documented Canadian listing associates ASIN B07571LR2K with model 60921 and an advertised one pair (two cartridges). This records the advertised pack, not an inspection or authentication of delivered contents.",
   "specs": [
     {
       "label": "Model / filter class",
@@ -44,7 +44,7 @@
   "cons": [
     "Organic-vapor scope does not make the 60921 a multi-gas cartridge; do not substitute it for a cartridge selected for acid gases or other unlisted hazards.",
     "Requires a compatible facepiece, matching components, fit testing, training and a user seal check; a seal check does not replace a fit test.",
-    "The Canadian listing, genuine supply, package quantity, delivered lot and expiration remain unverified."
+    "The current seller, genuine supply, delivered contents, lot and expiration are not independently verified; check the selected offer and packaging before use."
   ],
   "useCases": [
     "Compare cartridge scope against an identified occupational chemical and particulate hazard with a competent respiratory-protection professional.",
@@ -68,6 +68,12 @@
       "title": "3M 6000 full-facepiece instructions: 6800 compatibility, two-component installation and limits",
       "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
       "kind": "manufacturer"
+    },
+    {
+      "id": "owner-canadian-listing",
+      "title": "Amazon.ca B07571LR2K: model 60921, advertised one pair (two cartridges) (owner-transcribed listing evidence)",
+      "url": "https://www.amazon.ca/dp/B07571LR2K",
+      "kind": "retailer"
     }
   ],
   "relatedProducts": [
@@ -83,7 +89,7 @@
   },
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-recorded offer: One pair (two cartridges). Quantity not independently verified and not inferred from the image or 3M case packaging."
+    "notes": "Owner-documented Canadian offer for model 60921: advertised one pair (two cartridges). No current price, seller, stock, authenticity or delivered-unit guarantee."
   },
   "links": {
     "amazonCa": {
@@ -102,7 +108,7 @@
   "lastVerified": null,
   "research": {
     "checkedAt": "2026-10-29",
-    "identityNotes": "Primary 3M model specifications and exact family instructions reviewed. Canadian offer not retrieved; ASIN/model and sale-pack quantity are owner-recorded, not independently verified. No physical test or seller authentication is claimed.",
+    "identityNotes": "Manufacturer model and instructions reviewed. The owner's Phase 4.7 written capture transcription documents ASIN B07571LR2K, model 60921 and advertised one pair (two cartridges). Amazon.ca could not be independently read, and the original capture files were not attached to this phase. No physical test, delivered-unit authentication or full safety/publication clearance is claimed.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -122,10 +128,16 @@
         "sourceIds": [
           "3m-filter-instructions"
         ]
+      },
+      {
+        "text": "The owner-provided Amazon.ca listing transcription associates ASIN B07571LR2K with 3M 60921 and advertises one pair (two cartridges). This is a retailer representation, not a checked delivery quantity.",
+        "sourceIds": [
+          "owner-canadian-listing"
+        ]
       }
     ],
     "unverifiedClaims": [
-      "The recorded offer is one pair (two cartridges), but ASIN/model correspondence and actual Canadian package quantity remain unverified."
+      "Current offer changes, seller, authentic supply, delivered contents, lot and expiration have not been independently verified."
     ],
     "safetyNotes": [
       "Organic-vapor scope does not make the 60921 a multi-gas cartridge; do not substitute it for a cartridge selected for acid gases or other unlisted hazards.",
@@ -138,23 +150,32 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Canadian ASIN/model and exact package quantity need independent verification.",
-      "Complete the delivered-variant, approved-assembly and safety review before full editorial publication."
+      "Complete the independent current-offer, delivered-variant, approved-assembly and safety review before full editorial publication."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B07571LR2K",
       "checkedAt": "2026-10-29",
-      "reason": "Canadian ASIN B07571LR2K: verify genuine 3M 60921 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "reason": "Canadian recorded-link permission: the owner documents model 60921, ASIN B07571LR2K, and advertised one pair (two cartridges) in the Phase 4.7 capture transcription. This resolves the former model/quantity linking hold only. The live listing and genuine delivered units are not independently verified. Safety cautions, informational draft status and editorial noindex remain; no final Associates approval or physical test is claimed.",
       "sourceIds": [
+        "owner-canadian-listing",
         "3m-model",
+        "3m-filter-instructions",
         "3m-6800-instructions"
       ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B07571LR2K",
+      "checkedAt": "2026-10-29",
+      "method": "owner-document",
+      "matchedAsin": "B07571LR2K",
+      "matchedModel": "60921",
+      "notes": "Owner Phase 4.7 written transcription: Pack of 2; advertised one pair (two cartridges). Capture date not supplied; no independent live page access or parcel inspection."
     }
   },
   "editorial": {
     "purchaseChecks": [
-      "Verify B07571LR2K is genuine 3M 60921, not a generic or different variant, and confirm one pair (two cartridges) in the selected current offer.",
+      "Recheck the selected B07571LR2K offer is 3M 60921 and still advertises one pair (two cartridges); listing titles do not authenticate delivered contents or the current seller.",
       "Confirm the approved facepiece/component configuration and suitability for the assessed hazard with a competent professional.",
       "Inspect unopened packaging, genuine identifiers and expiration; follow the actual instructions before use."
     ]

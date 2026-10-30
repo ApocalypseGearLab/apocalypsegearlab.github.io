@@ -1,0 +1,75 @@
+[
+  {
+    "command": "npm run check",
+    "startedAt": "2026-10-30T03:46:38.458Z",
+    "finishedAt": "2026-10-30T03:47:13.413Z",
+    "exitCode": 0,
+    "log": "check.log",
+    "followupEvidence": "The corresponding log was refreshed after the final test/config edits; all checks passed again."
+  },
+  {
+    "command": "npm run test",
+    "startedAt": "2026-10-30T03:47:13.424Z",
+    "finishedAt": "2026-10-30T03:47:15.639Z",
+    "exitCode": 0,
+    "log": "test.log",
+    "followupEvidence": "The corresponding log was refreshed after the final test/config edits; all checks passed again."
+  },
+  {
+    "command": "npm run test:images",
+    "startedAt": "2026-10-30T03:47:15.641Z",
+    "finishedAt": "2026-10-30T03:47:24.752Z",
+    "exitCode": 0,
+    "log": "test-images.log"
+  },
+  {
+    "command": "npm run release:check",
+    "startedAt": "2026-10-30T03:47:24.754Z",
+    "finishedAt": "2026-10-30T03:47:26.221Z",
+    "exitCode": 0,
+    "log": "release-check.log"
+  },
+  {
+    "command": "npm run audit:affiliate",
+    "startedAt": "2026-10-30T03:47:26.228Z",
+    "finishedAt": "2026-10-30T03:47:27.465Z",
+    "exitCode": 0,
+    "log": "audit-affiliate.log"
+  },
+  {
+    "command": "npm run test:products",
+    "startedAt": "2026-10-30T03:47:27.469Z",
+    "finishedAt": "2026-10-30T03:48:25.598Z",
+    "exitCode": 0,
+    "log": "test-products.log"
+  },
+  {
+    "command": "npm run build",
+    "startedAt": "2026-10-30T03:48:25.600Z",
+    "finishedAt": "2026-10-30T03:48:40.886Z",
+    "exitCode": 0,
+    "log": "build.log"
+  },
+  {
+    "command": "npm run test:site",
+    "startedAt": "2026-10-30T03:48:40.889Z",
+    "finishedAt": "2026-10-30T03:48:44.240Z",
+    "exitCode": 0,
+    "log": "test-site.log"
+  },
+  {
+    "command": "npm run test:browser",
+    "startedAt": "2026-10-30T03:48:44.242Z",
+    "finishedAt": "2026-10-30T03:49:51.388Z",
+    "exitCode": 1,
+    "log": "startup-diagnostics.json",
+    "note": "Dev server readiness timed out before test execution; retained as an unsuccessful startup attempt"
+  },
+  {
+    "command": "npm run test:browser",
+    "recordedAt": "2026-10-30T03:59:30.380Z",
+    "exitCode": 0,
+    "log": "test-browser.log",
+    "note": "Full rerun after allowing 120 seconds for cold dev-server startup; 80 passed"
+  }
+]

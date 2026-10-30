@@ -1,0 +1,7 @@
+
+> apocalypsegearlab@0.1.0 test:images
+> node scripts/verify-images.mjs
+
+Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and source mapping controls passed. Delivery permissions are checked against dist by test:site.
+Verified all 30 product mappings, CSV associations, hash-verified bytes, 29 approved illustrations and 1 rejected asset, all mapped to distinct products.
+Confirmed byte-for-byte preservation of the other 11 product illustrations and all 3 bunker variants against the Phase 4.1 baseline.

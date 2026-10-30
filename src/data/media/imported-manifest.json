@@ -1469,6 +1469,76 @@
         "crop": false
       },
       "mappingCsv": "assets/media/phase4-6-image-manifest.csv"
+    },
+    {
+      "id": "3m-2091-outbreak",
+      "category": "outbreak",
+      "productId": "3m-2091-p100-particulate-filters",
+      "usage": "current-product",
+      "sourceOriginalName": "Filtres 3M P100 sous néons futuristes (1).png",
+      "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-2091-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 298638,
+      "sha256": "083cba7a38736e6fafc26f511dbb0b558b4886a7d8da3ab0356b007b69abcf44",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-2091-outbreak-480.webp",
+          "src": "/images/outbreak/3m-2091-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 59814,
+          "sha256": "36f5dba68168492201cc41ef19a5c9cf1e9fb92cc112e8cda35e74a6564bb422"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2091-outbreak-960.webp",
+          "src": "/images/outbreak/3m-2091-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 200534,
+          "sha256": "2eaf14c42978eb120c86493afb4ecc34a2b7f58a22390e3f5a7aea0044769284"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+          "src": "/images/outbreak/3m-2091-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 298638,
+          "sha256": "083cba7a38736e6fafc26f511dbb0b558b4886a7d8da3ab0356b007b69abcf44"
+        }
+      ],
+      "alt": "Concept illustration of two pink 3M 2091 P100 particulate filters in a green tactical HUD frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Two circular magenta filters with 2091 and P100 markings, green HUD border intact. Repeated rotated 2091/3M markings are part of the supplied concept illustration, not authentic batch labels, manufacturer endorsement, certification or proof of the ASIN sale-pack quantity. No 2097 nuisance-vapor feature is inferred.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/",
+        "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.7 work order explicitly provides this final PNG and authorizes its site integration.",
+        "scope": "Only this supplied 2091 illustration. Site-integration authorization, not independent chain-of-title verification, manufacturer endorsement, product authentication or offer validation.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Filtres 3M P100 sous néons futuristes (1).png",
+        "file": "assets/media/outbreak/originals/3m-2091-outbreak.png",
+        "bytes": 2547916,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "19a993ca0bc131ab7f5f611ce1c9ed20a9f92b2b6ad55d33c5666a1f006c7567"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-7-image-manifest.csv"
     }
   ]
 }

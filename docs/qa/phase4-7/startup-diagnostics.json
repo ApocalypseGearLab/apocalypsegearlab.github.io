@@ -1,0 +1,11 @@
+{
+  "cause": "Two local attempts exceeded the default 60000ms dev-server startup window before test execution",
+  "successfulDiagnostic": [
+    "2026-10-30T03:43:52.661Z pw:webserver WebServer available\r",
+    "[WebServer] {\"message\":\" astro  v7.4.2 ready in 50114 ms\\n┃ Local    http://127.0.0.1:4322/\",\"label\":\"SKIP_FORMAT\",\"level\":\"info\"}\r",
+    "2026-10-30T03:44:51.473Z pw:webserver WebServer available\r",
+    "  8 passed (1.7m)\r"
+  ],
+  "correction": "120000ms startup timeout for dev server only. Test and assertion deadlines unchanged.",
+  "source": "https://playwright.dev/docs/test-webserver#adding-a-server-timeout"
+}

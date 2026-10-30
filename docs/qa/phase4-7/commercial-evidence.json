@@ -1,0 +1,60 @@
+{
+  "phase": "4.7",
+  "reviewDate": "2026-10-29",
+  "basis": "Owner-provided written transcriptions of Amazon.ca captures in the Phase 4.7 work order. Raw listing captures are not attached to this phase and were not independently inspected.",
+  "liveAmazonAccess": "All four ASIN URLs were attempted with the web reader; unavailable through that tool, with no observable HTTP status. This does not establish invalid links.",
+  "products": [
+    {
+      "id": "3m-2097-p100-particulate-filters",
+      "model": "2097",
+      "asin": "B07FMJPFTY",
+      "count": 10,
+      "pairs": 5,
+      "title": "model 2097 and five pairs / ten filters",
+      "priceCad": 77,
+      "seller": "Buying Direct Corp",
+      "url": "https://www.amazon.ca/dp/B07FMJPFTY?tag=apocalypsegear-20",
+      "evidenceMethod": "owner-document",
+      "captureDate": null,
+      "priceAndSeller": "Historical owner-reported observations only, not current validated price, seller, stock, authenticity or delivered contents.",
+      "decision": "link-permitted"
+    },
+    {
+      "id": "3m-60921-organic-vapor-p100-cartridges",
+      "model": "60921",
+      "asin": "B07571LR2K",
+      "count": 2,
+      "pairs": 1,
+      "title": "Pack of 2",
+      "priceCad": 35.26,
+      "seller": "Air Pure Shop",
+      "url": "https://www.amazon.ca/dp/B07571LR2K?tag=apocalypsegear-20",
+      "evidenceMethod": "owner-document",
+      "captureDate": null,
+      "priceAndSeller": "Historical owner-reported observations only, not current validated price, seller, stock, authenticity or delivered contents.",
+      "decision": "link-permitted"
+    },
+    {
+      "id": "3m-60926-multi-gas-vapor-p100-cartridges",
+      "model": "60926",
+      "asin": "B009POHLRC",
+      "count": 2,
+      "pairs": 1,
+      "title": "2 Count",
+      "priceCad": 43.82,
+      "seller": "New-Age Commerce",
+      "unitCount": "1",
+      "nuance": "Unit Count 1 may describe one commercial package containing two cartridges; the explicit 2 Count title is recorded, not a physical parcel inspection.",
+      "url": "https://www.amazon.ca/dp/B009POHLRC?tag=apocalypsegear-20",
+      "evidenceMethod": "owner-document",
+      "captureDate": null,
+      "priceAndSeller": "Historical owner-reported observations only, not current validated price, seller, stock, authenticity or delivered contents.",
+      "decision": "link-permitted"
+    }
+  ],
+  "held2091": {
+    "asin": "B001D1JCK4",
+    "decision": "hold",
+    "reason": "The new illustration is not sale-pack evidence. Current Canadian variant and sale-pack quantity remain uncorroborated."
+  }
+}
