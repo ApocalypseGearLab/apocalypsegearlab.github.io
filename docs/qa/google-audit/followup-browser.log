@@ -1,0 +1,21 @@
+[WebServer] (node:14672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:32604) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 2 workers
+
+(node:10516) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:33496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\analytics.spec.ts:19:1 › active affiliate mouse and keyboard clicks each queue one event and keep native new tabs (1.0s)
+  ok 2 tests\browser\analytics.spec.ts:7:1 › one Google loader, one config and preserved verification on document navigation (995ms)
+  ok 4 tests\browser\analytics.spec.ts:61:1 › XML parses strictly, has unique absolute locations and excludes noindex pages (614ms)
+  ok 3 tests\browser\analytics.spec.ts:42:1 › blocked and prevented clicks emit nothing; Analytics exceptions cannot break navigation (797ms)
+  ok 5 tests\browser\phase46.spec.ts:10:40 › 3M 60921 artwork and profile retain package hold and link back to 6800 (1.9s)
+  ok 6 tests\browser\phase46.spec.ts:10:40 › 3M 60926 artwork and profile retain package hold and link back to 6800 (1.8s)
+  ok 7 tests\browser\phase46.spec.ts:10:40 › 3M 2097 artwork and profile retain package hold and link back to 6800 (2.4s)
+  ok 8 tests\browser\phase46.spec.ts:41:1 › 6800 compares four compatible components with explicit hazard limits and reciprocal navigation (3.3s)
+
+  8 passed (34.4s)
