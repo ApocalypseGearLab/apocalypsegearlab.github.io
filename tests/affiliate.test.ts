@@ -105,7 +105,7 @@ test('all non-held profiles can activate independently after documented checks w
     else { assert.equal(link.href, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`); activated++; }
     assert.equal(candidate.data.reviewStatus, 'draft');
   }
-  assert.equal(activated, 23);
+  assert.equal(activated, 26);
   assert.equal(retainedHolds, 3);
 });
 
@@ -133,7 +133,7 @@ test('reviewed recorded links can activate without claiming live listing verific
     else { assert.equal(link.href, null); assert.ok(link.unavailableReason); held++; }
     assert.equal(getMerchantLinks(p, false)[0]?.href, null, 'The account linking switch still applies');
   }
-  assert.equal(active, 21); assert.equal(held, 5);
+  assert.equal(active, 21); assert.equal(held, 8);
 });
 
 test('recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold', () => {

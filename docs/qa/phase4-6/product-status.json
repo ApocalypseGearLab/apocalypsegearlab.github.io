@@ -1,0 +1,589 @@
+{
+  "scope": "Commercial eligibility; informational visibility is independent",
+  "amazonCaLinkingEnabled": true,
+  "finalApprovalConfirmed": false,
+  "privateAccountStanding": "not-independently-confirmed",
+  "targetProducts": 29,
+  "activeAmazonCaButtons": 21,
+  "allAmazonCaLinksReady": false,
+  "documentaryModelReviewsComplete": 4,
+  "informationalVisible": 29,
+  "eligible": 21,
+  "held": 8,
+  "products": [
+    {
+      "slug": "3m-2097-p100-particulate-filters",
+      "asin": "B07FMJPFTY",
+      "url": "https://www.amazon.ca/dp/B07FMJPFTY?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Canadian ASIN B07FMJPFTY: verify genuine 3M 2097 and the current five pairs (ten filters) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Canadian ASIN B07FMJPFTY: verify genuine 3M 2097 and the current five pairs (ten filters) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+        "Canadian ASIN/model and exact package quantity need independent verification.",
+        "Complete the delivered-variant, approved-assembly and safety review before full editorial publication."
+      ],
+      "issues": [
+        "Canadian ASIN B07FMJPFTY: verify genuine 3M 2097 and the current five pairs (ten filters) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check."
+      ]
+    },
+    {
+      "slug": "3m-60921-organic-vapor-p100-cartridges",
+      "asin": "B07571LR2K",
+      "url": "https://www.amazon.ca/dp/B07571LR2K?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Canadian ASIN B07571LR2K: verify genuine 3M 60921 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Canadian ASIN B07571LR2K: verify genuine 3M 60921 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+        "Canadian ASIN/model and exact package quantity need independent verification.",
+        "Complete the delivered-variant, approved-assembly and safety review before full editorial publication."
+      ],
+      "issues": [
+        "Canadian ASIN B07571LR2K: verify genuine 3M 60921 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check."
+      ]
+    },
+    {
+      "slug": "3m-60926-multi-gas-vapor-p100-cartridges",
+      "asin": "B009POHLRC",
+      "url": "https://www.amazon.ca/dp/B009POHLRC?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Canadian ASIN B009POHLRC: verify genuine 3M 60926 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Canadian ASIN B009POHLRC: verify genuine 3M 60926 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+        "Canadian ASIN/model and exact package quantity need independent verification.",
+        "Complete the delivered-variant, approved-assembly and safety review before full editorial publication."
+      ],
+      "issues": [
+        "Canadian ASIN B009POHLRC: verify genuine 3M 60926 and the current one pair (two cartridges) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check."
+      ]
+    },
+    {
+      "slug": "3m-6800-full-facepiece-respirator",
+      "asin": "B00MA4K4C8",
+      "url": "https://www.amazon.ca/dp/B00MA4K4C8?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "3m-aura-9205-n95-respirator",
+      "asin": "B09FM2P1KF",
+      "url": "https://www.amazon.ca/dp/B09FM2P1KF?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently match the Canadian listing, variant and current seller before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "3m-gogglegear-500-safety-goggles",
+      "asin": "B016L26QS0",
+      "url": "https://www.amazon.ca/dp/B016L26QS0?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently match the Canadian listing, variant and current seller before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "511-tactical-rush72-2-backpack",
+      "asin": "B0D9R239MT",
+      "url": "https://www.amazon.ca/dp/B0D9R239MT?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently match the Canadian listing, variant and current seller before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "datrex-dx2400f-emergency-food-ration",
+      "asin": "B08T57RVBY",
+      "url": "https://www.amazon.ca/dp/B08T57RVBY?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently establish the Canadian listing, delivered variant and safety documentation before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "ecoflow-river-2-pro",
+      "asin": "B0BVLPGS79",
+      "url": "https://www.amazon.ca/dp/B0BVLPGS79?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "The requested B0BVLPGS79 public representation still selects B0D2HX1ZS9 and displays model EFR620 but manufacturer part EFR617. The Canadian electrical variant and exact ASIN configuration are unresolved. No ASIN substitution is authorised by this evidence.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "The requested B0BVLPGS79 public representation still selects B0D2HX1ZS9 and displays model EFR620 but manufacturer part EFR617. The Canadian electrical variant and exact ASIN configuration are unresolved. No ASIN substitution is authorised by this evidence.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm the Amazon unit model code and Canadian certification evidence.",
+        "The retrieved Canadian product page contains selected-ASIN metadata B0D2HX1ZS9, different from the stored B0BVLPGS79. Resolve the parent/child or regional listing mapping before activating this URL."
+      ],
+      "issues": [
+        "The requested B0BVLPGS79 public representation still selects B0D2HX1ZS9 and displays model EFR620 but manufacturer part EFR617. The Canadian electrical variant and exact ASIN configuration are unresolved. No ASIN substitution is authorised by this evidence."
+      ]
+    },
+    {
+      "slug": "fenix-cl26r-pro",
+      "asin": "B0CGKWX5YT",
+      "url": "https://www.amazon.ca/dp/B0CGKWX5YT?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Match the camouflage variant and battery supplied to the manufacturer instructions."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "fenix-hm50r-v2-headlamp",
+      "asin": "B0H6R34CBL",
+      "url": "https://www.amazon.ca/dp/B0H6R34CBL?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Match the listed LED/battery revision to its instructions: Fenix global specifies ARB-L16-700P, while the US page includes ARB-L16-800P. Do not combine revision-specific performance or charging claims."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "fnirsi-gc-01-geiger-counter",
+      "asin": "B0BHH9X1WG",
+      "url": "https://www.amazon.ca/dp/B0BHH9X1WG?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Current-offer and delivered-revision verification is required before full editorial publication.",
+        "The manufacturer maximum-range conflict is unresolved; no numerical maximum or traceable calibration is assigned."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "garmin-gpsmap-67i-satellite-gps",
+      "asin": "B0C3WQPQPL",
+      "url": "https://www.amazon.ca/dp/B0C3WQPQPL?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently match the Canadian listing, variant and current seller before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "iniu-p62-20000mah-65w",
+      "asin": "B0DB888L9F",
+      "url": "https://www.amazon.ca/dp/B0DB888L9F?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Exact-model safety verification is incomplete.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Exact-model safety verification is incomplete.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "The public Canadian representation identifies B0DB888L9F with manufacturer part P62-E1, narrowing the model-name ambiguity. Delivered cable/port configuration and applicable exact-unit electrical safety evidence remain incomplete; marketing protections or an unrelated BI-B41 recall do not provide that clearance.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain exact-model Canadian safety/certification documentation and reconcile the cable configuration before publication.",
+        "The retrieved Canadian page labels the item P62 but uses P62-E1 in comparison content. Resolve that revision and cable configuration; neither section proves Canadian safety certification."
+      ],
+      "issues": [
+        "Exact-model safety verification is incomplete.",
+        "Product safety review is blocked.",
+        "The public Canadian representation identifies B0DB888L9F with manufacturer part P62-E1, narrowing the model-name ambiguity. Delivered cable/port configuration and applicable exact-unit electrical safety evidence remain incomplete; marketing protections or an unrelated BI-B41 recall do not provide that clearance."
+      ]
+    },
+    {
+      "slug": "jackery-explorer-1000-v2",
+      "asin": "B0D7PPG25F",
+      "url": "https://www.amazon.ca/dp/B0D7PPG25F?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Review the exact Canadian unit, certification labels and intended loads before publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "jackery-explorer-300",
+      "asin": "B082TMBYR6",
+      "url": "https://www.amazon.ca/dp/B082TMBYR6?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Regional model identity, capacity and voltage must be matched to the Canadian listing.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Regional model identity, capacity and voltage must be matched to the Canadian listing.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "The Canadian representation associates B082TMBYR6 with Explorer 300 / JE-300E, but battery chemistry and regional electrical configuration remain unresolved across its capacity, Lithium Ion/LiFePO4 and 110/120 V fields. Match the actual rating label and Canadian instructions; the excluded USB illustration remains rejected.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Resolve the capacity and 110/120 V regional revision against the actual listing and manufacturer label.",
+        "Resolve the inconsistent 292/293 Wh, Lithium Ion/LiFePO4 and 110/120 V statements against the actual unit label and matching manual. A product-summary string is not proof that the delivered model is LiFePO4."
+      ],
+      "issues": [
+        "Regional model identity, capacity and voltage must be matched to the Canadian listing.",
+        "The Canadian representation associates B082TMBYR6 with Explorer 300 / JE-300E, but battery chemistry and regional electrical configuration remain unresolved across its capacity, Lithium Ion/LiFePO4 and 110/120 V fields. Match the actual rating label and Canadian instructions; the excluded USB illustration remains rejected."
+      ]
+    },
+    {
+      "slug": "jackery-solarsaga-100w-air",
+      "asin": "B0FX8P4JST",
+      "url": "https://www.amazon.ca/dp/B0FX8P4JST?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Confirm that ASIN B0FX8P4JST is the documented SolarSaga 100 Air revision and includes the required Canadian charging cable."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "kidde-c3010-co-alarm",
+      "asin": "B00FHW7PBS",
+      "url": "https://www.amazon.ca/dp/B00FHW7PBS?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "Canadian model and certification evidence are incomplete.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Canadian model and certification evidence are incomplete.",
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Kidde Canada explicitly lists C3010-CA as CSA Listed; no evidence maps the recorded B00FHW7PBS C3010 / 21010045 to that Canadian model and mark. Obtain the actual model/rating label, recognised Canadian certification file and matching instructions before enabling this CO-alarm link.",
+        "Verify the current Canadian Amazon listing against the supplied ASIN and documented model.",
+        "Obtain manufacturer confirmation linking item 21010045 to a Canada-approved model, or retain this item unpublished.",
+        "Verify the Canadian mark on the actual product, certification file, installation instructions and applicable local requirements."
+      ],
+      "issues": [
+        "Canadian model and certification evidence are incomplete.",
+        "Product safety review is blocked.",
+        "Kidde Canada explicitly lists C3010-CA as CSA Listed; no evidence maps the recorded B00FHW7PBS C3010 / 21010045 to that Canadian model and mark. Obtain the actual model/rating label, recognised Canadian certification file and matching instructions before enabling this CO-alarm link."
+      ]
+    },
+    {
+      "slug": "leatherman-wave-plus-multitool",
+      "asin": "B079MJBP21",
+      "url": "https://www.amazon.ca/dp/B079MJBP21?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Verify the exact Canadian ASIN, stainless/black finish and whether the selected Amazon package includes a sheath or extra bits."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "marmot-precip-rain-jacket",
+      "asin": "B0CMS33YXX",
+      "url": "https://www.amazon.ca/dp/B0CMS33YXX?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently match the Canadian listing, variant and current seller before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "mechanix-m-pact-work-gloves",
+      "asin": "B00939MRAA",
+      "url": "https://www.amazon.ca/dp/B00939MRAA?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently match the Canadian listing, variant and current seller before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "merrell-moab-3-mid-waterproof-boots",
+      "asin": "B0987Z7CKY",
+      "url": "https://www.amazon.ca/dp/B0987Z7CKY?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independently match the Canadian listing, variant and current seller before full editorial publication."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "midland-er310",
+      "asin": "B015QIC1PW",
+      "url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Full editorial publication still requires independent listing, delivered-revision and safety review.",
+        "No exact battery capacity or runtime is assigned; confirm the supplied Midland pack against the delivered instructions."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "nanuk-904-first-aid-kit",
+      "asin": "B0G3XYHL33",
+      "url": "https://www.amazon.ca/dp/B0G3XYHL33?tag=apocalypsegear-20",
+      "amazonCaActive": false,
+      "buttonReason": "NANUK Canada documents a filled FSA03 kit, but B0G3XYHL33 is not matched to that SKU or confirmed as filled. US FSA02 still has 109/110 across repeated descriptions; Canadian FSA03 has 108/110. Substitutions, delivered expiry and sterile seals remain unverified. Obtain the actual Canadian SKU and current fill list.",
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "hold",
+      "eligible": false,
+      "held": true,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "NANUK Canada documents a filled FSA03 kit, but B0G3XYHL33 is not matched to that SKU or confirmed as filled. US FSA02 still has 109/110 across repeated descriptions; Canadian FSA03 has 108/110. Substitutions, delivered expiry and sterile seals remain unverified. Obtain the actual Canadian SKU and current fill list.",
+        "Verify the current Canadian listing and exact model/package.",
+        "Obtain the Canadian filled-kit SKU and inventory, resolve the manufacturer page’s 109/110-item discrepancy, and check expiry/sterility information. Do not infer workplace or medical suitability from the case model."
+      ],
+      "issues": [
+        "NANUK Canada documents a filled FSA03 kit, but B0G3XYHL33 is not matched to that SKU or confirmed as filled. US FSA02 still has 109/110 across repeated descriptions; Canadian FSA03 has 108/110. Substitutions, delivered expiry and sterile seals remain unverified. Obtain the actual Canadian SKU and current fill list."
+      ]
+    },
+    {
+      "slug": "readywise-84-servings-emergency-food-bucket",
+      "asin": "B00TX5J74S",
+      "url": "https://www.amazon.ca/dp/B00TX5J74S?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independent live-listing, delivered-variant and safety review remains required before full editorial publication.",
+        "Delivered lot, dates and allergen labels remain checks before use. The old pudding link does not override the inspected yogurt formulation, and no laboratory nutrition or unconditional shelf-life guarantee is made."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "reliance-aqua-tainer-7-gallon",
+      "asin": "B001QC31G6",
+      "url": "https://www.amazon.ca/dp/B001QC31G6?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Match the current Canadian ASIN to item 9410-03R, 7 US gallons, with the stated cap and spigot; do not substitute the 4-gallon model."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "sawyer-squeeze-sp129-water-filter",
+      "asin": "B00B1OSU4W",
+      "url": "https://www.amazon.ca/dp/B00B1OSU4W?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Match the Canadian ASIN to SP129 and its current pouch/adapter inventory; do not substitute MINI, Micro Squeeze or another kit."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "sol-emergency-bivvy",
+      "asin": "B08NC9BLQ5",
+      "url": "https://www.amazon.ca/dp/B08NC9BLQ5?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Match the Canadian ASIN to the standard 84 × 36 inch Emergency Bivvy with whistle and tinder cord, including the selected colour; do not substitute XL or Escape."
+      ],
+      "issues": []
+    },
+    {
+      "slug": "sos-3600-calorie-emergency-food-rations",
+      "asin": "B00W20PIHQ",
+      "url": "https://www.amazon.ca/dp/B00W20PIHQ?tag=apocalypsegear-20",
+      "amazonCaActive": true,
+      "informationalVisible": true,
+      "listingVerified": false,
+      "linkReview": "link-permitted",
+      "eligible": true,
+      "held": false,
+      "editorialPublicationIssues": [
+        "Canadian listing identity has not been verified.",
+        "Safety review has not been completed.",
+        "Editorial publication approval is pending.",
+        "Independent listing, delivered-label and safety review remains required before full editorial publication.",
+        "Exact lot energy, freshness, seller and delivered packaging integrity are not established; no exact calorie total or remaining shelf life is guaranteed."
+      ],
+      "issues": []
+    }
+  ]
+}

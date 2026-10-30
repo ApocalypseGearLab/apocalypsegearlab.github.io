@@ -10,7 +10,8 @@ import { getMerchantLinks } from '../lib/affiliate';
 import { productStructuredData } from '../lib/product-seo';
 import ProductCard from './ProductCard.astro';
 import ProductImage from './ProductImage.astro';
-import { isCommerciallyApproved, isInformationalProduct, productCaution } from '../lib/release-policy';
+import { isCommerciallyApproved, isInformationalProduct } from '../lib/release-policy';
+import { COMPATIBLE_3M_FILTERS, productCaution } from '../lib/respirator-filters';
 
 
 
@@ -29,7 +30,13 @@ const verified = data.lastVerified?.toISOString().slice(0, 10);
 const research = data.research;
 const safetyNotes = research?.safetyNotes.map((note) => note.replace('Do not publish or recommend', 'Do not recommend').replace('before approval', 'before purchase or use').replace('a pre-publication check', 'a check before purchase or use')) ?? [];
 const purchaseChecks = data.editorial?.purchaseChecks.length ? data.editorial.purchaseChecks : research?.unverifiedClaims ?? [];
-const related = (await getVisibleProducts()).filter((candidate) => data.relatedProducts.includes(candidate.id));
+const visibleProducts = await getVisibleProducts();
+const related = visibleProducts.filter((candidate) => data.relatedProducts.includes(candidate.id));
+const compatibleFilters = product.id === '3m-6800-full-facepiece-respirator'
+  ? COMPATIBLE_3M_FILTERS.flatMap((filter) => {
+      const candidate = visibleProducts.find(({ id }) => id === filter.id);
+      return candidate ? [{ ...filter, product: candidate }] : [];
+    }) : [];
 const productJson = Astro.site ? productStructuredData(product, Astro.site) : undefined;
 const breadcrumbs = {
   '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
@@ -104,6 +111,13 @@ const breadcrumbs = {
       {data.merchant?.notes && showInternalReview && <p>{data.merchant.notes}</p>}
       {availableLinks.length ? <><p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p>{!availableLinks.some((link) => link.href) && <p>Amazon.ca links are unavailable until the documented product checks are resolved. No price, availability or seller is confirmed.</p>}</> : <p>Retailer links are not available for this profile.</p>}
     </section>
+
+    {compatibleFilters.length > 0 && !releasePreview && <section aria-labelledby="compatible-3m-filters">
+      <h2 id="compatible-3m-filters">Compatible 3M Filters &amp; Cartridges</h2>
+      <p>The 6800 uses two matching filters or cartridges in an approved configuration. Bayonet compatibility does not establish suitability for a particular hazard. Check the facepiece instructions, component approval labels and assessed contaminant before selection; these components supply no oxygen.</p>
+      <ul>{compatibleFilters.map((filter) => <li><a href={`/gear/${filter.id}/`}>3M {filter.model}</a>: {filter.scope}</li>)}</ul>
+      <div class="grid grid--3">{compatibleFilters.map((filter) => <ProductCard product={filter.product} />)}</div>
+    </section>}
 
     {related.length > 0 && !releasePreview && <section aria-labelledby="related"><h2 id="related">Related equipment profiles</h2>
       {!indexable && <p>These reference profiles describe documented features and unresolved limitations. They are not purchase recommendations.</p>}

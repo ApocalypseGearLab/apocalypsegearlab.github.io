@@ -1,0 +1,162 @@
+{
+  "name": "3M 2097 P100 Particulate Filters",
+  "brand": "3M",
+  "modelNumber": "2097",
+  "category": "respiratory-protection",
+  "summary": "Round P100 particulate filters with nuisance-level organic-vapor relief. They do not replace gas/vapor cartridges. The recorded five-pair Amazon.ca pack still needs quantity verification.",
+  "description": "The 2097 is a particulate filter, not a chemical cartridge. 3M documents P100 filtration and limited organic-vapor odor relief below the applicable occupational exposure limit, whichever limit is lower. On an approved 6800 configuration, two matching filters are used at a time. The illustration shows ten filters, but it cannot establish the contents of Canadian ASIN B07FMJPFTY; the claimed five-pair pack remains unverified.",
+  "specs": [
+    {
+      "label": "Model / filter class",
+      "value": "3M 2097; P100 particulate filter. Manufacturer designation, not authentication of the listed unit",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/"
+    },
+    {
+      "label": "Protection scope",
+      "value": "P100 filtration of certain oil and non-oil particles, with nuisance-level organic-vapor relief only; not protection against hazardous gas/vapor concentrations.",
+      "source": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/"
+    },
+    {
+      "label": "Compatible respirators",
+      "value": "3M bayonet 6000-series full facepieces, including 6800 Medium, in configurations covered by the applicable instructions and approval label; mechanical fit alone does not establish hazard suitability",
+      "source": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+    },
+    {
+      "label": "Components in use",
+      "value": "Two matching filters or cartridges on the facepiece; replace as instructed. This is the assembly count, not a verified Amazon package quantity",
+      "source": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+    },
+    {
+      "label": "Service and replacement",
+      "value": "Inspect before use. Leave the contaminated area and replace damaged, soiled or difficult-to-breathe-through filters; follow all application-specific time limits and the package use-by date",
+      "source": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf"
+    },
+    {
+      "label": "Air supply / exclusions",
+      "value": "Supplies no oxygen; not for oxygen-deficient, unknown or immediately dangerous to life or health (IDLH) atmospheres",
+      "source": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf"
+    }
+  ],
+  "pros": [
+    "Compact round particulate-filter format for a correctly selected approved assembly.",
+    "Manufacturer installation and replacement instructions are available for the exact model family."
+  ],
+  "cons": [
+    "Nuisance-level organic-vapor relief is not protection against hazardous gases or vapors. The 2097 does not replace a chemical cartridge selected for those hazards.",
+    "Requires a compatible facepiece, matching components, fit testing, training and a user seal check; a seal check does not replace a fit test.",
+    "The Canadian listing, genuine supply, package quantity, delivered lot and expiration remain unverified."
+  ],
+  "useCases": [
+    "Compare particulate-filter options for an identified occupational aerosol hazard with a competent respiratory-protection professional.",
+    "Plan approved components, inspection, fit and replacement procedures before entering any assessed work area."
+  ],
+  "sources": [
+    {
+      "id": "3m-model",
+      "title": "3M Canada: 2097 model specifications (manufacturer case, not Amazon sale pack)",
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-filter-instructions",
+      "title": "3M 2000/2200-series particulate user instructions",
+      "url": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "3m-6800-instructions",
+      "title": "3M 6000 full-facepiece instructions: 6800 compatibility, two-component installation and limits",
+      "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "3m-6800-full-facepiece-respirator",
+    "3m-60921-organic-vapor-p100-cartridges",
+    "3m-60926-multi-gas-vapor-p100-cartridges"
+  ],
+  "image": {
+    "src": "/images/outbreak/3m-2097-outbreak.webp",
+    "alt": "Concept illustration of ten pink 3M 2097-style round filters in a green OUTBREAK inventory frame; pictured quantity is not a verified sale pack",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 4.6 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner-recorded offer: Five pairs (ten filters). Quantity not independently verified and not inferred from the image or 3M case packaging."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B07FMJPFTY?tag=apocalypsegear-20",
+      "asin": "B07FMJPFTY"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-29",
+    "identityNotes": "Primary 3M model specifications and exact family instructions reviewed. Canadian offer not retrieved; ASIN/model and sale-pack quantity are owner-recorded, not independently verified. No physical test or seller authentication is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "3M documents 2097: P100 filtration of certain oil and non-oil particles, with nuisance-level organic-vapor relief only; not protection against hazardous gas/vapor concentrations.",
+        "sourceIds": [
+          "3m-model"
+        ]
+      },
+      {
+        "text": "The 6800 facepiece instructions list this reference and describe installing a second matching filter/cartridge. Applicable approvals and hazard selection still govern the complete assembly.",
+        "sourceIds": [
+          "3m-6800-instructions"
+        ]
+      },
+      {
+        "text": "Nuisance-level organic-vapor relief is not protection against hazardous gases or vapors. The 2097 does not replace a chemical cartridge selected for those hazards.",
+        "sourceIds": [
+          "3m-filter-instructions"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The recorded offer is five pairs (ten filters), but ASIN/model correspondence and actual Canadian package quantity remain unverified."
+    ],
+    "safetyNotes": [
+      "Nuisance-level organic-vapor relief is not protection against hazardous gases or vapors. The 2097 does not replace a chemical cartridge selected for those hazards.",
+      "These air-purifying components supply no oxygen. Do not use in oxygen-deficient, unknown or immediately dangerous to life or health (IDLH) atmospheres.",
+      "Use two matching compatible components on the 3M 6800 only as an approved assembly selected for the assessed contaminant and concentration; mechanical compatibility is not hazard suitability.",
+      "Correct fit, required fit testing, training and a user seal check are essential. Facial hair or damaged parts can compromise the seal.",
+      "No universal protection against radiation, biological agents or chemical weapons is established. Particle filtration does not shield ionizing radiation or eliminate infection risk. This is not a CBRN escape system.",
+      "Check genuine supply, labels, package integrity and expiration. Follow the delivered manufacturer instructions, change schedule and applicable respiratory-protection program."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Canadian ASIN/model and exact package quantity need independent verification.",
+      "Complete the delivered-variant, approved-assembly and safety review before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B07FMJPFTY",
+      "checkedAt": "2026-10-29",
+      "reason": "Canadian ASIN B07FMJPFTY: verify genuine 3M 2097 and the current five pairs (ten filters) sale pack. Amazon.ca could not be read independently; the manufacturer case quantity and concept illustration do not confirm the retailer pack. The link remains pending this explicit model/quantity check.",
+      "sourceIds": [
+        "3m-model",
+        "3m-6800-instructions"
+      ]
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Verify B07FMJPFTY is genuine 3M 2097, not a generic or different variant, and confirm five pairs (ten filters) in the selected current offer.",
+      "Confirm the approved facepiece/component configuration and suitability for the assessed hazard with a competent professional.",
+      "Inspect unopened packaging, genuine identifiers and expiration; follow the actual instructions before use."
+    ]
+  }
+}

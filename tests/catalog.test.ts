@@ -8,10 +8,12 @@ import { categoryUniverse } from '../src/config/taxonomy';
 import { getMerchantLinks, canadianAffiliateIssues } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 
-import { OUTBREAK, PHASE43_FALLOUT } from './catalogue-fixture';
+import { OUTBREAK, PHASE43_FALLOUT, PHASE46_FILTERS } from './catalogue-fixture';
 import { productCaution } from '../src/lib/release-policy';
+import { productCaution as filterCaution, COMPATIBLE_3M_FILTERS } from '../src/lib/respirator-filters';
 const expected = {
   ...OUTBREAK,
+  ...PHASE46_FILTERS,
   ...PHASE43_FALLOUT,
   'jackery-explorer-1000-v2': ['B0D7PPG25F', 'power-stations'],
   'ecoflow-river-2-pro': ['B0BVLPGS79', 'power-stations'],
@@ -30,6 +32,66 @@ const expected = {
 } as const;
 const rawProducts = new Map(readdirSync('src/data/products').filter((file) => file.endsWith('.json')).map((file) => [file.replace(/\.json$/, ''), JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))]));
 const site = new URL('https://apocalypsegearlab.github.io');
+
+for (const [id, [asin]] of Object.entries(PHASE46_FILTERS)) test(`${id} keeps exact identity, distinct respiratory limits and an unverified-quantity hold`, () => {
+  const data = productSchema.parse(rawProducts.get(id));
+  const product = {id, data} as Product;
+  const evidence = JSON.parse(readFileSync('docs/qa/phase4-6/evidence.json','utf8')).products.find((p:any) => p.slug === id);
+  assert.equal(data.links.amazonCa.asin, asin);
+  assert.equal(data.links.amazonCa.url, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
+  assert.equal(data.modelNumber, id.split('-')[1]);
+  assert.equal(evidence.independentlyVerifiedQuantity, null);
+  assert.equal(data.research!.affiliateReview!.decision, 'hold');
+  assert.match(data.research!.affiliateReview!.reason, /model\/quantity check/);
+  assert.equal(getMerchantLinks(product,true)[0]!.href, null);
+  assert.equal(data.research!.listingEvidence, undefined);
+  assert.ok(data.sources.every(source=>!source.url.includes('amazon.ca')),'An unread held retailer URL is not a verified public source or an alternate buying link');
+  assert.equal(data.research!.listingVerified, false);
+  assert.equal(data.research!.publicationApproved, false);
+  assert.equal(data.reviewStatus,'draft');
+  assert.equal(data.visibility,'informational');
+  assert.equal(data.testing,'not-tested');
+  assert.equal(data.lastVerified,null);
+  assert.equal(productStructuredData(product,site),undefined);
+  assert.equal(productSchema.safeParse({...data,reviewStatus:'published'}).success,false);
+  const changed=structuredClone(product);
+  Object.assign(changed.data.research!,{listingVerified:true,safetyStatus:'cleared',publicationApproved:true,publicationBlockers:[]});
+  assert.equal(getMerchantLinks(changed,true)[0]!.href,null,'Unrelated flags must not bypass the package/model hold');
+  const safety=data.research!.safetyNotes.join(' ');
+  assert.match(safety,/two matching/);
+  assert.match(safety,/supply no oxygen/);
+  assert.match(safety,/oxygen-deficient, unknown.*IDLH/);
+  assert.match(safety,/fit testing/);
+  assert.match(safety,/No universal protection against radiation, biological agents or chemical weapons/);
+  assert.ok(data.relatedProducts.includes('3m-6800-full-facepiece-respirator'));
+  assert.equal(COMPATIBLE_3M_FILTERS.filter(f=>f.id===id).length,1);
+  assert.match(filterCaution(product)!,new RegExp(data.modelNumber==='2097'?'nuisance-level':'P100'));
+  if(data.modelNumber==='2097') {
+    assert.match(data.specs.find(s=>s.label==='Protection scope')!.value,/not protection against hazardous gas\/vapor/);
+    assert.match(data.summary,/five-pair.*quantity verification/);
+  } else assert.doesNotMatch(filterCaution(product)!,/No protection against gases, vapours/);
+});
+
+test('Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision', () => {
+  const baseline=JSON.parse(readFileSync('docs/qa/phase4-6/preservation.json','utf8'));
+  assert.equal(baseline.baseCommit,'f027d539fd2b4621fc55ec4b103dcdc63245d0ee');
+  assert.equal(baseline.products.length,27,'All 26 prior products and template');
+  for(const p of baseline.products) assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
+  for(const p of baseline.files) {
+    const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
+    assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
+  }
+  const manifest=JSON.parse(readFileSync('src/data/media/imported-manifest.json','utf8'));
+  assert.equal(manifest.assets.length,29);
+  assert.deepEqual(manifest.assets.slice(0,26),baseline.importedAssets);
+  for(const id of Object.keys(PHASE46_FILTERS)) {
+    const asset=manifest.assets.find((a:any)=>a.productId===id);
+    assert.equal(asset.mappingCsv,'assets/media/phase4-6-image-manifest.csv');
+    assert.deepEqual(asset.variants.map((v:any)=>v.width),[480,960,1254]);
+    assert.equal(asset.encoding.crop,false);assert.equal(asset.encoding.recolor,false);
+    assert.match(asset.reviewNote,/synthetic|Synthetic|Generated/);
+  }
+});
 
 test('Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits', () => {
   const decisions={
@@ -78,6 +140,7 @@ test('all 26 product identities and the 17 unaudited records are preserved again
 test('media, bunker, affiliate configuration, taxonomy and mandatory safety controls remain unchanged', () => {
   const baseline=JSON.parse(readFileSync('docs/qa/phase4-4/preservation.json','utf8'));
   for(const p of baseline.unchangedFiles){
+    if(p.file==='src/data/media/imported-manifest.json') continue; // Intentional append; old entries are independently protected below.
     const raw=readFileSync(p.file),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
   }
@@ -232,7 +295,7 @@ test('remaining product holds cannot be bypassed by setting unrelated editorial 
   }
 });
 
-test('twenty-six registered links retain exact identities and obey product-level evidence decisions', () => {
+test('twenty-nine registered links retain exact identities and obey product-level evidence decisions', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -241,7 +304,7 @@ test('twenty-six registered links retain exact identities and obey product-level
     assert.equal(data.links.amazonCa.url, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
     assert.equal(new URL(data.links.amazonCa.url!).searchParams.getAll('tag').length, 1);
     assert.equal(data.category, category);
-    assert.equal(categoryUniverse(data.category), slug in OUTBREAK ? 'outbreak' : ['water','first-aid','tools','shelter','food-storage','food-rations','radiation-detection'].includes(category) ? 'fallout' : 'blackout');
+    assert.equal(categoryUniverse(data.category), slug in OUTBREAK || slug in PHASE46_FILTERS ? 'outbreak' : ['water','first-aid','tools','shelter','food-storage','food-rations','radiation-detection'].includes(category) ? 'fallout' : 'blackout');
     assert.equal(data.testing, 'not-tested');
     assert.equal(data.reviewStatus, 'draft');
     assert.equal(data.visibility, 'informational');
@@ -249,7 +312,7 @@ test('twenty-six registered links retain exact identities and obey product-level
     assert.ok(data.research?.confirmed.length);
     assert.ok(data.description.length > 150);
     assert.ok(data.specs.length >= 5);
-    if(slug in OUTBREAK || slug in PHASE43_FALLOUT) assert.ok(data.image?.src?.startsWith('/images/'+categoryUniverse(data.category)+'/')); else assert.equal(data.image, null);
+    if(slug in OUTBREAK || slug in PHASE43_FALLOUT || slug in PHASE46_FILTERS) assert.ok(data.image?.src?.startsWith('/images/'+categoryUniverse(data.category)+'/')); else assert.equal(data.image, null);
     for (const key of ['price', 'rating', 'aggregateRating', 'stock', 'discount']) assert.ok(!(key in raw));
     const product = { id: slug, data } as Product;
     const eligible = canadianAffiliateIssues(product).length === 0;
@@ -278,7 +341,7 @@ test('slugs, ASINs and related records are unique and refer to existing products
       assert.ok(rawProducts.has(related), `${slug} -> ${related}`);
     }
   }
-  assert.equal(asins.size, 26);
+  assert.equal(asins.size, 29);
 });
 
 test('Kidde and INIU remain blocked and cannot be published by changing only editorial status', () => {
@@ -353,15 +416,15 @@ test('OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits
   }
 });
 
-test('Phase 4.3 has nine BLACKOUT, nine FALLOUT and eight OUTBREAK profiles with substantive original content', () => {
+test('Catalogue has nine BLACKOUT, nine FALLOUT and eleven OUTBREAK profiles with substantive original content', () => {
   const products = [...rawProducts].filter(([,raw]) => raw.visibility === 'informational');
-  assert.equal(products.length, 26);
+  assert.equal(products.length, 29);
   const universes = products.map(([,raw]) => categoryUniverse(productSchema.parse(raw).category));
   assert.equal(universes.filter(id => id === 'blackout').length, 9);
   assert.equal(universes.filter(id => id === 'fallout').length, 9);
-  assert.equal(universes.filter(id => id === 'outbreak').length, 8);
-  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size, 26);
-  assert.equal(new Set(products.map(([,raw]) => raw.description)).size, 26);
+  assert.equal(universes.filter(id => id === 'outbreak').length, 11);
+  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size, 29);
+  assert.equal(new Set(products.map(([,raw]) => raw.description)).size, 29);
   for (const id of ['fenix-hm50r-v2-headlamp','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','nanuk-904-first-aid-kit','leatherman-wave-plus-multitool','sol-emergency-bivvy']) {
     const raw = rawProducts.get(id);
     assert.ok(raw.editorial.purchaseChecks.length >= 3, id);

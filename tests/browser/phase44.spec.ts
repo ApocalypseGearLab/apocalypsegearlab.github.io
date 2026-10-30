@@ -16,9 +16,9 @@ const decisions={
 for(const width of [320,375,768,1024,1440,1920])test(`Phase 4.4 compact pending cards, exact decisions and readable controls at ${width}px`,async({page})=>{
   test.setTimeout(60_000);
   await page.setViewportSize({width,height:900});await page.goto('/gear/');
-  await expect(page.locator('article.card')).toHaveCount(26);
+  await expect(page.locator('article.card')).toHaveCount(29);
   await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(21);
-  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(5);
+  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(8);
   await expect(page.locator('article.card [aria-disabled]')).toHaveCount(0);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   for(const [id,[asin,active]] of Object.entries(decisions)){
