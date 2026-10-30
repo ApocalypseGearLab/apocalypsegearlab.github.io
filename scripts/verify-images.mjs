@@ -72,7 +72,8 @@ assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,1
 assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,29);
 assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,29);
 const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json').map(file => file.replace(/\.json$/, ''));
-assert.equal(productIds.length,29);
+assert.equal(productIds.length,30);
+assert.deepEqual(productIds.filter(id=>!supplied.assets.some(asset=>asset.productId===id)),['3m-2091-p100-particulate-filters'],'2091 remains a distinct neutral profile; never reuse 2097 artwork');
 const csv=await readFile(supplied.csv,'utf8');
 for(const asset of supplied.assets){
   assert.match(asset.file,/^assets\/media\/(blackout|fallout|outbreak)\/[a-z0-9-]+\.webp$/);

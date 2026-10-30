@@ -24,7 +24,7 @@ const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
 ---
 
 <article class:list={['panel', 'card', { 'card--illustrated': illustrated }]} data-product-id={product.id} data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
-  <ProductImage slug={product.id} label={categoryLabel(data.category)} releasePreview={releasePreview} />
+  <ProductImage slug={product.id} label={categoryLabel(data.category)} universe={universe.id} releasePreview={releasePreview} />
   <p class="label">{universe.name} · {categoryLabel(data.category)}</p>
   <Heading><a href={profileHref}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>

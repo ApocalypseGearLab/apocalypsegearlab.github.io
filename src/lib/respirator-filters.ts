@@ -6,6 +6,7 @@ export const COMPATIBLE_3M_FILTERS = [
   { id: '3m-60921-organic-vapor-p100-cartridges', model: '60921', scope: 'Certain organic vapors plus P100 particulates; not a multi-gas cartridge.' },
   { id: '3m-60926-multi-gas-vapor-p100-cartridges', model: '60926', scope: 'Specified gases and vapors plus P100 particulates; not universal chemical protection.' },
   { id: '3m-2097-p100-particulate-filters', model: '2097', scope: 'P100 particulates with nuisance-level organic-vapor relief; not a replacement for hazardous gas/vapor cartridges.' },
+  { id: '3m-2091-p100-particulate-filters', model: '2091', scope: 'P100 particulates only; no nuisance-level organic-vapor relief or hazardous gas/vapor protection is specified.' },
 ] as const;
 
 export function productCaution(product: Product): string | undefined {

@@ -6,6 +6,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { productSchema } from '../src/lib/product-schema';
 import { ACTIVE_PRODUCTS } from './catalogue-fixture';
 import { mandatoryHold } from '../src/lib/release-policy';
+import {inspectCanadianUrl,auditCanadianCatalogue} from '../src/lib/affiliate-audit';
 
 function product(ca: string | null, us: string | null = null, partner: string | null = null): Product {
   return { id: 'qa-approved', data: { reviewStatus: 'published', research: { listingVerified: true, publicationApproved: true, safetyStatus: 'cleared', publicationBlockers: [], listingEvidence: {url:'https://www.amazon.ca/dp/B000000001', checkedAt:'2026-10-26', method:'live-page', matchedAsin:'B000000001', matchedModel:'QA approved', notes:'Synthetic QA listing evidence, not a real listing.'} }, name:'QA approved', links: {
@@ -105,7 +106,7 @@ test('all non-held profiles can activate independently after documented checks w
     else { assert.equal(link.href, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`); activated++; }
     assert.equal(candidate.data.reviewStatus, 'draft');
   }
-  assert.equal(activated, 26);
+  assert.equal(activated, 27);
   assert.equal(retainedHolds, 3);
 });
 
@@ -133,7 +134,7 @@ test('reviewed recorded links can activate without claiming live listing verific
     else { assert.equal(link.href, null); assert.ok(link.unavailableReason); held++; }
     assert.equal(getMerchantLinks(p, false)[0]?.href, null, 'The account linking switch still applies');
   }
-  assert.equal(active, 21); assert.equal(held, 8);
+  assert.equal(active, 21); assert.equal(held, 9);
 });
 
 test('recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold', () => {
@@ -161,4 +162,42 @@ test('the schema binds each link review to its ASIN and documented sources', () 
     if (mutation === 'reason') changed.research.affiliateReview.reason = '';
     assert.equal(productSchema.safeParse(changed).success, false, mutation);
   }
+});
+test('independent URL audit rejects wrong domains, ASIN paths, tags, credentials and fragments without enabling them',()=>{
+  const valid='https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20';
+  assert.deepEqual(inspectCanadianUrl({url:valid,asin:'B000000001'}),[]);
+  for(const url of [
+    'not a URL',valid.replace('https:','http:'),valid.replace('amazon.ca','amazon.com'),
+    valid.replace('www.amazon.ca','www.amazon.ca.example.com'),valid.replace('/B000000001','/B000000002'),
+    valid.replace('apocalypsegear-20','wrong-20'),valid+'&tag=apocalypsegear-20',valid+'&ref=extra',valid+'#fragment',
+    valid.replace('www.amazon.ca','user:pass@www.amazon.ca'),valid.replace('www.amazon.ca','www.amazon.ca:8443'),
+  ]){
+    assert.ok(inspectCanadianUrl({url,asin:'B000000001'}).length,url);
+    assert.equal(getMerchantLinks(product(url),true)[0]!.href,null,url);
+  }
+  assert.ok(inspectCanadianUrl({url:null,asin:null}).length);
+});
+
+test('catalogue audit detects accidental duplicate targets and undocumented blocks independently of rendering',()=>{
+  const a=product('https://www.amazon.ca/dp/B000000001?tag=apocalypsegear-20');
+  const b=structuredClone(a);b.id='duplicate-record';
+  const duplicates=auditCanadianCatalogue([a,b]);
+  assert.equal(duplicates.duplicateAsins,2);assert.equal(duplicates.duplicateUrls,2);
+  assert.deepEqual(duplicates.rows[0]!.duplicateAsinWith,['duplicate-record']);
+  const unreviewed=structuredClone(a);unreviewed.id='undocumented-record';
+  unreviewed.data.reviewStatus='draft';unreviewed.data.visibility='informational';
+  unreviewed.data.research!.publicationApproved=false;
+  const audit=auditCanadianCatalogue([unreviewed]);
+  assert.equal(audit.blocked,1);assert.equal(audit.undocumentedBlocks,1);
+  assert.ok(audit.rows[0]!.blocker,'A fallback message alone is not a documented product decision');
+});
+
+test('complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission',()=>{
+  const products=readdirSync('src/data/products').filter(file=>file.endsWith('.json')).map(file=>({id:file.replace('.json',''),data:productSchema.parse(JSON.parse(readFileSync('src/data/products/'+file,'utf8')))} as Product));
+  const audit=auditCanadianCatalogue(products);
+  assert.equal(audit.products,30);assert.equal(audit.invalidUrls,0);
+  assert.equal(audit.duplicateAsins,0);assert.equal(audit.duplicateUrls,0);
+  assert.equal(audit.active,21);assert.equal(audit.blocked,9);assert.equal(audit.undocumentedBlocks,0);
+  assert.equal(audit.offersVerified,0,'Recorded-link permission does not invent an independently verified offer');
+  for(const row of audit.rows)assert.equal(row.buttonActive,ACTIVE_PRODUCTS.includes(row.slug),row.slug);
 });

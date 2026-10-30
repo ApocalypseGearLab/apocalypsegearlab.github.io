@@ -1,0 +1,99 @@
+{
+  "scope": "Local production validation; live first-party HTTP reads and unavailable Amazon reader results are separate evidence",
+  "date": "2026-10-29 America/Toronto / 2026-10-30 UTC",
+  "runtime": {
+    "node": "22.23.4",
+    "npm": "10.9.9"
+  },
+  "astro": {
+    "files": 68,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 55,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 74,
+    "failed": 0,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "axe": "WCAG2 A/AA and WCAG2.1 AA automated checks",
+    "simulatedNewTabs": 63,
+    "liveAmazonBrowserNavigation": false
+  },
+  "production": {
+    "htmlPages": 37,
+    "internalReferences": 1201,
+    "sitemapUrls": 5,
+    "products": 30,
+    "active": 21,
+    "blocked": 9
+  },
+  "media": {
+    "unchangedMappings": 29,
+    "unchangedApprovedIllustrations": 28,
+    "unchangedRejectedIllustrations": 1,
+    "newMedia": 0,
+    "newNeutralProfile": "3m-2091-p100-particulate-filters",
+    "existingFilesRecompressed": false
+  },
+  "network": {
+    "amazonReaderUnavailable": 30,
+    "independentOffersVerified": 0,
+    "amazonHttpStatusKnown": 0,
+    "deployedProfiles200": 29,
+    "deployedMissing": [
+      "3m-2091-p100-particulate-filters"
+    ]
+  },
+  "commands": [
+    "npm run check",
+    "npm test",
+    "npm run audit:affiliate -- --output docs/qa/affiliate-audit/catalogue-audit.json",
+    "npm run test:images",
+    "npm run test:products",
+    "npm run build",
+    "npm run test:site",
+    "npm run test:browser",
+    "node --import tsx scripts/release-check.ts"
+  ],
+  "captures": [
+    {
+      "file": "docs/qa/affiliate-audit/card-2091-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 864,
+      "bytes": 13536
+    },
+    {
+      "file": "docs/qa/affiliate-audit/compatible-375.webp",
+      "viewportWidth": 375,
+      "width": 335,
+      "height": 4174,
+      "bytes": 461464
+    },
+    {
+      "file": "docs/qa/affiliate-audit/card-2091-1440.webp",
+      "viewportWidth": 1440,
+      "width": 270,
+      "height": 957,
+      "bytes": 14440
+    },
+    {
+      "file": "docs/qa/affiliate-audit/compatible-1440.webp",
+      "viewportWidth": 1440,
+      "width": 1152,
+      "height": 1379,
+      "bytes": 332822
+    }
+  ]
+}
