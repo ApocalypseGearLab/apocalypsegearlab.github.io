@@ -1,0 +1,152 @@
+
+> apocalypsegearlab@0.1.0 audit:google
+> node scripts/audit-google.mjs --base=http://127.0.0.1:4323 --live --affiliate-smoke --out=docs/qa/google-audit/local-network.json
+
+{
+  "output": "docs/qa/google-audit/local-network.json",
+  "resources": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/gear/",
+      "status": 200
+    },
+    {
+      "path": "/blackout/",
+      "status": 200
+    },
+    {
+      "path": "/fallout/",
+      "status": 200
+    },
+    {
+      "path": "/outbreak/",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemap-0.xml",
+      "status": 200
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    }
+  ],
+  "runtime": [
+    {
+      "path": "/",
+      "gtag": "function",
+      "configCount": 1,
+      "loaderCount": 1
+    },
+    {
+      "path": "/gear/midland-er310/",
+      "gtag": "function",
+      "configCount": 1,
+      "loaderCount": 1
+    },
+    {
+      "path": "/gear/fenix-cl26r-pro/",
+      "gtag": "function",
+      "configCount": 1,
+      "loaderCount": 1
+    }
+  ],
+  "network": [
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "method": "GET",
+      "events": [
+        {}
+      ],
+      "status": 200
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "page_view",
+          "dl": "http://127.0.0.1:4323/"
+        }
+      ],
+      "status": 204
+    },
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "method": "GET",
+      "events": [
+        {}
+      ],
+      "status": 200
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "page_view",
+          "dl": "http://127.0.0.1:4323/gear/midland-er310/"
+        }
+      ],
+      "status": 204
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "affiliate_click",
+          "dl": "http://127.0.0.1:4323/gear/midland-er310/",
+          "ep.product_id": "midland-er310",
+          "ep.asin": "B015QIC1PW",
+          "ep.merchant": "amazon-ca",
+          "ep.marketplace": "ca",
+          "ep.destination_url": "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20"
+        }
+      ],
+      "status": 204
+    },
+    {
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "method": "GET",
+      "events": [
+        {}
+      ],
+      "status": 200
+    },
+    {
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "method": "POST",
+      "events": [
+        {
+          "tid": "G-YFJJ5N9RBX",
+          "en": "page_view",
+          "dl": "http://127.0.0.1:4323/gear/fenix-cl26r-pro/"
+        }
+      ],
+      "status": 204
+    }
+  ],
+  "jsErrors": []
+}

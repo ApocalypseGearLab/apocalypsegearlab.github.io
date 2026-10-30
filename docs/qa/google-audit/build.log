@@ -1,0 +1,120 @@
+
+> apocalypsegearlab@0.1.0 build
+> astro build
+
+22 h 53 min 06 s [content] Syncing content
+22 h 53 min 06 s [content] Synced content
+22 h 53 min 06 s [types] Generated 741ms
+22 h 53 min 06 s [build] output: "static"
+22 h 53 min 06 s [build] mode: "static"
+22 h 53 min 06 s [build] directory: C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\dist\
+22 h 53 min 06 s [build] Collecting build info...
+22 h 53 min 06 s [build] ✓ Completed in 791ms.
+22 h 53 min 07 s [build] Building static entrypoints...
+22 h 53 min 07 s [vite] ✓ built in 380ms
+22 h 53 min 07 s [vite] ✓ built in 98ms
+22 h 53 min 07 s [build] Rearranging server assets...
+
+ generating static routes
+22 h 53 min 07 s   ├─ /404.html (+20ms)
+22 h 53 min 07 s   ├─ /affiliate-disclosure/index.html (+17ms)
+22 h 53 min 07 s   ├─ /blackout/index.html (+13ms)
+22 h 53 min 07 s   ├─ /fallout/index.html (+9ms)
+22 h 53 min 07 s   ├─ /gear/3m-2091-p100-particulate-filters/index.html (+11ms)
+22 h 53 min 07 s   ├─ /gear/3m-2097-p100-particulate-filters/index.html (+6ms)
+22 h 53 min 07 s   ├─ /gear/3m-60921-organic-vapor-p100-cartridges/index.html (+9ms)
+22 h 53 min 07 s   ├─ /gear/3m-60926-multi-gas-vapor-p100-cartridges/index.html (+30ms)
+22 h 53 min 07 s   ├─ /gear/3m-6800-full-facepiece-respirator/index.html (+10ms)
+22 h 53 min 07 s   ├─ /gear/3m-aura-9205-n95-respirator/index.html (+8ms)
+22 h 53 min 07 s   ├─ /gear/3m-gogglegear-500-safety-goggles/index.html (+6ms)
+22 h 53 min 07 s   ├─ /gear/511-tactical-rush72-2-backpack/index.html (+14ms)
+22 h 53 min 07 s   ├─ /gear/datrex-dx2400f-emergency-food-ration/index.html (+7ms)
+22 h 53 min 07 s   ├─ /gear/ecoflow-river-2-pro/index.html (+35ms)
+22 h 53 min 07 s   ├─ /gear/fenix-cl26r-pro/index.html (+14ms)
+22 h 53 min 07 s   ├─ /gear/fenix-hm50r-v2-headlamp/index.html (+9ms)
+22 h 53 min 07 s   ├─ /gear/fnirsi-gc-01-geiger-counter/index.html (+5ms)
+22 h 53 min 07 s   ├─ /gear/garmin-gpsmap-67i-satellite-gps/index.html (+11ms)
+22 h 53 min 07 s   ├─ /gear/iniu-p62-20000mah-65w/index.html (+5ms)
+22 h 53 min 07 s   ├─ /gear/jackery-explorer-1000-v2/index.html (+9ms)
+22 h 53 min 07 s   ├─ /gear/jackery-explorer-300/index.html (+42ms)
+22 h 53 min 07 s   ├─ /gear/jackery-solarsaga-100w-air/index.html (+15ms)
+22 h 53 min 07 s   ├─ /gear/kidde-c3010-co-alarm/index.html (+9ms)
+22 h 53 min 08 s   ├─ /gear/leatherman-wave-plus-multitool/index.html (+10ms)
+22 h 53 min 08 s   ├─ /gear/marmot-precip-rain-jacket/index.html (+8ms)
+22 h 53 min 08 s   ├─ /gear/mechanix-m-pact-work-gloves/index.html (+9ms)
+22 h 53 min 08 s   ├─ /gear/merrell-moab-3-mid-waterproof-boots/index.html (+20ms)
+22 h 53 min 08 s   ├─ /gear/midland-er310/index.html (+27ms)
+22 h 53 min 08 s   ├─ /gear/nanuk-904-first-aid-kit/index.html (+16ms)
+22 h 53 min 08 s   ├─ /gear/readywise-84-servings-emergency-food-bucket/index.html (+12ms)
+22 h 53 min 08 s   ├─ /gear/reliance-aqua-tainer-7-gallon/index.html (+6ms)
+22 h 53 min 08 s   ├─ /gear/sos-3600-calorie-emergency-food-rations/index.html (+20ms)
+22 h 53 min 08 s   ├─ /gear/sawyer-squeeze-sp129-water-filter/index.html (+28ms)
+22 h 53 min 08 s   ├─ /gear/sol-emergency-bivvy/index.html (+20ms)
+22 h 53 min 08 s   ├─ /gear/index.html (+20ms)
+22 h 53 min 08 s   ├─ /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp (+9ms)
+22 h 53 min 08 s   ├─ /images/blackout/midland-er310-emergency-radio-blackout.webp (+9ms)
+22 h 53 min 08 s   ├─ /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp (+9ms)
+22 h 53 min 08 s   ├─ /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp (+16ms)
+22 h 53 min 08 s   ├─ /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp (+15ms)
+22 h 53 min 08 s   ├─ /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp (+15ms)
+22 h 53 min 08 s   ├─ /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/fallout/leatherman-wave-plus-multitool-fallout.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp (+7ms)
+22 h 53 min 08 s   ├─ /images/fallout/nanuk-904-first-aid-kit-fallout.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp (+9ms)
+22 h 53 min 08 s   ├─ /images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/readywise-84-servings-emergency-food-fallout-480.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/readywise-84-servings-emergency-food-fallout-960.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/readywise-84-servings-emergency-food-fallout.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/datrex-dx2400f-emergency-rations-fallout.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/fallout/sos-3600-calorie-emergency-food-fallout-960.webp (+8ms)
+22 h 53 min 08 s   ├─ /images/fallout/sos-3600-calorie-emergency-food-fallout.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp (+7ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp (+7ms)
+22 h 53 min 08 s   ├─ /images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/outbreak/marmot-precip-rain-jacket-outbreak-960.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/marmot-precip-rain-jacket-outbreak.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-60921-outbreak-480.webp (+6ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-60921-outbreak-960.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-60921-outbreak.webp (+7ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-60926-outbreak-480.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-60926-outbreak-960.webp (+4ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-60926-outbreak.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-2097-outbreak-480.webp (+3ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-2097-outbreak-960.webp (+5ms)
+22 h 53 min 08 s   ├─ /images/outbreak/3m-2097-outbreak.webp (+5ms)
+22 h 53 min 08 s   ├─ /outbreak/index.html (+7ms)
+22 h 53 min 08 s   ├─ /robots.txt (+4ms)
+22 h 53 min 08 s   ├─ /index.html (+6ms)
+22 h 53 min 08 s ✓ Completed in 946ms.
+
+22 h 53 min 08 s [build] ✓ Completed in 1.50s.
+22 h 53 min 08 s [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+22 h 53 min 08 s [build] 37 page(s) built in 2.68s
+22 h 53 min 08 s [build] Complete!

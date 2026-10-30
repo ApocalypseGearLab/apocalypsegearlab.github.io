@@ -1,0 +1,65 @@
+[
+  {
+    "command": "npm run check",
+    "startedAt": "2026-10-30T02:52:30.509Z",
+    "finishedAt": "2026-10-30T02:52:39.122Z",
+    "exitCode": 0,
+    "log": "check.log"
+  },
+  {
+    "command": "npm run test",
+    "startedAt": "2026-10-30T02:52:39.125Z",
+    "finishedAt": "2026-10-30T02:52:40.376Z",
+    "exitCode": 0,
+    "log": "test.log"
+  },
+  {
+    "command": "npm run test:images",
+    "startedAt": "2026-10-30T02:52:40.377Z",
+    "finishedAt": "2026-10-30T02:52:43.780Z",
+    "exitCode": 0,
+    "log": "test-images.log"
+  },
+  {
+    "command": "npm run release:check",
+    "startedAt": "2026-10-30T02:52:43.781Z",
+    "finishedAt": "2026-10-30T02:52:44.498Z",
+    "exitCode": 0,
+    "log": "release-check.log"
+  },
+  {
+    "command": "npm run audit:affiliate",
+    "startedAt": "2026-10-30T02:52:44.499Z",
+    "finishedAt": "2026-10-30T02:52:45.284Z",
+    "exitCode": 0,
+    "log": "audit-affiliate.log"
+  },
+  {
+    "command": "npm run test:products",
+    "startedAt": "2026-10-30T02:52:45.285Z",
+    "finishedAt": "2026-10-30T02:53:04.018Z",
+    "exitCode": 0,
+    "log": "test-products.log"
+  },
+  {
+    "command": "npm run build",
+    "startedAt": "2026-10-30T02:53:04.019Z",
+    "finishedAt": "2026-10-30T02:53:08.966Z",
+    "exitCode": 0,
+    "log": "build.log"
+  },
+  {
+    "command": "npm run test:site",
+    "startedAt": "2026-10-30T02:53:08.967Z",
+    "finishedAt": "2026-10-30T02:53:10.865Z",
+    "exitCode": 0,
+    "log": "test-site.log"
+  },
+  {
+    "command": "npm run test:browser",
+    "startedAt": "2026-10-30T02:53:10.866Z",
+    "finishedAt": "2026-10-30T02:56:26.812Z",
+    "exitCode": 0,
+    "log": "test-browser.log"
+  }
+]

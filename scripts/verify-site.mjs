@@ -30,6 +30,12 @@ for (const file of files) {
   const pathname = `/${file.split(sep).join('/')}`.replace(/index\.html$/, '');
   const html = readFileSync(resolve(root, file), 'utf8');
   const $ = load(html);
+  assert.equal($('meta[name="google-site-verification"]').length, 1, file);
+  assert.equal($('meta[name="google-site-verification"]').attr('content'), 'L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk', file);
+  assert.equal($('script[src*="googletagmanager.com/gtag/js"]').length, 1, file);
+  assert.equal($('script[src*="googletagmanager.com/gtag/js"]').attr('src'), 'https://www.googletagmanager.com/gtag/js?id=G-YFJJ5N9RBX', file);
+  assert.equal($('script[data-ga4-config]').length, 1, file);
+  assert.equal($('script[src*="gtm.js"]').length, 0, 'Do not install a parallel GTM container');
   documents.set(resolve(root, file), $);
   assert.equal($('html').attr('lang'), 'en', file);
   assert.equal($('h1').length, 1, file);
@@ -140,7 +146,15 @@ for (const node of sitemapIndex('sitemap > loc').toArray()) {
   const url = new URL(sitemapIndex(node).text());
   assert.equal(url.origin, site);
   const sitemap = load(readFileSync(fileFor(url.pathname), 'utf8'), { xmlMode: true });
-  sitemap('url > loc').each((_, loc) => urls.add(sitemap(loc).text()));
+  sitemap('url > loc').each((_, loc) => {
+    const value = sitemap(loc).text();
+    const entry = new URL(value);
+    assert.equal(entry.origin, site);
+    assert.equal(entry.protocol, 'https:');
+    assert.equal(entry.search + entry.hash, '');
+    assert.ok(!urls.has(value), `Duplicate sitemap URL: ${value}`);
+    urls.add(value);
+  });
 }
 assert.deepEqual([...urls].sort(), [...indexable].sort(), 'Sitemap must contain exactly the indexable HTML pages');
 assert.ok(readFileSync(resolve(root, 'robots.txt'), 'utf8').includes(`Sitemap: ${site}/sitemap-index.xml`));

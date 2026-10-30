@@ -1,0 +1,23 @@
+---
+import { GA4_MEASUREMENT_ID } from '../config/analytics';
+---
+
+{import.meta.env.PROD && <>
+  <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`}></script>
+  <script is:inline define:vars={{ measurementId: GA4_MEASUREMENT_ID }} data-ga4-config>
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    // Astro uses full document navigation. config sends the single automatic
+    // page_view; do not also send a manual page_view or add a history listener.
+    window.gtag('config', measurementId, {
+      page_location: window.location.origin + window.location.pathname,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+    });
+  </script>
+</>}
+<script>
+  import { installAffiliateAnalytics } from '../lib/affiliate-analytics';
+  installAffiliateAnalytics();
+</script>

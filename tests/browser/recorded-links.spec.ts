@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 import { readFileSync, readdirSync } from 'node:fs';
 import { getMerchantLinks } from '../../src/lib/affiliate';
 import type { Product } from '../../src/lib/products';

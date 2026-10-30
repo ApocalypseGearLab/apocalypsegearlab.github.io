@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './fixtures';
 import {mkdirSync} from 'node:fs';
 
 const filters=[
@@ -31,6 +31,8 @@ for(const [slug,model,asin] of filters)test(`3M ${model} artwork and profile ret
     const card=page.locator(`article.card[data-product-id="${slug}"]`);
     await expect(card.locator('[data-amazon-pending]')).toBeVisible();
     await expect(card.locator('a[data-affiliate-click]')).toHaveCount(0);
+    // Lazy catalogue images must enter the viewport before decode can resolve.
+    await card.scrollIntoViewIfNeeded();
     await card.locator('img').evaluate((img:HTMLImageElement)=>img.decode());
     await card.screenshot({path:`.tools/qa/phase4-6/card-${model}-${width}.png`,style:'header{visibility:hidden!important}'});
   }

@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './fixtures';
 import {mkdirSync} from 'node:fs';
 
 test('ReadyWise yogurt-version profile states declared nutrition and keeps the exact Canadian CTA at mobile and desktop sizes',async({page})=>{

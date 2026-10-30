@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 import { getMerchantLinks } from '../../src/lib/affiliate';
 import { categoryUniverse } from '../../src/config/taxonomy';
 import type { Product } from '../../src/lib/products';

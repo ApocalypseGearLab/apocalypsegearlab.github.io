@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './fixtures';
 import {mkdirSync} from 'node:fs';
 
 const id='3m-2091-p100-particulate-filters';

@@ -1,10 +1,11 @@
-import {test,expect} from '@playwright/test';
+import {test,expect,blockAnalytics} from './fixtures';
 import {PHASE43_FALLOUT} from '../catalogue-fixture';
 import {readFileSync} from 'node:fs';
 
 test('Phase 4.3 supplied images have correct initial mobile/desktop sources and render in related cards',async({browser,request})=>{
   for(const width of [375,1440]) {
     const context=await browser.newContext({viewport:{width,height:900}}),page=await context.newPage();
+    await blockAnalytics(context);
     try {
       for(const id of [...Object.keys(PHASE43_FALLOUT),'3m-6800-full-facepiece-respirator']) {
         await page.goto(`http://127.0.0.1:4321/gear/${id}/`);

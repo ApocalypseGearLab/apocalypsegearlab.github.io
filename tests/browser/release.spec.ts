@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, blockAnalytics } from './fixtures';
 import { getMerchantLinks } from '../../src/lib/affiliate';
 import type { Product } from '../../src/lib/products';
 import AxeBuilder from '@axe-core/playwright';
@@ -37,6 +37,7 @@ test('production restores the authorized bunker while enforcing artwork permissi
   for (const width of [375, 1440]) {
     // Capture a fresh visit at each viewport, independent of prior navigation.
     const capture = await browser.newPage({ viewport: { width, height: 900 } });
+    await blockAnalytics(capture.context());
     await capture.goto('http://127.0.0.1:4321/');
     await expect(capture.locator('.hero-image')).toBeInViewport();
     // decoding="async" can finish after load; inspect pixels only after decode.
