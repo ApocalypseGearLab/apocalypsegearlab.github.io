@@ -1,0 +1,5 @@
+
+> apocalypsegearlab@0.1.0 test:site
+> node scripts/verify-site.mjs
+
+Verified 43 HTML pages, 1700 internal references, 5 sitemap URLs, robots.txt, JSON-LD and product publication filtering.

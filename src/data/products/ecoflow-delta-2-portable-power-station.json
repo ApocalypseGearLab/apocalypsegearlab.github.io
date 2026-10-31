@@ -1,0 +1,175 @@
+{
+  "name": "EcoFlow DELTA 2 Portable Power Station",
+  "brand": "EcoFlow",
+  "modelNumber": "DELTA 2",
+  "category": "power-stations",
+  "summary": "A 1024 Wh LiFePO4 station with 1800 W rated AC output for a measured blackout load plan. Solar panels and extra batteries are not established as part of this offer.",
+  "description": "DELTA 2 suits a plan built around selected lights, communications and compatible appliances rather than every circuit in a home. Its six North American AC outlets share one output budget. Prioritize the devices you need, account for startup demand and plan recharging before the battery is depleted. This profile concerns the original DELTA 2, not DELTA 2 Max, an extra battery, DELTA 3 or DELTA Pro.",
+  "specs": [
+    {
+      "label": "Battery capacity",
+      "value": "1024 Wh nominal",
+      "source": "https://ca.ecoflow.com/products/delta-2-portable-power-station"
+    },
+    {
+      "label": "Battery chemistry",
+      "value": "LFP / LiFePO4",
+      "source": "https://ca.ecoflow.com/products/delta-2-portable-power-station"
+    },
+    {
+      "label": "Rated AC output",
+      "value": "1800 W total across six North American outlets; 2700 W surge",
+      "source": "https://ca.ecoflow.com/products/delta-2-portable-power-station"
+    },
+    {
+      "label": "USB outputs",
+      "value": "Two USB-C ports up to 100 W each; two USB-A 12 W and two USB-A fast-charge 18 W ports",
+      "source": "https://ca.ecoflow.com/products/delta-2-portable-power-station"
+    },
+    {
+      "label": "Solar input",
+      "value": "11–60 V, 15 A, 500 W maximum; verify panel open-circuit voltage and cable compatibility",
+      "source": "https://ca.ecoflow.com/products/delta-2-portable-power-station"
+    },
+    {
+      "label": "AC charging",
+      "value": "1200 W maximum; regional AC input specification 100–120 V, 50/60 Hz",
+      "source": "https://ca.ecoflow.com/products/delta-2-portable-power-station"
+    },
+    {
+      "label": "Other charging",
+      "value": "12/24 V vehicle charging supported; charging cable sold separately in the current manufacturer manual",
+      "source": "https://manuals.ecoflow.com/us/product/delta-2-portable-power-station?lang=en_US"
+    },
+    {
+      "label": "Manufacturer box list — not verified Amazon contents",
+      "value": "Station, AC charging cable, manual and warranty card; solar panels and solar cable excluded in the manual",
+      "source": "https://manuals.ecoflow.com/us/product/delta-2-portable-power-station?lang=en_US"
+    }
+  ],
+  "pros": [
+    "Six AC sockets and dedicated USB outputs allow separate charging tasks within the documented limits.",
+    "AC, compatible solar and vehicle charging provide different replenishment options."
+  ],
+  "cons": [
+    "1800 W is shared across AC outlets; motor startup or combined loads can overload the station.",
+    "X-Boost compatibility is limited and does not increase the continuous rated output.",
+    "A solar panel, solar cable and extra battery are not established as included in this ASIN."
+  ],
+  "useCases": [
+    "Schedule charging for phones, a radio and task lighting during an outage.",
+    "Compare a specific appliance’s running and startup demand with the station’s ratings before using it at camp or at home."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "EcoFlow Canada: DELTA 2 specifications",
+      "url": "https://ca.ecoflow.com/products/delta-2-portable-power-station",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "manual",
+      "title": "EcoFlow: DELTA 2 user manual",
+      "url": "https://manuals.ecoflow.com/us/product/delta-2-portable-power-station?lang=en_US",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN reference; current offer not independently verified",
+      "url": "https://www.amazon.ca/dp/B0B9XB57XM",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "bluetti-elite-100-v2-solar-generator-kit",
+    "jackery-explorer-1000-v2",
+    "midland-er310",
+    "fenix-cl26r-pro"
+  ],
+  "image": {
+    "src": "/images/blackout/ecoflow-delta-2-blackout.webp",
+    "alt": "Concept illustration of an EcoFlow DELTA 2-style black and silver power station in an amber HUD frame; display readings and labels are illustrative",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 5.3 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The Phase 5.3 work order explicitly associates B0B9XB57XM with DELTA 2, 1024 Wh LiFePO4 and 1800 W. It reports an earlier Amazon.ca screenshot identifying EcoFlow Inc-CA as seller/shipper, but no original Amazon capture or capture date was available for inspection here. The supplied attachment is concept artwork, not that screenshot. Current selected offer, seller, stock, Canadian electrical labels, accessories and authenticity remain independently unverified. No solar panel or extra battery inclusion is established."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20",
+      "asin": "B0B9XB57XM"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-31",
+    "identityNotes": "The Phase 5.3 work order explicitly associates B0B9XB57XM with DELTA 2, 1024 Wh LiFePO4 and 1800 W. It reports an earlier Amazon.ca screenshot identifying EcoFlow Inc-CA as seller/shipper, but no original Amazon capture or capture date was available for inspection here. The supplied attachment is concept artwork, not that screenshot. Current selected offer, seller, stock, Canadian electrical labels, accessories and authenticity remain independently unverified. No solar panel or extra battery inclusion is established. Amazon.ca could not be retrieved through the web reader; no successful live inspection or observable HTTP error status is claimed. Artwork is not offer evidence.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "EcoFlow Canada documents the DELTA 2 station’s 1024 Wh battery and 1800 W rated AC output.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The owner identifies this recorded Canadian ASIN as DELTA 2. This is a documented intended reference, not independent verification of a current offer.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current selected offer, seller, stock, Canadian electrical labels, accessories and authenticity remain independently unverified. No solar panel or extra battery inclusion is established.",
+      "No physical test, guaranteed appliance runtime, current price, availability, rating or individual-unit certification is established."
+    ],
+    "safetyNotes": [
+      "Keep the station dry, ventilated and away from heat, flames and children. Do not cover cooling openings, open the housing or use damaged batteries or cables.",
+      "Check the delivered electrical label and manual for Canadian voltage and operating limits. Never backfeed a household wall outlet; building connections require appropriate transfer equipment and a qualified electrician.",
+      "Treat a portable battery as a limited supply, not guaranteed whole-home backup or a life-support power source. Stored Wh are not usable AC Wh; load, inverter losses, temperature and settings affect runtime.",
+      "The manual describes a non-zero EPS changeover, not an uninterrupted supply for medical emergency equipment or devices requiring zero interruption. Check timeout settings for intermittent loads.",
+      "Follow the manual’s storage charge and periodic maintenance schedule; keep the battery cool and dry. Solar panels and the solar-to-XT60/XT60i cable are excluded from the manufacturer manual’s box list."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent current-offer and Canadian electrical-label review, complete safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0B9XB57XM",
+      "checkedAt": "2026-10-31",
+      "reason": "Recorded Canadian link permitted under the existing owner-document policy: the owner explicitly associates this ASIN with DELTA 2, corroborated by the manufacturer model documentation. No concrete contradictory variant evidence or product-specific mandatory safety block was established. Permission covers the recorded link only; it is not live offer verification, physical authentication, final Amazon account approval or SEO publication approval.",
+      "sourceIds": [
+        "manufacturer",
+        "manual",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0B9XB57XM",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B0B9XB57XM",
+      "matchedModel": "DELTA 2",
+      "notes": "The Phase 5.3 work order explicitly associates B0B9XB57XM with DELTA 2, 1024 Wh LiFePO4 and 1800 W. It reports an earlier Amazon.ca screenshot identifying EcoFlow Inc-CA as seller/shipper, but no original Amazon capture or capture date was available for inspection here. The supplied attachment is concept artwork, not that screenshot. Current selected offer, seller, stock, Canadian electrical labels, accessories and authenticity remain independently unverified. No solar panel or extra battery inclusion is established. No physical inspection is required to permit this documented link; no live Amazon verification is claimed."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Select DELTA 2, not DELTA 2 Max, an extra battery, DELTA 3, DELTA Pro or an assumed solar bundle.",
+      "Match voltage, running watts and motor startup demand to the delivered station’s manual; plan realistic energy use and a recharging source.",
+      "Confirm seller, warranty, package contents and Canadian electrical labels before purchase; avoid assuming manufacturer-store bundles or extensions apply."
+    ]
+  }
+}

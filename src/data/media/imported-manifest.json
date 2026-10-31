@@ -1811,6 +1811,145 @@
         "recolor": false
       },
       "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    },
+    {
+      "id": "ecoflow-delta-2-blackout",
+      "category": "blackout",
+      "productId": "ecoflow-delta-2-portable-power-station",
+      "usage": "current-product",
+      "sourceOriginalName": "Station d’énergie portable sur fond cyberpunk.png",
+      "file": "assets/media/blackout/ecoflow-delta-2-blackout.webp",
+      "deliverySrc": "/images/blackout/ecoflow-delta-2-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 174444,
+      "sha256": "dfda19d55b0b0d1ae88250bf23e3c260fcf3bb0cd2c5b1c480bbea835f2f3097",
+      "variants": [
+        {
+          "file": "assets/media/blackout/ecoflow-delta-2-blackout-480.webp",
+          "src": "/images/blackout/ecoflow-delta-2-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 34602,
+          "sha256": "302297d1ac9e8cc345ca3342ee26794c1c790709254f33bcb3cf6a4998b05186"
+        },
+        {
+          "file": "assets/media/blackout/ecoflow-delta-2-blackout-960.webp",
+          "src": "/images/blackout/ecoflow-delta-2-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 111478,
+          "sha256": "589f6f73ef0c4f88298ec467760bfff75b73727956ef5b7c8680774d58be7c09"
+        },
+        {
+          "file": "assets/media/blackout/ecoflow-delta-2-blackout.webp",
+          "src": "/images/blackout/ecoflow-delta-2-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 174444,
+          "sha256": "dfda19d55b0b0d1ae88250bf23e3c260fcf3bb0cd2c5b1c480bbea835f2f3097"
+        }
+      ],
+      "alt": "Concept illustration of an EcoFlow DELTA 2-style black and silver power station in an amber HUD frame; display readings and labels are illustrative",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Supplied front USB layout, side battery connector, black/silver housing and handle are consistent with the documented DELTA 2 form. Small logo lettering, screen readings and connector labels are stylized, not authenticated markings or specifications. No AC outlet count can be inferred from this front view.",
+      "references": [
+        "https://ca.ecoflow.com/products/delta-2-portable-power-station",
+        "https://manuals.ecoflow.com/us/product/delta-2-portable-power-station?lang=en_US"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.3 work order supplies this finished concept illustration and explicitly directs its site integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Station d’énergie portable sur fond cyberpunk.png",
+        "file": "assets/media/blackout/originals/ecoflow-delta-2-blackout.png",
+        "bytes": 2287853,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "4dacbe8bc6171df95c3516e15684691641fdfdbb488af9acbbea1d2fc4513ce2"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-3-image-manifest.csv"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-kit-blackout",
+      "category": "blackout",
+      "productId": "bluetti-elite-100-v2-solar-generator-kit",
+      "usage": "current-product",
+      "sourceOriginalName": "Station d’énergie BLUETTI sous HUD orange.png",
+      "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+      "deliverySrc": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 226494,
+      "sha256": "dc8be86a7f136dc3cd34e8a53cdf32244b432c27026cbadb8192389548440c46",
+      "variants": [
+        {
+          "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 40124,
+          "sha256": "dc4c73809a506bef926499b847fc74d8986835af42ecf7bb752ebd0480996a28"
+        },
+        {
+          "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp",
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 141626,
+          "sha256": "72cff685fda5da322820ed0ce7c4957fccfaf2fe299d741132fdbbfdb0944700"
+        },
+        {
+          "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 226494,
+          "sha256": "dc8be86a7f136dc3cd34e8a53cdf32244b432c27026cbadb8192389548440c46"
+        }
+      ],
+      "alt": "Concept illustration of a graphite BLUETTI Elite 100 V2-style station and folding solar panel in an amber HUD frame; the panel is not proof of package contents",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Graphite housing, recessed handle, front AC outlets and folding-panel composition retained. Artwork abbreviates the model to Elite 100 and depicts simplified USB wattage markings: the US manual specifies separate 140 W and 100 W USB-C ports. Do not read the drawn markings as technical facts, panel model, certification or proof of retailer package contents. Full V2 identity is supplied by the profile and documented sources.",
+      "references": [
+        "https://www.bluettipower.ca/pages/elite-100-v2-launch",
+        "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794",
+        "https://www.bluettipower.ca/pages/solar-generator"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.3 work order supplies this finished concept illustration and explicitly directs its site integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Station d’énergie BLUETTI sous HUD orange.png",
+        "file": "assets/media/blackout/originals/bluetti-elite-100-v2-solar-kit-blackout.png",
+        "bytes": 2522417,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "45f89c6534b45cb4d61c394df019ac5bafaa97f10143d2409db82f15fb39a5ec"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-3-image-manifest.csv"
     }
   ]
 }

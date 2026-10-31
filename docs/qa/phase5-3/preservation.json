@@ -1,0 +1,2773 @@
+{
+  "baseCommit": "1137975d895aa5ce34b3a5a78abd91f6da08f74d",
+  "capturedBeforeImplementation": true,
+  "previousAssets": [
+    {
+      "id": "fenix-hm50r-v2-headlamp-blackout",
+      "category": "blackout",
+      "productId": "fenix-hm50r-v2-headlamp",
+      "usage": "current-product",
+      "sourceOriginalName": "Lampe frontale Fenix HM50R futuriste(1).png",
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "deliverySrc": "/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 237356,
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2",
+      "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with the official Fenix Lighting HM50R V2.0 image: black detachable right-angle body, end switch, clip and black/orange strap agree. The body marking HM50R also appears in the official V2 image. Rendered microtext is not a revision, LED or battery specification.",
+      "references": [
+        "https://www.fenixlight.com/product/hm50r-v2-0/",
+        "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp"
+      ],
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "id": "sol-emergency-bivvy-survival-shelter-fallout",
+      "category": "fallout",
+      "productId": "sol-emergency-bivvy",
+      "usage": "current-product",
+      "sourceOriginalName": "Kit de survie d’urgence sous néons rouges(1).png",
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "deliverySrc": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 315398,
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b",
+      "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with official orange standard Emergency Bivvy packaging and product photos. Orange reflective bag, package family and whistle/cord agree in general appearance. Depicted packaging and 90% text are not independent thermal evidence or a temperature rating.",
+      "references": [
+        "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+      ],
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "id": "leatherman-wave-plus-multitool-fallout",
+      "category": "fallout",
+      "productId": "leatherman-wave-plus-multitool",
+      "usage": "current-product",
+      "sourceOriginalName": "Multi-outil en acier sous interface rouge.png",
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "deliverySrc": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 176614,
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da",
+      "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with the complete official Wave Plus deployed-tool photo: pliers/cutters, outer blades/saw/file, scissors, fine driver, bit driver and opener arrangement agree in general form. This corrects the previous assessment made from an incomplete reference. Silver finish preserved. Concept art does not authenticate a package or exact dimensions.",
+      "references": [
+        "https://www.leatherman.com/products/wave",
+        "https://www.leatherman.com/cdn/shop/files/wave_20260402201902_5dib.jpg?v=1777562829&width=1200"
+      ],
+      "reviewedAt": "2026-10-26",
+      "replacement": {
+        "phase": "4.1",
+        "source": {
+          "filename": "Multi-outil en acier sous interface rouge.png",
+          "bytes": 2166870,
+          "sha256": "e737dc1e2b0da07151ffb397c32391f35a0912391c7bf8175b034dc055d3f52e",
+          "width": 1254,
+          "height": 1254
+        },
+        "encoding": {
+          "format": "webp",
+          "quality": 83,
+          "effort": 6,
+          "resize": false,
+          "recolor": false
+        },
+        "previous": {
+          "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+          "bytes": 240496,
+          "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d",
+          "accuracyStatus": "rejected",
+          "originalFile": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp"
+        },
+        "reviewCsv": "assets/media/phase4-1-image-manifest.csv",
+        "provenance": {
+          "confirmedAt": "2026-10-26",
+          "status": "confirmed-by-owner",
+          "statement": "The owner confirms these three PNG illustrations were created for ApocalypseGearLab without unauthorized reproduction of third-party photographs and authorizes commercial use.",
+          "scope": "Only the three Phase 4.1 replacements; no product or Amazon account approval."
+        }
+      }
+    },
+    {
+      "id": "sawyer-squeeze-sp129-water-filter-fallout",
+      "category": "fallout",
+      "productId": "sawyer-squeeze-sp129-water-filter",
+      "usage": "current-product",
+      "sourceOriginalName": "Filtre Sawyer dans une ambiance sci-fi rouge(1).png",
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "deliverySrc": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 214632,
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede",
+      "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with Sawyer Squeeze component photo: black filter with blue branding, pouches, syringe, tubing and mesh bag are consistent with the documented family. This conceptual arrangement does not establish the current SP129 Canadian accessory inventory or filtration performance.",
+      "references": [
+        "https://www.sawyer.com/product/squeeze-water-filter-system",
+        "https://help.sawyer.com/retail/filtration"
+      ],
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "id": "nanuk-904-first-aid-kit-fallout",
+      "category": "fallout",
+      "productId": "nanuk-904-first-aid-kit",
+      "usage": "current-product",
+      "sourceOriginalName": "Kit médical de survie futuriste rouge(1).png",
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "deliverySrc": "/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 313204,
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d",
+      "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Compared with official red 904 filled-kit photographs and USA sheet: hard case, handle, latches, lid organizer and divided fill agree in general appearance. Contents are illustrative; exact count, sterile supplies and Canadian package are unverified and explicitly qualified on the profile.",
+      "references": [
+        "https://nanuk.com/products/nanuk-904-first-aid-kit",
+        "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+      ],
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+      "category": "fallout",
+      "productId": "reliance-aqua-tainer-7-gallon",
+      "usage": "current-product",
+      "sourceOriginalName": "Jerrican Aqua-Tainer dans un halo rouge sci-fi.png",
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "deliverySrc": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 204054,
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476",
+      "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Blue 7G container, red caps and handle match the manufacturer family. The previous 22.7 kg / 50 lb side marking is absent. Reliance confirms a five-year limited warranty; the earlier objection to that marking is withdrawn. Seven US gallons is about 26.5 L; 26 L on the current page is rounding, not a different capacity. Fine print is illustrative, not an authenticated label. Exact Amazon variant remains unverified.",
+      "references": [
+        "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+        "https://relianceoutdoors.com/pages/warranty-coverage"
+      ],
+      "reviewedAt": "2026-10-26",
+      "replacement": {
+        "phase": "4.1",
+        "source": {
+          "filename": "Jerrican Aqua-Tainer dans un halo rouge sci-fi.png",
+          "bytes": 2173121,
+          "sha256": "888de58351a76f6bdfcf0013db92a615134a760d18103d87e83fe9bd511e9ad7",
+          "width": 1254,
+          "height": 1254
+        },
+        "encoding": {
+          "format": "webp",
+          "quality": 83,
+          "effort": 6,
+          "resize": false,
+          "recolor": false
+        },
+        "previous": {
+          "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+          "bytes": 206064,
+          "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
+          "accuracyStatus": "rejected",
+          "originalFile": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp"
+        },
+        "reviewCsv": "assets/media/phase4-1-image-manifest.csv",
+        "provenance": {
+          "confirmedAt": "2026-10-26",
+          "status": "confirmed-by-owner",
+          "statement": "The owner confirms these three PNG illustrations were created for ApocalypseGearLab without unauthorized reproduction of third-party photographs and authorizes commercial use.",
+          "scope": "Only the three Phase 4.1 replacements; no product or Amazon account approval."
+        }
+      }
+    },
+    {
+      "id": "midland-er310-emergency-radio-blackout",
+      "category": "blackout",
+      "productId": "midland-er310",
+      "usage": "current-product",
+      "sourceOriginalName": "Radio d’urgence en halo ambré(2).png",
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "deliverySrc": "/images/blackout/midland-er310-emergency-radio-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 249316,
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c",
+      "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Housing, solar panel, six controls and flashlight are consistent with the official ER310 view. Rendered screen digits are illustrative, not evidence of tuning, reception or Canadian Weatheradio service.",
+      "references": [
+        "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio"
+      ]
+    },
+    {
+      "id": "jackery-explorer-300-portable-power-station-blackout",
+      "category": "blackout",
+      "productId": "jackery-explorer-300",
+      "usage": "current-product",
+      "sourceOriginalName": "Jackery Explorer 300 en lumière ambre.png",
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "deliverySrc": "/images/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 168652,
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba",
+      "alt": "Concept illustration of Jackery Explorer 300 with an inaccurate control panel in an amber frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "rejected",
+      "reviewNote": "USB-C 100 W and USB-A 15 W markings remain incompatible with the legacy Explorer 300 documentation (60 W USB-C and 12 W USB-A). Circular screen and POWER label also remain unresolved. Do not publish this replacement.",
+      "references": [
+        "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information"
+      ],
+      "reviewedAt": "2026-10-26",
+      "replacement": {
+        "phase": "4.1",
+        "source": {
+          "filename": "Jackery Explorer 300 en lumière ambre.png",
+          "bytes": 2194352,
+          "sha256": "147aed5b2727484731d52fd5a4396982f860a13c0c3f0e526162144bb4d25bb6",
+          "width": 1254,
+          "height": 1254
+        },
+        "encoding": {
+          "format": "webp",
+          "quality": 83,
+          "effort": 6,
+          "resize": false,
+          "recolor": false
+        },
+        "previous": {
+          "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+          "bytes": 190232,
+          "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883",
+          "accuracyStatus": "rejected",
+          "originalFile": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp"
+        },
+        "reviewCsv": "assets/media/phase4-1-image-manifest.csv",
+        "provenance": {
+          "confirmedAt": "2026-10-26",
+          "status": "confirmed-by-owner",
+          "statement": "The owner confirms these three PNG illustrations were created for ApocalypseGearLab without unauthorized reproduction of third-party photographs and authorizes commercial use.",
+          "scope": "Only the three Phase 4.1 replacements; no product or Amazon account approval."
+        }
+      },
+      "phase42Recheck": {
+        "checkedAt": "2026-10-27",
+        "sourceFilename": "Jackery Explorer 300 en lumière ambre.png",
+        "sourceSha256": "147aed5b2727484731d52fd5a4396982f860a13c0c3f0e526162144bb4d25bb6",
+        "ownerStylePermission": "Reconfirmed in Phase 4.2 work order; no further consent requested.",
+        "status": "rejected",
+        "defect": "The same PNG still shows USB-C 100 W and both USB-A 15 W inscriptions.",
+        "proposedCorrection": "Remove the unsupported 100 W and 15 W legends. Retain only generic USB-C / USB-A port labels until the exact depicted revision is established; do not substitute guessed power ratings. Inspect any corrected pixels before replacing this rejected asset."
+      }
+    },
+    {
+      "id": "iniu-p62-20000mah-power-bank-blackout",
+      "category": "blackout",
+      "productId": "iniu-p62-20000mah-65w",
+      "usage": "current-product",
+      "sourceOriginalName": "Batterie externe INIU futuriste lumineuse(2).png",
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "deliverySrc": "/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 169576,
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa",
+      "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Housing, display, side button and cable arrangement match the manufacturer P62 family reference. This does not verify the exact listing revision, battery safety, certification or advertised output.",
+      "references": [
+        "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+      ]
+    },
+    {
+      "id": "ecoflow-river-2-pro-power-station-blackout",
+      "category": "blackout",
+      "productId": "ecoflow-river-2-pro",
+      "usage": "current-product",
+      "sourceOriginalName": "Station électrique EcoFlow futuriste(2).png",
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "deliverySrc": "/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 131338,
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0",
+      "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Housing, three USB-A plus USB-C layout, display, DC group and four AC outlets are consistent with the official RIVER 2 Pro view. Small screen text is not technical evidence.",
+      "references": [
+        "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+      ]
+    },
+    {
+      "id": "jackery-explorer-1000-v2-power-station-blackout",
+      "category": "blackout",
+      "productId": "jackery-explorer-1000-v2",
+      "usage": "current-product",
+      "sourceOriginalName": "Station d’énergie Jackery futuriste en lumière orange(2).png",
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "deliverySrc": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 135916,
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d",
+      "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Same composition as the previously reviewed illustration: housing, handle, lamp and connector arrangement are consistent with the official v2 reference. The official badge also omits v2; rendered screen text does not establish technical facts.",
+      "references": [
+        "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station"
+      ]
+    },
+    {
+      "id": "fenix-cl26r-pro-camping-lantern-blackout",
+      "category": "blackout",
+      "productId": "fenix-cl26r-pro",
+      "usage": "current-product",
+      "sourceOriginalName": "Lanterne Fenix rétroéclairée en ambre(2).png",
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "deliverySrc": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 120578,
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943",
+      "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Same composition as the previously reviewed CL26R Pro illustration. Diffuser, control dial and camouflage body are consistent with the official reference; the upper serial-style marking is not an authenticated model or serial number.",
+      "references": [
+        "https://www.fenixlight.com/product/cl26r-pro/"
+      ]
+    },
+    {
+      "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+      "category": "blackout",
+      "productId": "kidde-c3010-co-alarm",
+      "usage": "current-product",
+      "sourceOriginalName": "Alarme Kidde futuriste sous éclairage ambré-2(1).png",
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "deliverySrc": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 118340,
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc",
+      "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Housing, three LEDs, Test/Reset button and three ventilation openings are consistent with the official US C3010 photo. This does not establish Canadian C3010-CA identity or certification; the product safety hold remains.",
+      "references": [
+        "https://www.kidde.com/products/carbon-monoxide-alarms/10-year-battery-power-carbon-monoxide-alarm"
+      ]
+    },
+    {
+      "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+      "category": "blackout",
+      "productId": "jackery-solarsaga-100w-air",
+      "usage": "current-product",
+      "sourceOriginalName": "Panneau solaire Jackery, affichage tactique futuriste(6).png",
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "deliverySrc": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 205778,
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977",
+      "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Four-panel folding layout, corner fasteners, grey cells and side Jackery label are consistent with the official SolarSaga 100 Air view. Exact package and electrical compatibility remain separate checks.",
+      "references": [
+        "https://ca.jackery.com/products/jackery-solarsaga-100-air"
+      ]
+    },
+    {
+      "id": "511-tactical-rush72-2-backpack-outbreak",
+      "category": "outbreak",
+      "productId": "511-tactical-rush72-2-backpack",
+      "usage": "current-product",
+      "sourceOriginalName": "Sac tactique noir sous halo vert.png",
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "deliverySrc": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 210890,
+      "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 33360,
+          "sha256": "5307f04f62c4d546b72bd9c0496f271dc58fe42305a7d29572831bbe64610e88",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 122220,
+          "sha256": "bbfab58e7edb85fefb8a634e142ccfa25cdb23d3602ee6ddb929d2767e4ca11a",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 210890,
+          "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of 5.11 Tactical RUSH72 2.0 55 L backpack in a tactical green inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Black tactical backpack with front webbing and side pockets; illustration does not authenticate a 5.11 package.",
+      "references": [
+        "https://www.511tactical.com/rush72-2-0-backpack.html"
+      ],
+      "reviewedAt": "2026-10-27",
+      "provenance": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "source": {
+        "filename": "Sac tactique noir sous halo vert.png",
+        "bytes": 2545134,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "689bc817dc77e0bcd26527069163ff9756fdda48c881e82ee982e7920f2cb0d0"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-2-image-manifest.csv"
+    },
+    {
+      "id": "3m-aura-9205-n95-respirator-outbreak",
+      "category": "outbreak",
+      "productId": "3m-aura-9205-n95-respirator",
+      "usage": "current-product",
+      "sourceOriginalName": "Masque N95 3M Aura sous surveillance futuriste.png",
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 215282,
+      "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 39654,
+          "sha256": "70d673984dc376f9c8525457fde40eb72fc6131865787aaedfe59fe5b324cbd3",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 143230,
+          "sha256": "e09010cbf796ccb376bde61ed3732c5079bf5602aa18d086898b93aa2fb1f399",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 215282,
+          "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of 3M Aura 9205+ N95 particulate respirator in a tactical green inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "White three-panel facepiece, blue headbands and depicted 9205+/TC-84A-8590 agree with the Canadian model reference. Printed approval markings in concept art do not authenticate any unit.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/dc/v101271017/",
+        "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf",
+        "https://multimedia.3m.com/mws/media/994462O/3m-particulate-respirator-n95-9205-9210-9211-user-instructions.pdf",
+        "https://multimedia.3m.com/mws/media/1960842O/3m-8210-9205-9210-counterfeit-communication-letter.pdf"
+      ],
+      "reviewedAt": "2026-10-27",
+      "provenance": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "source": {
+        "filename": "Masque N95 3M Aura sous surveillance futuriste.png",
+        "bytes": 2441563,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "89b74a84ff0c1f90677fc72bf549e9b6ae8e21c7c7f57d1cc76e54a598412a7c"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-2-image-manifest.csv"
+    },
+    {
+      "id": "3m-gogglegear-500-safety-goggles-outbreak",
+      "category": "outbreak",
+      "productId": "3m-gogglegear-500-safety-goggles",
+      "usage": "current-product",
+      "sourceOriginalName": "Lunettes de protection tactiques néon vert-2.png",
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 243558,
+      "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 48354,
+          "sha256": "0b1e82a6f653ae9cb08f3c492ac07862e6d32988f3e983c614045d2d28ba6d4a",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 163354,
+          "sha256": "4153680698daf753f855be1d3ef1a7f853f4c442fee82c30daba64e6e2da8997",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 243558,
+          "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of 3M GoggleGear 500 protective goggles in a tactical green inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Clear wraparound lens, grey/red shroud and adjustable cloth strap agree in general form with the GG501SGAF reference. No depicted certification mark is treated as evidence.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/",
+        "https://multimedia.3m.com/mws/media/2567231O/3m-gogglegear-protective-goggle-500-series.pdf?fn=tds-gogglegear-500-series-en.pdf"
+      ],
+      "reviewedAt": "2026-10-27",
+      "provenance": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "source": {
+        "filename": "Lunettes de protection tactiques néon vert-2.png",
+        "bytes": 2484233,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "f836417a87b81ae0ef7f74220241f6fb2089c5605801e158ff287146a15adaa8"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-2-image-manifest.csv"
+    },
+    {
+      "id": "mechanix-m-pact-work-gloves-outbreak",
+      "category": "outbreak",
+      "productId": "mechanix-m-pact-work-gloves",
+      "usage": "current-product",
+      "sourceOriginalName": "Gants tactiques sous halo néon.png",
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "deliverySrc": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 281774,
+      "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 49176,
+          "sha256": "11f90e0f5df206682bc7921b8231f16ab0cec5406d05a8f0c15a8238161dfd4c",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 181684,
+          "sha256": "ffa32c7a96887b4f66b5f5f0a7587cf46dadadaf5f0792503149ea542d5a5182",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 281774,
+          "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of Mechanix Wear M-Pact work gloves in a tactical green inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Black/grey glove pair with back-of-hand panels and palm padding; illustration is not an exact generation, label or performance-rating reference. No biological, bite or puncture guarantee is inferred.",
+      "references": [
+        "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html"
+      ],
+      "reviewedAt": "2026-10-27",
+      "provenance": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "source": {
+        "filename": "Gants tactiques sous halo néon.png",
+        "bytes": 2729429,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "710a1d9b480ad54421c1d98d3984681ae4a695010be909593ef60d597a439e27"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-2-image-manifest.csv"
+    },
+    {
+      "id": "merrell-moab-3-mid-waterproof-boots-outbreak",
+      "category": "outbreak",
+      "productId": "merrell-moab-3-mid-waterproof-boots",
+      "usage": "current-product",
+      "sourceOriginalName": "Bottes de randonnée néon en terrain hostile.png",
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "deliverySrc": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 304318,
+      "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 55808,
+          "sha256": "19ba80bba904e74455697eba09a3c22b1b80cc3cd49f081b13602b51bfaa0cf2",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 196676,
+          "sha256": "0492954a40e398a38cd73d2e809ba199eed0c7d93a0c1b62c71d9c9d400966c8",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 304318,
+          "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of Merrell Moab 3 Mid Waterproof hiking boots in a tactical green inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Dark mid-height suede/mesh hiking boots with rubber toe protection; preserved colours. Illustration does not establish the exact Beluga colour, size or delivered revision.",
+      "references": [
+        "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html"
+      ],
+      "reviewedAt": "2026-10-27",
+      "provenance": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "source": {
+        "filename": "Bottes de randonnée néon en terrain hostile.png",
+        "bytes": 2819337,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "413988fc9f6fdea103cf5ce9a18734cdfba932f1a80020da809f86e6460d8118"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-2-image-manifest.csv"
+    },
+    {
+      "id": "marmot-precip-rain-jacket-outbreak",
+      "category": "outbreak",
+      "productId": "marmot-precip-rain-jacket",
+      "usage": "current-product",
+      "sourceOriginalName": "Veste Marmot dans un HUD néon futuriste.png",
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "deliverySrc": "/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 148556,
+      "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 34460,
+          "sha256": "5141031364537cb3d659d45adce8665a2351d8d8dc09f603bf06a1d0db2fbf74",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 101892,
+          "sha256": "ad5287ec648575a06ac2e308cd5b377ba08b414659ff6be1e715428d892b8d6d",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 148556,
+          "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of Marmot PreCip rain jacket in a tactical green inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Black hooded Marmot-style rain shell without a person or mannequin. Illustration cannot determine the PreCip generation, fabric or waterproof rating.",
+      "references": [
+        "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html"
+      ],
+      "reviewedAt": "2026-10-27",
+      "provenance": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "source": {
+        "filename": "Veste Marmot dans un HUD néon futuriste.png",
+        "bytes": 2076115,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "64e18994e352d790d4861bb3e2ee68d637f1c8a4e6e8cec55835f9b68c6246de"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-2-image-manifest.csv"
+    },
+    {
+      "id": "garmin-gpsmap-67i-satellite-gps-outbreak",
+      "category": "outbreak",
+      "productId": "garmin-gpsmap-67i-satellite-gps",
+      "usage": "current-product",
+      "sourceOriginalName": "GPSMAP au cœur du brouillard néon.png",
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "deliverySrc": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 225804,
+      "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 46694,
+          "sha256": "dfdbe056ded78707d3c066147bb7150c36e81826b174b05465961982504f059d",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 148766,
+          "sha256": "73a8bd4169f40c07606f1c4f634f5f43a31e498020c6ea00044b850c1af3ab47",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 225804,
+          "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of Garmin GPSMAP 67i satellite communicator in a tactical green inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Handheld GPS with antenna, physical controls and side SOS cover in the documented family form. Screen/map/message graphics are illustrative, not proof of service or actual navigation data.",
+      "references": [
+        "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf",
+        "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GUID-9DDF5575-3DDE-4FA7-8165-F47F128F5180.html"
+      ],
+      "reviewedAt": "2026-10-27",
+      "provenance": {
+        "source": "Owner Phase 4.2 work order: owner-created OUTBREAK illustrations intended for these seven products and requested for integration.",
+        "scope": "Only this supplied OUTBREAK image. No listing, product certification or private Amazon account approval is implied. Original-reference ownership has not been independently audited.",
+        "confirmedAt": "2026-10-27"
+      },
+      "source": {
+        "filename": "GPSMAP au cœur du brouillard néon.png",
+        "bytes": 2364491,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "260fb85aeac1ba5f3c55f5cc6536b34065b4ed94ce7ced133bcf3a605224a4a4"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-2-image-manifest.csv"
+    },
+    {
+      "id": "fnirsi-gc-01-geiger-counter-fallout",
+      "category": "fallout",
+      "productId": "fnirsi-gc-01-geiger-counter",
+      "usage": "current-product",
+      "sourceOriginalName": "Détecteur de radiation futuriste GC-01.png",
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "deliverySrc": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 162448,
+      "sha256": "e94df88c2912a8bd32b518a3af0897e8aa8f5a6bfff49ca2296b20c963c1221a",
+      "variants": [
+        {
+          "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+          "src": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 37808,
+          "sha256": "0a99aeef7cdb3764879f80461db5e3f6308b5e6dd5042142af50d1e690fcf3f3",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+          "src": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 109692,
+          "sha256": "9e73916ed8f2d709c87fbb6dc048eb0e03be659e0897a924df59a68900ff3373",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+          "src": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 162448,
+          "sha256": "e94df88c2912a8bd32b518a3af0897e8aa8f5a6bfff49ca2296b20c963c1221a",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of FNIRSI GC-01 Geiger Counter in a red tactical inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Yellow and black GC-01-style handheld with a green chart. The displayed rate omits /h and min/max/graph values do not reconcile; all readings are illustrative. No calibration, authentic display or nuclear-safety result is implied.",
+      "references": [
+        "https://www.fnirsi.com/products/gc-01"
+      ],
+      "reviewedAt": "2026-10-28",
+      "provenance": {
+        "source": "Owner Phase 4.3 work order identifies these five supplied PNGs as approved final illustrations for site integration.",
+        "scope": "Only this supplied PNG; permission does not establish rights to any undisclosed reference photograph, manufacturer endorsement, authentic labelling or product/listing certification. The owner instruction is recorded, not an independent chain-of-title audit.",
+        "confirmedAt": "2026-10-28"
+      },
+      "source": {
+        "filename": "Détecteur de radiation futuriste GC-01.png",
+        "requestedFilenameNote": "The work order adds a numeric suffix; the actual attached file has no suffix and was matched by its supplied content.",
+        "bytes": 1950914,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "ecdee95cd1a1eb6f3960d8fad3e27e3bce6163bfa9bfb041cb2179a63758d117"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-3-image-manifest.csv"
+    },
+    {
+      "id": "readywise-84-servings-emergency-food-fallout",
+      "category": "fallout",
+      "productId": "readywise-84-servings-emergency-food-bucket",
+      "usage": "current-product",
+      "sourceOriginalName": "Présentation ReadyWise sous lumière rouge.png",
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "deliverySrc": "/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 194652,
+      "sha256": "b3b988c154e0a4184bbaa3a7720af7989d341dad742c9d9219347205ad5b5fc6",
+      "variants": [
+        {
+          "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+          "src": "/images/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 44044,
+          "sha256": "18b4311dc4881a7918637030329aa2daab3e453c1f18c6394e6997daf460847e",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+          "src": "/images/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 132172,
+          "sha256": "bce8f04ef999c0bbdf0813f878a6eedf34e6c360b0f6c2c44316ab2981c95ca8",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+          "src": "/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 194652,
+          "sha256": "b3b988c154e0a4184bbaa3a7720af7989d341dad742c9d9219347205ad5b5fc6",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of ReadyWise 84 Servings Gluten-Free Emergency Food Supply in a red tactical inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Approved black bucket, red lid, two pouches and soup bowl retained. Serving, shelf-life, ingredient and gluten-free markings in concept art are not evidence for a Canadian lot. Public profile documents manufacturer calorie/dessert inconsistencies and milk/soy warnings.",
+      "references": [
+        "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFteriyakirice.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFheartytortillasoup.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFpotpie.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528"
+      ],
+      "reviewedAt": "2026-10-28",
+      "provenance": {
+        "source": "Owner Phase 4.3 work order identifies these five supplied PNGs as approved final illustrations for site integration.",
+        "scope": "Only this supplied PNG; permission does not establish rights to any undisclosed reference photograph, manufacturer endorsement, authentic labelling or product/listing certification. The owner instruction is recorded, not an independent chain-of-title audit.",
+        "confirmedAt": "2026-10-28"
+      },
+      "source": {
+        "filename": "Présentation ReadyWise sous lumière rouge.png",
+        "requestedFilenameNote": "The work order adds a numeric suffix; the actual attached file has no suffix and was matched by its supplied content.",
+        "bytes": 2150479,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "1f3ab69f4d0e6842e2e4c4dfc202e6dc2f719a9ee3cd5523ee9278907aba8a56"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-3-image-manifest.csv"
+    },
+    {
+      "id": "datrex-dx2400f-emergency-rations-fallout",
+      "category": "fallout",
+      "productId": "datrex-dx2400f-emergency-food-ration",
+      "usage": "current-product",
+      "sourceOriginalName": "Ration de secours Datrex sous interface rouge.png",
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "deliverySrc": "/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 271838,
+      "sha256": "4a2275237b619e58505040e80b6c71217225b0e60794bf2774c979c3063f99b6",
+      "variants": [
+        {
+          "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+          "src": "/images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 57962,
+          "sha256": "0e1c9565679ea01c7fa6c692e903c116aa7a25ce83de34cab3f847e0d1c58644",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+          "src": "/images/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 183176,
+          "sha256": "e0f7f48d61b53c03a4cc69700e568791378c31203580d9a123b8773229eb6d05",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+          "src": "/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 271838,
+          "sha256": "4a2275237b619e58505040e80b6c71217225b0e60794bf2774c979c3063f99b6",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of Datrex DX2400F Emergency Food Ration — 2400 Calories in a red tactical inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "White/red DX2400F-style pack and unwrapped bars retained. Illustrated count, texture, regulatory numbers and label spelling are not authoritative. Twelve 200-kcal bars and 2400 kcal per packet come from manufacturer documents, not the art.",
+      "references": [
+        "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf",
+        "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf"
+      ],
+      "reviewedAt": "2026-10-28",
+      "provenance": {
+        "source": "Owner Phase 4.3 work order identifies these five supplied PNGs as approved final illustrations for site integration.",
+        "scope": "Only this supplied PNG; permission does not establish rights to any undisclosed reference photograph, manufacturer endorsement, authentic labelling or product/listing certification. The owner instruction is recorded, not an independent chain-of-title audit.",
+        "confirmedAt": "2026-10-28"
+      },
+      "source": {
+        "filename": "Ration de secours Datrex sous interface rouge.png",
+        "requestedFilenameNote": "The work order adds a numeric suffix; the actual attached file has no suffix and was matched by its supplied content.",
+        "bytes": 2457132,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "439d45e3a433b1be60a522cdbc585dc19f25888685bb207c97420f36d473e061"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-3-image-manifest.csv"
+    },
+    {
+      "id": "sos-3600-calorie-emergency-food-fallout",
+      "category": "fallout",
+      "productId": "sos-3600-calorie-emergency-food-rations",
+      "usage": "current-product",
+      "sourceOriginalName": "Ration d’urgence S.O.S. sous éclairage rouge.png",
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "deliverySrc": "/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 317940,
+      "sha256": "03b3373f03cd760ea4d61003244334119ad7bd374f95feea933f335b1ce50137",
+      "variants": [
+        {
+          "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+          "src": "/images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 61554,
+          "sha256": "b82a9e13ce4051710a32d5f7a08e9485df4caca90d1d5e268cab65f47c071e4e",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+          "src": "/images/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 212148,
+          "sha256": "bee74334fb8f82f523cf7167ba94d1203d8cee4ef8649f6552d813c21c26469c",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+          "src": "/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 317940,
+          "sha256": "03b3373f03cd760ea4d61003244334119ad7bd374f95feea933f335b1ce50137",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of S.O.S. Emergency Food Rations — 3600 Calories in a red tactical inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Silver SOS-style packet and bars retained. Printed nutrition, ingredients and certification strings include synthetic inaccuracies and must not be used for dietary decisions. The manufacturer also has a 3600 versus 9x410 calorie conflict. Image depicts one packet, not proof of an ASIN two-pack.",
+      "references": [
+        "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+        "https://sosfoodlab.com/faq/"
+      ],
+      "reviewedAt": "2026-10-28",
+      "provenance": {
+        "source": "Owner Phase 4.3 work order identifies these five supplied PNGs as approved final illustrations for site integration.",
+        "scope": "Only this supplied PNG; permission does not establish rights to any undisclosed reference photograph, manufacturer endorsement, authentic labelling or product/listing certification. The owner instruction is recorded, not an independent chain-of-title audit.",
+        "confirmedAt": "2026-10-28"
+      },
+      "source": {
+        "filename": "Ration d’urgence S.O.S. sous éclairage rouge.png",
+        "requestedFilenameNote": "The work order adds a numeric suffix; the actual attached file has no suffix and was matched by its supplied content.",
+        "bytes": 2738564,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "c94605791e5fac809cadc519a6451ed9b800743ebef45e1a42907515d440ebde"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-3-image-manifest.csv"
+    },
+    {
+      "id": "3m-6800-full-facepiece-respirator-outbreak",
+      "category": "outbreak",
+      "productId": "3m-6800-full-facepiece-respirator",
+      "usage": "current-product",
+      "sourceOriginalName": "Masque respiratoire 3M en halo néon.png",
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 228614,
+      "sha256": "3ca0106c777dea863e6548a68f3ce628774ce6b3644b06043fab74f41062d0fe",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+          "src": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 48862,
+          "sha256": "546b84c1e9804bc67859b76f416e5bbd7a6e72b7dbb3c83709e3517981c94dd1",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+          "src": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 153988,
+          "sha256": "05da50496e11588a14af2a2fbc8969be79b2e57ca21ac5235125418171f7c6f3",
+          "quality": 83
+        },
+        {
+          "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+          "src": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 228614,
+          "sha256": "3ca0106c777dea863e6548a68f3ce628774ce6b3644b06043fab74f41062d0fe",
+          "quality": 83
+        }
+      ],
+      "alt": "Concept illustration of 3M 6800 Full Facepiece Reusable Respirator, without filters or cartridges, in a green tactical inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Grey full facepiece, clear visor, harness and empty orange side connections retained. No filters or cartridges are installed. Branding and shape are conceptual, not proof of authenticity, approved assembly or included accessories.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+        "https://multimedia.3m.com/mws/media/2602924O/3m-6000-full-facepiece-reusable-respirator.pdf"
+      ],
+      "reviewedAt": "2026-10-28",
+      "provenance": {
+        "source": "Owner Phase 4.3 work order identifies these five supplied PNGs as approved final illustrations for site integration.",
+        "scope": "Only this supplied PNG; permission does not establish rights to any undisclosed reference photograph, manufacturer endorsement, authentic labelling or product/listing certification. The owner instruction is recorded, not an independent chain-of-title audit.",
+        "confirmedAt": "2026-10-28"
+      },
+      "source": {
+        "filename": "Masque respiratoire 3M en halo néon.png",
+        "requestedFilenameNote": "The work order adds a numeric suffix; the actual attached file has no suffix and was matched by its supplied content.",
+        "bytes": 2407628,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "5244db0542ceb28ae3762397b46314b2277d42ac5fd4448e963fecd318f1431b"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-3-image-manifest.csv"
+    },
+    {
+      "id": "3m-60921-outbreak",
+      "category": "outbreak",
+      "productId": "3m-60921-organic-vapor-p100-cartridges",
+      "usage": "current-product",
+      "sourceOriginalName": "Cartouches 3M 60921 dans la brume néon.png",
+      "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-60921-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 227560,
+      "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+          "src": "/images/outbreak/3m-60921-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 52086,
+          "sha256": "fcd18927bdcb2e39f36307cbf24ba843bb952c50af654346225f1a6e4c73ead7"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+          "src": "/images/outbreak/3m-60921-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 156900,
+          "sha256": "3fcb38f8351cf9251b0e6054204c4a82dc147edf985a04c6a30b19977793215f"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+          "src": "/images/outbreak/3m-60921-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 227560,
+          "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2"
+        }
+      ],
+      "alt": "Concept illustration of two pink 3M 60921-style cartridge filters with black bands in a green OUTBREAK inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Two swept-back pink cartridge/filter housings, black organic-vapor bands, pale bases and 60921 model marks retained. Synthetic small print and NIOSH lettering are not authentic approval labels, service-life evidence or seller authentication.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/",
+        "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.6 work order explicitly supplies these final PNGs and instructs their site integration.",
+        "scope": "The owner explicitly supplies these three final images and instructs their use on the site. This records site-integration authorization only, not an independent chain-of-title audit, manufacturer endorsement or authentic labels.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Cartouches 3M 60921 dans la brume néon.png",
+        "bytes": 2261170,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "3d3043ee1ee38a3655f4f97ac221e26ffeb2756706b5f48f940c5ed124696e71"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-6-image-manifest.csv"
+    },
+    {
+      "id": "3m-60926-outbreak",
+      "category": "outbreak",
+      "productId": "3m-60926-multi-gas-vapor-p100-cartridges",
+      "usage": "current-product",
+      "sourceOriginalName": "Cartouches 3M 60926 dans la brume néon.png",
+      "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-60926-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 229298,
+      "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+          "src": "/images/outbreak/3m-60926-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 52790,
+          "sha256": "2f1cedf82400ebd968c1e6c541a6f2e051966563a3d280fa14989b4642fe2aa2"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+          "src": "/images/outbreak/3m-60926-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 159818,
+          "sha256": "d6934859b4821590a8a8187394d619ea82e4392dcb043e75ffa9b2e2b7df7e6b"
+        },
+        {
+          "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+          "src": "/images/outbreak/3m-60926-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 229298,
+          "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589"
+        }
+      ],
+      "alt": "Concept illustration of two pink 3M 60926-style cartridge filters with olive-yellow bands in a green OUTBREAK inventory frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Two pink swept-back housings with olive/yellow multi-gas bands, pale bases and 60926 markings retained. Generated fine print and certification-style markings are illustrative, not proof of an approved or genuine delivered assembly.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000057497/",
+        "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.6 work order explicitly supplies these final PNGs and instructs their site integration.",
+        "scope": "The owner explicitly supplies these three final images and instructs their use on the site. This records site-integration authorization only, not an independent chain-of-title audit, manufacturer endorsement or authentic labels.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Cartouches 3M 60926 dans la brume néon.png",
+        "bytes": 2222687,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "8ac9659b8056da750b57c3ac059db5f664b58796727d2e6fa2d33940b81c4a27"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-6-image-manifest.csv"
+    },
+    {
+      "id": "3m-2097-outbreak",
+      "category": "outbreak",
+      "productId": "3m-2097-p100-particulate-filters",
+      "usage": "current-product",
+      "sourceOriginalName": "Filtres 3M 2097 sous néons futuristes.png",
+      "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-2097-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 405850,
+      "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+          "src": "/images/outbreak/3m-2097-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 71724,
+          "sha256": "b043cedd7ea0110b19d6273555af4dfb09c60cad35e0fc2c15d68c9aa826c6bd"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+          "src": "/images/outbreak/3m-2097-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 262212,
+          "sha256": "2506c57e2bc9c30bc08779da33677c0710083394ebf0b986a86e504120b0d415"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+          "src": "/images/outbreak/3m-2097-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 405850,
+          "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4"
+        }
+      ],
+      "alt": "Concept illustration of ten pink 3M 2097-style round filters in a green OUTBREAK inventory frame; pictured quantity is not a verified sale pack",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Ten circular pink 2097-style filters counted in five visual pairs. Repeated or distorted batch/date/NIOSH markings are synthetic and not evidence of authenticity, expiration, approval or the quantity actually sold under the ASIN.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/",
+        "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.6 work order explicitly supplies these final PNGs and instructs their site integration.",
+        "scope": "The owner explicitly supplies these three final images and instructs their use on the site. This records site-integration authorization only, not an independent chain-of-title audit, manufacturer endorsement or authentic labels.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Filtres 3M 2097 sous néons futuristes.png",
+        "bytes": 3221563,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "c1b2ca49870c3752f91ab31c4d1b6476f99c41d1d40a7c61421fd6b3e4160ace"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-6-image-manifest.csv"
+    },
+    {
+      "id": "3m-2091-outbreak",
+      "category": "outbreak",
+      "productId": "3m-2091-p100-particulate-filters",
+      "usage": "current-product",
+      "sourceOriginalName": "Filtres 3M P100 sous néons futuristes (1).png",
+      "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+      "deliverySrc": "/images/outbreak/3m-2091-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 298638,
+      "sha256": "083cba7a38736e6fafc26f511dbb0b558b4886a7d8da3ab0356b007b69abcf44",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/3m-2091-outbreak-480.webp",
+          "src": "/images/outbreak/3m-2091-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 59814,
+          "sha256": "36f5dba68168492201cc41ef19a5c9cf1e9fb92cc112e8cda35e74a6564bb422"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2091-outbreak-960.webp",
+          "src": "/images/outbreak/3m-2091-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 200534,
+          "sha256": "2eaf14c42978eb120c86493afb4ecc34a2b7f58a22390e3f5a7aea0044769284"
+        },
+        {
+          "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+          "src": "/images/outbreak/3m-2091-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 298638,
+          "sha256": "083cba7a38736e6fafc26f511dbb0b558b4886a7d8da3ab0356b007b69abcf44"
+        }
+      ],
+      "alt": "Concept illustration of two pink 3M 2091 P100 particulate filters in a green tactical HUD frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Two circular magenta filters with 2091 and P100 markings, green HUD border intact. Repeated rotated 2091/3M markings are part of the supplied concept illustration, not authentic batch labels, manufacturer endorsement, certification or proof of the ASIN sale-pack quantity. No 2097 nuisance-vapor feature is inferred.",
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/",
+        "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewedAt": "2026-10-29",
+      "provenance": {
+        "source": "Owner Phase 4.7 work order explicitly provides this final PNG and authorizes its site integration.",
+        "scope": "Only this supplied 2091 illustration. Site-integration authorization, not independent chain-of-title verification, manufacturer endorsement, product authentication or offer validation.",
+        "confirmedAt": "2026-10-29"
+      },
+      "source": {
+        "filename": "Filtres 3M P100 sous néons futuristes (1).png",
+        "file": "assets/media/outbreak/originals/3m-2091-outbreak.png",
+        "bytes": 2547916,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "19a993ca0bc131ab7f5f611ce1c9ed20a9f92b2b6ad55d33c5666a1f006c7567"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "recolor": false,
+        "crop": false
+      },
+      "mappingCsv": "assets/media/phase4-7-image-manifest.csv"
+    },
+    {
+      "id": "gerber-strongarm-outbreak",
+      "category": "outbreak",
+      "productId": "gerber-strongarm-fixed-blade-knife",
+      "usage": "current-product",
+      "sourceOriginalName": "Couteau tactique Gerber sous néons verts.png",
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+      "deliverySrc": "/images/outbreak/gerber-strongarm-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 331718,
+      "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak-480.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 64642,
+          "sha256": "0dcf0ed0984f1d7deece0166130f84425980643463e76335b9eeb2c6a8f5e1b6"
+        },
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak-960.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 217850,
+          "sha256": "221bd339e9dd6f7fa1d666205dd01508660293690a35d055ac96349379e49f5e"
+        },
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 331718,
+          "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343"
+        }
+      ],
+      "alt": "Concept illustration of a black Gerber StrongArm-style fixed blade with a coyote brown textured handle and matching sheath in a green HUD frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "references": [
+        "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Couteau tactique Gerber sous néons verts.png",
+        "file": "assets/media/outbreak/originals/gerber-strongarm-outbreak.png",
+        "bytes": 2669589,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "8d2a956428b8994638201944fe9bcb237ebde698fe1d9dc73a721ecbc4f032e3"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    },
+    {
+      "id": "esee-4-outbreak",
+      "category": "outbreak",
+      "productId": "esee-4-fixed-blade-knife",
+      "usage": "current-product",
+      "sourceOriginalName": "Couteau ESEE-4 au néon cybernétique.png",
+      "file": "assets/media/outbreak/esee-4-outbreak.webp",
+      "deliverySrc": "/images/outbreak/esee-4-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 337880,
+      "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak-480.webp",
+          "src": "/images/outbreak/esee-4-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 57222,
+          "sha256": "4dbff0921bf365ca8a3f312bd173f5adb72988995da7dda91ab05d81ef1f4aa4"
+        },
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak-960.webp",
+          "src": "/images/outbreak/esee-4-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 214378,
+          "sha256": "4410018c61e96c99d4c1445f7e6d21b7ae0bb35fffd7994dd27fe0db1e75b5ab"
+        },
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak.webp",
+          "src": "/images/outbreak/esee-4-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 337880,
+          "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a"
+        }
+      ],
+      "alt": "Concept illustration of an ESEE-4-style black fixed blade with gray textured handle scales, black sheath and belt clip in a green HUD frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "references": [
+        "https://www.eseeknives.com/product/esee-4"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Couteau ESEE-4 au néon cybernétique.png",
+        "file": "assets/media/outbreak/originals/esee-4-outbreak.png",
+        "bytes": 2839692,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "584ca04fe10907a4c8f479c67d7bd090e0cb24e88c2152cd9e3782386c8c7949"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    },
+    {
+      "id": "morakniv-garberg-outbreak",
+      "category": "outbreak",
+      "productId": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "usage": "current-product",
+      "sourceOriginalName": "Kit Morakniv Carbone sous néons verts.png",
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+      "deliverySrc": "/images/outbreak/morakniv-garberg-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 350952,
+      "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak-480.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 63978,
+          "sha256": "58c6afcf4819f31e7ee7dbc52651129897c7c339622228b10a49160def1bb652"
+        },
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak-960.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 224304,
+          "sha256": "90e2b79bb5fca78e20134bca636c50e07b94899d32a5c8d90898e1082fdd1533"
+        },
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 350952,
+          "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6"
+        }
+      ],
+      "alt": "Concept illustration of a black Morakniv Garberg-style knife, sheath, ferro rod, sharpener attachment and cord in a green HUD frame; accessories are not proof of the retailer package",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "references": [
+        "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Kit Morakniv Carbone sous néons verts.png",
+        "file": "assets/media/outbreak/originals/morakniv-garberg-outbreak.png",
+        "bytes": 2778724,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "82693a6b2e4f1f1627f29981673bee7015578f22320788bd46a27a805a3f83ab"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    },
+    {
+      "id": "royale-velour-fallout",
+      "category": "fallout",
+      "productId": "royale-velour-plush-thick-toilet-paper",
+      "usage": "current-product",
+      "sourceOriginalName": "Image ChatGPT 31 oct. 2026, 11_50_48.png",
+      "file": "assets/media/fallout/royale-velour-fallout.webp",
+      "deliverySrc": "/images/fallout/royale-velour-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 255972,
+      "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42",
+      "variants": [
+        {
+          "file": "assets/media/fallout/royale-velour-fallout-480.webp",
+          "src": "/images/fallout/royale-velour-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 54466,
+          "sha256": "1c2fd77a1f5fbc4d43622e3dee950a25c1fd5b0e02613981275efa383e8f1545"
+        },
+        {
+          "file": "assets/media/fallout/royale-velour-fallout-960.webp",
+          "src": "/images/fallout/royale-velour-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 173556,
+          "sha256": "d17b82b955c3676bda0f2623f6acfebb63a8b72640e8e13bfc710f90dd181fc3"
+        },
+        {
+          "file": "assets/media/fallout/royale-velour-fallout.webp",
+          "src": "/images/fallout/royale-velour-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 255972,
+          "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42"
+        }
+      ],
+      "alt": "Concept illustration of a purple Royale Velour package marked 12 equals 24, white kittens and a loose toilet roll in a red HUD frame; equivalence is not a physical roll count",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Purple package, kittens, loose roll and red HUD preserved. Printed environmental wording and 12=24 are conceptual packaging marks, not certification, exact artwork authentication or 24 physical rolls.",
+      "references": [
+        "https://www.royale.ca/products/bathroom-tissue/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Image ChatGPT 31 oct. 2026, 11_50_48.png",
+        "file": "assets/media/fallout/originals/royale-velour-fallout.png",
+        "bytes": 2437522,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "37882bca993e762378d91723047bba3a5ad44054b77fdcacbf2580d85e69193d"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    }
+  ],
+  "allowedIntegrationFiles": [
+    "src/data/media/imported-manifest.json",
+    "src/components/UniverseHub.astro"
+  ],
+  "files": [
+    {
+      "file": "assets/media/README.txt",
+      "normaliseNewlines": true,
+      "sha256": "7ab13eac82370835aff35f41d0d25518a7a33329f2d2e86feb064a389602bbaf"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0"
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943"
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2"
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba"
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977"
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc"
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "0e1c9565679ea01c7fa6c692e903c116aa7a25ce83de34cab3f847e0d1c58644"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "e0f7f48d61b53c03a4cc69700e568791378c31203580d9a123b8773229eb6d05"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "4a2275237b619e58505040e80b6c71217225b0e60794bf2774c979c3063f99b6"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "0a99aeef7cdb3764879f80461db5e3f6308b5e6dd5042142af50d1e690fcf3f3"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "9e73916ed8f2d709c87fbb6dc048eb0e03be659e0897a924df59a68900ff3373"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "e94df88c2912a8bd32b518a3af0897e8aa8f5a6bfff49ca2296b20c963c1221a"
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da"
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d"
+    },
+    {
+      "file": "assets/media/fallout/originals/royale-velour-fallout.png",
+      "normaliseNewlines": false,
+      "sha256": "37882bca993e762378d91723047bba3a5ad44054b77fdcacbf2580d85e69193d"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "18b4311dc4881a7918637030329aa2daab3e453c1f18c6394e6997daf460847e"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "bce8f04ef999c0bbdf0813f878a6eedf34e6c360b0f6c2c44316ab2981c95ca8"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "b3b988c154e0a4184bbaa3a7720af7989d341dad742c9d9219347205ad5b5fc6"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "1c2fd77a1f5fbc4d43622e3dee950a25c1fd5b0e02613981275efa383e8f1545"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "d17b82b955c3676bda0f2623f6acfebb63a8b72640e8e13bfc710f90dd181fc3"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42"
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede"
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "b82a9e13ce4051710a32d5f7a08e9485df4caca90d1d5e268cab65f47c071e4e"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "bee74334fb8f82f523cf7167ba94d1203d8cee4ef8649f6552d813c21c26469c"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "03b3373f03cd760ea4d61003244334119ad7bd374f95feea933f335b1ce50137"
+    },
+    {
+      "file": "assets/media/image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "36f5dba68168492201cc41ef19a5c9cf1e9fb92cc112e8cda35e74a6564bb422"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "2eaf14c42978eb120c86493afb4ecc34a2b7f58a22390e3f5a7aea0044769284"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "083cba7a38736e6fafc26f511dbb0b558b4886a7d8da3ab0356b007b69abcf44"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "b043cedd7ea0110b19d6273555af4dfb09c60cad35e0fc2c15d68c9aa826c6bd"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "2506c57e2bc9c30bc08779da33677c0710083394ebf0b986a86e504120b0d415"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "fcd18927bdcb2e39f36307cbf24ba843bb952c50af654346225f1a6e4c73ead7"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "3fcb38f8351cf9251b0e6054204c4a82dc147edf985a04c6a30b19977793215f"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "2f1cedf82400ebd968c1e6c541a6f2e051966563a3d280fa14989b4642fe2aa2"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "d6934859b4821590a8a8187394d619ea82e4392dcb043e75ffa9b2e2b7df7e6b"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "546b84c1e9804bc67859b76f416e5bbd7a6e72b7dbb3c83709e3517981c94dd1"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "05da50496e11588a14af2a2fbc8969be79b2e57ca21ac5235125418171f7c6f3"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "3ca0106c777dea863e6548a68f3ce628774ce6b3644b06043fab74f41062d0fe"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "70d673984dc376f9c8525457fde40eb72fc6131865787aaedfe59fe5b324cbd3"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "e09010cbf796ccb376bde61ed3732c5079bf5602aa18d086898b93aa2fb1f399"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "0b1e82a6f653ae9cb08f3c492ac07862e6d32988f3e983c614045d2d28ba6d4a"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "4153680698daf753f855be1d3ef1a7f853f4c442fee82c30daba64e6e2da8997"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "5307f04f62c4d546b72bd9c0496f271dc58fe42305a7d29572831bbe64610e88"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "bbfab58e7edb85fefb8a634e142ccfa25cdb23d3602ee6ddb929d2767e4ca11a"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "4dbff0921bf365ca8a3f312bd173f5adb72988995da7dda91ab05d81ef1f4aa4"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "4410018c61e96c99d4c1445f7e6d21b7ae0bb35fffd7994dd27fe0db1e75b5ab"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "dfdbe056ded78707d3c066147bb7150c36e81826b174b05465961982504f059d"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "73a8bd4169f40c07606f1c4f634f5f43a31e498020c6ea00044b850c1af3ab47"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "0dcf0ed0984f1d7deece0166130f84425980643463e76335b9eeb2c6a8f5e1b6"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "221bd339e9dd6f7fa1d666205dd01508660293690a35d055ac96349379e49f5e"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "5141031364537cb3d659d45adce8665a2351d8d8dc09f603bf06a1d0db2fbf74"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "ad5287ec648575a06ac2e308cd5b377ba08b414659ff6be1e715428d892b8d6d"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "11f90e0f5df206682bc7921b8231f16ab0cec5406d05a8f0c15a8238161dfd4c"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "ffa32c7a96887b4f66b5f5f0a7587cf46dadadaf5f0792503149ea542d5a5182"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "19ba80bba904e74455697eba09a3c22b1b80cc3cd49f081b13602b51bfaa0cf2"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "0492954a40e398a38cd73d2e809ba199eed0c7d93a0c1b62c71d9c9d400966c8"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "58c6afcf4819f31e7ee7dbc52651129897c7c339622228b10a49160def1bb652"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "90e2b79bb5fca78e20134bca636c50e07b94899d32a5c8d90898e1082fdd1533"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+      "normaliseNewlines": false,
+      "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6"
+    },
+    {
+      "file": "assets/media/outbreak/originals/3m-2091-outbreak.png",
+      "normaliseNewlines": false,
+      "sha256": "19a993ca0bc131ab7f5f611ce1c9ed20a9f92b2b6ad55d33c5666a1f006c7567"
+    },
+    {
+      "file": "assets/media/outbreak/originals/esee-4-outbreak.png",
+      "normaliseNewlines": false,
+      "sha256": "584ca04fe10907a4c8f479c67d7bd090e0cb24e88c2152cd9e3782386c8c7949"
+    },
+    {
+      "file": "assets/media/outbreak/originals/gerber-strongarm-outbreak.png",
+      "normaliseNewlines": false,
+      "sha256": "8d2a956428b8994638201944fe9bcb237ebde698fe1d9dc73a721ecbc4f032e3"
+    },
+    {
+      "file": "assets/media/outbreak/originals/morakniv-garberg-outbreak.png",
+      "normaliseNewlines": false,
+      "sha256": "82693a6b2e4f1f1627f29981673bee7015578f22320788bd46a27a805a3f83ab"
+    },
+    {
+      "file": "assets/media/phase4-1-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "0fb240da0f6b91ea5c88e14d69b7edf207977b0aafcc5500a9b98faa3890c987"
+    },
+    {
+      "file": "assets/media/phase4-2-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "f0bbe726923977def4d870234b4e6098afb8f0da1f23a75ce22c0d0910589532"
+    },
+    {
+      "file": "assets/media/phase4-3-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "91f617562a7b84ca9981af5b607849df23fdbd9212ce7a06d212f192a2cf5ac6"
+    },
+    {
+      "file": "assets/media/phase4-6-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "0d79dbe00a743a03feccc1da6a5cb9ab3b8f011c11ab36447abdf41c4070d39b"
+    },
+    {
+      "file": "assets/media/phase4-7-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "48d925c76d4b9f7fd32ecabf2c78604d9b6bd93dd698352b1ba8bdde87152335"
+    },
+    {
+      "file": "assets/media/phase5-image-manifest.csv",
+      "normaliseNewlines": true,
+      "sha256": "f9ea887dcfcd844ffb4d989b1d10c51d4a66c0093f1007d9e624ca5b2c1267cb"
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "9a5cdc6aed3fc0ab9b07062819dfd7a38dba0c0ed41bca6878896e24b9830958"
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "85137309b47a820b713fd04fa7f6f9e1a9078d24fa3cd4fa85d5bece6f91cac2"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+      "normaliseNewlines": false,
+      "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "normaliseNewlines": false,
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d"
+    },
+    {
+      "file": "public/favicon.svg",
+      "normaliseNewlines": true,
+      "sha256": "cbb0581f44de08a4b4cc7abcbb7c2f85b481ad623edac3f067c49287ba0f7cd8"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+      "normaliseNewlines": false,
+      "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+      "normaliseNewlines": false,
+      "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+      "normaliseNewlines": false,
+      "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6"
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "23f8d6d864adfa11bcc34d902da0237322578639b40a19cc0a62371ef438268f"
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "d10031bba171c9afed80e39508deb6ed69ce246dd2432916f69357291b07d943"
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "6c2d3eecd863cc9c2502ca20f38c40b2c93a559df13140ceb6b1d35de5c970e1"
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "2ae3afd1acb7a50bca23436e02935743ae839ec0efabb14fb31fc745cb80a8c2"
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "64b4d2a95f1bf4ed47f29f04e6994e62ce661662707a6e08db6ce18f70ea4f61"
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "aaba5f0647c218f212e8bf5f46db6d483d733557dfc7b596cccdc71f1a68a37d"
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "98aae2018a9320b9431e2e23d5d4b37137db4fd2886ad9672419508233b7efcb"
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "000c3674cbf0472020f016c25ba5ade5a9ac2349fea74cb56b675f991ab8b38e"
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "fa8f526b7f5937dcc87fd9713ca87846c98dc2e059b291c9dbe605c211ab7637"
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "e51e48f91d787f964de6100cba8e91ba17cd84b79423417b62596df06d05154e"
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "eddef67fb3880b177d880982c934ac84438fea6d0a0aef525f1b179b189efe1d"
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "fd73dfc42fde36731ac86d074ab617e5d0157437dc31c61ddb2d0b5ec2c573c2"
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-480.webp",
+      "normaliseNewlines": false,
+      "sha256": "8ba092521d83dc21d86b4d21a6da386e7b150c2ce1ca71df9fcfe2fefbd456fc"
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-960.webp",
+      "normaliseNewlines": false,
+      "sha256": "77bbf32f7273fd4c79b5afc45e5e794dc4ddcd198c307432a970683692ba1fdf"
+    },
+    {
+      "file": "src/components/AffiliateButton.astro",
+      "normaliseNewlines": true,
+      "sha256": "55a6c948ca5d8915f7a46ab8c20ffdcffefff2dd8061e9575dcee95dd0403f4e"
+    },
+    {
+      "file": "src/components/Breadcrumbs.astro",
+      "normaliseNewlines": true,
+      "sha256": "aab9342e5bc42120cf044486f4ae09605190936391479eeb38ff0546cf4726b5"
+    },
+    {
+      "file": "src/components/ComparisonTable.astro",
+      "normaliseNewlines": true,
+      "sha256": "28427fd24cd3d72b1960a21954d30f3f4c4df1722c5a851db23dc0c78675cdd6"
+    },
+    {
+      "file": "src/components/DisclosureNotice.astro",
+      "normaliseNewlines": true,
+      "sha256": "457f3f26994070c7f3d5c8f987343d7a39c6511e1cc59e6b45817adc32b8a582"
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "normaliseNewlines": true,
+      "sha256": "51f0251d4ba690acfa9dd1aee0e30e251befc53e049b9d84f25a0ad1d1895b73"
+    },
+    {
+      "file": "src/components/GoogleAnalytics.astro",
+      "normaliseNewlines": true,
+      "sha256": "5942aa9ce738cf7ad7162991dc6c1e5c010debe418c1ca97cb339ed10d0740f9"
+    },
+    {
+      "file": "src/components/Header.astro",
+      "normaliseNewlines": true,
+      "sha256": "844b47c969e5e26e46cef2838a68cd7eef32cab828c12b9b9e8592f4e93b0005"
+    },
+    {
+      "file": "src/components/ProductCard.astro",
+      "normaliseNewlines": true,
+      "sha256": "6677a3f813c4524929675f54a19762aeccdf01852ff12edc47f116f7f75c8f5e"
+    },
+    {
+      "file": "src/components/ProductCatalogue.astro",
+      "normaliseNewlines": true,
+      "sha256": "79e1ee2aec213dc01e05710aee63d1519209063da881a2afc54b7b5eeb4603d1"
+    },
+    {
+      "file": "src/components/ProductImage.astro",
+      "normaliseNewlines": true,
+      "sha256": "2e648a5e413597494a9e71bf3f267be882bb4e19fbb35f5a2811225f7695e824"
+    },
+    {
+      "file": "src/components/ProductProfile.astro",
+      "normaliseNewlines": true,
+      "sha256": "777d1634f6ccbeba07c7f523120eaf0df32dd53d2b417af44f42c7cabff78f51"
+    },
+    {
+      "file": "src/components/UniverseCard.astro",
+      "normaliseNewlines": true,
+      "sha256": "25297eb26135b29fb30552ee7f5f23bc6645ce439b99b6eb32627f85deeb6acf"
+    },
+    {
+      "file": "src/config/analytics.ts",
+      "normaliseNewlines": true,
+      "sha256": "66693e24af0185ba2d5d475143e3f095297c99ef4c3f5ed39254c8e761108ff9"
+    },
+    {
+      "file": "src/config/site.ts",
+      "normaliseNewlines": true,
+      "sha256": "f918dceb5dbcc4ed48e15857b471eca0256cb455c8c25c4305ee94bed4e63f21"
+    },
+    {
+      "file": "src/config/taxonomy.ts",
+      "normaliseNewlines": true,
+      "sha256": "02c572d35bd42bbe203cc3e349a514f9110e66eb41f96a8e87eae78792f0affa"
+    },
+    {
+      "file": "src/content.config.ts",
+      "normaliseNewlines": true,
+      "sha256": "61fdaa3ced90b17ee23b5df4b1d8134a44cac961bb4aba1ba9b622313f4c079f"
+    },
+    {
+      "file": "src/data/media/manifest.json",
+      "normaliseNewlines": true,
+      "sha256": "76e22cd459c54b72b2f8790bdb56208ca685d90dfb5714054fc1c6b570c75f9d"
+    },
+    {
+      "file": "src/data/media/review.json",
+      "normaliseNewlines": true,
+      "sha256": "4ef227b8f3714aee14eacc9dfaee7439fdb29097ed71b62bf35743085ee62265"
+    },
+    {
+      "file": "src/data/products/3m-2091-p100-particulate-filters.json",
+      "normaliseNewlines": true,
+      "sha256": "21f68eadb8be732f75c0a0c794a71268110889e6921c890daa5068ffe7520cb2"
+    },
+    {
+      "file": "src/data/products/3m-2097-p100-particulate-filters.json",
+      "normaliseNewlines": true,
+      "sha256": "cbe52d01653e3c2176442f2ec65d7e7dad991a21038b92de592013b31df8b7bc"
+    },
+    {
+      "file": "src/data/products/3m-60921-organic-vapor-p100-cartridges.json",
+      "normaliseNewlines": true,
+      "sha256": "c741ea7da2a772f9c8875827fee857a5b9f6f10a7c9e9a4594652d37bbcf944a"
+    },
+    {
+      "file": "src/data/products/3m-60926-multi-gas-vapor-p100-cartridges.json",
+      "normaliseNewlines": true,
+      "sha256": "d4a69dc094b465ce701ca2d30b0c81b607687aa15d774a47172ad0495268cee2"
+    },
+    {
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "normaliseNewlines": true,
+      "sha256": "13996338973bc814e5e235e2b072de57945f1120c193c69144862508ae498c18"
+    },
+    {
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "normaliseNewlines": true,
+      "sha256": "6a4d547d3e8cd3a0c50e245c438ebf5621643fb41a8e22f2e44e3a66359fc22d"
+    },
+    {
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "normaliseNewlines": true,
+      "sha256": "54a5e6c38bafb2183a864ef0d53234d3841d1b91451e5d7423a2e327a6490967"
+    },
+    {
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "normaliseNewlines": true,
+      "sha256": "557a44270f011c9690f7819466fa72d1bb94a274d1733b7021804a6abba0dba3"
+    },
+    {
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "normaliseNewlines": true,
+      "sha256": "360aa6192b2f1a24c4b006f5ab3947883ca1a60b4aa579e7a729ddb1d40e7094"
+    },
+    {
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "normaliseNewlines": true,
+      "sha256": "f032ae7a9d2e7e1a53f2adc1fd27b02220139ab87d95c75fa9dfb03dc5fad1f1"
+    },
+    {
+      "file": "src/data/products/esee-4-fixed-blade-knife.json",
+      "normaliseNewlines": true,
+      "sha256": "03ef13248b624bf82b1f1b5899220c7483adbf8438a71a1a9fdb05c99eae0fff"
+    },
+    {
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "normaliseNewlines": true,
+      "sha256": "4289bc4e946b84da54d7eb4848b65463a63cba124029bb9e860fa0daddfc78b1"
+    },
+    {
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "normaliseNewlines": true,
+      "sha256": "ab879cfee97a70decc5c2f97285d0396fc89339d991e13338cd4bcc80d048cd8"
+    },
+    {
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "normaliseNewlines": true,
+      "sha256": "ec2bde139446459c4da7023cbe4c94f90ced93cebc21e187da032e589e0aa888"
+    },
+    {
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "normaliseNewlines": true,
+      "sha256": "729504cd145311ea35949aa4b6eac066c5395003a2d9d04ee4c5432c5babb559"
+    },
+    {
+      "file": "src/data/products/gerber-strongarm-fixed-blade-knife.json",
+      "normaliseNewlines": true,
+      "sha256": "b20ee569e2b0de4c46e39de7713cc87d4cfc6bf8ca2d2fd081574f922d274df4"
+    },
+    {
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "normaliseNewlines": true,
+      "sha256": "a01ecabbbc0d9c77e6ad11d09f64a5ddc22cafdc1c0a9bde6c90c707c69a903b"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "normaliseNewlines": true,
+      "sha256": "14eb142f5d898c2a9e6b892c85762ffbf9feac7f61e5e748c3f83d17771d6cf8"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-300.json",
+      "normaliseNewlines": true,
+      "sha256": "8582b7936c14cddd6fee9fca5442c153166fb589dee923c698b0af014268c3fc"
+    },
+    {
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "normaliseNewlines": true,
+      "sha256": "93278e4d830ec6686b9d17b18e0352da7a9a00b915cf87ce6c564d0d4c3d5d98"
+    },
+    {
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "normaliseNewlines": true,
+      "sha256": "4d29781c78e827b79e7f0b07d44938df36e65a7c94639390a0eccdac24a2a1e8"
+    },
+    {
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "normaliseNewlines": true,
+      "sha256": "732d97745645d046eecd6a7df7f412686287e06a6d2d4b8c516831e8750dce47"
+    },
+    {
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "normaliseNewlines": true,
+      "sha256": "405c2e06cd4211860c5cc6a3468846ea09ee6fc6b8206b39929e40ce565c72d3"
+    },
+    {
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "normaliseNewlines": true,
+      "sha256": "7367a1c2ab3e4d8a1057a37c470dbae03b5c58e53bd3288409f325f8801d82cf"
+    },
+    {
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "normaliseNewlines": true,
+      "sha256": "39d49d6f56af038c944312754d7dd2e6d63e06374615058680413c0f38ad24b9"
+    },
+    {
+      "file": "src/data/products/midland-er310.json",
+      "normaliseNewlines": true,
+      "sha256": "f4c3ba6e3f00e58bce537e9dc45891adfaee91cefd34d2eed46337009a8d0c4a"
+    },
+    {
+      "file": "src/data/products/morakniv-garberg-blackblade-carbon-survival-kit.json",
+      "normaliseNewlines": true,
+      "sha256": "d5f07c52da034b02bda08453b206ccb235a8700e982e003a842b051b2bb2f075"
+    },
+    {
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "normaliseNewlines": true,
+      "sha256": "0f3a55654dc0e766621bf583d976b176aa828be373bc962d595d7ac7cf5407ee"
+    },
+    {
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "normaliseNewlines": true,
+      "sha256": "990410918532310b8fedb05d55a7f0bd2c76ff6057b38b8847ec68d7799110e7"
+    },
+    {
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "normaliseNewlines": true,
+      "sha256": "b3cf9d300a37b9eeb4ec62b261a34f5ee5195a02ed060c284ae4f2ec1e0383c7"
+    },
+    {
+      "file": "src/data/products/royale-velour-plush-thick-toilet-paper.json",
+      "normaliseNewlines": true,
+      "sha256": "04b33c018584f495a13682c6f292b1a88d1bad30c2f33839ca6c6000da837228"
+    },
+    {
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "normaliseNewlines": true,
+      "sha256": "35d3e6409910e0fb5233301b8462bf883a8ca31265f361b7488f344b5cced2b8"
+    },
+    {
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "normaliseNewlines": true,
+      "sha256": "19fd0b49797422be6c17228fe5125fed8f21ed9efab7f2db6241d394fc8b6f92"
+    },
+    {
+      "file": "src/data/products/sos-3600-calorie-emergency-food-rations.json",
+      "normaliseNewlines": true,
+      "sha256": "070e09d93e70670916e4c57c9b954690fdb22339035d16d46e05af7df256c1e1"
+    },
+    {
+      "file": "src/data/products/template-product.json",
+      "normaliseNewlines": true,
+      "sha256": "d0037c2bca0c0aeff8d137bec6b8aa1f6c88b02f38fee036730fc607243f4cb0"
+    },
+    {
+      "file": "src/layouts/BaseLayout.astro",
+      "normaliseNewlines": true,
+      "sha256": "c1417e30cced2505da0650d9f111f73148f7a40b12bb62a3ad58a2a5b72408de"
+    },
+    {
+      "file": "src/lib/affiliate-analytics.ts",
+      "normaliseNewlines": true,
+      "sha256": "b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571"
+    },
+    {
+      "file": "src/lib/affiliate-audit.ts",
+      "normaliseNewlines": true,
+      "sha256": "20087d5d724f37047ee15484406dcb08d1106f0883b6b572a918d47c17f073eb"
+    },
+    {
+      "file": "src/lib/affiliate.ts",
+      "normaliseNewlines": true,
+      "sha256": "78d50d20b421e18c6b663e26313dc258ae2255c356d9cb6900fec8a61095ed0b"
+    },
+    {
+      "file": "src/lib/imported-media-policy.mjs",
+      "normaliseNewlines": true,
+      "sha256": "03d6b23de7dd83df002e71c3761bd5932c692114804702d16cdfdd93671781fb"
+    },
+    {
+      "file": "src/lib/imported-media.ts",
+      "normaliseNewlines": true,
+      "sha256": "74dcc5677d7be3d914cb3d7f19822405bf4c7463fc8cd5b34e845481c514149a"
+    },
+    {
+      "file": "src/lib/media-policy.ts",
+      "normaliseNewlines": true,
+      "sha256": "bda67cc57a2197558b718396c2f438a533d0fece77641fc2bcac8de472ae8c51"
+    },
+    {
+      "file": "src/lib/media.ts",
+      "normaliseNewlines": true,
+      "sha256": "fca1cdcde83f489e295098eae19ffa2204ebdf6d18b492e323a3bc448434d85b"
+    },
+    {
+      "file": "src/lib/product-schema.ts",
+      "normaliseNewlines": true,
+      "sha256": "bbe9a5266e2db404d1a640b4aefbf052b22b2629f8aadad86a62288a8e9b8125"
+    },
+    {
+      "file": "src/lib/product-seo.ts",
+      "normaliseNewlines": true,
+      "sha256": "2cc8775d4e224c5f99cdc60bba7617d767603ce5b7021497c9ad047bd2883a8d"
+    },
+    {
+      "file": "src/lib/products.ts",
+      "normaliseNewlines": true,
+      "sha256": "f13ebc1e3e209de5d089571f1c6f1983d3422a434fba65f2c692ad6074d2c211"
+    },
+    {
+      "file": "src/lib/release-policy.ts",
+      "normaliseNewlines": true,
+      "sha256": "1a71543f3760f7cab33fb0293dc8bed0c66e2a8c887438e4404cffd5681a08ce"
+    },
+    {
+      "file": "src/lib/respirator-filters.ts",
+      "normaliseNewlines": true,
+      "sha256": "283a66dbcb6f21607736d3c2c425496a65b15e3e389c9434b5ac06ccfd3e56b3"
+    },
+    {
+      "file": "src/pages/404.astro",
+      "normaliseNewlines": true,
+      "sha256": "f9211346d3a8ae36bc3cd7b5ec1f39821e520b95bd87486b2b1b548d1b83f73d"
+    },
+    {
+      "file": "src/pages/affiliate-disclosure.astro",
+      "normaliseNewlines": true,
+      "sha256": "bb8b0746fd63ac4376e7a1a70683a39df508b9f9db1d7f65ef91e74ff1cb6d1b"
+    },
+    {
+      "file": "src/pages/blackout.astro",
+      "normaliseNewlines": true,
+      "sha256": "4a3ad568e83602501f3b31150764f9e210052b8e36fa2f5cb3c6e396f9da2338"
+    },
+    {
+      "file": "src/pages/fallout.astro",
+      "normaliseNewlines": true,
+      "sha256": "5b42e7acd463771f7faae519d8d42899b9a31fd1affa3adeb238b28b8899bd33"
+    },
+    {
+      "file": "src/pages/gear/[slug].astro",
+      "normaliseNewlines": true,
+      "sha256": "11b104bf19002e6a27e52110d513c607ac5583758a61e4d26efb6825ccdd40d2"
+    },
+    {
+      "file": "src/pages/gear/index.astro",
+      "normaliseNewlines": true,
+      "sha256": "acca49dddf473721574c17c523ec7b493d7ff3240d3f0dbdcbae582cda1a1728"
+    },
+    {
+      "file": "src/pages/images/blackout/[file].webp.ts",
+      "normaliseNewlines": true,
+      "sha256": "7473d3ee7b10f7ff2d51443b19533577a4387253586a2a25d709302df9d04404"
+    },
+    {
+      "file": "src/pages/images/fallout/[file].webp.ts",
+      "normaliseNewlines": true,
+      "sha256": "e44305ca39ced28f3c5e1b5ea29ae67dc21833c42de0edb8e24318f6c12dbfb4"
+    },
+    {
+      "file": "src/pages/images/outbreak/[file].webp.ts",
+      "normaliseNewlines": true,
+      "sha256": "e50fb8b98b232ce1f80a034aa7caba1c234963a1a1385627bc077a96f3e88b0e"
+    },
+    {
+      "file": "src/pages/index.astro",
+      "normaliseNewlines": true,
+      "sha256": "3127e7600b5398c6f890cb984852524c13453b21a26f0c40dba22a8bed857902"
+    },
+    {
+      "file": "src/pages/outbreak.astro",
+      "normaliseNewlines": true,
+      "sha256": "959ccab08c808d56fbfa4337c728fea262b1e6bc4e0ad926aecad07fe05c5e7e"
+    },
+    {
+      "file": "src/pages/review/[...path].astro",
+      "normaliseNewlines": true,
+      "sha256": "66cc4771f8f954f7154cf2f499a34ba0174a097e171ecf23008584f64601bb49"
+    },
+    {
+      "file": "src/pages/robots.txt.ts",
+      "normaliseNewlines": true,
+      "sha256": "9a07e9229f8a1db1c0a3d2b2e21115d787dbad3d67597dd8c2ed0519647d010b"
+    },
+    {
+      "file": "src/styles/global.css",
+      "normaliseNewlines": true,
+      "sha256": "58a921d10e431a1dd8848d4871cd00f8250a0a7513a9ceaaf595e933b0bab2a4"
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "normaliseNewlines": true,
+      "sha256": "fdc6bf5430bc22d795822bced6858eee837569380f78d57d4179b4be430a2973"
+    }
+  ]
+}

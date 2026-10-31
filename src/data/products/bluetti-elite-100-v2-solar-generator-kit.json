@@ -1,0 +1,182 @@
+{
+  "name": "BLUETTI Elite 100 V2 — 200 W Solar Offer",
+  "brand": "BLUETTI",
+  "modelNumber": "Elite 100 V2",
+  "category": "power-stations",
+  "summary": "A 1024 Wh LiFePO4 station with 1800 W rated AC output, linked to an owner-reported 200 W solar offer. Confirm the panel model and connecting cables before purchase.",
+  "description": "The Elite 100 V2 combines a roughly one-kilowatt-hour battery with a useful continuous output budget for selected emergency loads. A solar panel can replenish energy when conditions permit, but its nameplate watts do not establish charging speed. The owner-reported Canadian title advertises a 200 W panel; its exact model and the connection accessories have not been confirmed. Compare the actual selected package before paying for a kit.",
+  "specs": [
+    {
+      "label": "Battery capacity",
+      "value": "1024 Wh nominal",
+      "source": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794"
+    },
+    {
+      "label": "Battery chemistry",
+      "value": "LiFePO4",
+      "source": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794"
+    },
+    {
+      "label": "Rated AC output",
+      "value": "1800 W maximum at 120 V; Power Lifting is a separate mode, not continuous rated output",
+      "source": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794"
+    },
+    {
+      "label": "USB outputs",
+      "value": "One USB-C up to 140 W, one USB-C up to 100 W and two USB-A up to 15 W per port",
+      "source": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794"
+    },
+    {
+      "label": "Solar/DC input",
+      "value": "12–60 V, 20 A, 1000 W maximum; panel voltage, polarity and suitable connecting cable must match",
+      "source": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794"
+    },
+    {
+      "label": "AC charging",
+      "value": "1200 W maximum; 1200 W combined AC + DC charging limit",
+      "source": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794"
+    },
+    {
+      "label": "Charging temperature",
+      "value": "0–40 °C",
+      "source": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794"
+    },
+    {
+      "label": "Manufacturer solar configurations — not verified Amazon contents",
+      "value": "BLUETTI Canada lists an Elite 100 V2 + 200 W configuration; this does not establish the selected Amazon panel or cables",
+      "source": "https://www.bluettipower.ca/pages/solar-generator"
+    }
+  ],
+  "pros": [
+    "Dedicated USB-C outputs can serve compatible electronics without using an AC adapter.",
+    "A solar-capable input supports a replenishment plan when a suitable panel and connection are available."
+  ],
+  "cons": [
+    "The exact 200 W panel model, connecting cables and other accessories in the advertised Amazon package remain unconfirmed.",
+    "A 200 W panel cannot deliver the station’s 1000 W maximum solar input by itself, and weather reduces yield.",
+    "Power Lifting is intended for appropriate resistive loads; it is not extra continuous output for sensitive electronics."
+  ],
+  "useCases": [
+    "Plan daytime solar replenishment for selected communications and lighting loads, subject to confirmed panel compatibility.",
+    "Compare a portable battery-and-panel offer with a station-only alternative for an emergency kit."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "BLUETTI Canada: Elite 100 V2 technical overview",
+      "url": "https://www.bluettipower.ca/pages/elite-100-v2-launch",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "manual",
+      "title": "BLUETTI: Elite 100 V2 US/Canada English-French manual",
+      "url": "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "manufacturer-bundles",
+      "title": "BLUETTI Canada: solar generator configurations",
+      "url": "https://www.bluettipower.ca/pages/solar-generator",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN reference; current offer not independently verified",
+      "url": "https://www.amazon.ca/dp/B0FD3VBD6G",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "ecoflow-delta-2-portable-power-station",
+    "jackery-explorer-1000-v2",
+    "jackery-solarsaga-100w-air",
+    "fenix-cl26r-pro"
+  ],
+  "image": {
+    "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+    "alt": "Concept illustration of a graphite BLUETTI Elite 100 V2-style station and folding solar panel in an amber HUD frame; the panel is not proof of package contents",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 5.3 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner transcription associates B0FD3VBD6G with the observed title BLUETTI Solar Generator Elite 100 V2 (2025 New) with 200W Solar Panel Included, 1024Wh Portable Power Station. The owner describes the intended selection as Elite 100 V2 with a 200 W panel; the supplied title is from an Amazon.ca result, not an independently inspected selected-offer components list. Exact panel model, cables and other accessories are expressly unconfirmed. No original Amazon capture or capture date was available for inspection here. A 200 W panel is advertised in the owner-transcribed title, not independently verified package contents. Exact panel model, cable/adapter inclusion, selected offer, seller, stock and Canadian labels remain unconfirmed. Manufacturer bundle documentation is not proof of this ASIN package."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20",
+      "asin": "B0FD3VBD6G"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-31",
+    "identityNotes": "Owner transcription associates B0FD3VBD6G with the observed title BLUETTI Solar Generator Elite 100 V2 (2025 New) with 200W Solar Panel Included, 1024Wh Portable Power Station. The owner describes the intended selection as Elite 100 V2 with a 200 W panel; the supplied title is from an Amazon.ca result, not an independently inspected selected-offer components list. Exact panel model, cables and other accessories are expressly unconfirmed. No original Amazon capture or capture date was available for inspection here. A 200 W panel is advertised in the owner-transcribed title, not independently verified package contents. Exact panel model, cable/adapter inclusion, selected offer, seller, stock and Canadian labels remain unconfirmed. Manufacturer bundle documentation is not proof of this ASIN package. Amazon.ca could not be retrieved through the web reader; no successful live inspection or observable HTTP error status is claimed. Artwork is not offer evidence.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "BLUETTI documents the Elite 100 V2 station’s capacity, chemistry and rated output; its Canadian catalogue also lists a 200 W solar configuration.",
+        "sourceIds": [
+          "manual",
+          "manufacturer-bundles"
+        ]
+      },
+      {
+        "text": "The owner-transcribed Canadian title advertises Elite 100 V2 with a 200 W panel. This documents the advertised reference, not a confirmed selected-offer contents list.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "A 200 W panel is advertised in the owner-transcribed title, not independently verified package contents. Exact panel model, cable/adapter inclusion, selected offer, seller, stock and Canadian labels remain unconfirmed. Manufacturer bundle documentation is not proof of this ASIN package.",
+      "No physical test, guaranteed appliance runtime, current price, availability, rating or individual-unit certification is established."
+    ],
+    "safetyNotes": [
+      "Keep the station dry, ventilated and away from heat, flames and children. Do not cover cooling openings, open the housing or use damaged batteries or cables.",
+      "Check the delivered electrical label and manual for Canadian voltage and operating limits. Never backfeed a household wall outlet; building connections require appropriate transfer equipment and a qualified electrician.",
+      "Treat a portable battery as a limited supply, not guaranteed whole-home backup or a life-support power source. Stored Wh are not usable AC Wh; load, inverter losses, temperature and settings affect runtime.",
+      "Keep combined running and startup loads within the manual’s limits. A switching-time claim does not make this a guaranteed supply for medical or other safety-critical equipment.",
+      "Follow the manual’s 40–60% storage-charge guidance and periodic maintenance schedule. Do not charge below its permitted temperature range. Verify the panel’s open-circuit voltage and suitable cables before connecting it."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent current-offer and Canadian electrical-label review, complete safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0FD3VBD6G",
+      "checkedAt": "2026-10-31",
+      "reason": "Recorded Canadian link permitted under the existing owner-document policy: the owner explicitly associates this ASIN with Elite 100 V2 and an advertised 200 W panel, consistent with a manufacturer-listed configuration. The exact panel and cable contents remain unconfirmed and are not guaranteed by this profile. No concrete contradictory variant evidence or product-specific mandatory safety block was established. Permission covers the recorded link only; it is not live offer verification, physical authentication, final Amazon account approval or SEO publication approval.",
+      "sourceIds": [
+        "manufacturer",
+        "manual",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0FD3VBD6G",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B0FD3VBD6G",
+      "matchedModel": "Elite 100 V2",
+      "notes": "Owner transcription associates B0FD3VBD6G with the observed title BLUETTI Solar Generator Elite 100 V2 (2025 New) with 200W Solar Panel Included, 1024Wh Portable Power Station. The owner describes the intended selection as Elite 100 V2 with a 200 W panel; the supplied title is from an Amazon.ca result, not an independently inspected selected-offer components list. Exact panel model, cables and other accessories are expressly unconfirmed. No original Amazon capture or capture date was available for inspection here. A 200 W panel is advertised in the owner-transcribed title, not independently verified package contents. Exact panel model, cable/adapter inclusion, selected offer, seller, stock and Canadian labels remain unconfirmed. Manufacturer bundle documentation is not proof of this ASIN package. No physical inspection is required to permit this documented link; no live Amazon verification is claimed."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the selected Elite 100 V2 + 200 W offer, panel model, separate parcels, connecting cable and adapters in the seller’s contents list; the artwork is not proof.",
+      "Match voltage, running watts and motor startup demand to the delivered station’s manual; plan realistic energy use and a recharging source.",
+      "Confirm seller, warranty, package contents and Canadian electrical labels before purchase; avoid assuming manufacturer-store bundles or extensions apply."
+    ]
+  }
+}

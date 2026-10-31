@@ -54,7 +54,7 @@ try {
     assert.ok(!/AI-assisted|ChatGPT|Codex|Synthetic QA fixture only/.test(product('body').text()));
     assert.equal(catalogue(`a[href="/gear/${slug}/"]`).length, 1);
     const hub = load(readFileSync(`dist/${universe}/index.html`, 'utf8'));
-    assert.equal(hub(`a[href="/gear/${slug}/"]`).length, 1);
+    assert.equal(hub(`article.card a[href="/gear/${slug}/"]`).length, 1);
     for (const [other] of fixtures.filter(([id]) => id !== universe)) {
       assert.equal(hub(`a[href="/gear/qa-fixture-${other}/"]`).length, 0);
     }

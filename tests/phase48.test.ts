@@ -15,7 +15,8 @@ const baseline=read('docs/qa/phase4-8/preservation.json');
 
 test('Phase 4.8 preserves every other product, all artwork, policies and 2091 technical precautions',()=>{
   assert.equal(baseline.baseCommit,'0fb4c38f91b3990e68289bb2a31675bf92b692a4');
-  for(const row of baseline.files){if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(row.file)) continue; // Phase 5 preservation tests cover additive integration.
+  for(const row of baseline.files){if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
+if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(row.file)) continue; // Phase 5 preservation tests cover additive integration.
 
     const bytes=readFileSync(row.file);
     const content=row.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;

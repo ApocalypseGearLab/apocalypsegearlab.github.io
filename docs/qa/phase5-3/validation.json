@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-10-31T18:57:12.003Z",
+  "allPassed": true,
+  "commands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/check.txt"
+    },
+    {
+      "command": "npm run test",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/test.txt"
+    },
+    {
+      "command": "npm run test:images",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/test-images.txt"
+    },
+    {
+      "command": "npm run release:check",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/release-check.txt"
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/audit-affiliate.txt"
+    },
+    {
+      "command": "npm run test:products",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/test-products.txt"
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/build.txt"
+    },
+    {
+      "command": "npm run test:site",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/test-site.txt"
+    },
+    {
+      "command": "npm run test:conversion",
+      "exitCode": 0,
+      "log": "docs/qa/phase5-3/logs/test-conversion.txt"
+    },
+    {
+      "command": "npm run test:browser",
+      "exitCode": 0,
+      "passed": 100,
+      "log": "docs/qa/phase5-3/logs/test-browser.txt"
+    }
+  ],
+  "unitTests": 78,
+  "browserTests": 100,
+  "htmlPages": 43,
+  "internalReferences": 1700,
+  "sitemapUrls": 5,
+  "scope": "Local production and isolated Chromium QA, not live retailer or private GA4 validation"
+}
