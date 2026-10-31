@@ -1,0 +1,162 @@
+{
+  "name": "Gerber StrongArm Fixed Blade Knife",
+  "brand": "Gerber",
+  "modelNumber": "StrongArm",
+  "category": "fixed-blade-knives",
+  "summary": "A full-tang outdoor utility knife for camp repairs and controlled cutting tasks. The selected reference pairs a black plain-edge blade with a coyote brown grip and sheath; match the selected Canadian offer before buying.",
+  "description": "A fixed blade makes sense when a camp task calls for a secure grip and a tool that is ready without unfolding. The StrongArm reference documented here is Gerber’s coyote brown plain-edge version. Its coated blade and textured grip suit comparison for cordage, campsite repairs and routine field maintenance. Carry weight, sheath retention and maintenance matter as much as the headline dimensions. The recorded Canadian link does not authenticate a delivered knife or current seller.",
+  "specs": [
+    {
+      "label": "Reference variant",
+      "value": "Coyote brown, plain edge; Gerber product 30-001058N, not independent authentication of the Canadian ASIN",
+      "source": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+    },
+    {
+      "label": "Blade construction",
+      "value": "Full tang, 420HC steel, ceramic coating",
+      "source": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+    },
+    {
+      "label": "Blade length",
+      "value": "4.8 inches, manufacturer reference",
+      "source": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+    },
+    {
+      "label": "Overall length",
+      "value": "9.8 inches, manufacturer reference",
+      "source": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+    },
+    {
+      "label": "Weight",
+      "value": "7.2 ounces, manufacturer stated",
+      "source": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+    },
+    {
+      "label": "Handle and sheath system",
+      "value": "Rubberized diamond-texture grip; modular sheath with belt and MOLLE mounting options",
+      "source": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+    }
+  ],
+  "pros": [
+    "Fixed-blade construction avoids a folding pivot for routine outdoor utility work.",
+    "Textured grip and several documented sheath mounting options support pack planning."
+  ],
+  "cons": [
+    "A fixed blade occupies more pack space than a small folding utility tool.",
+    "Check actual sheath retention and mounting hardware; illustration proportions are conceptual.",
+    "Current seller, authentic supply and delivered variant have not been independently verified."
+  ],
+  "useCases": [
+    "Compare a dedicated camp cutting tool for cordage and equipment repairs.",
+    "Plan secure storage and maintenance alongside gloves, lighting and a separate repair tool."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Gerber: documented product reference",
+      "url": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN and selected product reference",
+      "url": "https://www.amazon.ca/dp/B00U0IOYOU",
+      "kind": "retailer"
+    },
+    {
+      "id": "canadian-law",
+      "title": "Canada Criminal Code: possession for a dangerous purpose; check applicable carrying rules",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-88.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "esee-4-fixed-blade-knife",
+    "morakniv-garberg-blackblade-carbon-survival-kit",
+    "mechanix-m-pact-work-gloves",
+    "fenix-hm50r-v2-headlamp"
+  ],
+  "image": {
+    "src": "/images/outbreak/gerber-strongarm-outbreak.webp",
+    "alt": "Concept illustration of a black Gerber StrongArm-style fixed blade with a coyote brown textured handle and matching sheath in a green HUD frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 5.0 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 5.0 brief associates B00U0IOYOU with StrongArm, black blade, coyote brown grip and matching sheath. Manufacturer plain-edge reference 30-001058N corroborates this configuration; no Amazon capture, current offer, seller or delivered unit independently inspected."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00U0IOYOU?tag=apocalypsegear-20",
+      "asin": "B00U0IOYOU"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-31",
+    "identityNotes": "Owner Phase 5.0 brief associates B00U0IOYOU with StrongArm, black blade, coyote brown grip and matching sheath. Manufacturer plain-edge reference 30-001058N corroborates this configuration; no Amazon capture, current offer, seller or delivered unit independently inspected. Source images are not listing evidence. Amazon.ca was inaccessible through the web reader; no observable HTTP status or successful live inspection is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The documented manufacturer reference supports the listed technical facts; retail variants and delivered units require matching.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The owner brief records the Canadian ASIN and intended product configuration; this is not independent seller or delivered-unit authentication.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current seller, price, stock, genuine supply, delivered variant and package contents are not independently verified."
+    ],
+    "safetyNotes": [
+      "Use only for lawful outdoor utility tasks. Check applicable Canadian laws, local rules and venue restrictions before transport or carrying; self-defence carry is not automatically lawful.",
+      "Keep the edge and point away from the body and other people. Use a stable work area and store the knife securely in a properly retaining sheath, out of reach of children.",
+      "Inspect the blade, handle and sheath before use. Do not use a damaged tool or treat it as an electrical tool, pry bar or substitute for an appropriate saw.",
+      "Follow the delivered manufacturer instructions for cleaning, sharpening and storage. This profile is documentary research, not a physical test or authentication of an individual knife."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Complete independent current-offer, delivered-unit and safety review before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00U0IOYOU",
+      "checkedAt": "2026-10-31",
+      "reason": "Recorded Canadian link permitted on the explicit owner-provided ASIN/model/variant reference and matching manufacturer documentation. No live listing, seller authentication, physical test or full editorial approval is claimed. Owner Phase 5.0 brief associates B00U0IOYOU with StrongArm, black blade, coyote brown grip and matching sheath. Manufacturer plain-edge reference 30-001058N corroborates this configuration; no Amazon capture, current offer, seller or delivered unit independently inspected.",
+      "sourceIds": [
+        "manufacturer",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B00U0IOYOU",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B00U0IOYOU",
+      "matchedModel": "StrongArm",
+      "notes": "Owner Phase 5.0 brief associates B00U0IOYOU with StrongArm, black blade, coyote brown grip and matching sheath. Manufacturer plain-edge reference 30-001058N corroborates this configuration; no Amazon capture, current offer, seller or delivered unit independently inspected. Evidence is the written Phase 5.0 product brief, not an attached Amazon screenshot. No original listing capture or capture date was supplied."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match the selected model, steel, colour, sheath and actual package contents to the manufacturer reference before purchase.",
+      "Check the seller, delivered labels, packaging integrity and applicable instructions; this profile does not authenticate an item.",
+      "Check local carrying restrictions and plan secure storage, edge care and safe outdoor utility use."
+    ]
+  }
+}

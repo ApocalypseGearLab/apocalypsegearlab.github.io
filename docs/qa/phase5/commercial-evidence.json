@@ -1,0 +1,54 @@
+{
+  "reviewDate": "2026-10-31",
+  "source": "Owner Phase 5.0 written brief; not raw listing captures. No capture date supplied.",
+  "amazonReader": "All four registered URLs attempted; inaccessible via the tool, no observable HTTP code. Technical inaccessibility is not invalidity.",
+  "products": [
+    {
+      "id": "gerber-strongarm-fixed-blade-knife",
+      "asin": "B00U0IOYOU",
+      "model": "StrongArm",
+      "universe": "outbreak",
+      "decision": "link-permitted",
+      "basis": "Owner Phase 5.0 brief associates B00U0IOYOU with StrongArm, black blade, coyote brown grip and matching sheath. Manufacturer plain-edge reference 30-001058N corroborates this configuration; no Amazon capture, current offer, seller or delivered unit independently inspected.",
+      "manufacturer": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n",
+      "url": "https://www.amazon.ca/dp/B00U0IOYOU?tag=apocalypsegear-20"
+    },
+    {
+      "id": "esee-4-fixed-blade-knife",
+      "asin": "B00UY4NS6K",
+      "model": "ESEE-4",
+      "universe": "outbreak",
+      "decision": "link-permitted",
+      "basis": "Owner Phase 5.0 brief associates B00UY4NS6K with ESEE-4, black blade, gray Micarta handle, black sheath and belt attachment. Manufacturer ESEE-4 variant table documents corresponding black-blade/black-sheath references. Permission covers the recorded link, not independent verification of exact SKU, steel, scale material, seller or delivered package.",
+      "manufacturer": "https://www.eseeknives.com/product/esee-4",
+      "url": "https://www.amazon.ca/dp/B00UY4NS6K?tag=apocalypsegear-20"
+    },
+    {
+      "id": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "asin": "B09214DLJ6",
+      "model": "Garberg BlackBlade Carbon Survival Kit",
+      "universe": "outbreak",
+      "decision": "hold",
+      "basis": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability.",
+      "manufacturer": "https://www.morakniv.com/en/products/garberg-survival-kit-c",
+      "url": "https://www.amazon.ca/dp/B09214DLJ6?tag=apocalypsegear-20"
+    },
+    {
+      "id": "royale-velour-plush-thick-toilet-paper",
+      "asin": "B085XRS7KP",
+      "model": "Velour Plush & Thick",
+      "universe": "fallout",
+      "decision": "link-permitted",
+      "basis": "Owner Phase 5.0 brief associates B085XRS7KP with Royale Velour Plush & Thick, purple package and 12 physical rolls marketed as equivalent to 24 regular rolls. This is owner documentary evidence, not a live offer, sheet-count audit or environmental certification. No current price, stock or seller verified.",
+      "manufacturer": "https://www.royale.ca/products/bathroom-tissue/",
+      "url": "https://www.amazon.ca/dp/B085XRS7KP?tag=apocalypsegear-20"
+    }
+  ],
+  "notClaimed": [
+    "Final Associates approval",
+    "Physical tests",
+    "Current prices, sellers, stock or reviews",
+    "Independent environmental certification",
+    "A knife is automatically lawful for self-defence"
+  ]
+}

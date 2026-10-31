@@ -1539,6 +1539,278 @@
         "crop": false
       },
       "mappingCsv": "assets/media/phase4-7-image-manifest.csv"
+    },
+    {
+      "id": "gerber-strongarm-outbreak",
+      "category": "outbreak",
+      "productId": "gerber-strongarm-fixed-blade-knife",
+      "usage": "current-product",
+      "sourceOriginalName": "Couteau tactique Gerber sous néons verts.png",
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+      "deliverySrc": "/images/outbreak/gerber-strongarm-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 331718,
+      "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak-480.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 64642,
+          "sha256": "0dcf0ed0984f1d7deece0166130f84425980643463e76335b9eeb2c6a8f5e1b6"
+        },
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak-960.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 217850,
+          "sha256": "221bd339e9dd6f7fa1d666205dd01508660293690a35d055ac96349379e49f5e"
+        },
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 331718,
+          "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343"
+        }
+      ],
+      "alt": "Concept illustration of a black Gerber StrongArm-style fixed blade with a coyote brown textured handle and matching sheath in a green HUD frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "references": [
+        "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Couteau tactique Gerber sous néons verts.png",
+        "file": "assets/media/outbreak/originals/gerber-strongarm-outbreak.png",
+        "bytes": 2669589,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "8d2a956428b8994638201944fe9bcb237ebde698fe1d9dc73a721ecbc4f032e3"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    },
+    {
+      "id": "esee-4-outbreak",
+      "category": "outbreak",
+      "productId": "esee-4-fixed-blade-knife",
+      "usage": "current-product",
+      "sourceOriginalName": "Couteau ESEE-4 au néon cybernétique.png",
+      "file": "assets/media/outbreak/esee-4-outbreak.webp",
+      "deliverySrc": "/images/outbreak/esee-4-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 337880,
+      "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak-480.webp",
+          "src": "/images/outbreak/esee-4-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 57222,
+          "sha256": "4dbff0921bf365ca8a3f312bd173f5adb72988995da7dda91ab05d81ef1f4aa4"
+        },
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak-960.webp",
+          "src": "/images/outbreak/esee-4-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 214378,
+          "sha256": "4410018c61e96c99d4c1445f7e6d21b7ae0bb35fffd7994dd27fe0db1e75b5ab"
+        },
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak.webp",
+          "src": "/images/outbreak/esee-4-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 337880,
+          "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a"
+        }
+      ],
+      "alt": "Concept illustration of an ESEE-4-style black fixed blade with gray textured handle scales, black sheath and belt clip in a green HUD frame",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "references": [
+        "https://www.eseeknives.com/product/esee-4"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Couteau ESEE-4 au néon cybernétique.png",
+        "file": "assets/media/outbreak/originals/esee-4-outbreak.png",
+        "bytes": 2839692,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "584ca04fe10907a4c8f479c67d7bd090e0cb24e88c2152cd9e3782386c8c7949"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    },
+    {
+      "id": "morakniv-garberg-outbreak",
+      "category": "outbreak",
+      "productId": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "usage": "current-product",
+      "sourceOriginalName": "Kit Morakniv Carbone sous néons verts.png",
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+      "deliverySrc": "/images/outbreak/morakniv-garberg-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 350952,
+      "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak-480.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 63978,
+          "sha256": "58c6afcf4819f31e7ee7dbc52651129897c7c339622228b10a49160def1bb652"
+        },
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak-960.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 224304,
+          "sha256": "90e2b79bb5fca78e20134bca636c50e07b94899d32a5c8d90898e1082fdd1533"
+        },
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 350952,
+          "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6"
+        }
+      ],
+      "alt": "Concept illustration of a black Morakniv Garberg-style knife, sheath, ferro rod, sharpener attachment and cord in a green HUD frame; accessories are not proof of the retailer package",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "references": [
+        "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Kit Morakniv Carbone sous néons verts.png",
+        "file": "assets/media/outbreak/originals/morakniv-garberg-outbreak.png",
+        "bytes": 2778724,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "82693a6b2e4f1f1627f29981673bee7015578f22320788bd46a27a805a3f83ab"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
+    },
+    {
+      "id": "royale-velour-fallout",
+      "category": "fallout",
+      "productId": "royale-velour-plush-thick-toilet-paper",
+      "usage": "current-product",
+      "sourceOriginalName": "Image ChatGPT 31 oct. 2026, 11_50_48.png",
+      "file": "assets/media/fallout/royale-velour-fallout.webp",
+      "deliverySrc": "/images/fallout/royale-velour-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 255972,
+      "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42",
+      "variants": [
+        {
+          "file": "assets/media/fallout/royale-velour-fallout-480.webp",
+          "src": "/images/fallout/royale-velour-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 54466,
+          "sha256": "1c2fd77a1f5fbc4d43622e3dee950a25c1fd5b0e02613981275efa383e8f1545"
+        },
+        {
+          "file": "assets/media/fallout/royale-velour-fallout-960.webp",
+          "src": "/images/fallout/royale-velour-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 173556,
+          "sha256": "d17b82b955c3676bda0f2623f6acfebb63a8b72640e8e13bfc710f90dd181fc3"
+        },
+        {
+          "file": "assets/media/fallout/royale-velour-fallout.webp",
+          "src": "/images/fallout/royale-velour-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 255972,
+          "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42"
+        }
+      ],
+      "alt": "Concept illustration of a purple Royale Velour package marked 12 equals 24, white kittens and a loose toilet roll in a red HUD frame; equivalence is not a physical roll count",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Purple package, kittens, loose roll and red HUD preserved. Printed environmental wording and 12=24 are conceptual packaging marks, not certification, exact artwork authentication or 24 physical rolls.",
+      "references": [
+        "https://www.royale.ca/products/bathroom-tissue/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "provenance": {
+        "source": "Owner Phase 5.0 work order supplies this finished concept illustration and explicitly directs its integration.",
+        "scope": "Site integration of this supplied image only; not independent chain-of-title verification, manufacturer endorsement or authentication of the product or package.",
+        "confirmedAt": "2026-10-31"
+      },
+      "source": {
+        "filename": "Image ChatGPT 31 oct. 2026, 11_50_48.png",
+        "file": "assets/media/fallout/originals/royale-velour-fallout.png",
+        "bytes": 2437522,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "37882bca993e762378d91723047bba3a5ad44054b77fdcacbf2580d85e69193d"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-image-manifest.csv"
     }
   ]
 }
