@@ -35,6 +35,8 @@ export const CATEGORIES = [
   { id: 'inventory-management', label: 'Survival inventory management', universe: 'outbreak' },
   { id: 'scenario-preparedness', label: 'Scenario-based preparedness', universe: 'outbreak' },
   { id: 'simulations', label: 'Fictional outbreak simulations', universe: 'outbreak' },
+  { id: 'fixed-blade-knives', label: 'Outdoor & survival knives', universe: 'outbreak' },
+  { id: 'hygiene-sanitation', label: 'Emergency hygiene & sanitation', universe: 'fallout' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

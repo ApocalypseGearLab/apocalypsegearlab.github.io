@@ -1,0 +1,154 @@
+{
+  "name": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit",
+  "brand": "Morakniv",
+  "modelNumber": "Garberg BlackBlade Carbon Survival Kit",
+  "category": "fixed-blade-knives",
+  "summary": "A carbon-steel bushcraft reference with a sheath-mounted survival kit. Morakniv documents kit 13915; the accessories included with the selected Canadian ASIN still require confirmation before its buying link can be enabled.",
+  "description": "A sheath-mounted kit can keep an edge-maintenance tool and a fire starter together with a camp knife. Morakniv’s Garberg Black Blade (C) Survival Kit reference is item 13915. Its carbon blade needs care even with a protective coating. The manufacturer kit and the Canadian retailer package are separate questions: the illustration shows accessories, but it cannot establish what B09214DLJ6 includes. Check the selected package against the manufacturer kit before purchase. No current price or availability is established.",
+  "specs": [
+    {
+      "label": "Manufacturer reference",
+      "value": "13915, Garberg Black Blade (C) with Survival Kit",
+      "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+    },
+    {
+      "label": "Blade material and coating",
+      "value": "Carbon steel with black DLC coating; this reference is not the stainless version",
+      "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+    },
+    {
+      "label": "Blade length",
+      "value": "109 mm",
+      "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+    },
+    {
+      "label": "Blade thickness",
+      "value": "3.2 mm",
+      "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+    },
+    {
+      "label": "Knife length",
+      "value": "229 mm",
+      "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+    },
+    {
+      "label": "Construction and handle",
+      "value": "Full tang with black polyamide handle",
+      "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+    },
+    {
+      "label": "Manufacturer kit, not verified Amazon contents",
+      "value": "Item 13915 includes a sheath-mounted ferro rod, diamond sharpener and reflective cord; confirm the selected retailer package",
+      "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+    }
+  ],
+  "pros": [
+    "A documented manufacturer kit groups routine maintenance accessories in one place.",
+    "Full-tang construction and a separate sheath support comparison for a dedicated camp kit."
+  ],
+  "cons": [
+    "Carbon steel still requires drying and care despite the coating.",
+    "Selected Canadian offer contents and equivalence to kit 13915 remain unverified.",
+    "A fire starter requires lawful conditions and competent handling; it is not a guaranteed emergency fire solution."
+  ],
+  "useCases": [
+    "Compare a bushcraft maintenance kit for planned outdoor trips.",
+    "Check a packing list for sheath, edge maintenance and fire-safety equipment before departure."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Morakniv: documented product reference",
+      "url": "https://www.morakniv.com/en/products/garberg-survival-kit-c",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "canadian-law",
+      "title": "Canada Criminal Code: possession for a dangerous purpose; check applicable carrying rules",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-88.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "gerber-strongarm-fixed-blade-knife",
+    "esee-4-fixed-blade-knife",
+    "mechanix-m-pact-work-gloves",
+    "garmin-gpsmap-67i-satellite-gps"
+  ],
+  "image": {
+    "src": "/images/outbreak/morakniv-garberg-outbreak.webp",
+    "alt": "Concept illustration of a black Morakniv Garberg-style knife, sheath, ferro rod, sharpener attachment and cord in a green HUD frame; accessories are not proof of the retailer package",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 5.0 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B09214DLJ6?tag=apocalypsegear-20",
+      "asin": "B09214DLJ6"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-31",
+    "identityNotes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability. Source images are not listing evidence. Amazon.ca was inaccessible through the web reader; no observable HTTP status or successful live inspection is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The documented manufacturer reference supports the listed technical facts; retail variants and delivered units require matching.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current seller, price, stock, genuine supply, delivered variant and package contents are not independently verified."
+    ],
+    "safetyNotes": [
+      "Use only for lawful outdoor utility tasks. Check applicable Canadian laws, local rules and venue restrictions before transport or carrying; self-defence carry is not automatically lawful.",
+      "Keep the edge and point away from the body and other people. Use a stable work area and store the knife securely in a properly retaining sheath, out of reach of children.",
+      "Inspect the blade, handle and sheath before use. Do not use a damaged tool or treat it as an electrical tool, pry bar or substitute for an appropriate saw.",
+      "Follow the delivered manufacturer instructions for cleaning, sharpening and storage. This profile is documentary research, not a physical test or authentication of an individual knife."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Complete independent current-offer, delivered-unit and safety review before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B09214DLJ6",
+      "checkedAt": "2026-10-31",
+      "reason": "Confirm that the selected B09214DLJ6 offer is the carbon BlackBlade Survival Kit corresponding to manufacturer 13915, with the actual sheath, ferro rod, sharpener and cord contents. Manufacturer kit contents and concept art do not establish the selected Amazon package. High price / buying-options controls are not proof of unavailability.",
+      "sourceIds": [
+        "manufacturer"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B09214DLJ6",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B09214DLJ6",
+      "matchedModel": "Garberg BlackBlade Carbon Survival Kit",
+      "notes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability. Evidence is the written Phase 5.0 product brief, not an attached Amazon screenshot. No original listing capture or capture date was supplied."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match the selected model, steel, colour, sheath and actual package contents to the manufacturer reference before purchase.",
+      "Check the seller, delivered labels, packaging integrity and applicable instructions; this profile does not authenticate an item.",
+      "Check local carrying restrictions and plan secure storage, edge care and safe outdoor utility use."
+    ]
+  }
+}

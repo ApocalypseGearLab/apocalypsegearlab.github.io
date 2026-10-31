@@ -1,0 +1,146 @@
+{
+  "reviewDate": "2026-10-31",
+  "scope": "Four supplied images inspected before conversion. Original bytes preserved; no regeneration, recolouring or crop. Small text is conceptual and not evidence of model authenticity or included accessories.",
+  "assets": [
+    {
+      "productId": "gerber-strongarm-fixed-blade-knife",
+      "asin": "B00U0IOYOU",
+      "source": "assets/media/outbreak/originals/gerber-strongarm-outbreak.png",
+      "sourceBytes": 2669589,
+      "sourceSha256": "8d2a956428b8994638201944fe9bcb237ebde698fe1d9dc73a721ecbc4f032e3",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak-480.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 64642,
+          "sha256": "0dcf0ed0984f1d7deece0166130f84425980643463e76335b9eeb2c6a8f5e1b6"
+        },
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak-960.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 217850,
+          "sha256": "221bd339e9dd6f7fa1d666205dd01508660293690a35d055ac96349379e49f5e"
+        },
+        {
+          "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+          "src": "/images/outbreak/gerber-strongarm-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 331718,
+          "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343"
+        }
+      ],
+      "fullSizeReductionPercent": 87.57,
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package."
+    },
+    {
+      "productId": "esee-4-fixed-blade-knife",
+      "asin": "B00UY4NS6K",
+      "source": "assets/media/outbreak/originals/esee-4-outbreak.png",
+      "sourceBytes": 2839692,
+      "sourceSha256": "584ca04fe10907a4c8f479c67d7bd090e0cb24e88c2152cd9e3782386c8c7949",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak-480.webp",
+          "src": "/images/outbreak/esee-4-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 57222,
+          "sha256": "4dbff0921bf365ca8a3f312bd173f5adb72988995da7dda91ab05d81ef1f4aa4"
+        },
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak-960.webp",
+          "src": "/images/outbreak/esee-4-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 214378,
+          "sha256": "4410018c61e96c99d4c1445f7e6d21b7ae0bb35fffd7994dd27fe0db1e75b5ab"
+        },
+        {
+          "file": "assets/media/outbreak/esee-4-outbreak.webp",
+          "src": "/images/outbreak/esee-4-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 337880,
+          "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a"
+        }
+      ],
+      "fullSizeReductionPercent": 88.1,
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package."
+    },
+    {
+      "productId": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "asin": "B09214DLJ6",
+      "source": "assets/media/outbreak/originals/morakniv-garberg-outbreak.png",
+      "sourceBytes": 2778724,
+      "sourceSha256": "82693a6b2e4f1f1627f29981673bee7015578f22320788bd46a27a805a3f83ab",
+      "variants": [
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak-480.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 63978,
+          "sha256": "58c6afcf4819f31e7ee7dbc52651129897c7c339622228b10a49160def1bb652"
+        },
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak-960.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 224304,
+          "sha256": "90e2b79bb5fca78e20134bca636c50e07b94899d32a5c8d90898e1082fdd1533"
+        },
+        {
+          "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+          "src": "/images/outbreak/morakniv-garberg-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 350952,
+          "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6"
+        }
+      ],
+      "fullSizeReductionPercent": 87.37,
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package."
+    },
+    {
+      "productId": "royale-velour-plush-thick-toilet-paper",
+      "asin": "B085XRS7KP",
+      "source": "assets/media/fallout/originals/royale-velour-fallout.png",
+      "sourceBytes": 2437522,
+      "sourceSha256": "37882bca993e762378d91723047bba3a5ad44054b77fdcacbf2580d85e69193d",
+      "variants": [
+        {
+          "file": "assets/media/fallout/royale-velour-fallout-480.webp",
+          "src": "/images/fallout/royale-velour-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 54466,
+          "sha256": "1c2fd77a1f5fbc4d43622e3dee950a25c1fd5b0e02613981275efa383e8f1545"
+        },
+        {
+          "file": "assets/media/fallout/royale-velour-fallout-960.webp",
+          "src": "/images/fallout/royale-velour-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 173556,
+          "sha256": "d17b82b955c3676bda0f2623f6acfebb63a8b72640e8e13bfc710f90dd181fc3"
+        },
+        {
+          "file": "assets/media/fallout/royale-velour-fallout.webp",
+          "src": "/images/fallout/royale-velour-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 255972,
+          "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42"
+        }
+      ],
+      "fullSizeReductionPercent": 89.5,
+      "reviewNote": "Purple package, kittens, loose roll and red HUD preserved. Printed environmental wording and 12=24 are conceptual packaging marks, not certification, exact artwork authentication or 24 physical rolls."
+    }
+  ]
+}

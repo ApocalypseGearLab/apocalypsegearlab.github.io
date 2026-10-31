@@ -12,6 +12,7 @@ const { id, releasePreview = false } = Astro.props;
 const universe = UNIVERSES[id];
 const categories = CATEGORIES.filter((c) => c.universe === id);
 const products = (await getProductsByUniverse(id)).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
+const planningProducts = products.filter(({data}) => data.category === 'fixed-blade-knives' || data.category === 'hygiene-sanitation');
 ---
 
 <BaseLayout canonicalPath={`/${id}/`} title={`${universe.name}: ${universe.signal}`} description={universe.summary} noindex={releasePreview}>
@@ -38,6 +39,12 @@ const products = (await getProductsByUniverse(id)).filter((product) => !releaseP
       <ul class="topics">
         {categories.map((c) => <li class="panel"><span>{c.label}</span> <span class="badge">Planned</span></li>)}
       </ul>
+    </section>}
+
+    {planningProducts.length > 0 && <section class="section" aria-labelledby="planning-checklist">
+      <h2 id="planning-checklist">{id === 'outbreak' ? 'Outdoor utility checklist' : 'Emergency hygiene checklist'}</h2>
+      {id === 'outbreak' ? <p>Choose a tool for a specific camp task, check the selected blade and sheath, and plan secure storage and edge care. Check local carrying rules; these profiles do not establish that carrying a knife for self-defence is lawful.</p> : <p>Count physical rolls separately from marketing equivalents. Keep paper dry and include handwashing supplies, stored water and a safe waste plan; bathroom tissue alone is not a sanitation system.</p>}
+      <ul>{planningProducts.map(product => <li><a href={`/gear/${product.id}/`}>{product.data.name}</a></li>)}</ul>
     </section>}
 
     <section class="section" aria-labelledby="gear">

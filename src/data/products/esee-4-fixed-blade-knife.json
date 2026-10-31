@@ -1,0 +1,167 @@
+{
+  "name": "ESEE-4 Fixed Blade Knife",
+  "brand": "ESEE",
+  "modelNumber": "ESEE-4",
+  "category": "fixed-blade-knives",
+  "summary": "A compact fixed-blade reference for campsite cutting and field repairs. The selected configuration has a black blade, gray handle and black sheath with belt attachment; confirm the exact steel and package on the selected offer.",
+  "description": "The ESEE-4 fits a field kit where a compact fixed blade is useful but a larger chopping tool would be cumbersome. This profile compares the manufacturer’s coated carbon-steel reference, with attention to sheath storage and edge care. ESEE lists several steels and sheath combinations in the wider family, so dimensions alone do not identify a retail package. The selected reference has gray Micarta scales and a black sheath with belt attachment. Match the actual scale material, steel and supplied sheath on the chosen offer; this profile does not guarantee delivered accessories.",
+  "specs": [
+    {
+      "label": "Reference family",
+      "value": "ESEE-4; manufacturer lists 4P-B as a plain-edge black-blade/black-sheath configuration",
+      "source": "https://www.eseeknives.com/product/esee-4"
+    },
+    {
+      "label": "Overall length",
+      "value": "9.0 inches, manufacturer reference",
+      "source": "https://www.eseeknives.com/product/esee-4"
+    },
+    {
+      "label": "Blade and cutting edge",
+      "value": "4.5-inch overall blade; 4.1-inch cutting edge",
+      "source": "https://www.eseeknives.com/product/esee-4"
+    },
+    {
+      "label": "Maximum thickness",
+      "value": "0.188 inches",
+      "source": "https://www.eseeknives.com/product/esee-4"
+    },
+    {
+      "label": "Knife-only weight",
+      "value": "8.0 ounces",
+      "source": "https://www.eseeknives.com/product/esee-4"
+    },
+    {
+      "label": "Steel distinction",
+      "value": "1095 carbon steel for carbon models; stainless variants are separate and must not be substituted silently",
+      "source": "https://www.eseeknives.com/product/esee-4"
+    },
+    {
+      "label": "Sheath distinction",
+      "value": "Molded sheath and clip plate are documented; colours and optional components depend on the model",
+      "source": "https://www.eseeknives.com/product/esee-4"
+    }
+  ],
+  "pros": [
+    "A shorter fixed-blade format can be easier to organise in a camp repair kit.",
+    "Manufacturer variant tables help distinguish sheath and steel configurations."
+  ],
+  "cons": [
+    "Carbon-steel references need regular drying and corrosion care.",
+    "Match the selected scale material, steel and sheath SKU before purchase; the pictured handle does not identify the delivered variant.",
+    "The illustration and ASIN record do not authenticate a seller, supplied clip or individual knife."
+  ],
+  "useCases": [
+    "Compare a camp utility blade for controlled cordage and material cutting.",
+    "Plan a maintenance routine and secure sheath storage for a field repair kit."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "ESEE: documented product reference",
+      "url": "https://www.eseeknives.com/product/esee-4",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN and selected product reference",
+      "url": "https://www.amazon.ca/dp/B00UY4NS6K",
+      "kind": "retailer"
+    },
+    {
+      "id": "canadian-law",
+      "title": "Canada Criminal Code: possession for a dangerous purpose; check applicable carrying rules",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-88.html",
+      "kind": "official-safety"
+    }
+  ],
+  "relatedProducts": [
+    "gerber-strongarm-fixed-blade-knife",
+    "morakniv-garberg-blackblade-carbon-survival-kit",
+    "mechanix-m-pact-work-gloves",
+    "fenix-hm50r-v2-headlamp"
+  ],
+  "image": {
+    "src": "/images/outbreak/esee-4-outbreak.webp",
+    "alt": "Concept illustration of an ESEE-4-style black fixed blade with gray textured handle scales, black sheath and belt clip in a green HUD frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 5.0 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 5.0 brief associates B00UY4NS6K with ESEE-4, black blade, gray Micarta handle, black sheath and belt attachment. Manufacturer ESEE-4 variant table documents corresponding black-blade/black-sheath references. Permission covers the recorded link, not independent verification of exact SKU, steel, scale material, seller or delivered package."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B00UY4NS6K?tag=apocalypsegear-20",
+      "asin": "B00UY4NS6K"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-31",
+    "identityNotes": "Owner Phase 5.0 brief associates B00UY4NS6K with ESEE-4, black blade, gray Micarta handle, black sheath and belt attachment. Manufacturer ESEE-4 variant table documents corresponding black-blade/black-sheath references. Permission covers the recorded link, not independent verification of exact SKU, steel, scale material, seller or delivered package. Source images are not listing evidence. Amazon.ca was inaccessible through the web reader; no observable HTTP status or successful live inspection is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The documented manufacturer reference supports the listed technical facts; retail variants and delivered units require matching.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The owner brief records the Canadian ASIN and intended product configuration; this is not independent seller or delivered-unit authentication.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current seller, price, stock, genuine supply, delivered variant and package contents are not independently verified."
+    ],
+    "safetyNotes": [
+      "Use only for lawful outdoor utility tasks. Check applicable Canadian laws, local rules and venue restrictions before transport or carrying; self-defence carry is not automatically lawful.",
+      "Keep the edge and point away from the body and other people. Use a stable work area and store the knife securely in a properly retaining sheath, out of reach of children.",
+      "Inspect the blade, handle and sheath before use. Do not use a damaged tool or treat it as an electrical tool, pry bar or substitute for an appropriate saw.",
+      "Follow the delivered manufacturer instructions for cleaning, sharpening and storage. This profile is documentary research, not a physical test or authentication of an individual knife."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Complete independent current-offer, delivered-unit and safety review before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00UY4NS6K",
+      "checkedAt": "2026-10-31",
+      "reason": "Recorded Canadian link permitted on the explicit owner-provided ASIN/model/variant reference and matching manufacturer documentation. No live listing, seller authentication, physical test or full editorial approval is claimed. Owner Phase 5.0 brief associates B00UY4NS6K with ESEE-4, black blade, gray Micarta handle, black sheath and belt attachment. Manufacturer ESEE-4 variant table documents corresponding black-blade/black-sheath references. Permission covers the recorded link, not independent verification of exact SKU, steel, scale material, seller or delivered package.",
+      "sourceIds": [
+        "manufacturer",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B00UY4NS6K",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B00UY4NS6K",
+      "matchedModel": "ESEE-4",
+      "notes": "Owner Phase 5.0 brief associates B00UY4NS6K with ESEE-4, black blade, gray Micarta handle, black sheath and belt attachment. Manufacturer ESEE-4 variant table documents corresponding black-blade/black-sheath references. Permission covers the recorded link, not independent verification of exact SKU, steel, scale material, seller or delivered package. Evidence is the written Phase 5.0 product brief, not an attached Amazon screenshot. No original listing capture or capture date was supplied."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match the selected model, steel, colour, sheath and actual package contents to the manufacturer reference before purchase.",
+      "Check the seller, delivered labels, packaging integrity and applicable instructions; this profile does not authenticate an item.",
+      "Check local carrying restrictions and plan secure storage, edge care and safe outdoor utility use."
+    ]
+  }
+}

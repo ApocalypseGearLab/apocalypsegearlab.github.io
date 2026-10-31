@@ -1,0 +1,226 @@
+{
+  "reviewDate": "2026-10-31",
+  "baseCommit": "a090b5dbe277f34f83b209e7e140e3f409a34801",
+  "checks": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "result": "81 files; zero errors/warnings/hints",
+      "localLog": ".tools/qa/phase5/check.log"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "result": "68/68 passed",
+      "localLog": ".tools/qa/phase5/test.log"
+    },
+    {
+      "command": "npm run test:images",
+      "exitCode": 0,
+      "result": "34 mappings; 33 admissible illustrations, one retained rejection; originals and WebPs hash/dimension verified",
+      "localLog": ".tools/qa/phase5/test-images.log"
+    },
+    {
+      "command": "npm run release:check",
+      "exitCode": 0,
+      "result": "34 informational profiles; 28 permitted links, six holds; final approval false",
+      "localLog": ".tools/qa/phase5/release-check.log"
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "exitCode": 0,
+      "result": "No malformed links, duplicates or undocumented holds",
+      "localLog": ".tools/qa/phase5/audit-affiliate.log"
+    },
+    {
+      "command": "npm run test:products",
+      "exitCode": 0,
+      "result": "Product/release scenarios passed and real data restored",
+      "localLog": ".tools/qa/phase5/test-products.log"
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "result": "41 HTML pages",
+      "localLog": ".tools/qa/phase5/build.log"
+    },
+    {
+      "command": "npm run test:site",
+      "exitCode": 0,
+      "result": "1365 internal references, five sitemap URLs; SEO and publication rules valid",
+      "localLog": ".tools/qa/phase5/test-site.log"
+    },
+    {
+      "command": "npm run test:browser",
+      "exitCode": 0,
+      "result": "91/91 passed (3.9m local); responsive, axe, images, links and isolated tracking",
+      "localLog": ".tools/qa/phase5/test-browser.log"
+    }
+  ],
+  "initialFindings": [
+    {
+      "log": ".tools/qa/phase5/check-initial.log",
+      "finding": "Unused test variable corrected with an exact ASIN link assertion."
+    },
+    {
+      "log": ".tools/qa/phase5/test-initial.log",
+      "finding": "66/68: two prior expectations updated for 34 products and additive taxonomy, with old content preserved."
+    },
+    {
+      "log": ".tools/qa/phase5/test-site-initial.log",
+      "finding": "Public workflow wording removed; validation rule retained."
+    },
+    {
+      "log": ".tools/qa/phase5/test-site-held-source.log",
+      "finding": "Held Garberg ASIN was clickable from a source citation; rendered retailer citation removed, registered URL retained internally, regression assertion added."
+    }
+  ],
+  "screenshots": [
+    {
+      "productId": "gerber-strongarm-fixed-blade-knife",
+      "type": "card",
+      "viewport": 375,
+      "file": "docs/qa/phase5/gerber-strongarm-fixed-blade-knife-card-375.webp",
+      "width": 335,
+      "height": 848,
+      "bytes": 46744
+    },
+    {
+      "productId": "gerber-strongarm-fixed-blade-knife",
+      "type": "card",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/gerber-strongarm-fixed-blade-knife-card-1440.webp",
+      "width": 270,
+      "height": 962,
+      "bytes": 35910
+    },
+    {
+      "productId": "gerber-strongarm-fixed-blade-knife",
+      "type": "profile",
+      "viewport": 375,
+      "file": "docs/qa/phase5/gerber-strongarm-fixed-blade-knife-profile-375.webp",
+      "width": 375,
+      "height": 9097,
+      "bytes": 445060
+    },
+    {
+      "productId": "gerber-strongarm-fixed-blade-knife",
+      "type": "profile",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/gerber-strongarm-fixed-blade-knife-profile-1440.webp",
+      "width": 1440,
+      "height": 5334,
+      "bytes": 513728
+    },
+    {
+      "productId": "esee-4-fixed-blade-knife",
+      "type": "card",
+      "viewport": 375,
+      "file": "docs/qa/phase5/esee-4-fixed-blade-knife-card-375.webp",
+      "width": 335,
+      "height": 828,
+      "bytes": 43848
+    },
+    {
+      "productId": "esee-4-fixed-blade-knife",
+      "type": "card",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/esee-4-fixed-blade-knife-card-1440.webp",
+      "width": 270,
+      "height": 962,
+      "bytes": 34160
+    },
+    {
+      "productId": "esee-4-fixed-blade-knife",
+      "type": "profile",
+      "viewport": 375,
+      "file": "docs/qa/phase5/esee-4-fixed-blade-knife-profile-375.webp",
+      "width": 375,
+      "height": 9262,
+      "bytes": 447136
+    },
+    {
+      "productId": "esee-4-fixed-blade-knife",
+      "type": "profile",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/esee-4-fixed-blade-knife-profile-1440.webp",
+      "width": 1440,
+      "height": 5314,
+      "bytes": 512958
+    },
+    {
+      "productId": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "type": "card",
+      "viewport": 375,
+      "file": "docs/qa/phase5/morakniv-garberg-blackblade-carbon-survival-kit-card-375.webp",
+      "width": 335,
+      "height": 842,
+      "bytes": 47492
+    },
+    {
+      "productId": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "type": "card",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/morakniv-garberg-blackblade-carbon-survival-kit-card-1440.webp",
+      "width": 270,
+      "height": 920,
+      "bytes": 37838
+    },
+    {
+      "productId": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "type": "profile",
+      "viewport": 375,
+      "file": "docs/qa/phase5/morakniv-garberg-blackblade-carbon-survival-kit-profile-375.webp",
+      "width": 375,
+      "height": 9512,
+      "bytes": 468110
+    },
+    {
+      "productId": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "type": "profile",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/morakniv-garberg-blackblade-carbon-survival-kit-profile-1440.webp",
+      "width": 1440,
+      "height": 5533,
+      "bytes": 529950
+    },
+    {
+      "productId": "royale-velour-plush-thick-toilet-paper",
+      "type": "card",
+      "viewport": 375,
+      "file": "docs/qa/phase5/royale-velour-plush-thick-toilet-paper-card-375.webp",
+      "width": 335,
+      "height": 822,
+      "bytes": 43470
+    },
+    {
+      "productId": "royale-velour-plush-thick-toilet-paper",
+      "type": "card",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/royale-velour-plush-thick-toilet-paper-card-1440.webp",
+      "width": 270,
+      "height": 897,
+      "bytes": 34648
+    },
+    {
+      "productId": "royale-velour-plush-thick-toilet-paper",
+      "type": "profile",
+      "viewport": 375,
+      "file": "docs/qa/phase5/royale-velour-plush-thick-toilet-paper-profile-375.webp",
+      "width": 375,
+      "height": 7973,
+      "bytes": 384786
+    },
+    {
+      "productId": "royale-velour-plush-thick-toilet-paper",
+      "type": "profile",
+      "viewport": 1440,
+      "file": "docs/qa/phase5/royale-velour-plush-thick-toilet-paper-profile-1440.webp",
+      "width": 1440,
+      "height": 5032,
+      "bytes": 498680
+    }
+  ],
+  "visualReview": "Four mobile cards and four desktop profiles inspected from actual production-preview browser captures. Responsive and axe checks passed at all six widths. Original artwork inspected separately before conversion.",
+  "laboratoryLimits": "CLS observation is not field Core Web Vitals. Axe is not an exhaustive WCAG certification. Google/Amazon are isolated in tests; no private GA/GSC ingestion or physical product authentication is claimed."
+}

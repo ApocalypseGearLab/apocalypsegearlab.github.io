@@ -1,0 +1,155 @@
+{
+  "name": "Royale Velour Plush & Thick Toilet Paper",
+  "brand": "Royale",
+  "modelNumber": "Velour Plush & Thick",
+  "category": "hygiene-sanitation",
+  "summary": "An everyday bathroom-tissue supply for a household emergency shelf. The documented pack contains 12 physical rolls; 12 equals 24 is a regular-roll equivalence claim, not 24 physical rolls.",
+  "description": "Sanitation planning is easier when ordinary supplies are included before an outage. Bathroom tissue belongs beside handwashing supplies and an appropriate waste plan, rather than being treated as a complete hygiene system on its own. This selected Velour pack is described as 12 physical rolls marketed as equivalent to 24 regular rolls. Size comparisons are marketing conventions, so inspect the selected pack and sheet count when comparing value. The concept artwork includes environmental wording; it does not independently establish certification or the footprint of the delivered pack.",
+  "specs": [
+    {
+      "label": "Product family",
+      "value": "Royale Velour bathroom tissue, identified by the manufacturer as distinct from its Original and 3-Ply Strong ranges",
+      "source": "https://www.royale.ca/products/bathroom-tissue/"
+    },
+    {
+      "label": "Material statement",
+      "value": "Manufacturer FAQ describes natural wood fibre; this is bathroom tissue, not a disinfectant",
+      "source": "https://www.royale.ca/faq/"
+    },
+    {
+      "label": "Fibre sourcing statement",
+      "value": "Manufacturer FAQ describes virgin wood fibre; no independent sourcing audit is claimed",
+      "source": "https://www.royale.ca/faq/"
+    },
+    {
+      "label": "Origin statement",
+      "value": "Brand states bath products are made in Canada with domestic and imported materials",
+      "source": "https://www.royale.ca/products/bathroom-tissue/"
+    },
+    {
+      "label": "Environmental statement",
+      "value": "Brand FAQ describes its carbon-neutral claim; this profile does not independently verify certification or superiority",
+      "source": "https://www.royale.ca/faq/"
+    }
+  ],
+  "pros": [
+    "A familiar household supply can be rotated through everyday use.",
+    "Physical roll counts can be recorded separately from marketing equivalence for clearer stock checks."
+  ],
+  "cons": [
+    "The 12 equals 24 label does not mean 24 physical rolls.",
+    "Paper needs dry, protected storage and does not replace handwashing or a safe waste system.",
+    "No cheapest-price ranking, fixed sheet count, current stock or independent environmental certification is established."
+  ],
+  "useCases": [
+    "Add a counted bathroom-tissue reserve to a household preparedness checklist.",
+    "Review sanitation supplies alongside stored water and a practical household waste plan."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Royale: documented product reference",
+      "url": "https://www.royale.ca/products/bathroom-tissue/",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN and selected product reference",
+      "url": "https://www.amazon.ca/dp/B085XRS7KP",
+      "kind": "retailer"
+    },
+    {
+      "id": "brand-faq",
+      "title": "Royale manufacturer FAQ: material and environmental statements",
+      "url": "https://www.royale.ca/faq/",
+      "kind": "manufacturer"
+    }
+  ],
+  "relatedProducts": [
+    "reliance-aqua-tainer-7-gallon",
+    "sawyer-squeeze-sp129-water-filter",
+    "sol-emergency-bivvy"
+  ],
+  "image": {
+    "src": "/images/fallout/royale-velour-fallout.webp",
+    "alt": "Concept illustration of a purple Royale Velour package marked 12 equals 24, white kittens and a loose toilet roll in a red HUD frame; equivalence is not a physical roll count",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-directed Phase 5.0 site integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 5.0 brief associates B085XRS7KP with Royale Velour Plush & Thick, purple package and 12 physical rolls marketed as equivalent to 24 regular rolls. This is owner documentary evidence, not a live offer, sheet-count audit or environmental certification. No current price, stock or seller verified."
+  },
+  "links": {
+    "amazonCa": {
+      "url": "https://www.amazon.ca/dp/B085XRS7KP?tag=apocalypsegear-20",
+      "asin": "B085XRS7KP"
+    },
+    "amazonCom": {
+      "url": null,
+      "asin": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-10-31",
+    "identityNotes": "Owner Phase 5.0 brief associates B085XRS7KP with Royale Velour Plush & Thick, purple package and 12 physical rolls marketed as equivalent to 24 regular rolls. This is owner documentary evidence, not a live offer, sheet-count audit or environmental certification. No current price, stock or seller verified. Source images are not listing evidence. Amazon.ca was inaccessible through the web reader; no observable HTTP status or successful live inspection is claimed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The documented manufacturer reference supports the listed technical facts; retail variants and delivered units require matching.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The owner reference describes 12 physical rolls and a marketed equivalent of 24 regular rolls; this is not a count of 24 physical rolls.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Current seller, price, stock, genuine supply, delivered variant and package contents are not independently verified."
+    ],
+    "safetyNotes": [
+      "Keep paper dry and protected from moisture, pests and contamination.",
+      "Bathroom tissue is not a disinfectant and does not replace handwashing or a safe emergency sanitation plan.",
+      "Follow local wastewater and emergency instructions; product marketing is not permission to flush into a damaged system."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Complete independent current-offer, delivered-unit and safety review before full editorial publication."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B085XRS7KP",
+      "checkedAt": "2026-10-31",
+      "reason": "Recorded Canadian link permitted on the explicit owner-provided ASIN/model/variant reference and matching manufacturer documentation. No live listing, seller authentication, physical test or full editorial approval is claimed. Owner Phase 5.0 brief associates B085XRS7KP with Royale Velour Plush & Thick, purple package and 12 physical rolls marketed as equivalent to 24 regular rolls. This is owner documentary evidence, not a live offer, sheet-count audit or environmental certification. No current price, stock or seller verified.",
+      "sourceIds": [
+        "manufacturer",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B085XRS7KP",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B085XRS7KP",
+      "matchedModel": "Velour Plush & Thick",
+      "notes": "Owner Phase 5.0 brief associates B085XRS7KP with Royale Velour Plush & Thick, purple package and 12 physical rolls marketed as equivalent to 24 regular rolls. This is owner documentary evidence, not a live offer, sheet-count audit or environmental certification. No current price, stock or seller verified. Evidence is the written Phase 5.0 product brief, not an attached Amazon screenshot. No original listing capture or capture date was supplied."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the selected offer still contains 12 physical rolls; compare its actual sheet count rather than treating the 12=24 equivalence as a physical count.",
+      "Check the seller, delivered labels, packaging integrity and applicable instructions; this profile does not authenticate an item.",
+      "Plan dry storage, handwashing and waste disposal alongside the paper reserve."
+    ]
+  }
+}
