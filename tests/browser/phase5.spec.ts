@@ -45,7 +45,7 @@ for(const [id,[asin,category,active]]of Object.entries(PHASE5))test(`${id} rende
   expect(errors).toEqual([]);
 });
 
-test('three permitted Phase 5 links keep exact ASINs, new tabs and one affiliate event per mouse or keyboard action',async({page,context})=>{
+test('four permitted Phase 5 links keep exact ASINs, new tabs and one affiliate event per mouse or keyboard action',async({page,context})=>{
   test.setTimeout(60_000);
   await context.route('https://www.amazon.ca/**',route=>route.fulfill({body:'Isolated retailer simulation'}));
   for(const [id,[asin,category,active]]of Object.entries(PHASE5)){

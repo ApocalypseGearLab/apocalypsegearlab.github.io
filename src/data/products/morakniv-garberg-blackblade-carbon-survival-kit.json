@@ -3,7 +3,7 @@
   "brand": "Morakniv",
   "modelNumber": "Garberg BlackBlade Carbon Survival Kit",
   "category": "fixed-blade-knives",
-  "summary": "A carbon-steel bushcraft reference with a sheath-mounted survival kit. Morakniv documents kit 13915; the accessories included with the selected Canadian ASIN still require confirmation before its buying link can be enabled.",
+  "summary": "A carbon-steel bushcraft reference with a sheath-mounted survival kit. Morakniv documents kit 13915 with a polymer sheath, ferro rod, diamond sharpener and reflective cord; confirm the selected retailer package before purchase.",
   "description": "A sheath-mounted kit can keep an edge-maintenance tool and a fire starter together with a camp knife. Morakniv’s Garberg Black Blade (C) Survival Kit reference is item 13915. Its carbon blade needs care even with a protective coating. The manufacturer kit and the Canadian retailer package are separate questions: the illustration shows accessories, but it cannot establish what B09214DLJ6 includes. Check the selected package against the manufacturer kit before purchase. No current price or availability is established.",
   "specs": [
     {
@@ -63,6 +63,12 @@
       "kind": "manufacturer"
     },
     {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN and manufacturer-model reference",
+      "url": "https://www.amazon.ca/dp/B09214DLJ6",
+      "kind": "retailer"
+    },
+    {
       "id": "canadian-law",
       "title": "Canada Criminal Code: possession for a dangerous purpose; check applicable carrying rules",
       "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-88.html",
@@ -83,7 +89,7 @@
   },
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability."
+    "notes": "The owner’s Morakniv affiliate-link request explicitly associates Canadian ASIN B09214DLJ6 with the Garberg BlackBlade Carbon Survival Kit, manufacturer model 13915. This is a written owner reference, not a supplied Amazon capture or an independently inspected live offer. Manufacturer item 13915 documents the carbon/DLC knife, polymer sheath, ferro rod, diamond sharpener and reflective cord. Those manufacturer specifications do not independently establish the current Amazon.ca seller, selected variant or package contents. High price / See All Buying Options is not evidence of unavailability."
   },
   "links": {
     "amazonCa": {
@@ -102,13 +108,19 @@
   "lastVerified": null,
   "research": {
     "checkedAt": "2026-10-31",
-    "identityNotes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability. Source images are not listing evidence. Amazon.ca was inaccessible through the web reader; no observable HTTP status or successful live inspection is claimed.",
+    "identityNotes": "The owner’s Morakniv affiliate-link request explicitly associates Canadian ASIN B09214DLJ6 with the Garberg BlackBlade Carbon Survival Kit, manufacturer model 13915. This is a written owner reference, not a supplied Amazon capture or an independently inspected live offer. Manufacturer item 13915 documents the carbon/DLC knife, polymer sheath, ferro rod, diamond sharpener and reflective cord. Those manufacturer specifications do not independently establish the current Amazon.ca seller, selected variant or package contents. Amazon.ca was inaccessible through the web reader; no observable HTTP status or successful live inspection is claimed. Source images are not listing evidence.",
     "listingVerified": false,
     "confirmed": [
       {
         "text": "The documented manufacturer reference supports the listed technical facts; retail variants and delivered units require matching.",
         "sourceIds": [
           "manufacturer"
+        ]
+      },
+      {
+        "text": "The owner identifies Canadian ASIN B09214DLJ6 as the carbon BlackBlade Survival Kit, manufacturer model 13915. This records the intended product reference, not independent verification of the current offer or delivered unit.",
+        "sourceIds": [
+          "owner-reference"
         ]
       }
     ],
@@ -127,12 +139,13 @@
       "Complete independent current-offer, delivered-unit and safety review before full editorial publication."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B09214DLJ6",
       "checkedAt": "2026-10-31",
-      "reason": "Confirm that the selected B09214DLJ6 offer is the carbon BlackBlade Survival Kit corresponding to manufacturer 13915, with the actual sheath, ferro rod, sharpener and cord contents. Manufacturer kit contents and concept art do not establish the selected Amazon package. High price / buying-options controls are not proof of unavailability.",
+      "reason": "Recorded Canadian link permitted under the existing owner-document policy: the owner now explicitly matches B09214DLJ6 to the carbon BlackBlade Survival Kit, manufacturer 13915, and the manufacturer documents that kit. No contradictory variant evidence or product-specific safety block was identified. Permission covers the recorded link only, not live listing verification, seller authentication, physical testing or SEO publication. Manufacturer item 13915 documents the carbon/DLC knife, polymer sheath, ferro rod, diamond sharpener and reflective cord. Those manufacturer specifications do not independently establish the current Amazon.ca seller, selected variant or package contents. High price / buying-options controls are not proof of unavailability.",
       "sourceIds": [
-        "manufacturer"
+        "manufacturer",
+        "owner-reference"
       ]
     },
     "listingEvidence": {
@@ -141,7 +154,7 @@
       "method": "owner-document",
       "matchedAsin": "B09214DLJ6",
       "matchedModel": "Garberg BlackBlade Carbon Survival Kit",
-      "notes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability. Evidence is the written Phase 5.0 product brief, not an attached Amazon screenshot. No original listing capture or capture date was supplied."
+      "notes": "The owner’s Morakniv affiliate-link request explicitly associates Canadian ASIN B09214DLJ6 with the Garberg BlackBlade Carbon Survival Kit, manufacturer model 13915. This is a written owner reference, not a supplied Amazon capture or an independently inspected live offer. Manufacturer item 13915 documents the carbon/DLC knife, polymer sheath, ferro rod, diamond sharpener and reflective cord. Those manufacturer specifications do not independently establish the current Amazon.ca seller, selected variant or package contents. This supplements the written Phase 5.0 product brief, not an attached Amazon screenshot. No original listing capture or capture date was supplied. No physical inspection is required by the recorded-link policy; delivered-unit checks remain consumer precautions and separate editorial requirements."
     }
   },
   "editorial": {

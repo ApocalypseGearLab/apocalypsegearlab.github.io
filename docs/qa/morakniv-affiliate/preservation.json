@@ -1,0 +1,1124 @@
+{
+  "baseCommit": "44325ec7be0882282b2ba7df249ab8dd0ec7ecf4",
+  "files": [
+    {
+      "file": "src/components/AffiliateButton.astro",
+      "sha256": "580ee3b317a99a964c7d4fe49dbeb3294b3bd262494b9ca997fe5b1c7d758308",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/Breadcrumbs.astro",
+      "sha256": "aab9342e5bc42120cf044486f4ae09605190936391479eeb38ff0546cf4726b5",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/ComparisonTable.astro",
+      "sha256": "28427fd24cd3d72b1960a21954d30f3f4c4df1722c5a851db23dc0c78675cdd6",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/DisclosureNotice.astro",
+      "sha256": "457f3f26994070c7f3d5c8f987343d7a39c6511e1cc59e6b45817adc32b8a582",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "sha256": "51f0251d4ba690acfa9dd1aee0e30e251befc53e049b9d84f25a0ad1d1895b73",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/GoogleAnalytics.astro",
+      "sha256": "5942aa9ce738cf7ad7162991dc6c1e5c010debe418c1ca97cb339ed10d0740f9",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/Header.astro",
+      "sha256": "844b47c969e5e26e46cef2838a68cd7eef32cab828c12b9b9e8592f4e93b0005",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/ProductCard.astro",
+      "sha256": "2a91982a92b2b0a364ffd0757510bde57ca188662060862b3abc4a50ce5826ed",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/ProductCatalogue.astro",
+      "sha256": "995d31b2d8acfe799408a1381a81227936b0f49ef1faaa2315d7a5354be0207a",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/ProductImage.astro",
+      "sha256": "2e648a5e413597494a9e71bf3f267be882bb4e19fbb35f5a2811225f7695e824",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/ProductProfile.astro",
+      "sha256": "b736f0373033c7c5dc33ab9996c0733f03e7558b3fb96197f878054a12fc0740",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/UniverseCard.astro",
+      "sha256": "25297eb26135b29fb30552ee7f5f23bc6645ce439b99b6eb32627f85deeb6acf",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/components/UniverseHub.astro",
+      "sha256": "4e3d35907100c2c59b1ec1b24bfc4bf24b6d85f918b645ba2395ae3c37443a51",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/config/analytics.ts",
+      "sha256": "66693e24af0185ba2d5d475143e3f095297c99ef4c3f5ed39254c8e761108ff9",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/config/site.ts",
+      "sha256": "f918dceb5dbcc4ed48e15857b471eca0256cb455c8c25c4305ee94bed4e63f21",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/config/taxonomy.ts",
+      "sha256": "02c572d35bd42bbe203cc3e349a514f9110e66eb41f96a8e87eae78792f0affa",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/content.config.ts",
+      "sha256": "61fdaa3ced90b17ee23b5df4b1d8134a44cac961bb4aba1ba9b622313f4c079f",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/media/imported-manifest.json",
+      "sha256": "0e29ea8e60c935a4c355cfe873f8349bf73f6f6563ffae7127fc4a3defdac05c",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/media/manifest.json",
+      "sha256": "76e22cd459c54b72b2f8790bdb56208ca685d90dfb5714054fc1c6b570c75f9d",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/media/review.json",
+      "sha256": "4ef227b8f3714aee14eacc9dfaee7439fdb29097ed71b62bf35743085ee62265",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/3m-2091-p100-particulate-filters.json",
+      "sha256": "21f68eadb8be732f75c0a0c794a71268110889e6921c890daa5068ffe7520cb2",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/3m-2097-p100-particulate-filters.json",
+      "sha256": "cbe52d01653e3c2176442f2ec65d7e7dad991a21038b92de592013b31df8b7bc",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/3m-60921-organic-vapor-p100-cartridges.json",
+      "sha256": "c741ea7da2a772f9c8875827fee857a5b9f6f10a7c9e9a4594652d37bbcf944a",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/3m-60926-multi-gas-vapor-p100-cartridges.json",
+      "sha256": "d4a69dc094b465ce701ca2d30b0c81b607687aa15d774a47172ad0495268cee2",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "sha256": "13996338973bc814e5e235e2b072de57945f1120c193c69144862508ae498c18",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "sha256": "6a4d547d3e8cd3a0c50e245c438ebf5621643fb41a8e22f2e44e3a66359fc22d",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "sha256": "54a5e6c38bafb2183a864ef0d53234d3841d1b91451e5d7423a2e327a6490967",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "sha256": "557a44270f011c9690f7819466fa72d1bb94a274d1733b7021804a6abba0dba3",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "sha256": "360aa6192b2f1a24c4b006f5ab3947883ca1a60b4aa579e7a729ddb1d40e7094",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "sha256": "f032ae7a9d2e7e1a53f2adc1fd27b02220139ab87d95c75fa9dfb03dc5fad1f1",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/esee-4-fixed-blade-knife.json",
+      "sha256": "03ef13248b624bf82b1f1b5899220c7483adbf8438a71a1a9fdb05c99eae0fff",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "sha256": "4289bc4e946b84da54d7eb4848b65463a63cba124029bb9e860fa0daddfc78b1",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "sha256": "ab879cfee97a70decc5c2f97285d0396fc89339d991e13338cd4bcc80d048cd8",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "sha256": "ec2bde139446459c4da7023cbe4c94f90ced93cebc21e187da032e589e0aa888",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "sha256": "729504cd145311ea35949aa4b6eac066c5395003a2d9d04ee4c5432c5babb559",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/gerber-strongarm-fixed-blade-knife.json",
+      "sha256": "b20ee569e2b0de4c46e39de7713cc87d4cfc6bf8ca2d2fd081574f922d274df4",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "sha256": "a01ecabbbc0d9c77e6ad11d09f64a5ddc22cafdc1c0a9bde6c90c707c69a903b",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "sha256": "14eb142f5d898c2a9e6b892c85762ffbf9feac7f61e5e748c3f83d17771d6cf8",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/jackery-explorer-300.json",
+      "sha256": "8582b7936c14cddd6fee9fca5442c153166fb589dee923c698b0af014268c3fc",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "sha256": "93278e4d830ec6686b9d17b18e0352da7a9a00b915cf87ce6c564d0d4c3d5d98",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "sha256": "4d29781c78e827b79e7f0b07d44938df36e65a7c94639390a0eccdac24a2a1e8",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "sha256": "732d97745645d046eecd6a7df7f412686287e06a6d2d4b8c516831e8750dce47",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "sha256": "405c2e06cd4211860c5cc6a3468846ea09ee6fc6b8206b39929e40ce565c72d3",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "sha256": "7367a1c2ab3e4d8a1057a37c470dbae03b5c58e53bd3288409f325f8801d82cf",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "sha256": "39d49d6f56af038c944312754d7dd2e6d63e06374615058680413c0f38ad24b9",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/midland-er310.json",
+      "sha256": "f4c3ba6e3f00e58bce537e9dc45891adfaee91cefd34d2eed46337009a8d0c4a",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "sha256": "0f3a55654dc0e766621bf583d976b176aa828be373bc962d595d7ac7cf5407ee",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "sha256": "990410918532310b8fedb05d55a7f0bd2c76ff6057b38b8847ec68d7799110e7",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "sha256": "b3cf9d300a37b9eeb4ec62b261a34f5ee5195a02ed060c284ae4f2ec1e0383c7",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/royale-velour-plush-thick-toilet-paper.json",
+      "sha256": "04b33c018584f495a13682c6f292b1a88d1bad30c2f33839ca6c6000da837228",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "sha256": "35d3e6409910e0fb5233301b8462bf883a8ca31265f361b7488f344b5cced2b8",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "sha256": "19fd0b49797422be6c17228fe5125fed8f21ed9efab7f2db6241d394fc8b6f92",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/sos-3600-calorie-emergency-food-rations.json",
+      "sha256": "070e09d93e70670916e4c57c9b954690fdb22339035d16d46e05af7df256c1e1",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/data/products/template-product.json",
+      "sha256": "d0037c2bca0c0aeff8d137bec6b8aa1f6c88b02f38fee036730fc607243f4cb0",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/layouts/BaseLayout.astro",
+      "sha256": "c1417e30cced2505da0650d9f111f73148f7a40b12bb62a3ad58a2a5b72408de",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/affiliate-analytics.ts",
+      "sha256": "859f0047f31073a5853e4d50c60ac25706b05baf13d853e2bb88e18ee5cd26e5",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/affiliate-audit.ts",
+      "sha256": "20087d5d724f37047ee15484406dcb08d1106f0883b6b572a918d47c17f073eb",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/affiliate.ts",
+      "sha256": "bb1ad3d5144c532734efb957d040df9b442f64a3b55c5afdbb7a82a6ed63f616",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/imported-media-policy.mjs",
+      "sha256": "03d6b23de7dd83df002e71c3761bd5932c692114804702d16cdfdd93671781fb",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/imported-media.ts",
+      "sha256": "74dcc5677d7be3d914cb3d7f19822405bf4c7463fc8cd5b34e845481c514149a",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/media-policy.ts",
+      "sha256": "bda67cc57a2197558b718396c2f438a533d0fece77641fc2bcac8de472ae8c51",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/media.ts",
+      "sha256": "fca1cdcde83f489e295098eae19ffa2204ebdf6d18b492e323a3bc448434d85b",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/product-schema.ts",
+      "sha256": "bbe9a5266e2db404d1a640b4aefbf052b22b2629f8aadad86a62288a8e9b8125",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/product-seo.ts",
+      "sha256": "2cc8775d4e224c5f99cdc60bba7617d767603ce5b7021497c9ad047bd2883a8d",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/products.ts",
+      "sha256": "f13ebc1e3e209de5d089571f1c6f1983d3422a434fba65f2c692ad6074d2c211",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/release-policy.ts",
+      "sha256": "1a71543f3760f7cab33fb0293dc8bed0c66e2a8c887438e4404cffd5681a08ce",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/lib/respirator-filters.ts",
+      "sha256": "283a66dbcb6f21607736d3c2c425496a65b15e3e389c9434b5ac06ccfd3e56b3",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/404.astro",
+      "sha256": "f9211346d3a8ae36bc3cd7b5ec1f39821e520b95bd87486b2b1b548d1b83f73d",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/affiliate-disclosure.astro",
+      "sha256": "bb8b0746fd63ac4376e7a1a70683a39df508b9f9db1d7f65ef91e74ff1cb6d1b",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/blackout.astro",
+      "sha256": "4a3ad568e83602501f3b31150764f9e210052b8e36fa2f5cb3c6e396f9da2338",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/fallout.astro",
+      "sha256": "5b42e7acd463771f7faae519d8d42899b9a31fd1affa3adeb238b28b8899bd33",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/gear/index.astro",
+      "sha256": "acca49dddf473721574c17c523ec7b493d7ff3240d3f0dbdcbae582cda1a1728",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/gear/[slug].astro",
+      "sha256": "11b104bf19002e6a27e52110d513c607ac5583758a61e4d26efb6825ccdd40d2",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/images/blackout/[file].webp.ts",
+      "sha256": "7473d3ee7b10f7ff2d51443b19533577a4387253586a2a25d709302df9d04404",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/images/fallout/[file].webp.ts",
+      "sha256": "e44305ca39ced28f3c5e1b5ea29ae67dc21833c42de0edb8e24318f6c12dbfb4",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/images/outbreak/[file].webp.ts",
+      "sha256": "e50fb8b98b232ce1f80a034aa7caba1c234963a1a1385627bc077a96f3e88b0e",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/index.astro",
+      "sha256": "3127e7600b5398c6f890cb984852524c13453b21a26f0c40dba22a8bed857902",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/outbreak.astro",
+      "sha256": "959ccab08c808d56fbfa4337c728fea262b1e6bc4e0ad926aecad07fe05c5e7e",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/review/[...path].astro",
+      "sha256": "66cc4771f8f954f7154cf2f499a34ba0174a097e171ecf23008584f64601bb49",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/pages/robots.txt.ts",
+      "sha256": "9a07e9229f8a1db1c0a3d2b2e21115d787dbad3d67597dd8c2ed0519647d010b",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/styles/global.css",
+      "sha256": "58a921d10e431a1dd8848d4871cd00f8250a0a7513a9ceaaf595e933b0bab2a4",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "src/styles/tokens.css",
+      "sha256": "fdc6bf5430bc22d795822bced6858eee837569380f78d57d4179b4be430a2973",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "public/favicon.svg",
+      "sha256": "cbb0581f44de08a4b4cc7abcbb7c2f85b481ad623edac3f067c49287ba0f7cd8",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+      "sha256": "4fc57f09b09fb73c44f325fb3b7808f0cf018dc1202cb22161bf8b488951c1bb",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+      "sha256": "973fcfca8ca57417a64f0adbf63be705aae6a9d22b14c26ff8d8df972607e277",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+      "sha256": "27905e3863da00fbc8f22af759bf123a6069ba3ced643d610d83c5d6157ca0b6",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-480.webp",
+      "sha256": "23f8d6d864adfa11bcc34d902da0237322578639b40a19cc0a62371ef438268f",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-960.webp",
+      "sha256": "d10031bba171c9afed80e39508deb6ed69ce246dd2432916f69357291b07d943",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-480.webp",
+      "sha256": "6c2d3eecd863cc9c2502ca20f38c40b2c93a559df13140ceb6b1d35de5c970e1",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-960.webp",
+      "sha256": "2ae3afd1acb7a50bca23436e02935743ae839ec0efabb14fb31fc745cb80a8c2",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-480.webp",
+      "sha256": "64b4d2a95f1bf4ed47f29f04e6994e62ce661662707a6e08db6ce18f70ea4f61",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-960.webp",
+      "sha256": "aaba5f0647c218f212e8bf5f46db6d483d733557dfc7b596cccdc71f1a68a37d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-480.webp",
+      "sha256": "98aae2018a9320b9431e2e23d5d4b37137db4fd2886ad9672419508233b7efcb",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-960.webp",
+      "sha256": "000c3674cbf0472020f016c25ba5ade5a9ac2349fea74cb56b675f991ab8b38e",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-480.webp",
+      "sha256": "fa8f526b7f5937dcc87fd9713ca87846c98dc2e059b291c9dbe605c211ab7637",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-960.webp",
+      "sha256": "e51e48f91d787f964de6100cba8e91ba17cd84b79423417b62596df06d05154e",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-480.webp",
+      "sha256": "eddef67fb3880b177d880982c934ac84438fea6d0a0aef525f1b179b189efe1d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-960.webp",
+      "sha256": "fd73dfc42fde36731ac86d074ab617e5d0157437dc31c61ddb2d0b5ec2c573c2",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-480.webp",
+      "sha256": "8ba092521d83dc21d86b4d21a6da386e7b150c2ce1ca71df9fcfe2fefbd456fc",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-960.webp",
+      "sha256": "77bbf32f7273fd4c79b5afc45e5e794dc4ddcd198c307432a970683692ba1fdf",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+      "sha256": "0e1c9565679ea01c7fa6c692e903c116aa7a25ce83de34cab3f847e0d1c58644",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+      "sha256": "e0f7f48d61b53c03a4cc69700e568791378c31203580d9a123b8773229eb6d05",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "sha256": "4a2275237b619e58505040e80b6c71217225b0e60794bf2774c979c3063f99b6",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+      "sha256": "0a99aeef7cdb3764879f80461db5e3f6308b5e6dd5042142af50d1e690fcf3f3",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+      "sha256": "9e73916ed8f2d709c87fbb6dc048eb0e03be659e0897a924df59a68900ff3373",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "sha256": "e94df88c2912a8bd32b518a3af0897e8aa8f5a6bfff49ca2296b20c963c1221a",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/originals/royale-velour-fallout.png",
+      "sha256": "37882bca993e762378d91723047bba3a5ad44054b77fdcacbf2580d85e69193d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+      "sha256": "18b4311dc4881a7918637030329aa2daab3e453c1f18c6394e6997daf460847e",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+      "sha256": "bce8f04ef999c0bbdf0813f878a6eedf34e6c360b0f6c2c44316ab2981c95ca8",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "sha256": "b3b988c154e0a4184bbaa3a7720af7989d341dad742c9d9219347205ad5b5fc6",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-480.webp",
+      "sha256": "1c2fd77a1f5fbc4d43622e3dee950a25c1fd5b0e02613981275efa383e8f1545",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-960.webp",
+      "sha256": "d17b82b955c3676bda0f2623f6acfebb63a8b72640e8e13bfc710f90dd181fc3",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout.webp",
+      "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+      "sha256": "b82a9e13ce4051710a32d5f7a08e9485df4caca90d1d5e268cab65f47c071e4e",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+      "sha256": "bee74334fb8f82f523cf7167ba94d1203d8cee4ef8649f6552d813c21c26469c",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "sha256": "03b3373f03cd760ea4d61003244334119ad7bd374f95feea933f335b1ce50137",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/image-manifest.csv",
+      "sha256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-480.webp",
+      "sha256": "36f5dba68168492201cc41ef19a5c9cf1e9fb92cc112e8cda35e74a6564bb422",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-960.webp",
+      "sha256": "2eaf14c42978eb120c86493afb4ecc34a2b7f58a22390e3f5a7aea0044769284",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+      "sha256": "083cba7a38736e6fafc26f511dbb0b558b4886a7d8da3ab0356b007b69abcf44",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+      "sha256": "b043cedd7ea0110b19d6273555af4dfb09c60cad35e0fc2c15d68c9aa826c6bd",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+      "sha256": "2506c57e2bc9c30bc08779da33677c0710083394ebf0b986a86e504120b0d415",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+      "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+      "sha256": "fcd18927bdcb2e39f36307cbf24ba843bb952c50af654346225f1a6e4c73ead7",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+      "sha256": "3fcb38f8351cf9251b0e6054204c4a82dc147edf985a04c6a30b19977793215f",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+      "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+      "sha256": "2f1cedf82400ebd968c1e6c541a6f2e051966563a3d280fa14989b4642fe2aa2",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+      "sha256": "d6934859b4821590a8a8187394d619ea82e4392dcb043e75ffa9b2e2b7df7e6b",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+      "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+      "sha256": "546b84c1e9804bc67859b76f416e5bbd7a6e72b7dbb3c83709e3517981c94dd1",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+      "sha256": "05da50496e11588a14af2a2fbc8969be79b2e57ca21ac5235125418171f7c6f3",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "sha256": "3ca0106c777dea863e6548a68f3ce628774ce6b3644b06043fab74f41062d0fe",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+      "sha256": "70d673984dc376f9c8525457fde40eb72fc6131865787aaedfe59fe5b324cbd3",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+      "sha256": "e09010cbf796ccb376bde61ed3732c5079bf5602aa18d086898b93aa2fb1f399",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+      "sha256": "0b1e82a6f653ae9cb08f3c492ac07862e6d32988f3e983c614045d2d28ba6d4a",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+      "sha256": "4153680698daf753f855be1d3ef1a7f853f4c442fee82c30daba64e6e2da8997",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+      "sha256": "5307f04f62c4d546b72bd9c0496f271dc58fe42305a7d29572831bbe64610e88",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+      "sha256": "bbfab58e7edb85fefb8a634e142ccfa25cdb23d3602ee6ddb929d2767e4ca11a",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-480.webp",
+      "sha256": "4dbff0921bf365ca8a3f312bd173f5adb72988995da7dda91ab05d81ef1f4aa4",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-960.webp",
+      "sha256": "4410018c61e96c99d4c1445f7e6d21b7ae0bb35fffd7994dd27fe0db1e75b5ab",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak.webp",
+      "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+      "sha256": "dfdbe056ded78707d3c066147bb7150c36e81826b174b05465961982504f059d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+      "sha256": "73a8bd4169f40c07606f1c4f634f5f43a31e498020c6ea00044b850c1af3ab47",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-480.webp",
+      "sha256": "0dcf0ed0984f1d7deece0166130f84425980643463e76335b9eeb2c6a8f5e1b6",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-960.webp",
+      "sha256": "221bd339e9dd6f7fa1d666205dd01508660293690a35d055ac96349379e49f5e",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+      "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+      "sha256": "5141031364537cb3d659d45adce8665a2351d8d8dc09f603bf06a1d0db2fbf74",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+      "sha256": "ad5287ec648575a06ac2e308cd5b377ba08b414659ff6be1e715428d892b8d6d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+      "sha256": "11f90e0f5df206682bc7921b8231f16ab0cec5406d05a8f0c15a8238161dfd4c",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+      "sha256": "ffa32c7a96887b4f66b5f5f0a7587cf46dadadaf5f0792503149ea542d5a5182",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+      "sha256": "19ba80bba904e74455697eba09a3c22b1b80cc3cd49f081b13602b51bfaa0cf2",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+      "sha256": "0492954a40e398a38cd73d2e809ba199eed0c7d93a0c1b62c71d9c9d400966c8",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-480.webp",
+      "sha256": "58c6afcf4819f31e7ee7dbc52651129897c7c339622228b10a49160def1bb652",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-960.webp",
+      "sha256": "90e2b79bb5fca78e20134bca636c50e07b94899d32a5c8d90898e1082fdd1533",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+      "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/originals/3m-2091-outbreak.png",
+      "sha256": "19a993ca0bc131ab7f5f611ce1c9ed20a9f92b2b6ad55d33c5666a1f006c7567",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/originals/esee-4-outbreak.png",
+      "sha256": "584ca04fe10907a4c8f479c67d7bd090e0cb24e88c2152cd9e3782386c8c7949",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/originals/gerber-strongarm-outbreak.png",
+      "sha256": "8d2a956428b8994638201944fe9bcb237ebde698fe1d9dc73a721ecbc4f032e3",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/outbreak/originals/morakniv-garberg-outbreak.png",
+      "sha256": "82693a6b2e4f1f1627f29981673bee7015578f22320788bd46a27a805a3f83ab",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/media/phase4-1-image-manifest.csv",
+      "sha256": "0fb240da0f6b91ea5c88e14d69b7edf207977b0aafcc5500a9b98faa3890c987",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/media/phase4-2-image-manifest.csv",
+      "sha256": "f0bbe726923977def4d870234b4e6098afb8f0da1f23a75ce22c0d0910589532",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/media/phase4-3-image-manifest.csv",
+      "sha256": "91f617562a7b84ca9981af5b607849df23fdbd9212ce7a06d212f192a2cf5ac6",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/media/phase4-6-image-manifest.csv",
+      "sha256": "0d79dbe00a743a03feccc1da6a5cb9ab3b8f011c11ab36447abdf41c4070d39b",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/media/phase4-7-image-manifest.csv",
+      "sha256": "48d925c76d4b9f7fd32ecabf2c78604d9b6bd93dd698352b1ba8bdde87152335",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/media/phase5-image-manifest.csv",
+      "sha256": "f9ea887dcfcd844ffb4d989b1d10c51d4a66c0093f1007d9e624ca5b2c1267cb",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/media/README.txt",
+      "sha256": "7ab13eac82370835aff35f41d0d25518a7a33329f2d2e86feb064a389602bbaf",
+      "normaliseNewlines": true
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-480.webp",
+      "sha256": "9a5cdc6aed3fc0ab9b07062819dfd7a38dba0c0ed41bca6878896e24b9830958",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-960.webp",
+      "sha256": "85137309b47a820b713fd04fa7f6f9e1a9078d24fa3cd4fa85d5bece6f91cac2",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+      "sha256": "30eade3be7d83530fd36621cdb453efdeada09c2990cb3e5a7ee1c711535c883",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+      "sha256": "533f9a1bdea3440cac29ade74122d61da634ae6e1f8a96a95a3ff0fa4e1de06d",
+      "normaliseNewlines": false
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d",
+      "normaliseNewlines": false
+    }
+  ],
+  "previousProduct": {
+    "name": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit",
+    "brand": "Morakniv",
+    "modelNumber": "Garberg BlackBlade Carbon Survival Kit",
+    "category": "fixed-blade-knives",
+    "summary": "A carbon-steel bushcraft reference with a sheath-mounted survival kit. Morakniv documents kit 13915; the accessories included with the selected Canadian ASIN still require confirmation before its buying link can be enabled.",
+    "description": "A sheath-mounted kit can keep an edge-maintenance tool and a fire starter together with a camp knife. Morakniv’s Garberg Black Blade (C) Survival Kit reference is item 13915. Its carbon blade needs care even with a protective coating. The manufacturer kit and the Canadian retailer package are separate questions: the illustration shows accessories, but it cannot establish what B09214DLJ6 includes. Check the selected package against the manufacturer kit before purchase. No current price or availability is established.",
+    "specs": [
+      {
+        "label": "Manufacturer reference",
+        "value": "13915, Garberg Black Blade (C) with Survival Kit",
+        "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      },
+      {
+        "label": "Blade material and coating",
+        "value": "Carbon steel with black DLC coating; this reference is not the stainless version",
+        "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      },
+      {
+        "label": "Blade length",
+        "value": "109 mm",
+        "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      },
+      {
+        "label": "Blade thickness",
+        "value": "3.2 mm",
+        "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      },
+      {
+        "label": "Knife length",
+        "value": "229 mm",
+        "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      },
+      {
+        "label": "Construction and handle",
+        "value": "Full tang with black polyamide handle",
+        "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      },
+      {
+        "label": "Manufacturer kit, not verified Amazon contents",
+        "value": "Item 13915 includes a sheath-mounted ferro rod, diamond sharpener and reflective cord; confirm the selected retailer package",
+        "source": "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      }
+    ],
+    "pros": [
+      "A documented manufacturer kit groups routine maintenance accessories in one place.",
+      "Full-tang construction and a separate sheath support comparison for a dedicated camp kit."
+    ],
+    "cons": [
+      "Carbon steel still requires drying and care despite the coating.",
+      "Selected Canadian offer contents and equivalence to kit 13915 remain unverified.",
+      "A fire starter requires lawful conditions and competent handling; it is not a guaranteed emergency fire solution."
+    ],
+    "useCases": [
+      "Compare a bushcraft maintenance kit for planned outdoor trips.",
+      "Check a packing list for sheath, edge maintenance and fire-safety equipment before departure."
+    ],
+    "sources": [
+      {
+        "id": "manufacturer",
+        "title": "Morakniv: documented product reference",
+        "url": "https://www.morakniv.com/en/products/garberg-survival-kit-c",
+        "kind": "manufacturer"
+      },
+      {
+        "id": "canadian-law",
+        "title": "Canada Criminal Code: possession for a dangerous purpose; check applicable carrying rules",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-88.html",
+        "kind": "official-safety"
+      }
+    ],
+    "relatedProducts": [
+      "gerber-strongarm-fixed-blade-knife",
+      "esee-4-fixed-blade-knife",
+      "mechanix-m-pact-work-gloves",
+      "garmin-gpsmap-67i-satellite-gps"
+    ],
+    "image": {
+      "src": "/images/outbreak/morakniv-garberg-outbreak.webp",
+      "alt": "Concept illustration of a black Morakniv Garberg-style knife, sheath, ferro rod, sharpener attachment and cord in a green HUD frame; accessories are not proof of the retailer package",
+      "credit": "ApocalypseGearLab owner-supplied concept illustration",
+      "license": "Owner-directed Phase 5.0 site integration; see media provenance record"
+    },
+    "merchant": {
+      "name": "Amazon.ca",
+      "notes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability."
+    },
+    "links": {
+      "amazonCa": {
+        "url": "https://www.amazon.ca/dp/B09214DLJ6?tag=apocalypsegear-20",
+        "asin": "B09214DLJ6"
+      },
+      "amazonCom": {
+        "url": null,
+        "asin": null
+      },
+      "partners": []
+    },
+    "testing": "not-tested",
+    "reviewStatus": "draft",
+    "visibility": "informational",
+    "lastVerified": null,
+    "research": {
+      "checkedAt": "2026-10-31",
+      "identityNotes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability. Source images are not listing evidence. Amazon.ca was inaccessible through the web reader; no observable HTTP status or successful live inspection is claimed.",
+      "listingVerified": false,
+      "confirmed": [
+        {
+          "text": "The documented manufacturer reference supports the listed technical facts; retail variants and delivered units require matching.",
+          "sourceIds": [
+            "manufacturer"
+          ]
+        }
+      ],
+      "unverifiedClaims": [
+        "Current seller, price, stock, genuine supply, delivered variant and package contents are not independently verified."
+      ],
+      "safetyNotes": [
+        "Use only for lawful outdoor utility tasks. Check applicable Canadian laws, local rules and venue restrictions before transport or carrying; self-defence carry is not automatically lawful.",
+        "Keep the edge and point away from the body and other people. Use a stable work area and store the knife securely in a properly retaining sheath, out of reach of children.",
+        "Inspect the blade, handle and sheath before use. Do not use a damaged tool or treat it as an electrical tool, pry bar or substitute for an appropriate saw.",
+        "Follow the delivered manufacturer instructions for cleaning, sharpening and storage. This profile is documentary research, not a physical test or authentication of an individual knife."
+      ],
+      "safetyStatus": "pending",
+      "publicationApproved": false,
+      "publicationBlockers": [
+        "Complete independent current-offer, delivered-unit and safety review before full editorial publication."
+      ],
+      "affiliateReview": {
+        "decision": "hold",
+        "asin": "B09214DLJ6",
+        "checkedAt": "2026-10-31",
+        "reason": "Confirm that the selected B09214DLJ6 offer is the carbon BlackBlade Survival Kit corresponding to manufacturer 13915, with the actual sheath, ferro rod, sharpener and cord contents. Manufacturer kit contents and concept art do not establish the selected Amazon package. High price / buying-options controls are not proof of unavailability.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      "listingEvidence": {
+        "url": "https://www.amazon.ca/dp/B09214DLJ6",
+        "checkedAt": "2026-10-31",
+        "method": "owner-document",
+        "matchedAsin": "B09214DLJ6",
+        "matchedModel": "Garberg BlackBlade Carbon Survival Kit",
+        "notes": "Owner records B09214DLJ6 as Garberg BlackBlade Carbon Steel Survival Kit and supplies concept art with accessories. Manufacturer kit 13915 is documented, but the selected Amazon variant, carbon/stainless distinction and actual sheath, ferro rod, sharpener and cord contents remain uncorroborated. High price / See All Buying Options is not evidence of unavailability. Evidence is the written Phase 5.0 product brief, not an attached Amazon screenshot. No original listing capture or capture date was supplied."
+      }
+    },
+    "editorial": {
+      "purchaseChecks": [
+        "Match the selected model, steel, colour, sheath and actual package contents to the manufacturer reference before purchase.",
+        "Check the seller, delivered labels, packaging integrity and applicable instructions; this profile does not authenticate an item.",
+        "Check local carrying restrictions and plan secure storage, edge care and safe outdoor utility use."
+      ]
+    }
+  }
+}
