@@ -23,11 +23,20 @@ const indexable = !releasePreview && isCommerciallyApproved(product);
 const informational = isInformationalProduct(product);
 const showInternalReview = import.meta.env.DEV && !releasePreview && !informational;
 const caution = productCaution(product);
-const links = getMerchantLinks(product);
+const links = getMerchantLinks(product).filter(link => link.key === 'amazon-ca');
 const hasBuyingLinks = links.some((link) => link.href);
 const availableLinks = links.filter((link) => link.href || (link.key === 'amazon-ca' && data.links.amazonCa.url));
 const verified = data.lastVerified?.toISOString().slice(0, 10);
 const research = data.research;
+// Every specification keeps a citation, with the original external destination
+// available once in the references section rather than alongside purchase controls.
+const references: {id:string;title:string;url:string;kind:string;anchor:string}[] = data.sources.map(source => ({...source, anchor: 'source-' + source.id}));
+for (const [index, spec] of data.specs.entries()) {
+  if (spec.source?.startsWith('https://') && !references.some(source => source.url === spec.source)) {
+    references.push({id:'spec-' + index, title:'Specification reference', url:spec.source, kind:'reference', anchor:'spec-reference-' + index});
+  }
+}
+const referenceFor = (url: string) => references.find(source => source.url === url)!;
 const safetyNotes = research?.safetyNotes.map((note) => note.replace('Do not publish or recommend', 'Do not recommend').replace('before approval', 'before purchase or use').replace('a pre-publication check', 'a check before purchase or use')) ?? [];
 const purchaseChecks = data.editorial?.purchaseChecks.length ? data.editorial.purchaseChecks : research?.unverifiedClaims ?? [];
 const visibleProducts = await getVisibleProducts();
@@ -63,6 +72,14 @@ const breadcrumbs = {
       {research && <span class="badge">Sources checked {research.checkedAt}</span>}
     </p>
 
+    <section aria-labelledby="buy" data-product-purchase class="product-purchase">
+      <h2 id="buy">Where to buy</h2>
+      <DisclosureNotice />
+      {research?.affiliateReview?.decision === 'hold' && !availableLinks.some(link => link.unavailableReason === research.affiliateReview?.reason) && <p data-commercial-hold-details>{research.affiliateReview.reason}</p>}
+      {data.merchant?.notes && showInternalReview && <p>{data.merchant.notes}</p>}
+      {availableLinks.length ? <><p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} productName={data.name} placement="profile-summary" />)}</p>{!availableLinks.some((link) => link.href) && <p>Amazon.ca links are unavailable until the documented product checks are resolved. No price, availability or seller is confirmed.</p>}</> : <p>Retailer links are not available for this profile.</p>}
+    </section>
+
     {research && showInternalReview && <aside class="notice" aria-label="Research status">
       <p class="label">Research status · {research.safetyStatus === 'blocked' ? 'Publication blocked' : research.safetyStatus === 'pending' ? 'Review pending' : 'Safety review completed'}</p>
       <p>{research.identityNotes}</p>
@@ -77,7 +94,7 @@ const breadcrumbs = {
       <h2>Documented specifications</h2>
       {data.specs.length === 0 ? <p class="empty">No verified specifications yet.</p> : (
         <div class="table-wrap" tabindex="0" role="region" aria-label={`${data.name} specifications`}><table><caption class="visually-hidden">Documented specifications for {data.name}</caption><tbody>
-          {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={s.source}>Source</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}
+          {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={`#${referenceFor(s.source).anchor}`} data-source-citation>Source {references.findIndex(source => source.url === s.source) + 1}</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}
         </tbody></table></div>
       )}
     </section>
@@ -99,34 +116,42 @@ const breadcrumbs = {
       {showInternalReview && research.publicationBlockers.length > 0 && <section class="notice" aria-labelledby="publication"><h2 id="publication">Before this can be published</h2><ul>{research.publicationBlockers.map((blocker) => <li>{blocker}</li>)}</ul></section>}
     </>}
 
-    {data.sources.length > 0 && <section aria-labelledby="sources"><h2 id="sources">Sources and verification</h2>
-      <ol class="sources">{data.sources.map((source) => <li id={`source-${source.id}`}><a href={source.url}>{source.title}</a><span class="label"> · {source.kind.replaceAll('-', ' ')}</span></li>)}</ol>
-      <p class="label">A source-check date records the research visit. It does not guarantee the current seller, inventory, recall status or certification of a delivered unit.</p>
-    </section>}
 
-    <section aria-labelledby="buy" data-product-purchase>
-      <h2 id="buy">Where to buy</h2>
-      <DisclosureNotice />
-      {research?.affiliateReview?.decision === 'hold' && !availableLinks.some(link => link.unavailableReason === research.affiliateReview?.reason) && <p data-commercial-hold-details>{research.affiliateReview.reason}</p>}
-      {data.merchant?.notes && showInternalReview && <p>{data.merchant.notes}</p>}
-      {availableLinks.length ? <><p class="buttons">{availableLinks.map((link) => <AffiliateButton link={link} productId={product.id} />)}</p>{!availableLinks.some((link) => link.href) && <p>Amazon.ca links are unavailable until the documented product checks are resolved. No price, availability or seller is confirmed.</p>}</> : <p>Retailer links are not available for this profile.</p>}
-    </section>
 
     {compatibleFilters.length > 0 && !releasePreview && <section aria-labelledby="compatible-3m-filters">
       <h2 id="compatible-3m-filters">Compatible 3M Filters &amp; Cartridges</h2>
       <p>The 6800 uses two matching filters or cartridges in an approved configuration. Bayonet compatibility does not establish suitability for a particular hazard. Check the facepiece instructions, component approval labels and assessed contaminant before selection; these components supply no oxygen.</p>
       <ul>{compatibleFilters.map((filter) => <li><a href={`/gear/${filter.id}/`}>3M {filter.model}</a>: {filter.scope}</li>)}</ul>
-      <div class="grid grid--3">{compatibleFilters.map((filter) => <ProductCard product={filter.product} />)}</div>
+      <div class="grid grid--3">{compatibleFilters.map((filter) => <ProductCard product={filter.product} placement="compatible-filter" />)}</div>
     </section>}
 
     {related.length > 0 && !releasePreview && <section aria-labelledby="related"><h2 id="related">Related equipment profiles</h2>
       {!indexable && <p>These reference profiles describe documented features and unresolved limitations. They are not purchase recommendations.</p>}
-      <div class="grid grid--3">{related.map((candidate) => <ProductCard product={candidate} />)}</div>
+      <div class="grid grid--3">{related.map((candidate) => <ProductCard product={candidate} placement="related-card" />)}</div>
+    </section>}
+
+    {references.length > 0 && <section class="technical-sources" aria-labelledby="sources" data-technical-sources>
+      <h2 id="sources">Technical Sources &amp; References</h2>
+      <p>Documentation for the specifications and limitations above. Manufacturer references and retailer identity evidence serve different purposes; these are not additional purchase options.</p>
+      <ol class="sources">{references.map(source => <li id={source.anchor}>
+        <a href={source.url} data-source-click data-product={product.id} data-source-id={source.id} data-source-kind={source.kind}>{source.title}</a>
+        <span class="label"> · {source.kind.replaceAll('-', ' ')}</span>
+      </li>)}</ol>
+      <p class="label">A source-check date records the research visit. It does not guarantee the current seller, inventory, recall status or certification of a delivered unit.</p>
+      {hasBuyingLinks && <p><a href="#buy">Back to buying options</a></p>}
     </section>}
   </article>
 </BaseLayout>
 
 <style>
+  .product-purchase { display: grid; gap: var(--s-4); max-width: var(--measure); padding-block: var(--s-3); }
+  .product-purchase > :is(h2, p) { margin: 0; }
+  .product-purchase h2 { font-size: var(--fs-1); }
+  .technical-sources { border-top: 1px solid var(--c-line); padding-top: var(--s-5); font-size: 0.9rem; color: var(--c-muted); }
+  .technical-sources h2 { font-size: var(--fs-1); color: var(--c-text); }
+  .technical-sources a { color: var(--c-muted); }
+  .technical-sources a:hover { color: var(--c-text); }
+  .technical-sources li { scroll-margin-top: 6rem; }
   .buttons { display: flex; flex-wrap: wrap; gap: var(--s-3); }
   .product-status { display: flex; flex-wrap: wrap; gap: var(--s-2); }
   ul { max-width: var(--measure); }

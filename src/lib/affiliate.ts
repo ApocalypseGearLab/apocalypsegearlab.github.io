@@ -33,6 +33,15 @@ function matchesCanadianListing(link: Product['data']['links']['amazonCa']): boo
   return ['amazon.ca', 'www.amazon.ca'].includes(url.hostname) && /^[A-Z0-9]{10}$/.test(link.asin) && url.port === '' && url.pathname === `/dp/${link.asin}` && url.searchParams.get('tag') === 'apocalypsegear-20' && [...url.searchParams.keys()].length === 1 && !url.hash;
 }
 
+/** Display guard for purchase controls; documentary source links use ordinary anchors. */
+export function isCanadianPurchaseLink(link: MerchantLink): boolean {
+  if (link.key !== 'amazon-ca' || link.marketplace !== 'ca' || !link.href) return false;
+  try {
+    const asin = /^\/dp\/([A-Z0-9]{10})$/.exec(new URL(link.href).pathname)?.[1] ?? null;
+    return matchesCanadianListing({url:link.href,asin});
+  } catch { return false; }
+}
+
 function hasMatchingCanadianEvidence(product: Product): boolean {
   const link = product.data.links.amazonCa;
   const evidence = product.data.research?.listingEvidence;

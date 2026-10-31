@@ -1,3 +1,4 @@
+import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -29,7 +30,7 @@ test('Phase 4.7 changes only three commercial records and appends only the 2091 
       assert.deepEqual(current.research.confirmed.slice(0,row.data.research.confirmed.length),row.data.research.confirmed,'Preserve the documented manufacturer facts');
     }
   }
-  for(const row of baseline.files){if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(row.file)) continue; // Phase 5 preservation tests cover additive integration.
+  for(const row of baseline.files){if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(row.file)) continue; // Phase 5 preservation tests cover additive integration.
 const bytes=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes),row.sha256,row.file);}
   assert.deepEqual(importedMedia.slice(0,29),baseline.importedAssets);
   assert.equal(importedMedia.length,34);

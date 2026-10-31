@@ -33,7 +33,7 @@ test('active affiliate mouse and keyboard clicks each queue one event and keep n
   const events=(await commands(page)).filter(row=>row[0]==='event');
   expect(events).toHaveLength(2);
   for(const row of events) expect(row).toEqual(['event','affiliate_click',{
-    product_id:'midland-er310',asin:'B015QIC1PW',merchant:'amazon-ca',marketplace:'ca',
+    product_name:'Midland ER310 emergency radio',cta_placement:'profile-summary',product_id:'midland-er310',asin:'B015QIC1PW',merchant:'amazon-ca',marketplace:'ca',
     destination_url:'https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20',
     page_location:'http://127.0.0.1:4321/gear/midland-er310/',send_to:'G-YFJJ5N9RBX',transport_type:'beacon',
   }]);

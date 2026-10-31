@@ -1,0 +1,594 @@
+{
+  "checkedAt": "2026-10-31",
+  "method": "Public documentary URLs only, no credentials, HEAD with one GET-header fallback for 405; no Amazon offers visited",
+  "results": [
+    {
+      "url": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://ca.ecoflow.com/products/river-2-pro-portable-power-station",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://ca.jackery.com/products/explorer-300-portable-power-station",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://ca.jackery.com/products/explorer-300-portable-power-station",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://ca.jackery.com/products/jackery-solarsaga-100-air",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://ca.leatherman.com/collections/work/products/wave",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://ca.leatherman.com/collections/work/products/wave",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/PKGRW113.081624_ReadyWise_Cooking_Instructions.pdf?v=1727709879",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/PKGRW113.081624_ReadyWise_Cooking_Instructions.pdf?v=1727709879",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFheartytortillasoup.png?v=1696354528",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFheartytortillasoup.png?v=1696354528",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFpotpie.png?v=1696354528",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFpotpie.png?v=1696354528",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFteriyakirice.png?v=1696354528",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFteriyakirice.png?v=1696354528",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_100_Air_User_Manual.pdf?v=1758778870",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_100_Air_User_Manual.pdf?v=1758778870",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://faq.jackery.com/hc/en-us/articles/52303615153051-Explorer-1000-V2-Basic-Information",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://help.sawyer.com/retail/filtration",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://help.sawyer.com/retail/filtration",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://help.sawyer.com/retail/products/squeeze-water-filter",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://help.sawyer.com/retail/products/squeeze-water-filter",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://iniushop.com/pages/recall-b41",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://iniushop.com/pages/recall-b41",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-88.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-88.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://midlandusa.com/products/batt26l-e-ready-rechargeable-battery",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://midlandusa.com/products/batt26l-e-ready-rechargeable-battery",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/1960842O/3m-8210-9205-9210-counterfeit-communication-letter.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/1960842O/3m-8210-9205-9210-counterfeit-communication-letter.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/2567231O/3m-gogglegear-protective-goggle-500-series.pdf?fn=tds-gogglegear-500-series-en.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/2567231O/3m-gogglegear-protective-goggle-500-series.pdf?fn=tds-gogglegear-500-series-en.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/2602924O/3m-6000-full-facepiece-reusable-respirator.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/2602924O/3m-6000-full-facepiece-reusable-respirator.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/994462O/3m-particulate-respirator-n95-9205-9210-9211-user-instructions.pdf",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://multimedia.3m.com/mws/media/994462O/3m-particulate-respirator-n95-9205-9210-9211-user-instructions.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://nanuk.com/products/nanuk-904-first-aid-kit",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://nanuk.com/products/nanuk-904-first-aid-kit",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://nanukcases.ca/products/nanuk-904-first-aid-kit",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://nanukcases.ca/products/nanuk-904-first-aid-kit",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://open.canada.ca/data/en/dataset/d38de914-c94c-429b-8ab1-8776c31643e3",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://readywise.com/cdn/shop/files/84ServingGlutenFreeGrab_GoBucket_NFP_2000x2000_33148317-bb73-45b5-b692-dc7efce26990.png?v=1727414894",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/ecoflow-delta-max-2000-power-stations-recalled-due-risk-serious-burn-injury-and-fire",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://recalls-rappels.canada.ca/en/alert-recall/ecoflow-delta-max-2000-power-stations-recalled-due-risk-serious-burn-injury-and-fire",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/when-purchasing-smoke-or-carbon-monoxide-alarms-look-canadian-certification-mark",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://recalls-rappels.canada.ca/en/alert-recall/when-purchasing-smoke-or-carbon-monoxide-alarms-look-canadian-certification-mark",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://relianceoutdoors.com/pages/care-and-use",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://relianceoutdoors.com/pages/care-and-use",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://relianceoutdoors.com/pages/faqs",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://relianceoutdoors.com/pages/faqs",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://sosfoodlab.com/faq/",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://sosfoodlab.com/faq/",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://support.midlandusa.com/hc/en-us/articles/29999147473431-ER310-FAQs",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://support.midlandusa.com/hc/en-us/articles/33020284947351-Midland-ER310-Emergency-Crank-Weather-Alert-Radio-Full-User-Guide",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057497/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.3mcanada.ca/3M/en_CA/p/d/v000057497/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101271017/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101271017/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.511tactical.com/rush72-2-0-backpack.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.511tactical.com/rush72-2-0-backpack.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.canada.ca/en/environment-climate-change/services/weatheradio.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.canada.ca/en/environment-climate-change/services/weatheradio.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.canada.ca/en/health-canada/services/air-quality/pollutants/carbon-monoxide/preventing-exposure.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.canada.ca/en/health-canada/services/air-quality/pollutants/carbon-monoxide/preventing-exposure.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidance-providing-safe-drinking-water-areas-federal-jurisdiction-version-3.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidance-providing-safe-drinking-water-areas-federal-jurisdiction-version-3.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/emergency-kits/get-kit.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/resources/emergency-management-and-safety/protecting-your-family-during-a-nuclear-emergency.cfm",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.cnsc-ccsn.gc.ca/eng/resources/emergency-management-and-safety/protecting-your-family-during-a-nuclear-emergency.cfm",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.cpsc.gov/Recalls/2026/INIU-Recalls-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.cpsc.gov/Recalls/2026/INIU-Recalls-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf",
+      "method": "HEAD",
+      "status": 500,
+      "finalUrl": "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf",
+      "method": "HEAD",
+      "status": 500,
+      "finalUrl": "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.eseeknives.com/product/esee-4",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.eseeknives.com/product/esee-4",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.fenixlight.com/product/cl26r-pro/",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.fenixlight.com/product/cl26r-pro/",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.fenixlight.com/product/hm50r-v2-0/",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.fenixlight.com/product/hm50r-v2-0/",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.fenixlighting.com/products/fenix-cl26r-pro-rechargeable-lantern",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.fnirsi.com/products/gc-01",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://www.fnirsi.com/products/gc-01",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://www.jackery.com/blogs/buying-advice/complete-guide-to-jackery-solarsaga-100-air",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.leatherman-japan.com/wp/wp-content/uploads/2022/04/Leatherman-2022-Digital-Catalog.pdf",
+      "method": "HEAD",
+      "status": 404,
+      "finalUrl": "https://www.leatherman-japan.com/wp/wp-content/uploads/2022/04/Leatherman-2022-Digital-Catalog.pdf",
+      "interpretation": "HTTP missing; retain source for documented review, no automatic replacement"
+    },
+    {
+      "url": "https://www.leatherman.com/products/wave",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://www.leatherman.com/products/wave",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.morakniv.com/en/products/garberg-survival-kit-c",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://www.morakniv.com/en/products/garberg-survival-kit-c",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.redcross.ca/training-and-certification/first-aid-tips-and-resources/first-aid-tips/wellness-and-injury-prevention/kit-contents",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.redcross.ca/training-and-certification/first-aid-tips-and-resources/first-aid-tips/wellness-and-injury-prevention/kit-contents",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.royale.ca/faq/",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.royale.ca/faq/",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.royale.ca/products/bathroom-tissue/",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.royale.ca/products/bathroom-tissue/",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www.sawyer.com/product/squeeze-water-filter-system",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+      "method": "HEAD",
+      "status": 429,
+      "finalUrl": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www.zoro.com/wise-84-serving-breakfast-and-entree-grab-and-go-gluten-free-kit-wgf01-184/i/G410909013/",
+      "method": "HEAD",
+      "status": 403,
+      "finalUrl": "https://www.zoro.com/wise-84-serving-breakfast-and-entree-grab-and-go-gluten-free-kit-wgf01-184/i/G410909013/",
+      "interpretation": "Remote response requires review; not proof of an invalid product or offer"
+    },
+    {
+      "url": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf",
+      "interpretation": "HTTP reachable; contents not reverified"
+    },
+    {
+      "url": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GUID-9DDF5575-3DDE-4FA7-8165-F47F128F5180.html",
+      "method": "HEAD",
+      "status": 200,
+      "finalUrl": "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GUID-9DDF5575-3DDE-4FA7-8165-F47F128F5180.html",
+      "interpretation": "HTTP reachable; contents not reverified"
+    }
+  ]
+}
