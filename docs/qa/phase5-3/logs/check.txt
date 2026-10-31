@@ -6,7 +6,7 @@
 14 h 56 min 31 s [content] Synced content
 14 h 56 min 31 s [types] Generated 792ms
 14 h 56 min 31 s [check] Getting diagnostics for Astro files in C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab...
-Result (89 files): 
+Result (89 files):
 - 0 errors
 - 0 warnings
 - 0 hints
