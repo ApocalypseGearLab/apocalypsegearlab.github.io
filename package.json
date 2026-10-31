@@ -12,7 +12,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "tsx --test tests/affiliate.test.ts tests/analytics.test.ts tests/catalog.test.ts tests/media-policy.test.ts tests/phase47.test.ts tests/release.test.ts",
+    "test": "tsx --test tests/affiliate.test.ts tests/analytics.test.ts tests/catalog.test.ts tests/media-policy.test.ts tests/phase47.test.ts tests/phase48.test.ts tests/release.test.ts",
     "test:site": "node scripts/verify-site.mjs",
     "test:products": "node scripts/verify-products.mjs",
     "test:browser": "node scripts/prepare-browser-fixtures.mjs && playwright test",

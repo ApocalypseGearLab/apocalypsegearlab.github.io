@@ -1,0 +1,107 @@
+{
+  "reviewDate": "2026-10-31",
+  "baseCommit": "0fb4c38f91b3990e68289bb2a31675bf92b692a4",
+  "checks": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "result": "79 files; 0 errors, warnings or hints",
+      "localLog": ".tools/qa/phase4-8/check.log"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "result": "61/61 passed",
+      "localLog": ".tools/qa/phase4-8/test.log"
+    },
+    {
+      "command": "npm run test:images",
+      "exitCode": 0,
+      "result": "30 mappings; 29 approved, 1 rejected; hashes preserved",
+      "localLog": ".tools/qa/phase4-8/test-images.log"
+    },
+    {
+      "command": "npm run release:check",
+      "exitCode": 0,
+      "result": "30 visible; 25 active links, 5 holds; final approval false",
+      "localLog": ".tools/qa/phase4-8/release-check.log"
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "exitCode": 0,
+      "result": "No malformed URLs or undocumented holds",
+      "localLog": ".tools/qa/phase4-8/audit-affiliate.log"
+    },
+    {
+      "command": "npm run test:products",
+      "exitCode": 0,
+      "result": "Product schema and publication scenarios passed, fixtures restored",
+      "localLog": ".tools/qa/phase4-8/test-products.log"
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "result": "37 HTML pages",
+      "localLog": ".tools/qa/phase4-8/build.log"
+    },
+    {
+      "command": "npm run test:site",
+      "exitCode": 0,
+      "result": "1209 internal references; 5 sitemap URLs; SEO/publication filtering valid",
+      "localLog": ".tools/qa/phase4-8/test-site.log"
+    },
+    {
+      "command": "npm run test:browser",
+      "exitCode": 0,
+      "result": "82/82 passed; responsive, axe, artwork, navigation and isolated affiliate tracking",
+      "localLog": ".tools/qa/phase4-8/test-browser.log"
+    }
+  ],
+  "initialFailures": [
+    {
+      "command": "npm test",
+      "result": "60 passed, 1 obsolete expectation of absent 2091 listing evidence; corrected then 61 passed",
+      "localLog": ".tools/qa/phase4-8/test-initial.log"
+    },
+    {
+      "command": "npm run test:browser",
+      "result": "80 passed, 2 assertion failures: OUTBREAK old link count and arguments-object normalization; corrected then full 82 passed",
+      "localLog": ".tools/qa/phase4-8/test-browser-initial.log"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "docs/qa/phase4-8/profile-2091-375.webp",
+      "width": 375,
+      "height": 10924,
+      "bytes": 561778,
+      "source": ".tools/qa/phase4-8/profile-2091-375.png",
+      "inspected": "Original browser captures inspected; QA screenshot encoding only, no product asset modified."
+    },
+    {
+      "file": "docs/qa/phase4-8/profile-2091-1440.webp",
+      "width": 1440,
+      "height": 6091,
+      "bytes": 630418,
+      "source": ".tools/qa/phase4-8/profile-2091-1440.png",
+      "inspected": "Original browser captures inspected; QA screenshot encoding only, no product asset modified."
+    },
+    {
+      "file": "docs/qa/phase4-8/compatible-375.webp",
+      "width": 335,
+      "height": 4267,
+      "bytes": 231734,
+      "source": ".tools/qa/phase4-8/compatible-375.png",
+      "inspected": "Original browser captures inspected; QA screenshot encoding only, no product asset modified."
+    },
+    {
+      "file": "docs/qa/phase4-8/compatible-1440.webp",
+      "width": 1152,
+      "height": 1414,
+      "bytes": 200116,
+      "source": ".tools/qa/phase4-8/compatible-1440.png",
+      "inspected": "Original browser captures inspected; QA screenshot encoding only, no product asset modified."
+    }
+  ],
+  "limits": "Browser Google and Amazon traffic isolated. No live private account approval, product authentication or physical testing claimed. CI result belongs to the actual delivered commit and is linked in the PR."
+}

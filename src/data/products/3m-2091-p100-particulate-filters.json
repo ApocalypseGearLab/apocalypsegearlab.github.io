@@ -3,8 +3,8 @@
   "brand": "3M",
   "modelNumber": "2091",
   "category": "respiratory-protection",
-  "summary": "P100 particulate filters for approved 3M bayonet assemblies. The 2091 is distinct from 2097 and has no documented nuisance-level organic-vapor relief. Canadian package quantity remains unverified.",
-  "description": "The 2091 is a particulate filter for certain oil and non-oil aerosols when used in a correctly selected and fitted approved respirator assembly. It is not a gas/vapor cartridge. Unlike the 2097, its manufacturer specifications do not list nuisance-level organic-vapor relief. The 6800 full-facepiece instructions list 2091 and describe using two matching filters. The recorded Canadian ASIN is B001D1JCK4, but the current model selection, seller and sale-pack quantity could not be independently checked.",
+  "summary": "P100 particulate filters for approved 3M bayonet assemblies. The documented Canadian offer advertises one pair (two filters). The 2091 is distinct from 2097 and has no documented nuisance-level organic-vapor relief.",
+  "description": "The 2091 is a particulate filter for certain oil and non-oil aerosols when used in a correctly selected and fitted approved respirator assembly. It is not a gas/vapor cartridge. Unlike the 2097, its manufacturer specifications do not list nuisance-level organic-vapor relief. The 6800 full-facepiece instructions list 2091 and describe using two matching filters. The owner-documented Amazon.ca offer associates ASIN B001D1JCK4 with 3M 2091/07000 and advertises two filters (one pair), with included components described as 2091 P100, two per bag. Check the selected offer and delivered packaging; this documentation does not authenticate a physical product.",
   "specs": [
     {
       "label": "Model / filter class",
@@ -44,7 +44,7 @@
   "cons": [
     "Does not protect against hazardous gases or vapors and supplies no oxygen.",
     "Fit testing, training, a tight seal and correct hazard selection remain essential.",
-    "Canadian package quantity, genuine supply, seller and delivered-unit labels remain unverified."
+    "Current offer changes, genuine supply, seller, delivered contents, lot and expiration have not been independently verified."
   ],
   "useCases": [
     "Compare particulate-filter options for an identified occupational aerosol hazard with a competent respiratory-protection professional.",
@@ -68,6 +68,12 @@
       "title": "3M 6000 full-facepiece instructions including 6800: filter table and paired installation",
       "url": "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
       "kind": "manufacturer"
+    },
+    {
+      "id": "owner-canadian-listing",
+      "title": "Owner-provided Amazon.ca capture transcription: B001D1JCK4, 3M 2091/07000, advertised two filters (one pair)",
+      "url": "https://www.amazon.ca/dp/B001D1JCK4",
+      "kind": "retailer"
     }
   ],
   "relatedProducts": [
@@ -79,7 +85,7 @@
   "image": null,
   "merchant": {
     "name": "Amazon.ca",
-    "notes": "Owner-recorded ASIN B001D1JCK4 for 2091; no sale-pack count, current seller or delivered variant independently verified."
+    "notes": "Owner-documented Canadian offer for 3M 2091/07000: advertised two filters (one pair), 2091 P100 2/Bag. No current price, seller, stock, authenticity or delivered-unit guarantee."
   },
   "links": {
     "amazonCa": {
@@ -97,8 +103,8 @@
   "visibility": "informational",
   "lastVerified": null,
   "research": {
-    "checkedAt": "2026-10-29",
-    "identityNotes": "3M Canada and the exact 2000/2200-series and 6800-family instructions reviewed. The ASIN/model association is owner-recorded; current Amazon.ca selection and quantity are not independently verified. No physical testing, seller authentication or unit certification is claimed.",
+    "checkedAt": "2026-10-31",
+    "identityNotes": "Phase 4.8 owner-provided Amazon.ca capture transcription documents ASIN B001D1JCK4, brand 3M, model 2091/07000, title 2 Count and included components 3M Filter #2091P100 2/Bag. The 3M Canada model page also identifies the 2091/07000 designation; canonical model 2091 is retained. The original capture file was not supplied in this phase and Amazon.ca remains inaccessible to the web reader. No independent live-offer validation, physical testing, seller authentication or unit certification is claimed.",
     "listingVerified": false,
     "confirmed": [
       {
@@ -118,10 +124,16 @@
         "sourceIds": [
           "3m-filter-instructions"
         ]
+      },
+      {
+        "text": "The owner-provided Amazon.ca listing transcription associates ASIN B001D1JCK4 with 3M 2091/07000 and advertises two filters (one pair), with included components described as 3M Filter #2091P100 2/Bag. This is a retailer representation, not a checked delivery quantity.",
+        "sourceIds": [
+          "owner-canadian-listing"
+        ]
       }
     ],
     "unverifiedClaims": [
-      "Current Canadian ASIN/model selection, sale-pack quantity, seller, genuine supply, lot and expiration remain unverified."
+      "Current offer changes, seller, authentic supply, delivered contents, lot and expiration have not been independently verified."
     ],
     "safetyNotes": [
       "The 2091 filters particulates; it does not replace cartridges for hazardous gases or vapors. Do not attribute the 2097 nuisance-level organic-vapor feature to 2091.",
@@ -134,24 +146,32 @@
     "safetyStatus": "pending",
     "publicationApproved": false,
     "publicationBlockers": [
-      "Independently match Canadian ASIN B001D1JCK4 to the genuine 2091 variant and exact sale-pack quantity.",
-      "Complete the delivered-variant and approved-assembly review before full editorial publication."
+      "Complete the independent current-offer, delivered-variant, approved-assembly and safety review before full editorial publication."
     ],
     "affiliateReview": {
-      "decision": "hold",
+      "decision": "link-permitted",
       "asin": "B001D1JCK4",
-      "checkedAt": "2026-10-29",
-      "reason": "Canadian ASIN B001D1JCK4 is owner-recorded for 3M 2091. Independently match the current brand, 2091 variant, seller and sale-pack quantity before linking. Amazon.ca could not be read; the manufacturer case size is not the Canadian retailer pack. No current offer or authenticity is verified.",
+      "checkedAt": "2026-10-31",
+      "reason": "Canadian recorded-link permission: the owner documents brand 3M, model 2091/07000, ASIN B001D1JCK4 and advertised two filters (one pair), corroborated by the included-components transcription 3M Filter #2091P100 2/Bag. The model/pack hold is resolved on that documentary basis only. Current seller, stock, authentic supply and delivered contents remain unverified; respiratory precautions and full editorial publication controls remain unchanged.",
       "sourceIds": [
         "3m-model",
         "3m-filter-instructions",
-        "3m-6800-instructions"
+        "3m-6800-instructions",
+        "owner-canadian-listing"
       ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B001D1JCK4",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B001D1JCK4",
+      "matchedModel": "2091",
+      "notes": "Owner-provided capture transcription: 3M Particulate Filters P100 #2091/07000, Pink, 2 Count; brand 3M; model 2091/07000; included components 3M Filter #2091P100 2/Bag, advertised one pair (two filters). Retailer manufacturer-number field FBA_51131070009 is recorded as reported, not authenticated as a 3M manufacturer identifier. Canonical model 2091 matches the documented 2091/07000 designation. The capture file was not attached and its capture date is unknown. No independent live listing, seller, delivered contents, authenticity, lot or expiration verification is claimed."
     }
   },
   "editorial": {
     "purchaseChecks": [
-      "Confirm B001D1JCK4 is genuine 3M 2091, not 2097 or a generic, and verify the selected sale-pack quantity and seller.",
+      "Check that the selected B001D1JCK4 offer still identifies 3M 2091/07000 and advertises two filters (one pair); confirm the seller and match the delivered package and labels. A manufacturer case size is not the retailer sale pack.",
       "Confirm the facepiece approval label, matching filter pair, fit and suitability for the assessed hazard.",
       "Inspect packaging, expiration and delivered instructions; no picture or model name authenticates a unit."
     ]

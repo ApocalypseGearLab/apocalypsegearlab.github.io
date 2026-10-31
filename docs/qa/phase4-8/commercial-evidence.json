@@ -1,0 +1,32 @@
+{
+  "reviewDate": "2026-10-31",
+  "captureDate": null,
+  "method": "owner-document",
+  "basis": "Owner-provided Amazon.ca capture transcription in the Phase 4.8 request; original capture file not attached and not independently inspected.",
+  "asin": "B001D1JCK4",
+  "url": "https://www.amazon.ca/dp/B001D1JCK4?tag=apocalypsegear-20",
+  "title": "3M Particulate Filters P100 #2091/07000, Pink, 2 Count",
+  "brand": "3M",
+  "reportedModel": "2091/07000",
+  "canonicalModel": "2091",
+  "advertisedCount": 2,
+  "advertisedPairs": 1,
+  "includedComponents": "3M Filter #2091P100 2/Bag",
+  "retailerManufacturerNumber": "FBA_51131070009",
+  "historicalOwnerObservation": {
+    "priceCad": 15.75,
+    "seller": "ENmobile",
+    "shipsFrom": "Amazon",
+    "note": "Historical owner observation only. No capture date, current price, seller, stock or fulfillment is independently validated. Not published on the public product page."
+  },
+  "manufacturerReference": "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/",
+  "manufacturerCheck": "3M Canada references 2091/07000 and P100; its 100 ea/case is not evidence of the Amazon sale pack.",
+  "liveAmazonAccess": "Attempted with the web reader; unavailable through that tool, with no observable HTTP status. Not evidence of an invalid URL.",
+  "decision": "link-permitted",
+  "remainingLimits": [
+    "No physical product authentication or test",
+    "No current seller or delivered contents verification",
+    "Respiratory precautions preserved",
+    "Informational draft, noindex; no full editorial publication or final Associates approval granted"
+  ]
+}
