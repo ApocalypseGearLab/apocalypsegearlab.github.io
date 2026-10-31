@@ -1,0 +1,202 @@
+{
+  "reviewedAt": "2026-10-31",
+  "baseCommit": "44325ec7be0882282b2ba7df249ab8dd0ec7ecf4",
+  "buttonStatus": "ACTIVE",
+  "asin": "B09214DLJ6",
+  "manufacturerModel": "13915",
+  "link": "https://www.amazon.ca/dp/B09214DLJ6?tag=apocalypsegear-20",
+  "evidenceMethod": "owner-document",
+  "liveAmazonOfferVerified": false,
+  "remainingLinkBlocker": null,
+  "remainingUncertainty": "Actual Amazon.ca seller, selected live variant, package contents and delivered unit are not independently verified. Manufacturer kit contents are not represented as verified retailer contents.",
+  "seo": {
+    "reviewStatus": "draft",
+    "robots": "noindex, nofollow",
+    "listingVerified": false,
+    "publicationApproved": false,
+    "productStructuredData": false
+  },
+  "localChecks": [
+    {
+      "command": "npm run check",
+      "result": "passed",
+      "files": 83,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    {
+      "command": "npm test",
+      "result": "passed",
+      "tests": 70,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:images",
+      "result": "passed",
+      "productMappings": 34,
+      "admissibleIllustrations": 33,
+      "rejectedIllustrations": 1
+    },
+    {
+      "command": "npm run release:check",
+      "result": "passed",
+      "active": 29,
+      "held": 5,
+      "finalApprovalConfirmed": false
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "result": "passed",
+      "invalidUrls": 0,
+      "duplicateAsins": 0,
+      "duplicateUrls": 0,
+      "offersVerified": 0
+    },
+    {
+      "command": "npm run test:products",
+      "result": "passed",
+      "scope": "Active/pending rendered fixtures and retained mandatory holds; production data restored"
+    },
+    {
+      "command": "npm run build",
+      "result": "passed",
+      "htmlPages": 41
+    },
+    {
+      "command": "npm run test:site",
+      "result": "passed",
+      "htmlPages": 41,
+      "internalReferences": 1366,
+      "sitemapUrls": 5
+    },
+    {
+      "command": "npm run test:browser",
+      "result": "passed",
+      "tests": 92,
+      "failed": 0
+    }
+  ],
+  "browser": {
+    "newMoraknivTest": "passed",
+    "placements": [
+      "gear catalogue",
+      "OUTBREAK",
+      "own profile",
+      "Gerber related card",
+      "ESEE related card"
+    ],
+    "targetedWidths": [
+      375,
+      1440
+    ],
+    "broaderResponsiveWidths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "actions": [
+      "mouse",
+      "keyboard"
+    ],
+    "targetedActions": 20,
+    "eventsPerAction": 1,
+    "newTab": true,
+    "opener": null,
+    "rel": "sponsored nofollow noopener",
+    "visibleDisclosure": true,
+    "axeViolations": 0,
+    "pageErrors": 0,
+    "googleNetworkBlocked": true,
+    "amazonDestinationMocked": true
+  },
+  "visualReview": "All ten original rendered screenshots inspected: images present, readable disclosure and active CTA, preserved green styling, no observed clipping or horizontal overflow. QA screenshot WebPs do not alter product artwork.",
+  "screenshots": [
+    {
+      "file": "docs/qa/morakniv-affiliate/catalogue-1440.webp",
+      "width": 270,
+      "height": 955,
+      "bytes": 45228,
+      "sha256": "f10caba6884097563b921f95a24e7aa738a16c7c73aff80d8728afd8cf5804e6",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/catalogue-375.webp",
+      "width": 335,
+      "height": 872,
+      "bytes": 49980,
+      "sha256": "b546c29a9638f7ba8489fc142c2473e20cd40aabf99ef7fccf0f600530a5fe6f",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/outbreak-1440.webp",
+      "width": 270,
+      "height": 955,
+      "bytes": 39904,
+      "sha256": "59e1c0003a4a70f8da8dac05cbb91469b1a1d95d472feade4ef516c6a736b02d",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/outbreak-375.webp",
+      "width": 335,
+      "height": 872,
+      "bytes": 49746,
+      "sha256": "2cc8a9a86adc8c9b767aa3a2f29b455ca49b0fc458b874cdb0e0a926fe9cd814",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/profile-1440.webp",
+      "width": 1440,
+      "height": 5502,
+      "bytes": 518966,
+      "sha256": "746eddd4509971d544a1df093457cdcd693abd48f0dfe2c1ffaf8efdb6a55872",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/profile-375.webp",
+      "width": 375,
+      "height": 9468,
+      "bytes": 456338,
+      "sha256": "edb1c617c8d441db6d2eedf409efadb9fe3a7d7efc7bf906a856b129fa6c9716",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/related-esee-1440.webp",
+      "width": 270,
+      "height": 955,
+      "bytes": 39552,
+      "sha256": "05691a33b6909e0faf59620579ed7dcf5b8eb8a8653952fbac6411a47417db01",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/related-esee-375.webp",
+      "width": 335,
+      "height": 872,
+      "bytes": 49980,
+      "sha256": "b546c29a9638f7ba8489fc142c2473e20cd40aabf99ef7fccf0f600530a5fe6f",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/related-gerber-1440.webp",
+      "width": 270,
+      "height": 955,
+      "bytes": 39888,
+      "sha256": "f09f482cd858127919efd06276ad9c4b29f045020d1440ab3b033d345602b746",
+      "visuallyInspectedSource": true
+    },
+    {
+      "file": "docs/qa/morakniv-affiliate/related-gerber-375.webp",
+      "width": 335,
+      "height": 872,
+      "bytes": 49610,
+      "sha256": "21a0cb0d07e575f9b2b73dfe40f9e1a4cce22843aca530a980dc5303faf87e40",
+      "visuallyInspectedSource": true
+    }
+  ],
+  "ci": "See pull request checks for the result tied to its exact head commit. Local results are recorded here before the commit.",
+  "merged": false,
+  "deployed": false
+}

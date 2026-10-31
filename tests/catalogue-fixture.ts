@@ -24,7 +24,7 @@ export const FILTER_2091 = {'3m-2091-p100-particulate-filters':['B001D1JCK4','re
 export const PHASE5 = {
   'gerber-strongarm-fixed-blade-knife':['B00U0IOYOU','fixed-blade-knives',true],
   'esee-4-fixed-blade-knife':['B00UY4NS6K','fixed-blade-knives',true],
-  'morakniv-garberg-blackblade-carbon-survival-kit':['B09214DLJ6','fixed-blade-knives',false],
+  'morakniv-garberg-blackblade-carbon-survival-kit':['B09214DLJ6','fixed-blade-knives',true],
   'royale-velour-plush-thick-toilet-paper':['B085XRS7KP','hygiene-sanitation',true],
 } as const;
 export const ACTIVE_PRODUCTS = ['jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration','fnirsi-gc-01-geiger-counter','midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket',...Object.keys(OUTBREAK),...Object.keys(PHASE46_FILTERS),...Object.keys(FILTER_2091),...Object.entries(PHASE5).filter(([,entry])=>entry[2]).map(([id])=>id)];

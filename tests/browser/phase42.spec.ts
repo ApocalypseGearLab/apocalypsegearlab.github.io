@@ -5,7 +5,7 @@ test('OUTBREAK has fifteen green inventory cards with fourteen active links, com
   await page.goto('/outbreak/');
   await expect(page.locator('article.card')).toHaveCount(15);
   await expect(page.locator('article.card img')).toHaveCount(15);
-  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(14);
+  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(15);
   for(const id of Object.keys(OUTBREAK)) {
     const card=page.locator(`article.card[data-product-id="${id}"]`);
     expect(await card.evaluate(el=>getComputedStyle(el).getPropertyValue('--accent').trim())).toBe('#b6f566');
