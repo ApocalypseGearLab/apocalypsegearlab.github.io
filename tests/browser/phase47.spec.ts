@@ -23,9 +23,9 @@ test('the three documented 3M CTAs work in every placement and emit exactly one 
       expect(events).toHaveLength(count+1);
       expect(events.at(-1)).toMatchObject({product_id:id,asin,merchant:'amazon-ca',marketplace:'ca',destination_url:`https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`,page_location:'http://127.0.0.1:4321'+path});
     }
-    const held=page.locator(`${path.includes('6800')?scope+' ':''}article.card[data-product-id="${id2091}"]`);
-    await expect(held.locator('img')).toHaveAttribute('src',/3m-2091-outbreak-480.webp$/);
-    await expect(held.locator('a[data-affiliate-click]')).toHaveCount(0);
+    const pair=page.locator(`${path.includes('6800')?scope+' ':''}article.card[data-product-id="${id2091}"]`);
+    await expect(pair.locator('img')).toHaveAttribute('src',/3m-2091-outbreak-480.webp$/);
+    await expect(pair.locator('a[data-affiliate-click]')).toHaveAttribute('href','https://www.amazon.ca/dp/B001D1JCK4?tag=apocalypsegear-20');
   }
   for(const [id,[asin]]of Object.entries(PHASE46_FILTERS)){
     await page.goto('/gear/'+id+'/');const own=page.locator('[data-product-purchase] a[data-affiliate-click]');
@@ -35,7 +35,7 @@ test('the three documented 3M CTAs work in every placement and emit exactly one 
   }
 });
 
-test('2091 preserves its full HUD, responsive sources, accessibility and commercial hold at 320–1920px',async({page,request,context})=>{
+test('2091 preserves its full HUD, responsive sources, accessibility and documented pair at 320–1920px',async({page,request,context})=>{
   test.setTimeout(60_000);mkdirSync('.tools/qa/phase4-7',{recursive:true});
   await context.addInitScript(()=>{
     (window as any).__phase47CLS=0;
@@ -55,8 +55,8 @@ test('2091 preserves its full HUD, responsive sources, accessibility and commerc
     expect(await image.evaluate((img:HTMLImageElement)=>img.getBoundingClientRect().width/img.getBoundingClientRect().height)).toBeCloseTo(1,3);
     expect((await request.get((await image.getAttribute('src'))!)).status()).toBe(200);
     await expect(page.locator('.product-artwork--detail figcaption')).toContainText('Concept illustration, not a product photograph.');
-    await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveCount(0);
-    await expect(page.locator('[data-product-purchase]')).toContainText('sale-pack quantity');
+    await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveAttribute('href','https://www.amazon.ca/dp/B001D1JCK4?tag=apocalypsegear-20');
+    await expect(page.locator('main')).toContainText('one pair (two filters)');
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
     expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
     expect(await page.evaluate(()=>(window as any).__phase47CLS)).toBe(0);

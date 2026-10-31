@@ -38,13 +38,13 @@ test('2091 is a separate particulate-only record with the exact ASIN and distinc
   const id='3m-2091-p100-particulate-filters',data=productSchema.parse(rawProducts.get(id));
   assert.equal(data.modelNumber,'2091');assert.equal(data.links.amazonCa.asin,'B001D1JCK4');
   assert.equal(data.links.amazonCa.url,'https://www.amazon.ca/dp/B001D1JCK4?tag=apocalypsegear-20');
-  assert.equal(data.image,null);assert.equal(data.research!.affiliateReview!.decision,'hold');
-  assert.equal(data.research!.listingVerified,false);assert.equal(data.research!.listingEvidence,undefined);
+  assert.equal(data.image,null);assert.equal(data.research!.affiliateReview!.decision,'link-permitted');
+  assert.equal(data.research!.listingVerified,false);assert.equal(data.research!.listingEvidence!.method,'owner-document');
   assert.match(data.summary,/no documented nuisance-level organic-vapor relief/);
-  assert.match(data.research!.affiliateReview!.reason,/sale-pack quantity/);
+  assert.match(data.research!.affiliateReview!.reason,/two filters \(one pair\)/);
   assert.equal(data.reviewStatus,'draft');assert.equal(data.testing,'not-tested');
   assert.equal(data.research!.publicationApproved,false);assert.equal(data.lastVerified,null);
-  assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,null);
+  assert.equal(getMerchantLinks({id,data} as Product,true)[0]!.href,data.links.amazonCa.url);
   assert.equal(productStructuredData({id,data} as Product,site),undefined);
   assert.equal(rawProducts.get('3m-2097-p100-particulate-filters').links.amazonCa.asin,'B07FMJPFTY');
   assert.ok(COMPATIBLE_3M_FILTERS.some(f=>f.id===id&&f.model==='2091'));
@@ -314,7 +314,7 @@ test('thirty registered links retain exact identities and obey product-level evi
     const eligible = canadianAffiliateIssues(product).length === 0;
     assert.equal(getMerchantLinks(product, true)[0]?.href, eligible ? data.links.amazonCa.url : null);
     assert.equal(data.research?.listingVerified, false, 'Link activation must not invent listing verification');
-    if(slug in PHASE46_FILTERS) assert.equal(data.research?.listingEvidence?.method,'owner-document');
+    if(slug in PHASE46_FILTERS || slug in FILTER_2091) assert.equal(data.research?.listingEvidence?.method,'owner-document');
     else assert.equal(data.research?.listingEvidence, undefined);
     if (eligible) assert.equal(data.research?.affiliateReview?.decision, 'link-permitted');
   }

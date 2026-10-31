@@ -1,11 +1,11 @@
 import {test,expect,blockAnalytics} from './fixtures';
 import {OUTBREAK} from '../catalogue-fixture';
 
-test('OUTBREAK has twelve green inventory cards with eleven active links, compact disclosures and small readable concept captions',async({page,request,browser})=>{
+test('OUTBREAK has twelve green inventory cards with twelve active links, compact disclosures and small readable concept captions',async({page,request,browser})=>{
   await page.goto('/outbreak/');
   await expect(page.locator('article.card')).toHaveCount(12);
   await expect(page.locator('article.card img')).toHaveCount(12);
-  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(11);
+  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(12);
   for(const id of Object.keys(OUTBREAK)) {
     const card=page.locator(`article.card[data-product-id="${id}"]`);
     expect(await card.evaluate(el=>getComputedStyle(el).getPropertyValue('--accent').trim())).toBe('#b6f566');

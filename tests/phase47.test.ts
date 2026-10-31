@@ -20,6 +20,7 @@ test('Phase 4.7 changes only three commercial records and appends only the 2091 
   assert.equal(baseline.products.length,31);
   for(const row of baseline.products){
     const current=read(row.file);
+    if(row.id==='3m-2091-p100-particulate-filters') continue; // Phase 4.8 preservation tests cover this record.
     if(!baseline.modifiedProductIds.includes(row.id))assert.equal(hash(JSON.stringify(current)),row.sha256Canonical,row.file);
     else for(const key of ['name','brand','modelNumber','category','specs','pros','useCases','relatedProducts','image','links','testing','reviewStatus','visibility','lastVerified'])assert.deepEqual(current[key],row.data[key],`${row.id}: ${key}`);
     if(row.data){
@@ -65,7 +66,7 @@ for(const [id,[asin]]of Object.entries(PHASE46_FILTERS))test(`${id} permits the 
   assert.equal(getMerchantLinks(blocked)[0]!.href,null,'Safety blocks still win');
 });
 
-test('2091 uses the supplied original and its own authorized image without granting pack or link permission',()=>{
+test('2091 preserves its supplied original and artwork independently of the documented Phase 4.8 link decision',()=>{
   const asset=importedArtwork('3m-2091-p100-particulate-filters')!;
   assert.equal(asset.id,'3m-2091-outbreak');assert.equal(canPublishImportedAsset(asset),true);
   assert.equal(asset.alt,'Concept illustration of two pink 3M 2091 P100 particulate filters in a green tactical HUD frame');
@@ -76,7 +77,7 @@ test('2091 uses the supplied original and its own authorized image without grant
   assert.equal(hash(readFileSync(source.file)),source.sha256);
   assert.notEqual(asset.file,importedArtwork('3m-2097-p100-particulate-filters')!.file);
   const id='3m-2091-p100-particulate-filters',data=productSchema.parse(read('src/data/products/'+id+'.json'));
-  assert.equal(data.links.amazonCa.asin,'B001D1JCK4');assert.equal(getMerchantLinks({id,data} as Product)[0]!.href,null);
-  assert.match(data.research!.affiliateReview!.reason,/sale-pack quantity/);
+  assert.equal(data.links.amazonCa.asin,'B001D1JCK4');assert.equal(getMerchantLinks({id,data} as Product)[0]!.href,data.links.amazonCa.url);
+  assert.match(data.research!.affiliateReview!.reason,/two filters \(one pair\)/);
   assert.match(data.summary,/no documented nuisance-level organic-vapor relief/);
 });

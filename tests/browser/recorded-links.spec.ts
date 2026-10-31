@@ -7,7 +7,7 @@ const products = readdirSync('src/data/products').filter(file => file.endsWith('
 const permittedUrls = new Set(products.map(p => getMerchantLinks(p)[0]?.href).filter(Boolean));
 
 test('recorded product buttons work on catalogues and profiles in isolated new tabs without Amazon traffic', async ({page, context}) => {
-  // 72 isolated new tabs and 30 profiles are checked sequentially; this is
+  // 75 isolated new tabs and 30 profiles are checked sequentially; this is
   // functional QA, not a 30-second performance budget for the entire catalogue.
   test.setTimeout(90_000);
   const intercepted: string[] = [];
@@ -53,6 +53,6 @@ test('recorded product buttons work on catalogues and profiles in isolated new t
       await expect(card.locator('a[data-affiliate-click]')).toHaveCount(getMerchantLinks(related)[0]?.href ? 1 : 0);
     }
   }
-  expect(intercepted).toHaveLength(72); // 24 catalogue + 24 sector + 24 individual buttons
+  expect(intercepted).toHaveLength(75); // 25 catalogue + 25 sector + 25 individual buttons
   expect(new Set(intercepted)).toEqual(permittedUrls);
 });
