@@ -9,9 +9,10 @@ import { productCaution } from '../lib/respirator-filters';
 import { getMerchantLinks } from '../lib/affiliate';
 import AffiliateButton from './AffiliateButton.astro';
 import DisclosureNotice from './DisclosureNotice.astro';
+import type { CtaPlacement } from '../lib/affiliate-analytics';
 
-interface Props { product: Product; headingLevel?: 2 | 3; releasePreview?: boolean }
-const { product, headingLevel = 3, releasePreview = false } = Astro.props;
+interface Props { product: Product; headingLevel?: 2 | 3; releasePreview?: boolean; placement?: CtaPlacement }
+const { product, headingLevel = 3, releasePreview = false, placement = 'related-card' } = Astro.props;
 const Heading = headingLevel === 2 ? 'h2' : 'h3';
 const { data } = product;
 const isPublished = isCommerciallyApproved(product);
@@ -33,7 +34,7 @@ const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
   {productCaution(product) && <p class="card-caution">{productCaution(product)!.split('. ')[0]}.</p>}
   {data.links.amazonCa.url && amazonLink && <div class="card-purchase">
     {amazonLink.href && <DisclosureNotice compact />}
-    {amazonLink.href ? <AffiliateButton link={amazonLink} productId={product.id} /> : <>
+    {amazonLink.href ? <AffiliateButton link={amazonLink} productId={product.id} productName={data.name} placement={placement} /> : <>
       <p class="label pending-message" data-amazon-pending>Amazon link pending verification</p>
       <a href={profileHref} data-pending-details>Details<span class="visually-hidden"> about {data.name}</span></a>
     </>}

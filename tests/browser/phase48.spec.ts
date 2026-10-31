@@ -25,7 +25,7 @@ test('2091 documented-pair link works in all four placements on phone and deskto
       await expect(opened).toHaveURL(url);expect(await opened.evaluate(()=>window.opener)).toBe(null);await opened.close();
       const events=await page.evaluate(()=>((window as any).dataLayer??[]).filter((r:any)=>r[0]==='event'&&r[1]==='affiliate_click').map((r:any)=>Array.from(r)));
       expect(events).toEqual([['event','affiliate_click',{
-        product_id:id,asin:'B001D1JCK4',merchant:'amazon-ca',marketplace:'ca',destination_url:url,
+        product_name:await link.getAttribute('data-product-name'),cta_placement:await link.getAttribute('data-cta-placement'),product_id:id,asin:'B001D1JCK4',merchant:'amazon-ca',marketplace:'ca',destination_url:url,
         page_location:'http://127.0.0.1:4321'+path,send_to:'G-YFJJ5N9RBX',transport_type:'beacon',
       }]]);
       expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);

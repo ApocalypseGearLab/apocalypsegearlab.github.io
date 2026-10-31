@@ -53,7 +53,7 @@ const planningProducts = products.filter(({data}) => data.category === 'fixed-bl
       {products.length === 0 ? (
         <p class="empty">No published reviews yet. Recommendations appear here after editorial research and affiliate disclosure.</p>
       ) : (
-        <div class="grid grid--3">{products.map((p) => <ProductCard product={p} releasePreview={releasePreview} />)}</div>
+        <div class="grid grid--3">{products.map((p) => <ProductCard product={p} releasePreview={releasePreview} placement="collection-card" />)}</div>
       )}
     </section>
   </div>

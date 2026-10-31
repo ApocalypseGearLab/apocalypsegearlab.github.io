@@ -62,7 +62,7 @@ test('four permitted Phase 5 links keep exact ASINs, new tabs and one affiliate 
         const popup=context.waitForEvent('page');if(method==='mouse')await link.click();else{await link.focus();await page.keyboard.press('Enter');}
         const opened=await popup;await expect(opened).toHaveURL(url);expect(await opened.evaluate(()=>window.opener)).toBe(null);await opened.close();
         const events=await page.evaluate(()=>((window as any).dataLayer??[]).filter((r:any)=>r[1]==='affiliate_click').map((r:any)=>r[2]));
-        expect(events).toHaveLength(before+1);expect(events.at(-1)).toEqual({product_id:id,asin,merchant:'amazon-ca',marketplace:'ca',destination_url:url,page_location:'http://127.0.0.1:4321'+path,send_to:'G-YFJJ5N9RBX',transport_type:'beacon'});
+        expect(events).toHaveLength(before+1);expect(events.at(-1)).toEqual({product_name:await link.getAttribute('data-product-name'),cta_placement:await link.getAttribute('data-cta-placement'),product_id:id,asin,merchant:'amazon-ca',marketplace:'ca',destination_url:url,page_location:'http://127.0.0.1:4321'+path,send_to:'G-YFJJ5N9RBX',transport_type:'beacon'});
       }
     }
   }

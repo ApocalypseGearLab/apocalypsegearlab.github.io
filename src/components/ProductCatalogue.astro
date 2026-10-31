@@ -20,7 +20,7 @@ const hasPublished = products.some(isCommerciallyApproved);
     {products.length === 0 ? (
       <p class="empty">No published reviews yet. Products appear here after editorial research.</p>
     ) : (
-      <div class="grid grid--3">{products.map((p) => <ProductCard releasePreview={releasePreview} product={p} headingLevel={2} />)}</div>
+      <div class="grid grid--3">{products.map((p) => <ProductCard releasePreview={releasePreview} product={p} headingLevel={2} placement="catalogue-card" />)}</div>
     )}
   </div>
 </BaseLayout>

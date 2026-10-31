@@ -1,0 +1,259 @@
+{
+  "reviewedAt": "2026-10-31",
+  "baseCommit": "bbf591cdcf8188374a5e979826bf64e948fda3e2",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "durationSeconds": 8
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "durationSeconds": 2
+    },
+    {
+      "command": "npm run test:images",
+      "exitCode": 0,
+      "durationSeconds": 4
+    },
+    {
+      "command": "npm run release:check",
+      "exitCode": 0,
+      "durationSeconds": 1
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "exitCode": 0,
+      "durationSeconds": 1
+    },
+    {
+      "command": "npm run test:products",
+      "exitCode": 0,
+      "durationSeconds": 21
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "durationSeconds": 5
+    },
+    {
+      "command": "npm run test:site",
+      "exitCode": 0,
+      "durationSeconds": 2
+    },
+    {
+      "command": "npm run test:conversion",
+      "exitCode": 0,
+      "durationSeconds": 1
+    },
+    {
+      "command": "npm run test:browser",
+      "exitCode": 0,
+      "durationSeconds": 216
+    }
+  ],
+  "astro": {
+    "files": 87,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 74,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 95,
+    "failed": 0,
+    "focusedPassed": 3,
+    "allProfilesVisited": 34,
+    "primaryAffiliateActivations": 29,
+    "documentaryActivations": 8,
+    "viewports": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "hudProfilesAtEveryViewport": 3,
+    "axeViolations": 0,
+    "measuredCLS": 0,
+    "sourceCustomEventsPerAction": 1,
+    "affiliateCustomEventsPerAction": 1,
+    "googleTrafficBlocked": true,
+    "amazonDestinationsMocked": true
+  },
+  "site": {
+    "htmlPages": 41,
+    "internalReferences": 1598,
+    "sitemapUrls": 5
+  },
+  "conversion": {
+    "products": 34,
+    "authorized": 29,
+    "blocked": 5,
+    "commercialCtaInstances": 176,
+    "nonAmazonPurchaseCtas": 0,
+    "incorrectTags": 0,
+    "documentaryReferencesPreserved": 123,
+    "externalRepeatedAnchorsReplacedByInternalCitations": 203
+  },
+  "initialFindings": [
+    "Initial Astro check found two audit-script typing/unused-variable diagnostics; corrected before the final suite.",
+    "Initial conversion audit used a raw full-document string search and matched CSS in the head; restricted ordering validation to main markup. No ordering defect existed in the rendered profile."
+  ],
+  "screenshots": [
+    {
+      "file": "docs/qa/phase5-2/screenshots/3m-6800-full-facepiece-respirator-cta-1440.webp",
+      "width": 624,
+      "height": 142,
+      "bytes": 5684,
+      "sha256": "39b34bc7e35c1658419e0b01b5a6d30158610463368ab70ac071784f713ce025"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/3m-6800-full-facepiece-respirator-cta-375.webp",
+      "width": 335,
+      "height": 157,
+      "bytes": 5196,
+      "sha256": "a9b5e6c575295ff6426c93f2fa0d500260c468103548fac2091f35f7c91da8ec"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/3m-6800-full-facepiece-respirator-profile-1440.webp",
+      "width": 1440,
+      "height": 7062,
+      "bytes": 678086,
+      "sha256": "3a6eab66a6da3145c36e7dc265393690c6016596c32209daa4c7679eb992d2d7"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/3m-6800-full-facepiece-respirator-profile-375.webp",
+      "width": 375,
+      "height": 13073,
+      "bytes": 619774,
+      "sha256": "bdc306f4ba46c4672518245743f397a38c510652b148264cb53afea5dd88015a"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/3m-6800-full-facepiece-respirator-sources-1440.webp",
+      "width": 1152,
+      "height": 366,
+      "bytes": 22664,
+      "sha256": "b2540fe53ec9757913348e972395713bc054e74b6231e05ec9227cec5427643c"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/3m-6800-full-facepiece-respirator-sources-375.webp",
+      "width": 335,
+      "height": 480,
+      "bytes": 24864,
+      "sha256": "740d79a450e372e29b17287f998f8360f0069f76156596d9e17b6f0a5de61926"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/fenix-cl26r-pro-cta-1440.webp",
+      "width": 624,
+      "height": 141,
+      "bytes": 5684,
+      "sha256": "12cb202de9529b873d703cad1872e6d118f3fbce860e777f74110086493195eb"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/fenix-cl26r-pro-cta-375.webp",
+      "width": 335,
+      "height": 157,
+      "bytes": 4904,
+      "sha256": "8c16c01487bc8a781143a9c9321301a4a6ef5b3e16c49bdd63f5554b4ad960b0"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/fenix-cl26r-pro-profile-1440.webp",
+      "width": 1440,
+      "height": 4902,
+      "bytes": 358542,
+      "sha256": "2264db3ef4e06f2b5927a32669400a563de19084721692eb572baf58c5b4dd2a"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/fenix-cl26r-pro-profile-375.webp",
+      "width": 375,
+      "height": 7406,
+      "bytes": 295704,
+      "sha256": "a842b8c1a5721a4f1949d5375bd424be650dd6a2b7c3beb1ade67e657e34984e"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/fenix-cl26r-pro-sources-1440.webp",
+      "width": 1152,
+      "height": 366,
+      "bytes": 23430,
+      "sha256": "a5a1a4b918d75ff328d3d091997ac92532d569a64be9822ea5c905725cd00ae5"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/fenix-cl26r-pro-sources-375.webp",
+      "width": 335,
+      "height": 480,
+      "bytes": 26390,
+      "sha256": "109b20a58cf6d28983bc7916cc6abe345a0885ffd77e9a892886763cfd2c1c02"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/kidde-held-1440.webp",
+      "width": 624,
+      "height": 365,
+      "bytes": 28878,
+      "sha256": "64d31a2beae811cb7bbd8a9eed017465276c3c9ef3343fbec595b653c6958684"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/kidde-held-375.webp",
+      "width": 335,
+      "height": 493,
+      "bytes": 27222,
+      "sha256": "29267d863a388a42e7fa7aac2f5489ccd0e398addf57738cb462f7c4c7d06364"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/readywise-84-servings-emergency-food-bucket-cta-1440.webp",
+      "width": 624,
+      "height": 142,
+      "bytes": 5634,
+      "sha256": "93fe370b6934efaa6eba989b236a801090488d9993de71a736d28f7be0a294e8"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/readywise-84-servings-emergency-food-bucket-cta-375.webp",
+      "width": 335,
+      "height": 157,
+      "bytes": 4882,
+      "sha256": "630b1584bd6776f11f4ab9e4194f578b5e70a81c07c4a449a281d89286577169"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/readywise-84-servings-emergency-food-bucket-profile-1440.webp",
+      "width": 1440,
+      "height": 6493,
+      "bytes": 599792,
+      "sha256": "cbfbb0944aabc2277c1a3cd29caca543f850c40051058651416d118faf0c0d5b"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/readywise-84-servings-emergency-food-bucket-profile-375.webp",
+      "width": 375,
+      "height": 10616,
+      "bytes": 504786,
+      "sha256": "16e37be5ff8137305f58f51d6e13e08df6c4863931b00e38e44ea691743c2b06"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/readywise-84-servings-emergency-food-bucket-sources-1440.webp",
+      "width": 1152,
+      "height": 616,
+      "bytes": 47156,
+      "sha256": "6c29fe3cc01d99f766d6560401a32a71d7339b1fa13bff64fab600fcd76c6be4"
+    },
+    {
+      "file": "docs/qa/phase5-2/screenshots/readywise-84-servings-emergency-food-bucket-sources-375.webp",
+      "width": 335,
+      "height": 1039,
+      "bytes": 51596,
+      "sha256": "5793e92e47233611a88a05e6cf5464aa178c33bc1002c819c40cbafb2662b4de"
+    }
+  ],
+  "limitations": [
+    "No fresh Amazon.ca live-offer, selected variant, seller, stock, price or private account verification is claimed. Existing documentary decisions remain unchanged.",
+    "Custom events are verified in the browser queue with native navigation; Google delivery/reporting and enhanced-measurement settings were not audited live.",
+    "No field Core Web Vitals, CrUX, INP or comparative LCP measurement is claimed. The lab checks show zero observed CLS for the sampled HUD profiles, reserved image sizes and no new image/network pipeline.",
+    "Remote documentary health checks are separate from product authenticity and commercial eligibility. One known HTTP 404 is retained and flagged; 45 remote destinations remain unverified."
+  ],
+  "ci": "See the PR check tied to the exact head commit; this file records local pre-commit results.",
+  "merged": false,
+  "deployed": false
+}

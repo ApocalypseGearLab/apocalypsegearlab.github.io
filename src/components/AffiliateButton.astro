@@ -1,12 +1,14 @@
 ---
-import { AFFILIATE_REL, type MerchantLink } from '../lib/affiliate';
+import { AFFILIATE_REL, isCanadianPurchaseLink, type MerchantLink } from '../lib/affiliate';
 import { AMAZON_CA_LINKING_ENABLED } from '../config/site';
+import type { CtaPlacement } from '../lib/affiliate-analytics';
 
-interface Props { link: MerchantLink; productId: string }
-const { link, productId } = Astro.props;
+interface Props { link: MerchantLink; productId: string; productName: string; placement: CtaPlacement }
+const { link, productId, productName, placement } = Astro.props;
+const active = AMAZON_CA_LINKING_ENABLED && isCanadianPurchaseLink(link);
 ---
 
-{link.href ? (
+{link.key === 'amazon-ca' && (active ? (
   <a
     class="btn btn--primary"
     href={link.href}
@@ -14,12 +16,14 @@ const { link, productId } = Astro.props;
     rel={AFFILIATE_REL}
     data-affiliate-click
     data-product={productId}
+    data-product-name={productName}
+    data-cta-placement={placement}
     data-merchant={link.key}
     data-marketplace={link.marketplace}
-  >{link.label} <span class="visually-hidden">(affiliate link, opens in a new tab)</span></a>
+  >View on Amazon.ca <span class="visually-hidden">(affiliate link, opens in a new tab)</span></a>
 ) : (
   <span class="btn btn--pending" role="link" aria-disabled="true">{link.label}<span class="label">{link.unavailableReason ?? (link.marketplace !== 'other' && !AMAZON_CA_LINKING_ENABLED ? 'Affiliate eligibility unconfirmed' : 'Listing verification pending')}</span></span>
-)}
+))}
 
 <style>
   .btn--pending { flex-direction: column; align-items: flex-start; max-width: 100%; }

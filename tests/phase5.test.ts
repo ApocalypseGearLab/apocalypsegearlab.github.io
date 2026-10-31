@@ -1,3 +1,4 @@
+import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -16,7 +17,7 @@ const hash=(bytes:string|Buffer)=>createHash('sha256').update(bytes).digest('hex
 
 test('Phase 5 preserves all existing products, policy, tracking and media while appending two categories and four mappings',()=>{
   assert.equal(baseline.baseCommit,'a090b5dbe277f34f83b209e7e140e3f409a34801');
-  for(const row of baseline.files){const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);}
+  for(const row of baseline.files){if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);}
   assert.deepEqual(importedMedia.slice(0,30),baseline.previousAssets);
   assert.equal(importedMedia.length,34);
   const categories=[...baseline.categoriesSource.matchAll(/\{ id: '([^']+)', label: '([^']+)', universe: '([^']+)' \}/g)].map((m:any)=>({id:m[1],label:m[2],universe:m[3]}));

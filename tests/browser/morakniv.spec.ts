@@ -46,7 +46,7 @@ test('Morakniv recorded link works in all four placements with one GA4 event per
       await page.waitForTimeout(250);
       const events=await page.evaluate(()=>((window as any).dataLayer??[]).filter((r:any)=>r[1]==='affiliate_click').map((r:any)=>r[2]));
       expect(events).toHaveLength(count+1);
-      expect(events.at(-1)).toEqual({product_id:id,asin,merchant:'amazon-ca',marketplace:'ca',destination_url:url,page_location:'http://127.0.0.1:4321'+placement.path,send_to:'G-YFJJ5N9RBX',transport_type:'beacon'});
+      expect(events.at(-1)).toEqual({product_name:await link.getAttribute('data-product-name'),cta_placement:await link.getAttribute('data-cta-placement'),product_id:id,asin,merchant:'amazon-ca',marketplace:'ca',destination_url:url,page_location:'http://127.0.0.1:4321'+placement.path,send_to:'G-YFJJ5N9RBX',transport_type:'beacon'});
     }
     if(placement.detail){
       for(const img of await page.locator('main img').all()){await img.scrollIntoViewIfNeeded();await img.evaluate((img:HTMLImageElement)=>img.decode());}

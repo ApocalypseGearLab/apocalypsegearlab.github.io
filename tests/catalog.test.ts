@@ -1,3 +1,4 @@
+import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFileSync, readdirSync } from 'node:fs';
@@ -57,7 +58,7 @@ test('the catalogue audit preserves every previous product, artwork, affiliate p
   assert.equal(baseline.baseCommit,'836f7e10dae4b381a2d6c51607165509d4996bc4');
   assert.equal(baseline.products.length,30,'All 29 previous products and the internal template');
   for(const p of baseline.products.filter((p:any)=>!Object.keys(PHASE46_FILTERS).some(id=>p.file.endsWith('/'+id+'.json'))))assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files){
+  for(const p of baseline.files){if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     // Phase 4.7 appends one mapping; its first 29 entries and all prior files
     // are checked against the immutable Phase 4.7 baseline in phase47.test.ts.
@@ -75,7 +76,7 @@ test('Phase 4.6 appends only three media records and preserves every previous pr
   assert.equal(baseline.baseCommit,'f027d539fd2b4621fc55ec4b103dcdc63245d0ee');
   assert.equal(baseline.products.length,27,'All 26 prior products and template');
   for(const p of baseline.products) assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files) {
+  for(const p of baseline.files) {if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
