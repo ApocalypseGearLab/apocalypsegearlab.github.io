@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-31",
+  "method": "Both original PNGs, new WebPs, official manufacturer reference artwork and rendered mobile/desktop cards/profiles inspected. No regeneration, recolouring or HUD crop.",
+  "assets": [
+    {
+      "productId": "ecoflow-delta-2-portable-power-station",
+      "source": "assets/media/blackout/originals/ecoflow-delta-2-blackout.png",
+      "sourceBytes": 2287853,
+      "sourceSha256": "4dacbe8bc6171df95c3516e15684691641fdfdbb488af9acbbea1d2fc4513ce2",
+      "variants": [
+        {
+          "file": "assets/media/blackout/ecoflow-delta-2-blackout-480.webp",
+          "src": "/images/blackout/ecoflow-delta-2-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 34602,
+          "sha256": "302297d1ac9e8cc345ca3342ee26794c1c790709254f33bcb3cf6a4998b05186"
+        },
+        {
+          "file": "assets/media/blackout/ecoflow-delta-2-blackout-960.webp",
+          "src": "/images/blackout/ecoflow-delta-2-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 111478,
+          "sha256": "589f6f73ef0c4f88298ec467760bfff75b73727956ef5b7c8680774d58be7c09"
+        },
+        {
+          "file": "assets/media/blackout/ecoflow-delta-2-blackout.webp",
+          "src": "/images/blackout/ecoflow-delta-2-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 174444,
+          "sha256": "dfda19d55b0b0d1ae88250bf23e3c260fcf3bb0cd2c5b1c480bbea835f2f3097"
+        }
+      ],
+      "fullSizeReductionPercent": 92.38,
+      "inspection": "Supplied front USB layout, side battery connector, black/silver housing and handle are consistent with the documented DELTA 2 form. Small logo lettering, screen readings and connector labels are stylized, not authenticated markings or specifications. No AC outlet count can be inferred from this front view."
+    },
+    {
+      "productId": "bluetti-elite-100-v2-solar-generator-kit",
+      "source": "assets/media/blackout/originals/bluetti-elite-100-v2-solar-kit-blackout.png",
+      "sourceBytes": 2522417,
+      "sourceSha256": "45f89c6534b45cb4d61c394df019ac5bafaa97f10143d2409db82f15fb39a5ec",
+      "variants": [
+        {
+          "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 40124,
+          "sha256": "dc4c73809a506bef926499b847fc74d8986835af42ecf7bb752ebd0480996a28"
+        },
+        {
+          "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp",
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 141626,
+          "sha256": "72cff685fda5da322820ed0ce7c4957fccfaf2fe299d741132fdbbfdb0944700"
+        },
+        {
+          "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 226494,
+          "sha256": "dc8be86a7f136dc3cd34e8a53cdf32244b432c27026cbadb8192389548440c46"
+        }
+      ],
+      "fullSizeReductionPercent": 91.02,
+      "inspection": "Graphite housing, recessed handle, front AC outlets and folding-panel composition retained. Artwork abbreviates the model to Elite 100 and depicts simplified USB wattage markings: the US manual specifies separate 140 W and 100 W USB-C ports. Do not read the drawn markings as technical facts, panel model, certification or proof of retailer package contents. Full V2 identity is supplied by the profile and documented sources."
+    }
+  ]
+}

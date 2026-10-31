@@ -1,0 +1,482 @@
+
+> apocalypsegearlab@0.1.0 test
+> tsx --test tests/affiliate.test.ts tests/analytics.test.ts tests/catalog.test.ts tests/media-policy.test.ts tests/phase47.test.ts tests/phase48.test.ts tests/phase5.test.ts tests/morakniv.test.ts tests/conversion.test.ts tests/release.test.ts tests/phase53.test.ts
+
+TAP version 13
+# Subtest: Amazon links remain pending before Associates enrollment
+ok 1 - Amazon links remain pending before Associates enrollment
+  ---
+  duration_ms: 4.8376
+  type: 'test'
+  ...
+# Subtest: verified HTTPS Amazon links keep their affiliate tags
+ok 2 - verified HTTPS Amazon links keep their affiliate tags
+  ---
+  duration_ms: 1.877
+  type: 'test'
+  ...
+# Subtest: each Amazon marketplace uses its own domain
+ok 3 - each Amazon marketplace uses its own domain
+  ---
+  duration_ms: 0.801
+  type: 'test'
+  ...
+# Subtest: Canadian short links cannot bypass exact ASIN and tracking checks
+ok 4 - Canadian short links cannot bypass exact ASIN and tracking checks
+  ---
+  duration_ms: 0.2673
+  type: 'test'
+  ...
+# Subtest: Canadian enrollment alone never activates Amazon.com links
+ok 5 - Canadian enrollment alone never activates Amazon.com links
+  ---
+  duration_ms: 0.6753
+  type: 'test'
+  ...
+# Subtest: unsafe protocols, credentials and lookalike Amazon hosts are rejected
+ok 6 - unsafe protocols, credentials and lookalike Amazon hosts are rejected
+  ---
+  duration_ms: 1.4382
+  type: 'test'
+  ...
+# Subtest: null links stay pending and partner links require credential-free HTTPS
+ok 7 - null links stay pending and partner links require credential-free HTTPS
+  ---
+  duration_ms: 1.0371
+  type: 'test'
+  ...
+# Subtest: affiliate relations disclose sponsorship and isolate the new tab
+ok 8 - affiliate relations disclose sponsorship and isolate the new tab
+  ---
+  duration_ms: 0.2601
+  type: 'test'
+  ...
+# Subtest: commercially approved ASIN links still require the exact Canadian model path and tag
+ok 9 - commercially approved ASIN links still require the exact Canadian model path and tag
+  ---
+  duration_ms: 1.1505
+  type: 'test'
+  ...
+# Subtest: initial-period linking permits a verified informational draft without final account approval
+ok 10 - initial-period linking permits a verified informational draft without final account approval
+  ---
+  duration_ms: 1.061
+  type: 'test'
+  ...
+# Subtest: a flag alone, mismatched listing evidence or missing ASIN cannot activate a Canadian link
+ok 11 - a flag alone, mismatched listing evidence or missing ASIN cannot activate a Canadian link
+  ---
+  duration_ms: 0.4763
+  type: 'test'
+  ...
+# Subtest: all non-held profiles can activate independently after documented checks without changing their draft status
+ok 12 - all non-held profiles can activate independently after documented checks without changing their draft status
+  ---
+  duration_ms: 50.5237
+  type: 'test'
+  ...
+# Subtest: the pending button identifies the missing prerequisite rather than final account approval
+ok 13 - the pending button identifies the missing prerequisite rather than final account approval
+  ---
+  duration_ms: 0.2935
+  type: 'test'
+  ...
+# Subtest: reviewed recorded links can activate without claiming live listing verification or final approval
+ok 14 - reviewed recorded links can activate without claiming live listing verification or final approval
+  ---
+  duration_ms: 22.398
+  type: 'test'
+  ...
+# Subtest: recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold
+ok 15 - recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold
+  ---
+  duration_ms: 2.3779
+  type: 'test'
+  ...
+# Subtest: the schema binds each link review to its ASIN and documented sources
+ok 16 - the schema binds each link review to its ASIN and documented sources
+  ---
+  duration_ms: 4.9058
+  type: 'test'
+  ...
+# Subtest: independent URL audit rejects wrong domains, ASIN paths, tags, credentials and fragments without enabling them
+ok 17 - independent URL audit rejects wrong domains, ASIN paths, tags, credentials and fragments without enabling them
+  ---
+  duration_ms: 1.9631
+  type: 'test'
+  ...
+# Subtest: catalogue audit detects accidental duplicate targets and undocumented blocks independently of rendering
+ok 18 - catalogue audit detects accidental duplicate targets and undocumented blocks independently of rendering
+  ---
+  duration_ms: 1.223
+  type: 'test'
+  ...
+# Subtest: complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission
+ok 19 - complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission
+  ---
+  duration_ms: 26.5501
+  type: 'test'
+  ...
+# Subtest: affiliate parameters identify the recorded Canadian destination without page query data
+ok 20 - affiliate parameters identify the recorded Canadian destination without page query data
+  ---
+  duration_ms: 2.3445
+  type: 'test'
+  ...
+# Subtest: malformed, foreign, retagged and incomplete destinations cannot be tracked as affiliate clicks
+ok 21 - malformed, foreign, retagged and incomplete destinations cannot be tracked as affiliate clicks
+  ---
+  duration_ms: 1.791
+  type: 'test'
+  ...
+# Subtest: 2091 is a separate particulate-only record with the exact ASIN and distinct artwork, not a relabelled 2097
+ok 22 - 2091 is a separate particulate-only record with the exact ASIN and distinct artwork, not a relabelled 2097
+  ---
+  duration_ms: 15.9386
+  type: 'test'
+  ...
+# Subtest: the catalogue audit preserves every previous product, artwork, affiliate policy and commercial decision
+ok 23 - the catalogue audit preserves every previous product, artwork, affiliate policy and commercial decision
+  ---
+  duration_ms: 67.595
+  type: 'test'
+  ...
+# Subtest: Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision
+ok 24 - Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision
+  ---
+  duration_ms: 87.2391
+  type: 'test'
+  ...
+# Subtest: Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits
+ok 25 - Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits
+  ---
+  duration_ms: 6.5823
+  type: 'test'
+  ...
+# Subtest: all 26 product identities and the 17 unaudited records are preserved against main
+ok 26 - all 26 product identities and the 17 unaudited records are preserved against main
+  ---
+  duration_ms: 5.1031
+  type: 'test'
+  ...
+# Subtest: prior media, bunker, affiliate configuration and mandatory safety controls survive additive taxonomy integration
+ok 27 - prior media, bunker, affiliate configuration and mandatory safety controls survive additive taxonomy integration
+  ---
+  duration_ms: 60.2096
+  type: 'test'
+  ...
+# Subtest: Midland owner-transcribed ER310-MFN identity permits only the recorded link without a battery or verification guarantee
+ok 28 - Midland owner-transcribed ER310-MFN identity permits only the recorded link without a battery or verification guarantee
+  ---
+  duration_ms: 3.0002
+  type: 'test'
+  ...
+# Subtest: S.O.S. two-pack link permission retains rounded nutrition, dated shelf life and all other product records
+ok 29 - S.O.S. two-pack link permission retains rounded nutrition, dated shelf life and all other product records
+  ---
+  duration_ms: 2.0673
+  type: 'test'
+  ...
+# Subtest: ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared kcal without changing other commercial decisions
+ok 30 - ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared kcal without changing other commercial decisions
+  ---
+  duration_ms: 8.5114
+  type: 'test'
+  ...
+# Subtest: retailer identity evidence cannot replace manufacturer technical evidence or editorial publication approval
+ok 31 - retailer identity evidence cannot replace manufacturer technical evidence or editorial publication approval
+  ---
+  duration_ms: 1.8803
+  type: 'test'
+  ...
+# Subtest: Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits
+ok 32 - Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits
+  ---
+  duration_ms: 1.8676
+  type: 'test'
+  ...
+# Subtest: remaining product holds cannot be bypassed by setting unrelated editorial approval flags
+ok 33 - remaining product holds cannot be bypassed by setting unrelated editorial approval flags
+  ---
+  duration_ms: 2.1665
+  type: 'test'
+  ...
+# Subtest: thirty-six registered links retain exact identities and obey product-level evidence decisions
+ok 34 - thirty-six registered links retain exact identities and obey product-level evidence decisions
+  ---
+  duration_ms: 9.6577
+  type: 'test'
+  ...
+# Subtest: slugs, ASINs and related records are unique and refer to existing products
+ok 35 - slugs, ASINs and related records are unique and refer to existing products
+  ---
+  duration_ms: 7.5755
+  type: 'test'
+  ...
+# Subtest: Kidde and INIU remain blocked and cannot be published by changing only editorial status
+ok 36 - Kidde and INIU remain blocked and cannot be published by changing only editorial status
+  ---
+  duration_ms: 0.5519
+  type: 'test'
+  ...
+# Subtest: editorial publication requires listing verification and safety clearance
+ok 37 - editorial publication requires listing verification and safety clearance
+  ---
+  duration_ms: 2.8544
+  type: 'test'
+  ...
+# Subtest: schema rejects missing evidence, duplicate sources and incorrect ASIN mappings
+ok 38 - schema rejects missing evidence, duplicate sources and incorrect ASIN mappings
+  ---
+  duration_ms: 1.4823
+  type: 'test'
+  ...
+# Subtest: no Product, Review, Offer or AggregateRating data is emitted for drafts
+ok 39 - no Product, Review, Offer or AggregateRating data is emitted for drafts
+  ---
+  duration_ms: 4.3107
+  type: 'test'
+  ...
+# Subtest: approved Product structured data contains identity only, without invented commercial or review data
+ok 40 - approved Product structured data contains identity only, without invented commercial or review data
+  ---
+  duration_ms: 0.7346
+  type: 'test'
+  ...
+# Subtest: Canadian ASIN links reject foreign tags, duplicate tags and extra tracking
+ok 41 - Canadian ASIN links reject foreign tags, duplicate tags and extra tracking
+  ---
+  duration_ms: 0.7551
+  type: 'test'
+  ...
+# Subtest: OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits without fictional safety promises
+ok 42 - OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits without fictional safety promises
+  ---
+  duration_ms: 1.0407
+  type: 'test'
+  ...
+# Subtest: Catalogue has eleven BLACKOUT, ten FALLOUT and fifteen OUTBREAK profiles with substantive original content
+ok 43 - Catalogue has eleven BLACKOUT, ten FALLOUT and fifteen OUTBREAK profiles with substantive original content
+  ---
+  duration_ms: 4.6852
+  type: 'test'
+  ...
+# Subtest: conversion changes preserve all product data, release/SEO/account policy, Google configuration, artwork and home/navigation
+ok 44 - conversion changes preserve all product data, release/SEO/account policy, Google configuration, artwork and home/navigation
+  ---
+  duration_ms: 410.9922
+  type: 'test'
+  ...
+# Subtest: the purchase display guard accepts only canonical Canadian affiliate destinations, never documentary/US/partner controls
+ok 45 - the purchase display guard accepts only canonical Canadian affiliate destinations, never documentary/US/partner controls
+  ---
+  duration_ms: 1.8167
+  type: 'test'
+  ...
+# Subtest: affiliate placement and canonical product name enrich the existing event without page query data
+ok 46 - affiliate placement and canonical product name enrich the existing event without page query data
+  ---
+  duration_ms: 0.5738
+  type: 'test'
+  ...
+# Subtest: source reference events are distinct, constrained and exclude destination/page query strings and fragments
+ok 47 - source reference events are distinct, constrained and exclude destination/page query strings and fragments
+  ---
+  duration_ms: 0.4749
+  type: 'test'
+  ...
+# Subtest: rejected Explorer 300 artwork cannot render in development or production
+ok 48 - rejected Explorer 300 artwork cannot render in development or production
+  ---
+  duration_ms: 1.2538
+  type: 'test'
+  ...
+# Subtest: owner-authorized pack maps thirty-four products while withholding the inaccurate Explorer 300 illustration
+ok 49 - owner-authorized pack maps thirty-four products while withholding the inaccurate Explorer 300 illustration
+  ---
+  duration_ms: 0.461
+  type: 'test'
+  ...
+# Subtest: owner confirmation permits the public bunker without authorizing product artwork
+ok 50 - owner confirmation permits the public bunker without authorizing product artwork
+  ---
+  duration_ms: 0.2205
+  type: 'test'
+  ...
+# Subtest: reference review allows editorial previews without granting commercial permissions
+ok 51 - reference review allows editorial previews without granting commercial permissions
+  ---
+  duration_ms: 0.2065
+  type: 'test'
+  ...
+# Subtest: Morakniv fix preserves other products, policy, tracking, SEO code and all original media
+ok 52 - Morakniv fix preserves other products, policy, tracking, SEO code and all original media
+  ---
+  duration_ms: 183.6081
+  type: 'test'
+  ...
+# Subtest: Morakniv owner-model reference permits only the recorded Canadian link and leaves offer verification and SEO separate
+ok 53 - Morakniv owner-model reference permits only the recorded Canadian link and leaves offer verification and SEO separate
+  ---
+  duration_ms: 47.795
+  type: 'test'
+  ...
+# Subtest: Phase 4.7 changes only three commercial records and appends only the 2091 media mapping
+ok 54 - Phase 4.7 changes only three commercial records and appends only the 2091 media mapping
+  ---
+  duration_ms: 136.3524
+  type: 'test'
+  ...
+# Subtest: 3m-60921-organic-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 55 - 3m-60921-organic-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 28.5873
+  type: 'test'
+  ...
+# Subtest: 3m-60926-multi-gas-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 56 - 3m-60926-multi-gas-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 2.5303
+  type: 'test'
+  ...
+# Subtest: 3m-2097-p100-particulate-filters permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 57 - 3m-2097-p100-particulate-filters permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 4.2958
+  type: 'test'
+  ...
+# Subtest: 2091 preserves its supplied original and artwork independently of the documented Phase 4.8 link decision
+ok 58 - 2091 preserves its supplied original and artwork independently of the documented Phase 4.8 link decision
+  ---
+  duration_ms: 19.7084
+  type: 'test'
+  ...
+# Subtest: Phase 4.8 preserves every other product, all artwork, policies and 2091 technical precautions
+ok 59 - Phase 4.8 preserves every other product, all artwork, policies and 2091 technical precautions
+  ---
+  duration_ms: 124.4243
+  type: 'test'
+  ...
+# Subtest: 2091 owner-document resolves the pair hold without authenticating units or granting editorial approval
+ok 60 - 2091 owner-document resolves the pair hold without authenticating units or granting editorial approval
+  ---
+  duration_ms: 32.52
+  type: 'test'
+  ...
+# Subtest: Phase 5 preserves all existing products, policy, tracking and media while appending two categories and four mappings
+ok 61 - Phase 5 preserves all existing products, policy, tracking and media while appending two categories and four mappings
+  ---
+  duration_ms: 152.6064
+  type: 'test'
+  ...
+# Subtest: gerber-strongarm-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+ok 62 - gerber-strongarm-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 31.1379
+  type: 'test'
+  ...
+# Subtest: esee-4-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+ok 63 - esee-4-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 2.1326
+  type: 'test'
+  ...
+# Subtest: morakniv-garberg-blackblade-carbon-survival-kit preserves exact Canadian identity and its documented product-level decision
+ok 64 - morakniv-garberg-blackblade-carbon-survival-kit preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 1.9314
+  type: 'test'
+  ...
+# Subtest: royale-velour-plush-thick-toilet-paper preserves exact Canadian identity and its documented product-level decision
+ok 65 - royale-velour-plush-thick-toilet-paper preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 1.9413
+  type: 'test'
+  ...
+# Subtest: four supplied originals map to unique three-size WebPs without changing old artwork or using pictures as package proof
+ok 66 - four supplied originals map to unique three-size WebPs without changing old artwork or using pictures as package proof
+  ---
+  duration_ms: 41.6159
+  type: 'test'
+  ...
+# Subtest: Royale physical roll count and Garberg offer uncertainty remain explicit instead of becoming invented commercial facts
+ok 67 - Royale physical roll count and Garberg offer uncertainty remain explicit instead of becoming invented commercial facts
+  ---
+  duration_ms: 4.8963
+  type: 'test'
+  ...
+# Subtest: Phase 5.3 preserves all 34 earlier products, artwork, release/Google/SEO policy and shared conversion renderers
+ok 68 - Phase 5.3 preserves all 34 earlier products, artwork, release/Google/SEO policy and shared conversion renderers
+  ---
+  duration_ms: 155.9158
+  type: 'test'
+  ...
+# Subtest: ecoflow-delta-2-portable-power-station permits only its documented recorded link, preserving independent SEO and safety controls
+ok 69 - ecoflow-delta-2-portable-power-station permits only its documented recorded link, preserving independent SEO and safety controls
+  ---
+  duration_ms: 42.5535
+  type: 'test'
+  ...
+# Subtest: bluetti-elite-100-v2-solar-generator-kit permits only its documented recorded link, preserving independent SEO and safety controls
+ok 70 - bluetti-elite-100-v2-solar-generator-kit permits only its documented recorded link, preserving independent SEO and safety controls
+  ---
+  duration_ms: 19.0784
+  type: 'test'
+  ...
+# Subtest: BLUETTI advertised title and manufacturer bundle never establish exact retailer panel/cables; DELTA 2 does not acquire a solar panel
+ok 71 - BLUETTI advertised title and manufacturer bundle never establish exact retailer panel/cables; DELTA 2 does not acquire a solar panel
+  ---
+  duration_ms: 0.9354
+  type: 'test'
+  ...
+# Subtest: mandatory holds survive accidental status and approval flag changes
+ok 72 - mandatory holds survive accidental status and approval flag changes
+  ---
+  duration_ms: 16.6936
+  type: 'test'
+  ...
+# Subtest: published specifications cannot lose their included manufacturer evidence
+ok 73 - published specifications cannot lose their included manufacturer evidence
+  ---
+  duration_ms: 5.1044
+  type: 'test'
+  ...
+# Subtest: concrete per-product holds also prevent editorial publication after unrelated approval flags change
+ok 74 - concrete per-product holds also prevent editorial publication after unrelated approval flags change
+  ---
+  duration_ms: 14.3456
+  type: 'test'
+  ...
+# Subtest: removing the research object cannot bypass the published schema guard
+ok 75 - removing the research object cannot bypass the published schema guard
+  ---
+  duration_ms: 0.6283
+  type: 'test'
+  ...
+# Subtest: public reference visibility does not grant commercial approval or buying links
+ok 76 - public reference visibility does not grant commercial approval or buying links
+  ---
+  duration_ms: 1.7366
+  type: 'test'
+  ...
+# Subtest: all eight selected profiles are public references, including held products with prominent cautions
+ok 77 - all eight selected profiles are public references, including held products with prominent cautions
+  ---
+  duration_ms: 4.9385
+  type: 'test'
+  ...
+# Subtest: new drafts and templates stay internal without an explicit visibility selection
+ok 78 - new drafts and templates stay internal without an explicit visibility selection
+  ---
+  duration_ms: 2.2457
+  type: 'test'
+  ...
+1..78
+# tests 78
+# suites 0
+# pass 78
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1825.8631

@@ -1,0 +1,150 @@
+{
+  "simulation": true,
+  "realConversions": false,
+  "results": [
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/gear/",
+      "placement": "catalogue-card",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/gear/",
+      "placement": "catalogue-card",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/blackout/",
+      "placement": "collection-card",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/blackout/",
+      "placement": "collection-card",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "placement": "profile-summary",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "placement": "profile-summary",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "placement": "related-card",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "asin": "B0B9XB57XM",
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "placement": "related-card",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/gear/",
+      "placement": "catalogue-card",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/gear/",
+      "placement": "catalogue-card",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/blackout/",
+      "placement": "collection-card",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/blackout/",
+      "placement": "collection-card",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "placement": "profile-summary",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "placement": "profile-summary",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "placement": "related-card",
+      "method": "mouse",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "asin": "B0FD3VBD6G",
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "placement": "related-card",
+      "method": "keyboard",
+      "eventsAdded": 1,
+      "destination": "https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20"
+    }
+  ]
+}

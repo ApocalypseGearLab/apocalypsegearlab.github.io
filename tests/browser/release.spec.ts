@@ -24,8 +24,8 @@ test('production restores the authorized bunker while enforcing artwork permissi
   }
   for (const route of ['/review/gear/', '/review/blackout/']) expect((await request.get(route)).status()).toBe(404);
   await page.goto('/gear/?view=release');
-  await expect(page.locator('article.card')).toHaveCount(34);
-  await expect(page.locator('a[data-affiliate-click]')).toHaveCount(29);
+  await expect(page.locator('article.card')).toHaveCount(36);
+  await expect(page.locator('a[data-affiliate-click]')).toHaveCount(31);
   for (const slug of candidates) {
     await page.goto(`/gear/${slug}/`);
     await expect(page.getByText(merchantFor(slug).href ? 'Informational profile.' : 'Informational profile — verification in progress.',{exact:true})).toBeVisible();
@@ -53,9 +53,9 @@ test('BLACKOUT candidate previews use reviewed illustrations and exclude commerc
     await page.goto(`http://127.0.0.1:4322/review${route}`);
     await page.addStyleTag({ content: 'astro-dev-toolbar { display: none !important; }' });
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
-    await expect(page.locator('article.card')).toHaveCount(6);
+    await expect(page.locator('article.card')).toHaveCount(8);
     await expect(page.locator('.neutral-media')).toHaveCount(0);
-    await expect(page.locator('article.card img')).toHaveCount(6);
+    await expect(page.locator('article.card img')).toHaveCount(8);
     for (const slug of held) await expect(page.locator(`a[href*="/gear/${slug}/"]`)).toHaveCount(0);
     for (const slug of candidates) await expect(page.locator(`article.card :is(h2, h3) a[href="/review/gear/${slug}/"]`)).toHaveCount(1);
     for (const width of widths) {

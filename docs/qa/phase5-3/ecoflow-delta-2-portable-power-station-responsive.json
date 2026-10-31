@@ -1,0 +1,66 @@
+{
+  "id": "ecoflow-delta-2-portable-power-station",
+  "records": [
+    {
+      "width": 320,
+      "violations": 0,
+      "cls": 0,
+      "image": {
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-delta-2-blackout-480.webp",
+        "width": 280,
+        "height": 280
+      }
+    },
+    {
+      "width": 375,
+      "violations": 0,
+      "cls": 0,
+      "image": {
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-delta-2-blackout-480.webp",
+        "width": 335,
+        "height": 335
+      }
+    },
+    {
+      "width": 768,
+      "violations": 0,
+      "cls": 0,
+      "image": {
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-delta-2-blackout-960.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "width": 1024,
+      "violations": 0,
+      "cls": 0,
+      "image": {
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-delta-2-blackout-960.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "width": 1440,
+      "violations": 0,
+      "cls": 0,
+      "image": {
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-delta-2-blackout-960.webp",
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "width": 1920,
+      "violations": 0,
+      "cls": 0,
+      "image": {
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-delta-2-blackout-960.webp",
+        "width": 640,
+        "height": 640
+      }
+    }
+  ],
+  "errors": []
+}

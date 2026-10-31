@@ -106,7 +106,7 @@ test('all non-held profiles can activate independently after documented checks w
     else { assert.equal(link.href, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`); activated++; }
     assert.equal(candidate.data.reviewStatus, 'draft');
   }
-  assert.equal(activated, 31);
+  assert.equal(activated, 33);
   assert.equal(retainedHolds, 3);
 });
 
@@ -134,7 +134,7 @@ test('reviewed recorded links can activate without claiming live listing verific
     else { assert.equal(link.href, null); assert.ok(link.unavailableReason); held++; }
     assert.equal(getMerchantLinks(p, false)[0]?.href, null, 'The account linking switch still applies');
   }
-  assert.equal(active, 29); assert.equal(held, 5);
+  assert.equal(active, 31); assert.equal(held, 5);
 });
 
 test('recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold', () => {
@@ -195,9 +195,9 @@ test('catalogue audit detects accidental duplicate targets and undocumented bloc
 test('complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission',()=>{
   const products=readdirSync('src/data/products').filter(file=>file.endsWith('.json')).map(file=>({id:file.replace('.json',''),data:productSchema.parse(JSON.parse(readFileSync('src/data/products/'+file,'utf8')))} as Product));
   const audit=auditCanadianCatalogue(products);
-  assert.equal(audit.products,34);assert.equal(audit.invalidUrls,0);
+  assert.equal(audit.products,36);assert.equal(audit.invalidUrls,0);
   assert.equal(audit.duplicateAsins,0);assert.equal(audit.duplicateUrls,0);
-  assert.equal(audit.active,29);assert.equal(audit.blocked,5);assert.equal(audit.undocumentedBlocks,0);
+  assert.equal(audit.active,31);assert.equal(audit.blocked,5);assert.equal(audit.undocumentedBlocks,0);
   assert.equal(audit.offersVerified,0,'Recorded-link permission does not invent an independently verified offer');
   for(const row of audit.rows)assert.equal(row.buttonActive,ACTIVE_PRODUCTS.includes(row.slug),row.slug);
 });

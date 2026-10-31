@@ -93,7 +93,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
     // Inspect the actual production build, independent of development HMR reloads.
     await page.goto('/blackout/');
     const images = page.locator('.product-artwork img');
-    await expect(images).toHaveCount(8);
+    await expect(images).toHaveCount(10);
     const rejected = page.locator('article.card').filter({ has: page.locator('a[href="/gear/jackery-explorer-300/"]') });
     await expect(rejected.locator('img')).toHaveCount(0);
     await expect(rejected.locator('.neutral-media')).toHaveCount(1);
@@ -113,7 +113,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
       expect(actual.alt).toMatch(/^Concept illustration/);
       sources.push(actual.src);
     }
-    expect(new Set(sources).size).toBe(8);
+    expect(new Set(sources).size).toBe(10);
     await page.locator('article.card a').first().focus();
     expect(await page.locator('article.card a').first().evaluate((link) => getComputedStyle(link).outlineStyle)).toBe('solid');
     await page.locator('article.card a').first().evaluate((link: HTMLElement) => link.blur());

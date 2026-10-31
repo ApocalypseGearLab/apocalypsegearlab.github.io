@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-31",
+  "ownerDocumentation": {
+    "ecoflow-delta-2-portable-power-station": {
+      "asin": "B0B9XB57XM",
+      "model": "DELTA 2",
+      "owner": "The Phase 5.3 work order explicitly associates B0B9XB57XM with DELTA 2, 1024 Wh LiFePO4 and 1800 W. It reports an earlier Amazon.ca screenshot identifying EcoFlow Inc-CA as seller/shipper, but no original Amazon capture or capture date was available for inspection here. The supplied attachment is concept artwork, not that screenshot.",
+      "uncertain": "Current selected offer, seller, stock, Canadian electrical labels, accessories and authenticity remain independently unverified. No solar panel or extra battery inclusion is established."
+    },
+    "bluetti-elite-100-v2-solar-generator-kit": {
+      "asin": "B0FD3VBD6G",
+      "model": "Elite 100 V2",
+      "owner": "Owner transcription associates B0FD3VBD6G with the observed title BLUETTI Solar Generator Elite 100 V2 (2025 New) with 200W Solar Panel Included, 1024Wh Portable Power Station. The owner describes the intended selection as Elite 100 V2 with a 200 W panel; the supplied title is from an Amazon.ca result, not an independently inspected selected-offer components list. Exact panel model, cables and other accessories are expressly unconfirmed. No original Amazon capture or capture date was available for inspection here.",
+      "uncertain": "A 200 W panel is advertised in the owner-transcribed title, not independently verified package contents. Exact panel model, cable/adapter inclusion, selected offer, seller, stock and Canadian labels remain unconfirmed. Manufacturer bundle documentation is not proof of this ASIN package."
+    }
+  },
+  "liveAmazon": {
+    "verified": false,
+    "reader": "inaccessible; no observable HTTP status; no redirect or selected variant successfully inspected"
+  },
+  "manufacturerReferences": [
+    "https://ca.ecoflow.com/products/delta-2-portable-power-station",
+    "https://manuals.ecoflow.com/us/product/delta-2-portable-power-station?lang=en_US",
+    "https://www.bluettipower.ca/pages/elite-100-v2-launch",
+    "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794",
+    "https://www.bluettipower.ca/pages/solar-generator"
+  ],
+  "decision": "Both recorded links permitted under unchanged owner-document review policy. BLUETTI title documents advertised 200 W inclusion but not exact panel/cables; retain explicit consumer check and noindex. No physical inspection, final account approval, price or stock validation claimed."
+}

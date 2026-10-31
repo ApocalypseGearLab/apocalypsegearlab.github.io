@@ -1,0 +1,70 @@
+Phase 5.3 adds two BLACKOUT power stations from main `1137975d895aa5ce34b3a5a78abd91f6da08f74d` (PR #24 merged). Branch: `feat/blackout-ecoflow-bluetti-power-stations`. All 34 previous product JSON files, original artwork, bunker, account switches, release policy, SEO code and GA4 implementation are preserved. The existing `power-stations` category is reused. No merge or deployment is authorized by this change.
+
+**Product and commercial decisions**
+
+| Profile | Model / ASIN | Recorded Canadian destination | Decision |
+|---|---|---|---|
+| `/gear/ecoflow-delta-2-portable-power-station/` | DELTA 2 / B0B9XB57XM | https://www.amazon.ca/dp/B0B9XB57XM?tag=apocalypsegear-20 | ACTIVE: recorded-link permission under the existing owner-document procedure |
+| `/gear/bluetti-elite-100-v2-solar-generator-kit/` | Elite 100 V2 / B0FD3VBD6G | https://www.amazon.ca/dp/B0FD3VBD6G?tag=apocalypsegear-20 | ACTIVE: owner-transcribed advertised 200 W solar offer; exact panel and cable contents remain unconfirmed |
+
+These are permissions to expose the recorded destinations, not final account approval, independently verified current listings or physical product authentication. The unchanged policy accepts a documented ASIN/model reference where no concrete contradiction or mandatory safety block has been established. It does not demand physical inspection merely to permit a recorded link. This is the same distinction used for the already merged Morakniv correction.
+
+The owner’s Phase 5.3 work order explicitly matches DELTA 2 to B0B9XB57XM and reports a historical Amazon capture. That original Amazon capture and its date were not supplied for inspection in this task. The owner’s follow-up expressly associates B0FD3VBD6G with the observed title “BLUETTI Solar Generator Elite 100 V2 (2025 New) with 200W Solar Panel Included, 1024Wh Portable Power Station.” The owner says that title came from an Amazon.ca result and expressly leaves the panel model and cables unconfirmed. It is not a selected-offer included-components list. Neither current seller, inventory, price nor genuine supply was verified. Historical prices and stock have not been published.
+
+Amazon.ca could not be retrieved through the web reader. No observable HTTP status, redirect-chain verification or successful live selected-variant inspection is claimed. The two supplied image attachments are finished concept illustrations, not the missing Amazon listing captures. `listingEvidence.method` is `owner-document`, `listingVerified` remains false, both records are informational drafts and `safetyStatus` remains pending. No arbitrary live-access or final-account-approval hold was introduced.
+
+**Manufacturer evidence and its limits**
+
+- [EcoFlow Canada DELTA 2 specifications](https://ca.ecoflow.com/products/delta-2-portable-power-station): station identity, 1024 Wh LFP, rated 1800 W shared AC output and documented ports/input limits. Do not confuse X-Boost with continuous output, or DELTA 2 with DELTA 2 Max, an expansion battery, DELTA 3 or DELTA Pro.
+- [EcoFlow DELTA 2 manual](https://manuals.ecoflow.com/us/product/delta-2-portable-power-station?lang=en_US): charging, EPS limitations, storage and safety. Its station box list excludes solar panels and the solar charging cable; this does not independently inventory Amazon’s package. No solar panel or extra battery is established as included for this ASIN.
+- [BLUETTI Elite 100 V2 technical overview](https://www.bluettipower.ca/pages/elite-100-v2-launch), [US/Canada EN-FR manual](https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794) and [Canadian solar configurations](https://www.bluettipower.ca/pages/solar-generator): support the station’s capacity, chemistry, rated output and compatible solar-input limits, plus the existence of a manufacturer-listed 200 W configuration. These manufacturer configurations do not establish this Amazon ASIN’s exact panel, connecting cables or seller package.
+
+The public BLUETTI name is deliberately “BLUETTI Elite 100 V2 — 200 W Solar Offer,” with a summary and buying checks that identify the advertised panel and the remaining contents uncertainty. The station-only and solar-offer evidence are kept separate. A panel model such as PV200/PV200D is not guessed. Check the selected seller’s contents list and cable/adapter compatibility before purchase. No 200 W panel is presented as delivering the station’s maximum 1000 W input or a guaranteed charging time.
+
+Both profiles provide English overview, cited technical specifications, advantages, limits, applications, buying checks, battery/storage guidance and technical sources at the bottom. They distinguish stored energy from running/startup power and omit guaranteed runtime, certification, review/rating or hands-on-test claims. Safety notes cover ventilation, liquids, damaged batteries, operating limits, backfeeding and safety-critical loads. They link to one another as related alternatives, with additional existing equipment references; no old product record was edited to add reciprocal links.
+
+**Images and rights**
+
+Original owner files are preserved byte for byte in `assets/media/blackout/originals/`. Site integration is authorized by the owner’s explicit Phase 5.3 work order supplying the finished artwork. The provenance scope records this instruction; it does not assert independent chain-of-title verification, absence of third-party references, manufacturer endorsement or authenticity of markings. That scope is not extended to other assets.
+
+| Asset stem in `assets/media/blackout/` | Original PNG bytes | WebP 480 bytes | WebP 960 bytes | WebP 1254 bytes | Full-size reduction |
+|---|---:|---:|---:|---:|---:|
+| `ecoflow-delta-2-blackout` | 2,287,853 | 34,602 | 111,478 | 174,444 | 92.38% |
+| `bluetti-elite-100-v2-solar-kit-blackout` | 2,522,417 | 40,124 | 141,626 | 226,494 | 91.02% |
+
+Delivery paths use `/images/blackout/` and the same stems, with `-480.webp`, `-960.webp` and `.webp` suffixes. SHA-256, dimensions, source names and CSV product/ASIN associations are recorded in `src/data/media/imported-manifest.json`, `assets/media/phase5-3-image-manifest.csv` and [media review](qa/phase5-3/media-review.json). Only these two PNGs were encoded: quality 85, effort 6, no crop/recolour/upscale, full amber HUD retained. All earlier image files are unchanged.
+
+Both local original PNGs and new WebPs were inspected. EcoFlow’s official Canadian product image was also inspected: handle, front USB arrangement, side connector and black/silver proportions are consistent in the supplied concept. BLUETTI’s official feature artwork was inspected against the supplied station shape and front layout. The supplied BLUETTI concept abbreviates the model to “Elite 100” and simplifies the printed USB wattage; the manual, rather than the drawing, establishes separate 140 W and 100 W USB-C outputs. These small illustrative markings are not reproduced as technical facts. Existing discrete captions say the image is a concept, not a product photograph, and labels are not specifications. The pictured solar panel establishes neither a model nor package inclusion.
+
+The BLACKOUT static media endpoint previously exposed only each base file. It now follows the already used FALLOUT variant-delivery pattern, retaining the permission filter and path validation. Production validation verifies every delivered original and responsive variant byte against its authorized source. The rejected Explorer 300 picture remains unavailable.
+
+**Integration, SEO and tracking**
+
+Both new profiles appear once in `/gear/` and `/blackout/`, use the existing amber `power-stations` taxonomy and have mutual related cards. The BLACKOUT power checklist links the existing stations and these additions, with load/recharging/connection precautions. FALLOUT, OUTBREAK, home and navigation are preserved. Responsive `srcset`/`sizes`, intrinsic square dimensions, contained framing and card lazy-loading use the existing renderer.
+
+Both new profiles keep `noindex, nofollow`, unique title/description/H1/canonical and BreadcrumbList only. There are no fabricated Product Offer, price, availability or rating schemas. Neither new draft enters the five-URL sitemap. Existing sitemap and robots content, previous profile metadata and documentary URL sets are unchanged. In the conversion audit, only the two new artwork entries on the catalogue/BLACKOUT hub are excluded from the historical equality comparison; every old image’s attributes and order remain compared.
+
+Existing GA4 ID `G-YFJJ5N9RBX`, delegated tracking code and one loader/config remain unchanged. Amazon buttons use the exact Canadian ASIN/tag, `target="_blank"`, `rel="sponsored nofollow noopener"` and nearby disclosure. The dedicated browser test checks both stations with mouse and keyboard in catalogue, BLACKOUT, profile and related-card placements: 16 deliberate QA activations. Amazon responses and Google requests are isolated; queued `affiliate_click` events are simulated validation, not real conversions or proof of private GA4 report visibility.
+
+**Validation and delivery record**
+
+The detailed validation results, screenshots, file inventory and PR/CI status are appended after the final browser and CI runs below. Machine-readable evidence lives in [evidence.json](qa/phase5-3/evidence.json), [preservation.json](qa/phase5-3/preservation.json) and [conversion-audit.json](qa/phase5-3/conversion-audit.json). The preservation baseline was captured before implementation; old historical baselines were not rewritten. Explicit exceptions cover the append-only manifest, checklist and responsive BLACKOUT route, with byte/content and production-delivery assertions taking over those narrow integrations.
+
+The final full local Chromium run passed **100/100 tests** after correcting the BLACKOUT private-preview expectation from six to eight eligible cards. The earlier run passed 99/100 and exposed this stale test expectation; no commercial hold was removed to fix it. The new station-specific tests passed in both runs. The missing small-image endpoints found by production asset validation were fixed before the final run. Temporary product-schema fixtures and the production build are revalidated after browser-server shutdown so the delivered `dist` contains no fixtures.
+
+Responsive checks cover **320, 375, 768, 1024, 1440 and 1920 px**. Both new profiles returned zero automated axe WCAG 2 A/AA and 2.1 AA violations, no horizontal page overflow or JavaScript errors. The dedicated local records observed CLS 0 at all six widths. This is bounded desktop Chromium QA, not WCAG certification, field Core Web Vitals, INP, CrUX or a real-device network performance study. Below-fold cards remain lazy-loaded; the full responsive product frame is contained rather than cropped. No new runtime dependency, tracker or font was added.
+
+The global audit finds **36 visible profiles, 31 permitted recorded links, five unchanged product holds, 43 HTML pages, 190 rendered commercial CTA instances, zero incorrect tags and zero non-Amazon purchase CTAs**. Site validation checks **1,700 internal references** and the same **five sitemap URLs**. The previous 34 product records and all previous media hashes remain protected by the pre-change baseline (192 files, with the narrow responsive-route exception documented above).
+
+| Captured product | Catalogue card | BLACKOUT card | Complete profile |
+|---|---|---|---|
+| EcoFlow, 375 px | [Phone](qa/phase5-3/screenshots/ecoflow-delta-2-portable-power-station-catalogue-card-375.webp) | [Phone](qa/phase5-3/screenshots/ecoflow-delta-2-portable-power-station-blackout-card-375.webp) | [Phone](qa/phase5-3/screenshots/ecoflow-delta-2-portable-power-station-profile-375.webp) |
+| EcoFlow, 1440 px | [Desktop](qa/phase5-3/screenshots/ecoflow-delta-2-portable-power-station-catalogue-card-1440.webp) | [Desktop](qa/phase5-3/screenshots/ecoflow-delta-2-portable-power-station-blackout-card-1440.webp) | [Desktop](qa/phase5-3/screenshots/ecoflow-delta-2-portable-power-station-profile-1440.webp) |
+| BLUETTI, 375 px | [Phone](qa/phase5-3/screenshots/bluetti-elite-100-v2-solar-generator-kit-catalogue-card-375.webp) | [Phone](qa/phase5-3/screenshots/bluetti-elite-100-v2-solar-generator-kit-blackout-card-375.webp) | [Phone](qa/phase5-3/screenshots/bluetti-elite-100-v2-solar-generator-kit-profile-375.webp) |
+| BLUETTI, 1440 px | [Desktop](qa/phase5-3/screenshots/bluetti-elite-100-v2-solar-generator-kit-catalogue-card-1440.webp) | [Desktop](qa/phase5-3/screenshots/bluetti-elite-100-v2-solar-generator-kit-blackout-card-1440.webp) | [Desktop](qa/phase5-3/screenshots/bluetti-elite-100-v2-solar-generator-kit-profile-1440.webp) |
+
+The supplied original PNGs and selected exported WebPs, both new cards at phone/desktop sizes and full rendered profiles were visually reviewed. The twelve screenshot artifacts are QA exports; their WebP encoding does not alter the production product images.
+
+See [validation.json](qa/phase5-3/validation.json) and its individual command logs for the exact executed checks, [affiliate-events.json](qa/phase5-3/affiliate-events.json) for the 16 isolated actions, the two `*-responsive.json` records for viewport results and [changed-files.txt](qa/phase5-3/changed-files.txt) for the complete changed-file inventory. CI status and the single pull-request URL are reported in the delivery message and PR checks; no CI success is assumed before its run completes.
+
+**Remaining follow-up:** independently match the selected Canadian offers and electrical labels before separate full editorial/indexing approval. For BLUETTI, obtain the actual selected-offer components list naming the 200 W panel and cable/adapters before representing those items as verified package facts. Keep Amazon final approval false until official proof exists. The owner should review the recorded-link decisions, artwork limitations and CI before merging; this change does not merge or deploy the site.

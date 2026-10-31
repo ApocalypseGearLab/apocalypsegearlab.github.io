@@ -21,6 +21,12 @@ for(const file of pages){
  const previous=baseline.pages.find((p:{path:string})=>p.path===path);
  if(previous){
   const meta={path,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,h1:$('h1').text(),jsonLd:$('script[type="application/ld+json"]').map((_,e)=>JSON.parse($(e).text())).get(),images:$('main img').toArray().map(e=>Object.fromEntries(['src','srcset','sizes','alt','width','height','loading','fetchpriority'].map(a=>[a,$(e).attr(a)??null]))),header:$('body > header a').map((_,e)=>({href:$(e).attr('href'),text:$(e).text().trim()})).get(),footer:$('body > footer a').map((_,e)=>({href:$(e).attr('href'),text:$(e).text().trim()})).get(),externalReferences:[...new Set($('main a[href^="https://"]').not('[data-affiliate-click]').map((_,e)=>$(e).attr('href')).get())].sort()};
+  // New records add artwork only to the catalogue and their own sector.
+  // Every previous image retains exactly the same attributes and ordering.
+  if(path==='/gear/'||path==='/blackout/'){
+   const added=new Set(['ecoflow-delta-2-blackout','bluetti-elite-100-v2-solar-kit-blackout'].flatMap(stem=>[480,960,1254].map(width=>'/images/blackout/'+stem+(width===1254?'':'-'+width)+'.webp')));
+   meta.images=meta.images.filter(img=>!added.has(img.src??''));
+  }
   assert.deepEqual(meta,previous,'Preserve rendered metadata, image attributes, navigation and documentary URL set: '+path);
  }
  // Inspect every external button, not just anchors already labelled for tracking.

@@ -27,4 +27,8 @@ export const PHASE5 = {
   'morakniv-garberg-blackblade-carbon-survival-kit':['B09214DLJ6','fixed-blade-knives',true],
   'royale-velour-plush-thick-toilet-paper':['B085XRS7KP','hygiene-sanitation',true],
 } as const;
-export const ACTIVE_PRODUCTS = ['jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration','fnirsi-gc-01-geiger-counter','midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket',...Object.keys(OUTBREAK),...Object.keys(PHASE46_FILTERS),...Object.keys(FILTER_2091),...Object.entries(PHASE5).filter(([,entry])=>entry[2]).map(([id])=>id)];
+export const PHASE53 = {
+  'ecoflow-delta-2-portable-power-station':['B0B9XB57XM','power-stations',true],
+  'bluetti-elite-100-v2-solar-generator-kit':['B0FD3VBD6G','power-stations',true],
+} as const;
+export const ACTIVE_PRODUCTS = ['jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration','fnirsi-gc-01-geiger-counter','midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket',...Object.keys(PHASE53),...Object.keys(OUTBREAK),...Object.keys(PHASE46_FILTERS),...Object.keys(FILTER_2091),...Object.entries(PHASE5).filter(([,entry])=>entry[2]).map(([id])=>id)];
