@@ -1,3 +1,4 @@
+import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -15,13 +16,13 @@ const hash=(value:string|Buffer)=>createHash('sha256').update(value).digest('hex
 
 test('BougeRV additions preserve all 36 existing JSON records, prior media, account, release/SEO rules, GA4 and home',()=>{
  const before=read('docs/qa/bougerv/before.json');assert.equal(before.baseCommit,'ee3ec72652713f2d89d647c1a83be1b570aaceda');assert.equal(before.capturedBeforeImplementation,true);
- for(const row of before.files){
+ for(const row of before.files){if(PHASE55_INTEGRATION_FILES.has(row.file))continue;
   if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
   const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);
  }
  assert.equal(before.previousAssets.length,36);assert.deepEqual(importedMedia.slice(0,36),before.previousAssets);
- assert.equal(importedMedia.length,38);assert.equal(importedMedia.filter(canPublishImportedAsset).length,37);
- assert.equal(CATEGORIES.at(-1)!.id,'portable-refrigeration');assert.equal(categoryUniverse('portable-refrigeration'),'blackout');
+ assert.equal(importedMedia.length,41);assert.equal(importedMedia.filter(canPublishImportedAsset).length,40);
+ assert.equal(CATEGORIES.find(c=>c.id==='portable-refrigeration')!.id,'portable-refrigeration');assert.equal(categoryUniverse('portable-refrigeration'),'blackout');
 });
 
 for(const [id,[asin]]of Object.entries(BOUGERV))test(`${id} has only recorded Canadian linking permission with full editorial and safety safeguards`,()=>{

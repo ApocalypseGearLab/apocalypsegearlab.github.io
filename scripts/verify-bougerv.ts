@@ -8,7 +8,7 @@ import {BOUGERV} from '../tests/bougerv-fixture';
 import type {Product} from '../src/lib/products';
 const read=(file:string)=>readFileSync(file,'utf8');
 const before=JSON.parse(read('docs/qa/bougerv/before.json'));
-const stems=['bougerv-53-quart-refrigerator-blackout','bougerv-rocky-v3-55qt-dual-zone-blackout'];
+const stems=['bougerv-53-quart-refrigerator-blackout','bougerv-rocky-v3-55qt-dual-zone-blackout','oria-wireless-fridge-freezer-thermometer-blackout','panasonic-eneloop-aa-bq-cc17-kit-blackout','panasonic-eneloop-aaa-bq-cc17-kit-blackout'];
 for(const old of before.pages){
  const $=load(read('dist'+old.path+(old.path.endsWith('/')?'index.html':'')));
  const row={path:old.path,title:$('title').text(),description:$('meta[name=description]').attr('content'),robots:$('meta[name=robots]').attr('content')??null,canonical:$('link[rel=canonical]').attr('href'),h1:$('h1').text(),schemas:$('script[type="application/ld+json"]').map((_,e)=>JSON.parse($(e).text())).get(),images:$('main img').toArray().filter(e=>!stems.some(stem=>($(e).attr('src')??'').includes(stem))).map(e=>Object.fromEntries(['src','srcset','sizes','alt','width','height','loading','fetchpriority'].map(a=>[a,$(e).attr(a)??null])))};

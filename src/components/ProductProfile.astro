@@ -77,7 +77,7 @@ const breadcrumbs = {
     <div class="verification-summary" data-product-review>
       <p><strong>{review.profileLabel}.</strong> {review.evidenceLabel}. {review.listingLabel}.</p>
       <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}>{review.editorialLabel}. {review.editorialApproved && !review.fullyApproved && 'Full profile verification remains incomplete.'}</p>
-      <p>Manufacturer specifications describe the documented model; they do not authenticate the current retailer offer or supplied unit. {review.listingStatus === 'owner-documented' && 'The listing evidence comes from the owner, not an independent inspection of the current offer.'}</p>
+      <p>{data.specsStatus === 'owner-reported' ? 'Features below are reported by the owner; authenticated manufacturer specifications and the exact model remain unconfirmed. ' : 'Manufacturer specifications describe the documented model; they do not authenticate the current retailer offer or supplied unit. '}{review.listingStatus === 'owner-documented' && 'The listing evidence comes from the owner, not an independent inspection of the current offer.'}</p>
       <p data-listing-status={review.listingStatus} data-link-status={review.linkActive ? 'active' : 'held'}>{review.linkLabel}. {review.safetyStatus === 'blocked' ? 'Unresolved safety or certification requirements are detailed below.' : review.safetyStatus === 'pending' ? 'Product-specific safety review remains incomplete; read the limitations below.' : 'Documented safety limitations still apply.'}</p>
     </div>
 
@@ -100,7 +100,7 @@ const breadcrumbs = {
     {data.description && <section><h2>Overview</h2><p>{data.description}</p></section>}
 
     <section>
-      <h2>Documented specifications</h2>
+      <h2>{data.specsStatus === 'owner-reported' ? 'Owner-reported features — verification incomplete' : 'Documented specifications'}</h2>
       {data.specs.length === 0 ? <p class="empty">No verified specifications yet.</p> : (
         <div class="table-wrap" tabindex="0" role="region" aria-label={`${data.name} specifications`}><table><caption class="visually-hidden">Documented specifications for {data.name}</caption><tbody>
           {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{publicReferences && s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={`#${referenceFor(s.source).anchor}`} data-source-citation>Source {references.findIndex(source => source.url === s.source) + 1}</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}

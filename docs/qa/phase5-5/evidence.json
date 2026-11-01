@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-01",
+  "products": [
+    {
+      "id": "oria-wireless-refrigerator-freezer-thermometer",
+      "asin": "B07B9QF64N",
+      "model": null,
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "ownerReference": "The owner Phase 5.5 work order associates B07B9QF64N with ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. An authenticated manufacturer manual and exact Canadian model/revision remain missing. WA50 is not assigned as a confirmed model. Numeric ranges, precision, alarm thresholds/delays, transmission distance, battery type/inclusion and runtime are not established.",
+      "sources": [
+        {
+          "id": "owner-reference",
+          "kind": "retailer",
+          "title": "Owner Phase 5.5 work order: intended Canadian ASIN and reported features; not an inspected listing",
+          "url": "https://www.amazon.ca/dp/B07B9QF64N"
+        },
+        {
+          "id": "food-safety",
+          "kind": "official-safety",
+          "title": "Health Canada emergency food-storage guidance",
+          "url": "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html"
+        }
+      ],
+      "technicalEvidence": "owner-reported",
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B07B9QF64N",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN association. No concrete contradictory selected-ASIN evidence or mandatory hold was identified. Link permission does not verify the live listing, technical specifications, certification, delivered contents or SEO publication. Features remain explicitly owner-reported; WA50, numeric limits and battery compatibility are not asserted.",
+        "sourceIds": [
+          "owner-reference",
+          "food-safety"
+        ]
+      },
+      "unresolved": "An authenticated manufacturer manual and exact Canadian model/revision remain missing. WA50 is not assigned as a confirmed model. Numeric ranges, precision, alarm thresholds/delays, transmission distance, battery type/inclusion and runtime are not established."
+    },
+    {
+      "id": "panasonic-eneloop-aa-rechargeable-battery-charger-kit",
+      "asin": "B00JHKSMJU",
+      "model": "K-KJ17MCA4BA",
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "ownerReference": "The owner Phase 5.5 work order associates B00JHKSMJU with K-KJ17MCA4BA. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected.",
+      "sources": [
+        {
+          "id": "manufacturer",
+          "title": "Panasonic Canada K-KJ17MCA4BA kit reference",
+          "url": "https://www.panasonic.com/ca/consumer/batteries/rechargeable/eneloop/kkj17mca4ba.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "catalogue",
+          "title": "Panasonic North American 2023/2024 catalogue: kit contents, pages 6–7 and 23",
+          "url": "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "charger",
+          "title": "Panasonic Canada BQ-CC17 operating guidance and charging table",
+          "url": "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "cells",
+          "title": "Panasonic standard eneloop capacity and voltage convention",
+          "url": "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "cycles",
+          "title": "Panasonic Canada cycle-count conditions",
+          "url": "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "owner-reference",
+          "title": "Owner-supplied Canadian ASIN/model association; current offer not independently inspected",
+          "url": "https://www.amazon.ca/dp/B00JHKSMJU",
+          "kind": "retailer"
+        }
+      ],
+      "technicalEvidence": "manufacturer-documented",
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B00JHKSMJU",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN association. No concrete contradictory selected-ASIN evidence or mandatory hold was identified. Link permission does not verify the live listing, technical specifications, certification, delivered contents or SEO publication. Manufacturer kit specifications are distinguished from the uninspected retailer offer.",
+        "sourceIds": [
+          "manufacturer",
+          "catalogue",
+          "charger",
+          "cells",
+          "cycles",
+          "owner-reference"
+        ]
+      },
+      "unresolved": "The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected."
+    },
+    {
+      "id": "panasonic-eneloop-aaa-rechargeable-battery-charger-kit",
+      "asin": "B010U57MSW",
+      "model": "K-KJ17M3A4BA",
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "ownerReference": "The owner Phase 5.5 work order associates B010U57MSW with K-KJ17M3A4BA. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected. The 850 mAh artwork claim is not corroborated for this kit; do not substitute newer regional cell specifications.",
+      "sources": [
+        {
+          "id": "manufacturer",
+          "title": "Panasonic Canada K-KJ17M3A4BA kit reference",
+          "url": "https://www.panasonic.com/ca/consumer/batteries/rechargeable/eneloop/kkj17m3a4ba.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "catalogue",
+          "title": "Panasonic North American 2023/2024 catalogue: kit contents, pages 6–7 and 23",
+          "url": "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "charger",
+          "title": "Panasonic Canada BQ-CC17 operating guidance and charging table",
+          "url": "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "cells",
+          "title": "Panasonic standard eneloop capacity and voltage convention",
+          "url": "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "cycles",
+          "title": "Panasonic Canada cycle-count conditions",
+          "url": "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "owner-reference",
+          "title": "Owner-supplied Canadian ASIN/model association; current offer not independently inspected",
+          "url": "https://www.amazon.ca/dp/B010U57MSW",
+          "kind": "retailer"
+        }
+      ],
+      "technicalEvidence": "manufacturer-documented",
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B010U57MSW",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN association. No concrete contradictory selected-ASIN evidence or mandatory hold was identified. Link permission does not verify the live listing, technical specifications, certification, delivered contents or SEO publication. Manufacturer kit specifications are distinguished from the uninspected retailer offer.",
+        "sourceIds": [
+          "manufacturer",
+          "catalogue",
+          "charger",
+          "cells",
+          "cycles",
+          "owner-reference"
+        ]
+      },
+      "unresolved": "The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected. The 850 mAh artwork claim is not corroborated for this kit; do not substitute newer regional cell specifications."
+    }
+  ],
+  "oriaReferenceInspection": {
+    "source": "Supplier marketing graphics on Amazon media CDN, discovered through a third-party manual index. Authorship and association with the current Canadian ASIN are not authenticated; not classified as manufacturer evidence.",
+    "urls": [
+      "https://m.media-amazon.com/images/I/719YJl5bTWL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/615VdS5HfcL._AC_SL1500_.jpg"
+    ],
+    "findings": "White receiver, two channels, indoor readout, min/max and alarm controls visually match concept art. WA50, exact limits, battery requirements and calibration remain unconfirmed."
+  }
+}

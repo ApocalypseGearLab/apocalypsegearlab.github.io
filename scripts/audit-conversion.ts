@@ -24,7 +24,7 @@ for(const file of pages){
   // New records add artwork only to the catalogue and their own sector.
   // Every previous image retains exactly the same attributes and ordering.
   if(path==='/gear/'||path==='/blackout/'){
-   const added=new Set(['ecoflow-delta-2-blackout','bluetti-elite-100-v2-solar-kit-blackout','bougerv-53-quart-refrigerator-blackout','bougerv-rocky-v3-55qt-dual-zone-blackout'].flatMap(stem=>[480,960,1254].map(width=>'/images/blackout/'+stem+(width===1254?'':'-'+width)+'.webp')));
+   const added=new Set(['ecoflow-delta-2-blackout','bluetti-elite-100-v2-solar-kit-blackout','bougerv-53-quart-refrigerator-blackout','bougerv-rocky-v3-55qt-dual-zone-blackout','oria-wireless-fridge-freezer-thermometer-blackout','panasonic-eneloop-aa-bq-cc17-kit-blackout','panasonic-eneloop-aaa-bq-cc17-kit-blackout'].flatMap(stem=>[480,960,1254].map(width=>'/images/blackout/'+stem+(width===1254?'':'-'+width)+'.webp')));
    meta.images=meta.images.filter(img=>!added.has(img.src??''));
   }
   if(path==='/gear/'){

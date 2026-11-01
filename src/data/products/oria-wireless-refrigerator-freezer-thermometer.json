@@ -1,0 +1,159 @@
+{
+  "name": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors",
+  "brand": "ORIA",
+  "modelNumber": null,
+  "category": "temperature-monitoring",
+  "outboundPolicy": "amazon-only",
+  "specsStatus": "owner-reported",
+  "summary": "A remote display and two sensors for checking refrigerated and frozen storage during an outage. Reported alarms and min/max readings support monitoring; they do not establish food safety.",
+  "description": "A separate temperature display can make it easier to check cold storage without repeatedly opening a refrigerator or freezer. The owner identifies this ORIA set as one LCD receiver with two wireless sensors, indoor temperature, alarms and min/max records. Treat those features as owner-reported until the exact Canadian revision and its instructions are corroborated. Pair and check both sensors before relying on the display, keep a backup thermometer available and follow food-safety guidance after loss of cooling. No cooling control, calibration result or safe-food guarantee is implied.",
+  "specs": [
+    {
+      "label": "Kit",
+      "value": "Owner-reported: one LCD display unit and two wireless sensors",
+      "source": "https://www.amazon.ca/dp/B07B9QF64N"
+    },
+    {
+      "label": "Display",
+      "value": "Owner-reported: indoor reading plus two sensor channels",
+      "source": "https://www.amazon.ca/dp/B07B9QF64N"
+    },
+    {
+      "label": "Alerts",
+      "value": "Owner-reported: temperature alarms; exact thresholds and delay are unverified",
+      "source": "https://www.amazon.ca/dp/B07B9QF64N"
+    },
+    {
+      "label": "Records",
+      "value": "Owner-reported: minimum and maximum readings; retention period unverified",
+      "source": "https://www.amazon.ca/dp/B07B9QF64N"
+    },
+    {
+      "label": "Power",
+      "value": "Owner-reported: battery operation; cell type, quantity, inclusion and runtime unverified",
+      "source": "https://www.amazon.ca/dp/B07B9QF64N"
+    },
+    {
+      "label": "Housing",
+      "value": "Owner-reported: white housing; exact WA50 model identity remains unconfirmed",
+      "source": "https://www.amazon.ca/dp/B07B9QF64N"
+    }
+  ],
+  "pros": [
+    "A separate display can reduce the need to open a cold-storage compartment just to read a thermometer.",
+    "Two reported sensor channels can support a plan for separately monitored refrigerator and freezer spaces."
+  ],
+  "cons": [
+    "The exact WA50 identifier, operating limits, accuracy and Canadian revision are not corroborated by authenticated manufacturer instructions.",
+    "A snapshot or a min/max reading does not reconstruct a continuous food-temperature history.",
+    "Wireless reception, depleted batteries or an unheard alarm can interrupt monitoring; this device does not cool food."
+  ],
+  "useCases": [
+    "Plan an independent temperature check alongside either BougeRV portable refrigerator, subject to the thermometer operating limits.",
+    "Check cold-storage readings during an outage while minimizing door openings and following food-safety guidance."
+  ],
+  "sources": [
+    {
+      "id": "owner-reference",
+      "kind": "retailer",
+      "title": "Owner Phase 5.5 work order: intended Canadian ASIN and reported features; not an inspected listing",
+      "url": "https://www.amazon.ca/dp/B07B9QF64N"
+    },
+    {
+      "id": "food-safety",
+      "kind": "official-safety",
+      "title": "Health Canada emergency food-storage guidance",
+      "url": "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html"
+    }
+  ],
+  "relatedProducts": [
+    "bougerv-53-quart-portable-refrigerator-freezer",
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler"
+  ],
+  "image": {
+    "src": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+    "alt": "Concept illustration of a white ORIA-style LCD receiver and two wireless sensors in a complete amber BLACKOUT frame; labels are illustrative",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved Phase 5.5 integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The owner Phase 5.5 work order associates B07B9QF64N with ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. An authenticated manufacturer manual and exact Canadian model/revision remain missing. WA50 is not assigned as a confirmed model. Numeric ranges, precision, alarm thresholds/delays, transmission distance, battery type/inclusion and runtime are not established."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B07B9QF64N",
+      "url": "https://www.amazon.ca/dp/B07B9QF64N?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "The owner Phase 5.5 work order associates B07B9QF64N with ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. An authenticated manufacturer manual and exact Canadian model/revision remain missing. WA50 is not assigned as a confirmed model. Numeric ranges, precision, alarm thresholds/delays, transmission distance, battery type/inclusion and runtime are not established.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Health Canada advises using thermometers to check refrigerator storage at or below 4°C and freezer storage at or below −18°C. This guidance does not certify this thermometer.",
+        "sourceIds": [
+          "food-safety"
+        ]
+      },
+      {
+        "text": "The owner identifies this ASIN as an ORIA receiver with two wireless sensors, temperature alarms, indoor reading and min/max records. These are reported features, not independently verified technical specifications.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "An authenticated manufacturer manual and exact Canadian model/revision remain missing. WA50 is not assigned as a confirmed model. Numeric ranges, precision, alarm thresholds/delays, transmission distance, battery type/inclusion and runtime are not established.",
+      "No price, stock, rating, physical testing or certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Keep refrigerator storage at or below 4°C and freezer storage at or below −18°C. These Health Canada targets are not verified ORIA alarm thresholds or operating ratings.",
+      "A thermometer cannot guarantee food safety, prevent spoilage or determine the full time a food has been warm. Follow official advice; when in doubt, discard unsafe food.",
+      "Confirm the delivered instructions, sensor limits, alarm behaviour and battery requirements. Test reception in the intended location and compare readings with a reliable reference thermometer.",
+      "Do not assume 1.2 V NiMH compatibility from AA/AAA size alone; the ORIA battery chemistry and voltage requirements are not corroborated. Keep equipment dry according to its actual instructions."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent selected Canadian offer/revision, product-specific safety review and editorial publication approval remain incomplete.",
+      "Authenticated manufacturer specifications and exact model identity are missing."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B07B9QF64N",
+      "checkedAt": "2026-11-01",
+      "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN association. No concrete contradictory selected-ASIN evidence or mandatory hold was identified. Link permission does not verify the live listing, technical specifications, certification, delivered contents or SEO publication. Features remain explicitly owner-reported; WA50, numeric limits and battery compatibility are not asserted.",
+      "sourceIds": [
+        "owner-reference",
+        "food-safety"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B07B9QF64N",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B07B9QF64N",
+      "matchedModel": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors",
+      "notes": "The owner Phase 5.5 work order associates B07B9QF64N with ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. An authenticated manufacturer manual and exact Canadian model/revision remain missing. WA50 is not assigned as a confirmed model. Numeric ranges, precision, alarm thresholds/delays, transmission distance, battery type/inclusion and runtime are not established."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the selected ORIA set includes one receiver and two sensors, and match the delivered model to its original instructions.",
+      "Verify sensor operating limits, accuracy, alarm setup and reception inside the intended appliance before use.",
+      "Confirm the required battery sizes, voltage and chemistry; no eneloop compatibility is established here.",
+      "Plan monitoring and food-safety decisions separately from the refrigerator power supply."
+    ]
+  }
+}

@@ -2087,6 +2087,221 @@
         "recolor": false
       },
       "mappingCsv": "assets/media/bougerv-image-manifest.csv"
+    },
+    {
+      "id": "oria-wireless-fridge-freezer-thermometer-blackout",
+      "category": "blackout",
+      "productId": "oria-wireless-refrigerator-freezer-thermometer",
+      "usage": "current-product",
+      "sourceOriginalName": "Thermomètre sans fil au style blackout.png",
+      "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+      "deliverySrc": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 139740,
+      "sha256": "bbbac18e065b564fda186596064d1185cee34bf6621db09d29a9e5c685c1be82",
+      "variants": [
+        {
+          "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+          "src": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 30888,
+          "sha256": "38f1340f6c00a8c19de27310a6e9bf0170cfd079326711056d6a5b4faba3de5f"
+        },
+        {
+          "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout-960.webp",
+          "src": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 94918,
+          "sha256": "a05132ad758b966171c0171a347deb3375408b0ba386f960308e44744dfef2a5"
+        },
+        {
+          "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+          "src": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 139740,
+          "sha256": "bbbac18e065b564fda186596064d1185cee34bf6621db09d29a9e5c685c1be82"
+        }
+      ],
+      "alt": "Concept illustration of a white ORIA-style LCD receiver and two wireless sensors in a complete amber BLACKOUT frame; labels are illustrative",
+      "captionNote": "Display readings are illustrative; they do not show safe food-storage conditions.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "The white receiver, two white sensors and channel/alarm/min/max controls resemble the supplier reference graphics inspected on the Amazon media CDN. That resemblance does not authenticate WA50, calibration, labels, operating limits or the selected Canadian offer. Original colors and full amber border retained.",
+      "references": [
+        "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html"
+      ],
+      "reviewedAt": "2026-11-01",
+      "provenance": {
+        "source": "Owner Phase 5.5 work order explicitly identifies these three supplied illustrations as approved and directs integration.",
+        "scope": "Owner-directed use of these assets only; no independent chain-of-title verification, manufacturer endorsement or package authentication.",
+        "confirmedAt": "2026-11-01"
+      },
+      "source": {
+        "filename": "Thermomètre sans fil au style blackout.png",
+        "file": "assets/media/blackout/originals/oria-wireless-fridge-freezer-thermometer-blackout.png",
+        "bytes": 2057161,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "3dfa9286bb414c4c3fcc66dfc1886336492e81a572b42d1e842c21d19e6d7f46"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-5-image-manifest.csv"
+    },
+    {
+      "id": "panasonic-eneloop-aa-bq-cc17-kit-blackout",
+      "category": "blackout",
+      "productId": "panasonic-eneloop-aa-rechargeable-battery-charger-kit",
+      "usage": "current-product",
+      "sourceOriginalName": "Kit Panasonic eneloop AA futuriste.png",
+      "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+      "deliverySrc": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 186312,
+      "sha256": "3185e2a2ab9b07e66245539e9721a90f3a387c55caa867a3038bd419b0da7305",
+      "variants": [
+        {
+          "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+          "src": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 45112,
+          "sha256": "6462d1f34f1ea152fd173bda86856932a8a6e54752b5df5df154c0734f520229"
+        },
+        {
+          "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-960.webp",
+          "src": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 127862,
+          "sha256": "234b9356893d2c8ff3262644ebaa3d821ea96e6807b4223521d0aed99a3440be"
+        },
+        {
+          "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+          "src": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 186312,
+          "sha256": "3185e2a2ab9b07e66245539e9721a90f3a387c55caa867a3038bd419b0da7305"
+        }
+      ],
+      "alt": "Concept illustration of a white Panasonic BQ-CC17 charger with AA eneloop cells, including extra decorative cells in a complete amber BLACKOUT frame; labels are illustrative",
+      "captionNote": "Kit contains four AA cells and one charger; extra cells are illustrative.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "White BQ-CC17 form and standard white AA cells fit manufacturer references. Four installed plus three decorative cells must not imply seven supplied cells. Visible caption states four cells and one charger. Small labels and charge indicators are illustrative; no certification or exact unit authentication is claimed.",
+      "references": [
+        "https://www.panasonic.com/ca/consumer/batteries/rechargeable/eneloop/kkj17mca4ba.html",
+        "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html",
+        "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html"
+      ],
+      "reviewedAt": "2026-11-01",
+      "provenance": {
+        "source": "Owner Phase 5.5 work order explicitly identifies these three supplied illustrations as approved and directs integration.",
+        "scope": "Owner-directed use of these assets only; no independent chain-of-title verification, manufacturer endorsement or package authentication.",
+        "confirmedAt": "2026-11-01"
+      },
+      "source": {
+        "filename": "Kit Panasonic eneloop AA futuriste.png",
+        "file": "assets/media/blackout/originals/panasonic-eneloop-aa-bq-cc17-kit-blackout.png",
+        "bytes": 2137442,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "f55589a66e2db49f8a752e47e88efdc94533c60960c598a47d503401b00f4de4"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-5-image-manifest.csv"
+    },
+    {
+      "id": "panasonic-eneloop-aaa-bq-cc17-kit-blackout",
+      "category": "blackout",
+      "productId": "panasonic-eneloop-aaa-rechargeable-battery-charger-kit",
+      "usage": "current-product",
+      "sourceOriginalName": "Chargeur Panasonic Eneloop AAA futuriste.png",
+      "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+      "deliverySrc": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 179382,
+      "sha256": "eeb104cb8a06d007fcc81f6624e106800a75b272091a8893db3106337eb0d171",
+      "variants": [
+        {
+          "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+          "src": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 41754,
+          "sha256": "8feebe6c675a79969c71972f1e7d818fa81e5bfe6b787f0ff330d6def4185360"
+        },
+        {
+          "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-960.webp",
+          "src": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 120362,
+          "sha256": "116d67ac0fe337497952047131af29503e8ec28536dd7bea0feeb69c1abd4b94"
+        },
+        {
+          "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+          "src": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 179382,
+          "sha256": "eeb104cb8a06d007fcc81f6624e106800a75b272091a8893db3106337eb0d171"
+        }
+      ],
+      "alt": "Concept illustration of a white Panasonic BQ-CC17 charger with AAA eneloop cells, including extra decorative cells in a complete amber BLACKOUT frame; labels are illustrative",
+      "captionNote": "Kit contains four AAA cells and one charger; extra cells are illustrative. The 850 mAh artwork label is unverified; documented cells are up to 800 mAh, minimum 750 mAh.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "White BQ-CC17 form and standard white AAA cells fit manufacturer references. Four installed plus three decorative cells must not imply seven supplied cells. Visible caption states four cells and one charger. The 850 mAh HUD is explicitly qualified against the documented 800/750 mAh convention. Small labels and charge indicators are illustrative; no certification or exact unit authentication is claimed.",
+      "references": [
+        "https://www.panasonic.com/ca/consumer/batteries/rechargeable/eneloop/kkj17m3a4ba.html",
+        "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html",
+        "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html"
+      ],
+      "reviewedAt": "2026-11-01",
+      "provenance": {
+        "source": "Owner Phase 5.5 work order explicitly identifies these three supplied illustrations as approved and directs integration.",
+        "scope": "Owner-directed use of these assets only; no independent chain-of-title verification, manufacturer endorsement or package authentication.",
+        "confirmedAt": "2026-11-01"
+      },
+      "source": {
+        "filename": "Chargeur Panasonic Eneloop AAA futuriste.png",
+        "file": "assets/media/blackout/originals/panasonic-eneloop-aaa-bq-cc17-kit-blackout.png",
+        "bytes": 2246975,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "21709efbe3a2daeb64eb2d4cb6db3746dbfa0e2e2f4712ec171d394d679d462f"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 85,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/phase5-5-image-manifest.csv"
     }
   ]
 }

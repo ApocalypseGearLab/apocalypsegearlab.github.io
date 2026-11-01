@@ -20,6 +20,9 @@ export const productSchema = z.object({
   description: z.string().default(''),
   // Evidence remains mandatory in the data even when public outbound links are restricted.
   outboundPolicy: z.enum(['documentary-references', 'amazon-only']).default('documentary-references'),
+  // Reported features may be shown informationally without posing as verified
+  // manufacturer specifications. This never grants editorial publication.
+  specsStatus: z.enum(['manufacturer-documented', 'owner-reported']).default('manufacturer-documented'),
   editorial: z.object({ purchaseChecks: z.array(z.string().min(1)).default([]) }).optional(),
   specs: z.array(z.object({ label: z.string(), value: z.string(), source: z.string().optional() })).default([]),
   pros: z.array(z.string()).default([]),
@@ -100,9 +103,12 @@ export const productSchema = z.object({
   if ((product.reviewStatus === 'published' || product.visibility === 'informational') && !product.research) {
     context.addIssue({ code: 'custom', path: ['research'], message: 'Published products require documented research and approval' });
   }
-  if ((product.reviewStatus === 'published' || product.visibility === 'informational') && (!product.specs.length || product.specs.some((spec) => !product.sources.some((source) => source.kind === 'manufacturer' && source.url === spec.source)))) {
+  const reportedOnly = product.specsStatus === 'owner-reported' && product.reviewStatus === 'draft' && product.visibility === 'informational';
+  if (product.specsStatus === 'owner-reported' && (!reportedOnly || product.specs.some(spec => !spec.value.startsWith('Owner-reported:')))) context.addIssue({ code: 'custom', path: ['specsStatus'], message: 'Reported features require an informational draft and explicit owner attribution in every value' });
+  if ((product.reviewStatus === 'published' || product.visibility === 'informational') && (!product.specs.length || product.specs.some((spec) => !product.sources.some((source) => (reportedOnly ? source.kind === 'retailer' : source.kind === 'manufacturer') && source.url === spec.source)))) {
     context.addIssue({ code: 'custom', path: ['specs'], message: 'Published specifications must cite an included manufacturer source' });
   }
+  if (product.specsStatus === 'owner-reported' && product.reviewStatus === 'published') context.addIssue({ code: 'custom', path: ['specsStatus'], message: 'Owner-reported features cannot be editorially published as verified specifications' });
   if (product.reviewStatus === 'published' && product.research && (
     !product.research.publicationApproved || !product.research.listingVerified ||
     product.research.safetyStatus !== 'cleared' || product.research.publicationBlockers.length > 0 || product.research.affiliateReview?.decision === 'hold'

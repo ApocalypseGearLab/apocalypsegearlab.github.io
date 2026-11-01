@@ -1,0 +1,198 @@
+{
+  "name": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger",
+  "brand": "Panasonic / eneloop",
+  "modelNumber": "K-KJ17M3A4BA",
+  "category": "rechargeable-batteries",
+  "outboundPolicy": "amazon-only",
+  "specsStatus": "manufacturer-documented",
+  "summary": "Four standard white AAA NiMH cells and a BQ-CC17 AC charger for compatible smaller devices. Already own this charger? Compare separate AAA cells before buying another starter kit.",
+  "description": "This AAA starter kit serves smaller battery compartments without substituting the larger AA format. Four standard white eneloop cells accompany the BQ-CC17, which can also charge compatible AA eneloop cells purchased separately. Prepare and label spare sets before an outage, then rotate them according to actual device use. If a BQ-CC17 is already part of your equipment, purchasing AAA cells alone may avoid paying for a duplicate charger. The kit contains four cells and one charger; the additional cells and 850 mAh label in the illustration do not establish package quantity or the capacity of the supplied revision.",
+  "specs": [
+    {
+      "label": "Kit",
+      "value": "Four standard white AAA eneloop NiMH cells and one BQ-CC17 charger; K-KJ17M3A4BA",
+      "source": "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf"
+    },
+    {
+      "label": "Voltage",
+      "value": "1.2 V nominal per rechargeable cell",
+      "source": "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html"
+    },
+    {
+      "label": "Capacity",
+      "value": "Up to 800 mAh / minimum 750 mAh; the illustration’s 850 mAh is not confirmed for this kit; manufacturer capacity convention, not measured runtime",
+      "source": "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html"
+    },
+    {
+      "label": "Charger",
+      "value": "BQ-CC17, individually controlled slots for 1–4 compatible AA/AAA eneloop NiMH cells",
+      "source": "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html"
+    },
+    {
+      "label": "AC input",
+      "value": "100–240 V AC; regional plug varies. Not a USB or solar-input charger.",
+      "source": "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html"
+    },
+    {
+      "label": "Charge",
+      "value": "About 6 hours for 1–4 AAA cells in the 750–800 mAh band at room temperature; temperature and cell condition affect time",
+      "source": "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html"
+    },
+    {
+      "label": "Cycles",
+      "value": "Up to 2100 under IEC 61951-2:2011 (7.5.1.3); 600 under IEC 61951-2:2017 (7.5.1.4). Usage conditions affect life.",
+      "source": "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html"
+    }
+  ],
+  "pros": [
+    "The smaller AAA format suits devices specifically designed to accept 1.2 V NiMH AAA cells.",
+    "The same BQ-CC17 charger can serve compatible AA and AAA eneloop sets."
+  ],
+  "cons": [
+    "Use only in devices whose instructions accept AAA 1.2 V NiMH cells; size alone is insufficient.",
+    "The BQ-CC17 needs AC power and takes about 6 hours in the documented capacity band; it is not an instant outage recharge source.",
+    "An existing BQ-CC17 may make a second kit unnecessary. The illustration’s 850 mAh is not verified for the selected kit revision."
+  ],
+  "useCases": [
+    "Prepare spare AAA sets for compatible compact lights and household devices.",
+    "Share an existing BQ-CC17 across compatible AA and AAA sets rather than automatically buying two chargers."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Panasonic Canada K-KJ17M3A4BA kit reference",
+      "url": "https://www.panasonic.com/ca/consumer/batteries/rechargeable/eneloop/kkj17m3a4ba.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "catalogue",
+      "title": "Panasonic North American 2023/2024 catalogue: kit contents, pages 6–7 and 23",
+      "url": "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "charger",
+      "title": "Panasonic Canada BQ-CC17 operating guidance and charging table",
+      "url": "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "cells",
+      "title": "Panasonic standard eneloop capacity and voltage convention",
+      "url": "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "cycles",
+      "title": "Panasonic Canada cycle-count conditions",
+      "url": "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-supplied Canadian ASIN/model association; current offer not independently inspected",
+      "url": "https://www.amazon.ca/dp/B010U57MSW",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "panasonic-eneloop-aa-rechargeable-battery-charger-kit"
+  ],
+  "image": {
+    "src": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+    "alt": "Concept illustration of a white Panasonic BQ-CC17 charger with AAA eneloop cells, including extra decorative cells in a complete amber BLACKOUT frame; labels are illustrative",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved Phase 5.5 integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The owner Phase 5.5 work order associates B010U57MSW with K-KJ17M3A4BA. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected. The 850 mAh artwork claim is not corroborated for this kit; do not substitute newer regional cell specifications."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B010U57MSW",
+      "url": "https://www.amazon.ca/dp/B010U57MSW?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "The owner Phase 5.5 work order associates B010U57MSW with K-KJ17M3A4BA. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected. The 850 mAh artwork claim is not corroborated for this kit; do not substitute newer regional cell specifications.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Panasonic identifies K-KJ17M3A4BA as the charger kit with four AAA NiMH cells. This manufacturer package description does not authenticate a current Amazon seller or revision.",
+        "sourceIds": [
+          "manufacturer",
+          "catalogue"
+        ]
+      },
+      {
+        "text": "Panasonic’s BQ-CC17 instructions document AC input, individual AA/AAA charging and an approximate 6-hour charge in the stated 750–800 mAh band.",
+        "sourceIds": [
+          "charger"
+        ]
+      },
+      {
+        "text": "Capacity and cycle counts follow stated manufacturer test methods and conditions; no physical performance test has been performed for this profile.",
+        "sourceIds": [
+          "cells",
+          "cycles"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected. The 850 mAh artwork claim is not corroborated for this kit; do not substitute newer regional cell specifications.",
+      "No price, stock, rating, physical testing or certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Charge only compatible rechargeable NiMH cells in the BQ-CC17. Do not charge alkaline, primary lithium or lithium-ion cells. Follow polarity markings and the supplied instructions.",
+      "Keep the charger dry, ventilated and on an appropriate indoor AC supply. Inspect cells and charger for damage; discontinue use if damaged or abnormal.",
+      "Store spare cells with protected terminals away from loose metal. Follow device instructions for matched cells and do not mix damaged, depleted or incompatible cells.",
+      "AA and AAA are different sizes. Neither kit establishes compatibility with ORIA, a particular radio or an emergency light; check its voltage and chemistry requirements."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent selected Canadian offer/revision, product-specific safety review and editorial publication approval remain incomplete."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B010U57MSW",
+      "checkedAt": "2026-11-01",
+      "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN association. No concrete contradictory selected-ASIN evidence or mandatory hold was identified. Link permission does not verify the live listing, technical specifications, certification, delivered contents or SEO publication. Manufacturer kit specifications are distinguished from the uninspected retailer offer.",
+      "sourceIds": [
+        "manufacturer",
+        "catalogue",
+        "charger",
+        "cells",
+        "cycles",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B010U57MSW",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B010U57MSW",
+      "matchedModel": "K-KJ17M3A4BA",
+      "notes": "The owner Phase 5.5 work order associates B010U57MSW with K-KJ17M3A4BA. It mentions a listing screenshot and original photograph, but neither separate reference capture was attached to this turn; only the finished concept illustration was inspected. Amazon.ca was inaccessible through the web reader; no HTTP status or invalid-link finding is inferred. No live inspection or physical authentication is claimed. The current selected Amazon.ca offer, seller, cell generation, plug, Canadian certification markings and delivered contents have not been independently inspected. The 850 mAh artwork claim is not corroborated for this kit; do not substitute newer regional cell specifications."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match K-KJ17M3A4BA, four AAA standard white eneloop cells and BQ-CC17; do not substitute eneloop pro or BQ-CC50.",
+      "Check the selected Canadian offer, regional plug and delivered instructions; manufacturer kit contents are separate from uninspected Amazon contents.",
+      "Confirm the device accepts AAA 1.2 V NiMH cells; do not infer compatibility from battery size or nearby related equipment.",
+      "If you already own a compatible BQ-CC17, compare separate AAA cells instead of automatically buying another charger."
+    ]
+  }
+}

@@ -78,7 +78,7 @@ for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
     test.setTimeout(60_000);
     const sector = route === '/gear/' ? null : route.slice(1,-1);
     const selected = drafts.filter(({data}) => !sector || categoryUniverse(data.category) === sector);
-    const images = route === '/blackout/' ? 12 : route === '/fallout/' ? 10 : route === '/outbreak/' ? 15 : 37;
+    const images = route === '/blackout/' ? 15 : route === '/fallout/' ? 10 : route === '/outbreak/' ? 15 : 40;
     await page.goto(route);
     await expect(page.locator('article.card')).toHaveCount(selected.length);
     await expect(page.locator('.neutral-media')).toHaveCount(selected.length-images);
