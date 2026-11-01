@@ -9,16 +9,27 @@ export const SITE = {
 } as const;
 
 /**
- * Initial-period linking requested by the owner with a declared Canadian site,
- * accessible account and a tracking tag recognized by Amazon's Link Checker.
- * Final review is not a prerequisite for initial-period Special Links.
+ * Operational permission to use Canadian Special Links. The owner now reports
+ * registration and approval; provenance is recorded separately below.
  * This operational switch is NOT independent verification of private account
  * standing or final approval. Disable immediately for a known closure,
  * rejection or suspension. Per-product link review and concrete safety holds
  * remain mandatory; an active URL does not claim that its listing is verified.
  */
 export const AMAZON_CA_LINKING_ENABLED = true;
+/** Independent Amazon confirmation only; an owner declaration cannot set this. */
 export const AMAZON_CA_FINAL_APPROVAL_CONFIRMED = false;
+export const AMAZON_CA_ACCOUNT_DECLARATION = {
+  registration: 'registered',
+  approval: 'approved',
+  source: 'owner-declaration',
+  recordedOn: '2026-10-31',
+  marketplace: 'ca',
+  site: 'https://apocalypsegearlab.github.io',
+  trackingId: 'apocalypsegear-20',
+  statement: 'The site owner declares that the Amazon Associates account is registered and approved.',
+  independentlyConfirmed: false,
+} as const;
 export const AMAZON_ASSOCIATE_STATEMENT = 'As an Amazon Associate I earn from qualifying purchases.';
 
 export const NAV = [

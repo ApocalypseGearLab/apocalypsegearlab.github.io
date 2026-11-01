@@ -1,3 +1,4 @@
+import {accountStatusFileChanged, historicalProductJSON} from './account-status-fixture';
 import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -22,7 +23,7 @@ test('Phase 4.7 changes only three commercial records and appends only the 2091 
   for(const row of baseline.products){
     const current=read(row.file);
     if(row.id==='3m-2091-p100-particulate-filters') continue; // Phase 4.8 preservation tests cover this record.
-    if(!baseline.modifiedProductIds.includes(row.id))assert.equal(hash(JSON.stringify(current)),row.sha256Canonical,row.file);
+    if(!baseline.modifiedProductIds.includes(row.id))assert.equal(hash(historicalProductJSON(row.file,current)),row.sha256Canonical,row.file);
     else for(const key of ['name','brand','modelNumber','category','specs','pros','useCases','relatedProducts','image','links','testing','reviewStatus','visibility','lastVerified'])assert.deepEqual(current[key],row.data[key],`${row.id}: ${key}`);
     if(row.data){
       assert.deepEqual(current.research.safetyNotes,row.data.research.safetyNotes,'Do not weaken respiratory cautions');
@@ -30,7 +31,7 @@ test('Phase 4.7 changes only three commercial records and appends only the 2091 
       assert.deepEqual(current.research.confirmed.slice(0,row.data.research.confirmed.length),row.data.research.confirmed,'Preserve the documented manufacturer facts');
     }
   }
-  for(const row of baseline.files){if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
+  for(const row of baseline.files){if(accountStatusFileChanged(row.file))continue;if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
 if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(row.file)) continue; // Phase 5 preservation tests cover additive integration.
 const bytes=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes),row.sha256,row.file);}
   assert.deepEqual(importedMedia.slice(0,29),baseline.importedAssets);

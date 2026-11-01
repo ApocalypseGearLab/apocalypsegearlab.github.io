@@ -1,0 +1,416 @@
+{
+  "sitemapUrls": 6,
+  "coreAndProductPages": [
+    {
+      "path": "/",
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/",
+      "title": "Survival Gear & Preparedness Guides | ApocalypseGearLab",
+      "h1": "Be ready before the grid goes down.",
+      "schemas": [
+        "Organization",
+        "WebSite"
+      ]
+    },
+    {
+      "path": "/gear/",
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/gear/",
+      "title": "Survival gear catalogue | ApocalypseGearLab",
+      "h1": "Gear catalogue",
+      "schemas": []
+    },
+    {
+      "path": "/blackout/",
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/blackout/",
+      "title": "Blackout: Grid failure | ApocalypseGearLab",
+      "h1": "Blackout",
+      "schemas": []
+    },
+    {
+      "path": "/fallout/",
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/fallout/",
+      "title": "Fallout: Disaster response | ApocalypseGearLab",
+      "h1": "Fallout",
+      "schemas": []
+    },
+    {
+      "path": "/outbreak/",
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/outbreak/",
+      "title": "Outbreak: Field readiness | ApocalypseGearLab",
+      "h1": "Outbreak",
+      "schemas": []
+    },
+    {
+      "path": "/affiliate-disclosure/",
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+      "title": "Affiliate disclosure | ApocalypseGearLab",
+      "h1": "Affiliate disclosure",
+      "schemas": []
+    },
+    {
+      "path": "/gear/3m-2091-p100-particulate-filters/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-2091-p100-particulate-filters/",
+      "title": "3M 2091 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "3M 2091 P100 Particulate Filters",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/3m-2097-p100-particulate-filters/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-2097-p100-particulate-filters/",
+      "title": "3M 2097 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "3M 2097 P100 Particulate Filters",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "title": "3M 60921 Organic Vapor/P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "3M 60921 Organic Vapor/P100 Cartridge Filters",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "title": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/3m-6800-full-facepiece-respirator/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-6800-full-facepiece-respirator/",
+      "title": "3M 6800 Full Facepiece Reusable Respirator: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "3M 6800 Full Facepiece Reusable Respirator",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/3m-aura-9205-n95-respirator/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-aura-9205-n95-respirator/",
+      "title": "3M Aura 9205+ N95 particulate respirator: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "3M Aura 9205+ N95 particulate respirator",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/3m-gogglegear-500-safety-goggles/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-gogglegear-500-safety-goggles/",
+      "title": "3M GoggleGear 500 protective goggles: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "3M GoggleGear 500 protective goggles",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/511-tactical-rush72-2-backpack/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/511-tactical-rush72-2-backpack/",
+      "title": "5.11 Tactical RUSH72 2.0 55 L backpack: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "5.11 Tactical RUSH72 2.0 55 L backpack",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "title": "BLUETTI Elite 100 V2 — 200 W Solar Offer: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "BLUETTI Elite 100 V2 — 200 W Solar Offer",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/datrex-dx2400f-emergency-food-ration/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/datrex-dx2400f-emergency-food-ration/",
+      "title": "Datrex DX2400F Emergency Food Ration — 2400 Calories: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Datrex DX2400F Emergency Food Ration — 2400 Calories",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-delta-2-portable-power-station/",
+      "title": "EcoFlow DELTA 2 Portable Power Station: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "EcoFlow DELTA 2 Portable Power Station",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/ecoflow-river-2-pro/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/",
+      "title": "EcoFlow RIVER 2 Pro: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "EcoFlow RIVER 2 Pro",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/esee-4-fixed-blade-knife/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/esee-4-fixed-blade-knife/",
+      "title": "ESEE-4 Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "ESEE-4 Fixed Blade Knife",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/fenix-cl26r-pro/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/",
+      "title": "Fenix CL26R Pro rechargeable lantern: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Fenix CL26R Pro rechargeable lantern",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/fenix-hm50r-v2-headlamp/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fenix-hm50r-v2-headlamp/",
+      "title": "Fenix HM50R V2.0 rechargeable headlamp: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Fenix HM50R V2.0 rechargeable headlamp",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/fnirsi-gc-01-geiger-counter/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fnirsi-gc-01-geiger-counter/",
+      "title": "FNIRSI GC-01 Geiger Counter: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "FNIRSI GC-01 Geiger Counter",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/garmin-gpsmap-67i-satellite-gps/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/garmin-gpsmap-67i-satellite-gps/",
+      "title": "Garmin GPSMAP 67i satellite communicator: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Garmin GPSMAP 67i satellite communicator",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/gerber-strongarm-fixed-blade-knife/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/gerber-strongarm-fixed-blade-knife/",
+      "title": "Gerber StrongArm Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Gerber StrongArm Fixed Blade Knife",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/iniu-p62-20000mah-65w/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/",
+      "title": "INIU P62 20000 mAh 65 W power bank: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "INIU P62 20000 mAh 65 W power bank",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/jackery-explorer-1000-v2/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/",
+      "title": "Jackery Explorer 1000 v2: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Jackery Explorer 1000 v2",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/jackery-explorer-300/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/",
+      "title": "Jackery Explorer 300: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Jackery Explorer 300",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/jackery-solarsaga-100w-air/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/",
+      "title": "Jackery SolarSaga 100 W Air: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Jackery SolarSaga 100 W Air",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/kidde-c3010-co-alarm/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/",
+      "title": "Kidde C3010 carbon monoxide alarm: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Kidde C3010 carbon monoxide alarm",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/leatherman-wave-plus-multitool/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/leatherman-wave-plus-multitool/",
+      "title": "Leatherman Wave+ multi-tool: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Leatherman Wave+ multi-tool",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/marmot-precip-rain-jacket/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/marmot-precip-rain-jacket/",
+      "title": "Marmot PreCip rain jacket: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Marmot PreCip rain jacket",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/mechanix-m-pact-work-gloves/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/mechanix-m-pact-work-gloves/",
+      "title": "Mechanix Wear M-Pact work gloves: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Mechanix Wear M-Pact work gloves",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/merrell-moab-3-mid-waterproof-boots/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/merrell-moab-3-mid-waterproof-boots/",
+      "title": "Merrell Moab 3 Mid Waterproof hiking boots: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Merrell Moab 3 Mid Waterproof hiking boots",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/midland-er310/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/midland-er310/",
+      "title": "Midland ER310 emergency radio: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Midland ER310 emergency radio",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "title": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/nanuk-904-first-aid-kit/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/nanuk-904-first-aid-kit/",
+      "title": "NANUK 904 first aid kit: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "NANUK 904 first aid kit",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/readywise-84-servings-emergency-food-bucket/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/readywise-84-servings-emergency-food-bucket/",
+      "title": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/reliance-aqua-tainer-7-gallon/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/reliance-aqua-tainer-7-gallon/",
+      "title": "Reliance Aqua-Tainer 7-gallon water container: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Reliance Aqua-Tainer 7-gallon water container",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/royale-velour-plush-thick-toilet-paper/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/royale-velour-plush-thick-toilet-paper/",
+      "title": "Royale Velour Plush & Thick Toilet Paper: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Royale Velour Plush & Thick Toilet Paper",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/sawyer-squeeze-sp129-water-filter/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sawyer-squeeze-sp129-water-filter/",
+      "title": "Sawyer Squeeze SP129 water filtration system: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "Sawyer Squeeze SP129 water filtration system",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/sol-emergency-bivvy/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sol-emergency-bivvy/",
+      "title": "SOL Emergency Bivvy with rescue whistle: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "SOL Emergency Bivvy with rescue whistle",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "path": "/gear/sos-3600-calorie-emergency-food-rations/",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sos-3600-calorie-emergency-food-rations/",
+      "title": "S.O.S. Emergency Food Rations — 3600 Calories: specs, uses & limitations | ApocalypseGearLab",
+      "h1": "S.O.S. Emergency Food Rations — 3600 Calories",
+      "schemas": [
+        "BreadcrumbList"
+      ]
+    }
+  ]
+}

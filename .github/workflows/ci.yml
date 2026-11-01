@@ -24,6 +24,7 @@ jobs:
       - run: npm run test:images
       - run: npm run release:check
       - run: npm run audit:affiliate
+      - run: npm run audit:verification
       - run: npm run test:products
       - run: npm run build
       - run: npm run test:site

@@ -1,0 +1,72 @@
+{
+  "scope": "Final local production validation; no merge/deployment or independent Amazon account/offer verification",
+  "astro": {
+    "files": 97,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 86,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 104,
+    "failed": 0,
+    "analyticsAndRetailerTrafficIsolated": true,
+    "resolvedQaIssue": "Capture now scrolls lazy-loaded images into view before decoding."
+  },
+  "productSchemaFixtures": "PASS: published, informational, active/disabled account states, mandatory holds, restoration",
+  "build": {
+    "pages": 43,
+    "result": "PASS"
+  },
+  "site": {
+    "internalReferences": 1704,
+    "sitemapUrls": 6,
+    "result": "PASS"
+  },
+  "images": {
+    "mappings": 36,
+    "publishable": 35,
+    "rejected": 1,
+    "result": "PASS; existing image bytes preserved"
+  },
+  "affiliate": {
+    "recordedUrls": 36,
+    "active": 31,
+    "held": 5,
+    "renderedCtaInstances": 190,
+    "wrongTags": 0,
+    "result": "PASS"
+  },
+  "release": "PASS: per-product holds and informational visibility remain independent",
+  "seo": "PASS: six core/disclosure pages indexable, 36 product profiles noindex/nofollow, no Product/Offer",
+  "responsive": {
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "newCatalogueAndDisclosureAxeAudits": 12,
+    "violations": 0,
+    "fullSuiteAlsoAuditsEveryProduct": true
+  },
+  "screenshots": [
+    "catalogue-1440.webp",
+    "catalogue-375.webp",
+    "disclosure-1440.webp",
+    "disclosure-375.webp",
+    "kidde-c3010-co-alarm-card-1440.webp",
+    "kidde-c3010-co-alarm-card-375.webp",
+    "leatherman-wave-plus-multitool-card-1440.webp",
+    "leatherman-wave-plus-multitool-card-375.webp",
+    "midland-er310-card-1440.webp",
+    "midland-er310-card-375.webp",
+    "profile-status-1440.webp",
+    "profile-status-375.webp"
+  ]
+}
