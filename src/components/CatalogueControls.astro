@@ -1,12 +1,13 @@
 ---
-import { CATEGORIES, UNIVERSE_IDS } from '../config/taxonomy';
-interface Props { categories: string[]; count: number }
+import { UNIVERSE_IDS } from '../config/taxonomy';
+import type { populatedCategories } from '../lib/category-navigation';
+interface Props { categories: ReturnType<typeof populatedCategories>; count: number }
 const { categories, count } = Astro.props;
 ---
 <form data-catalogue-controls hidden role="search" aria-label="Find equipment" class="panel filters">
   <div><label for="gear-query">Search product names and brands</label><input id="gear-query" name="query" type="search" placeholder="e.g. EcoFlow or thermometer" autocomplete="off" /></div>
   <div><label for="gear-sector">Sector</label><select id="gear-sector" name="sector"><option value="">All sectors</option>{UNIVERSE_IDS.map(id => <option value={id}>{id.toUpperCase()}</option>)}</select></div>
-  <div><label for="gear-category">Equipment category</label><select id="gear-category" name="category"><option value="">All categories</option>{CATEGORIES.filter(c => categories.includes(c.id)).map(c => <option value={c.id}>{c.label}</option>)}</select></div>
+  <div><label for="gear-category">Equipment category</label><select id="gear-category" name="category"><option value="">All categories</option>{categories.map(c => <option value={c.id}>{c.label}</option>)}</select></div>
   <button type="reset" class="btn">Clear filters</button>
   <p class="filter-status" role="status" aria-live="polite" aria-atomic="true" data-catalogue-count>{count} matching equipment profiles · All sectors · All categories</p>
 </form>
@@ -34,13 +35,25 @@ const { categories, count } = Astro.props;
       event.preventDefault();
       query.value = ''; sector.value = ''; category.value = ''; update();
     });
-    for (const link of container.querySelectorAll<HTMLAnchorElement>('.category-links a')) {
-      link.addEventListener('click', () => {
-        query.value = ''; sector.value = ''; category.value = link.hash.replace('#category-', ''); update();
-      });
-    }
+    const applyCategoryHash = () => {
+      const id = location.hash.replace('#category-', '');
+      if (!location.hash.startsWith('#category-') || ![...category.options].some(option => option.value === id)) return;
+      query.value = ''; sector.value = ''; category.value = id; update();
+    };
+    // Header, hub and directory links all share the same native HTML targets.
+    window.addEventListener('hashchange', applyCategoryHash);
+    document.addEventListener('click', event => {
+      const link = (event.target as Element).closest<HTMLAnchorElement>('a');
+      if (link?.pathname === location.pathname && link.hash.startsWith('#category-')) {
+        const id = link.hash.slice('#category-'.length);
+        if ([...category.options].some(option => option.value === id)) {
+          query.value = ''; sector.value = ''; category.value = id; update();
+        }
+      }
+    });
     form.hidden = false;
     update();
+    applyCategoryHash();
   }
 </script>
 <style>

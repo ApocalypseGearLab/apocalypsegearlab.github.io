@@ -1,0 +1,70 @@
+{
+  "baseCommit": "967d8f83087a03f6554df8a43fb373439cb9e671",
+  "hashSource": "Immutable Git blobs; text checkout CRLF is canonicalized to LF under .gitattributes. Content, encoding and BOM changes remain rejected.",
+  "files": [
+    {
+      "file": "src/components/SectorGuide.astro",
+      "sha256": "96d84e79d8bb56db5b149aacb1d73f5659d10c1d8a38abf53ea7038a29b9fa4c"
+    },
+    {
+      "file": "src/components/ProductCard.astro",
+      "sha256": "d0b449bede8c7972b4bc088d254475462fd8196144692a0852017c1a2a58708f"
+    },
+    {
+      "file": "src/components/ProductProfile.astro",
+      "sha256": "be1daec5dae61acfe1b9d66654ee432e50b56eb3735cf36b18d4f1cdba41e3e1"
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "sha256": "ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7"
+    },
+    {
+      "file": "src/layouts/BaseLayout.astro",
+      "sha256": "c1417e30cced2505da0650d9f111f73148f7a40b12bb62a3ad58a2a5b72408de"
+    },
+    {
+      "file": "src/pages/index.astro",
+      "sha256": "21b8ba4e751224d162c0d5c032ca7795be5836d5f97d3b15703d78f1016ac72c"
+    },
+    {
+      "file": "src/pages/how-we-research.astro",
+      "sha256": "20afdbcea51ff3e5f44ed156ceb2881dff03ca1b79db3649f1515c7c07567d71"
+    },
+    {
+      "file": "src/lib/category-seo.ts",
+      "sha256": "dab7929cf048fe8f40776f91dcf98212e26a9a311c4bc7daab75eed67deb742b"
+    },
+    {
+      "file": "src/lib/collection-seo.ts",
+      "sha256": "edb9cc5fa7870f8bde92c1054f9f712330345611ac28e97301201b6e4ff4b625"
+    },
+    {
+      "file": "src/lib/catalogue-search.ts",
+      "sha256": "bbbe30155866e096b7e5e5acdfcfed30094f718d7eb61761cea434ef73e1310d"
+    },
+    {
+      "file": "src/lib/planning-context.ts",
+      "sha256": "3834225ec5345cc616e2ad8c703e878ca9d41126ea22e5d358df707adf9b3df8"
+    },
+    {
+      "file": "src/config/taxonomy.ts",
+      "sha256": "9dba9c7ec967fa384998427e4f081091bc24b533cf07cb140045a3d25eb89fae"
+    },
+    {
+      "file": "src/config/site.ts",
+      "sha256": "77504e79017c46ab737b64f90bdfdba908274fc5fd7ceba9afd138d6da224311"
+    },
+    {
+      "file": "src/styles/global.css",
+      "sha256": "9f0d75e92e4ab789619ead606e7dcf061fa2b3c90bac470641eba6a5ba018b42"
+    },
+    {
+      "file": "astro.config.mjs",
+      "sha256": "50131b12b2e3cb6387b66b882f9c5d59e84d7f77712c16438dcd169ebf6ed311"
+    },
+    {
+      "file": "src/pages/robots.txt.ts",
+      "sha256": "9a07e9229f8a1db1c0a3d2b2e21115d787dbad3d67597dd8c2ed0519647d010b"
+    }
+  ]
+}

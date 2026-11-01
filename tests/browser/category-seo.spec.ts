@@ -12,7 +12,7 @@ test('all five core pages are indexable with self canonicals and sitemap entries
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href','https://apocalypsegearlab.github.io'+path);
   expect(xml).toContain('<loc>https://apocalypsegearlab.github.io'+path+'</loc>');
   await expect(page.locator('h1')).toHaveCount(1);
-  for(const destination of core)await expect(page.locator(`body > header a[href="${destination}"]`)).toHaveCount(1);
+  for(const destination of core)await expect(page.locator(`body > header .primary-links a[href="${destination}"]`)).toHaveCount(1);
   expect((await page.locator('script[type="application/ld+json"]').allTextContents()).join('')).not.toMatch(/"@type"\s*:\s*"(?:Product|Offer|AggregateOffer)"/);
  }
  for(const id of ['morakniv-garberg-blackblade-carbon-survival-kit','kidde-c3010-co-alarm']){
