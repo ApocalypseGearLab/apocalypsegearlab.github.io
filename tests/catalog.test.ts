@@ -1,3 +1,4 @@
+import {accountStatusFileChanged, historicalProductJSON} from './account-status-fixture';
 import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
 import assert from 'node:assert/strict';
 import test from 'node:test';
@@ -58,8 +59,8 @@ test('the catalogue audit preserves every previous product, artwork, affiliate p
   const baseline=JSON.parse(readFileSync('docs/qa/affiliate-audit/preservation.json','utf8'));
   assert.equal(baseline.baseCommit,'836f7e10dae4b381a2d6c51607165509d4996bc4');
   assert.equal(baseline.products.length,30,'All 29 previous products and the internal template');
-  for(const p of baseline.products.filter((p:any)=>!Object.keys(PHASE46_FILTERS).some(id=>p.file.endsWith('/'+id+'.json'))))assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files){if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
+  for(const p of baseline.products.filter((p:any)=>!Object.keys(PHASE46_FILTERS).some(id=>p.file.endsWith('/'+id+'.json'))))assert.equal(createHash('sha256').update(historicalProductJSON(p.file,JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
+  for(const p of baseline.files){if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     // Phase 4.7 appends one mapping; its first 29 entries and all prior files
     // are checked against the immutable Phase 4.7 baseline in phase47.test.ts.
@@ -76,8 +77,8 @@ test('Phase 4.6 appends only three media records and preserves every previous pr
   const baseline=JSON.parse(readFileSync('docs/qa/phase4-6/preservation.json','utf8'));
   assert.equal(baseline.baseCommit,'f027d539fd2b4621fc55ec4b103dcdc63245d0ee');
   assert.equal(baseline.products.length,27,'All 26 prior products and template');
-  for(const p of baseline.products) assert.equal(createHash('sha256').update(JSON.stringify(JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files) {if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
+  for(const p of baseline.products) assert.equal(createHash('sha256').update(historicalProductJSON(p.file,JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
+  for(const p of baseline.files) {if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
@@ -134,13 +135,13 @@ test('all 26 product identities and the 17 unaudited records are preserved again
     // Phase 4.5 explicitly corrects only ReadyWise's full name and recorded model.
     const readywiseIdentity:Record<string,string>={name:'ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket',modelNumber:'WGF01-184'};
     for(const [key,value]of Object.entries(p.protected))assert.deepEqual(current[key]??null,p.id==='readywise-84-servings-emergency-food-bucket'?(readywiseIdentity[key]??value):value,`${p.id}: protected ${key}`);
-    if(!p.audited)assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),p.sha256Canonical,p.id);
+    if(!p.audited)assert.equal(createHash('sha256').update(historicalProductJSON('src/data/products/'+p.id+'.json',current)).digest('hex'),p.sha256Canonical,p.id);
   }
 });
 
 test('prior media, bunker, affiliate configuration and mandatory safety controls survive additive taxonomy integration', () => {
   const baseline=JSON.parse(readFileSync('docs/qa/phase4-4/preservation.json','utf8'));
-  for(const p of baseline.unchangedFiles){
+  for(const p of baseline.unchangedFiles){if(accountStatusFileChanged(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 protects prior categories and unchanged source files.
     if(p.file==='src/data/media/imported-manifest.json') continue; // Intentional append; old entries are independently protected below.
     const raw=readFileSync(p.file),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;
@@ -158,7 +159,7 @@ test('Midland owner-transcribed ER310-MFN identity permits only the recorded lin
   assert.match(data.research!.identityNotes,/not.*inspected screenshot/);
   assert.match(data.research!.affiliateReview!.reason,/ER310-MFN.*ER310 family.*rather than ER310PRO/);
   assert.equal(data.research!.listingVerified,false);
-  assert.equal(data.research!.listingEvidence,undefined);
+  assert.equal(data.research!.listingEvidence!.method,'owner-document');
   assert.equal(data.research!.publicationApproved,false);
   assert.equal(data.research!.safetyStatus,'pending');
   assert.equal(data.reviewStatus,'draft');
@@ -181,7 +182,7 @@ test('S.O.S. two-pack link permission retains rounded nutrition, dated shelf lif
   assert.deepEqual(evidence.ownerEvidence.label,{servingsPerPacket:9,servingGrams:84,caloriesPerServing:410});
   assert.equal(9*84*2,1512,'Only a nominal label-mass consistency check, not a weighing');
   assert.equal(data.research!.listingVerified,false);
-  assert.equal(data.research!.listingEvidence,undefined);
+  assert.equal(data.research!.listingEvidence!.method,'owner-document');
   assert.equal(data.research!.publicationApproved,false);
   assert.equal(data.research!.safetyStatus,'pending');
   assert.equal(data.reviewStatus,'draft');
@@ -231,7 +232,7 @@ test('ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared
   assert.equal(getMerchantLinks(product,true)[0]!.href,'https://www.amazon.ca/dp/B00TX5J74S?tag=apocalypsegear-20');
   assert.equal(getMerchantLinks(product,false)[0]!.href,null);
   assert.equal(data.research!.listingVerified,false);
-  assert.equal(data.research!.listingEvidence,undefined);
+  assert.equal(data.research!.listingEvidence!.method,'owner-document');
   assert.equal(data.research!.publicationApproved,false);
   assert.equal(data.research!.safetyStatus,'pending');
   assert.equal(data.reviewStatus,'draft');
@@ -245,7 +246,7 @@ test('ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared
   assert.equal(baseline.unchangedProducts.length,26);
   for(const entry of baseline.unchangedProducts){
     const current=JSON.parse(readFileSync(entry.file,'utf8'));
-    assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),entry.sha256Canonical,entry.file);
+    assert.equal(createHash('sha256').update(historicalProductJSON(entry.file,current)).digest('hex'),entry.sha256Canonical,entry.file);
   }
 });
 
@@ -320,7 +321,7 @@ test('thirty-six registered links retain exact identities and obey product-level
     const eligible = canadianAffiliateIssues(product).length === 0;
     assert.equal(getMerchantLinks(product, true)[0]?.href, eligible ? data.links.amazonCa.url : null);
     assert.equal(data.research?.listingVerified, false, 'Link activation must not invent listing verification');
-    if(slug in PHASE46_FILTERS || slug in FILTER_2091 || slug in PHASE5 || slug in PHASE53) assert.equal(data.research?.listingEvidence?.method,'owner-document');
+    if(slug in PHASE46_FILTERS || slug in FILTER_2091 || slug in PHASE5 || slug in PHASE53 || ['midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket'].includes(slug)) assert.equal(data.research?.listingEvidence?.method,'owner-document');
     else assert.equal(data.research?.listingEvidence, undefined);
     if (eligible) assert.equal(data.research?.affiliateReview?.decision, 'link-permitted');
   }

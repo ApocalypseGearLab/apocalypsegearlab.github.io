@@ -162,6 +162,14 @@
         "midland-er310-faq",
         "eccc-weatheradio"
       ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B015QIC1PW",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B015QIC1PW",
+      "matchedModel": "ER310",
+      "notes": "Existing owner transcription archived in docs/qa/midland-er310/evidence.json: Amazon.ca B015QIC1PW, brand Midland, manufacturer part ER310, retail model ER310-MFN, red/black. Canonical ER310 denotes the documented family only; MFN is not a manufacturer-confirmed battery revision. The capture pixels and live listing were not independently inspected. The 2600/3500 mAh conflict, supplied battery, seller and package remain unresolved; no capacity or runtime is guaranteed."
     }
   },
   "editorial": {

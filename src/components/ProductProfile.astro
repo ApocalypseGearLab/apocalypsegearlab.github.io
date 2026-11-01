@@ -12,6 +12,7 @@ import ProductCard from './ProductCard.astro';
 import ProductImage from './ProductImage.astro';
 import { isCommerciallyApproved, isInformationalProduct } from '../lib/release-policy';
 import { COMPATIBLE_3M_FILTERS, productCaution } from '../lib/respirator-filters';
+import { productVerification } from '../lib/product-verification';
 
 
 
@@ -28,6 +29,7 @@ const hasBuyingLinks = links.some((link) => link.href);
 const availableLinks = links.filter((link) => link.href || (link.key === 'amazon-ca' && data.links.amazonCa.url));
 const verified = data.lastVerified?.toISOString().slice(0, 10);
 const research = data.research;
+const review = productVerification(product);
 // Every specification keeps a citation, with the original external destination
 // available once in the references section rather than alongside purchase controls.
 const references: {id:string;title:string;url:string;kind:string;anchor:string}[] = data.sources.map(source => ({...source, anchor: 'source-' + source.id}));
@@ -71,6 +73,12 @@ const breadcrumbs = {
       {verified && <span class="badge">Last verified {verified}</span>}
       {research && <span class="badge">Sources checked {research.checkedAt}</span>}
     </p>
+    <div class="verification-summary" data-product-review>
+      <p><strong>{review.profileLabel}.</strong> {review.evidenceLabel}. {review.listingLabel}.</p>
+      <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}>{review.editorialLabel}. {review.editorialApproved && !review.fullyApproved && 'Full profile verification remains incomplete.'}</p>
+      <p>Manufacturer specifications describe the documented model; they do not authenticate the current retailer offer or supplied unit. {review.listingStatus === 'owner-documented' && 'The listing evidence comes from the owner, not an independent inspection of the current offer.'}</p>
+      <p data-listing-status={review.listingStatus} data-link-status={review.linkActive ? 'active' : 'held'}>{review.linkLabel}. {review.safetyStatus === 'blocked' ? 'Unresolved safety or certification requirements are detailed below.' : review.safetyStatus === 'pending' ? 'Product-specific safety review remains incomplete; read the limitations below.' : 'Documented safety limitations still apply.'}</p>
+    </div>
 
     <section aria-labelledby="buy" data-product-purchase class="product-purchase">
       <h2 id="buy">Where to buy</h2>
@@ -154,6 +162,8 @@ const breadcrumbs = {
   .technical-sources li { scroll-margin-top: 6rem; }
   .buttons { display: flex; flex-wrap: wrap; gap: var(--s-3); }
   .product-status { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+  .verification-summary { max-width: var(--measure); color: var(--c-muted); font-size: 0.9rem; }
+  .verification-summary p { margin-bottom: var(--s-2); }
   ul { max-width: var(--measure); }
   .sources { padding-left: var(--s-5); }
   .sources li { margin-bottom: var(--s-3); scroll-margin-top: 6rem; }

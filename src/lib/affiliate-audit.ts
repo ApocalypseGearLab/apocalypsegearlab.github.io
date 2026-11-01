@@ -38,7 +38,7 @@ export function auditCanadianCatalogue(products: Product[]) {
       blockDocumented: merchant.href ? null : blockDocumented,
       commercialIssues: canadianAffiliateIssues(product), editorialIssues: publicationIssues(product),
       editorialStatus: product.data.reviewStatus, safetyStatus: product.data.research?.safetyStatus ?? null,
-      correction: technicalIssues.length ? 'Correct the recorded URL against documented identity; do not infer a replacement offer' : product.id === '3m-2091-p100-particulate-filters' ? 'Added missing distinct 2091 profile; 2097 record and artwork preserved; sale-pack verification still pending' : 'No malformed URL found; preserve existing decision',
+      correction: technicalIssues.length ? 'Correct the recorded URL against documented identity; do not infer a replacement offer' : 'No malformed URL found; preserve the documented product-level decision',
     };
   });
   for (const row of rows) {

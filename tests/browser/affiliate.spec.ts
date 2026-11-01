@@ -34,7 +34,7 @@ test('actual Astro affiliate markup supports active and pending states without s
     } else {
       await expect(button).toHaveAttribute('aria-disabled', 'true');
       await expect(button).not.toHaveAttribute('href');
-      await expect(button).toContainText('Affiliate eligibility unconfirmed');
+      await expect(button).toContainText('Affiliate linking disabled');
       expect(await button.evaluate((el: HTMLElement) => el.tabIndex)).toBe(-1);
       await page.keyboard.press('Tab');
       await expect(button).not.toBeFocused();

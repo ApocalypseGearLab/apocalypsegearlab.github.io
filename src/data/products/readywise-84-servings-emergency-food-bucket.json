@@ -218,6 +218,14 @@
         "rw-dessert",
         "rw-preparation"
       ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B00TX5J74S",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B00TX5J74S",
+      "matchedModel": "WGF01-184",
+      "notes": "Existing owner-reported Amazon.ca B00TX5J74S fields archived in docs/qa/phase4-5/evidence.json: WGF01-184, UPC 851238005318, GTIN 00851238005318, one 84-serving gluten-free bucket with the yogurt-version assortment. Manufacturer contents and the previously inspected label support the documented formulation, not every delivered lot. No independent live Amazon offer, seller or screenshot inspection is claimed. Number of Packs 84 is not a pouch count; exact delivered formulation, dates, allergens and package integrity remain checks before use."
     }
   },
   "editorial": {

@@ -4,7 +4,7 @@ import { UNIVERSES } from '../config/site';
 import { categoryLabel, categoryUniverse } from '../config/taxonomy';
 import ProductImage from './ProductImage.astro';
 import { importedArtwork, canPublishImportedAsset } from '../lib/imported-media';
-import { isCommerciallyApproved } from '../lib/release-policy';
+import { productVerification } from '../lib/product-verification';
 import { productCaution } from '../lib/respirator-filters';
 import { getMerchantLinks } from '../lib/affiliate';
 import AffiliateButton from './AffiliateButton.astro';
@@ -15,8 +15,7 @@ interface Props { product: Product; headingLevel?: 2 | 3; releasePreview?: boole
 const { product, headingLevel = 3, releasePreview = false, placement = 'related-card' } = Astro.props;
 const Heading = headingLevel === 2 ? 'h2' : 'h3';
 const { data } = product;
-const isPublished = isCommerciallyApproved(product);
-const verificationPending = !data.research?.listingVerified;
+const review = productVerification(product);
 const amazonLink = getMerchantLinks(product).find(link => link.key === 'amazon-ca');
 const universe = UNIVERSES[categoryUniverse(data.category)];
 const artwork = importedArtwork(product.id);
@@ -30,12 +29,15 @@ const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
   <Heading><a href={profileHref}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
   <p>{data.summary}</p>
-  {!isPublished && <p><span class="badge badge--warn">Information only{verificationPending && ' · Verification pending'}</span></p>}
+  <div class="card-review" data-product-review>
+    <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}><span class:list={['badge', { 'badge--warn': !review.fullyApproved }]}>{review.profileLabel} · {review.editorialApproved ? review.editorialLabel : review.evidenceLabel}</span></p>
+    <p data-listing-status={review.listingStatus}>{review.listingLabel}</p>
+  </div>
   {productCaution(product) && <p class="card-caution">{productCaution(product)!.split('. ')[0]}.</p>}
   {data.links.amazonCa.url && amazonLink && <div class="card-purchase">
-    {amazonLink.href && <DisclosureNotice compact />}
+    {amazonLink.href && <><p class="label" data-link-status="active">{review.linkLabel}</p><DisclosureNotice compact /></>}
     {amazonLink.href ? <AffiliateButton link={amazonLink} productId={product.id} productName={data.name} placement={placement} /> : <>
-      <p class="label pending-message" data-amazon-pending>Amazon link pending verification</p>
+      <p class="label pending-message" data-amazon-pending data-link-status="held">Amazon link pending verification</p>
       <a href={profileHref} data-pending-details>Details<span class="visually-hidden"> about {data.name}</span></a>
     </>}
   </div>}
@@ -49,6 +51,8 @@ const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
   .card--illustrated:focus-within { border-color: var(--accent); }
   @media (hover: hover) { .card--illustrated:hover { border-color: var(--accent); } }
   .brand { color: var(--c-muted); font-size: 0.9rem; }
+  .card-review { display: grid; gap: var(--s-2); color: var(--c-muted); font-size: 0.85rem; }
+  .card-review p { margin: 0; }
   .card-purchase { display: grid; gap: var(--s-3); margin-top: auto; }
   .pending-message { margin: 0; }
   .card-caution { font-size: 0.9rem; border-left: 2px solid var(--accent); padding-left: var(--s-3); }

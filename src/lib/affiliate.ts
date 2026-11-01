@@ -84,7 +84,7 @@ export function getMerchantLinks(product: Product, amazonPermission: Marketplace
   const caEnrolled = typeof amazonPermission === 'boolean' ? amazonPermission : amazonPermission.ca;
   const usEnrolled = typeof amazonPermission === 'boolean' ? false : amazonPermission.us;
   const unavailableReason = mandatoryHold(product)
-    ?? (!caEnrolled ? 'Affiliate eligibility unconfirmed'
+    ?? (!caEnrolled ? 'Affiliate linking disabled'
     : !matchesCanadianListing(links.amazonCa) ? 'Canadian retailer URL not verified'
     : product.data.research?.affiliateReview ? caIssues[0] ?? 'Retailer link unavailable'
     : !product.data.research?.listingVerified || !hasMatchingCanadianEvidence(product) ? 'Canadian listing identity not verified'

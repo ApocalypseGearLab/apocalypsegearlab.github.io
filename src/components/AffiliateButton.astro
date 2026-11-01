@@ -22,7 +22,7 @@ const active = AMAZON_CA_LINKING_ENABLED && isCanadianPurchaseLink(link);
     data-marketplace={link.marketplace}
   >View on Amazon.ca <span class="visually-hidden">(affiliate link, opens in a new tab)</span></a>
 ) : (
-  <span class="btn btn--pending" role="link" aria-disabled="true">{link.label}<span class="label">{link.unavailableReason ?? (link.marketplace !== 'other' && !AMAZON_CA_LINKING_ENABLED ? 'Affiliate eligibility unconfirmed' : 'Listing verification pending')}</span></span>
+  <span class="btn btn--pending" role="link" aria-disabled="true">{link.label}<span class="label">{link.unavailableReason ?? (link.marketplace !== 'other' && !AMAZON_CA_LINKING_ENABLED ? 'Affiliate linking disabled' : 'Listing verification pending')}</span></span>
 ))}
 
 <style>

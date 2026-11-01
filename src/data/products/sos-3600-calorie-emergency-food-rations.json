@@ -155,6 +155,14 @@
         "sos-faq",
         "kit-planning"
       ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B00W20PIHQ",
+      "checkedAt": "2026-10-31",
+      "method": "owner-document",
+      "matchedAsin": "B00W20PIHQ",
+      "matchedModel": "3600 KCAL Emergency Food Ration",
+      "notes": "Existing owner transcription archived in docs/qa/sos-two-pack/evidence.json, captures reported 2026-10-29: Amazon.ca B00W20PIHQ, title 2 PK, About 2 Pack, Number of Items 2, Unit Count 1512 gram. Advertised two packets of the 3600 Calorie ration. Reported label: nine 84 g portions at 410 calories; rounded serving arithmetic is not an exact packet or lot-energy measurement. No screenshot pixels, live offer, seller, delivered lot, dates or seals were independently inspected."
     }
   },
   "editorial": {
