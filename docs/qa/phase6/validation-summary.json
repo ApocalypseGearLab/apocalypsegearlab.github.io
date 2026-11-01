@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-01",
+  "baseCommit": "520d61a3b48d67ca01623eebcf4784275097dc56",
+  "baseline": {
+    "unitTests": 96,
+    "browserTests": 116,
+    "htmlPages": 48,
+    "publicRoutesCompared": 46,
+    "deployedHTMLMatches": 46
+  },
+  "final": {
+    "unitTests": 100,
+    "unitFailures": 0,
+    "astroFilesChecked": 114,
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "fullBrowserTests": 127,
+    "fullBrowserFailures": 0,
+    "postLayoutBrowserTests": 25,
+    "postLayoutBrowserFailures": 0,
+    "postLayoutNote": "A late CSS reservation fixes filter initialization CLS. Rebuilt and repeated all affected catalogue, responsive, accessibility, no-JS, navigation and analytics tests after the broad regression run.",
+    "htmlPages": 49,
+    "internalReferences": 2270,
+    "sitemapURLs": 7,
+    "indexableProductProfiles": 0,
+    "noindexProductProfiles": 41,
+    "activeAffiliateDestinations": 36,
+    "heldDestinations": 5,
+    "authorizedCTAInstances": 215,
+    "wrongAffiliateTags": 0,
+    "newResponsiveAxeChecks": 54,
+    "newAxeViolations": 0,
+    "viewportWidths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "screenshotFiles": 24
+  },
+  "visualReview": {
+    "pages": 9,
+    "widths": [
+      375,
+      1440
+    ],
+    "method": "Playwright top-viewport contact sheets inspected; full-page WebP panels retained. No overlaps or clipped primary controls observed. Long captures are split, not resized.",
+    "browser": "Chromium; emulated viewports",
+    "limitations": [
+      "Automated axe plus keyboard checks are not a manual screen-reader certification.",
+      "No Firefox, Safari or physical-device session.",
+      "No field INP/CrUX or Google indexing confirmation."
+    ]
+  },
+  "screenshots": [
+    {
+      "file": "blackout-1440.webp",
+      "width": 1440,
+      "height": 8531,
+      "bytes": 767566,
+      "sha256": "12079e84b00e8cb4ce1eaff03a954ea66b70f476061120934fb3c204ee72fc41"
+    },
+    {
+      "file": "blackout-375-part2.webp",
+      "width": 375,
+      "height": 9936,
+      "bytes": 314684,
+      "sha256": "4548f29e2602ae6f35b498773fc6bac11e868a367b396467897ecb197a80c6f4"
+    },
+    {
+      "file": "blackout-375.webp",
+      "width": 375,
+      "height": 12000,
+      "bytes": 468972,
+      "sha256": "91b007f3c0e95221fdd7ea270752429517eedc947a11469621f3e8a086ee51b3"
+    },
+    {
+      "file": "catalogue-1440.webp",
+      "width": 1440,
+      "height": 900,
+      "bytes": 48712,
+      "sha256": "4cb1da69be33e1dde98ed47f21d0baf75e84d9003d429a94b0d9de76753c9257"
+    },
+    {
+      "file": "catalogue-375.webp",
+      "width": 375,
+      "height": 900,
+      "bytes": 24724,
+      "sha256": "e01f6ab5e5f560dd975334a0acb6b9edfbf349d67e0eb027651ed57cf0b23360"
+    },
+    {
+      "file": "catalogue-filtered-1440.webp",
+      "width": 1440,
+      "height": 900,
+      "bytes": 48222,
+      "sha256": "1041ef1ab89f04c60f92b2b8b46af27f2e09708a4d3c8a79ca77bd00a90441a8"
+    },
+    {
+      "file": "catalogue-filtered-375.webp",
+      "width": 375,
+      "height": 900,
+      "bytes": 24440,
+      "sha256": "a2d060a10be4e9d7df43d9d4b2e87364acd25a89590aa488a9211027ae8401b3"
+    },
+    {
+      "file": "fallout-1440.webp",
+      "width": 1440,
+      "height": 6892,
+      "bytes": 569624,
+      "sha256": "85b8106f01b714dc8957d7ae070384b35db87210fdcd64fd98cb20f8b0c3b327"
+    },
+    {
+      "file": "fallout-375-part2.webp",
+      "width": 375,
+      "height": 3185,
+      "bytes": 105944,
+      "sha256": "e5dda856015539840cb0854b86a746897c19728a0e9a7c78b50e5f33780f48dc"
+    },
+    {
+      "file": "fallout-375.webp",
+      "width": 375,
+      "height": 12000,
+      "bytes": 487170,
+      "sha256": "ad56128d17ec285b394f31073b5468d377bcb4e05bcdf243f65758c97b05aa48"
+    },
+    {
+      "file": "fridge-profile-1440.webp",
+      "width": 1440,
+      "height": 5820,
+      "bytes": 416116,
+      "sha256": "7c2dd72d5f05d867e2eb58cccd5dcfe12e2cf009122a25276ca3647027074463"
+    },
+    {
+      "file": "fridge-profile-375.webp",
+      "width": 375,
+      "height": 9832,
+      "bytes": 358022,
+      "sha256": "d31f359fa56ab9f4699a3b2cda0c27e973c8dc2a5a4e443f21baf22b77b8fb88"
+    },
+    {
+      "file": "home-1440.webp",
+      "width": 1440,
+      "height": 2414,
+      "bytes": 218332,
+      "sha256": "77a92df8836a2f37509a5acc112aa624646913770a0f5e7379260b7df6e4a1de"
+    },
+    {
+      "file": "home-375.webp",
+      "width": 375,
+      "height": 3518,
+      "bytes": 93658,
+      "sha256": "26b86fe71d6f36757b94881746cf28c843023ce034d4ad381acbda1a2bb85c19"
+    },
+    {
+      "file": "methodology-1440.webp",
+      "width": 1440,
+      "height": 2671,
+      "bytes": 191802,
+      "sha256": "facc6833c3046573a3bf3dea99e631b6cdba91537d2055fcade4823e7f800e89"
+    },
+    {
+      "file": "methodology-375.webp",
+      "width": 375,
+      "height": 3904,
+      "bytes": 169696,
+      "sha256": "0eaf59b75e05e20ff0ab64d7f939c07b342c4793e11efb5489c5e1d2479f8f46"
+    },
+    {
+      "file": "outbreak-1440.webp",
+      "width": 1440,
+      "height": 8078,
+      "bytes": 733048,
+      "sha256": "b9536bd742df925732935a485e2698f604a1ffabec981e6727c75059671cf400"
+    },
+    {
+      "file": "outbreak-375-part2.webp",
+      "width": 375,
+      "height": 8320,
+      "bytes": 311754,
+      "sha256": "c21f5bca376a217b13aa35b23ccbeaeb431cf6eebc9f7e0811cfff876f9677ae"
+    },
+    {
+      "file": "outbreak-375.webp",
+      "width": 375,
+      "height": 12000,
+      "bytes": 498990,
+      "sha256": "d1aadb89a211ffb9159eac2f3d1f55d9f918c1af1073a432c152826dba62f664"
+    },
+    {
+      "file": "power-profile-1440.webp",
+      "width": 1440,
+      "height": 6258,
+      "bytes": 422768,
+      "sha256": "1964ff7219a18d76bcb91e072bb716b7e9c4f838cc7c4b35545cc0cdab5d66e4"
+    },
+    {
+      "file": "power-profile-375.webp",
+      "width": 375,
+      "height": 10923,
+      "bytes": 383428,
+      "sha256": "f300bc09f0feb3e4ae02e09435cdc800868bcdd36ba2b36d94ac8bb94e6c128c"
+    },
+    {
+      "file": "respirator-profile-1440.webp",
+      "width": 1440,
+      "height": 7635,
+      "bytes": 604358,
+      "sha256": "8afb1d4cc58fe2eb7b5c5b12e3931a53c5721aaf94f2b990b1cf5c68ca53c526"
+    },
+    {
+      "file": "respirator-profile-375-part2.webp",
+      "width": 375,
+      "height": 2345,
+      "bytes": 70184,
+      "sha256": "8fab7da0d753f0da94cdfebc12c5ff80f69f41b9ddf412cc7be11a43c7677c2a"
+    },
+    {
+      "file": "respirator-profile-375.webp",
+      "width": 375,
+      "height": 12000,
+      "bytes": 486808,
+      "sha256": "dbf87073ff11c00d95388f896ade18c0872fef1d95e2b33119a50e20f8c52205"
+    }
+  ],
+  "ciCorrection": {
+    "cause": "One baseline CSV captured CRLF working-copy bytes instead of immutable LF Git bytes.",
+    "scope": "Only assets/media/image-manifest.csv permits CRLF-to-LF checkout normalization; all other protected files remain byte-exact.",
+    "baseCommitUnchanged": true,
+    "protectedGitBlobsCompared": 168,
+    "changedProtectedGitBlobs": 0,
+    "lfReproduction": {
+      "beforeFix": "Exact CI hash failure reproduced",
+      "afterFix": "4 focused tests passed"
+    },
+    "fullUnitTests": 100,
+    "fullBrowserTests": 127,
+    "localValidation": "ci-fix-validation.json",
+    "diagnosis": "checkout-diagnosis.json"
+  }
+}

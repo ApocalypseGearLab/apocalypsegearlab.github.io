@@ -5,18 +5,24 @@ import ProductCard from './ProductCard.astro';
 import { getVisibleProducts } from '../lib/products';
 import { mandatoryHold } from '../lib/release-policy';
 import { CATALOGUE_EDITORIAL_READY, categoryPageCanBeIndexed } from '../lib/category-seo';
+import { CATEGORIES, categoryUniverse } from '../config/taxonomy';
+import CatalogueControls from './CatalogueControls.astro';
+import { collectionStructuredData } from '../lib/collection-seo';
 
 interface Props { releasePreview?: boolean }
 const { releasePreview = false } = Astro.props;
 const products = (await getVisibleProducts()).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
 const indexable = categoryPageCanBeIndexed(CATALOGUE_EDITORIAL_READY, releasePreview);
+const categories = CATEGORIES.filter(c => products.some(p => p.data.category === c.id));
+const jsonLd = Astro.site ? collectionStructuredData(Astro.site, '/gear/', 'Emergency equipment catalogue', products) : [];
 ---
 
-<BaseLayout canonicalPath="/gear/" title="Survival gear catalogue" description="Compare emergency equipment by power, water, shelter and protective needs. Read specifications, plan a kit and check Canadian retailer variants." noindex={!indexable}>
-  <div class="container section">
+<BaseLayout canonicalPath="/gear/" title="Emergency preparedness gear catalogue" description="Find emergency equipment by sector, category, product or brand. Compare documented specifications, practical limitations and Canadian buying checks." noindex={!indexable} jsonLd={jsonLd}>
+  <div class="container section" data-catalogue>
     <Breadcrumbs items={[{ label: 'Gear catalogue' }]} />
     <h1>Gear catalogue</h1>
     {releasePreview && <p class="notice">Editorial preview — publication checks are pending. These profiles are not public recommendations.</p>}
+    <CatalogueControls categories={categories.map(c => c.id)} count={products.length} />
     <section aria-labelledby="catalogue-needs">
       <h2 id="catalogue-needs">Plan around the services you need</h2>
       <p>Start with the tasks an outage or disruption could interrupt: lighting a room, charging communications, storing water or keeping essential supplies together. Choose equipment to fill a specific gap in your plan, then consider how it will be stored, maintained and carried. More equipment does not automatically make a kit more useful.</p>
@@ -28,11 +34,12 @@ const indexable = categoryPageCanBeIndexed(CATALOGUE_EDITORIAL_READY, releasePre
         </ul>
       </nav>
     </section>
+    <details class="category-directory"><summary>Browse equipment categories</summary><nav aria-label="Equipment categories"><p>Jump to a documented category:</p><ul class="category-links">{categories.map(c => <li><a href={`#category-${c.id}`}>{c.label}</a></li>)}</ul></nav></details>
     <h2>Equipment profiles</h2>
     {products.length === 0 ? (
       <p class="empty">No equipment profiles are available yet.</p>
     ) : (
-      <div class="grid grid--3">{products.map((p) => <ProductCard releasePreview={releasePreview} product={p} headingLevel={2} placement="catalogue-card" />)}</div>
+      <><div class="grid grid--3">{products.map((p, index) => <div class="catalogue-entry" data-catalogue-entry data-name={p.data.name} data-brand={p.data.brand} data-sector={categoryUniverse(p.data.category)} data-category={p.data.category} id={products.findIndex(candidate => candidate.data.category === p.data.category) === index ? `category-${p.data.category}` : undefined}><ProductCard releasePreview={releasePreview} product={p} headingLevel={3} placement="catalogue-card" /></div>)}</div><p class="empty" data-catalogue-empty hidden>No equipment matches these filters. Try a different sector or category, shorten your search, or use Clear filters.</p></>
     )}
     <section class="section" aria-labelledby="catalogue-guide" data-editorial-guide>
       <h2 id="catalogue-guide">Read a profile before choosing</h2>
@@ -41,7 +48,15 @@ const indexable = categoryPageCanBeIndexed(CATALOGUE_EDITORIAL_READY, releasePre
         <li><strong>Read limitations alongside advantages.</strong> Check operating conditions, compatible components and safety cautions. An accessory or protective component is useful only within its documented configuration.</li>
         <li><strong>Check the exact Canadian offer.</strong> Match the model, revision, quantity, included accessories and seller terms before purchase. Illustrations are visual references, not proof of package contents or certification.</li>
       </ol>
-      <p>Profiles distinguish manufacturer documentation, retailer references and unresolved questions. An informational profile or an available buying link is not a hands-on test, product endorsement or completed safety approval. Consult the sources and buying checks on each profile, and read our <a href="/affiliate-disclosure/">affiliate disclosure</a>.</p>
+      <p>Profiles distinguish manufacturer documentation, retailer references and unresolved questions. An informational profile or an available buying link is not a hands-on test, product endorsement or completed safety approval. Consult the sources and buying checks on each profile, read <a href="/how-we-research/">how we research equipment</a> and our <a href="/affiliate-disclosure/">affiliate disclosure</a>.</p>
     </section>
   </div>
 </BaseLayout>
+<style>
+  .category-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; padding-left: 1.2rem; }
+  .category-directory { margin-block: var(--s-5); }
+  summary { min-height: 2.75rem; padding-block: 0.6rem; cursor: pointer; color: var(--c-amber); }
+  .category-links a { display: inline-block; padding-block: 0.4rem; }
+  .catalogue-entry { display: flex; min-width: 0; scroll-margin-top: 6rem; }
+  .catalogue-entry > :global(article) { width: 100%; }
+</style>

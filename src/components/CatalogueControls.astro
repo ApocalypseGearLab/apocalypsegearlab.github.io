@@ -1,0 +1,57 @@
+---
+import { CATEGORIES, UNIVERSE_IDS } from '../config/taxonomy';
+interface Props { categories: string[]; count: number }
+const { categories, count } = Astro.props;
+---
+<form data-catalogue-controls hidden role="search" aria-label="Find equipment" class="panel filters">
+  <div><label for="gear-query">Search product names and brands</label><input id="gear-query" name="query" type="search" placeholder="e.g. EcoFlow or thermometer" autocomplete="off" /></div>
+  <div><label for="gear-sector">Sector</label><select id="gear-sector" name="sector"><option value="">All sectors</option>{UNIVERSE_IDS.map(id => <option value={id}>{id.toUpperCase()}</option>)}</select></div>
+  <div><label for="gear-category">Equipment category</label><select id="gear-category" name="category"><option value="">All categories</option>{CATEGORIES.filter(c => categories.includes(c.id)).map(c => <option value={c.id}>{c.label}</option>)}</select></div>
+  <button type="reset" class="btn">Clear filters</button>
+  <p class="filter-status" role="status" aria-live="polite" aria-atomic="true" data-catalogue-count>{count} matching equipment profiles · All sectors · All categories</p>
+</form>
+<script>
+  import { filterCatalogue } from '../lib/catalogue-search';
+  for (const container of document.querySelectorAll<HTMLElement>('[data-catalogue]')) {
+    const form = container.querySelector<HTMLFormElement>('[data-catalogue-controls]');
+    if (!form) continue;
+    const query = form.querySelector<HTMLInputElement>('input[name=query]')!;
+    const sector = form.querySelector<HTMLSelectElement>('select[name=sector]')!;
+    const category = form.querySelector<HTMLSelectElement>('select[name=category]')!;
+    const entries = [...container.querySelectorAll<HTMLElement>('[data-catalogue-entry]')];
+    const rows = entries.map(entry => ({ name: entry.dataset.name!, brand: entry.dataset.brand!, category: entry.dataset.category!, sector: entry.dataset.sector! }));
+    const update = () => {
+      const matches = filterCatalogue(rows, { query: query.value, sector: sector.value, category: category.value });
+      entries.forEach((entry, i) => { entry.hidden = !matches[i]; });
+      const count = matches.filter(Boolean).length;
+      form.querySelector('[data-catalogue-count]')!.textContent = `${count} matching equipment ${count === 1 ? 'profile' : 'profiles'} · ${sector.selectedOptions[0]!.text} · ${category.selectedOptions[0]!.text}${query.value.trim() ? ` · Search: ${query.value.trim()}` : ''}`;
+      container.querySelector<HTMLElement>('[data-catalogue-empty]')!.hidden = count > 0;
+    };
+    form.addEventListener('input', update);
+    form.addEventListener('change', update);
+    form.addEventListener('submit', event => event.preventDefault());
+    form.addEventListener('reset', event => {
+      event.preventDefault();
+      query.value = ''; sector.value = ''; category.value = ''; update();
+    });
+    for (const link of container.querySelectorAll<HTMLAnchorElement>('.category-links a')) {
+      link.addEventListener('click', () => {
+        query.value = ''; sector.value = ''; category.value = link.hash.replace('#category-', ''); update();
+      });
+    }
+    form.hidden = false;
+    update();
+  }
+</script>
+<style>
+  .filters { display: grid; grid-template-columns: 2fr 1fr 2fr auto; gap: var(--s-4); align-items: end; margin-block: var(--s-5); }
+  /* Reserve the exact responsive form layout before its module runs. With JS
+     disabled it stays absent; with JS enabled it cannot push content down. */
+  :global(.js) .filters[hidden] { display: grid !important; visibility: hidden; }
+  .filters div { min-width: 0; }
+  label { display: block; font-weight: 700; margin-bottom: var(--s-2); }
+  input, select { width: 100%; min-height: 2.75rem; border: 1px solid var(--c-muted); border-radius: 0; background: var(--c-bg); color: var(--c-text); padding: 0.6rem; font: inherit; }
+  .filter-status { grid-column: 1 / -1; margin: 0; color: var(--c-muted); }
+  @media (max-width: 1000px) { .filters { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 575px) { .filters { grid-template-columns: 1fr; } }
+</style>

@@ -1,3 +1,4 @@
+import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -16,7 +17,7 @@ const hash=(value:string|Buffer)=>createHash('sha256').update(value).digest('hex
 
 test('BougeRV additions preserve all 36 existing JSON records, prior media, account, release/SEO rules, GA4 and home',()=>{
  const before=read('docs/qa/bougerv/before.json');assert.equal(before.baseCommit,'ee3ec72652713f2d89d647c1a83be1b570aaceda');assert.equal(before.capturedBeforeImplementation,true);
- for(const row of before.files){if(PHASE55_INTEGRATION_FILES.has(row.file))continue;
+ for(const row of before.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;
   if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
   const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);
  }

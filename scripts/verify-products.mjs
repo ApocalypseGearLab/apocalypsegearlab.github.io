@@ -52,9 +52,10 @@ try {
     assert.equal(product('.product-artwork--detail img').length, 0);
     assert.equal(product('[aria-label="Research status"]').length, 0, 'Internal approval workflow stays out of public profiles');
     assert.ok(!/AI-assisted|ChatGPT|Codex|Synthetic QA fixture only/.test(product('body').text()));
-    assert.equal(catalogue(`a[href="/gear/${slug}/"]`).length, 1);
+    assert.equal(catalogue(`article.card :is(h2, h3) a[href="/gear/${slug}/"]`).length, 1);
+    assert.equal(catalogue(`article.card a.profile-details[href="/gear/${slug}/"]`).length, 1);
     const hub = load(readFileSync(`dist/${universe}/index.html`, 'utf8'));
-    assert.equal(hub(`article.card a[href="/gear/${slug}/"]`).length, 1);
+    assert.equal(hub(`article.card :is(h2, h3) a[href="/gear/${slug}/"]`).length, 1);
     for (const [other] of fixtures.filter(([id]) => id !== universe)) {
       assert.equal(hub(`a[href="/gear/qa-fixture-${other}/"]`).length, 0);
     }

@@ -60,7 +60,7 @@ export const UNIVERSES: Record<UniverseId, Universe> = {
       'Practical preparedness for extended electrical outages: power, lighting, radios, communication and household planning.',
     accent: 'var(--c-amber)',
     fiction: false,
-    sourcingNote: 'Electrical and battery safety guidance will cite manufacturer documentation and official safety agencies.',
+    sourcingNote: 'Electrical and battery planning uses manufacturer documentation and official safety guidance. Check the exact model instructions before use.',
   },
   fallout: {
     id: 'fallout',

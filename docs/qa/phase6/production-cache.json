@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-01",
+  "note": "Observed on the still-deployed baseline; this PR changes no GitHub Pages hosting headers.",
+  "rows": [
+    {
+      "path": "/",
+      "status": 200,
+      "headers": {
+        "cache-control": "max-age=600",
+        "etag": "W/\"6ae774a7-3af9\"",
+        "last-modified": "Sun, 01 Nov 2026 17:19:35 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_astro/BaseLayout.C8cnO6d1.css",
+      "status": 200,
+      "headers": {
+        "cache-control": "max-age=600",
+        "etag": "W/\"6ae774a7-1a10\"",
+        "last-modified": "Sun, 01 Nov 2026 17:19:35 GMT",
+        "content-type": "text/css; charset=utf-8",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "headers": {
+        "cache-control": "max-age=600",
+        "etag": "\"6ae774a8-d6\"",
+        "last-modified": "Sun, 01 Nov 2026 17:19:36 GMT",
+        "content-type": "image/svg+xml",
+        "content-encoding": null
+      }
+    }
+  ]
+}

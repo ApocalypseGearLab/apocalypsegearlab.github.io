@@ -36,7 +36,7 @@ for(const [id,[asin]]of Object.entries(BOUGERV))test(`${id} is visible, Amazon-o
   const img=card.locator('img');await img.scrollIntoViewIfNeeded();await img.evaluate((img:HTMLImageElement)=>img.decode());
   await card.screenshot({path:`.tools/qa/bougerv/${id}-${route==='/gear/'?'catalogue':'blackout'}-${width}.png`,style:'header{visibility:hidden!important}'});
  }
- await page.goto('/blackout/');await expect(page.locator('#refrigeration-plan')).toHaveText('Portable refrigeration checklist');
+ await page.goto('/blackout/');await expect(page.locator('#refrigeration-plan')).toHaveText('Food refrigeration during an outage');
  writeFileSync(`.tools/qa/bougerv/${id}-responsive.json`,JSON.stringify(rows.filter(row=>row.id===id),null,2)+'\n');
 });
 

@@ -6,19 +6,21 @@ import { UNIVERSES } from '../config/site';
 import { CATEGORIES, type UniverseId } from '../config/taxonomy';
 import { getProductsByUniverse } from '../lib/products';
 import { mandatoryHold } from '../lib/release-policy';
+import SectorGuide from './SectorGuide.astro';
+import { HUB_EDITORIAL_READY, categoryPageCanBeIndexed } from '../lib/category-seo';
+import { collectionStructuredData } from '../lib/collection-seo';
 
 interface Props { id: UniverseId; releasePreview?: boolean }
 const { id, releasePreview = false } = Astro.props;
 const universe = UNIVERSES[id];
 const categories = CATEGORIES.filter((c) => c.universe === id);
 const products = (await getProductsByUniverse(id)).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
-const planningProducts = products.filter(({data}) => data.category === 'fixed-blade-knives' || data.category === 'hygiene-sanitation' || data.category === 'power-stations');
-const refrigeration = products.filter(({data}) => data.category === 'portable-refrigeration');
-const monitoring = products.filter(({data}) => data.category === 'temperature-monitoring');
-const rechargeable = products.filter(({data}) => data.category === 'rechargeable-batteries');
+const indexable = categoryPageCanBeIndexed(HUB_EDITORIAL_READY[id], releasePreview);
+const jsonLd = Astro.site ? collectionStructuredData(Astro.site, `/${id}/`, universe.name, products) : [];
+const titles = { blackout: 'Power outage preparedness: batteries, lighting & refrigeration', fallout: 'Household emergency supplies: water, food & shelter', outbreak: 'Evacuation gear planning: bags, navigation & protection' };
 ---
 
-<BaseLayout canonicalPath={`/${id}/`} title={`${universe.name}: ${universe.signal}`} description={universe.summary} noindex={releasePreview}>
+<BaseLayout canonicalPath={`/${id}/`} title={titles[id]} description={universe.summary} noindex={!indexable} jsonLd={jsonLd}>
   <div class="container hub" data-universe={id} style={`--accent: ${universe.accent}`}>
     <Breadcrumbs items={[{ label: universe.name }]} />
 
@@ -26,6 +28,7 @@ const rechargeable = products.filter(({data}) => data.category === 'rechargeable
       <p class="label">{universe.signal}</p>
       <h1>{universe.name}</h1>
       <p class="lead">{universe.summary}</p>
+      <nav class="hub-jumps" aria-label="Sector sections"><a href="#sector-guide">Read the planning guide</a><a href="#gear">Browse sector equipment</a></nav>
       {universe.fiction && products.length > 0 && <p class="label">Equipment profiles are factual references. Any fictional scenarios are labelled separately.</p>}
       {universe.fiction && products.length === 0 && (
         <div class="notice notice--fiction">
@@ -44,24 +47,7 @@ const rechargeable = products.filter(({data}) => data.category === 'rechargeable
       </ul>
     </section>}
 
-    {planningProducts.length > 0 && <section class="section" aria-labelledby="planning-checklist">
-      <h2 id="planning-checklist">{id === 'blackout' ? 'Emergency power checklist' : id === 'outbreak' ? 'Outdoor utility checklist' : 'Emergency hygiene checklist'}</h2>
-      {id === 'blackout' ? <p>List essential loads, running watts and startup demand. Plan battery energy and recharging separately; solar output depends on conditions. Match the Canadian electrical label, panel voltage and connecting cables before use. Keep stations dry and ventilated. Never backfeed a wall outlet or rely on a portable battery as a guaranteed life-support supply.</p> : id === 'outbreak' ? <p>Choose a tool for a specific camp task, check the selected blade and sheath, and plan secure storage and edge care. Check local carrying rules; these profiles do not establish that carrying a knife for self-defence is lawful.</p> : <p>Count physical rolls separately from marketing equivalents. Keep paper dry and include handwashing supplies, stored water and a safe waste plan; bathroom tissue alone is not a sanitation system.</p>}
-      <ul>{planningProducts.map(product => <li><a href={`/gear/${product.id}/`}>{product.data.name}</a></li>)}</ul>
-    </section>}
-
-    {refrigeration.length > 0 && <section class="section" aria-labelledby="refrigeration-plan">
-      <h2 id="refrigeration-plan">Portable refrigeration checklist</h2>
-      <p>Plan cooling as an electrical load. Check the available DC supply, cable and battery capacity, allow ventilation and monitor the actual storage temperature with a separate thermometer. A temperature setting or advertised runtime does not establish that food has remained safe. Batteries, solar panels and connecting accessories depend on the selected package.</p>
-      <ul>{refrigeration.map(product => <li><a href={`/gear/${product.id}/`}>{product.data.name}</a></li>)}</ul>
-      {monitoring.length > 0 && <><p>Pair cooling with independent temperature monitoring. A thermometer reading does not establish how long food has been warm, and no alarm can guarantee food safety. Confirm the sensor limits and delivered instructions.</p><ul>{monitoring.map(product => <li><a href={`/gear/${product.id}/`}>{product.data.name}</a></li>)}</ul></>}
-    </section>}
-
-    {rechargeable.length > 0 && <section class="section" aria-labelledby="battery-plan">
-      <h2 id="battery-plan">Small-device battery checklist</h2>
-      <p>Identify each device’s battery size, chemistry and voltage requirements before choosing rechargeable cells. AA and AAA are different formats; 1.2 V NiMH compatibility is not established by size alone. Keep compatible spares charged before an outage. The BQ-CC17 requires AC power. If you already own one, compare cells alone before buying another kit.</p>
-      <ul>{rechargeable.map(product => <li><a href={`/gear/${product.id}/`}>{product.data.name}</a></li>)}</ul>
-    </section>}
+    <div id="planning-checklist"><SectorGuide id={id} /></div>
 
     <section class="section" aria-labelledby="gear">
       <h2 id="gear">Gear in this sector</h2>
@@ -79,6 +65,8 @@ const rechargeable = products.filter(({data}) => data.category === 'rechargeable
   .hub-head h1 { color: var(--accent); }
   .lead { font-size: var(--fs-1); }
   .hub-head .notice { margin-top: var(--s-4); }
+  .hub-jumps { display: flex; flex-wrap: wrap; gap: var(--s-3) var(--s-5); }
+  .hub-jumps a { display: inline-flex; align-items: center; min-height: 2.75rem; }
   .topics { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); }
   .topics li { display: flex; justify-content: space-between; align-items: center; gap: var(--s-3); padding: var(--s-4); }
   .hub[data-universe='blackout'] .topics .badge { flex-shrink: 0; white-space: nowrap; }

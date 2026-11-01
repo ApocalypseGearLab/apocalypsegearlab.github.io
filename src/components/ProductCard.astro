@@ -26,19 +26,22 @@ const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
 <article class:list={['panel', 'card', { 'card--illustrated': illustrated }]} data-product-id={product.id} data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
   <ProductImage slug={product.id} label={categoryLabel(data.category)} universe={universe.id} releasePreview={releasePreview} />
   <p class="label">{universe.name} · {categoryLabel(data.category)}</p>
-  <Heading><a href={profileHref}>{data.name}</a></Heading>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
+  <Heading><a href={profileHref}>{data.name}</a></Heading>
   <p>{data.summary}</p>
   <div class="card-review" data-product-review>
     <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}><span class:list={['badge', { 'badge--warn': !review.fullyApproved }]}>{review.profileLabel} · {review.editorialApproved ? review.editorialLabel : review.evidenceLabel}</span></p>
     <p data-listing-status={review.listingStatus}>{review.listingLabel}</p>
   </div>
   {productCaution(product) && <p class="card-caution">{productCaution(product)!.split('. ')[0]}.</p>}
+  {!productCaution(product) && data.cons[0] && <p class="card-caution"><strong>Consider:</strong> {data.cons[0]}</p>}
+  {(!data.links.amazonCa.url || amazonLink?.href) && <a class="profile-details" href={profileHref}>Product details<span class="visually-hidden"> for {data.name}</span></a>}
   {data.links.amazonCa.url && amazonLink && <div class="card-purchase">
     {amazonLink.href && <><p class="label" data-link-status="active">{review.linkLabel}</p><DisclosureNotice compact /></>}
     {amazonLink.href ? <AffiliateButton link={amazonLink} productId={product.id} productName={data.name} placement={placement} /> : <>
       <p class="label pending-message" data-amazon-pending data-link-status="held">Amazon link pending verification</p>
-      <a href={profileHref} data-pending-details>Details<span class="visually-hidden"> about {data.name}</span></a>
+      <p class="card-hold-reason">{review.linkBlocker?.split('. ')[0]?.replace(/\.$/, '')}.</p>
+      <a class="profile-details" href={profileHref} data-pending-details>Details<span class="visually-hidden"> about {data.name}</span></a>
     </>}
   </div>}
 </article>
@@ -56,4 +59,6 @@ const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
   .card-purchase { display: grid; gap: var(--s-3); margin-top: auto; }
   .pending-message { margin: 0; }
   .card-caution { font-size: 0.9rem; border-left: 2px solid var(--accent); padding-left: var(--s-3); }
+  .card-hold-reason { font-size: 0.85rem; margin: 0; }
+  .profile-details { display: inline-flex; align-items: center; min-height: 2.75rem; padding-block: 0.5rem; }
 </style>

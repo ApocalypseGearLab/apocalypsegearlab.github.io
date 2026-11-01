@@ -1,0 +1,53 @@
+{
+  "note": "Local single-run Lighthouse lab observations; analytics blocked. Concurrent QA may affect timing. No field INP or real-user Core Web Vitals conclusion is available.",
+  "rows": [
+    {
+      "path": "/",
+      "mode": "mobile",
+      "lighthouse": "13.5.0",
+      "categories": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 1815.3325,
+      "cls": 0,
+      "tbtMs": 0,
+      "bytes": 116583,
+      "warnings": []
+    },
+    {
+      "path": "/",
+      "mode": "desktop",
+      "lighthouse": "13.5.0",
+      "categories": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 673.0598,
+      "cls": 0,
+      "tbtMs": 0,
+      "bytes": 382367,
+      "warnings": []
+    },
+    {
+      "path": "/gear/",
+      "mode": "mobile",
+      "lighthouse": "13.5.0",
+      "categories": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 1541.70905,
+      "cls": 0,
+      "tbtMs": 4,
+      "bytes": 645203,
+      "warnings": []
+    }
+  ]
+}
