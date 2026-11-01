@@ -3,24 +3,45 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import ProductCard from './ProductCard.astro';
 import { getVisibleProducts } from '../lib/products';
-import { isCommerciallyApproved, mandatoryHold } from '../lib/release-policy';
+import { mandatoryHold } from '../lib/release-policy';
+import { CATALOGUE_EDITORIAL_READY, categoryPageCanBeIndexed } from '../lib/category-seo';
 
 interface Props { releasePreview?: boolean }
 const { releasePreview = false } = Astro.props;
 const products = (await getVisibleProducts()).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
-const hasPublished = products.some(isCommerciallyApproved);
+const indexable = categoryPageCanBeIndexed(CATALOGUE_EDITORIAL_READY, releasePreview);
 ---
 
-<BaseLayout canonicalPath="/gear/" title="Survival gear catalogue" description="Researched survival and emergency preparedness gear, organised by sector." noindex={!hasPublished}>
+<BaseLayout canonicalPath="/gear/" title="Survival gear catalogue" description="Compare emergency equipment by power, water, shelter and protective needs. Read specifications, plan a kit and check Canadian retailer variants." noindex={!indexable}>
   <div class="container section">
     <Breadcrumbs items={[{ label: 'Gear catalogue' }]} />
     <h1>Gear catalogue</h1>
     {releasePreview && <p class="notice">Editorial preview — publication checks are pending. These profiles are not public recommendations.</p>}
-    <p>Explore documented equipment profiles for backup power, lighting, water, first aid, repairs and temporary shelter. These are informational comparisons, not tested endorsements. Check each profile for model limitations and the status of its Canadian retailer links.</p>
+    <section aria-labelledby="catalogue-needs">
+      <h2 id="catalogue-needs">Plan around the services you need</h2>
+      <p>Start with the tasks an outage or disruption could interrupt: lighting a room, charging communications, storing water or keeping essential supplies together. Choose equipment to fill a specific gap in your plan, then consider how it will be stored, maintained and carried. More equipment does not automatically make a kit more useful.</p>
+      <nav aria-label="Equipment sectors">
+        <ul>
+          <li><a href="/blackout/">BLACKOUT — power, lighting and communications</a></li>
+          <li><a href="/fallout/">FALLOUT — water, household supplies and disruption planning</a></li>
+          <li><a href="/outbreak/">OUTBREAK — protective equipment, carrying systems and outdoor tools</a></li>
+        </ul>
+      </nav>
+    </section>
+    <h2>Equipment profiles</h2>
     {products.length === 0 ? (
-      <p class="empty">No published reviews yet. Products appear here after editorial research.</p>
+      <p class="empty">No equipment profiles are available yet.</p>
     ) : (
       <div class="grid grid--3">{products.map((p) => <ProductCard releasePreview={releasePreview} product={p} headingLevel={2} placement="catalogue-card" />)}</div>
     )}
+    <section class="section" aria-labelledby="catalogue-guide" data-editorial-guide>
+      <h2 id="catalogue-guide">Read a profile before choosing</h2>
+      <ol>
+        <li><strong>Match the specification to the job.</strong> Stored battery energy in Wh differs from output power in W. A panel's rated watts do not guarantee its charging yield. Compare the units and limits relevant to your intended use.</li>
+        <li><strong>Read limitations alongside advantages.</strong> Check operating conditions, compatible components and safety cautions. An accessory or protective component is useful only within its documented configuration.</li>
+        <li><strong>Check the exact Canadian offer.</strong> Match the model, revision, quantity, included accessories and seller terms before purchase. Illustrations are visual references, not proof of package contents or certification.</li>
+      </ol>
+      <p>Profiles distinguish manufacturer documentation, retailer references and unresolved questions. An informational profile or an available buying link is not a hands-on test, product endorsement or completed safety approval. Consult the sources and buying checks on each profile, and read our <a href="/affiliate-disclosure/">affiliate disclosure</a>.</p>
+    </section>
   </div>
 </BaseLayout>

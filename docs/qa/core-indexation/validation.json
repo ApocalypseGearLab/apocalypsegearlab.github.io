@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "command": "npm run check",
+      "passed": true
+    },
+    {
+      "command": "npm run test",
+      "passed": true
+    },
+    {
+      "command": "npm run test:images",
+      "passed": true
+    },
+    {
+      "command": "npm run release:check",
+      "passed": true
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "passed": true
+    },
+    {
+      "command": "npm run test:products",
+      "passed": true
+    },
+    {
+      "command": "npm run build",
+      "passed": true
+    },
+    {
+      "command": "npm run test:site",
+      "passed": true
+    },
+    {
+      "command": "npm run test:conversion",
+      "passed": true
+    },
+    {
+      "command": "npm run test:browser",
+      "passed": true
+    }
+  ],
+  "unitTests": 81,
+  "browserTests": 102,
+  "htmlPages": 43,
+  "internalReferences": 1704,
+  "sitemapUrls": 6,
+  "corePagesIndexable": 5,
+  "restrictedDrafts": 36,
+  "activeRecordedLinks": 31,
+  "productHolds": 5,
+  "notes": "Local production HTML and isolated Chromium checks. Actual Google indexation and private Search Console were not verified."
+}

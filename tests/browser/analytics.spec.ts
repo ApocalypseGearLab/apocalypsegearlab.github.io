@@ -75,7 +75,8 @@ test('XML parses strictly, has unique absolute locations and excludes noindex pa
   expect(await parse('/sitemap.xml','sitemapindex')).toEqual(['https://apocalypsegearlab.github.io/sitemap-0.xml']);
   const urls=await parse('/sitemap-0.xml','urlset');
   expect(new Set(urls).size).toBe(urls.length);
-  expect(urls).toHaveLength(5);
+  expect(urls).toHaveLength(6);
+  expect(urls).toContain('https://apocalypsegearlab.github.io/gear/');
   for(const url of urls){
     const location=new URL(url);
     expect(location.origin).toBe('https://apocalypsegearlab.github.io');

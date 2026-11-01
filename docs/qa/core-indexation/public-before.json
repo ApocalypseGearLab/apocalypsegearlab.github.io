@@ -1,0 +1,77 @@
+{
+  "capturedAtUtc": "2026-11-01T02:56:48.883Z",
+  "scope": "Read-only public site before SEO PR deployment; no private Search Console access",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://apocalypsegearlab.github.io/",
+      "redirected": false,
+      "xRobotsTag": null,
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/"
+    },
+    {
+      "path": "/gear/",
+      "status": 200,
+      "url": "https://apocalypsegearlab.github.io/gear/",
+      "redirected": false,
+      "xRobotsTag": null,
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/"
+    },
+    {
+      "path": "/blackout/",
+      "status": 200,
+      "url": "https://apocalypsegearlab.github.io/blackout/",
+      "redirected": false,
+      "xRobotsTag": null,
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/blackout/"
+    },
+    {
+      "path": "/fallout/",
+      "status": 200,
+      "url": "https://apocalypsegearlab.github.io/fallout/",
+      "redirected": false,
+      "xRobotsTag": null,
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/fallout/"
+    },
+    {
+      "path": "/outbreak/",
+      "status": 200,
+      "url": "https://apocalypsegearlab.github.io/outbreak/",
+      "redirected": false,
+      "xRobotsTag": null,
+      "robots": null,
+      "canonical": "https://apocalypsegearlab.github.io/outbreak/"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "url": "https://apocalypsegearlab.github.io/robots.txt",
+      "redirected": false,
+      "xRobotsTag": null,
+      "robots": null,
+      "canonical": null,
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://apocalypsegearlab.github.io/sitemap-index.xml\n"
+    },
+    {
+      "path": "/sitemap-0.xml",
+      "status": 200,
+      "url": "https://apocalypsegearlab.github.io/sitemap-0.xml",
+      "redirected": false,
+      "xRobotsTag": null,
+      "robots": null,
+      "canonical": null,
+      "locations": [
+        "https://apocalypsegearlab.github.io/",
+        "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+        "https://apocalypsegearlab.github.io/blackout/",
+        "https://apocalypsegearlab.github.io/fallout/",
+        "https://apocalypsegearlab.github.io/outbreak/"
+      ]
+    }
+  ]
+}
