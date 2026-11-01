@@ -9,6 +9,7 @@ import { mandatoryHold } from '../lib/release-policy';
 import SectorGuide from './SectorGuide.astro';
 import { HUB_EDITORIAL_READY, categoryPageCanBeIndexed } from '../lib/category-seo';
 import { collectionStructuredData } from '../lib/collection-seo';
+import { populatedCategories } from '../lib/category-navigation';
 
 interface Props { id: UniverseId; releasePreview?: boolean }
 const { id, releasePreview = false } = Astro.props;
@@ -51,6 +52,7 @@ const titles = { blackout: 'Power outage preparedness: batteries, lighting & ref
 
     <section class="section" aria-labelledby="gear">
       <h2 id="gear">Gear in this sector</h2>
+      {products.length > 0 && <nav aria-label={`${universe.name} equipment categories`}><ul class="sector-categories">{populatedCategories(products).map(category => <li><a href={category.href}>{category.label}</a></li>)}</ul></nav>}
       {products.some((product) => !product.data.research?.publicationApproved) && <p class="notice">Informational product profiles, not independent product tests. Consult each profile for documented limitations. Retailer listings have not all been independently verified; buying links remain unavailable for unresolved safety or model conflicts.</p>}
       {products.length === 0 ? (
         <p class="empty">No published reviews yet. Recommendations appear here after editorial research and affiliate disclosure.</p>
@@ -63,6 +65,8 @@ const titles = { blackout: 'Power outage preparedness: batteries, lighting & ref
 
 <style>
   .hub-head h1 { color: var(--accent); }
+  .sector-categories { display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; padding-left: 1.2rem; margin-bottom: var(--s-5); }
+  .sector-categories a { display: inline-flex; align-items: center; min-height: 2.75rem; }
   .lead { font-size: var(--fs-1); }
   .hub-head .notice { margin-top: var(--s-4); }
   .hub-jumps { display: flex; flex-wrap: wrap; gap: var(--s-3) var(--s-5); }

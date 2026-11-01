@@ -1,57 +1,214 @@
 ---
-import { SITE, NAV } from '../config/site';
+import { SITE, UNIVERSES } from '../config/site';
+import { UNIVERSE_IDS } from '../config/taxonomy';
+import { getVisibleProducts } from '../lib/products';
+import { populatedCategories } from '../lib/category-navigation';
+const categories = populatedCategories(await getVisibleProducts());
 const path = Astro.url.pathname;
+const active = (href: string) => path === href ? 'page' : undefined;
 ---
 
-<header class="site-header">
+<header class="site-header" data-mega-open="false">
   <div class="container site-header__inner">
-    <a class="brand" href="/" aria-label={`${SITE.name} home`}>
-      <svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,4 56,18 56,46 32,60 8,46 8,18" fill="none" stroke="currentColor" stroke-width="5"></polygon><circle cx="32" cy="32" r="7" fill="currentColor"></circle></svg>
-      <span>{SITE.name}</span>
-    </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-    <nav id="site-nav" class="site-nav" aria-label="Primary">
-      <ul>
-        {NAV.map((item) => (
-          <li><a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>{item.label}</a></li>
-        ))}
+    <div class="identity-row">
+      <a class="brand" href="/" aria-label={`${SITE.name} home`}>
+        <svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,4 56,18 56,46 32,60 8,46 8,18" fill="none" stroke="currentColor" stroke-width="5"></polygon><circle cx="32" cy="32" r="7" fill="currentColor"></circle></svg>
+        <span>{SITE.name}</span>
+      </a>
+      <span class="index-label">EQUIPMENT INTELLIGENCE <span aria-hidden="true">/</span> THREE SECTORS</span>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span aria-hidden="true" class="hamburger">☰</span> Menu</button>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Primary" data-open="false">
+      <ul class="primary-links">
+        <li><a href="/" aria-current={active('/')}>Home</a></li>
+        <li class="gear-trigger"><a href="/gear/" aria-current={active('/gear/')}>All gear</a><button class="mega-toggle" type="button" aria-label="Browse equipment categories" aria-expanded="false" aria-controls="gear-menu"><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></button></li>
+        {UNIVERSE_IDS.map(id => <li class="desktop-sector" data-sector={id}><a href={`/${id}/`} aria-current={active(`/${id}/`)}>{UNIVERSES[id].name}</a></li>)}
+        <li class="desktop-sector"><a href="/how-we-research/" aria-current={active('/how-we-research/')}>Guides</a></li>
       </ul>
+      <div id="gear-menu" class="mega-panel">
+        <div class="menu-intro"><span class="menu-eyebrow">EXPLORE THE EQUIPMENT INDEX</span><span>{categories.length} categories · Documented profiles, practical limits</span></div>
+        <div class="mega-columns">
+          {UNIVERSE_IDS.map((id, index) => <section class="menu-column" data-sector={id}>
+            <div class="column-title"><a class="sector-home" href={`/${id}/`} aria-current={active(`/${id}/`)}><span aria-hidden="true" class="column-number">0{index + 1}</span>{UNIVERSES[id].name}</a><button class="sector-toggle" type="button" aria-label={`Expand ${UNIVERSES[id].name} categories`} aria-expanded="false" aria-controls={`menu-${id}`}><span aria-hidden="true">+</span></button></div>
+            <div id={`menu-${id}`} class="column-body">
+              <p class="column-caption">{id === 'blackout' ? 'Stay powered. Stay connected.' : id === 'fallout' ? 'Prepare the essentials.' : 'Pack for the unknown.'}</p>
+              <ul>{categories.filter(category => category.universe === id).map(category => <li><a class="category-link" href={category.href} data-category={category.id}><span>{category.label}</span><span class="category-count" aria-label={`${category.count} profiles`}>{category.count.toString().padStart(2, '0')}</span></a></li>)}</ul>
+            </div>
+          </section>)}
+          <section class="menu-column discover">
+            <div class="column-title"><span class="discover-title">Discover <span class="mobile-word">guides</span></span><button class="sector-toggle" type="button" aria-label="Expand guides" aria-expanded="false" aria-controls="menu-guides"><span aria-hidden="true">+</span></button></div>
+            <div id="menu-guides" class="column-body"><p class="column-caption">Build a plan before a kit.</p><ul>
+              <li><a href="/how-we-research/">How we research <span aria-hidden="true">↗</span></a></li>
+              {UNIVERSE_IDS.map(id => <li><a href={`/${id}/#sector-guide`}>{UNIVERSES[id].name} planning guide</a></li>)}
+            </ul><p class="discovery-note">Specifications. Sources. Limitations.<br />Equipment research for informed preparation.</p></div>
+          </section>
+        </div>
+        <div class="menu-foot"><span aria-hidden="true">+ &nbsp; PREPAREDNESS BEGINS WITH A PLAN</span><span>Explore. Compare. Prepare.</span></div>
+      </div>
     </nav>
   </div>
 </header>
 
 <script>
-  const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
-  const nav = document.getElementById('site-nav');
-  if (toggle && nav) {
-    const setOpen = (open: boolean) => {
-      toggle.setAttribute('aria-expanded', String(open));
-      nav.dataset['open'] = String(open);
-    };
-    toggle.addEventListener('click', () => setOpen(toggle.getAttribute('aria-expanded') !== 'true'));
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && nav.dataset['open'] === 'true') {
-        setOpen(false);
-        toggle.focus();
-      }
-    });
-  }
+  const header = document.querySelector<HTMLElement>('.site-header')!;
+  const nav = header.querySelector<HTMLElement>('.site-nav')!;
+  const drawerToggle = header.querySelector<HTMLButtonElement>('.nav-toggle')!;
+  const trigger = header.querySelector<HTMLElement>('.gear-trigger')!;
+  const megaToggle = header.querySelector<HTMLButtonElement>('.mega-toggle')!;
+  const panel = header.querySelector<HTMLElement>('.mega-panel')!;
+  const sections = [...header.querySelectorAll<HTMLButtonElement>('.sector-toggle')];
+  const desktop = matchMedia('(min-width: 64rem)');
+  let closeTimer: ReturnType<typeof setTimeout>;
+  let previousOverflow = '';
+  let drawerOpen = false;
+  const cancelClose = () => clearTimeout(closeTimer);
+  const setMega = (open: boolean) => {
+    cancelClose();
+    header.dataset.megaOpen = String(open && desktop.matches);
+    megaToggle.setAttribute('aria-expanded', String(open && desktop.matches));
+    panel.inert = desktop.matches && !open;
+  };
+  const setDrawer = (open: boolean, restoreFocus = false) => {
+    if (open && !drawerOpen) { previousOverflow = document.body.style.overflow; document.body.style.overflow = 'hidden'; }
+    if (!open && drawerOpen) document.body.style.overflow = previousOverflow;
+    drawerOpen = open;
+    drawerToggle.setAttribute('aria-expanded', String(open));
+    nav.dataset.open = String(open);
+    if (open) nav.querySelector<HTMLAnchorElement>('a')!.focus();
+    else if (restoreFocus) drawerToggle.focus();
+  };
+  const configure = () => {
+    setDrawer(false);
+    setMega(false);
+    for (const button of sections) {
+      button.setAttribute('aria-expanded', String(desktop.matches));
+      document.getElementById(button.getAttribute('aria-controls')!)!.hidden = !desktop.matches;
+    }
+  };
+  configure();
+  desktop.addEventListener('change', configure);
+  drawerToggle.addEventListener('click', () => setDrawer(!drawerOpen, drawerOpen));
+  megaToggle.addEventListener('click', () => {
+    const open = header.dataset.megaOpen !== 'true';
+    setMega(open);
+    if (open) panel.querySelector<HTMLAnchorElement>('a')!.focus();
+  });
+  trigger.addEventListener('keydown', event => {
+    if (desktop.matches && event.key === 'ArrowDown') {
+      event.preventDefault(); setMega(true); panel.querySelector<HTMLAnchorElement>('a')!.focus();
+    }
+  });
+  const scheduleClose = () => {
+    cancelClose();
+    closeTimer = setTimeout(() => {
+      if (!panel.contains(document.activeElement) && !trigger.contains(document.activeElement)) setMega(false);
+    }, 160);
+  };
+  trigger.addEventListener('pointerenter', event => { if (desktop.matches && event.pointerType !== 'touch') setMega(true); });
+  trigger.addEventListener('pointerleave', scheduleClose);
+  panel.addEventListener('pointerenter', cancelClose);
+  panel.addEventListener('pointerleave', scheduleClose);
+  trigger.querySelector('a')!.addEventListener('focus', () => { if (desktop.matches) setMega(true); });
+  for (const button of sections) button.addEventListener('click', () => {
+    const open = button.getAttribute('aria-expanded') !== 'true';
+    button.setAttribute('aria-expanded', String(open));
+    document.getElementById(button.getAttribute('aria-controls')!)!.hidden = !open;
+  });
+  document.addEventListener('focusin', event => {
+    const target = event.target as Node;
+    if (desktop.matches && !trigger.contains(target) && !panel.contains(target)) setMega(false);
+    if (drawerOpen && !nav.contains(target) && target !== drawerToggle) setDrawer(false);
+  });
+  document.addEventListener('pointerdown', event => {
+    const target = event.target as Node;
+    if (!trigger.contains(target) && !panel.contains(target)) setMega(false);
+    if (drawerOpen && !header.contains(target)) setDrawer(false);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    if (drawerOpen) { event.preventDefault(); setDrawer(false, true); }
+    if (header.dataset.megaOpen === 'true') { event.preventDefault(); setMega(false); megaToggle.focus(); }
+  });
+  nav.addEventListener('click', event => {
+    if ((event.target as Element).closest('a')) { setMega(false); if (drawerOpen) setDrawer(false, true); }
+  });
 </script>
 
 <style>
-  .site-header { border-bottom: 1px solid var(--c-line); background: rgb(20 19 15 / 0.92); position: sticky; top: 0; z-index: 50; }
-  .site-header__inner { display: flex; align-items: center; justify-content: space-between; gap: var(--s-4); min-height: 4rem; flex-wrap: wrap; }
-  .brand { display: inline-flex; align-items: center; gap: var(--s-3); color: var(--c-amber); font: 700 1.1rem var(--f-display); letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; }
-  .nav-toggle { display: none; font: 600 0.9rem var(--f-mono); color: var(--c-text); background: transparent; border: 1px solid var(--c-line); padding: 0.5rem 0.9rem; min-height: 2.75rem; cursor: pointer; }
-  .site-nav ul { display: flex; gap: var(--s-5); list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
-  .site-nav a { color: var(--c-text); text-decoration: none; font-family: var(--f-mono); font-size: 0.9rem; padding: var(--s-2) 0; display: inline-block; border-bottom: 2px solid transparent; }
-  .site-nav a:hover, .site-nav a[aria-current='page'] { color: var(--c-amber); border-bottom-color: var(--c-amber); }
-
-  @media (max-width: 48rem) {
-    :global(.js) .nav-toggle { display: inline-flex; }
-    :global(.js) .site-nav { width: 100%; }
-    :global(.js) .site-nav:not([data-open='true']) { display: none; }
-    .site-nav ul { flex-direction: column; gap: 0; padding-bottom: var(--s-4); }
-    .site-nav a { display: block; padding: var(--s-3) 0; }
+  .site-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid #41454a; background: #111416; }
+  :global(html:not(.js)) .site-header { position: relative; }
+  .site-header__inner { position: static; }
+  .identity-row { min-height: 3.75rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+  .brand { display: inline-flex; align-items: center; gap: .65rem; color: var(--c-amber); font: 700 1.1rem var(--f-display); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; }
+  .brand svg { flex-shrink: 0; }
+  .index-label, .menu-eyebrow, .menu-foot { font: .68rem var(--f-mono); letter-spacing: .09em; color: #aeb5ba; }
+  .index-label > span { color: #cda351; margin-inline: .6rem; }
+  .site-nav ul { list-style: none; margin: 0; padding: 0; }
+  .primary-links { display: flex; align-items: stretch; gap: 1.75rem; border-top: 1px solid #2c3135; }
+  .primary-links > li { display: flex; align-items: stretch; }
+  .primary-links > li > a { display: flex; align-items: center; min-height: 3.25rem; padding-inline: .25rem; border-bottom: 2px solid transparent; text-transform: uppercase; font: 700 .8rem var(--f-mono); letter-spacing: .06em; }
+  .site-nav a { color: #e0e4e7; text-decoration: none; }
+  .primary-links a:hover, .primary-links a[aria-current] { color: var(--c-amber); border-bottom-color: currentColor; }
+  .primary-links > li[data-sector] > a:hover, .primary-links > li[data-sector] > a[aria-current] { color: var(--sector-accent, var(--c-amber)); }
+  .site-nav button { color: #d9dee2; background: transparent; border: 0; cursor: pointer; font: inherit; }
+  .mega-toggle { min-width: 2.75rem; min-height: 2.75rem; }
+  .mega-toggle svg { transition: transform 160ms; }
+  [data-mega-open='true'] .mega-toggle svg { transform: rotate(180deg); }
+  .nav-toggle, .sector-toggle { display: none; }
+  .mega-panel { background: linear-gradient(115deg, #1c2125, #14181b); border-block: 1px solid #4a5055; box-shadow: 0 20px 32px rgb(0 0 0 / .4); }
+  .menu-intro, .mega-columns, .menu-foot { max-width: var(--container); margin-inline: auto; }
+  .menu-intro { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.2rem 1.5rem; border-bottom: 1px solid #343a3f; }
+  .menu-intro > span:last-child { font-size: .78rem; color: #b7bfc5; }
+  .menu-eyebrow { color: #e3ba72; }
+  .mega-columns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 1.5rem .5rem 1.75rem; }
+  .menu-column { --sector-accent: #e8b65d; padding-inline: 1rem; min-width: 0; }
+  [data-sector='fallout'] { --sector-accent: #ef9388; }
+  [data-sector='outbreak'] { --sector-accent: #a1cb88; }
+  .menu-column + .menu-column { border-left: 1px solid #353c41; }
+  .column-title { display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--sector-accent); padding-bottom: .8rem; }
+  .sector-home, .discover-title { font: 700 1rem var(--f-display); letter-spacing: .08em; text-transform: uppercase; }
+  .site-nav .sector-home { color: var(--sector-accent); }
+  .column-number { font: .68rem var(--f-mono); opacity: .8; margin-right: .55rem; }
+  .column-caption { font-size: .75rem; color: #adb7be; margin: .8rem 0 .65rem; }
+  .column-body a { min-height: 2.75rem; display: flex; align-items: center; justify-content: space-between; gap: .65rem; padding: .6rem .45rem; font-size: .82rem; line-height: 1.4; border-left: 2px solid transparent; transition: background 120ms, color 120ms; }
+  .column-body a:hover, .column-body a:focus-visible { background: #2c3339; color: var(--sector-accent); border-left-color: var(--sector-accent); }
+  .category-count { font: .65rem var(--f-mono); color: #aab6bf; flex-shrink: 0; }
+  .discover { --sector-accent: #c4cdd4; }
+  .discovery-note { color: #aeb8bf; font-size: .76rem; line-height: 1.8; padding: .9rem .45rem 0; margin-top: .8rem; border-top: 1px solid #353c41; }
+  .menu-foot { padding: .9rem 1.5rem; display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid #343a3f; background: linear-gradient(90deg, rgb(210 161 74 / .05), transparent); }
+  .mobile-word { display: none; }
+  @media (min-width: 64rem) {
+    :global(.js) .mega-panel { position: absolute; top: 100%; left: 0; right: 0; max-height: calc(100dvh - 7.2rem); overflow-y: auto; transition: opacity 140ms, transform 140ms, visibility 140ms; }
+    :global(.js) [data-mega-open='false'] .mega-panel { opacity: 0; visibility: hidden; transform: translateY(-5px); pointer-events: none; }
   }
+  @media (max-width: 63.999rem) {
+    .identity-row { min-height: 4rem; gap: .4rem; }
+    .brand { font-size: .85rem; letter-spacing: .025em; gap: .4rem; }
+    .brand svg { width: 24px; height: 24px; }
+    .index-label, .mega-toggle { display: none; }
+    :global(.js) .primary-links > .desktop-sector { display: none; }
+    :global(.js) .nav-toggle { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.75rem; padding: .4rem .55rem; border: 1px solid #4d555c; color: #e0e4e7; background: #1c2125; font: .8rem var(--f-mono); cursor: pointer; }
+    .hamburger { font-size: 1.1rem; }
+    :global(.js) .site-nav { position: absolute; inset: 100% 0 auto; max-height: calc(100dvh - 4rem); overflow-y: auto; overscroll-behavior: contain; background: #151a1e; border-bottom: 1px solid #515a61; box-shadow: 0 15px 25px rgb(0 0 0 / .35); }
+    :global(.js) .site-nav:not([data-open='true']) { display: none; }
+    :global(.js) .site-nav[data-open='true'] { animation: drawer-in 150ms ease-out; }
+    .site-nav .primary-links { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: .6rem 1.25rem; }
+    .primary-links > li > a { width: 100%; min-height: 3rem; }
+    .mega-panel { border-top: 0; box-shadow: none; }
+    .menu-intro, .menu-foot { display: none; }
+    .mega-columns { display: block; padding: 0 1.25rem 1rem; }
+    .menu-column { padding: 0; }
+    .menu-column + .menu-column { border-left: 0; }
+    .column-title { min-height: 3.5rem; padding: 0; border-bottom: 1px solid #39434a; }
+    .sector-home, .discover-title { padding-block: 1rem; font-size: .95rem; }
+    .sector-home { flex: 1; }
+    :global(.js) .sector-toggle { display: inline-flex; align-items: center; justify-content: center; min-width: 3rem; min-height: 3rem; font-size: 1.4rem; border-left: 1px solid #39434a; color: var(--sector-accent); }
+    .sector-toggle span { transition: transform 150ms; }
+    .sector-toggle[aria-expanded='true'] span { transform: rotate(45deg); }
+    .column-body { padding: .3rem .25rem .9rem; }
+    .column-body a { font-size: .9rem; min-height: 3rem; }
+    .mobile-word { display: inline; }
+    .discover-title { color: #d3dce3; }
+  }
+  @keyframes drawer-in { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
 </style>

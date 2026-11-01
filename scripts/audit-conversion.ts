@@ -6,6 +6,7 @@ import {productSchema} from '../src/lib/product-schema';
 import {getMerchantLinks,isCanadianPurchaseLink} from '../src/lib/affiliate';
 import {isPubliclyVisible} from '../src/lib/release-policy';
 import {categoryUniverse} from '../src/config/taxonomy';
+import {populatedCategories} from '../src/lib/category-navigation';
 import type {Product} from '../src/lib/products';
 
 const root=resolve('dist');
@@ -13,11 +14,20 @@ const products=readdirSync('src/data/products').filter(f=>f.endsWith('.json')).m
 const baseline=JSON.parse(readFileSync('docs/qa/phase5-2/baseline.json','utf8'));
 const before=JSON.parse(readFileSync('docs/qa/phase5-2/inventory-before.json','utf8'));
 const pages=readdirSync(root,{recursive:true}).map(String).filter(f=>f.endsWith('.html'));
+const navigationCategories=populatedCategories(products);
+const catalogue=load(readFileSync(resolve(root,'gear/index.html'),'utf8'));
+for(const category of navigationCategories){
+ const target=catalogue(`[id="category-${category.id}"]`);
+ assert.equal(target.length,1,'Unique real catalogue target: '+category.href);
+ assert.equal(target.attr('data-category'),category.id);
+ assert.equal(catalogue(`[data-catalogue-entry][data-category="${category.id}"]`).length,category.count);
+}
 const productRows=products.map(p=>({id:p.id,name:p.data.name,asin:p.data.links.amazonCa.asin,url:p.data.links.amazonCa.url,universe:categoryUniverse(p.data.category),active:Boolean(getMerchantLinks(p)[0]?.href),decision:p.data.research?.affiliateReview?.decision,blocker:getMerchantLinks(p)[0]?.href?null:getMerchantLinks(p)[0]?.unavailableReason,offerVerified:p.data.research?.listingVerified??false,sourceCount:p.data.sources.length,placements:[] as string[]}));
 const commercialLinks:Record<string,unknown>[]=[],references:Record<string,unknown>[]=[];
 let profiles=0;
 for(const file of pages){
  const path='/'+file.split(sep).join('/').replace(/index\.html$/,''),$=load(readFileSync(resolve(root,file),'utf8'));
+ assert.deepEqual($('body > header .category-link').map((_,e)=>({id:$(e).attr('data-category'),href:$(e).attr('href'),label:$(e).children().first().text()})).get(),navigationCategories.map(({id,href,label})=>({id,href,label})),'Public category navigation on '+path);
  const previous=baseline.pages.find((p:{path:string})=>p.path===path);
  if(previous){
   const meta={path,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,h1:$('h1').text(),jsonLd:$('script[type="application/ld+json"]').map((_,e)=>JSON.parse($(e).text())).get(),images:$('main img').toArray().map(e=>Object.fromEntries(['src','srcset','sizes','alt','width','height','loading','fetchpriority'].map(a=>[a,$(e).attr(a)??null]))),header:$('body > header a').map((_,e)=>({href:$(e).attr('href'),text:$(e).text().trim()})).get(),footer:$('body > footer a').map((_,e)=>({href:$(e).attr('href'),text:$(e).text().trim()})).get(),externalReferences:[...new Set($('main a[href^="https://"]').not('[data-affiliate-click]').map((_,e)=>$(e).attr('href')).get())].sort()};
@@ -32,6 +42,13 @@ for(const file of pages){
    // unrelated page attributes still use the historical exact comparison.
    assert.equal(meta.robots,null,'The editorially ready catalogue is indexable independently of product approvals');
   }
+  // Phase 6.1 intentionally replaces header discovery. Require every previous
+  // destination and unique primary/category links; retain all other comparisons.
+  for (const link of previous.header) assert.ok(meta.header.some(current => current.href === link.href),'Preserve header destination: '+link.href);
+  for (const href of ['/','/gear/','/blackout/','/fallout/','/outbreak/','/how-we-research/']) assert.equal($(`body > header .primary-links a[href="${href}"]`).length,1);
+  const categoryLinks=$('body > header .category-link').map((_,e)=>$(e).attr('href')).get();
+  assert.equal(categoryLinks.length,new Set(categoryLinks).size,'One shared category list for desktop and mobile');
+  meta.header=previous.header;
   // Phase 6 intentionally improves core search metadata and collection schema,
   // and adds one methodology footer link. Product metadata, images, header,
   // canonicals, safety text and documentary destinations remain protected.

@@ -39,10 +39,10 @@ test('mobile menu supports keyboard, Escape and sector navigation', async ({ pag
   await expect(toggle).toBeFocused();
   await expect(toggle).toHaveAttribute('aria-expanded', 'false');
   await toggle.click();
-  await page.getByRole('navigation', { name: 'Primary' }).getByRole('link', { name: 'Blackout' }).click();
+  await page.getByRole('navigation', { name: 'Primary' }).getByRole('link', { name: 'Blackout', exact: true }).click();
   await expect(page).toHaveURL(/\/blackout\/$/);
   await toggle.click();
-  await expect(page.getByRole('navigation', { name: 'Primary' }).getByRole('link', { name: 'Blackout' })).toHaveAttribute('aria-current', 'page');
+  await expect(page.getByRole('navigation', { name: 'Primary' }).getByRole('link', { name: 'Blackout', exact: true })).toHaveAttribute('aria-current', 'page');
 });
 
 test('navigation and skip link work without JavaScript', async ({ browser }) => {
@@ -53,7 +53,7 @@ test('navigation and skip link work without JavaScript', async ({ browser }) => 
   await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('#main')).toBeFocused();
-  await page.getByRole('navigation', { name: 'Primary' }).getByRole('link', { name: 'Outbreak' }).click();
+  await page.getByRole('navigation', { name: 'Primary' }).locator('.primary-links a[href="/outbreak/"]').click();
   await expect(page).toHaveURL(/\/outbreak\/$/);
   await expect(page.getByText('Equipment profiles are factual references. Any fictional scenarios are labelled separately.', { exact: true })).toBeVisible();
   await context.close();

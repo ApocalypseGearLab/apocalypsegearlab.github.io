@@ -5,7 +5,8 @@ import ProductCard from './ProductCard.astro';
 import { getVisibleProducts } from '../lib/products';
 import { mandatoryHold } from '../lib/release-policy';
 import { CATALOGUE_EDITORIAL_READY, categoryPageCanBeIndexed } from '../lib/category-seo';
-import { CATEGORIES, categoryUniverse } from '../config/taxonomy';
+import { categoryUniverse } from '../config/taxonomy';
+import { populatedCategories, categoryAnchor } from '../lib/category-navigation';
 import CatalogueControls from './CatalogueControls.astro';
 import { collectionStructuredData } from '../lib/collection-seo';
 
@@ -13,7 +14,7 @@ interface Props { releasePreview?: boolean }
 const { releasePreview = false } = Astro.props;
 const products = (await getVisibleProducts()).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
 const indexable = categoryPageCanBeIndexed(CATALOGUE_EDITORIAL_READY, releasePreview);
-const categories = CATEGORIES.filter(c => products.some(p => p.data.category === c.id));
+const categories = populatedCategories(products);
 const jsonLd = Astro.site ? collectionStructuredData(Astro.site, '/gear/', 'Emergency equipment catalogue', products) : [];
 ---
 
@@ -22,7 +23,7 @@ const jsonLd = Astro.site ? collectionStructuredData(Astro.site, '/gear/', 'Emer
     <Breadcrumbs items={[{ label: 'Gear catalogue' }]} />
     <h1>Gear catalogue</h1>
     {releasePreview && <p class="notice">Editorial preview — publication checks are pending. These profiles are not public recommendations.</p>}
-    <CatalogueControls categories={categories.map(c => c.id)} count={products.length} />
+    <CatalogueControls categories={categories} count={products.length} />
     <section aria-labelledby="catalogue-needs">
       <h2 id="catalogue-needs">Plan around the services you need</h2>
       <p>Start with the tasks an outage or disruption could interrupt: lighting a room, charging communications, storing water or keeping essential supplies together. Choose equipment to fill a specific gap in your plan, then consider how it will be stored, maintained and carried. More equipment does not automatically make a kit more useful.</p>
@@ -34,12 +35,12 @@ const jsonLd = Astro.site ? collectionStructuredData(Astro.site, '/gear/', 'Emer
         </ul>
       </nav>
     </section>
-    <details class="category-directory"><summary>Browse equipment categories</summary><nav aria-label="Equipment categories"><p>Jump to a documented category:</p><ul class="category-links">{categories.map(c => <li><a href={`#category-${c.id}`}>{c.label}</a></li>)}</ul></nav></details>
+    <details class="category-directory"><summary>Browse equipment categories</summary><nav aria-label="Equipment categories"><p>Jump to a documented category:</p><ul class="category-links">{categories.map(c => <li><a href={c.href}>{c.label}</a></li>)}</ul></nav></details>
     <h2>Equipment profiles</h2>
     {products.length === 0 ? (
       <p class="empty">No equipment profiles are available yet.</p>
     ) : (
-      <><div class="grid grid--3">{products.map((p, index) => <div class="catalogue-entry" data-catalogue-entry data-name={p.data.name} data-brand={p.data.brand} data-sector={categoryUniverse(p.data.category)} data-category={p.data.category} id={products.findIndex(candidate => candidate.data.category === p.data.category) === index ? `category-${p.data.category}` : undefined}><ProductCard releasePreview={releasePreview} product={p} headingLevel={3} placement="catalogue-card" /></div>)}</div><p class="empty" data-catalogue-empty hidden>No equipment matches these filters. Try a different sector or category, shorten your search, or use Clear filters.</p></>
+      <><div class="grid grid--3">{products.map((p, index) => <div class="catalogue-entry" data-catalogue-entry data-name={p.data.name} data-brand={p.data.brand} data-sector={categoryUniverse(p.data.category)} data-category={p.data.category} id={products.findIndex(candidate => candidate.data.category === p.data.category) === index ? categoryAnchor(p.data.category) : undefined}><ProductCard releasePreview={releasePreview} product={p} headingLevel={3} placement="catalogue-card" /></div>)}</div><p class="empty" data-catalogue-empty hidden>No equipment matches these filters. Try a different sector or category, shorten your search, or use Clear filters.</p></>
     )}
     <section class="section" aria-labelledby="catalogue-guide" data-editorial-guide>
       <h2 id="catalogue-guide">Read a profile before choosing</h2>
