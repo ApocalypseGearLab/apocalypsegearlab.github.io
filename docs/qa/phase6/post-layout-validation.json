@@ -1,0 +1,42 @@
+[
+  {
+    "command": "npm run check",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-check.log"
+  },
+  {
+    "command": "npm run test",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-test.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-build.log"
+  },
+  {
+    "command": "npm run test:site",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-test-site.log"
+  },
+  {
+    "command": "npm run test:conversion",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-test-conversion.log"
+  },
+  {
+    "command": "npm run test:bougerv",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-test-bougerv.log"
+  },
+  {
+    "command": "npm run test:phase55",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-test-phase55.log"
+  },
+  {
+    "command": "npm run test:browser -- tests/browser/phase6.spec.ts tests/browser/site.spec.ts tests/browser/analytics.spec.ts",
+    "exitCode": 0,
+    "log": ".tools/phase6-post-layout-browser.log"
+  }
+]

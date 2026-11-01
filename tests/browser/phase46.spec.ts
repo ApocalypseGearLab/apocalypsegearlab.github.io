@@ -23,7 +23,7 @@ for(const [slug,model,asin] of filters)test(`3M ${model} artwork and profile ret
     await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveAttribute('href',`https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
     await expect(page.locator('[data-product-purchase]')).toContainText('As an Amazon Associate');
     await expect(page.locator('.product-caution')).toContainText('supply no oxygen');
-    await expect(page.locator('#related').locator('..').locator('a[href="/gear/3m-6800-full-facepiece-respirator/"]')).toHaveCount(1);
+    await expect(page.locator('#related').locator('..').locator('h3 a[href="/gear/3m-6800-full-facepiece-respirator/"]')).toHaveCount(1);
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
     await image.screenshot({path:`.tools/qa/phase4-6/image-${model}-${width}.png`});
     await page.goto('/outbreak/');

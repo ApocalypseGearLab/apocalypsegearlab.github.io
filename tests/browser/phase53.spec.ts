@@ -33,7 +33,7 @@ for(const [id,[asin]]of Object.entries(PHASE53))test(`${id} complete BLACKOUT ar
     await expect(card.locator('[data-affiliate-click]')).toHaveAttribute('href',`https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
     await card.screenshot({path:`.tools/qa/phase5-3/${id}-${route==='/gear/'?'catalogue':'blackout'}-card-${width}.png`,style:'header{visibility:hidden!important}'});
    }
-   await expect(page.locator('#planning-checklist').locator('..').locator(`a[href="/gear/${id}/"]`)).toHaveCount(1);
+   await expect(page.locator('[data-sector-guide]').locator(`a[href="/gear/${id}/"]`)).toHaveCount(1);
   }
  }
  expect(errors).toEqual([]);writeFileSync(`.tools/qa/phase5-3/${id}-responsive.json`,JSON.stringify({id,records,errors},null,2)+'\n');

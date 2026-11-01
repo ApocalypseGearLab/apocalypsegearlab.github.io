@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/gear/",
+    "width": 320,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/gear/",
+    "width": 375,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/gear/",
+    "width": 768,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/gear/",
+    "width": 1024,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/gear/",
+    "width": 1440,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/gear/",
+    "width": 1920,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  }
+]

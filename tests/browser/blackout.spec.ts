@@ -111,7 +111,7 @@ for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
       }
     }
     if (route === '/gear/') {
-      await expect(page.locator('article.card h2')).toHaveCount(drafts.length);
+      await expect(page.locator('article.card h3')).toHaveCount(drafts.length);
       mkdirSync('.tools/qa/phase-2', { recursive: true });
       await page.screenshot({ path: '.tools/qa/phase-2/catalogue-1440.png', fullPage: true });
     }

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/fallout/",
+    "width": 320,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/fallout/",
+    "width": 375,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/fallout/",
+    "width": 768,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/fallout/",
+    "width": 1024,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/fallout/",
+    "width": 1440,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  },
+  {
+    "path": "/fallout/",
+    "width": 1920,
+    "axeViolations": 0,
+    "horizontalOverflow": false
+  }
+]

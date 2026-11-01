@@ -1,0 +1,1471 @@
+{
+  "baseCommit": "520d61a3b48d67ca01623eebcf4784275097dc56",
+  "date": "2026-11-01",
+  "capturedBeforeImplementation": true,
+  "openPRs": [],
+  "mergedRecentPRs": [
+    26,
+    27,
+    28,
+    29
+  ],
+  "products": 41,
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "local": {
+        "title": "Survival Gear & Preparedness Guides | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/"
+      },
+      "deployed": {
+        "title": "Survival Gear & Preparedness Guides | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/"
+      },
+      "identicalHTML": true,
+      "localCards": 0,
+      "deployedCards": 0
+    },
+    {
+      "path": "/gear/",
+      "status": 200,
+      "local": {
+        "title": "Survival gear catalogue | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/gear/"
+      },
+      "deployed": {
+        "title": "Survival gear catalogue | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/gear/"
+      },
+      "identicalHTML": true,
+      "localCards": 41,
+      "deployedCards": 41
+    },
+    {
+      "path": "/blackout/",
+      "status": 200,
+      "local": {
+        "title": "Blackout: Grid failure | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/blackout/"
+      },
+      "deployed": {
+        "title": "Blackout: Grid failure | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/blackout/"
+      },
+      "identicalHTML": true,
+      "localCards": 16,
+      "deployedCards": 16
+    },
+    {
+      "path": "/fallout/",
+      "status": 200,
+      "local": {
+        "title": "Fallout: Disaster response | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/fallout/"
+      },
+      "deployed": {
+        "title": "Fallout: Disaster response | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/fallout/"
+      },
+      "identicalHTML": true,
+      "localCards": 10,
+      "deployedCards": 10
+    },
+    {
+      "path": "/outbreak/",
+      "status": 200,
+      "local": {
+        "title": "Outbreak: Field readiness | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/outbreak/"
+      },
+      "deployed": {
+        "title": "Outbreak: Field readiness | ApocalypseGearLab",
+        "robots": "indexable",
+        "canonical": "https://apocalypsegearlab.github.io/outbreak/"
+      },
+      "identicalHTML": true,
+      "localCards": 15,
+      "deployedCards": 15
+    },
+    {
+      "path": "/gear/3m-2091-p100-particulate-filters/",
+      "status": 200,
+      "local": {
+        "title": "3M 2091 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-2091-p100-particulate-filters/"
+      },
+      "deployed": {
+        "title": "3M 2091 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-2091-p100-particulate-filters/"
+      },
+      "identicalHTML": true,
+      "localCards": 4,
+      "deployedCards": 4
+    },
+    {
+      "path": "/gear/3m-2097-p100-particulate-filters/",
+      "status": 200,
+      "local": {
+        "title": "3M 2097 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-2097-p100-particulate-filters/"
+      },
+      "deployed": {
+        "title": "3M 2097 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-2097-p100-particulate-filters/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "status": 200,
+      "local": {
+        "title": "3M 60921 Organic Vapor/P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-60921-organic-vapor-p100-cartridges/"
+      },
+      "deployed": {
+        "title": "3M 60921 Organic Vapor/P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-60921-organic-vapor-p100-cartridges/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "status": 200,
+      "local": {
+        "title": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-60926-multi-gas-vapor-p100-cartridges/"
+      },
+      "deployed": {
+        "title": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-60926-multi-gas-vapor-p100-cartridges/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/3m-6800-full-facepiece-respirator/",
+      "status": 200,
+      "local": {
+        "title": "3M 6800 Full Facepiece Reusable Respirator: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-6800-full-facepiece-respirator/"
+      },
+      "deployed": {
+        "title": "3M 6800 Full Facepiece Reusable Respirator: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-6800-full-facepiece-respirator/"
+      },
+      "identicalHTML": true,
+      "localCards": 7,
+      "deployedCards": 7
+    },
+    {
+      "path": "/gear/3m-aura-9205-n95-respirator/",
+      "status": 200,
+      "local": {
+        "title": "3M Aura 9205+ N95 particulate respirator: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-aura-9205-n95-respirator/"
+      },
+      "deployed": {
+        "title": "3M Aura 9205+ N95 particulate respirator: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-aura-9205-n95-respirator/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/3m-gogglegear-500-safety-goggles/",
+      "status": 200,
+      "local": {
+        "title": "3M GoggleGear 500 protective goggles: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-gogglegear-500-safety-goggles/"
+      },
+      "deployed": {
+        "title": "3M GoggleGear 500 protective goggles: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/3m-gogglegear-500-safety-goggles/"
+      },
+      "identicalHTML": true,
+      "localCards": 2,
+      "deployedCards": 2
+    },
+    {
+      "path": "/gear/511-tactical-rush72-2-backpack/",
+      "status": 200,
+      "local": {
+        "title": "5.11 Tactical RUSH72 2.0 55 L backpack: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/511-tactical-rush72-2-backpack/"
+      },
+      "deployed": {
+        "title": "5.11 Tactical RUSH72 2.0 55 L backpack: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/511-tactical-rush72-2-backpack/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "status": 200,
+      "local": {
+        "title": "BLUETTI Elite 100 V2 — 200 W Solar Offer: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/bluetti-elite-100-v2-solar-generator-kit/"
+      },
+      "deployed": {
+        "title": "BLUETTI Elite 100 V2 — 200 W Solar Offer: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/bluetti-elite-100-v2-solar-generator-kit/"
+      },
+      "identicalHTML": true,
+      "localCards": 4,
+      "deployedCards": 4
+    },
+    {
+      "path": "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+      "status": 200,
+      "local": {
+        "title": "BougeRV 53 Quart Portable Refrigerator / Freezer: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-53-quart-portable-refrigerator-freezer/"
+      },
+      "deployed": {
+        "title": "BougeRV 53 Quart Portable Refrigerator / Freezer: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-53-quart-portable-refrigerator-freezer/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+      "status": 200,
+      "local": {
+        "title": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/"
+      },
+      "deployed": {
+        "title": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/datrex-dx2400f-emergency-food-ration/",
+      "status": 200,
+      "local": {
+        "title": "Datrex DX2400F Emergency Food Ration — 2400 Calories: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/datrex-dx2400f-emergency-food-ration/"
+      },
+      "deployed": {
+        "title": "Datrex DX2400F Emergency Food Ration — 2400 Calories: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/datrex-dx2400f-emergency-food-ration/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "status": 200,
+      "local": {
+        "title": "EcoFlow DELTA 2 Portable Power Station: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-delta-2-portable-power-station/"
+      },
+      "deployed": {
+        "title": "EcoFlow DELTA 2 Portable Power Station: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-delta-2-portable-power-station/"
+      },
+      "identicalHTML": true,
+      "localCards": 4,
+      "deployedCards": 4
+    },
+    {
+      "path": "/gear/ecoflow-river-2-pro/",
+      "status": 200,
+      "local": {
+        "title": "EcoFlow RIVER 2 Pro: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/"
+      },
+      "deployed": {
+        "title": "EcoFlow RIVER 2 Pro: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/"
+      },
+      "identicalHTML": true,
+      "localCards": 2,
+      "deployedCards": 2
+    },
+    {
+      "path": "/gear/esee-4-fixed-blade-knife/",
+      "status": 200,
+      "local": {
+        "title": "ESEE-4 Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/esee-4-fixed-blade-knife/"
+      },
+      "deployed": {
+        "title": "ESEE-4 Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/esee-4-fixed-blade-knife/"
+      },
+      "identicalHTML": true,
+      "localCards": 4,
+      "deployedCards": 4
+    },
+    {
+      "path": "/gear/fenix-cl26r-pro/",
+      "status": 200,
+      "local": {
+        "title": "Fenix CL26R Pro rechargeable lantern: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/"
+      },
+      "deployed": {
+        "title": "Fenix CL26R Pro rechargeable lantern: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/fenix-hm50r-v2-headlamp/",
+      "status": 200,
+      "local": {
+        "title": "Fenix HM50R V2.0 rechargeable headlamp: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/fenix-hm50r-v2-headlamp/"
+      },
+      "deployed": {
+        "title": "Fenix HM50R V2.0 rechargeable headlamp: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/fenix-hm50r-v2-headlamp/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/fnirsi-gc-01-geiger-counter/",
+      "status": 200,
+      "local": {
+        "title": "FNIRSI GC-01 Geiger Counter: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/fnirsi-gc-01-geiger-counter/"
+      },
+      "deployed": {
+        "title": "FNIRSI GC-01 Geiger Counter: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/fnirsi-gc-01-geiger-counter/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/garmin-gpsmap-67i-satellite-gps/",
+      "status": 200,
+      "local": {
+        "title": "Garmin GPSMAP 67i satellite communicator: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/garmin-gpsmap-67i-satellite-gps/"
+      },
+      "deployed": {
+        "title": "Garmin GPSMAP 67i satellite communicator: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/garmin-gpsmap-67i-satellite-gps/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/gerber-strongarm-fixed-blade-knife/",
+      "status": 200,
+      "local": {
+        "title": "Gerber StrongArm Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/gerber-strongarm-fixed-blade-knife/"
+      },
+      "deployed": {
+        "title": "Gerber StrongArm Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/gerber-strongarm-fixed-blade-knife/"
+      },
+      "identicalHTML": true,
+      "localCards": 4,
+      "deployedCards": 4
+    },
+    {
+      "path": "/gear/iniu-p62-20000mah-65w/",
+      "status": 200,
+      "local": {
+        "title": "INIU P62 20000 mAh 65 W power bank: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/"
+      },
+      "deployed": {
+        "title": "INIU P62 20000 mAh 65 W power bank: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/"
+      },
+      "identicalHTML": true,
+      "localCards": 2,
+      "deployedCards": 2
+    },
+    {
+      "path": "/gear/jackery-explorer-1000-v2/",
+      "status": 200,
+      "local": {
+        "title": "Jackery Explorer 1000 v2: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/"
+      },
+      "deployed": {
+        "title": "Jackery Explorer 1000 v2: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/jackery-explorer-300/",
+      "status": 200,
+      "local": {
+        "title": "Jackery Explorer 300: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/"
+      },
+      "deployed": {
+        "title": "Jackery Explorer 300: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/"
+      },
+      "identicalHTML": true,
+      "localCards": 2,
+      "deployedCards": 2
+    },
+    {
+      "path": "/gear/jackery-solarsaga-100w-air/",
+      "status": 200,
+      "local": {
+        "title": "Jackery SolarSaga 100 W Air: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/"
+      },
+      "deployed": {
+        "title": "Jackery SolarSaga 100 W Air: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/"
+      },
+      "identicalHTML": true,
+      "localCards": 1,
+      "deployedCards": 1
+    },
+    {
+      "path": "/gear/kidde-c3010-co-alarm/",
+      "status": 200,
+      "local": {
+        "title": "Kidde C3010 carbon monoxide alarm: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/"
+      },
+      "deployed": {
+        "title": "Kidde C3010 carbon monoxide alarm: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/"
+      },
+      "identicalHTML": true,
+      "localCards": 0,
+      "deployedCards": 0
+    },
+    {
+      "path": "/gear/leatherman-wave-plus-multitool/",
+      "status": 200,
+      "local": {
+        "title": "Leatherman Wave+ multi-tool: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/leatherman-wave-plus-multitool/"
+      },
+      "deployed": {
+        "title": "Leatherman Wave+ multi-tool: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/leatherman-wave-plus-multitool/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/marmot-precip-rain-jacket/",
+      "status": 200,
+      "local": {
+        "title": "Marmot PreCip rain jacket: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/marmot-precip-rain-jacket/"
+      },
+      "deployed": {
+        "title": "Marmot PreCip rain jacket: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/marmot-precip-rain-jacket/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/mechanix-m-pact-work-gloves/",
+      "status": 200,
+      "local": {
+        "title": "Mechanix Wear M-Pact work gloves: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/mechanix-m-pact-work-gloves/"
+      },
+      "deployed": {
+        "title": "Mechanix Wear M-Pact work gloves: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/mechanix-m-pact-work-gloves/"
+      },
+      "identicalHTML": true,
+      "localCards": 2,
+      "deployedCards": 2
+    },
+    {
+      "path": "/gear/merrell-moab-3-mid-waterproof-boots/",
+      "status": 200,
+      "local": {
+        "title": "Merrell Moab 3 Mid Waterproof hiking boots: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/merrell-moab-3-mid-waterproof-boots/"
+      },
+      "deployed": {
+        "title": "Merrell Moab 3 Mid Waterproof hiking boots: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/merrell-moab-3-mid-waterproof-boots/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/midland-er310/",
+      "status": 200,
+      "local": {
+        "title": "Midland ER310 emergency radio: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/midland-er310/"
+      },
+      "deployed": {
+        "title": "Midland ER310 emergency radio: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/midland-er310/"
+      },
+      "identicalHTML": true,
+      "localCards": 2,
+      "deployedCards": 2
+    },
+    {
+      "path": "/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "status": 200,
+      "local": {
+        "title": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/morakniv-garberg-blackblade-carbon-survival-kit/"
+      },
+      "deployed": {
+        "title": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/morakniv-garberg-blackblade-carbon-survival-kit/"
+      },
+      "identicalHTML": true,
+      "localCards": 4,
+      "deployedCards": 4
+    },
+    {
+      "path": "/gear/nanuk-904-first-aid-kit/",
+      "status": 200,
+      "local": {
+        "title": "NANUK 904 first aid kit: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/nanuk-904-first-aid-kit/"
+      },
+      "deployed": {
+        "title": "NANUK 904 first aid kit: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/nanuk-904-first-aid-kit/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/oria-wireless-refrigerator-freezer-thermometer/",
+      "status": 200,
+      "local": {
+        "title": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/oria-wireless-refrigerator-freezer-thermometer/"
+      },
+      "deployed": {
+        "title": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/oria-wireless-refrigerator-freezer-thermometer/"
+      },
+      "identicalHTML": true,
+      "localCards": 2,
+      "deployedCards": 2
+    },
+    {
+      "path": "/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+      "status": 200,
+      "local": {
+        "title": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/"
+      },
+      "deployed": {
+        "title": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/"
+      },
+      "identicalHTML": true,
+      "localCards": 1,
+      "deployedCards": 1
+    },
+    {
+      "path": "/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+      "status": 200,
+      "local": {
+        "title": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/"
+      },
+      "deployed": {
+        "title": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/"
+      },
+      "identicalHTML": true,
+      "localCards": 1,
+      "deployedCards": 1
+    },
+    {
+      "path": "/gear/readywise-84-servings-emergency-food-bucket/",
+      "status": 200,
+      "local": {
+        "title": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/readywise-84-servings-emergency-food-bucket/"
+      },
+      "deployed": {
+        "title": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/readywise-84-servings-emergency-food-bucket/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/reliance-aqua-tainer-7-gallon/",
+      "status": 200,
+      "local": {
+        "title": "Reliance Aqua-Tainer 7-gallon water container: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/reliance-aqua-tainer-7-gallon/"
+      },
+      "deployed": {
+        "title": "Reliance Aqua-Tainer 7-gallon water container: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/reliance-aqua-tainer-7-gallon/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/royale-velour-plush-thick-toilet-paper/",
+      "status": 200,
+      "local": {
+        "title": "Royale Velour Plush & Thick Toilet Paper: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/royale-velour-plush-thick-toilet-paper/"
+      },
+      "deployed": {
+        "title": "Royale Velour Plush & Thick Toilet Paper: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/royale-velour-plush-thick-toilet-paper/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/sawyer-squeeze-sp129-water-filter/",
+      "status": 200,
+      "local": {
+        "title": "Sawyer Squeeze SP129 water filtration system: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/sawyer-squeeze-sp129-water-filter/"
+      },
+      "deployed": {
+        "title": "Sawyer Squeeze SP129 water filtration system: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/sawyer-squeeze-sp129-water-filter/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    },
+    {
+      "path": "/gear/sol-emergency-bivvy/",
+      "status": 200,
+      "local": {
+        "title": "SOL Emergency Bivvy with rescue whistle: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/sol-emergency-bivvy/"
+      },
+      "deployed": {
+        "title": "SOL Emergency Bivvy with rescue whistle: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/sol-emergency-bivvy/"
+      },
+      "identicalHTML": true,
+      "localCards": 4,
+      "deployedCards": 4
+    },
+    {
+      "path": "/gear/sos-3600-calorie-emergency-food-rations/",
+      "status": 200,
+      "local": {
+        "title": "S.O.S. Emergency Food Rations — 3600 Calories: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/sos-3600-calorie-emergency-food-rations/"
+      },
+      "deployed": {
+        "title": "S.O.S. Emergency Food Rations — 3600 Calories: specs, uses & limitations | ApocalypseGearLab",
+        "robots": "noindex, nofollow",
+        "canonical": "https://apocalypsegearlab.github.io/gear/sos-3600-calorie-emergency-food-rations/"
+      },
+      "identicalHTML": true,
+      "localCards": 3,
+      "deployedCards": 3
+    }
+  ],
+  "preservedFiles": [
+    {
+      "file": "src/data/products/3m-2091-p100-particulate-filters.json",
+      "sha256": "21f68eadb8be732f75c0a0c794a71268110889e6921c890daa5068ffe7520cb2"
+    },
+    {
+      "file": "src/data/products/3m-2097-p100-particulate-filters.json",
+      "sha256": "cbe52d01653e3c2176442f2ec65d7e7dad991a21038b92de592013b31df8b7bc"
+    },
+    {
+      "file": "src/data/products/3m-60921-organic-vapor-p100-cartridges.json",
+      "sha256": "c741ea7da2a772f9c8875827fee857a5b9f6f10a7c9e9a4594652d37bbcf944a"
+    },
+    {
+      "file": "src/data/products/3m-60926-multi-gas-vapor-p100-cartridges.json",
+      "sha256": "d4a69dc094b465ce701ca2d30b0c81b607687aa15d774a47172ad0495268cee2"
+    },
+    {
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "sha256": "13996338973bc814e5e235e2b072de57945f1120c193c69144862508ae498c18"
+    },
+    {
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "sha256": "6a4d547d3e8cd3a0c50e245c438ebf5621643fb41a8e22f2e44e3a66359fc22d"
+    },
+    {
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "sha256": "54a5e6c38bafb2183a864ef0d53234d3841d1b91451e5d7423a2e327a6490967"
+    },
+    {
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "sha256": "557a44270f011c9690f7819466fa72d1bb94a274d1733b7021804a6abba0dba3"
+    },
+    {
+      "file": "src/data/products/bluetti-elite-100-v2-solar-generator-kit.json",
+      "sha256": "b1042ee948270dae5759db192e6c3058720a2d14eb66dd42fe02af0481a0c905"
+    },
+    {
+      "file": "src/data/products/bougerv-53-quart-portable-refrigerator-freezer.json",
+      "sha256": "9002a408f3a6255c9ed5cbae09f61c5921c0724f7937f1ea8274eb233f7b7567"
+    },
+    {
+      "file": "src/data/products/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler.json",
+      "sha256": "5e0cc7c9f54efd0b8d9ab180986e46f3fa56fa231758f34e7eb639de75811bd2"
+    },
+    {
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "sha256": "360aa6192b2f1a24c4b006f5ab3947883ca1a60b4aa579e7a729ddb1d40e7094"
+    },
+    {
+      "file": "src/data/products/ecoflow-delta-2-portable-power-station.json",
+      "sha256": "bc0923af22e0d8f13bc18a57d1e1f45a61492c018fb2f8e7266494153f40a6cc"
+    },
+    {
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "sha256": "f032ae7a9d2e7e1a53f2adc1fd27b02220139ab87d95c75fa9dfb03dc5fad1f1"
+    },
+    {
+      "file": "src/data/products/esee-4-fixed-blade-knife.json",
+      "sha256": "03ef13248b624bf82b1f1b5899220c7483adbf8438a71a1a9fdb05c99eae0fff"
+    },
+    {
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "sha256": "4289bc4e946b84da54d7eb4848b65463a63cba124029bb9e860fa0daddfc78b1"
+    },
+    {
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "sha256": "ab879cfee97a70decc5c2f97285d0396fc89339d991e13338cd4bcc80d048cd8"
+    },
+    {
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "sha256": "ec2bde139446459c4da7023cbe4c94f90ced93cebc21e187da032e589e0aa888"
+    },
+    {
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "sha256": "729504cd145311ea35949aa4b6eac066c5395003a2d9d04ee4c5432c5babb559"
+    },
+    {
+      "file": "src/data/products/gerber-strongarm-fixed-blade-knife.json",
+      "sha256": "b20ee569e2b0de4c46e39de7713cc87d4cfc6bf8ca2d2fd081574f922d274df4"
+    },
+    {
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "sha256": "a01ecabbbc0d9c77e6ad11d09f64a5ddc22cafdc1c0a9bde6c90c707c69a903b"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "sha256": "14eb142f5d898c2a9e6b892c85762ffbf9feac7f61e5e748c3f83d17771d6cf8"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-300.json",
+      "sha256": "8582b7936c14cddd6fee9fca5442c153166fb589dee923c698b0af014268c3fc"
+    },
+    {
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "sha256": "93278e4d830ec6686b9d17b18e0352da7a9a00b915cf87ce6c564d0d4c3d5d98"
+    },
+    {
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "sha256": "4d29781c78e827b79e7f0b07d44938df36e65a7c94639390a0eccdac24a2a1e8"
+    },
+    {
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "sha256": "732d97745645d046eecd6a7df7f412686287e06a6d2d4b8c516831e8750dce47"
+    },
+    {
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "sha256": "405c2e06cd4211860c5cc6a3468846ea09ee6fc6b8206b39929e40ce565c72d3"
+    },
+    {
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "sha256": "7367a1c2ab3e4d8a1057a37c470dbae03b5c58e53bd3288409f325f8801d82cf"
+    },
+    {
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "sha256": "39d49d6f56af038c944312754d7dd2e6d63e06374615058680413c0f38ad24b9"
+    },
+    {
+      "file": "src/data/products/midland-er310.json",
+      "sha256": "8c41333ffc09e9da9b537db0f42e73e023e366b5b4a3ec27ad842d8457e3bcb4"
+    },
+    {
+      "file": "src/data/products/morakniv-garberg-blackblade-carbon-survival-kit.json",
+      "sha256": "d5f07c52da034b02bda08453b206ccb235a8700e982e003a842b051b2bb2f075"
+    },
+    {
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "sha256": "0f3a55654dc0e766621bf583d976b176aa828be373bc962d595d7ac7cf5407ee"
+    },
+    {
+      "file": "src/data/products/oria-wireless-refrigerator-freezer-thermometer.json",
+      "sha256": "6d2e3468c6902015f5ac4f6b90cfed79bd9e71cd0e6e765e3255a05e9117632a"
+    },
+    {
+      "file": "src/data/products/panasonic-eneloop-aa-rechargeable-battery-charger-kit.json",
+      "sha256": "7c04f9a0635aedcffc2c88e99e24531b61c3d8321b23d19a3a2e32c8e43df02d"
+    },
+    {
+      "file": "src/data/products/panasonic-eneloop-aaa-rechargeable-battery-charger-kit.json",
+      "sha256": "6703b017859101c31f64921ca8557cc2562716c13e44e18b4f682fe85cfa4d6f"
+    },
+    {
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "sha256": "a5bfe8377c81d78177f9b42adca05553312a059569003931b71ef9d62860a063"
+    },
+    {
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "sha256": "b3cf9d300a37b9eeb4ec62b261a34f5ee5195a02ed060c284ae4f2ec1e0383c7"
+    },
+    {
+      "file": "src/data/products/royale-velour-plush-thick-toilet-paper.json",
+      "sha256": "04b33c018584f495a13682c6f292b1a88d1bad30c2f33839ca6c6000da837228"
+    },
+    {
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "sha256": "35d3e6409910e0fb5233301b8462bf883a8ca31265f361b7488f344b5cced2b8"
+    },
+    {
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "sha256": "19fd0b49797422be6c17228fe5125fed8f21ed9efab7f2db6241d394fc8b6f92"
+    },
+    {
+      "file": "src/data/products/sos-3600-calorie-emergency-food-rations.json",
+      "sha256": "2576c0414bbc71540ebef1648de2340fa28903cf63184cbd3083b168d7810143"
+    },
+    {
+      "file": "src/data/products/template-product.json",
+      "sha256": "d0037c2bca0c0aeff8d137bec6b8aa1f6c88b02f38fee036730fc607243f4cb0"
+    },
+    {
+      "file": "src/data/media/imported-manifest.json",
+      "sha256": "b4183bd564d5cdc367c7d722714c158957623f0b41d4c55cb1c2c4c74beee8a1"
+    },
+    {
+      "file": "src/data/media/manifest.json",
+      "sha256": "76e22cd459c54b72b2f8790bdb56208ca685d90dfb5714054fc1c6b570c75f9d"
+    },
+    {
+      "file": "src/data/media/review.json",
+      "sha256": "4ef227b8f3714aee14eacc9dfaee7439fdb29097ed71b62bf35743085ee62265"
+    },
+    {
+      "file": "assets/media/bougerv-image-manifest.csv",
+      "sha256": "d863a42362f1ecc8439265d2782ed932812c0f597c8b8fe2be1b859e4be09f02"
+    },
+    {
+      "file": "assets/media/image-manifest.csv",
+      "sha256": "fd5af46bd04727e17ed8012a4223eb2aa65867a1c231b402b623676a39a93240"
+    },
+    {
+      "file": "assets/media/phase4-1-image-manifest.csv",
+      "sha256": "0fb240da0f6b91ea5c88e14d69b7edf207977b0aafcc5500a9b98faa3890c987"
+    },
+    {
+      "file": "assets/media/phase4-2-image-manifest.csv",
+      "sha256": "f0bbe726923977def4d870234b4e6098afb8f0da1f23a75ce22c0d0910589532"
+    },
+    {
+      "file": "assets/media/phase4-3-image-manifest.csv",
+      "sha256": "91f617562a7b84ca9981af5b607849df23fdbd9212ce7a06d212f192a2cf5ac6"
+    },
+    {
+      "file": "assets/media/phase4-6-image-manifest.csv",
+      "sha256": "0d79dbe00a743a03feccc1da6a5cb9ab3b8f011c11ab36447abdf41c4070d39b"
+    },
+    {
+      "file": "assets/media/phase4-7-image-manifest.csv",
+      "sha256": "48d925c76d4b9f7fd32ecabf2c78604d9b6bd93dd698352b1ba8bdde87152335"
+    },
+    {
+      "file": "assets/media/phase5-3-image-manifest.csv",
+      "sha256": "8d6447ecef034e1407eb48f767d8e7b9c138d6e55ba5c108ee7826c5d58c2846"
+    },
+    {
+      "file": "assets/media/phase5-5-image-manifest.csv",
+      "sha256": "40b674bb2001d8597a75cda633344b7839018f8fe5ba5721b3800de79a19b2e9"
+    },
+    {
+      "file": "assets/media/phase5-image-manifest.csv",
+      "sha256": "f9ea887dcfcd844ffb4d989b1d10c51d4a66c0093f1007d9e624ca5b2c1267cb"
+    },
+    {
+      "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+      "sha256": "dc4c73809a506bef926499b847fc74d8986835af42ecf7bb752ebd0480996a28"
+    },
+    {
+      "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp",
+      "sha256": "72cff685fda5da322820ed0ce7c4957fccfaf2fe299d741132fdbbfdb0944700"
+    },
+    {
+      "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+      "sha256": "dc8be86a7f136dc3cd34e8a53cdf32244b432c27026cbadb8192389548440c46"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+      "sha256": "ac921ddb82ae267b8a415e76cc377d2435e8805d4f3368d2a49ed5d86ce492d8"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout-960.webp",
+      "sha256": "2f86f2c6b8c927f182fec00397015d99985fe90e921a4e409ae556d1efb5cfdd"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+      "sha256": "7039f6f8fc58ecec59de83e7257ae530a0a544b7e52890a43c64d91cd8c0780d"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+      "sha256": "3656f78379bac0792f2d7a9f31735de02a0ef150bd2db0bcd07db03a042befc5"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-960.webp",
+      "sha256": "53732de519c322a19355200f717c0fc2ed0691faf6a61fc0adbebccb4580861e"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+      "sha256": "bafd68944aed93c0c625332059abfb51c82abf901452939c8c4288d59eee65bc"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-delta-2-blackout-480.webp",
+      "sha256": "302297d1ac9e8cc345ca3342ee26794c1c790709254f33bcb3cf6a4998b05186"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-delta-2-blackout-960.webp",
+      "sha256": "589f6f73ef0c4f88298ec467760bfff75b73727956ef5b7c8680774d58be7c09"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-delta-2-blackout.webp",
+      "sha256": "dfda19d55b0b0d1ae88250bf23e3c260fcf3bb0cd2c5b1c480bbea835f2f3097"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0"
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943"
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2"
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "sha256": "e2580e4a299c5477251a6ec3da8a269fa3bd82609ccfe0471fa72b7fd985caba"
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977"
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc"
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c"
+    },
+    {
+      "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+      "sha256": "38f1340f6c00a8c19de27310a6e9bf0170cfd079326711056d6a5b4faba3de5f"
+    },
+    {
+      "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout-960.webp",
+      "sha256": "a05132ad758b966171c0171a347deb3375408b0ba386f960308e44744dfef2a5"
+    },
+    {
+      "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+      "sha256": "bbbac18e065b564fda186596064d1185cee34bf6621db09d29a9e5c685c1be82"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+      "sha256": "6462d1f34f1ea152fd173bda86856932a8a6e54752b5df5df154c0734f520229"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-960.webp",
+      "sha256": "234b9356893d2c8ff3262644ebaa3d821ea96e6807b4223521d0aed99a3440be"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+      "sha256": "3185e2a2ab9b07e66245539e9721a90f3a387c55caa867a3038bd419b0da7305"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+      "sha256": "8feebe6c675a79969c71972f1e7d818fa81e5bfe6b787f0ff330d6def4185360"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-960.webp",
+      "sha256": "116d67ac0fe337497952047131af29503e8ec28536dd7bea0feeb69c1abd4b94"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+      "sha256": "eeb104cb8a06d007fcc81f6624e106800a75b272091a8893db3106337eb0d171"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+      "sha256": "0e1c9565679ea01c7fa6c692e903c116aa7a25ce83de34cab3f847e0d1c58644"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+      "sha256": "e0f7f48d61b53c03a4cc69700e568791378c31203580d9a123b8773229eb6d05"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "sha256": "4a2275237b619e58505040e80b6c71217225b0e60794bf2774c979c3063f99b6"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+      "sha256": "0a99aeef7cdb3764879f80461db5e3f6308b5e6dd5042142af50d1e690fcf3f3"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+      "sha256": "9e73916ed8f2d709c87fbb6dc048eb0e03be659e0897a924df59a68900ff3373"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "sha256": "e94df88c2912a8bd32b518a3af0897e8aa8f5a6bfff49ca2296b20c963c1221a"
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da"
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+      "sha256": "18b4311dc4881a7918637030329aa2daab3e453c1f18c6394e6997daf460847e"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+      "sha256": "bce8f04ef999c0bbdf0813f878a6eedf34e6c360b0f6c2c44316ab2981c95ca8"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "sha256": "b3b988c154e0a4184bbaa3a7720af7989d341dad742c9d9219347205ad5b5fc6"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "sha256": "df089bbd1f410b5a4bdb2c6d54a9b3824712816156ba08134e92ab75caeedf6d"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-480.webp",
+      "sha256": "1c2fd77a1f5fbc4d43622e3dee950a25c1fd5b0e02613981275efa383e8f1545"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-960.webp",
+      "sha256": "d17b82b955c3676bda0f2623f6acfebb63a8b72640e8e13bfc710f90dd181fc3"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout.webp",
+      "sha256": "98f1055a897a16aa6beac292b5fac9fa1e6e17de839b88ae75f12b6c9622ae42"
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede"
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+      "sha256": "b82a9e13ce4051710a32d5f7a08e9485df4caca90d1d5e268cab65f47c071e4e"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+      "sha256": "bee74334fb8f82f523cf7167ba94d1203d8cee4ef8649f6552d813c21c26469c"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "sha256": "03b3373f03cd760ea4d61003244334119ad7bd374f95feea933f335b1ce50137"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-480.webp",
+      "sha256": "36f5dba68168492201cc41ef19a5c9cf1e9fb92cc112e8cda35e74a6564bb422"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-960.webp",
+      "sha256": "2eaf14c42978eb120c86493afb4ecc34a2b7f58a22390e3f5a7aea0044769284"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+      "sha256": "083cba7a38736e6fafc26f511dbb0b558b4886a7d8da3ab0356b007b69abcf44"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+      "sha256": "b043cedd7ea0110b19d6273555af4dfb09c60cad35e0fc2c15d68c9aa826c6bd"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+      "sha256": "2506c57e2bc9c30bc08779da33677c0710083394ebf0b986a86e504120b0d415"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+      "sha256": "1e642c892571f725bbe9542be529d822e9b3ef802f1fc9d9b01001673cc227c4"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+      "sha256": "fcd18927bdcb2e39f36307cbf24ba843bb952c50af654346225f1a6e4c73ead7"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+      "sha256": "3fcb38f8351cf9251b0e6054204c4a82dc147edf985a04c6a30b19977793215f"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+      "sha256": "8eb99b246b064103a70035678e320ab1de5512857332f883f0d7960a8e3dbec2"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+      "sha256": "2f1cedf82400ebd968c1e6c541a6f2e051966563a3d280fa14989b4642fe2aa2"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+      "sha256": "d6934859b4821590a8a8187394d619ea82e4392dcb043e75ffa9b2e2b7df7e6b"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+      "sha256": "e04e48a5a1def147b83902d1c47416f69af4c40bdf52238694883e33eb814589"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+      "sha256": "546b84c1e9804bc67859b76f416e5bbd7a6e72b7dbb3c83709e3517981c94dd1"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+      "sha256": "05da50496e11588a14af2a2fbc8969be79b2e57ca21ac5235125418171f7c6f3"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "sha256": "3ca0106c777dea863e6548a68f3ce628774ce6b3644b06043fab74f41062d0fe"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+      "sha256": "70d673984dc376f9c8525457fde40eb72fc6131865787aaedfe59fe5b324cbd3"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+      "sha256": "e09010cbf796ccb376bde61ed3732c5079bf5602aa18d086898b93aa2fb1f399"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "sha256": "af2f28c65f4882ecc9c3367f078d8f66f3bbd3ea6ea77b67194a68c44bb0faa8"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+      "sha256": "0b1e82a6f653ae9cb08f3c492ac07862e6d32988f3e983c614045d2d28ba6d4a"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+      "sha256": "4153680698daf753f855be1d3ef1a7f853f4c442fee82c30daba64e6e2da8997"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "sha256": "1e91b513c24b72a69928f5756c1beb24af015e075e24494ed2d5385159cc3c82"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+      "sha256": "5307f04f62c4d546b72bd9c0496f271dc58fe42305a7d29572831bbe64610e88"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+      "sha256": "bbfab58e7edb85fefb8a634e142ccfa25cdb23d3602ee6ddb929d2767e4ca11a"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "sha256": "b653606dc3e12e168ac43729abc541e45d4dc6396454f6f9b7f5deb1fadf3f92"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-480.webp",
+      "sha256": "4dbff0921bf365ca8a3f312bd173f5adb72988995da7dda91ab05d81ef1f4aa4"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-960.webp",
+      "sha256": "4410018c61e96c99d4c1445f7e6d21b7ae0bb35fffd7994dd27fe0db1e75b5ab"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak.webp",
+      "sha256": "6427aff08526f2cc1a3a8776714260e8d5327e2efff377d3c6d20c4babbfd76a"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+      "sha256": "dfdbe056ded78707d3c066147bb7150c36e81826b174b05465961982504f059d"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+      "sha256": "73a8bd4169f40c07606f1c4f634f5f43a31e498020c6ea00044b850c1af3ab47"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "sha256": "7bcd25cc04df381bddaf4165fe7fa0d45562f5a7fccb6715ce2bcd6c9d980db3"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-480.webp",
+      "sha256": "0dcf0ed0984f1d7deece0166130f84425980643463e76335b9eeb2c6a8f5e1b6"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-960.webp",
+      "sha256": "221bd339e9dd6f7fa1d666205dd01508660293690a35d055ac96349379e49f5e"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+      "sha256": "8f0935ae4dabdcab853b0298b4a20e743d3c81eccc8a28bd915994099be1c343"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+      "sha256": "5141031364537cb3d659d45adce8665a2351d8d8dc09f603bf06a1d0db2fbf74"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+      "sha256": "ad5287ec648575a06ac2e308cd5b377ba08b414659ff6be1e715428d892b8d6d"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "sha256": "9afd82347bb50b9860b9a8e0a8383d20561cce36c1d5f40aa82bcea20b730afc"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+      "sha256": "11f90e0f5df206682bc7921b8231f16ab0cec5406d05a8f0c15a8238161dfd4c"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+      "sha256": "ffa32c7a96887b4f66b5f5f0a7587cf46dadadaf5f0792503149ea542d5a5182"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "sha256": "e7408605c8e6486444125a4ef09f337555b503258b08df348d563ba734a0e578"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+      "sha256": "19ba80bba904e74455697eba09a3c22b1b80cc3cd49f081b13602b51bfaa0cf2"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+      "sha256": "0492954a40e398a38cd73d2e809ba199eed0c7d93a0c1b62c71d9c9d400966c8"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "sha256": "d41866d70a4a9c5f179b43f35af9ef30c4691d81ce59ce7f6cafca1ba1863335"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-480.webp",
+      "sha256": "58c6afcf4819f31e7ee7dbc52651129897c7c339622228b10a49160def1bb652"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-960.webp",
+      "sha256": "90e2b79bb5fca78e20134bca636c50e07b94899d32a5c8d90898e1082fdd1533"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+      "sha256": "0f5dc468dc0650ef35dc65d6b9227314b422f1d7b960d6f3606bac11e0310be6"
+    },
+    {
+      "file": "assets/media/blackout/originals/bluetti-elite-100-v2-solar-kit-blackout.png",
+      "sha256": "45f89c6534b45cb4d61c394df019ac5bafaa97f10143d2409db82f15fb39a5ec"
+    },
+    {
+      "file": "assets/media/blackout/originals/bougerv-53-quart-refrigerator-blackout.png",
+      "sha256": "e37bc7065abab355878b853d7cac87721761793ced3c4ecdb959f2a5f19e61c5"
+    },
+    {
+      "file": "assets/media/blackout/originals/bougerv-rocky-v3-55qt-dual-zone-blackout.png",
+      "sha256": "5524d9a25b68486e6a8f0ee540e6f4db2443d60b88417381cd22ad0f2f8862cb"
+    },
+    {
+      "file": "assets/media/blackout/originals/ecoflow-delta-2-blackout.png",
+      "sha256": "4dacbe8bc6171df95c3516e15684691641fdfdbb488af9acbbea1d2fc4513ce2"
+    },
+    {
+      "file": "assets/media/blackout/originals/oria-wireless-fridge-freezer-thermometer-blackout.png",
+      "sha256": "3dfa9286bb414c4c3fcc66dfc1886336492e81a572b42d1e842c21d19e6d7f46"
+    },
+    {
+      "file": "assets/media/blackout/originals/panasonic-eneloop-aa-bq-cc17-kit-blackout.png",
+      "sha256": "f55589a66e2db49f8a752e47e88efdc94533c60960c598a47d503401b00f4de4"
+    },
+    {
+      "file": "assets/media/blackout/originals/panasonic-eneloop-aaa-bq-cc17-kit-blackout.png",
+      "sha256": "21709efbe3a2daeb64eb2d4cb6db3746dbfa0e2e2f4712ec171d394d679d462f"
+    },
+    {
+      "file": "assets/media/fallout/originals/royale-velour-fallout.png",
+      "sha256": "37882bca993e762378d91723047bba3a5ad44054b77fdcacbf2580d85e69193d"
+    },
+    {
+      "file": "assets/media/outbreak/originals/3m-2091-outbreak.png",
+      "sha256": "19a993ca0bc131ab7f5f611ce1c9ed20a9f92b2b6ad55d33c5666a1f006c7567"
+    },
+    {
+      "file": "assets/media/outbreak/originals/esee-4-outbreak.png",
+      "sha256": "584ca04fe10907a4c8f479c67d7bd090e0cb24e88c2152cd9e3782386c8c7949"
+    },
+    {
+      "file": "assets/media/outbreak/originals/gerber-strongarm-outbreak.png",
+      "sha256": "8d2a956428b8994638201944fe9bcb237ebde698fe1d9dc73a721ecbc4f032e3"
+    },
+    {
+      "file": "assets/media/outbreak/originals/morakniv-garberg-outbreak.png",
+      "sha256": "82693a6b2e4f1f1627f29981673bee7015578f22320788bd46a27a805a3f83ab"
+    },
+    {
+      "file": "src/lib/affiliate.ts",
+      "sha256": "019f51a754bdb42c35e0e4a526e824a978ace82c0ee21e90564621f94077485d"
+    },
+    {
+      "file": "src/lib/affiliate-analytics.ts",
+      "sha256": "b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571"
+    },
+    {
+      "file": "src/components/GoogleAnalytics.astro",
+      "sha256": "5942aa9ce738cf7ad7162991dc6c1e5c010debe418c1ca97cb339ed10d0740f9"
+    },
+    {
+      "file": "src/config/analytics.ts",
+      "sha256": "66693e24af0185ba2d5d475143e3f095297c99ef4c3f5ed39254c8e761108ff9"
+    },
+    {
+      "file": "src/lib/release-policy.ts",
+      "sha256": "1a71543f3760f7cab33fb0293dc8bed0c66e2a8c887438e4404cffd5681a08ce"
+    }
+  ]
+}

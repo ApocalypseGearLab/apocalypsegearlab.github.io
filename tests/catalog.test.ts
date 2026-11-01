@@ -1,3 +1,4 @@
+import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import {accountStatusFileChanged, historicalProductJSON} from './account-status-fixture';
@@ -64,7 +65,7 @@ test('the catalogue audit preserves every previous product, artwork, affiliate p
   assert.equal(baseline.baseCommit,'836f7e10dae4b381a2d6c51607165509d4996bc4');
   assert.equal(baseline.products.length,30,'All 29 previous products and the internal template');
   for(const p of baseline.products.filter((p:any)=>!Object.keys(PHASE46_FILTERS).some(id=>p.file.endsWith('/'+id+'.json'))))assert.equal(createHash('sha256').update(historicalProductJSON(p.file,JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files){if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
+  for(const p of baseline.files){if(PHASE6_INTEGRATION_FILES.has(p.file))continue;if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     // Phase 4.7 appends one mapping; its first 29 entries and all prior files
     // are checked against the immutable Phase 4.7 baseline in phase47.test.ts.
@@ -82,7 +83,7 @@ test('Phase 4.6 appends only three media records and preserves every previous pr
   assert.equal(baseline.baseCommit,'f027d539fd2b4621fc55ec4b103dcdc63245d0ee');
   assert.equal(baseline.products.length,27,'All 26 prior products and template');
   for(const p of baseline.products) assert.equal(createHash('sha256').update(historicalProductJSON(p.file,JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files) {if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
+  for(const p of baseline.files) {if(PHASE6_INTEGRATION_FILES.has(p.file))continue;if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
@@ -145,7 +146,7 @@ test('all 26 product identities and the 17 unaudited records are preserved again
 
 test('prior media, bunker, affiliate configuration and mandatory safety controls survive additive taxonomy integration', () => {
   const baseline=JSON.parse(readFileSync('docs/qa/phase4-4/preservation.json','utf8'));
-  for(const p of baseline.unchangedFiles){if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;
+  for(const p of baseline.unchangedFiles){if(PHASE6_INTEGRATION_FILES.has(p.file))continue;if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 protects prior categories and unchanged source files.
     if(p.file==='src/data/media/imported-manifest.json') continue; // Intentional append; old entries are independently protected below.
     const raw=readFileSync(p.file),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;

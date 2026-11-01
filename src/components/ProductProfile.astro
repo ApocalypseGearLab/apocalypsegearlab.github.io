@@ -13,6 +13,7 @@ import ProductImage from './ProductImage.astro';
 import { isCommerciallyApproved, isInformationalProduct } from '../lib/release-policy';
 import { COMPATIBLE_3M_FILTERS, productCaution } from '../lib/respirator-filters';
 import { productVerification } from '../lib/product-verification';
+import { planningContext } from '../lib/planning-context';
 
 
 
@@ -20,6 +21,7 @@ interface Props { product: Product; releasePreview?: boolean }
 const { product, releasePreview = false } = Astro.props;
 const { data } = product;
 const universe = UNIVERSES[categoryUniverse(data.category)];
+const context = planningContext(data.category);
 const indexable = !releasePreview && isCommerciallyApproved(product);
 const informational = isInformationalProduct(product);
 const showInternalReview = import.meta.env.DEV && !releasePreview && !informational;
@@ -94,6 +96,8 @@ const breadcrumbs = {
       <p>{research.identityNotes}</p>
       {!indexable && <p>This is an editorial preview, not a published recommendation. Source review does not mean the product was physically tested or certified by us.</p>}
     </aside>}
+
+    <p class="planning-context">Plan the task: <a href={context.href}>{context.label}</a>. Check specifications and compatible components in the exact model instructions. Read <a href="/how-we-research/">how we research equipment</a>.</p>
 
     <ProductImage releasePreview={releasePreview} slug={product.id} label={categoryLabel(data.category)} universe={universe.id} detail />
 

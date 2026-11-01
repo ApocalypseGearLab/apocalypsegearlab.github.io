@@ -1,3 +1,4 @@
+import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import {accountStatusFileChanged} from './account-status-fixture';
@@ -34,5 +35,5 @@ test('core SEO correction preserves every product, affiliate/safety policy, imag
  const before=JSON.parse(readFileSync('docs/qa/core-indexation/before.json','utf8'));
  assert.equal(before.baseCommit,'beeb6e8219b59bfc7dd99292060cb301f81f608e');assert.equal(before.capturedBeforeImplementation,true);
  assert.equal(before.pages.find((p:any)=>p.path==='/gear/').robots,'noindex, nofollow');
- for(const row of before.files){if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;const b=readFileSync(row.file);const value=row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b;assert.equal(createHash('sha256').update(value).digest('hex'),row.sha256,row.file);}
+ for(const row of before.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;const b=readFileSync(row.file);const value=row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b;assert.equal(createHash('sha256').update(value).digest('hex'),row.sha256,row.file);}
 });

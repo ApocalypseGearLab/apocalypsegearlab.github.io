@@ -22,6 +22,7 @@ const files = readdirSync(root, { recursive: true }).filter((name) => name.endsW
 const textArtifacts = readdirSync(root, { recursive: true }).filter((name) => /\.(html|xml|txt|json|js|css)$/.test(name)).map((name) => ({ name, text: readFileSync(resolve(root, name), 'utf8') }));
 const documents = new Map();
 const titles = new Set();
+const canonicals = new Set();
 const indexable = new Set();
 let linkCount = 0;
 const fileFor = (pathname) => resolve(root, `.${decodeURIComponent(pathname)}`, pathname.endsWith('/') ? 'index.html' : '');
@@ -47,9 +48,30 @@ for (const file of files) {
   assert.ok($('meta[name="description"]').attr('content')?.trim(), file);
   assert.ok($('meta[name="viewport"]').attr('content'), file);
   assert.equal($('link[rel="canonical"]').attr('href'), new URL(pathname, site).href, file);
+  assert.equal($('link[rel="canonical"]').length, 1, `Exactly one canonical: ${file}`);
+  const canonical = $('link[rel="canonical"]').attr('href');
+  assert.ok(!canonicals.has(canonical), `Duplicate canonical: ${canonical}`);
+  canonicals.add(canonical);
   assert.equal($('meta[property="og:url"]').attr('content'), new URL(pathname, site).href, file);
   assert.ok(!html.includes('template-product'), `Template leaked into production: ${file}`);
-  $('script[type="application/ld+json"]').each((_, script) => JSON.parse($(script).text()));
+  $('script[type="application/ld+json"]').each((_, script) => {
+    const schema = JSON.parse($(script).text());
+    assert.equal(schema['@context'], 'https://schema.org');
+    assert.doesNotMatch(JSON.stringify(schema), /"@type"\s*:\s*"(?:Offer|AggregateOffer|Review|AggregateRating)"/, `Unsupported commercial schema: ${file}`);
+    if (schema['@type'] === 'ItemList' || schema['@type'] === 'BreadcrumbList') {
+      const entries = schema.itemListElement;
+      assert.ok(Array.isArray(entries) && entries.length > 0, file);
+      if (schema['@type'] === 'ItemList') assert.equal(schema.numberOfItems, entries.length, file);
+      entries.forEach((entry, i) => {
+        assert.equal(entry['@type'], 'ListItem');
+        assert.equal(entry.position, i + 1);
+        assert.ok(entry.name?.trim());
+        const target = new URL(entry.url ?? entry.item);
+        assert.equal(target.origin, site);
+        assert.ok(existsSync(fileFor(target.pathname)), `Broken schema URL: ${target}`);
+      });
+    }
+  });
   if (!$('meta[name="robots"]').attr('content')?.includes('noindex')) indexable.add(new URL(pathname, site).href);
 }
 
@@ -75,8 +97,8 @@ for (const [file, $] of documents) {
     if (!state.amazonCaActive) {
       assert.equal(card.find('[data-amazon-pending]').text().trim(), 'Amazon link pending verification');
       assert.equal(card.find('[data-pending-details]').attr('href'), `/gear/${state.slug}/`);
-      assert.ok(!card.find('.card-purchase').text().includes(state.buttonReason), 'Technical hold explanations belong on the profile, not the card');
-      assert.ok(card.find('.card-purchase').text().trim().length < 200, 'Pending card controls must stay concise');
+      assert.ok(card.find('.card-hold-reason').text().trim(), 'Held cards must explain the recorded blocker');
+      assert.ok(card.find('.card-purchase').text().trim().length < 600, 'Pending card controls must stay concise');
     }
   });
   const pathname = `/${relative(root, file).split(sep).join('/')}`.replace(/index\.html$/, '');
@@ -157,6 +179,25 @@ for (const node of sitemapIndex('sitemap > loc').toArray()) {
   });
 }
 assert.deepEqual([...urls].sort(), [...indexable].sort(), 'Sitemap must contain exactly the indexable HTML pages');
+// Follow the rendered HTML navigation from home, rather than counting arbitrary
+// incoming links: disconnected islands must not qualify as discoverable pages.
+const reachable = new Set();
+const queue = [site + '/'];
+while (queue.length) {
+  const current = queue.shift();
+  if (reachable.has(current)) continue;
+  reachable.add(current);
+  const document = documents.get(fileFor(new URL(current).pathname));
+  if (!document) continue;
+  document('a[href]').each((_, node) => {
+    const target = new URL(document(node).attr('href'), current);
+    if (target.origin === site && documents.has(fileFor(target.pathname))) {
+      const destination = target.origin + target.pathname;
+      if (!reachable.has(destination)) queue.push(destination);
+    }
+  });
+}
+for (const url of indexable) assert.ok(reachable.has(url), `Orphaned indexable page: ${url}`);
 const corePages = ['/', '/gear/', '/blackout/', '/fallout/', '/outbreak/'];
 for (const path of corePages) {
   const page = documents.get(fileFor(path));

@@ -31,9 +31,20 @@ for(const file of pages){
    // Intentional catalogue-only SEO correction. Product metadata and all
    // unrelated page attributes still use the historical exact comparison.
    assert.equal(meta.robots,null,'The editorially ready catalogue is indexable independently of product approvals');
-   assert.equal(meta.description,'Compare emergency equipment by power, water, shelter and protective needs. Read specifications, plan a kit and check Canadian retailer variants.');
-   assert.deepEqual({...meta,robots:previous.robots,description:previous.description},previous,'Preserve catalogue artwork, canonical, title, H1, navigation and source URLs');
-  }else assert.deepEqual(meta,previous,'Preserve rendered metadata, image attributes, navigation and documentary URL set: '+path);
+  }
+  // Phase 6 intentionally improves core search metadata and collection schema,
+  // and adds one methodology footer link. Product metadata, images, header,
+  // canonicals, safety text and documentary destinations remain protected.
+  assert.ok(meta.footer.some(link=>link.href==='/how-we-research/'));
+  meta.footer=meta.footer.filter(link=>link.href!=='/how-we-research/');
+  if(['/gear/','/blackout/','/fallout/','/outbreak/'].includes(path)){
+   assert.deepEqual(meta.jsonLd.map(schema=>schema['@type']),['BreadcrumbList','ItemList']);
+   assert.ok(meta.title.trim()&&meta.description?.trim());
+   assert.ok(previous.externalReferences.every((url:string)=>meta.externalReferences.includes(url)));
+   for(const url of meta.externalReferences.filter(url=>!previous.externalReferences.includes(url))) assert.ok(['www.canada.ca','www.cdc.gov'].includes(new URL(url).hostname),'New hub references must be official guidance');
+   meta.title=previous.title;meta.description=previous.description;meta.jsonLd=previous.jsonLd;meta.externalReferences=previous.externalReferences;
+  }
+  assert.deepEqual({...meta,robots:path==='/gear/'?previous.robots:meta.robots},previous,'Preserve product metadata, artwork, canonicals, navigation and documentary URLs: '+path);
  }
  // Inspect every external button, not just anchors already labelled for tracking.
  $('a.btn[href^="http"], a[data-affiliate-click]').each((_,e)=>{
@@ -78,7 +89,7 @@ for(const p of baseline.pages)assert.ok(pages.some(f=>'/'+f.split(sep).join('/')
 const previousSitemap=load(baseline.sitemap,{xmlMode:true}),currentSitemap=load(readFileSync('dist/sitemap-0.xml','utf8'),{xmlMode:true});
 const oldLocations=previousSitemap('url > loc').map((_,e)=>previousSitemap(e).text()).get();
 const newLocations=currentSitemap('url > loc').map((_,e)=>currentSitemap(e).text()).get();
-assert.deepEqual(newLocations.sort(),[...oldLocations,'https://apocalypsegearlab.github.io/gear/'].sort(),'Sitemap change is limited to the approved catalogue');
+assert.deepEqual(newLocations.sort(),[...oldLocations,'https://apocalypsegearlab.github.io/gear/','https://apocalypsegearlab.github.io/how-we-research/'].sort(),'Sitemap adds only the approved catalogue and methodology page');
 assert.equal(readFileSync('dist/robots.txt','utf8'),baseline.robots);
 const result={products:products.length,productPages:profiles,htmlPages:pages.length,recordedCanadianUrls:products.length,authorized:productRows.filter(p=>p.active).length,blocked:productRows.filter(p=>!p.active).length,commercialCtaInstances:commercialLinks.length,nonAmazonPurchaseCtas:0,incorrectTags:0,manufacturerPurchaseCtasRemoved:0,documentaryReferenceInstances:references.length,manufacturerReferenceInstances:references.filter(r=>r.kind==='manufacturer').length,uniqueManufacturerUrls:new Set(references.filter(r=>r.kind==='manufacturer').map(r=>r.destination)).size,editorialUrlSetsPreserved:true,seoAndMediaAttributesPreserved:true,productRows,commercialLinks,references};
 const output=process.argv.indexOf('--output');if(output>=0){const target=process.argv[output+1];assert.ok(target);mkdirSync(resolve(target,'..'),{recursive:true});writeFileSync(target,JSON.stringify(result,null,2)+'\n');}

@@ -38,7 +38,7 @@ for(const [id,[asin,category,active]]of Object.entries(PHASE5))test(`${id} rende
         await expect(card.locator('a[data-affiliate-click]')).toHaveCount(active?1:0);
         if(route!== '/gear/')await card.screenshot({path:`.tools/qa/phase5/${id}-card-${width}.png`,style:'header{visibility:hidden!important}'});
       }
-      await page.goto(`/${sector}/`);await expect(page.locator('#planning-checklist').locator('..').locator(`a[href="/gear/${id}/"]`)).toHaveCount(1);
+      await page.goto(`/${sector}/`);await expect(page.locator(`article.card[data-product-id="${id}"] h3 a[href="/gear/${id}/"]`)).toHaveCount(1);
     }
   }
   await page.goto(`/${sector==='outbreak'?'fallout':'outbreak'}/`);await expect(page.locator(`article.card[data-product-id="${id}"]`)).toHaveCount(0);

@@ -1,0 +1,4567 @@
+{
+  "date": "2026-11-01",
+  "pages": [
+    {
+      "path": "/404.html",
+      "title": "Page not found | ApocalypseGearLab",
+      "description": "Practical survival gear guides and emergency preparedness checklists for blackouts, disasters and extended disruptions.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/404.html",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Page not found"
+        }
+      ],
+      "wordCount": 22,
+      "guideWords": 0,
+      "schemas": [],
+      "profileLinks": [
+        "/gear/"
+      ],
+      "affiliateControls": 0,
+      "heldCards": 0,
+      "htmlBytes": 7483,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "title": "Survival Gear & Preparedness Guides | ApocalypseGearLab",
+      "description": "Practical survival gear guides and emergency preparedness checklists for blackouts, disasters and extended disruptions.",
+      "robots": "indexable",
+      "canonical": "https://apocalypsegearlab.github.io/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Be ready before the grid goes down."
+        },
+        {
+          "level": "h2",
+          "text": "Three ways to prepare"
+        },
+        {
+          "level": "h3",
+          "text": "Blackout"
+        },
+        {
+          "level": "h3",
+          "text": "Fallout"
+        },
+        {
+          "level": "h3",
+          "text": "Outbreak"
+        },
+        {
+          "level": "h2",
+          "text": "How we work"
+        },
+        {
+          "level": "h3",
+          "text": "No invented data"
+        },
+        {
+          "level": "h3",
+          "text": "No false testing claims"
+        },
+        {
+          "level": "h3",
+          "text": "Affiliate links disclosed"
+        }
+      ],
+      "wordCount": 172,
+      "guideWords": 0,
+      "schemas": [
+        "Organization",
+        "WebSite"
+      ],
+      "profileLinks": [
+        "/gear/"
+      ],
+      "affiliateControls": 0,
+      "heldCards": 0,
+      "htmlBytes": 15357,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/affiliate-disclosure/",
+      "title": "Affiliate disclosure | ApocalypseGearLab",
+      "description": "How ApocalypseGearLab earns commissions from affiliate links and how that affects our editorial decisions.",
+      "robots": "indexable",
+      "canonical": "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Affiliate disclosure"
+        },
+        {
+          "level": "h2",
+          "text": "Editorial independence"
+        },
+        {
+          "level": "h2",
+          "text": "Amazon.ca participation"
+        },
+        {
+          "level": "h2",
+          "text": "Prices and availability"
+        }
+      ],
+      "wordCount": 167,
+      "guideWords": 0,
+      "schemas": [],
+      "profileLinks": [
+        "/gear/"
+      ],
+      "affiliateControls": 0,
+      "heldCards": 0,
+      "htmlBytes": 9311,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/blackout/",
+      "title": "Power outage preparedness: batteries, lighting & refrigeration | ApocalypseGearLab",
+      "description": "Practical preparedness for extended electrical outages: power, lighting, radios, communication and household planning.",
+      "robots": "indexable",
+      "canonical": "https://apocalypsegearlab.github.io/blackout/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Blackout"
+        },
+        {
+          "level": "h2",
+          "text": "Plan power around essential tasks"
+        },
+        {
+          "level": "h3",
+          "text": "What to prepare before a power outage"
+        },
+        {
+          "level": "h3",
+          "text": "How to choose a portable power station"
+        },
+        {
+          "level": "h3",
+          "text": "Battery capacity in Wh versus appliance power in W"
+        },
+        {
+          "level": "h3",
+          "text": "How to estimate runtime"
+        },
+        {
+          "level": "h3",
+          "text": "Emergency lighting and charging priorities"
+        },
+        {
+          "level": "h3",
+          "text": "Food refrigeration during an outage"
+        },
+        {
+          "level": "h3",
+          "text": "Battery and charger compatibility"
+        },
+        {
+          "level": "h3",
+          "text": "Essential electrical safety precautions"
+        },
+        {
+          "level": "h2",
+          "text": "Gear in this sector"
+        },
+        {
+          "level": "h3",
+          "text": "BLUETTI Elite 100 V2 — 200 W Solar Offer"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV 53 Quart Portable Refrigerator / Freezer"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow DELTA 2 Portable Power Station"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow RIVER 2 Pro"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "INIU P62 20000 mAh 65 W power bank"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 1000 v2"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 300"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery SolarSaga 100 W Air"
+        },
+        {
+          "level": "h3",
+          "text": "Kidde C3010 carbon monoxide alarm"
+        },
+        {
+          "level": "h3",
+          "text": "Midland ER310 emergency radio"
+        },
+        {
+          "level": "h3",
+          "text": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors"
+        },
+        {
+          "level": "h3",
+          "text": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger"
+        },
+        {
+          "level": "h3",
+          "text": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger"
+        }
+      ],
+      "wordCount": 2428,
+      "guideWords": 720,
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/ecoflow-delta-2-portable-power-station/",
+        "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+        "/gear/jackery-explorer-1000-v2/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/fenix-cl26r-pro/",
+        "/gear/midland-er310/",
+        "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+        "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+        "/gear/oria-wireless-refrigerator-freezer-thermometer/",
+        "/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+        "/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+        "/gear/ecoflow-river-2-pro/",
+        "/gear/iniu-p62-20000mah-65w/",
+        "/gear/jackery-explorer-300/",
+        "/gear/jackery-solarsaga-100w-air/",
+        "/gear/kidde-c3010-co-alarm/"
+      ],
+      "affiliateControls": 12,
+      "heldCards": 4,
+      "htmlBytes": 76489,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/fallout/",
+      "title": "Household emergency supplies: water, food & shelter | ApocalypseGearLab",
+      "description": "Responsible disaster and crisis preparedness: evacuation bags, water, food, first aid, shelter and household plans.",
+      "robots": "indexable",
+      "canonical": "https://apocalypsegearlab.github.io/fallout/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Fallout"
+        },
+        {
+          "level": "h2",
+          "text": "Build a practical household emergency supply"
+        },
+        {
+          "level": "h3",
+          "text": "Emergency water planning"
+        },
+        {
+          "level": "h3",
+          "text": "Food storage and ration selection"
+        },
+        {
+          "level": "h3",
+          "text": "First aid organization"
+        },
+        {
+          "level": "h3",
+          "text": "Sanitation planning"
+        },
+        {
+          "level": "h3",
+          "text": "Temporary shelter and warmth"
+        },
+        {
+          "level": "h3",
+          "text": "Household emergency supply checklist"
+        },
+        {
+          "level": "h3",
+          "text": "Practical equipment limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Gear in this sector"
+        },
+        {
+          "level": "h3",
+          "text": "Datrex DX2400F Emergency Food Ration — 2400 Calories"
+        },
+        {
+          "level": "h3",
+          "text": "FNIRSI GC-01 Geiger Counter"
+        },
+        {
+          "level": "h3",
+          "text": "Leatherman Wave+ multi-tool"
+        },
+        {
+          "level": "h3",
+          "text": "NANUK 904 first aid kit"
+        },
+        {
+          "level": "h3",
+          "text": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h3",
+          "text": "Royale Velour Plush & Thick Toilet Paper"
+        },
+        {
+          "level": "h3",
+          "text": "S.O.S. Emergency Food Rations — 3600 Calories"
+        },
+        {
+          "level": "h3",
+          "text": "Sawyer Squeeze SP129 water filtration system"
+        },
+        {
+          "level": "h3",
+          "text": "SOL Emergency Bivvy with rescue whistle"
+        }
+      ],
+      "wordCount": 1668,
+      "guideWords": 526,
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/reliance-aqua-tainer-7-gallon/",
+        "/gear/readywise-84-servings-emergency-food-bucket/",
+        "/gear/datrex-dx2400f-emergency-food-ration/",
+        "/gear/sos-3600-calorie-emergency-food-rations/",
+        "/gear/nanuk-904-first-aid-kit/",
+        "/gear/royale-velour-plush-thick-toilet-paper/",
+        "/gear/sol-emergency-bivvy/",
+        "/gear/sawyer-squeeze-sp129-water-filter/",
+        "/gear/fnirsi-gc-01-geiger-counter/",
+        "/gear/leatherman-wave-plus-multitool/"
+      ],
+      "affiliateControls": 9,
+      "heldCards": 1,
+      "htmlBytes": 56043,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/",
+      "title": "Emergency preparedness gear catalogue | ApocalypseGearLab",
+      "description": "Find emergency equipment by sector, category, product or brand. Compare documented specifications, practical limitations and Canadian buying checks.",
+      "robots": "indexable",
+      "canonical": "https://apocalypsegearlab.github.io/gear/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Gear catalogue"
+        },
+        {
+          "level": "h2",
+          "text": "Plan around the services you need"
+        },
+        {
+          "level": "h2",
+          "text": "Equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2091 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2097 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60921 Organic Vapor/P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h3",
+          "text": "3M Aura 9205+ N95 particulate respirator"
+        },
+        {
+          "level": "h3",
+          "text": "3M GoggleGear 500 protective goggles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h3",
+          "text": "BLUETTI Elite 100 V2 — 200 W Solar Offer"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV 53 Quart Portable Refrigerator / Freezer"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler"
+        },
+        {
+          "level": "h3",
+          "text": "Datrex DX2400F Emergency Food Ration — 2400 Calories"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow DELTA 2 Portable Power Station"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow RIVER 2 Pro"
+        },
+        {
+          "level": "h3",
+          "text": "ESEE-4 Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "FNIRSI GC-01 Geiger Counter"
+        },
+        {
+          "level": "h3",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h3",
+          "text": "Gerber StrongArm Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "INIU P62 20000 mAh 65 W power bank"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 1000 v2"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 300"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery SolarSaga 100 W Air"
+        },
+        {
+          "level": "h3",
+          "text": "Kidde C3010 carbon monoxide alarm"
+        },
+        {
+          "level": "h3",
+          "text": "Leatherman Wave+ multi-tool"
+        },
+        {
+          "level": "h3",
+          "text": "Marmot PreCip rain jacket"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h3",
+          "text": "Merrell Moab 3 Mid Waterproof hiking boots"
+        },
+        {
+          "level": "h3",
+          "text": "Midland ER310 emergency radio"
+        },
+        {
+          "level": "h3",
+          "text": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit"
+        },
+        {
+          "level": "h3",
+          "text": "NANUK 904 first aid kit"
+        },
+        {
+          "level": "h3",
+          "text": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors"
+        },
+        {
+          "level": "h3",
+          "text": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger"
+        },
+        {
+          "level": "h3",
+          "text": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger"
+        },
+        {
+          "level": "h3",
+          "text": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h3",
+          "text": "Royale Velour Plush & Thick Toilet Paper"
+        },
+        {
+          "level": "h3",
+          "text": "S.O.S. Emergency Food Rations — 3600 Calories"
+        },
+        {
+          "level": "h3",
+          "text": "Sawyer Squeeze SP129 water filtration system"
+        },
+        {
+          "level": "h3",
+          "text": "SOL Emergency Bivvy with rescue whistle"
+        },
+        {
+          "level": "h2",
+          "text": "Read a profile before choosing"
+        }
+      ],
+      "wordCount": 4601,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-2091-p100-particulate-filters/",
+        "/gear/3m-2097-p100-particulate-filters/",
+        "/gear/3m-60921-organic-vapor-p100-cartridges/",
+        "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+        "/gear/3m-6800-full-facepiece-respirator/",
+        "/gear/3m-aura-9205-n95-respirator/",
+        "/gear/3m-gogglegear-500-safety-goggles/",
+        "/gear/511-tactical-rush72-2-backpack/",
+        "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+        "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+        "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+        "/gear/datrex-dx2400f-emergency-food-ration/",
+        "/gear/ecoflow-delta-2-portable-power-station/",
+        "/gear/ecoflow-river-2-pro/",
+        "/gear/esee-4-fixed-blade-knife/",
+        "/gear/fenix-cl26r-pro/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/fnirsi-gc-01-geiger-counter/",
+        "/gear/garmin-gpsmap-67i-satellite-gps/",
+        "/gear/gerber-strongarm-fixed-blade-knife/",
+        "/gear/iniu-p62-20000mah-65w/",
+        "/gear/jackery-explorer-1000-v2/",
+        "/gear/jackery-explorer-300/",
+        "/gear/jackery-solarsaga-100w-air/",
+        "/gear/kidde-c3010-co-alarm/",
+        "/gear/leatherman-wave-plus-multitool/",
+        "/gear/marmot-precip-rain-jacket/",
+        "/gear/mechanix-m-pact-work-gloves/",
+        "/gear/merrell-moab-3-mid-waterproof-boots/",
+        "/gear/midland-er310/",
+        "/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+        "/gear/nanuk-904-first-aid-kit/",
+        "/gear/oria-wireless-refrigerator-freezer-thermometer/",
+        "/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+        "/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+        "/gear/readywise-84-servings-emergency-food-bucket/",
+        "/gear/reliance-aqua-tainer-7-gallon/",
+        "/gear/royale-velour-plush-thick-toilet-paper/",
+        "/gear/sos-3600-calorie-emergency-food-rations/",
+        "/gear/sawyer-squeeze-sp129-water-filter/",
+        "/gear/sol-emergency-bivvy/"
+      ],
+      "affiliateControls": 36,
+      "heldCards": 5,
+      "htmlBytes": 174083,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        },
+        {
+          "bytes": 1494
+        }
+      ]
+    },
+    {
+      "path": "/how-we-research/",
+      "title": "How we research emergency equipment | ApocalypseGearLab",
+      "description": "Our documentary research method: manufacturer specifications, Canadian offer identity, unresolved limits, concept illustrations and affiliate-link decisions.",
+      "robots": "indexable",
+      "canonical": "https://apocalypsegearlab.github.io/how-we-research/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "How we research equipment"
+        },
+        {
+          "level": "h2",
+          "text": "Selection starts with a task"
+        },
+        {
+          "level": "h2",
+          "text": "Specifications and manufacturer documentation"
+        },
+        {
+          "level": "h2",
+          "text": "Canadian offers and buying links"
+        },
+        {
+          "level": "h2",
+          "text": "What we have not established"
+        },
+        {
+          "level": "h2",
+          "text": "Why we use concept illustrations"
+        },
+        {
+          "level": "h2",
+          "text": "Affiliate commissions"
+        },
+        {
+          "level": "h2",
+          "text": "Corrections and maintenance"
+        }
+      ],
+      "wordCount": 557,
+      "guideWords": 0,
+      "schemas": [],
+      "profileLinks": [
+        "/gear/"
+      ],
+      "affiliateControls": 0,
+      "heldCards": 0,
+      "htmlBytes": 13791,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/outbreak/",
+      "title": "Evacuation gear planning: bags, navigation & protection | ApocalypseGearLab",
+      "description": "Equipment profiles for evacuation, outdoor travel and practical protection. Plan your load, understand each item’s limits and follow the manufacturer instructions.",
+      "robots": "indexable",
+      "canonical": "https://apocalypsegearlab.github.io/outbreak/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Outbreak"
+        },
+        {
+          "level": "h2",
+          "text": "Prepare to leave with equipment you can carry"
+        },
+        {
+          "level": "h3",
+          "text": "Evacuation bag planning"
+        },
+        {
+          "level": "h3",
+          "text": "Carry weight and equipment prioritization"
+        },
+        {
+          "level": "h3",
+          "text": "Navigation and communication"
+        },
+        {
+          "level": "h3",
+          "text": "Weather protection"
+        },
+        {
+          "level": "h3",
+          "text": "Respiratory protection limitations"
+        },
+        {
+          "level": "h3",
+          "text": "Fit, compatibility and correct selection"
+        },
+        {
+          "level": "h3",
+          "text": "Practical evacuation checklist"
+        },
+        {
+          "level": "h2",
+          "text": "Gear in this sector"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2091 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2097 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60921 Organic Vapor/P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h3",
+          "text": "3M Aura 9205+ N95 particulate respirator"
+        },
+        {
+          "level": "h3",
+          "text": "3M GoggleGear 500 protective goggles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h3",
+          "text": "ESEE-4 Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h3",
+          "text": "Gerber StrongArm Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "Marmot PreCip rain jacket"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h3",
+          "text": "Merrell Moab 3 Mid Waterproof hiking boots"
+        },
+        {
+          "level": "h3",
+          "text": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit"
+        }
+      ],
+      "wordCount": 2133,
+      "guideWords": 518,
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/511-tactical-rush72-2-backpack/",
+        "/gear/leatherman-wave-plus-multitool/",
+        "/gear/garmin-gpsmap-67i-satellite-gps/",
+        "/gear/marmot-precip-rain-jacket/",
+        "/gear/merrell-moab-3-mid-waterproof-boots/",
+        "/gear/3m-aura-9205-n95-respirator/",
+        "/gear/3m-6800-full-facepiece-respirator/",
+        "/gear/3m-2091-p100-particulate-filters/",
+        "/gear/3m-2097-p100-particulate-filters/",
+        "/gear/3m-60921-organic-vapor-p100-cartridges/",
+        "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+        "/gear/3m-gogglegear-500-safety-goggles/",
+        "/gear/esee-4-fixed-blade-knife/",
+        "/gear/gerber-strongarm-fixed-blade-knife/",
+        "/gear/mechanix-m-pact-work-gloves/",
+        "/gear/morakniv-garberg-blackblade-carbon-survival-kit/"
+      ],
+      "affiliateControls": 15,
+      "heldCards": 0,
+      "htmlBytes": 74421,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-2091-p100-particulate-filters/",
+      "title": "3M 2091 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "P100 particulate filters for approved 3M bayonet assemblies. The documented Canadian offer advertises one pair (two filters). The 2091 is distinct from 2097 and has no documented nuisance-level organic-vapor relief.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-2091-p100-particulate-filters/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "3M 2091 P100 Particulate Filters"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2097 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60921 Organic Vapor/P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1420,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-2097-p100-particulate-filters/",
+        "/gear/3m-60921-organic-vapor-p100-cartridges/",
+        "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+        "/gear/3m-6800-full-facepiece-respirator/"
+      ],
+      "affiliateControls": 5,
+      "heldCards": 0,
+      "htmlBytes": 43345,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-2097-p100-particulate-filters/",
+      "title": "3M 2097 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "P100 particulate filters with limited nuisance-level organic-vapor relief. The documented Canadian offer advertises five pairs (ten filters); check the selected pack and approved use.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-2097-p100-particulate-filters/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "3M 2097 P100 Particulate Filters"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60921 Organic Vapor/P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1332,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-60921-organic-vapor-p100-cartridges/",
+        "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+        "/gear/3m-6800-full-facepiece-respirator/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 40239,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "title": "3M 60921 Organic Vapor/P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Cartridge/filter components for certain organic vapors and P100 particulates. The documented Canadian offer advertises one pair; approved selection, fit and use limits remain essential.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "3M 60921 Organic Vapor/P100 Cartridge Filters"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2097 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1349,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-2097-p100-particulate-filters/",
+        "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+        "/gear/3m-6800-full-facepiece-respirator/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 40294,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "title": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "P100 cartridge/filter components for gases and vapors specified by 3M. The documented Canadian offer advertises one pair; this is not universal chemical protection.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2097 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60921 Organic Vapor/P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1405,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-2097-p100-particulate-filters/",
+        "/gear/3m-60921-organic-vapor-p100-cartridges/",
+        "/gear/3m-6800-full-facepiece-respirator/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 40746,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-6800-full-facepiece-respirator/",
+      "title": "3M 6800 Full Facepiece Reusable Respirator: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A medium reusable full facepiece with a clear lens and bayonet filter connections. The facepiece alone does not filter air; hazard selection, compatible approved components and a tight fit are essential.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-6800-full-facepiece-respirator/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Compatible 3M Filters & Cartridges"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60921 Organic Vapor/P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2097 P100 Particulate Filters"
+        },
+        {
+          "level": "h3",
+          "text": "3M 2091 P100 Particulate Filters"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M Aura 9205+ N95 particulate respirator"
+        },
+        {
+          "level": "h3",
+          "text": "FNIRSI GC-01 Geiger Counter"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1534,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-60921-organic-vapor-p100-cartridges/",
+        "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+        "/gear/3m-2097-p100-particulate-filters/",
+        "/gear/3m-2091-p100-particulate-filters/",
+        "/gear/3m-aura-9205-n95-respirator/",
+        "/gear/fnirsi-gc-01-geiger-counter/",
+        "/gear/mechanix-m-pact-work-gloves/"
+      ],
+      "affiliateControls": 8,
+      "heldCards": 0,
+      "htmlBytes": 52274,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-aura-9205-n95-respirator/",
+      "title": "3M Aura 9205+ N95 particulate respirator: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A disposable particulate respirator documented by 3M as N95. Correct selection, fit and genuine supply matter; this is not protection against gases, vapours or oxygen deficiency.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-aura-9205-n95-respirator/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "3M Aura 9205+ N95 particulate respirator"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h3",
+          "text": "3M GoggleGear 500 protective goggles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 996,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-6800-full-facepiece-respirator/",
+        "/gear/3m-gogglegear-500-safety-goggles/",
+        "/gear/511-tactical-rush72-2-backpack/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 37137,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-gogglegear-500-safety-goggles/",
+      "title": "3M GoggleGear 500 protective goggles: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Low-profile protective goggles, documented here against the clear GG501SGAF reference. The actual lens markings, Canadian variant and suitability for the task must be checked.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-gogglegear-500-safety-goggles/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "3M GoggleGear 500 protective goggles"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M Aura 9205+ N95 particulate respirator"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 802,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-aura-9205-n95-respirator/",
+        "/gear/mechanix-m-pact-work-gloves/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 0,
+      "htmlBytes": 32063,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/511-tactical-rush72-2-backpack/",
+      "title": "5.11 Tactical RUSH72 2.0 55 L backpack: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A large compartmentalized pack for an evacuation load or a planned multi-day outing. Its 55 L capacity is a manufacturer specification, not a guarantee of comfortable carrying weight.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/511-tactical-rush72-2-backpack/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h3",
+          "text": "Marmot PreCip rain jacket"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 909,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/garmin-gpsmap-67i-satellite-gps/",
+        "/gear/marmot-precip-rain-jacket/",
+        "/gear/reliance-aqua-tainer-7-gallon/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 35138,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "title": "BLUETTI Elite 100 V2 — 200 W Solar Offer: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 1024 Wh LiFePO4 station with 1800 W rated AC output, linked to an owner-reported 200 W solar offer. Confirm the panel model and connecting cables before purchase.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "BLUETTI Elite 100 V2 — 200 W Solar Offer"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow DELTA 2 Portable Power Station"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 1000 v2"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery SolarSaga 100 W Air"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1298,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/ecoflow-delta-2-portable-power-station/",
+        "/gear/fenix-cl26r-pro/",
+        "/gear/jackery-explorer-1000-v2/",
+        "/gear/jackery-solarsaga-100w-air/"
+      ],
+      "affiliateControls": 5,
+      "heldCards": 0,
+      "htmlBytes": 41521,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+      "title": "BougeRV 53 Quart Portable Refrigerator / Freezer: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 53 QT compressor fridge/freezer for a vehicle, camp or a planned blackout power supply. It uses one temperature setting; check the supplied revision and monitor actual food temperature.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "BougeRV 53 Quart Portable Refrigerator / Freezer"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "BLUETTI Elite 100 V2 — 200 W Solar Offer"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow DELTA 2 Portable Power Station"
+        }
+      ],
+      "wordCount": 1162,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+        "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+        "/gear/ecoflow-delta-2-portable-power-station/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 35792,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+      "title": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 55 QT / 52 L dual-zone portable fridge for a powered vehicle or camp base. Independent zone settings offer flexibility; a battery, solar panel, phone and illustrated contents are not promised with the Amazon offer.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "BLUETTI Elite 100 V2 — 200 W Solar Offer"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV 53 Quart Portable Refrigerator / Freezer"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow DELTA 2 Portable Power Station"
+        }
+      ],
+      "wordCount": 1143,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+        "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+        "/gear/ecoflow-delta-2-portable-power-station/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 35907,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/datrex-dx2400f-emergency-food-ration/",
+      "title": "Datrex DX2400F Emergency Food Ration — 2400 Calories: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact ready-to-eat ration documented as twelve 200-kcal bars: 2,400 kcal for the complete packet. Contains wheat; check the delivered ingredients, seals, dates and Canadian pack quantity.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/datrex-dx2400f-emergency-food-ration/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Datrex DX2400F Emergency Food Ration — 2400 Calories"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h3",
+          "text": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket"
+        },
+        {
+          "level": "h3",
+          "text": "S.O.S. Emergency Food Rations — 3600 Calories"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1018,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/511-tactical-rush72-2-backpack/",
+        "/gear/readywise-84-servings-emergency-food-bucket/",
+        "/gear/sos-3600-calorie-emergency-food-rations/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 37168,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "title": "EcoFlow DELTA 2 Portable Power Station: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 1024 Wh LiFePO4 station with 1800 W rated AC output for a measured blackout load plan. Solar panels and extra batteries are not established as part of this offer.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-delta-2-portable-power-station/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "EcoFlow DELTA 2 Portable Power Station"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "BLUETTI Elite 100 V2 — 200 W Solar Offer"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 1000 v2"
+        },
+        {
+          "level": "h3",
+          "text": "Midland ER310 emergency radio"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1254,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+        "/gear/fenix-cl26r-pro/",
+        "/gear/jackery-explorer-1000-v2/",
+        "/gear/midland-er310/"
+      ],
+      "affiliateControls": 5,
+      "heldCards": 0,
+      "htmlBytes": 40659,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/ecoflow-river-2-pro/",
+      "title": "EcoFlow RIVER 2 Pro: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 768 Wh LiFePO4 power station with 800 W rated AC output for lights, communications and a carefully limited set of essential devices.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "EcoFlow RIVER 2 Pro"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 1000 v2"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 300"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 784,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/jackery-explorer-1000-v2/",
+        "/gear/jackery-explorer-300/"
+      ],
+      "affiliateControls": 1,
+      "heldCards": 1,
+      "htmlBytes": 30900,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/esee-4-fixed-blade-knife/",
+      "title": "ESEE-4 Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact fixed-blade reference for campsite cutting and field repairs. The selected configuration has a black blade, gray handle and black sheath with belt attachment; confirm the exact steel and package on the selected offer.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/esee-4-fixed-blade-knife/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ESEE-4 Fixed Blade Knife"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "Gerber StrongArm Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h3",
+          "text": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1214,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/gerber-strongarm-fixed-blade-knife/",
+        "/gear/mechanix-m-pact-work-gloves/",
+        "/gear/morakniv-garberg-blackblade-carbon-survival-kit/"
+      ],
+      "affiliateControls": 5,
+      "heldCards": 0,
+      "htmlBytes": 40726,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/fenix-cl26r-pro/",
+      "title": "Fenix CL26R Pro rechargeable lantern: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A rechargeable lantern with area, downward and red lighting modes for shared rooms, work surfaces and a portable blackout lighting kit.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 300"
+        },
+        {
+          "level": "h3",
+          "text": "Midland ER310 emergency radio"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 845,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/511-tactical-rush72-2-backpack/",
+        "/gear/jackery-explorer-300/",
+        "/gear/midland-er310/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 1,
+      "htmlBytes": 33987,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/fenix-hm50r-v2-headlamp/",
+      "title": "Fenix HM50R V2.0 rechargeable headlamp: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact rechargeable headlamp for hands-free outage tasks, with white and red light and a removable lamp body. Battery revision and Canadian listing remain to be matched.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fenix-hm50r-v2-headlamp/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h3",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 300"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 932,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/fenix-cl26r-pro/",
+        "/gear/garmin-gpsmap-67i-satellite-gps/",
+        "/gear/jackery-explorer-300/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 1,
+      "htmlBytes": 34537,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/fnirsi-gc-01-geiger-counter/",
+      "title": "FNIRSI GC-01 Geiger Counter: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A portable Geiger-counter reference for certain ionising radiation. The upper measurement limit is not established here, and this instrument cannot certify food, water or an area as safe.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fnirsi-gc-01-geiger-counter/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "FNIRSI GC-01 Geiger Counter"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M 6800 Full Facepiece Reusable Respirator"
+        },
+        {
+          "level": "h3",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1029,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-6800-full-facepiece-respirator/",
+        "/gear/garmin-gpsmap-67i-satellite-gps/",
+        "/gear/reliance-aqua-tainer-7-gallon/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 36913,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/garmin-gpsmap-67i-satellite-gps/",
+      "title": "Garmin GPSMAP 67i satellite communicator: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A handheld navigation device with inReach satellite communication. Messaging and satellite SOS require a compatible active subscription, activation and suitable operating conditions.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/garmin-gpsmap-67i-satellite-gps/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "Merrell Moab 3 Mid Waterproof hiking boots"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 944,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/511-tactical-rush72-2-backpack/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/merrell-moab-3-mid-waterproof-boots/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 35853,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/gerber-strongarm-fixed-blade-knife/",
+      "title": "Gerber StrongArm Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A full-tang outdoor utility knife for camp repairs and controlled cutting tasks. The selected reference pairs a black plain-edge blade with a coyote brown grip and sheath; match the selected Canadian offer before buying.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/gerber-strongarm-fixed-blade-knife/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Gerber StrongArm Fixed Blade Knife"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "ESEE-4 Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h3",
+          "text": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1172,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/esee-4-fixed-blade-knife/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/mechanix-m-pact-work-gloves/",
+        "/gear/morakniv-garberg-blackblade-carbon-survival-kit/"
+      ],
+      "affiliateControls": 5,
+      "heldCards": 0,
+      "htmlBytes": 40361,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/iniu-p62-20000mah-65w/",
+      "title": "INIU P62 20000 mAh 65 W power bank: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A USB-C power bank marketed at 20000 mAh and 65 W, documented by the manufacturer as P62-E1. The exact Canadian listing configuration and safety evidence remain unverified.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "INIU P62 20000 mAh 65 W power bank"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 300"
+        },
+        {
+          "level": "h3",
+          "text": "Midland ER310 emergency radio"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 923,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/jackery-explorer-300/",
+        "/gear/midland-er310/"
+      ],
+      "affiliateControls": 1,
+      "heldCards": 1,
+      "htmlBytes": 32576,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/jackery-explorer-1000-v2/",
+      "title": "Jackery Explorer 1000 v2: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 1070 Wh LiFePO4 power station with 1500 W rated AC output for a planned mix of lights, communications and compatible household loads.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Jackery Explorer 1000 v2"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow RIVER 2 Pro"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery SolarSaga 100 W Air"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 866,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/ecoflow-river-2-pro/",
+        "/gear/fenix-cl26r-pro/",
+        "/gear/jackery-solarsaga-100w-air/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 1,
+      "htmlBytes": 34448,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/jackery-explorer-300/",
+      "title": "Jackery Explorer 300: specs, uses & limitations | ApocalypseGearLab",
+      "description": "The original Explorer 300 is a small lithium-ion station with a 300 W AC ceiling; its revision needs checking before purchase.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Jackery Explorer 300"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "EcoFlow RIVER 2 Pro"
+        },
+        {
+          "level": "h3",
+          "text": "INIU P62 20000 mAh 65 W power bank"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 946,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/ecoflow-river-2-pro/",
+        "/gear/iniu-p62-20000mah-65w/"
+      ],
+      "affiliateControls": 0,
+      "heldCards": 2,
+      "htmlBytes": 32354,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/jackery-solarsaga-100w-air/",
+      "title": "Jackery SolarSaga 100 W Air: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A folding 100 W solar panel for weather-dependent charging. Match the station, connector and regional cable before building a backup-power kit.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Jackery SolarSaga 100 W Air"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Jackery Explorer 1000 v2"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 747,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/jackery-explorer-1000-v2/"
+      ],
+      "affiliateControls": 2,
+      "heldCards": 0,
+      "htmlBytes": 30524,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/kidde-c3010-co-alarm/",
+      "title": "Kidde C3010 carbon monoxide alarm: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A sealed-battery carbon monoxide alarm in the C3010 family. Canadian certification and equivalence to C3010-CA have not been established for this listing.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Kidde C3010 carbon monoxide alarm"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 805,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/"
+      ],
+      "affiliateControls": 0,
+      "heldCards": 0,
+      "htmlBytes": 27579,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/leatherman-wave-plus-multitool/",
+      "title": "Leatherman Wave+ multi-tool: specs, uses & limitations | ApocalypseGearLab",
+      "description": "An 18-function folding multi-tool for small repairs and kit maintenance. Match the finish and included accessories, and use suitable tools for electrical or high-load work.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/leatherman-wave-plus-multitool/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Leatherman Wave+ multi-tool"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h3",
+          "text": "NANUK 904 first aid kit"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 986,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/mechanix-m-pact-work-gloves/",
+        "/gear/nanuk-904-first-aid-kit/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 1,
+      "htmlBytes": 35753,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/marmot-precip-rain-jacket/",
+      "title": "Marmot PreCip rain jacket: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A PreCip-family rain shell for an outdoor weather layer. The exact generation, size and colour are unverified; Eco reference features are kept separate from claims about the selected listing.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/marmot-precip-rain-jacket/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Marmot PreCip rain jacket"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h3",
+          "text": "Merrell Moab 3 Mid Waterproof hiking boots"
+        },
+        {
+          "level": "h3",
+          "text": "SOL Emergency Bivvy with rescue whistle"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 923,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/511-tactical-rush72-2-backpack/",
+        "/gear/merrell-moab-3-mid-waterproof-boots/",
+        "/gear/sol-emergency-bivvy/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 35165,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/mechanix-m-pact-work-gloves/",
+      "title": "Mechanix Wear M-Pact work gloves: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Work gloves with protective panels for selected impact and abrasion tasks. The black/grey model is the intended reference; size, generation and supplied performance label remain unverified.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/mechanix-m-pact-work-gloves/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "3M GoggleGear 500 protective goggles"
+        },
+        {
+          "level": "h3",
+          "text": "Leatherman Wave+ multi-tool"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 774,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/3m-gogglegear-500-safety-goggles/",
+        "/gear/leatherman-wave-plus-multitool/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 0,
+      "htmlBytes": 31694,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/merrell-moab-3-mid-waterproof-boots/",
+      "title": "Merrell Moab 3 Mid Waterproof hiking boots: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Mid-height waterproof hiking boots for men, with Beluga selected by the owner. Fit, width and the size-specific ASIN need checking; no size availability is promised.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/merrell-moab-3-mid-waterproof-boots/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Merrell Moab 3 Mid Waterproof hiking boots"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "5.11 Tactical RUSH72 2.0 55 L backpack"
+        },
+        {
+          "level": "h3",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h3",
+          "text": "Marmot PreCip rain jacket"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 931,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/511-tactical-rush72-2-backpack/",
+        "/gear/garmin-gpsmap-67i-satellite-gps/",
+        "/gear/marmot-precip-rain-jacket/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 35344,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/midland-er310/",
+      "title": "Midland ER310 emergency radio: specs, uses & limitations | ApocalypseGearLab",
+      "description": "An AM/FM emergency radio with rechargeable, AA, hand-crank and supplementary solar power options. Canadian Weatheradio coverage is no longer available.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/midland-er310/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Midland ER310 emergency radio"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix CL26R Pro rechargeable lantern"
+        },
+        {
+          "level": "h3",
+          "text": "INIU P62 20000 mAh 65 W power bank"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 899,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/fenix-cl26r-pro/",
+        "/gear/iniu-p62-20000mah-65w/"
+      ],
+      "affiliateControls": 2,
+      "heldCards": 1,
+      "htmlBytes": 33209,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "title": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A carbon-steel bushcraft reference with a sheath-mounted survival kit. Morakniv documents kit 13915 with a polymer sheath, ferro rod, diamond sharpener and reflective cord; confirm the selected retailer package before purchase.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "ESEE-4 Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "Garmin GPSMAP 67i satellite communicator"
+        },
+        {
+          "level": "h3",
+          "text": "Gerber StrongArm Fixed Blade Knife"
+        },
+        {
+          "level": "h3",
+          "text": "Mechanix Wear M-Pact work gloves"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1205,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/esee-4-fixed-blade-knife/",
+        "/gear/garmin-gpsmap-67i-satellite-gps/",
+        "/gear/gerber-strongarm-fixed-blade-knife/",
+        "/gear/mechanix-m-pact-work-gloves/"
+      ],
+      "affiliateControls": 5,
+      "heldCards": 0,
+      "htmlBytes": 41158,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/nanuk-904-first-aid-kit/",
+      "title": "NANUK 904 first aid kit: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact hard-case first aid kit for organized supplies. The exact Canadian fill, expiry dates and suitability for your needs must be checked; the case alone does not establish medical readiness.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/nanuk-904-first-aid-kit/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "NANUK 904 first aid kit"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h3",
+          "text": "SOL Emergency Bivvy with rescue whistle"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1135,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/reliance-aqua-tainer-7-gallon/",
+        "/gear/sol-emergency-bivvy/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 0,
+      "htmlBytes": 37168,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/oria-wireless-refrigerator-freezer-thermometer/",
+      "title": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A remote display and two sensors for checking refrigerated and frozen storage during an outage. Reported alarms and min/max readings support monitoring; they do not establish food safety.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/oria-wireless-refrigerator-freezer-thermometer/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Owner-reported features — verification incomplete"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV 53 Quart Portable Refrigerator / Freezer"
+        },
+        {
+          "level": "h3",
+          "text": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler"
+        }
+      ],
+      "wordCount": 975,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+        "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 0,
+      "htmlBytes": 32354,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+      "title": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Four standard white AA NiMH cells and a BQ-CC17 AC charger for compatible battery-powered equipment. Charge a spare set before an outage; check device voltage and chemistry requirements.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger"
+        }
+      ],
+      "wordCount": 960,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/"
+      ],
+      "affiliateControls": 2,
+      "heldCards": 0,
+      "htmlBytes": 29493,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+      "title": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Four standard white AAA NiMH cells and a BQ-CC17 AC charger for compatible smaller devices. Already own this charger? Compare separate AAA cells before buying another starter kit.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger"
+        }
+      ],
+      "wordCount": 970,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/"
+      ],
+      "affiliateControls": 2,
+      "heldCards": 0,
+      "htmlBytes": 29515,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/readywise-84-servings-emergency-food-bucket/",
+      "title": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket: specs, uses & limitations | ApocalypseGearLab",
+      "description": "One gluten-free bucket with 84 labelled servings across four recipes. ReadyWise declares 15,420 kcal, corroborated by the inspected yogurt-dessert label version; servings are not complete meals.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/readywise-84-servings-emergency-food-bucket/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Datrex DX2400F Emergency Food Ration — 2400 Calories"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h3",
+          "text": "S.O.S. Emergency Food Rations — 3600 Calories"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1441,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/datrex-dx2400f-emergency-food-ration/",
+        "/gear/reliance-aqua-tainer-7-gallon/",
+        "/gear/sos-3600-calorie-emergency-food-rations/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 44034,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/reliance-aqua-tainer-7-gallon/",
+      "title": "Reliance Aqua-Tainer 7-gallon water container: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A rigid water-storage container with a reversible spigot and vent cap. Plan safe filling, cleaning and lifting; storage alone does not make contaminated water drinkable.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/reliance-aqua-tainer-7-gallon/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "NANUK 904 first aid kit"
+        },
+        {
+          "level": "h3",
+          "text": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket"
+        },
+        {
+          "level": "h3",
+          "text": "Sawyer Squeeze SP129 water filtration system"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 999,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/nanuk-904-first-aid-kit/",
+        "/gear/readywise-84-servings-emergency-food-bucket/",
+        "/gear/sawyer-squeeze-sp129-water-filter/"
+      ],
+      "affiliateControls": 3,
+      "heldCards": 1,
+      "htmlBytes": 36242,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/royale-velour-plush-thick-toilet-paper/",
+      "title": "Royale Velour Plush & Thick Toilet Paper: specs, uses & limitations | ApocalypseGearLab",
+      "description": "An everyday bathroom-tissue supply for a household emergency shelf. The documented pack contains 12 physical rolls; 12 equals 24 is a regular-roll equivalence claim, not 24 physical rolls.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/royale-velour-plush-thick-toilet-paper/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Royale Velour Plush & Thick Toilet Paper"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h3",
+          "text": "Sawyer Squeeze SP129 water filtration system"
+        },
+        {
+          "level": "h3",
+          "text": "SOL Emergency Bivvy with rescue whistle"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1039,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/reliance-aqua-tainer-7-gallon/",
+        "/gear/sawyer-squeeze-sp129-water-filter/",
+        "/gear/sol-emergency-bivvy/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 36259,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/sawyer-squeeze-sp129-water-filter/",
+      "title": "Sawyer Squeeze SP129 water filtration system: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A squeeze filter for appropriate fresh-water sources, with a cleanable hollow-fibre membrane. It is not a solution for chemical contamination, salt water or every microbiological hazard.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sawyer-squeeze-sp129-water-filter/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sawyer Squeeze SP129 water filtration system"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h3",
+          "text": "SOL Emergency Bivvy with rescue whistle"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 969,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/reliance-aqua-tainer-7-gallon/",
+        "/gear/sol-emergency-bivvy/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 36189,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/sol-emergency-bivvy/",
+      "title": "SOL Emergency Bivvy with rescue whistle: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact reflective emergency bivvy for a temporary weather barrier. It is not an insulated sleeping system or a guarantee against hypothermia; confirm the size and package variant.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sol-emergency-bivvy/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "SOL Emergency Bivvy with rescue whistle"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Fenix HM50R V2.0 rechargeable headlamp"
+        },
+        {
+          "level": "h3",
+          "text": "Marmot PreCip rain jacket"
+        },
+        {
+          "level": "h3",
+          "text": "NANUK 904 first aid kit"
+        },
+        {
+          "level": "h3",
+          "text": "Sawyer Squeeze SP129 water filtration system"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1047,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/fenix-hm50r-v2-headlamp/",
+        "/gear/marmot-precip-rain-jacket/",
+        "/gear/nanuk-904-first-aid-kit/",
+        "/gear/sawyer-squeeze-sp129-water-filter/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 1,
+      "htmlBytes": 37627,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    },
+    {
+      "path": "/gear/sos-3600-calorie-emergency-food-rations/",
+      "title": "S.O.S. Emergency Food Rations — 3600 Calories: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Two packets of ready-to-eat emergency rations sold under the '3600 Calorie' designation. Check the delivered labels, seals and dates; no exact energy total is claimed for the lot.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sos-3600-calorie-emergency-food-rations/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "S.O.S. Emergency Food Rations — 3600 Calories"
+        },
+        {
+          "level": "h2",
+          "text": "Where to buy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Documented specifications"
+        },
+        {
+          "level": "h2",
+          "text": "Advantages"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Potential uses and conditions"
+        },
+        {
+          "level": "h2",
+          "text": "What the sources confirm"
+        },
+        {
+          "level": "h2",
+          "text": "What to check before buying"
+        },
+        {
+          "level": "h2",
+          "text": "Safety and compatibility notes"
+        },
+        {
+          "level": "h2",
+          "text": "Related equipment profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Datrex DX2400F Emergency Food Ration — 2400 Calories"
+        },
+        {
+          "level": "h3",
+          "text": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket"
+        },
+        {
+          "level": "h3",
+          "text": "Reliance Aqua-Tainer 7-gallon water container"
+        },
+        {
+          "level": "h2",
+          "text": "Technical Sources & References"
+        }
+      ],
+      "wordCount": 1119,
+      "guideWords": 0,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "profileLinks": [
+        "/gear/",
+        "/gear/datrex-dx2400f-emergency-food-ration/",
+        "/gear/readywise-84-servings-emergency-food-bucket/",
+        "/gear/reliance-aqua-tainer-7-gallon/"
+      ],
+      "affiliateControls": 4,
+      "heldCards": 0,
+      "htmlBytes": 38024,
+      "inlineModules": [
+        {
+          "bytes": 2225
+        },
+        {
+          "bytes": 348
+        }
+      ]
+    }
+  ],
+  "indexable": [
+    "/",
+    "/affiliate-disclosure/",
+    "/blackout/",
+    "/fallout/",
+    "/gear/",
+    "/how-we-research/",
+    "/outbreak/"
+  ],
+  "javascript": [],
+  "note": "Word counts include UI labels; guideWords isolates the editorial guide. Technical indexability does not prove Google indexing."
+}

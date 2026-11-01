@@ -24,7 +24,7 @@ for(const [id,[asin]]of Object.entries(PHASE55))test(`${id} is visible, responsi
   await page.setViewportSize({width,height:1000});await page.goto(route);const card=page.locator(`article.card[data-product-id="${id}"]`);await expect(card).toHaveCount(1);await expect(card.locator('a[data-affiliate-click]')).toHaveAttribute('href',p.links.amazonCa.url);await expect(card.locator('[data-artwork-caveat]')).toHaveText(asset.captionNote);
   const img=card.locator('img');await img.scrollIntoViewIfNeeded();await img.evaluate((img:HTMLImageElement)=>img.decode());await card.screenshot({path:`.tools/qa/phase5-5/${id}-${route==='/gear/'?'catalogue':'blackout'}-${width}.png`,style:'header{visibility:hidden!important}'});
  }
- await page.goto('/blackout/');await expect(page.locator('#battery-plan')).toHaveText('Small-device battery checklist');
+ await page.goto('/blackout/');await expect(page.locator('#battery-plan')).toHaveText('Battery and charger compatibility');
  if(p.specsStatus==='owner-reported'){await page.goto(`/gear/${id}/`);for(const related of p.relatedProducts)await expect(page.locator(`article.card[data-product-id="${related}"]`)).toHaveCount(1);}
  writeFileSync(`.tools/qa/phase5-5/${id}-responsive.json`,JSON.stringify(rows,null,2)+'\n');
 });

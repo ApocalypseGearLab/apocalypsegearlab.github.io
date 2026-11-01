@@ -1,3 +1,4 @@
+import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import test from 'node:test';
@@ -25,7 +26,7 @@ test('owner approval is recorded with scope and provenance, never promoted to in
 
 test('account and status changes preserve all products, release/SEO/tracking rules, home, navigation and images except three evidence additions',()=>{
  const before=read('docs/qa/account-status/before.json');assert.equal(before.baseCommit,'5efd034d6ab5bb38182bef808e93cd199500d480');assert.equal(before.capturedBeforeImplementation,true);
- for(const row of before.files){if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
+ for(const row of before.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
   if(ACCOUNT_STATUS_FILES.has(row.file)||ACCOUNT_EVIDENCE_FILES.has(row.file))continue;
   const b=readFileSync(row.file);assert.equal(createHash('sha256').update(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b).digest('hex'),row.sha256,row.file);
  }
