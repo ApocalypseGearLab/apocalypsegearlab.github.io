@@ -9,7 +9,7 @@
     "deployedHTMLMatches": 46
   },
   "final": {
-    "unitTests": 99,
+    "unitTests": 100,
     "unitFailures": 0,
     "astroFilesChecked": 114,
     "astroErrors": 0,
@@ -223,5 +223,20 @@
       "bytes": 486808,
       "sha256": "dbf87073ff11c00d95388f896ade18c0872fef1d95e2b33119a50e20f8c52205"
     }
-  ]
+  ],
+  "ciCorrection": {
+    "cause": "One baseline CSV captured CRLF working-copy bytes instead of immutable LF Git bytes.",
+    "scope": "Only assets/media/image-manifest.csv permits CRLF-to-LF checkout normalization; all other protected files remain byte-exact.",
+    "baseCommitUnchanged": true,
+    "protectedGitBlobsCompared": 168,
+    "changedProtectedGitBlobs": 0,
+    "lfReproduction": {
+      "beforeFix": "Exact CI hash failure reproduced",
+      "afterFix": "4 focused tests passed"
+    },
+    "fullUnitTests": 100,
+    "fullBrowserTests": 127,
+    "localValidation": "ci-fix-validation.json",
+    "diagnosis": "checkout-diagnosis.json"
+  }
 }

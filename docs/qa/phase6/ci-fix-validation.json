@@ -1,0 +1,67 @@
+[
+  {
+    "command": "npm run check",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-check.log"
+  },
+  {
+    "command": "npm run test",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test.log"
+  },
+  {
+    "command": "npm run test:images",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test-images.log"
+  },
+  {
+    "command": "npm run release:check",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-release-check.log"
+  },
+  {
+    "command": "npm run audit:affiliate",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-audit-affiliate.log"
+  },
+  {
+    "command": "npm run audit:verification",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-audit-verification.log"
+  },
+  {
+    "command": "npm run test:products",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test-products.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-build.log"
+  },
+  {
+    "command": "npm run test:site",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test-site.log"
+  },
+  {
+    "command": "npm run test:conversion",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test-conversion.log"
+  },
+  {
+    "command": "npm run test:bougerv",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test-bougerv.log"
+  },
+  {
+    "command": "npm run test:phase55",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test-phase55.log"
+  },
+  {
+    "command": "npm run test:browser",
+    "exitCode": 0,
+    "log": ".tools/phase6-ci-fix-test-browser.log"
+  }
+]

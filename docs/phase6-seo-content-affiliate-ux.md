@@ -2,6 +2,8 @@
 
 Maintained November 1, 2026. Base: `520d61a3b48d67ca01623eebcf4784275097dc56` (main, merge of PR #29). This change is for review; it does not merge or deploy the site.
 
+CI follow-up: the original Windows snapshot captured CRLF bytes for one CSV while Git/Linux use LF. The [diagnosis and narrowly scoped correction](phase6-ci-line-endings.md) retain the same base commit, preserve every media Git blob and add a checkout/content-mutation regression. The current unit suite contains 100 tests; the original local-delivery evidence remains available alongside the separate [correction validation](qa/phase6/ci-fix-validation.json).
+
 ## Baseline and architecture
 
 The checkout was clean on the ORIA/eneloop branch. Remote main was fetched before creating `feat/phase6-seo-content-affiliate-ux`. No open pull requests existed at audit time. Recent power-station, account/status, BougeRV and ORIA/eneloop work was already merged through PRs #26–29; no unmerged product work was assumed to be production content. See the [base commit](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/commit/520d61a3b48d67ca01623eebcf4784275097dc56).
@@ -64,12 +66,12 @@ No products, prices, testimonials, credentials, urgency messages, overlays or ne
 
 ## Validation and visual evidence
 
-Final results and limitations are recorded in the [validation summary and screenshot manifest](qa/phase6/validation-summary.json), [complete check results](qa/phase6/validation.json), [post-layout rechecks](qa/phase6/post-layout-validation.json), [route audit](qa/phase6/route-audit.json), [performance observations](qa/phase6/performance.json), [responsive results](qa/phase6/) and the [screenshots](qa/phase6/screenshots/). The [86-file inventory](qa/phase6/changed-files.txt) includes all implementation, regression and evidence files.
+Final results and limitations are recorded in the [validation summary and screenshot manifest](qa/phase6/validation-summary.json), [original check results](qa/phase6/validation.json), [post-layout rechecks](qa/phase6/post-layout-validation.json), [CI-correction full validation](qa/phase6/ci-fix-validation.json), [route audit](qa/phase6/route-audit.json), [performance observations](qa/phase6/performance.json), [responsive results](qa/phase6/) and the [screenshots](qa/phase6/screenshots/). The [changed-file inventory](qa/phase6/changed-files.txt) includes all implementation, regression and evidence files.
 
 | Final check | Result |
 | --- | --- |
 | Astro check | 114 files; zero errors, warnings or hints |
-| Unit tests | 99 passed; zero failures |
+| Unit tests after CI correction | 100 passed; zero failures |
 | Complete Playwright regression | 127 passed; zero failures |
 | Final CSS rebuild and affected Playwright cases | 25 passed; zero failures |
 | Production build | 49 HTML pages |

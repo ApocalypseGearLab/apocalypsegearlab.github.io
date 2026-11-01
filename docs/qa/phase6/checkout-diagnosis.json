@@ -1,0 +1,49 @@
+{
+  "baseCommit": "520d61a3b48d67ca01623eebcf4784275097dc56",
+  "head": "bcbd919ce11eb29e3367135627dbd7c3a811d20b",
+  "filesChecked": 168,
+  "changedGitBlobs": [],
+  "baselineVsGitMismatches": [
+    {
+      "file": "assets/media/image-manifest.csv",
+      "expected": "fd5af46bd04727e17ed8012a4223eb2aa65867a1c231b402b623676a39a93240",
+      "baseGitSHA256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "headGitSHA256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "workingSHA256": "fd5af46bd04727e17ed8012a4223eb2aa65867a1c231b402b623676a39a93240",
+      "workingLF_SHA256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "baseCRLF": 0,
+      "workingCRLF": 15,
+      "baseBytes": 3245,
+      "workingBytes": 3260,
+      "headEqualsBase": true,
+      "expectedEqualsBase": false,
+      "expectedEqualsWorking": true
+    }
+  ],
+  "workingVsGitMismatches": [
+    {
+      "file": "assets/media/image-manifest.csv",
+      "expected": "fd5af46bd04727e17ed8012a4223eb2aa65867a1c231b402b623676a39a93240",
+      "baseGitSHA256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "headGitSHA256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "workingSHA256": "fd5af46bd04727e17ed8012a4223eb2aa65867a1c231b402b623676a39a93240",
+      "workingLF_SHA256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "baseCRLF": 0,
+      "workingCRLF": 15,
+      "baseBytes": 3245,
+      "workingBytes": 3260,
+      "headEqualsBase": true,
+      "expectedEqualsBase": false,
+      "expectedEqualsWorking": true
+    }
+  ],
+  "lfCheckoutReproduction": {
+    "source": "git archive of original PR head bcbd919ce11eb29e3367135627dbd7c3a811d20b",
+    "originalTestCases": 3,
+    "originalExpectedFailures": 1,
+    "matchedBothCIHashes": true,
+    "correctedTestCases": 4,
+    "correctedFailures": 0,
+    "liveManifestRewritten": false
+  }
+}

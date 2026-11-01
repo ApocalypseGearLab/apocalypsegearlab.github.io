@@ -981,7 +981,10 @@
     },
     {
       "file": "assets/media/image-manifest.csv",
-      "sha256": "fd5af46bd04727e17ed8012a4223eb2aa65867a1c231b402b623676a39a93240"
+      "sha256": "784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab",
+      "capturedWorkingCopySha256": "fd5af46bd04727e17ed8012a4223eb2aa65867a1c231b402b623676a39a93240",
+      "normaliseNewlines": true,
+      "hashSource": "Git blob at 520d61a3b48d67ca01623eebcf4784275097dc56; CRLF-to-LF checkout normalization only"
     },
     {
       "file": "assets/media/phase4-1-image-manifest.csv",

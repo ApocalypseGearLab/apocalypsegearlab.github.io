@@ -1,8 +1,11 @@
+docs/phase6-ci-line-endings.md
 docs/phase6-seo-content-affiliate-ux.md
 docs/qa/phase6/baseline.json
 docs/qa/phase6/blackout-responsive.json
 docs/qa/phase6/catalogue-responsive.json
 docs/qa/phase6/changed-files.txt
+docs/qa/phase6/checkout-diagnosis.json
+docs/qa/phase6/ci-fix-validation.json
 docs/qa/phase6/fallout-responsive.json
 docs/qa/phase6/filter-performance.json
 docs/qa/phase6/fridge-profile-responsive.json

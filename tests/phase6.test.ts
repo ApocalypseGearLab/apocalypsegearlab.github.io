@@ -10,6 +10,14 @@ import { isCommerciallyApproved } from '../src/lib/release-policy';
 import { getMerchantLinks } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 
+const textCheckoutFile = 'assets/media/image-manifest.csv';
+function preservationHash(bytes: Buffer, normaliseNewlines = false): string {
+  // Latin-1 is a one-to-one byte mapping: remove only CR in CRLF pairs,
+  // without accepting encoding changes or modifying any other byte.
+  const canonical = normaliseNewlines ? Buffer.from(bytes.toString('latin1').replace(/\r\n/g, '\n'), 'latin1') : bytes;
+  return createHash('sha256').update(canonical).digest('hex');
+}
+
 test('search combines literal name/brand tokens, sector and category with reset and empty states', () => {
   const rows = [
     { name: 'DELTA 2', brand: 'EcoFlow', sector: 'blackout', category: 'power-stations' },
@@ -25,7 +33,29 @@ test('search combines literal name/brand tokens, sector and category with reset 
 
 test('Phase 6 preserves all product records, media, affiliate and tracking implementation bytes', () => {
   const baseline = JSON.parse(readFileSync('docs/qa/phase6/baseline.json', 'utf8'));
-  for (const row of baseline.preservedFiles) assert.equal(createHash('sha256').update(readFileSync(row.file)).digest('hex'), row.sha256, row.file);
+  assert.equal(baseline.baseCommit, '520d61a3b48d67ca01623eebcf4784275097dc56');
+  for (const row of baseline.preservedFiles) {
+    assert.equal(Boolean(row.normaliseNewlines), row.file === textCheckoutFile, `Unexpected normalization policy: ${row.file}`);
+    assert.equal(preservationHash(readFileSync(row.file), row.normaliseNewlines), row.sha256, row.file);
+  }
+});
+
+test('preservation accepts the documented CSV checkout endings but rejects content and binary changes', () => {
+  const baseline = JSON.parse(readFileSync('docs/qa/phase6/baseline.json', 'utf8'));
+  const manifest = baseline.preservedFiles.find((row: { file: string }) => row.file === textCheckoutFile);
+  const lf = Buffer.from(readFileSync(textCheckoutFile).toString('latin1').replace(/\r\n/g, '\n'), 'latin1');
+  const crlf = Buffer.from(lf.toString('latin1').replace(/\n/g, '\r\n'), 'latin1');
+  assert.equal(manifest.sha256, '784a154a629b42416b8e9657612ee453867f30cf4d99d84017432c94c2ddfaab');
+  assert.equal(preservationHash(lf, true), manifest.sha256);
+  assert.equal(preservationHash(crlf, true), manifest.sha256);
+  assert.notEqual(preservationHash(lf), preservationHash(crlf));
+  const changedManifest = Buffer.from(lf);
+  changedManifest[0] = changedManifest[0]! ^ 1;
+  assert.notEqual(preservationHash(changedManifest, true), manifest.sha256, 'A real CSV edit must still fail');
+  assert.notEqual(preservationHash(Buffer.concat([Buffer.from([0xef, 0xbb, 0xbf]), lf]), true), manifest.sha256, 'An encoding/BOM change must still fail');
+  const imageBytes = Buffer.from([0x52, 0x49, 0x46, 0x46, 0x0d, 0x0a, 0xff]);
+  const changedImage = Buffer.from([0x52, 0x49, 0x46, 0x46, 0x0a, 0xff]);
+  assert.notEqual(preservationHash(imageBytes), preservationHash(changedImage), 'Media bytes must never be normalized');
 });
 
 test('hub readiness is independent; no draft earns indexability through an available affiliate link', () => {
