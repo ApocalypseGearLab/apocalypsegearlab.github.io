@@ -157,6 +157,17 @@ for (const node of sitemapIndex('sitemap > loc').toArray()) {
   });
 }
 assert.deepEqual([...urls].sort(), [...indexable].sort(), 'Sitemap must contain exactly the indexable HTML pages');
+const corePages = ['/', '/gear/', '/blackout/', '/fallout/', '/outbreak/'];
+for (const path of corePages) {
+  const page = documents.get(fileFor(path));
+  assert.ok(page, `Core page missing: ${path}`);
+  assert.equal(page('meta[name="robots"]').length, 0, `Core page must be indexable independently of product approval: ${path}`);
+  assert.equal(page('meta[name="googlebot"]').length, 0, `Unexpected Googlebot restriction: ${path}`);
+  assert.equal(page('link[rel="canonical"]').attr('href'), site + path);
+  assert.ok(urls.has(site + path), `Indexable core page missing from sitemap: ${path}`);
+  page('script[type="application/ld+json"]').each((_, el) => assert.doesNotMatch(page(el).text(), /"@type"\s*:\s*"(?:Product|Offer|AggregateOffer)"/, `No commercial product schema on core page: ${path}`));
+  for (const destination of corePages) assert.ok(page(`body > header a[href="${destination}"]`).length, `Core navigation missing ${destination} on ${path}`);
+}
 assert.ok(readFileSync(resolve(root, 'robots.txt'), 'utf8').includes(`Sitemap: ${site}/sitemap-index.xml`));
 for (const route of ['/', '/blackout/', '/fallout/', '/outbreak/', '/gear/', '/affiliate-disclosure/', '/404.html']) {
   assert.ok(existsSync(fileFor(route)), `Missing route: ${route}`);

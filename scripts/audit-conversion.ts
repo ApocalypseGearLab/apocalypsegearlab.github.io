@@ -27,7 +27,13 @@ for(const file of pages){
    const added=new Set(['ecoflow-delta-2-blackout','bluetti-elite-100-v2-solar-kit-blackout'].flatMap(stem=>[480,960,1254].map(width=>'/images/blackout/'+stem+(width===1254?'':'-'+width)+'.webp')));
    meta.images=meta.images.filter(img=>!added.has(img.src??''));
   }
-  assert.deepEqual(meta,previous,'Preserve rendered metadata, image attributes, navigation and documentary URL set: '+path);
+  if(path==='/gear/'){
+   // Intentional catalogue-only SEO correction. Product metadata and all
+   // unrelated page attributes still use the historical exact comparison.
+   assert.equal(meta.robots,null,'The editorially ready catalogue is indexable independently of product approvals');
+   assert.equal(meta.description,'Compare emergency equipment by power, water, shelter and protective needs. Read specifications, plan a kit and check Canadian retailer variants.');
+   assert.deepEqual({...meta,robots:previous.robots,description:previous.description},previous,'Preserve catalogue artwork, canonical, title, H1, navigation and source URLs');
+  }else assert.deepEqual(meta,previous,'Preserve rendered metadata, image attributes, navigation and documentary URL set: '+path);
  }
  // Inspect every external button, not just anchors already labelled for tracking.
  $('a.btn[href^="http"], a[data-affiliate-click]').each((_,e)=>{
@@ -66,7 +72,11 @@ for(const file of pages){
 }
 assert.equal(profiles,products.length,'Every visible product has a profile');
 for(const p of baseline.pages)assert.ok(pages.some(f=>'/'+f.split(sep).join('/').replace(/index\.html$/,'')===p.path),'Existing page removed: '+p.path);
-assert.equal(readFileSync('dist/sitemap-0.xml','utf8'),baseline.sitemap);assert.equal(readFileSync('dist/robots.txt','utf8'),baseline.robots);
+const previousSitemap=load(baseline.sitemap,{xmlMode:true}),currentSitemap=load(readFileSync('dist/sitemap-0.xml','utf8'),{xmlMode:true});
+const oldLocations=previousSitemap('url > loc').map((_,e)=>previousSitemap(e).text()).get();
+const newLocations=currentSitemap('url > loc').map((_,e)=>currentSitemap(e).text()).get();
+assert.deepEqual(newLocations.sort(),[...oldLocations,'https://apocalypsegearlab.github.io/gear/'].sort(),'Sitemap change is limited to the approved catalogue');
+assert.equal(readFileSync('dist/robots.txt','utf8'),baseline.robots);
 const result={products:products.length,productPages:profiles,htmlPages:pages.length,recordedCanadianUrls:products.length,authorized:productRows.filter(p=>p.active).length,blocked:productRows.filter(p=>!p.active).length,commercialCtaInstances:commercialLinks.length,nonAmazonPurchaseCtas:0,incorrectTags:0,manufacturerPurchaseCtasRemoved:0,documentaryReferenceInstances:references.length,manufacturerReferenceInstances:references.filter(r=>r.kind==='manufacturer').length,uniqueManufacturerUrls:new Set(references.filter(r=>r.kind==='manufacturer').map(r=>r.destination)).size,editorialUrlSetsPreserved:true,seoAndMediaAttributesPreserved:true,productRows,commercialLinks,references};
 const output=process.argv.indexOf('--output');if(output>=0){const target=process.argv[output+1];assert.ok(target);mkdirSync(resolve(target,'..'),{recursive:true});writeFileSync(target,JSON.stringify(result,null,2)+'\n');}
 console.log(JSON.stringify({...result,productRows:undefined,commercialLinks:undefined,references:undefined},null,2));

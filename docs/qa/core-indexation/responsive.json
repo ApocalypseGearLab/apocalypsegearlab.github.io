@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "width": 320,
+      "axeViolations": 0
+    },
+    {
+      "width": 375,
+      "axeViolations": 0
+    },
+    {
+      "width": 768,
+      "axeViolations": 0
+    },
+    {
+      "width": 1024,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "axeViolations": 0
+    },
+    {
+      "width": 1920,
+      "axeViolations": 0
+    }
+  ],
+  "keyboardSectorNavigation": true
+}
