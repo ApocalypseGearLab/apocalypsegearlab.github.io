@@ -1,0 +1,112 @@
+{
+  "reviewedAt": "2026-11-01",
+  "scope": "Owner-provided ASIN references and primary manufacturer/Health Canada documentary review, not live Amazon verification or physical testing",
+  "limitedRecallSearch": "Canada recall/CPSC site searches returned general indexes and unrelated results; no exhaustive recall clearance is claimed.",
+  "products": [
+    {
+      "id": "bougerv-53-quart-portable-refrigerator-freezer",
+      "asin": "B0869NCSNH",
+      "ownerWorkingName": "BougeRV 53 Quart Portable Refrigerator / Freezer",
+      "ownerBrand": "BougeRV",
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "accessResult": "Not accessible through the web reader; no HTTP status observed; not evidence of an invalid URL",
+      "ownerReference": "The owner work order explicitly associates Amazon.ca B0869NCSNH with BougeRV 53 Quart Portable Refrigerator / Freezer. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. The manufacturer manual gives −4°F to 50°F while the current product table also gives 68°F. The Canadian ASIN selection, exact revision, accessories, seller and certification labels have not been independently inspected. The E-series reference is not an authenticated Amazon model-code mapping.",
+      "manufacturerModelDocumented": true,
+      "manufacturerSources": [
+        {
+          "id": "manufacturer",
+          "title": "BougeRV Canada model-family documentation — internal evidence",
+          "url": "https://ca.bougerv.com/products/12v-portable-car-freezer",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "manual",
+          "title": "BougeRV 53/42/31 Quart model-family manual — internal evidence",
+          "url": "https://cdn.shopify.com/s/files/1/2672/9544/files/12V_53_Quart_50L_Portable_Refrigerator-User-Manual.pdf?v=1659926718",
+          "kind": "manufacturer"
+        }
+      ],
+      "separateFoodSafetySource": "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html",
+      "manufacturerDifferences": "The manufacturer manual gives −4°F to 50°F while the current product table also gives 68°F. The Canadian ASIN selection, exact revision, accessories, seller and certification labels have not been independently inspected. The E-series reference is not an authenticated Amazon model-code mapping.",
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B0869NCSNH",
+        "checkedAt": "2026-11-01",
+        "reason": "Recorded Canadian link permitted under the existing owner-document policy: the work order explicitly associates this ASIN with the documented BougeRV model family. No concrete contradictory selected-ASIN evidence or mandatory product safety hold was established. Manufacturer-document differences are disclosed without guaranteeing a retailer revision, package contents, food temperature or runtime. Permission is for the recorded link only, not independent offer verification, certification, physical testing or SEO publication.",
+        "sourceIds": [
+          "manufacturer",
+          "owner-reference",
+          "manual",
+          "food-safety"
+        ]
+      },
+      "editorialPublicationApproved": false,
+      "listingVerified": false,
+      "publicOutboundPolicy": "Amazon affiliate links only; documentary evidence retained internally",
+      "artwork": {
+        "source": "The owner supplies this finished illustration with the BougeRV work order and explicitly directs use of the approved BLACKOUT artwork.",
+        "scope": "Owner-directed site integration of this supplied asset only; not independent chain-of-title verification, manufacturer endorsement or proof of model/package details.",
+        "confirmedAt": "2026-11-01"
+      },
+      "visualReferenceReview": {
+        "reviewedAt": "2026-11-01",
+        "method": "Manufacturer image URLs observed on the official product pages, downloaded into ignored temporary QA files and visually inspected alongside the supplied artwork.",
+        "referenceImage": "https://www.bougerv.com/cdn/shop/files/BougeRV12V53Quart_50L_PortableFridgeCarFreezer_1.png?v=1708484996",
+        "finding": "Gray/charcoal E-series shell, lid and side handle are consistent with the intended family. The supplied closed-lid concept is not a dimensional drawing or proof of the selected revision.",
+        "referencePhotoRedistributed": false,
+        "siteArtwork": "Only the owner-supplied concept and its optimised derivatives are published."
+      }
+    },
+    {
+      "id": "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler",
+      "asin": "B0GHMS5Y9Y",
+      "ownerWorkingName": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler",
+      "ownerBrand": "BougeRV",
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "accessResult": "Not accessible through the web reader; no HTTP status observed; not evidence of an invalid URL",
+      "ownerReference": "The owner work order explicitly associates Amazon.ca B0GHMS5Y9Y with BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. Exact selected Amazon.ca variant, current title, seller and included battery/cables/accessories remain uninspected. The Canadian and US manufacturer pages give different weights/model-reference identifiers; no exact mass or regional SKU is assigned to this Amazon unit. A battery compartment does not establish an included battery.",
+      "manufacturerModelDocumented": true,
+      "manufacturerSources": [
+        {
+          "id": "manufacturer",
+          "title": "BougeRV Canada model-family documentation — internal evidence",
+          "url": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge",
+          "kind": "manufacturer"
+        }
+      ],
+      "separateFoodSafetySource": "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html",
+      "manufacturerDifferences": "Exact selected Amazon.ca variant, current title, seller and included battery/cables/accessories remain uninspected. The Canadian and US manufacturer pages give different weights/model-reference identifiers; no exact mass or regional SKU is assigned to this Amazon unit. A battery compartment does not establish an included battery.",
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B0GHMS5Y9Y",
+        "checkedAt": "2026-11-01",
+        "reason": "Recorded Canadian link permitted under the existing owner-document policy: the work order explicitly associates this ASIN with the documented BougeRV model family. No concrete contradictory selected-ASIN evidence or mandatory product safety hold was established. Manufacturer-document differences are disclosed without guaranteeing a retailer revision, package contents, food temperature or runtime. Permission is for the recorded link only, not independent offer verification, certification, physical testing or SEO publication.",
+        "sourceIds": [
+          "manufacturer",
+          "owner-reference",
+          "food-safety"
+        ]
+      },
+      "editorialPublicationApproved": false,
+      "listingVerified": false,
+      "publicOutboundPolicy": "Amazon affiliate links only; documentary evidence retained internally",
+      "artwork": {
+        "source": "The owner supplies this finished illustration with the BougeRV work order and explicitly directs use of the approved BLACKOUT artwork.",
+        "scope": "Owner-directed site integration of this supplied asset only; not independent chain-of-title verification, manufacturer endorsement or proof of model/package details.",
+        "confirmedAt": "2026-11-01"
+      },
+      "visualReferenceReview": {
+        "reviewedAt": "2026-11-01",
+        "method": "Manufacturer image URLs observed on the official product pages, downloaded into ignored temporary QA files and visually inspected alongside the supplied artwork.",
+        "referenceImage": "https://ca.bougerv.com/cdn/shop/files/RB028-SLUSGF-55QT-2.png?v=1776673860",
+        "finding": "Open-lid Rocky form, upper controls and metal/dark shell are consistent with the intended family. The added phone, divider-style interior, readings and battery-style module do not establish supplied accessories or an exact authentic app screen.",
+        "referencePhotoRedistributed": false,
+        "siteArtwork": "Only the owner-supplied concept and its optimised derivatives are published."
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "name": "BougeRV 53 Quart Portable Refrigerator / Freezer",
+  "brand": "BougeRV",
+  "modelNumber": "53 Quart",
+  "category": "portable-refrigeration",
+  "outboundPolicy": "amazon-only",
+  "summary": "A 53 QT compressor fridge/freezer for a vehicle, camp or a planned blackout power supply. It uses one temperature setting; check the supplied revision and monitor actual food temperature.",
+  "description": "A portable compressor refrigerator gives a household or vehicle another place to keep selected food cold while suitable power is available. The 53 Quart model family offers a simpler single-setting layout than an independently controlled dual-zone fridge. Plan where it will sit, leave space around its vents and budget the energy needed to keep it running. Its display is not a substitute for checking storage temperature with a separate thermometer, and its capacity does not establish how long a battery will power it.",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "53 QT / 50 L",
+      "source": "https://ca.bougerv.com/products/12v-portable-car-freezer"
+    },
+    {
+      "label": "Controls",
+      "value": "Single-setting E-series layout; do not infer two independently controlled zones",
+      "source": "https://ca.bougerv.com/products/12v-portable-car-freezer"
+    },
+    {
+      "label": "Setpoint",
+      "value": "The linked model-family manual gives −20°C to +10°C (−4°F to 50°F). The current manufacturer table also lists +20°C / 68°F; confirm the supplied revision.",
+      "source": "https://cdn.shopify.com/s/files/1/2672/9544/files/12V_53_Quart_50L_Portable_Refrigerator-User-Manual.pdf?v=1659926718"
+    },
+    {
+      "label": "DC input",
+      "value": "12/24 V DC",
+      "source": "https://ca.bougerv.com/products/12v-portable-car-freezer"
+    },
+    {
+      "label": "AC input",
+      "value": "Via the appropriate 110–240 V AC adapter; verify the selected Canadian package",
+      "source": "https://ca.bougerv.com/products/12v-portable-car-freezer"
+    },
+    {
+      "label": "Power",
+      "value": "45 W ECO / 60 W MAX; these ratings are not measured average consumption or a battery-runtime guarantee",
+      "source": "https://cdn.shopify.com/s/files/1/2672/9544/files/12V_53_Quart_50L_Portable_Refrigerator-User-Manual.pdf?v=1659926718"
+    },
+    {
+      "label": "Kit info",
+      "value": "AC adapter, DC cord, removable basket and manual are shown for the model family; the Amazon package contents are not independently verified",
+      "source": "https://ca.bougerv.com/products/12v-portable-car-freezer"
+    }
+  ],
+  "pros": [
+    "DC operation can fit a compatible vehicle or battery-based outage plan.",
+    "The single-setting layout offers a straightforward alternative when separate compartment temperatures are unnecessary."
+  ],
+  "cons": [
+    "One control setting does not provide independently managed refrigerator and freezer zones.",
+    "Manufacturer materials disagree on the upper setting limit; no exact range is guaranteed for the uninspected Amazon revision.",
+    "Cooling needs suitable continuous power and ventilation; ambient heat, loading and lid openings affect energy use."
+  ],
+  "useCases": [
+    "Keep a limited selection of groceries cold at camp while monitoring actual storage temperature.",
+    "Compare its electrical requirements with a compatible vehicle socket or separately planned blackout power supply."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "BougeRV Canada model-family documentation — internal evidence",
+      "url": "https://ca.bougerv.com/products/12v-portable-car-freezer",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "manual",
+      "title": "BougeRV 53/42/31 Quart model-family manual — internal evidence",
+      "url": "https://cdn.shopify.com/s/files/1/2672/9544/files/12V_53_Quart_50L_Portable_Refrigerator-User-Manual.pdf?v=1659926718",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "food-safety",
+      "title": "Health Canada: food and drinking-water safety in an emergency — internal evidence",
+      "url": "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html",
+      "kind": "official-safety"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN reference; current offer not independently verified",
+      "url": "https://www.amazon.ca/dp/B0869NCSNH",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler",
+    "ecoflow-delta-2-portable-power-station",
+    "bluetti-elite-100-v2-solar-generator-kit"
+  ],
+  "image": {
+    "src": "/images/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+    "alt": "Concept illustration of a closed-lid gray and charcoal BougeRV 53 Quart-style portable refrigerator in an amber BLACKOUT frame; labels are illustrative",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved BougeRV integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The owner work order explicitly associates Amazon.ca B0869NCSNH with BougeRV 53 Quart Portable Refrigerator / Freezer. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. The manufacturer manual gives −4°F to 50°F while the current product table also gives 68°F. The Canadian ASIN selection, exact revision, accessories, seller and certification labels have not been independently inspected. The E-series reference is not an authenticated Amazon model-code mapping."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0869NCSNH",
+      "url": "https://www.amazon.ca/dp/B0869NCSNH?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "The owner work order explicitly associates Amazon.ca B0869NCSNH with BougeRV 53 Quart Portable Refrigerator / Freezer. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. The manufacturer manual gives −4°F to 50°F while the current product table also gives 68°F. The Canadian ASIN selection, exact revision, accessories, seller and certification labels have not been independently inspected. The E-series reference is not an authenticated Amazon model-code mapping.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "BougeRV documents a 53 QT / 50 L model family with 12/24 V DC operation and an AC adapter option.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The reference manual describes one temperature setting and ECO/MAX modes. Its upper setting limit differs from the current manufacturer table; that conflict is not treated as a verified revision change.",
+        "sourceIds": [
+          "manual",
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The owner identifies the recorded Canadian ASIN as this model family; this does not verify the current selected retailer offer.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The manufacturer manual gives −4°F to 50°F while the current product table also gives 68°F. The Canadian ASIN selection, exact revision, accessories, seller and certification labels have not been independently inspected. The E-series reference is not an authenticated Amazon model-code mapping.",
+      "No price, stock, rating, guaranteed energy consumption, cooling runtime or certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Use the specified supply, correctly rated cable and protective fuse. Keep connectors dry, inspect cables and leave cooling vents clear; follow the delivered instructions.",
+      "A vehicle low-voltage cut-off is not a guarantee that the starter battery can still crank the engine. Plan a suitable supply and reserve energy; do not assume a built-in battery.",
+      "Check storage temperature with a separate thermometer: refrigerate at or below 4°C and freeze at or below −18°C. A display setting alone does not show that food has stayed safe during an outage.",
+      "Keep raw foods contained, minimize lid openings and follow food-safety advice after loss of cooling. No guaranteed battery runtime, uninterrupted cold chain or physical performance test is claimed."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent current Canadian listing/variant review, exact electrical-label review, complete product-specific safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0869NCSNH",
+      "checkedAt": "2026-11-01",
+      "reason": "Recorded Canadian link permitted under the existing owner-document policy: the work order explicitly associates this ASIN with the documented BougeRV model family. No concrete contradictory selected-ASIN evidence or mandatory product safety hold was established. Manufacturer-document differences are disclosed without guaranteeing a retailer revision, package contents, food temperature or runtime. Permission is for the recorded link only, not independent offer verification, certification, physical testing or SEO publication.",
+      "sourceIds": [
+        "manufacturer",
+        "owner-reference",
+        "manual",
+        "food-safety"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0869NCSNH",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B0869NCSNH",
+      "matchedModel": "53 Quart",
+      "notes": "The owner work order explicitly associates Amazon.ca B0869NCSNH with BougeRV 53 Quart Portable Refrigerator / Freezer. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. The manufacturer manual gives −4°F to 50°F while the current product table also gives 68°F. The Canadian ASIN selection, exact revision, accessories, seller and certification labels have not been independently inspected. The E-series reference is not an authenticated Amazon model-code mapping."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Recheck the exact Canadian ASIN, capacity and model revision; distinguish the 53 QT single-setting family from Rocky V3.0 55QT dual zone.",
+      "Confirm the included adapter, DC cord, baskets and any optional battery or solar equipment. Manufacturer store bundles and illustrated props do not establish Amazon contents.",
+      "Match the delivered electrical label and operating instructions to the power supply; leave ventilation space and monitor actual food-storage temperatures.",
+      "Resolve the −4°F to 50°F manual range versus the 68°F manufacturer table against the delivered revision; do not infer independent control of two zones."
+    ]
+  }
+}

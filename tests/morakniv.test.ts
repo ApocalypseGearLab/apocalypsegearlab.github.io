@@ -1,3 +1,4 @@
+import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import {accountStatusFileChanged} from './account-status-fixture';
 import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
 import test from 'node:test';
@@ -16,7 +17,7 @@ const current=JSON.parse(readFileSync(`src/data/products/${id}.json`,'utf8'));
 
 test('Morakniv fix preserves other products, policy, tracking, SEO code and all original media',()=>{
   assert.equal(baseline.baseCommit,'44325ec7be0882282b2ba7df249ab8dd0ec7ecf4');
-  for(const row of baseline.files){if(accountStatusFileChanged(row.file))continue;if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
+  for(const row of baseline.files){if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
 if(row.file==='src/data/media/imported-manifest.json')continue; // Phase 5.3 append-only manifest covered by phase53.test.ts.
 if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;
     const bytes=readFileSync(row.file);

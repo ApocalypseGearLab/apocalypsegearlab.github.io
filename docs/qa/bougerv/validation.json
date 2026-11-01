@@ -1,0 +1,125 @@
+{
+  "scope": "Final local checks; no deployment, live Amazon authentication or physical product testing",
+  "astro": {
+    "files": 101,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 90,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 109,
+    "failed": 0,
+    "retailerAndAnalyticsTrafficIsolated": true,
+    "affiliateActivationsForNewProducts": 16,
+    "eventsPerActivation": 1,
+    "placements": [
+      "catalogue-card",
+      "collection-card",
+      "profile-summary",
+      "related-card"
+    ],
+    "methods": [
+      "mouse",
+      "keyboard"
+    ]
+  },
+  "productFixtures": "PASS: full publication vs informational visibility, account on/off and mandatory holds",
+  "build": {
+    "htmlPages": 45,
+    "productProfiles": 38,
+    "result": "PASS"
+  },
+  "site": {
+    "internalReferences": 1774,
+    "sitemapUrls": 6,
+    "result": "PASS"
+  },
+  "affiliate": {
+    "recordedUrls": 38,
+    "active": 33,
+    "held": 5,
+    "renderedCtaInstances": 202,
+    "result": "PASS"
+  },
+  "release": "PASS; existing account and five product holds unchanged",
+  "media": {
+    "mappings": 38,
+    "publishable": 37,
+    "rejected": 1,
+    "newVariants": 6,
+    "originalsPreserved": true,
+    "previousAssetsUnchanged": true,
+    "result": "PASS"
+  },
+  "production": {
+    "previousPagesPreserved": 43,
+    "products": [
+      {
+        "id": "bougerv-53-quart-portable-refrigerator-freezer",
+        "asin": "B0869NCSNH",
+        "route": "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+        "cta": "ACTIVE",
+        "url": "https://www.amazon.ca/dp/B0869NCSNH?tag=apocalypsegear-20",
+        "robots": "noindex, nofollow",
+        "publicExternalLinks": "Amazon.ca only",
+        "manufacturerEvidence": "Internal; not rendered",
+        "image": "/images/blackout/bougerv-53-quart-refrigerator-blackout.webp"
+      },
+      {
+        "id": "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler",
+        "asin": "B0GHMS5Y9Y",
+        "route": "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+        "cta": "ACTIVE",
+        "url": "https://www.amazon.ca/dp/B0GHMS5Y9Y?tag=apocalypsegear-20",
+        "robots": "noindex, nofollow",
+        "publicExternalLinks": "Amazon.ca only",
+        "manufacturerEvidence": "Internal; not rendered",
+        "image": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp"
+      }
+    ],
+    "wrongPublicSourceLinks": 0,
+    "sourceEvidenceControls": "Unchanged; manufacturer citations still required in product data",
+    "newWebpVariants": 6
+  },
+  "accessibility": {
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "newProductAxeChecks": 12,
+    "violations": 0,
+    "fullSuiteAlsoAuditsExistingProductsAndCorePages": true
+  },
+  "seo": {
+    "newProductRobots": "noindex, nofollow",
+    "newProductSitemapEntries": 0,
+    "newProductSchema": "BreadcrumbList only",
+    "previousPagesPreserved": 43
+  },
+  "resolvedQaIssues": [
+    "Updated old preview card expectation from eight to ten after two additions",
+    "Improved new-product mobile table labels and column sizing after visual inspection"
+  ],
+  "screenshots": [
+    "bougerv-53-quart-portable-refrigerator-freezer-blackout-1440.webp",
+    "bougerv-53-quart-portable-refrigerator-freezer-blackout-375.webp",
+    "bougerv-53-quart-portable-refrigerator-freezer-catalogue-1440.webp",
+    "bougerv-53-quart-portable-refrigerator-freezer-catalogue-375.webp",
+    "bougerv-53-quart-portable-refrigerator-freezer-profile-1440.webp",
+    "bougerv-53-quart-portable-refrigerator-freezer-profile-375.webp",
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler-blackout-1440.webp",
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler-blackout-375.webp",
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler-catalogue-1440.webp",
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler-catalogue-375.webp",
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler-profile-1440.webp",
+    "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler-profile-375.webp"
+  ]
+}

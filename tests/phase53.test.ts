@@ -1,3 +1,4 @@
+import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import {accountStatusFileChanged} from './account-status-fixture';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -17,11 +18,11 @@ test('Phase 5.3 preserves all 34 earlier products, artwork, release/Google/SEO p
  const baseline=read('docs/qa/phase5-3/preservation.json');
  assert.equal(baseline.baseCommit,'1137975d895aa5ce34b3a5a78abd91f6da08f74d');assert.equal(baseline.capturedBeforeImplementation,true);
  assert.deepEqual(baseline.allowedIntegrationFiles,['src/data/media/imported-manifest.json','src/components/UniverseHub.astro']);
- for(const row of baseline.files){if(accountStatusFileChanged(row.file))continue;if(row.file==='src/components/ProductCatalogue.astro')continue; // Core indexation fix: isolated catalogue change protected by category-seo.test.ts and rendered SEO assertions.
+ for(const row of baseline.files){if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;if(row.file==='src/components/ProductCatalogue.astro')continue; // Core indexation fix: isolated catalogue change protected by category-seo.test.ts and rendered SEO assertions.
 if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
 const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);}
  assert.deepEqual(importedMedia.slice(0,34),baseline.previousAssets);
- assert.equal(importedMedia.length,36);assert.equal(importedMedia.filter(canPublishImportedAsset).length,35);
+ assert.equal(importedMedia.length,38);assert.equal(importedMedia.filter(canPublishImportedAsset).length,37);
 });
 
 for(const [id,[asin,category]]of Object.entries(PHASE53))test(`${id} permits only its documented recorded link, preserving independent SEO and safety controls`,()=>{
