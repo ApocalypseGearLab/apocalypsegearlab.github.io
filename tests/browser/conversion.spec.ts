@@ -16,11 +16,12 @@ test('every current product keeps its decision, prominent canonical purchase con
   const own=page.locator('[data-product-purchase]'),sources=page.locator('[data-technical-sources]'),link=own.locator('a[data-affiliate-click]');
   const approved=getMerchantLinks(p)[0]!;
   await expect(own).toHaveCount(1);await expect(link).toHaveCount(approved.href?1:0);
-  await expect(sources.getByRole('heading')).toHaveText('Technical Sources & References');
+  const publicReferences=p.data.outboundPolicy!=='amazon-only';
+  if(publicReferences)await expect(sources.getByRole('heading')).toHaveText('Technical Sources & References');else await expect(sources).toHaveCount(0);
   await expect(sources.locator('a.btn,[data-affiliate-click]')).toHaveCount(0);
-  expect(await sources.evaluate(e=>e===e.parentElement!.lastElementChild)).toBe(true);
+  if(publicReferences)expect(await sources.evaluate(e=>e===e.parentElement!.lastElementChild)).toBe(true);
   expect(await own.evaluate(e=>Boolean(e.compareDocumentPosition(document.querySelector('.product-artwork--detail')!)&Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
-  for(const source of p.data.sources)await expect(sources.locator(`[data-source-id="${source.id}"]`)).toHaveAttribute('href',source.url);
+  for(const source of publicReferences?p.data.sources:[])await expect(sources.locator(`[data-source-id="${source.id}"]`)).toHaveAttribute('href',source.url);
   await expect(page.locator('.spec-source a[href^="https:"]')).toHaveCount(0);
   if(!approved.href){await expect(own.locator('[aria-disabled=true]')).toHaveCount(1);continue;}
   await expect(link).toHaveAttribute('href',approved.href);await expect(link).toHaveAttribute('data-cta-placement','profile-summary');

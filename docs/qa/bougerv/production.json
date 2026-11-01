@@ -1,0 +1,30 @@
+{
+  "previousPagesPreserved": 43,
+  "products": [
+    {
+      "id": "bougerv-53-quart-portable-refrigerator-freezer",
+      "asin": "B0869NCSNH",
+      "route": "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+      "cta": "ACTIVE",
+      "url": "https://www.amazon.ca/dp/B0869NCSNH?tag=apocalypsegear-20",
+      "robots": "noindex, nofollow",
+      "publicExternalLinks": "Amazon.ca only",
+      "manufacturerEvidence": "Internal; not rendered",
+      "image": "/images/blackout/bougerv-53-quart-refrigerator-blackout.webp"
+    },
+    {
+      "id": "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler",
+      "asin": "B0GHMS5Y9Y",
+      "route": "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+      "cta": "ACTIVE",
+      "url": "https://www.amazon.ca/dp/B0GHMS5Y9Y?tag=apocalypsegear-20",
+      "robots": "noindex, nofollow",
+      "publicExternalLinks": "Amazon.ca only",
+      "manufacturerEvidence": "Internal; not rendered",
+      "image": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp"
+    }
+  ],
+  "wrongPublicSourceLinks": 0,
+  "sourceEvidenceControls": "Unchanged; manufacturer citations still required in product data",
+  "newWebpVariants": 6
+}

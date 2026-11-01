@@ -1,3 +1,4 @@
+import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import {accountStatusFileChanged, historicalProductJSON} from './account-status-fixture';
 import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
 import assert from 'node:assert/strict';
@@ -10,7 +11,7 @@ import { categoryUniverse } from '../src/config/taxonomy';
 import { getMerchantLinks, canadianAffiliateIssues } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
 
-import { OUTBREAK, PHASE43_FALLOUT, PHASE46_FILTERS, FILTER_2091, PHASE5, PHASE53 } from './catalogue-fixture';
+import { OUTBREAK, PHASE43_FALLOUT, PHASE46_FILTERS, FILTER_2091, PHASE5, PHASE53, BOUGERV } from './catalogue-fixture';
 import { productCaution } from '../src/lib/release-policy';
 import { COMPATIBLE_3M_FILTERS } from '../src/lib/respirator-filters';
 const expected = {
@@ -19,6 +20,7 @@ const expected = {
   ...FILTER_2091,
   ...PHASE5,
   ...PHASE53,
+  ...BOUGERV,
   ...PHASE43_FALLOUT,
   'jackery-explorer-1000-v2': ['B0D7PPG25F', 'power-stations'],
   'ecoflow-river-2-pro': ['B0BVLPGS79', 'power-stations'],
@@ -60,7 +62,7 @@ test('the catalogue audit preserves every previous product, artwork, affiliate p
   assert.equal(baseline.baseCommit,'836f7e10dae4b381a2d6c51607165509d4996bc4');
   assert.equal(baseline.products.length,30,'All 29 previous products and the internal template');
   for(const p of baseline.products.filter((p:any)=>!Object.keys(PHASE46_FILTERS).some(id=>p.file.endsWith('/'+id+'.json'))))assert.equal(createHash('sha256').update(historicalProductJSON(p.file,JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files){if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
+  for(const p of baseline.files){if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     // Phase 4.7 appends one mapping; its first 29 entries and all prior files
     // are checked against the immutable Phase 4.7 baseline in phase47.test.ts.
@@ -78,13 +80,13 @@ test('Phase 4.6 appends only three media records and preserves every previous pr
   assert.equal(baseline.baseCommit,'f027d539fd2b4621fc55ec4b103dcdc63245d0ee');
   assert.equal(baseline.products.length,27,'All 26 prior products and template');
   for(const p of baseline.products) assert.equal(createHash('sha256').update(historicalProductJSON(p.file,JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
-  for(const p of baseline.files) {if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
+  for(const p of baseline.files) {if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
     const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
   }
   const manifest=JSON.parse(readFileSync('src/data/media/imported-manifest.json','utf8'));
-  assert.equal(manifest.assets.length,36);
+  assert.equal(manifest.assets.length,38);
   assert.deepEqual(manifest.assets.slice(0,26),baseline.importedAssets);
   for(const id of Object.keys(PHASE46_FILTERS)) {
     const asset=manifest.assets.find((a:any)=>a.productId===id);
@@ -141,7 +143,7 @@ test('all 26 product identities and the 17 unaudited records are preserved again
 
 test('prior media, bunker, affiliate configuration and mandatory safety controls survive additive taxonomy integration', () => {
   const baseline=JSON.parse(readFileSync('docs/qa/phase4-4/preservation.json','utf8'));
-  for(const p of baseline.unchangedFiles){if(accountStatusFileChanged(p.file))continue;
+  for(const p of baseline.unchangedFiles){if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 protects prior categories and unchanged source files.
     if(p.file==='src/data/media/imported-manifest.json') continue; // Intentional append; old entries are independently protected below.
     const raw=readFileSync(p.file),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;
@@ -298,7 +300,7 @@ test('remaining product holds cannot be bypassed by setting unrelated editorial 
   }
 });
 
-test('thirty-six registered links retain exact identities and obey product-level evidence decisions', () => {
+test('thirty-eight registered links retain exact identities and obey product-level evidence decisions', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -315,13 +317,13 @@ test('thirty-six registered links retain exact identities and obey product-level
     assert.ok(data.research?.confirmed.length);
     assert.ok(data.description.length > 150);
     assert.ok(data.specs.length >= 5);
-    if(slug in OUTBREAK || slug in PHASE43_FALLOUT || slug in PHASE46_FILTERS || slug in PHASE5 || slug in PHASE53) assert.ok(data.image?.src?.startsWith('/images/'+categoryUniverse(data.category)+'/')); else assert.equal(data.image, null);
+    if(slug in OUTBREAK || slug in PHASE43_FALLOUT || slug in PHASE46_FILTERS || slug in PHASE5 || slug in PHASE53 || slug in BOUGERV) assert.ok(data.image?.src?.startsWith('/images/'+categoryUniverse(data.category)+'/')); else assert.equal(data.image, null);
     for (const key of ['price', 'rating', 'aggregateRating', 'stock', 'discount']) assert.ok(!(key in raw));
     const product = { id: slug, data } as Product;
     const eligible = canadianAffiliateIssues(product).length === 0;
     assert.equal(getMerchantLinks(product, true)[0]?.href, eligible ? data.links.amazonCa.url : null);
     assert.equal(data.research?.listingVerified, false, 'Link activation must not invent listing verification');
-    if(slug in PHASE46_FILTERS || slug in FILTER_2091 || slug in PHASE5 || slug in PHASE53 || ['midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket'].includes(slug)) assert.equal(data.research?.listingEvidence?.method,'owner-document');
+    if(slug in PHASE46_FILTERS || slug in FILTER_2091 || slug in PHASE5 || slug in PHASE53 || slug in BOUGERV || ['midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket'].includes(slug)) assert.equal(data.research?.listingEvidence?.method,'owner-document');
     else assert.equal(data.research?.listingEvidence, undefined);
     if (eligible) assert.equal(data.research?.affiliateReview?.decision, 'link-permitted');
   }
@@ -345,7 +347,7 @@ test('slugs, ASINs and related records are unique and refer to existing products
       assert.ok(rawProducts.has(related), `${slug} -> ${related}`);
     }
   }
-  assert.equal(asins.size,36);
+  assert.equal(asins.size,38);
 });
 
 test('Kidde and INIU remain blocked and cannot be published by changing only editorial status', () => {
@@ -420,15 +422,15 @@ test('OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits
   }
 });
 
-test('Catalogue has eleven BLACKOUT, ten FALLOUT and fifteen OUTBREAK profiles with substantive original content', () => {
+test('Catalogue has thirteen BLACKOUT, ten FALLOUT and fifteen OUTBREAK profiles with substantive original content', () => {
   const products = [...rawProducts].filter(([,raw]) => raw.visibility === 'informational');
-  assert.equal(products.length,36);
+  assert.equal(products.length,38);
   const universes = products.map(([,raw]) => categoryUniverse(productSchema.parse(raw).category));
-  assert.equal(universes.filter(id => id === 'blackout').length, 11);
+  assert.equal(universes.filter(id => id === 'blackout').length, 13);
   assert.equal(universes.filter(id => id === 'fallout').length, 10);
   assert.equal(universes.filter(id => id === 'outbreak').length, 15);
-  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size,36);
-  assert.equal(new Set(products.map(([,raw]) => raw.description)).size,36);
+  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size,38);
+  assert.equal(new Set(products.map(([,raw]) => raw.description)).size,38);
   for (const id of ['fenix-hm50r-v2-headlamp','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','nanuk-904-first-aid-kit','leatherman-wave-plus-multitool','sol-emergency-bivvy']) {
     const raw = rawProducts.get(id);
     assert.ok(raw.editorial.purchaseChecks.length >= 3, id);

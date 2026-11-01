@@ -18,6 +18,8 @@ export const productSchema = z.object({
   category: z.enum(CATEGORY_IDS),
   summary: z.string().min(1),
   description: z.string().default(''),
+  // Evidence remains mandatory in the data even when public outbound links are restricted.
+  outboundPolicy: z.enum(['documentary-references', 'amazon-only']).default('documentary-references'),
   editorial: z.object({ purchaseChecks: z.array(z.string().min(1)).default([]) }).optional(),
   specs: z.array(z.object({ label: z.string(), value: z.string(), source: z.string().optional() })).default([]),
   pros: z.array(z.string()).default([]),

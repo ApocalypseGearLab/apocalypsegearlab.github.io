@@ -1,0 +1,82 @@
+{
+  "assets": [
+    {
+      "productId": "bougerv-53-quart-portable-refrigerator-freezer",
+      "source": {
+        "filename": "Glacière BougeRV sous halo orange.png",
+        "file": "assets/media/blackout/originals/bougerv-53-quart-refrigerator-blackout.png",
+        "bytes": 2502755,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "e37bc7065abab355878b853d7cac87721761793ced3c4ecdb959f2a5f19e61c5"
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+          "src": "/images/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 32632,
+          "sha256": "ac921ddb82ae267b8a415e76cc377d2435e8805d4f3368d2a49ed5d86ce492d8"
+        },
+        {
+          "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout-960.webp",
+          "src": "/images/blackout/bougerv-53-quart-refrigerator-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 130162,
+          "sha256": "2f86f2c6b8c927f182fec00397015d99985fe90e921a4e409ae556d1efb5cfdd"
+        },
+        {
+          "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+          "src": "/images/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 210164,
+          "sha256": "7039f6f8fc58ecec59de83e7257ae530a0a544b7e52890a43c64d91cd8c0780d"
+        }
+      ],
+      "review": "The closed lid, gray/charcoal body, upper control area and side carry handle fit the documented 53 QT E-series form. Lettering and connector marks are illustrative, not authenticated specifications. The picture does not establish capacity, exact revision, certification or supplied accessories.",
+      "fullSizeReductionPercent": 91.6
+    },
+    {
+      "productId": "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler",
+      "source": {
+        "filename": "Glacière Rocky V3.0 en mode blackout.png",
+        "file": "assets/media/blackout/originals/bougerv-rocky-v3-55qt-dual-zone-blackout.png",
+        "bytes": 2453443,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "5524d9a25b68486e6a8f0ee540e6f4db2443d60b88417381cd22ad0f2f8862cb"
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+          "src": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 44254,
+          "sha256": "3656f78379bac0792f2d7a9f31735de02a0ef150bd2db0bcd07db03a042befc5"
+        },
+        {
+          "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-960.webp",
+          "src": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 146530,
+          "sha256": "53732de519c322a19355200f717c0fc2ed0691faf6a61fc0adbebccb4580861e"
+        },
+        {
+          "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+          "src": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 226186,
+          "sha256": "bafd68944aed93c0c625332059abfb51c82abf901452939c8c4288d59eee65bc"
+        }
+      ],
+      "review": "The open lid, removable-divider-style interior, metal/dark shell and upper controls are consistent with the documented Rocky V3.0 dual-zone form. The phone, cans, small display text and lower battery-style module are conceptual props; they do not prove app-screen accuracy or included accessories. Original colors and the full amber frame are preserved.",
+      "fullSizeReductionPercent": 90.78
+    }
+  ]
+}

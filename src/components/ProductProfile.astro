@@ -30,6 +30,7 @@ const availableLinks = links.filter((link) => link.href || (link.key === 'amazon
 const verified = data.lastVerified?.toISOString().slice(0, 10);
 const research = data.research;
 const review = productVerification(product);
+const publicReferences = data.outboundPolicy !== 'amazon-only';
 // Every specification keeps a citation, with the original external destination
 // available once in the references section rather than alongside purchase controls.
 const references: {id:string;title:string;url:string;kind:string;anchor:string}[] = data.sources.map(source => ({...source, anchor: 'source-' + source.id}));
@@ -59,7 +60,7 @@ const breadcrumbs = {
 ---
 
 <BaseLayout canonicalPath={`/gear/${product.id}/`} title={`${data.name}: specs, uses & limitations`} description={data.summary} noindex={!indexable} ogType="article" jsonLd={[breadcrumbs, ...(productJson ? [productJson] : [])]}>
-  <article class="container section stack" data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
+  <article class="container section stack" data-universe={universe.id} data-outbound-policy={publicReferences ? undefined : 'amazon-only'} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
     <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />
 
     {!indexable && <p class="notice"><strong>Informational profile{!hasBuyingLinks && ' — verification in progress'}.</strong> {hasBuyingLinks ? (research?.listingVerified ? 'Consult the documented sources and model limitations before buying. ' : 'The retailer link uses the recorded ASIN. The current listing, seller and package have not been independently verified. ') : 'Product identity, Canadian listing and safety documentation have not all been confirmed. '}This is not a hands-on review, certification claim or purchase recommendation. {!hasBuyingLinks && 'Buying links are not active.'}</p>}
@@ -102,7 +103,7 @@ const breadcrumbs = {
       <h2>Documented specifications</h2>
       {data.specs.length === 0 ? <p class="empty">No verified specifications yet.</p> : (
         <div class="table-wrap" tabindex="0" role="region" aria-label={`${data.name} specifications`}><table><caption class="visually-hidden">Documented specifications for {data.name}</caption><tbody>
-          {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={`#${referenceFor(s.source).anchor}`} data-source-citation>Source {references.findIndex(source => source.url === s.source) + 1}</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}
+          {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{publicReferences && s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={`#${referenceFor(s.source).anchor}`} data-source-citation>Source {references.findIndex(source => source.url === s.source) + 1}</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}
         </tbody></table></div>
       )}
     </section>
@@ -116,8 +117,8 @@ const breadcrumbs = {
 
     {research && <>
       <section aria-labelledby="evidence"><h2 id="evidence">What the sources confirm</h2>
-        <p>These statements cite the linked sources. Manufacturer documentation and retailer representations are identified separately; they are not independent performance measurements.</p>
-        <ul>{research.confirmed.map((fact) => <li>{fact.text}{' '}{fact.sourceIds.map((id, index) => <>{index > 0 && ', '}<a href={`#source-${id}`}>Source {data.sources.findIndex((source) => source.id === id) + 1}</a></>)}</li>)}</ul>
+        <p>{publicReferences ? 'These statements cite the linked sources. Manufacturer documentation and retailer representations are identified separately; they are not independent performance measurements.' : 'Model documentation and retailer representations are identified separately. These statements are documentary findings, not independent performance measurements.'}</p>
+        <ul>{research.confirmed.map((fact) => <li>{fact.text}{publicReferences && <>{' '}{fact.sourceIds.map((id, index) => <>{index > 0 && ', '}<a href={`#source-${id}`}>Source {data.sources.findIndex((source) => source.id === id) + 1}</a></>)}</>}</li>)}</ul>
       </section>
       {purchaseChecks.length > 0 && <section><h2>What to check before buying</h2><ul>{purchaseChecks.map((claim) => <li>{claim}</li>)}</ul></section>}
       {safetyNotes.length > 0 && <section><h2>Safety and compatibility notes</h2><ul>{safetyNotes.map((note) => <li>{note}</li>)}</ul></section>}
@@ -138,7 +139,7 @@ const breadcrumbs = {
       <div class="grid grid--3">{related.map((candidate) => <ProductCard product={candidate} placement="related-card" />)}</div>
     </section>}
 
-    {references.length > 0 && <section class="technical-sources" aria-labelledby="sources" data-technical-sources>
+    {publicReferences && references.length > 0 && <section class="technical-sources" aria-labelledby="sources" data-technical-sources>
       <h2 id="sources">Technical Sources &amp; References</h2>
       <p>Documentation for the specifications and limitations above. Manufacturer references and retailer identity evidence serve different purposes; these are not additional purchase options.</p>
       <ol class="sources">{references.map(source => <li id={source.anchor}>
@@ -168,4 +169,9 @@ const breadcrumbs = {
   .sources { padding-left: var(--s-5); }
   .sources li { margin-bottom: var(--s-3); scroll-margin-top: 6rem; }
   .spec-source { display: block; font-size: 0.85rem; margin-top: var(--s-2); }
+  @media (max-width: 575px) {
+    [data-outbound-policy='amazon-only'] table { table-layout: fixed; }
+    [data-outbound-policy='amazon-only'] th { width: 36%; overflow-wrap: normal; }
+    [data-outbound-policy='amazon-only'] :is(th, td) { padding-inline: var(--s-3); }
+  }
 </style>

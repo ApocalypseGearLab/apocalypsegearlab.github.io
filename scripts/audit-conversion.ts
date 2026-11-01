@@ -24,7 +24,7 @@ for(const file of pages){
   // New records add artwork only to the catalogue and their own sector.
   // Every previous image retains exactly the same attributes and ordering.
   if(path==='/gear/'||path==='/blackout/'){
-   const added=new Set(['ecoflow-delta-2-blackout','bluetti-elite-100-v2-solar-kit-blackout'].flatMap(stem=>[480,960,1254].map(width=>'/images/blackout/'+stem+(width===1254?'':'-'+width)+'.webp')));
+   const added=new Set(['ecoflow-delta-2-blackout','bluetti-elite-100-v2-solar-kit-blackout','bougerv-53-quart-refrigerator-blackout','bougerv-rocky-v3-55qt-dual-zone-blackout'].flatMap(stem=>[480,960,1254].map(width=>'/images/blackout/'+stem+(width===1254?'':'-'+width)+'.webp')));
    meta.images=meta.images.filter(img=>!added.has(img.src??''));
   }
   if(path==='/gear/'){
@@ -58,15 +58,18 @@ for(const file of pages){
  assert.equal(buy.length,1);assert.equal(buy.find('a[data-affiliate-click]').length,row.active?1:0);
  assert.equal(buy.find('[aria-disabled="true"]').length,row.active?0:1);
  assert.equal(buy.find('a[href^="https://"]').not('[data-affiliate-click]').length,0,'Sources cannot sit beside the main CTA');
- assert.equal(sources.length,p.data.sources.length?1:0);
+ const publicReferences=p.data.outboundPolicy!=='amazon-only';
+ assert.equal(sources.length,publicReferences&&p.data.sources.length?1:0);
+ if(!publicReferences){assert.equal($('main a[href^="https://"]').not('[data-affiliate-click]').length,0,'Amazon-only profile cannot leak source links');assert.equal($('[data-source-citation]').length,0);}
+
  if(sources.length){assert.ok(sources.is($('main > article').children().last()),'References belong at the bottom');assert.equal(sources.find('.btn,[data-affiliate-click]').length,0);}
  const html=$('main').html()??'';
  assert.ok(html.indexOf('data-product-purchase')<html.indexOf('product-artwork--detail'),'Primary control before product artwork');
  assert.equal($('main a[href^="https://"]').not('[data-affiliate-click]').not('[data-source-click]').length,0,'All profile documentary links are ordinary links in the source section');
- for(const source of p.data.sources){const a=sources.find('a[data-source-click]').filter((_,e)=>$(e).attr('data-source-id')===source.id);assert.equal(a.length,1,source.id);assert.equal(a.attr('href'),source.url);assert.equal(a.attr('data-source-kind'),source.kind);assert.equal(a.attr('data-product'),id);assert.ok(!a.hasClass('btn'));references.push({sourcePage:path,productId:id,sourceId:source.id,kind:source.kind,destination:source.url,tracking:'source_reference_click',classification:before.sourceBindings.find((s:{productId:string;id:string})=>s.productId===id&&s.id===source.id)?.classification??'review-new-source'});}
+ for(const source of publicReferences?p.data.sources:[]){const a=sources.find('a[data-source-click]').filter((_,e)=>$(e).attr('data-source-id')===source.id);assert.equal(a.length,1,source.id);assert.equal(a.attr('href'),source.url);assert.equal(a.attr('data-source-kind'),source.kind);assert.equal(a.attr('data-product'),id);assert.ok(!a.hasClass('btn'));references.push({sourcePage:path,productId:id,sourceId:source.id,kind:source.kind,destination:source.url,tracking:'source_reference_click',classification:before.sourceBindings.find((s:{productId:string;id:string})=>s.productId===id&&s.id===source.id)?.classification??'review-new-source'});}
  for(const [index,spec]of p.data.specs.entries()){
   const cell=$('.table-wrap tbody tr').eq(index).find('td').first();assert.ok(cell.text().includes(spec.value),'Keep specification: '+id+'/'+spec.label);
-  if(spec.source?.startsWith('https://')){const citation=cell.find('a[data-source-citation]');assert.equal(citation.length,1);const anchor=citation.attr('href')!.slice(1);assert.equal(sources.find('li').filter((_,e)=>$(e).attr('id')===anchor).find('a').attr('href'),spec.source);}
+  if(publicReferences&&spec.source?.startsWith('https://')){const citation=cell.find('a[data-source-citation]');assert.equal(citation.length,1);const anchor=citation.attr('href')!.slice(1);assert.equal(sources.find('li').filter((_,e)=>$(e).attr('id')===anchor).find('a').attr('href'),spec.source);}
  }
  for(const note of p.data.research?.safetyNotes??[]){const rendered=note.replace('Do not publish or recommend','Do not recommend').replace('before approval','before purchase or use').replace('a pre-publication check','a check before purchase or use');assert.ok($('main').text().includes(rendered),'Preserve safety note: '+id);}
 }

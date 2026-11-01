@@ -1,0 +1,181 @@
+{
+  "name": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler",
+  "brand": "BougeRV",
+  "modelNumber": "Rocky V3.0 55QT",
+  "category": "portable-refrigeration",
+  "outboundPolicy": "amazon-only",
+  "summary": "A 55 QT / 52 L dual-zone portable fridge for a powered vehicle or camp base. Independent zone settings offer flexibility; a battery, solar panel, phone and illustrated contents are not promised with the Amazon offer.",
+  "description": "Rocky V3.0 adds independently controlled compartments for a trip where chilled and frozen supplies need different settings. The documented 55QT model uses a metal-and-plastic body and supports app control, but the physical controls and actual compartment temperatures still matter. Build a power and ventilation plan before relying on it during an outage. The promotional phone, cans and battery-style compartment are visual context; they do not establish what the selected Canadian Amazon package includes.",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "55 QT / 52 L",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    },
+    {
+      "label": "Zones",
+      "value": "Dual-zone model family with independently controlled temperature settings",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    },
+    {
+      "label": "Setpoint",
+      "value": "−20°C to +20°C (−4°F to 68°F); a setting range is not a measured food-temperature guarantee",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    },
+    {
+      "label": "DC input",
+      "value": "12/24 V DC",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    },
+    {
+      "label": "AC input",
+      "value": "Via the appropriate 100–240 V AC adapter; verify the selected Canadian package",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    },
+    {
+      "label": "Power",
+      "value": "80 W in the manufacturer table; actual cycling and energy use depend on conditions",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    },
+    {
+      "label": "Battery",
+      "value": "The model family supports an optional 240 Wh battery; battery and solar-panel inclusion are not established for this ASIN",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    },
+    {
+      "label": "Features",
+      "value": "App-capable model family with metal/plastic construction; phone and illustrated food or drinks are not included-product evidence",
+      "source": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+    }
+  ],
+  "pros": [
+    "Separate settings can serve different cold-storage needs in one portable unit.",
+    "The model family provides DC and adapter-based AC power options for a planned vehicle or camp setup."
+  ],
+  "cons": [
+    "A dual-zone fridge still needs an adequate power source, ventilation and monitored storage temperatures.",
+    "The current Canadian Amazon variant, battery bundle and exact accessory list are not independently verified.",
+    "App imagery, displayed readings and advertised energy figures are not an independent cooling or runtime test."
+  ],
+  "useCases": [
+    "Plan separately monitored chilled and frozen compartments for a powered camp base.",
+    "Compare running demand and replenishment options for vehicle travel or a limited blackout food-storage plan."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "BougeRV Canada model-family documentation — internal evidence",
+      "url": "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "food-safety",
+      "title": "Health Canada: food and drinking-water safety in an emergency — internal evidence",
+      "url": "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html",
+      "kind": "official-safety"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-provided Canadian ASIN reference; current offer not independently verified",
+      "url": "https://www.amazon.ca/dp/B0GHMS5Y9Y",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "bougerv-53-quart-portable-refrigerator-freezer",
+    "ecoflow-delta-2-portable-power-station",
+    "bluetti-elite-100-v2-solar-generator-kit"
+  ],
+  "image": {
+    "src": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+    "alt": "Concept illustration of an open-lid silver and dark BougeRV Rocky V3.0 55QT-style dual-zone fridge with a phone and cans in an amber BLACKOUT frame; props and readings are illustrative",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved BougeRV integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The owner work order explicitly associates Amazon.ca B0GHMS5Y9Y with BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. Exact selected Amazon.ca variant, current title, seller and included battery/cables/accessories remain uninspected. The Canadian and US manufacturer pages give different weights/model-reference identifiers; no exact mass or regional SKU is assigned to this Amazon unit. A battery compartment does not establish an included battery."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0GHMS5Y9Y",
+      "url": "https://www.amazon.ca/dp/B0GHMS5Y9Y?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "The owner work order explicitly associates Amazon.ca B0GHMS5Y9Y with BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. Exact selected Amazon.ca variant, current title, seller and included battery/cables/accessories remain uninspected. The Canadian and US manufacturer pages give different weights/model-reference identifiers; no exact mass or regional SKU is assigned to this Amazon unit. A battery compartment does not establish an included battery.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "BougeRV Canada identifies Rocky V3.0 55QT as a 52 L dual-zone model with a documented −20°C to +20°C setting range.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The manufacturer describes separate battery and solar bundles as well as a fridge-only selection. Those store options do not establish this Amazon ASIN package.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      },
+      {
+        "text": "The owner identifies the recorded Canadian ASIN as this model family; this does not verify the current selected retailer offer.",
+        "sourceIds": [
+          "owner-reference"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Exact selected Amazon.ca variant, current title, seller and included battery/cables/accessories remain uninspected. The Canadian and US manufacturer pages give different weights/model-reference identifiers; no exact mass or regional SKU is assigned to this Amazon unit. A battery compartment does not establish an included battery.",
+      "No price, stock, rating, guaranteed energy consumption, cooling runtime or certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Use the specified supply, correctly rated cable and protective fuse. Keep connectors dry, inspect cables and leave cooling vents clear; follow the delivered instructions.",
+      "A vehicle low-voltage cut-off is not a guarantee that the starter battery can still crank the engine. Plan a suitable supply and reserve energy; do not assume a built-in battery.",
+      "Check storage temperature with a separate thermometer: refrigerate at or below 4°C and freeze at or below −18°C. A display setting alone does not show that food has stayed safe during an outage.",
+      "Keep raw foods contained, minimize lid openings and follow food-safety advice after loss of cooling. No guaranteed battery runtime, uninterrupted cold chain or physical performance test is claimed."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent current Canadian listing/variant review, exact electrical-label review, complete product-specific safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0GHMS5Y9Y",
+      "checkedAt": "2026-11-01",
+      "reason": "Recorded Canadian link permitted under the existing owner-document policy: the work order explicitly associates this ASIN with the documented BougeRV model family. No concrete contradictory selected-ASIN evidence or mandatory product safety hold was established. Manufacturer-document differences are disclosed without guaranteeing a retailer revision, package contents, food temperature or runtime. Permission is for the recorded link only, not independent offer verification, certification, physical testing or SEO publication.",
+      "sourceIds": [
+        "manufacturer",
+        "owner-reference",
+        "food-safety"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0GHMS5Y9Y",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B0GHMS5Y9Y",
+      "matchedModel": "Rocky V3.0 55QT",
+      "notes": "The owner work order explicitly associates Amazon.ca B0GHMS5Y9Y with BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler. This is an intended ASIN/model reference, not an attached Amazon listing capture. The canonical URL was inaccessible through the web reader; exact visible listing title, selected variant and included components could not be independently recorded. No observable HTTP error status or invalid-link finding is claimed. Exact selected Amazon.ca variant, current title, seller and included battery/cables/accessories remain uninspected. The Canadian and US manufacturer pages give different weights/model-reference identifiers; no exact mass or regional SKU is assigned to this Amazon unit. A battery compartment does not establish an included battery."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Recheck the exact Canadian ASIN, capacity and model revision; distinguish the 53 QT single-setting family from Rocky V3.0 55QT dual zone.",
+      "Confirm the included adapter, DC cord, baskets and any optional battery or solar equipment. Manufacturer store bundles and illustrated props do not establish Amazon contents.",
+      "Match the delivered electrical label and operating instructions to the power supply; leave ventilation space and monitor actual food-storage temperatures.",
+      "Confirm Rocky V3.0, 55QT / 52 L and the selected fridge-only or battery package; do not substitute 41QT, 69QT or an earlier Rocky revision."
+    ]
+  }
+}
