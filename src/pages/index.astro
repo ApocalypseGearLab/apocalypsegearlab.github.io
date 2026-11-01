@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import UniverseCard from '../components/UniverseCard.astro';
 import { SITE, UNIVERSES } from '../config/site';
+import { BRAND } from '../config/branding';
 import { heroMedia, mediaUrl, mediaSrcset } from '../lib/media';
 import { canDisplayHeroArtwork } from '../lib/media-policy';
 
@@ -9,7 +10,7 @@ const hero = heroMedia.variants.at(-1)!;
 const showHeroArtwork = canDisplayHeroArtwork(import.meta.env.DEV);
 
 const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'Organization', name: SITE.name, url: Astro.site?.href },
+  { '@context': 'https://schema.org', '@type': 'Organization', name: SITE.name, url: Astro.site?.href, logo: new URL(BRAND.schemaLogo, Astro.site).href },
   { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: Astro.site?.href },
 ];
 ---
