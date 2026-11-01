@@ -1,0 +1,35 @@
+{
+  "previousPagesPreserved": 45,
+  "newProfiles": [
+    {
+      "id": "oria-wireless-refrigerator-freezer-thermometer",
+      "asin": "B07B9QF64N",
+      "url": "https://www.amazon.ca/dp/B07B9QF64N?tag=apocalypsegear-20",
+      "cta": "ACTIVE",
+      "robots": "noindex, nofollow",
+      "specifications": "owner-reported",
+      "image": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp"
+    },
+    {
+      "id": "panasonic-eneloop-aa-rechargeable-battery-charger-kit",
+      "asin": "B00JHKSMJU",
+      "url": "https://www.amazon.ca/dp/B00JHKSMJU?tag=apocalypsegear-20",
+      "cta": "ACTIVE",
+      "robots": "noindex, nofollow",
+      "specifications": "manufacturer-documented",
+      "image": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp"
+    },
+    {
+      "id": "panasonic-eneloop-aaa-rechargeable-battery-charger-kit",
+      "asin": "B010U57MSW",
+      "url": "https://www.amazon.ca/dp/B010U57MSW?tag=apocalypsegear-20",
+      "cta": "ACTIVE",
+      "robots": "noindex, nofollow",
+      "specifications": "manufacturer-documented",
+      "image": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp"
+    }
+  ],
+  "coreRobots": "indexable, robots meta absent",
+  "newWebpVariants": 9,
+  "existingProductsUnchanged": 38
+}

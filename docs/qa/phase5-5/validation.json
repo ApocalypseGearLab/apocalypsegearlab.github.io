@@ -1,0 +1,169 @@
+{
+  "scope": "Observed local results, no deployment, live Amazon authentication, independent account confirmation or physical testing",
+  "astro": {
+    "files": 105,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 96,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 116,
+    "failed": 0,
+    "affiliateAndAnalyticsTrafficIsolated": true,
+    "newProductActivations": 22,
+    "eventsPerActivation": 1,
+    "allRecordedDestinationActivations": 108,
+    "methods": [
+      "mouse",
+      "keyboard"
+    ],
+    "oriaPlacements": [
+      "catalogue-card",
+      "collection-card",
+      "profile-summary"
+    ],
+    "panasonicPlacements": [
+      "catalogue-card",
+      "collection-card",
+      "profile-summary",
+      "related-card"
+    ]
+  },
+  "productFixtures": "PASS: active/held rendering, account operational toggle, mandatory holds and informational/fully-published separation",
+  "build": {
+    "result": "PASS",
+    "htmlPages": 48,
+    "visibleProducts": 41,
+    "sectors": {
+      "blackout": 16,
+      "fallout": 10,
+      "outbreak": 15
+    }
+  },
+  "site": {
+    "result": "PASS",
+    "internalReferences": 1864,
+    "sitemapUrls": 6
+  },
+  "affiliate": {
+    "recordedUrls": 41,
+    "active": 36,
+    "held": 5,
+    "renderedCtaInstances": 215,
+    "existingAccountAndReleasePolicyUnchanged": true
+  },
+  "media": {
+    "mappings": 41,
+    "publishable": 40,
+    "rejected": 1,
+    "newOriginalPngs": 3,
+    "newWebpVariants": 9,
+    "oldMediaUnchanged": true
+  },
+  "seo": {
+    "newProfileRobots": "noindex, nofollow",
+    "newProfileSitemapEntries": 0,
+    "newProfileSchema": "BreadcrumbList only",
+    "corePages": [
+      "/",
+      "/gear/",
+      "/blackout/",
+      "/fallout/",
+      "/outbreak/"
+    ],
+    "coreRobots": "Indexable; meta robots absent",
+    "sitemapUrlsUnchanged": 6,
+    "previousPageMetadataAndImagesPreserved": 45
+  },
+  "accessibility": {
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "newProfileAxeChecks": 18,
+    "violations": 0,
+    "existingProfilesAndCorePagesAlsoAudited": true
+  },
+  "commands": [
+    {
+      "command": "npm run check",
+      "result": "PASS"
+    },
+    {
+      "command": "npm test",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:images",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run release:check",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run audit:verification",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:products",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run build",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:site",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:conversion",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:bougerv",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:phase55",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run test:browser",
+      "result": "PASS"
+    }
+  ],
+  "screenshots": [
+    "oria-wireless-refrigerator-freezer-thermometer-blackout-1440.webp",
+    "oria-wireless-refrigerator-freezer-thermometer-blackout-375.webp",
+    "oria-wireless-refrigerator-freezer-thermometer-catalogue-1440.webp",
+    "oria-wireless-refrigerator-freezer-thermometer-catalogue-375.webp",
+    "oria-wireless-refrigerator-freezer-thermometer-profile-1440.webp",
+    "oria-wireless-refrigerator-freezer-thermometer-profile-375.webp",
+    "panasonic-eneloop-aa-rechargeable-battery-charger-kit-blackout-1440.webp",
+    "panasonic-eneloop-aa-rechargeable-battery-charger-kit-blackout-375.webp",
+    "panasonic-eneloop-aa-rechargeable-battery-charger-kit-catalogue-1440.webp",
+    "panasonic-eneloop-aa-rechargeable-battery-charger-kit-catalogue-375.webp",
+    "panasonic-eneloop-aa-rechargeable-battery-charger-kit-profile-1440.webp",
+    "panasonic-eneloop-aa-rechargeable-battery-charger-kit-profile-375.webp",
+    "panasonic-eneloop-aaa-rechargeable-battery-charger-kit-blackout-1440.webp",
+    "panasonic-eneloop-aaa-rechargeable-battery-charger-kit-blackout-375.webp",
+    "panasonic-eneloop-aaa-rechargeable-battery-charger-kit-catalogue-1440.webp",
+    "panasonic-eneloop-aaa-rechargeable-battery-charger-kit-catalogue-375.webp",
+    "panasonic-eneloop-aaa-rechargeable-battery-charger-kit-profile-1440.webp",
+    "panasonic-eneloop-aaa-rechargeable-battery-charger-kit-profile-375.webp"
+  ]
+}

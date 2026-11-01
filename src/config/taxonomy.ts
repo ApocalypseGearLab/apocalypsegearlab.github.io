@@ -38,6 +38,8 @@ export const CATEGORIES = [
   { id: 'fixed-blade-knives', label: 'Outdoor & survival knives', universe: 'outbreak' },
   { id: 'hygiene-sanitation', label: 'Emergency hygiene & sanitation', universe: 'fallout' },
   { id: 'portable-refrigeration', label: 'Portable refrigeration & freezers', universe: 'blackout' },
+  { id: 'temperature-monitoring', label: 'Temperature monitoring & food preservation', universe: 'blackout' },
+  { id: 'rechargeable-batteries', label: 'Rechargeable batteries & charging accessories', universe: 'blackout' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

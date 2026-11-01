@@ -1,3 +1,4 @@
+import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import {accountStatusFileChanged, historicalProductJSON} from './account-status-fixture';
 import {CONVERSION_INTEGRATION_FILES} from './conversion-fixture';
@@ -32,11 +33,11 @@ test('Phase 4.7 changes only three commercial records and appends only the 2091 
       assert.deepEqual(current.research.confirmed.slice(0,row.data.research.confirmed.length),row.data.research.confirmed,'Preserve the documented manufacturer facts');
     }
   }
-  for(const row of baseline.files){if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
+  for(const row of baseline.files){if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
 if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(row.file)) continue; // Phase 5 preservation tests cover additive integration.
 const bytes=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes),row.sha256,row.file);}
   assert.deepEqual(importedMedia.slice(0,29),baseline.importedAssets);
-  assert.equal(importedMedia.length,38);
+  assert.equal(importedMedia.length,41);
 });
 
 for(const [id,[asin]]of Object.entries(PHASE46_FILTERS))test(`${id} permits the owner-documented pack while preserving editorial and respiratory safeguards`,()=>{

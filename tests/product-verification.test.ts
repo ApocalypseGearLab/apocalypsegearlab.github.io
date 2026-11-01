@@ -1,3 +1,4 @@
+import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -24,7 +25,7 @@ test('owner approval is recorded with scope and provenance, never promoted to in
 
 test('account and status changes preserve all products, release/SEO/tracking rules, home, navigation and images except three evidence additions',()=>{
  const before=read('docs/qa/account-status/before.json');assert.equal(before.baseCommit,'5efd034d6ab5bb38182bef808e93cd199500d480');assert.equal(before.capturedBeforeImplementation,true);
- for(const row of before.files){if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
+ for(const row of before.files){if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
   if(ACCOUNT_STATUS_FILES.has(row.file)||ACCOUNT_EVIDENCE_FILES.has(row.file))continue;
   const b=readFileSync(row.file);assert.equal(createHash('sha256').update(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b).digest('hex'),row.sha256,row.file);
  }
@@ -38,12 +39,12 @@ test('account and status changes preserve all products, release/SEO/tracking rul
  }
 });
 
-test('all 38 products have independently assessed dimensions; the account declaration grants no product publication or new links',()=>{
+test('all 41 products have independently assessed dimensions; the account declaration grants no product publication or new links',()=>{
  const statuses=products.map(productVerification);
- assert.equal(statuses.length,38);assert.equal(statuses.filter(s=>s.modelDocumented).length,38);
- assert.equal(statuses.filter(s=>s.listingStatus==='owner-documented').length,15);
+ assert.equal(statuses.length,41);assert.equal(statuses.filter(s=>s.modelDocumented).length,40);
+ assert.equal(statuses.filter(s=>s.listingStatus==='owner-documented').length,18);
  assert.equal(statuses.filter(s=>s.listingStatus==='independently-verified').length,0);
- assert.equal(statuses.filter(s=>s.linkActive).length,33);assert.equal(statuses.filter(s=>s.safetyStatus==='cleared').length,4);
+ assert.equal(statuses.filter(s=>s.linkActive).length,36);assert.equal(statuses.filter(s=>s.safetyStatus==='cleared').length,4);
  assert.equal(statuses.filter(s=>s.safetyStatus==='blocked').length,2);assert.equal(statuses.filter(s=>s.editorialApproved).length,4);assert.equal(statuses.filter(s=>s.fullyApproved).length,0);
  for(const product of products){
   assert.equal(isCommerciallyApproved(product),false);assert.ok(publicationIssues(product).length);
