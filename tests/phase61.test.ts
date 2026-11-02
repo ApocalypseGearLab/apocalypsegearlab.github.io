@@ -1,3 +1,4 @@
+import { beforePhase7Integration } from '../scripts/phase7-preservation.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
@@ -16,7 +17,7 @@ const products = readdirSync('src/data/products').filter(file => file.endsWith('
 test('navigation categories exactly match public products, canonical labels, sectors and stable destinations', () => {
   const visible = products.filter(isPubliclyVisible);
   const categories = populatedCategories(products);
-  assert.equal(visible.length, 41);
+  assert.equal(visible.length, 46);
   assert.equal(new Set(categories.map(c => c.id)).size, categories.length);
   assert.deepEqual(new Set(categories.map(c => c.id)), new Set(visible.map(p => p.data.category)));
   for (const category of categories) {
@@ -49,6 +50,6 @@ test('Phase 6.1 preserves merged Phase 6 editorial, product presentation, taxono
   assert.equal(baseline.files.length, 16);
   for (const row of baseline.files) {
     const canonical = Buffer.from(readFileSync(row.file).toString('latin1').replace(/\r\n/g, '\n'), 'latin1');
-    assert.equal(createHash('sha256').update(beforeBrandIntegration(row.file, canonical)).digest('hex'), row.sha256, row.file);
+    assert.equal(createHash('sha256').update(beforeBrandIntegration(row.file, beforePhase7Integration(row.file, canonical))).digest('hex'), row.sha256, row.file);
   }
 });

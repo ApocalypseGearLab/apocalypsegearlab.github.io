@@ -17,7 +17,7 @@ const hash=(value:string|Buffer)=>createHash('sha256').update(value).digest('hex
 test('Phase 5.5 preserves all 38 existing product records, media bytes, affiliate/GA4/SEO policy and home',()=>{
  const before=read('docs/qa/phase5-5/before.json');assert.equal(before.baseCommit,'996b1d3bd574933e3ce7a384cb4bba7ee45c9ce5');assert.equal(before.capturedBeforeImplementation,true);
  for(const row of before.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;const bytes=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes),row.sha256,row.file);}
- assert.equal(before.previousAssets.length,38);assert.deepEqual(importedMedia.slice(0,38),before.previousAssets);assert.equal(importedMedia.length,41);
+ assert.equal(before.previousAssets.length,38);assert.deepEqual(importedMedia.slice(0,38),before.previousAssets);assert.equal(importedMedia.length,46);
 });
 
 for(const [id,[asin,category]]of Object.entries(PHASE55))test(`${id} uses its recorded Canadian link without inventing manufacturer, listing or publication approval`,()=>{

@@ -1,0 +1,192 @@
+{
+  "name": "Motorola Talkabout T802 Two-Pack — Black / Blue",
+  "brand": "Motorola Solutions",
+  "modelNumber": "T802",
+  "category": "backup-comms",
+  "outboundPolicy": "amazon-only",
+  "specsStatus": "manufacturer-documented",
+  "summary": "Two black/blue T802 radios for local group communication, with documented Bluetooth/TALKABOUT app support. Canadian model use is covered by the manual; verify the selected offer and unit markings.",
+  "description": "For a household or small outdoor group that wants a local communication plan when cellular service is unavailable, two-way radios offer a direct voice link within radio range. The T802 also pairs with a compatible phone through Bluetooth for TALKABOUT app messaging and location sharing. Prepare the app, permissions, offline maps and a group check-in plan while internet access is available. Phone-assisted features require both the phone and radio to remain powered, paired and within the radio link; they do not create satellite service or a route to emergency responders. Terrain, buildings, interference and antenna position can sharply reduce coverage, so test the intended route rather than treating the advertised maximum as a promise. Compare the Midland ER310 for broadcast weather listening and the Garmin GPSMAP 67i for a different satellite-communication role, including its separate service requirements. Neither is a drop-in substitute for this local two-radio link.",
+  "specs": [
+    {
+      "label": "Exact variant",
+      "value": "T802 black/blue two-pack; T803 is a different green/black package",
+      "source": "https://www.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/consumer/t802-t803/t802-t803-talkabout_data-sheet_1023_rc.pdf"
+    },
+    {
+      "label": "Voice channels",
+      "value": "22 channels in the 462 / 467 MHz FRS/GMRS channel plan documented for USA / Canada",
+      "source": "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf"
+    },
+    {
+      "label": "Channel frequencies",
+      "value": "462.5500–462.7250 MHz and 467.5625–467.7125 MHz channel frequencies; use the manual’s individual channel assignments",
+      "source": "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf"
+    },
+    {
+      "label": "Bluetooth / app",
+      "value": "T802/T803 manual documents Bluetooth LE 5.2 and TALKABOUT phone messaging, location sharing and settings; current phone/app compatibility must be checked",
+      "source": "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf"
+    },
+    {
+      "label": "Battery options",
+      "value": "One approved rechargeable NiMH pack or three AA alkaline batteries per radio; USB-C charges the NiMH pack",
+      "source": "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf"
+    },
+    {
+      "label": "Weather rating",
+      "value": "IP54 dust/splash protection; not a submersible radio",
+      "source": "https://www.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/consumer/t802-t803/t802-t803-talkabout_data-sheet_1023_rc.pdf"
+    },
+    {
+      "label": "Conditional battery life",
+      "value": "Manufacturer up to 16 h with the 1,300 mAh NiMH pack under its 5/5/90 duty cycle with Bluetooth on; actual use varies",
+      "source": "https://www.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/consumer/t802-t803/t802-t803-talkabout_data-sheet_1023_rc.pdf"
+    }
+  ],
+  "pros": [
+    "Two radios can support a practised local voice plan without relying on cellular service.",
+    "The documented app adds phone-assisted location and messaging functions over the radio link.",
+    "NiMH pack and AA alkaline options offer distinct power plans, subject to the exact instructions."
+  ],
+  "cons": [
+    "Real coverage depends on terrain, obstructions and interference; neither voice nor data range is guaranteed.",
+    "App functions depend on compatible phones, permissions, setup and power in addition to the radios. They are not a satellite SOS service.",
+    "Licence-exempt channels are shared. Interference-eliminator codes do not provide private or encrypted conversations.",
+    "The selected Canadian ASIN, unit certification markings and package contents remain independently unverified."
+  ],
+  "useCases": [
+    "Households rehearsing local check-ins during an outage, with a meeting point and a fallback when radio contact fails.",
+    "Small outdoor groups who can test the actual route and agree on a channel, code and check-in times in advance.",
+    "Buyers separating local two-way contact from broadcast weather reception and subscription-based satellite communication."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Motorola T802/T803 product features and setup",
+      "url": "https://www.motorolasolutions.com/en_us/products/two-way-radios/consumer-two-way-radios/talkabout-t802-t803.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "manual",
+      "title": "Motorola T802/T803 manual MN009959A01-AC, English / Canadian French: power, app, channel plan and Canada licensing",
+      "url": "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "datasheet",
+      "title": "Motorola T802/T803 datasheet: black/blue T802, IP54 and conditional battery figures",
+      "url": "https://www.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/consumer/t802-t803/t802-t803-talkabout_data-sheet_1023_rc.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+      "url": "https://www.amazon.ca/dp/B0CVCK57CR",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "midland-er310",
+    "garmin-gpsmap-67i-satellite-gps",
+    "fenix-pd36r-pro-review"
+  ],
+  "image": {
+    "src": "/images/blackout/motorola-talkabout-t802-blackout.webp",
+    "alt": "Concept illustration of exactly two black-and-blue Motorola T802-style radios standing at complementary three-quarter angles inside the complete amber BLACKOUT HUD frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved Phase 7 integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 7 work order associates B0CVCK57CR with T802. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The exact Amazon.ca offer, selected variant, Canadian unit label/certification, supplied battery packs and accessories remain uninspected. Current app availability and compatibility with the buyer’s phone must be checked. No field range or delivery reliability has been tested."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0CVCK57CR",
+      "url": "https://www.amazon.ca/dp/B0CVCK57CR?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "Owner Phase 7 work order associates B0CVCK57CR with T802. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The exact Amazon.ca offer, selected variant, Canadian unit label/certification, supplied battery packs and accessories remain uninspected. Current app availability and compatibility with the buyer’s phone must be checked. No field range or delivery reliability has been tested.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "The T802/T803 manual expressly covers Canadian use under ISED RSS-210 and lists 22 voice channels in the 462/467 MHz bands. Its table’s maximum permitted channel power is not a measured transmitter-power specification.",
+        "sourceIds": [
+          "manual"
+        ]
+      },
+      {
+        "text": "Motorola documents Bluetooth/TALKABOUT app features for T802 and distinguishes its black/blue two-pack from the green/black T803 package.",
+        "sourceIds": [
+          "manufacturer",
+          "manual",
+          "datasheet"
+        ]
+      },
+      {
+        "text": "The manual specifies a rechargeable NiMH pack or three AA alkaline cells per radio and USB-C charging for the NiMH pack. This does not approve arbitrary loose rechargeable AA cells.",
+        "sourceIds": [
+          "manual"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The exact Amazon.ca offer, selected variant, Canadian unit label/certification, supplied battery packs and accessories remain uninspected. Current app availability and compatibility with the buyer’s phone must be checked. No field range or delivery reliability has been tested.",
+      "No price, stock, rating, ownership, physical testing or independent certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Motorola’s T802/T803 manual states Canadian use is subject to ISED RSS-210 and does not require a licence for the intended compliant model. Confirm Canadian-market certification markings and instructions on the delivered unit; an American offer or FCC marking alone does not establish Canadian suitability.",
+      "Use only the authorised frequencies, original antenna and approved accessories. Follow RF-exposure instructions, including the specified spacing and transmit duty cycle. Do not modify the transmitter.",
+      "Charge only the approved rechargeable NiMH pack through the radio. Do not attempt to recharge AA alkaline batteries, or infer compatibility with loose AA NiMH cells from the AA size alone.",
+      "A radio emergency-alert tone is not a call to emergency services. Plan a separate way to obtain help, and do not rely on shared channels or app messages for guaranteed delivery.",
+      "IP54 describes dust/splash resistance, not immersion. Keep charging connections dry and follow the exact delivered instructions."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent verification of the selected Canadian offer, delivered model/revision and package remains incomplete.",
+      "Product-specific safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0CVCK57CR",
+      "checkedAt": "2026-11-01",
+      "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+      "sourceIds": [
+        "manufacturer",
+        "manual",
+        "datasheet",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0CVCK57CR",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B0CVCK57CR",
+      "matchedModel": "T802",
+      "notes": "Owner Phase 7 work order associates B0CVCK57CR with T802. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The exact Amazon.ca offer, selected variant, Canadian unit label/certification, supplied battery packs and accessories remain uninspected. Current app availability and compatibility with the buyer’s phone must be checked. No field range or delivery reliability has been tested."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm T802, two black/blue radios and the selected Canadian seller; distinguish T800, T801 and the green T803 charging-dock package.",
+      "Match the Canadian-market unit label, certification information and manual to the delivered radios before transmitting. The model manual is evidence of intended Canadian use, not proof of this seller’s units.",
+      "Verify included NiMH packs, clips, charging cable and any charger; the illustration establishes neither battery capacity nor retail contents.",
+      "Install the current TALKABOUT app, confirm phone compatibility and download offline maps before travelling. Practise pairing, messages and voice on the intended route.",
+      "Choose a broadcast weather radio or an appropriate satellite communicator for those separate needs; do not equate local radio range with cellular or satellite coverage."
+    ]
+  }
+}

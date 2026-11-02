@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-01",
+  "products": [
+    {
+      "id": "vortex-diamondback-hd-10x42-review",
+      "asin": "B0GQCTM4DH",
+      "model": "DB-215-OBL",
+      "sources": [
+        {
+          "id": "manufacturer",
+          "title": "Vortex exact DB-215-OBL variant and optical specifications",
+          "url": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "owner-reference",
+          "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+          "url": "https://www.amazon.ca/dp/B0GQCTM4DH",
+          "kind": "retailer"
+        }
+      ],
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "technicalEvidence": "manufacturer-documented",
+      "independentCanadianUnitCertification": false,
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B0GQCTM4DH",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+        "sourceIds": [
+          "manufacturer",
+          "owner-reference"
+        ]
+      },
+      "unresolved": "The selected Amazon title, finish, seller and included accessories remain uninspected. Personal eyeglass fit, optical performance and weather resistance have not been physically tested."
+    },
+    {
+      "id": "garrett-pro-pointer-at-review",
+      "asin": "B00TADH9HA",
+      "model": "1140900",
+      "sources": [
+        {
+          "id": "manufacturer",
+          "title": "Garrett current Pro-Pointer AT part 1140900 reference",
+          "url": "https://garrett.com/garrett-pro-pointer-at/?d=sport",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "manual",
+          "title": "Garrett Pro-Pointer AT operating manual and specification table",
+          "url": "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "owner-reference",
+          "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+          "url": "https://www.amazon.ca/dp/B00TADH9HA",
+          "kind": "retailer"
+        }
+      ],
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "technicalEvidence": "manufacturer-documented",
+      "independentCanadianUnitCertification": false,
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B00TADH9HA",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+        "sourceIds": [
+          "manufacturer",
+          "manual",
+          "owner-reference"
+        ]
+      },
+      "unresolved": "The current selected Canadian offer, battery, accessories and warranty are uninspected. Older manual and current page differ on warranty and temperature figures; neither is presented as a confirmed Canadian offer term."
+    },
+    {
+      "id": "gq-gmc-600-pro-review",
+      "asin": "B0FHGKCT8D",
+      "model": "GMC-600 Pro",
+      "sources": [
+        {
+          "id": "manufacturer",
+          "title": "GQ current GMC-600 Pro vendor specifications and hardware description",
+          "url": "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "manual",
+          "title": "GQ GMC-600 Pro manual: detector, units and older hardware revision",
+          "url": "https://www.gqelectronicsllc.com/GMC-600ProUserGuide.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "radiation-safety",
+          "title": "CNSC contamination-monitoring guidance: pancake meters and dose-rate limitations",
+          "url": "https://www.cnsc-ccsn.gc.ca/eng/resources/frequently-asked-questions/faq-contamination-monitoring/",
+          "kind": "official-safety"
+        },
+        {
+          "id": "owner-reference",
+          "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+          "url": "https://www.amazon.ca/dp/B0FHGKCT8D",
+          "kind": "retailer"
+        }
+      ],
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "technicalEvidence": "manufacturer-documented",
+      "independentCanadianUnitCertification": false,
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B0FHGKCT8D",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+        "sourceIds": [
+          "manufacturer",
+          "manual",
+          "radiation-safety",
+          "owner-reference"
+        ]
+      },
+      "unresolved": "Selected Canadian listing and hardware revision, supplied detector authenticity, calibration, H*10 filter, accessories and safety-task suitability remain unverified. The artwork is not measurement evidence."
+    },
+    {
+      "id": "fenix-pd36r-pro-review",
+      "asin": "B0H7DDGK7V",
+      "model": "PD36R Pro",
+      "sources": [
+        {
+          "id": "manufacturer",
+          "title": "Fenix PD36R Pro specifications, battery exclusions and runtime/stepdown guidance",
+          "url": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "modes",
+          "title": "Fenix PD36R Pro brightness-mode and runtime explanation",
+          "url": "https://www.fenixlighting.com/blogs/news/everything-to-know-about-fenix-pd36r-pro",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "owner-reference",
+          "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+          "url": "https://www.amazon.ca/dp/B0H7DDGK7V",
+          "kind": "retailer"
+        }
+      ],
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "technicalEvidence": "manufacturer-documented",
+      "independentCanadianUnitCertification": false,
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B0H7DDGK7V",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+        "sourceIds": [
+          "manufacturer",
+          "modes",
+          "owner-reference"
+        ]
+      },
+      "unresolved": "The selected Canadian offer, exact colour, seller, battery authenticity and accessory bundle are uninspected. No hands-on output, runtime, water or impact test has been performed."
+    },
+    {
+      "id": "motorola-talkabout-t802-review",
+      "asin": "B0CVCK57CR",
+      "model": "T802",
+      "sources": [
+        {
+          "id": "manufacturer",
+          "title": "Motorola T802/T803 product features and setup",
+          "url": "https://www.motorolasolutions.com/en_us/products/two-way-radios/consumer-two-way-radios/talkabout-t802-t803.html",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "manual",
+          "title": "Motorola T802/T803 manual MN009959A01-AC, English / Canadian French: power, app, channel plan and Canada licensing",
+          "url": "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "datasheet",
+          "title": "Motorola T802/T803 datasheet: black/blue T802, IP54 and conditional battery figures",
+          "url": "https://www.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/consumer/t802-t803/t802-t803-talkabout_data-sheet_1023_rc.pdf",
+          "kind": "manufacturer"
+        },
+        {
+          "id": "owner-reference",
+          "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+          "url": "https://www.amazon.ca/dp/B0CVCK57CR",
+          "kind": "retailer"
+        }
+      ],
+      "exactVisibleAmazonListingTitle": null,
+      "selectedAmazonVariant": null,
+      "liveAmazonInspection": false,
+      "technicalEvidence": "manufacturer-documented",
+      "independentCanadianUnitCertification": false,
+      "commercialDecision": {
+        "decision": "link-permitted",
+        "asin": "B0CVCK57CR",
+        "checkedAt": "2026-11-01",
+        "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+        "sourceIds": [
+          "manufacturer",
+          "manual",
+          "datasheet",
+          "owner-reference"
+        ]
+      },
+      "unresolved": "The exact Amazon.ca offer, selected variant, Canadian unit label/certification, supplied battery packs and accessories remain uninspected. Current app availability and compatibility with the buyer’s phone must be checked. No field range or delivery reliability has been tested."
+    }
+  ],
+  "manualReview": {
+    "motorola": "MN009959A01-AC, May 2024; visually checked printed pages 9, 21–22 and manufacturer datasheet page 2. Canadian language and frequencies are explicit. Table power limits are not radio output claims.",
+    "garrett": "Manual printed specification page 8 visually checked. Warranty and temperature conflict with current reference; omitted as offer facts.",
+    "gq": "Current vendor page explicitly says colour LCD / USB-C, whereas the available manual describes monochrome / mini-USB. Hardware revision must be confirmed. Detector/units only are taken from the manual."
+  }
+}

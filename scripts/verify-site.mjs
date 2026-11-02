@@ -4,6 +4,7 @@ import { resolve, relative, sep } from 'node:path';
 import { load } from 'cheerio';
 import { spawnSync } from 'node:child_process';
 import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
+import { PHASE7 } from './phase7-preservation.mjs';
 
 const policy = spawnSync(process.execPath, [resolve('node_modules/tsx/dist/cli.mjs'), 'scripts/release-check.ts'], {encoding:'utf8'});
 assert.equal(policy.status,0,policy.stderr);
@@ -11,6 +12,7 @@ const commercialState = new Map(JSON.parse(policy.stdout).products.map(row=>[row
 const root = resolve('dist');
 assert.ok(existsSync(root), 'Run npm run build first');
 const site = 'https://apocalypsegearlab.github.io';
+const phase7Paths=new Set(Object.keys(PHASE7).map(id=>`/gear/${id}/`));
 const brandingBefore=JSON.parse(readFileSync('docs/qa/branding/seo-before.json','utf8'));
 assert.equal(brandingBefore.baseCommit,'00af8b6dc543619981a4646331f08688933d4c9e');
 assert.equal(brandingBefore.pages.length,49);
@@ -35,8 +37,8 @@ for (const file of files) {
   const html = readFileSync(resolve(root, file), 'utf8');
   const $ = load(html);
   const previousSEO=brandingBefore.pages.find(page=>page.path===pathname);
-  assert.ok(previousSEO,'Existing page has a baseline: '+pathname);
-  assert.deepEqual({path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()},previousSEO,'Branding preserves SEO and social metadata: '+pathname);
+  assert.ok(previousSEO||phase7Paths.has(pathname),'Only the five approved Phase 7 profiles may be added: '+pathname);
+  if(previousSEO)assert.deepEqual({path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()},previousSEO,'Branding preserves SEO and social metadata: '+pathname);
   assert.equal($('meta[name="google-site-verification"]').length, 1, file);
   assert.equal($('meta[name="google-site-verification"]').attr('content'), 'L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk', file);
   assert.equal($('script[src*="googletagmanager.com/gtag/js"]').length, 1, file);

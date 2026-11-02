@@ -1,0 +1,175 @@
+{
+  "name": "Garrett Pro-Pointer AT",
+  "brand": "Garrett",
+  "modelNumber": "1140900",
+  "category": "metal-detection",
+  "outboundPolicy": "amazon-only",
+  "specsStatus": "manufacturer-documented",
+  "summary": "A handheld metal pinpointer for narrowing a permitted search after a target is located. The 1140900 model uses a single 9 V battery, audio/vibration feedback and a documented 6 m waterproof rating.",
+  "description": "The Pro-Pointer AT suits detectorists who need to narrow the position of metal in a small area or excavated material. It is a close-search pinpointer, rather than a replacement for a full-size search detector. Use the tip and side-scan area to work methodically, retuning around mineralised ground or a larger target as the instructions describe. A tone or vibration means a metal response; it does not identify the object, establish that it is safe to touch or determine whether it belongs to you. Compare a full-size detector when the task is surveying a broader area, and keep retrieval tools and legal access separate from the detector purchase. This FALLOUT exploration category is editorial organisation: the Pro-Pointer AT is a metal detector, not a radiation detector, hazardous-material detector or fictional anomaly detector. The approved orange artwork remains unchanged.",
+  "specs": [
+    {
+      "label": "Exact model",
+      "value": "Pro-Pointer AT, part number 1140900; not the separate Z-Lynk version",
+      "source": "https://garrett.com/garrett-pro-pointer-at/?d=sport"
+    },
+    {
+      "label": "Operating frequency",
+      "value": "11.5 kHz manufacturer specification",
+      "source": "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf"
+    },
+    {
+      "label": "Detection / feedback",
+      "value": "Pinpoint tip and 360° side scanning; proportional audio and vibration",
+      "source": "https://garrett.com/garrett-pro-pointer-at/?d=sport"
+    },
+    {
+      "label": "Adjustment",
+      "value": "Three sensitivity levels and retuning for the search environment",
+      "source": "https://garrett.com/garrett-pro-pointer-at/?d=sport"
+    },
+    {
+      "label": "Water rating",
+      "value": "Manufacturer maximum depth 20 ft / 6 m; IP68",
+      "source": "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf"
+    },
+    {
+      "label": "Power",
+      "value": "One 9 V battery; verify delivered battery inclusion and replacement chemistry",
+      "source": "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf"
+    },
+    {
+      "label": "Length / weight",
+      "value": "9 in / 22.9 cm; 6.5 oz / 0.2 kg including battery",
+      "source": "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf"
+    }
+  ],
+  "pros": [
+    "A separate pinpointer lets a user narrow a metal response without moving a full-size search coil over the same small spot.",
+    "Audio and vibration provide two forms of feedback during a close search.",
+    "Single-battery operation gives the kit a clear spare-power requirement."
+  ],
+  "cons": [
+    "A pinpointer’s close-search role is limited; detection depth depends on target size, orientation, soil and sensitivity. No universal depth is promised.",
+    "It cannot identify hazardous objects, radiation, chemical contamination or whether an excavation is safe.",
+    "The standard 1140900 does not establish Z-Lynk wireless functionality. Current Canadian package contents and warranty need confirmation."
+  ],
+  "useCases": [
+    "Recreational detectorists pinpointing metal on land where searching and excavation are permitted.",
+    "Close inspection of excavated loose material after a broader search, subject to site safety and permission.",
+    "Users who need a separate spare 9 V battery plan; the related AA and AAA battery kits are not substitutes."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Garrett current Pro-Pointer AT part 1140900 reference",
+      "url": "https://garrett.com/garrett-pro-pointer-at/?d=sport",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "manual",
+      "title": "Garrett Pro-Pointer AT operating manual and specification table",
+      "url": "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+      "url": "https://www.amazon.ca/dp/B00TADH9HA",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "leatherman-wave-plus-multitool",
+    "mechanix-m-pact-work-gloves",
+    "fenix-pd36r-pro-review"
+  ],
+  "image": {
+    "src": "/images/fallout/garrett-pro-pointer-at-fallout.webp",
+    "alt": "Concept illustration of an orange Garrett Pro-Pointer AT-style metal pinpointer, black holster and 9 V battery inside the complete orange HUD frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved Phase 7 integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 7 work order associates B00TADH9HA with 1140900. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The current selected Canadian offer, battery, accessories and warranty are uninspected. Older manual and current page differ on warranty and temperature figures; neither is presented as a confirmed Canadian offer term."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B00TADH9HA",
+      "url": "https://www.amazon.ca/dp/B00TADH9HA?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "Owner Phase 7 work order associates B00TADH9HA with 1140900. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The current selected Canadian offer, battery, accessories and warranty are uninspected. Older manual and current page differ on warranty and temperature figures; neither is presented as a confirmed Canadian offer term.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Garrett’s model reference and manual identify 1140900 as the Pro-Pointer AT, powered by one 9 V battery with metal-pinpointing audio/vibration feedback.",
+        "sourceIds": [
+          "manufacturer",
+          "manual"
+        ]
+      },
+      {
+        "text": "The manual lists 11.5 kHz, a 20 ft / 6 m IP68 rating, 22.9 cm length and 0.2 kg weight including battery. These are documentary figures, not independent tests.",
+        "sourceIds": [
+          "manual"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The current selected Canadian offer, battery, accessories and warranty are uninspected. Older manual and current page differ on warranty and temperature figures; neither is presented as a confirmed Canadian offer term.",
+      "No price, stock, rating, ownership, physical testing or independent certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Obtain landowner permission and check applicable local restrictions before searching or digging. Avoid protected heritage sites and buried services.",
+      "Do not touch, move or dig around ammunition, suspected explosives, sharps or unidentified hazardous objects. Withdraw and notify the appropriate authority. A pinpointer does not make an object safe.",
+      "Close the battery compartment and follow the delivered waterproofing instructions before wet use. A depth rating is not a guarantee for damaged seals or careless maintenance.",
+      "This is metal detection only. Radiation and hazardous-material assessment require different equipment and qualified procedures."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent verification of the selected Canadian offer, delivered model/revision and package remains incomplete.",
+      "Product-specific safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00TADH9HA",
+      "checkedAt": "2026-11-01",
+      "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+      "sourceIds": [
+        "manufacturer",
+        "manual",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B00TADH9HA",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B00TADH9HA",
+      "matchedModel": "1140900",
+      "notes": "Owner Phase 7 work order associates B00TADH9HA with 1140900. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The current selected Canadian offer, battery, accessories and warranty are uninspected. Older manual and current page differ on warranty and temperature figures; neither is presented as a confirmed Canadian offer term."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match Pro-Pointer AT part 1140900 and the orange unit; distinguish Pro-Pointer II and the Z-Lynk variant.",
+      "Confirm the selected listing, battery inclusion, holster and Canadian warranty; the illustrated 9 V battery is not package proof.",
+      "Check seals, battery compartment, controls and retune instructions before field use.",
+      "Choose a full-size search detector for broader ground coverage; this pinpointer fills a different role."
+    ]
+  }
+}

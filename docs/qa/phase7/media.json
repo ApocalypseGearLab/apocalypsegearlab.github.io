@@ -1,0 +1,197 @@
+{
+  "preservedMasters": 5,
+  "newWebpVariants": 15,
+  "oldAssetsPreserved": 41,
+  "products": [
+    {
+      "product": "vortex-diamondback-hd-10x42-review",
+      "master": {
+        "filename": "Jumelles Vortex Diamondback HD néon vert.png",
+        "file": "assets/media/outbreak/originals/vortex-diamondback-hd-10x42-outbreak.png",
+        "bytes": 2614469,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "e7d3d07b434bc465702bb3b6bb9fffdd3a4d524e5de5ecd1630cd615628ab78a"
+      },
+      "variants": [
+        {
+          "file": "assets/media/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp",
+          "src": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 50076,
+          "sha256": "6dad575895343bd83467bd49c5351dc63b4ea3364c17ac196a154d851d06533f"
+        },
+        {
+          "file": "assets/media/outbreak/vortex-diamondback-hd-10x42-outbreak-960.webp",
+          "src": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 175262,
+          "sha256": "aac7e1c5ac9ff0fbc1b476e5e7b56033e2d417f8ed7baa11ec19a9b916549c92"
+        },
+        {
+          "file": "assets/media/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+          "src": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 265942,
+          "sha256": "4cfab3b52c930e85475ea3aae38dd9d294e96304fb37c6c98df4585de7babe1a"
+        }
+      ],
+      "reductionPercent": 89.83
+    },
+    {
+      "product": "garrett-pro-pointer-at-review",
+      "master": {
+        "filename": "Détecteur Garrett Pro-Pointer AT en lumière orange.png",
+        "file": "assets/media/fallout/originals/garrett-pro-pointer-at-fallout.png",
+        "bytes": 2361441,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "8cdd59cdc4243a330f35aae9e494d84701900a14a5763b43eda199559b14a54d"
+      },
+      "variants": [
+        {
+          "file": "assets/media/fallout/garrett-pro-pointer-at-fallout-480.webp",
+          "src": "/images/fallout/garrett-pro-pointer-at-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 44562,
+          "sha256": "bbc25d4a1552f58885f21cbeb86c3640006bb296255d19746b2659baf99548fb"
+        },
+        {
+          "file": "assets/media/fallout/garrett-pro-pointer-at-fallout-960.webp",
+          "src": "/images/fallout/garrett-pro-pointer-at-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 156608,
+          "sha256": "2c5d414d39c2cc8652f60f74dc86028a6ec7007304b00c42ad22dad904e08aa0"
+        },
+        {
+          "file": "assets/media/fallout/garrett-pro-pointer-at-fallout.webp",
+          "src": "/images/fallout/garrett-pro-pointer-at-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 237052,
+          "sha256": "da7aec5ac2f4b26e3ad385a0a0d260770e943325e88d15bc30fd19d688f64fa1"
+        }
+      ],
+      "reductionPercent": 89.96
+    },
+    {
+      "product": "gq-gmc-600-pro-review",
+      "master": {
+        "filename": "Compteur Geiger GQ GMC-600 PROocalypsique.png",
+        "file": "assets/media/fallout/originals/gq-gmc-600-pro-fallout.png",
+        "bytes": 2132763,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "de7e32bfa46557222c95fd8bb9665f80c90d3d1eca2402e91f54e9a30d906522"
+      },
+      "variants": [
+        {
+          "file": "assets/media/fallout/gq-gmc-600-pro-fallout-480.webp",
+          "src": "/images/fallout/gq-gmc-600-pro-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 34948,
+          "sha256": "f1e2ae5c486d65ce27eb0281294326535d0d6cf1cb7fbdf737185dd948659316"
+        },
+        {
+          "file": "assets/media/fallout/gq-gmc-600-pro-fallout-960.webp",
+          "src": "/images/fallout/gq-gmc-600-pro-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 121546,
+          "sha256": "4c20a473d2d6972cc462b299a96b247cbdb6048e7e01f81852d739eb54b53d9e"
+        },
+        {
+          "file": "assets/media/fallout/gq-gmc-600-pro-fallout.webp",
+          "src": "/images/fallout/gq-gmc-600-pro-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 189054,
+          "sha256": "02f4f191ff34414e106c1f4f73470d37267a01eedaa47a662ce1f8ce44d91a4c"
+        }
+      ],
+      "reductionPercent": 91.14
+    },
+    {
+      "product": "fenix-pd36r-pro-review",
+      "master": {
+        "filename": "Lampe tactique Fenix sur fond futuriste.png",
+        "file": "assets/media/blackout/originals/fenix-pd36r-pro-blackout.png",
+        "bytes": 2421860,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "3b3f8e6d8fb86d62a8e7dad549dd29725a06fec97fd4f0ee77f55ef350e708b6"
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/fenix-pd36r-pro-blackout-480.webp",
+          "src": "/images/blackout/fenix-pd36r-pro-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 42396,
+          "sha256": "386046f663474bceb0b12b291e7a919f1b980db884b843fa99ce21cfe31be617"
+        },
+        {
+          "file": "assets/media/blackout/fenix-pd36r-pro-blackout-960.webp",
+          "src": "/images/blackout/fenix-pd36r-pro-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 148646,
+          "sha256": "adb6c0b5cde3180a2fd03ef83e6b7e1b2f181d946faf548ad3823853ad7e2a1c"
+        },
+        {
+          "file": "assets/media/blackout/fenix-pd36r-pro-blackout.webp",
+          "src": "/images/blackout/fenix-pd36r-pro-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 227874,
+          "sha256": "1e9dd8150bc338538e1c471c36d569c0bd641716be60311752753261f867dd4f"
+        }
+      ],
+      "reductionPercent": 90.59
+    },
+    {
+      "product": "motorola-talkabout-t802-review",
+      "master": {
+        "filename": "Talkies-walkies Motorola futuristes en lumière orange.png",
+        "file": "assets/media/blackout/originals/motorola-talkabout-t802-blackout.png",
+        "bytes": 2267413,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "c96da804c9ed8918bdc6c2de3caae81158a30e705e8763b25cc3859425d54dc1"
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/motorola-talkabout-t802-blackout-480.webp",
+          "src": "/images/blackout/motorola-talkabout-t802-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 39418,
+          "sha256": "4dda010e8a67f96d005465d47360ecb92342cead472fb140efd9c4e5e8cb6d9c"
+        },
+        {
+          "file": "assets/media/blackout/motorola-talkabout-t802-blackout-960.webp",
+          "src": "/images/blackout/motorola-talkabout-t802-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 133486,
+          "sha256": "3ae46e89db0a345f0a374575807c2776219790e80fb1bf02dc059f13dceeb311"
+        },
+        {
+          "file": "assets/media/blackout/motorola-talkabout-t802-blackout.webp",
+          "src": "/images/blackout/motorola-talkabout-t802-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 209682,
+          "sha256": "a031d290462e1d138a611f92c744bd9e0b5c505e2671439bae04332d0fd8dc4e"
+        }
+      ],
+      "reductionPercent": 90.75
+    }
+  ]
+}

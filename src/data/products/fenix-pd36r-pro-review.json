@@ -1,0 +1,176 @@
+{
+  "name": "Fenix PD36R Pro Rechargeable Flashlight",
+  "brand": "Fenix",
+  "modelNumber": "PD36R Pro",
+  "category": "lighting",
+  "outboundPolicy": "amazon-only",
+  "specsStatus": "manufacturer-documented",
+  "summary": "A handheld 21700-powered emergency light with USB-C charging and five brightness levels. Its 2,800-lumen Turbo is a peak setting with heat-driven stepdown; the 42-hour figure belongs to Eco.",
+  "description": "The PD36R Pro is for someone who needs a directional handheld beam for checking a path, an electrical panel area or outdoor surroundings during an outage. Choose a sustainable lower mode for routine work and reserve Turbo for brief inspection. The dual tail switches favour quick control, but a handheld beam occupies one hand: compare the existing HM50R V2.0 headlamp for hands-free tasks or CL26R Pro lantern for area lighting. This is specifically the PD36R Pro, not the original PD36R, V2.0, TAC or ACE. Plan charging before an outage and retain a separate light in case the battery is depleted or misplaced. The owner’s diagonal illustration includes a holster and a small plastic case, but neither the picture nor the manufacturer’s separate package list verifies what the selected Amazon seller supplies.",
+  "specs": [
+    {
+      "label": "Exact model",
+      "value": "PD36R Pro; five steady brightness levels plus strobe",
+      "source": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight"
+    },
+    {
+      "label": "Manufacturer modes",
+      "value": "Turbo 2,800 lm; High 1,000 lm; Medium 350 lm; Low 150 lm; Eco 30 lm",
+      "source": "https://www.fenixlighting.com/blogs/news/everything-to-know-about-fenix-pd36r-pro"
+    },
+    {
+      "label": "Conditional runtime",
+      "value": "Eco 30 lm: up to 42 h. Turbo total 3 h 30 min includes reduced output after stepdown; not constant 2,800 lm.",
+      "source": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight"
+    },
+    {
+      "label": "Beam distance",
+      "value": "Up to 380 m manufacturer FL1 beam-distance figure; not a guaranteed identification distance",
+      "source": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight"
+    },
+    {
+      "label": "Power / recharge",
+      "value": "One compatible 21700 Li-ion battery; documented ARB-L21-5000 5,000 mAh; USB-C charging",
+      "source": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight"
+    },
+    {
+      "label": "Construction",
+      "value": "A6061-T6 aluminium; manufacturer IP68 to 2 m and 1 m impact rating",
+      "source": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight"
+    },
+    {
+      "label": "Size / weight",
+      "value": "145.8 mm length; 26.5 mm head; 169 g including battery",
+      "source": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight"
+    }
+  ],
+  "pros": [
+    "A defined set of brightness levels lets the user choose between short inspection and longer lower-output lighting.",
+    "USB-C charging can fit an existing outage charging plan when the power source meets the instructions.",
+    "Directional handheld lighting complements the different roles of a headlamp and lantern."
+  ],
+  "cons": [
+    "Turbo rapidly produces heat and steps down; the total quoted runtime must not be read as sustained maximum output.",
+    "This light requires the correct 21700 Li-ion cell; AA and AAA rechargeables are not substitutes.",
+    "A narrow handheld beam is less convenient for hands-free work or shared room illumination; retail accessories remain unverified."
+  ],
+  "useCases": [
+    "Households preparing a portable inspection light and a separate reserve before a power outage.",
+    "Outdoor users checking a path from a safe position, with mode selection practised before darkness.",
+    "Buyers comparing a flashlight with the HM50R V2.0 headlamp and CL26R Pro lantern for different lighting tasks."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Fenix PD36R Pro specifications, battery exclusions and runtime/stepdown guidance",
+      "url": "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "modes",
+      "title": "Fenix PD36R Pro brightness-mode and runtime explanation",
+      "url": "https://www.fenixlighting.com/blogs/news/everything-to-know-about-fenix-pd36r-pro",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+      "url": "https://www.amazon.ca/dp/B0H7DDGK7V",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "fenix-hm50r-v2-headlamp",
+    "fenix-cl26r-pro",
+    "motorola-talkabout-t802-review"
+  ],
+  "image": {
+    "src": "/images/blackout/fenix-pd36r-pro-blackout.webp",
+    "alt": "Concept illustration of a diagonal black Fenix PD36R Pro-style flashlight with a black holster and small plastic case inside the complete amber BLACKOUT HUD frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved Phase 7 integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 7 work order associates B0H7DDGK7V with PD36R Pro. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The selected Canadian offer, exact colour, seller, battery authenticity and accessory bundle are uninspected. No hands-on output, runtime, water or impact test has been performed."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0H7DDGK7V",
+      "url": "https://www.amazon.ca/dp/B0H7DDGK7V?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "Owner Phase 7 work order associates B0H7DDGK7V with PD36R Pro. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The selected Canadian offer, exact colour, seller, battery authenticity and accessory bundle are uninspected. No hands-on output, runtime, water or impact test has been performed.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Fenix documents PD36R Pro brightness levels and a compatible 5,000 mAh 21700 cell with USB-C charging. The manufacturer package list does not authenticate the selected Amazon package.",
+        "sourceIds": [
+          "manufacturer",
+          "modes"
+        ]
+      },
+      {
+        "text": "Fenix explains that the Turbo runtime includes heat-driven reduced output. Eco’s up-to-42-hour runtime is a different brightness setting.",
+        "sourceIds": [
+          "manufacturer",
+          "modes"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The selected Canadian offer, exact colour, seller, battery authenticity and accessory bundle are uninspected. No hands-on output, runtime, water or impact test has been performed.",
+      "No price, stock, rating, ownership, physical testing or independent certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Keep the beam out of eyes. High output creates heat; keep the light clear of combustible material and prevent accidental activation during storage according to the manual.",
+      "Use only a compatible battery and charging supply. Fenix specifically excludes ARB-L21-6000 and ARB-L21-6000B from this model; do not assume every 21700 fits.",
+      "Do not charge damaged cells or wet equipment. Follow the delivered manual for polarity, charging, seal maintenance and storage.",
+      "Maximum brightness, runtime, beam distance, impact and water figures are conditional manufacturer tests, not independent measurements or guarantees for a worn unit."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent verification of the selected Canadian offer, delivered model/revision and package remains incomplete.",
+      "Product-specific safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0H7DDGK7V",
+      "checkedAt": "2026-11-01",
+      "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+      "sourceIds": [
+        "manufacturer",
+        "modes",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0H7DDGK7V",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B0H7DDGK7V",
+      "matchedModel": "PD36R Pro",
+      "notes": "Owner Phase 7 work order associates B0H7DDGK7V with PD36R Pro. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The selected Canadian offer, exact colour, seller, battery authenticity and accessory bundle are uninspected. No hands-on output, runtime, water or impact test has been performed."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match PD36R Pro on the listing and delivered light; distinguish PD36R original, V2.0, TAC and ACE.",
+      "Verify compatible battery, charging cable, holster and other package contents against the selected offer. The illustrated plastic case is unverified.",
+      "Plan usable lower-mode runtime and a spare light; do not plan around 3.5 hours of constant 2,800-lumen output.",
+      "Compare handheld, headlamp and lantern roles before buying additional lights with overlapping purposes."
+    ]
+  }
+}

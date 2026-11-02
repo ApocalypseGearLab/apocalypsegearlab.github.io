@@ -1,3 +1,4 @@
+import { PHASE7 } from '../scripts/phase7-preservation.mjs';
 import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
@@ -17,6 +18,7 @@ import { OUTBREAK, PHASE43_FALLOUT, PHASE46_FILTERS, FILTER_2091, PHASE5, PHASE5
 import { productCaution } from '../src/lib/release-policy';
 import { COMPATIBLE_3M_FILTERS } from '../src/lib/respirator-filters';
 const expected = {
+  ...Object.fromEntries(Object.entries(PHASE7).map(([id,[asin,category]])=>[id,[asin,category]])),
   ...OUTBREAK,
   ...PHASE46_FILTERS,
   ...FILTER_2091,
@@ -89,7 +91,7 @@ test('Phase 4.6 appends only three media records and preserves every previous pr
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
   }
   const manifest=JSON.parse(readFileSync('src/data/media/imported-manifest.json','utf8'));
-  assert.equal(manifest.assets.length,41);
+  assert.equal(manifest.assets.length,46);
   assert.deepEqual(manifest.assets.slice(0,26),baseline.importedAssets);
   for(const id of Object.keys(PHASE46_FILTERS)) {
     const asset=manifest.assets.find((a:any)=>a.productId===id);
@@ -303,7 +305,7 @@ test('remaining product holds cannot be bypassed by setting unrelated editorial 
   }
 });
 
-test('forty-one registered links retain exact identities and obey product-level evidence decisions', () => {
+test('forty-six registered links retain exact identities and obey product-level evidence decisions', () => {
   for (const [slug, [asin, category]] of Object.entries(expected)) {
     const raw = rawProducts.get(slug);
     assert.ok(raw, slug);
@@ -312,7 +314,7 @@ test('forty-one registered links retain exact identities and obey product-level 
     assert.equal(data.links.amazonCa.url, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
     assert.equal(new URL(data.links.amazonCa.url!).searchParams.getAll('tag').length, 1);
     assert.equal(data.category, category);
-    assert.equal(categoryUniverse(data.category), slug in OUTBREAK || slug in PHASE46_FILTERS || slug in FILTER_2091 || category === 'fixed-blade-knives' ? 'outbreak' : ['water','first-aid','tools','shelter','food-storage','food-rations','radiation-detection','hygiene-sanitation'].includes(category) ? 'fallout' : 'blackout');
+    assert.equal(categoryUniverse(data.category), slug in PHASE7 ? PHASE7[slug as keyof typeof PHASE7][2] : slug in OUTBREAK || slug in PHASE46_FILTERS || slug in FILTER_2091 || category === 'fixed-blade-knives' ? 'outbreak' : ['water','first-aid','tools','shelter','food-storage','food-rations','radiation-detection','hygiene-sanitation'].includes(category) ? 'fallout' : 'blackout');
     assert.equal(data.testing, 'not-tested');
     assert.equal(data.reviewStatus, 'draft');
     assert.equal(data.visibility, 'informational');
@@ -320,13 +322,13 @@ test('forty-one registered links retain exact identities and obey product-level 
     assert.ok(data.research?.confirmed.length);
     assert.ok(data.description.length > 150);
     assert.ok(data.specs.length >= 5);
-    if(slug in OUTBREAK || slug in PHASE43_FALLOUT || slug in PHASE46_FILTERS || slug in PHASE5 || slug in PHASE53 || slug in BOUGERV || slug in PHASE55) assert.ok(data.image?.src?.startsWith('/images/'+categoryUniverse(data.category)+'/')); else assert.equal(data.image, null);
+    if(slug in PHASE7 || slug in OUTBREAK || slug in PHASE43_FALLOUT || slug in PHASE46_FILTERS || slug in PHASE5 || slug in PHASE53 || slug in BOUGERV || slug in PHASE55) assert.ok(data.image?.src?.startsWith('/images/'+categoryUniverse(data.category)+'/')); else assert.equal(data.image, null);
     for (const key of ['price', 'rating', 'aggregateRating', 'stock', 'discount']) assert.ok(!(key in raw));
     const product = { id: slug, data } as Product;
     const eligible = canadianAffiliateIssues(product).length === 0;
     assert.equal(getMerchantLinks(product, true)[0]?.href, eligible ? data.links.amazonCa.url : null);
     assert.equal(data.research?.listingVerified, false, 'Link activation must not invent listing verification');
-    if(slug in PHASE46_FILTERS || slug in FILTER_2091 || slug in PHASE5 || slug in PHASE53 || slug in BOUGERV || slug in PHASE55 || ['midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket'].includes(slug)) assert.equal(data.research?.listingEvidence?.method,'owner-document');
+    if(slug in PHASE7 || slug in PHASE46_FILTERS || slug in FILTER_2091 || slug in PHASE5 || slug in PHASE53 || slug in BOUGERV || slug in PHASE55 || ['midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket'].includes(slug)) assert.equal(data.research?.listingEvidence?.method,'owner-document');
     else assert.equal(data.research?.listingEvidence, undefined);
     if (eligible) assert.equal(data.research?.affiliateReview?.decision, 'link-permitted');
   }
@@ -350,7 +352,7 @@ test('slugs, ASINs and related records are unique and refer to existing products
       assert.ok(rawProducts.has(related), `${slug} -> ${related}`);
     }
   }
-  assert.equal(asins.size,41);
+  assert.equal(asins.size,46);
 });
 
 test('Kidde and INIU remain blocked and cannot be published by changing only editorial status', () => {
@@ -425,15 +427,15 @@ test('OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits
   }
 });
 
-test('Catalogue has sixteen BLACKOUT, ten FALLOUT and fifteen OUTBREAK profiles with substantive original content', () => {
+test('Catalogue has eighteen BLACKOUT, twelve FALLOUT and sixteen OUTBREAK profiles with substantive original content', () => {
   const products = [...rawProducts].filter(([,raw]) => raw.visibility === 'informational');
-  assert.equal(products.length,41);
+  assert.equal(products.length,46);
   const universes = products.map(([,raw]) => categoryUniverse(productSchema.parse(raw).category));
-  assert.equal(universes.filter(id => id === 'blackout').length, 16);
-  assert.equal(universes.filter(id => id === 'fallout').length, 10);
-  assert.equal(universes.filter(id => id === 'outbreak').length, 15);
-  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size,41);
-  assert.equal(new Set(products.map(([,raw]) => raw.description)).size,41);
+  assert.equal(universes.filter(id => id === 'blackout').length, 18);
+  assert.equal(universes.filter(id => id === 'fallout').length, 12);
+  assert.equal(universes.filter(id => id === 'outbreak').length, 16);
+  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size,46);
+  assert.equal(new Set(products.map(([,raw]) => raw.description)).size,46);
   for (const id of ['fenix-hm50r-v2-headlamp','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','nanuk-904-first-aid-kit','leatherman-wave-plus-multitool','sol-emergency-bivvy']) {
     const raw = rawProducts.get(id);
     assert.ok(raw.editorial.purchaseChecks.length >= 3, id);

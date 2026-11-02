@@ -1,0 +1,188 @@
+{
+  "name": "GQ Electronics GMC-600 Pro Geiger Counter",
+  "brand": "GQ Electronics",
+  "modelNumber": "GMC-600 Pro",
+  "category": "radiation-detection",
+  "outboundPolicy": "amazon-only",
+  "specsStatus": "manufacturer-documented",
+  "summary": "A documented LND 7317 pancake-tube Geiger counter for radiation counting and logging. Interpret its count and dose displays within detector limits; measurement provides no physical radiation protection.",
+  "description": "The GMC-600 Pro is for users prepared to learn radiation counting, establish background conditions and interpret a detector response within a defined procedure. GQ documents an LND 7317 pancake Geiger tube with sensitivity to alpha, beta, gamma and X-ray radiation. A detected count does not identify an isotope or establish that food, water, a location or a person is safe. Counts per minute and counts per second describe count rate; displayed dose-rate values depend on conversion and energy response. For a safety-critical dose assessment, seek an appropriately selected and calibrated instrument and qualified advice rather than reading a consumer display as a clearance decision. Compared with the existing FNIRSI GC-01 profile, the documented detector design and intended measurement task matter more than the colour of a screen. Neither device is shielding, protective clothing or a substitute for emergency instructions.",
+  "specs": [
+    {
+      "label": "Detector",
+      "value": "LND 7317 pancake Geiger-Müller tube",
+      "source": "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889"
+    },
+    {
+      "label": "Documented response",
+      "value": "Alpha, beta, gamma and X-ray; response depends on radiation energy and measurement conditions",
+      "source": "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889"
+    },
+    {
+      "label": "Count units",
+      "value": "CPM and CPS; count-rate displays are distinct from dose-rate estimates",
+      "source": "https://www.gqelectronicsllc.com/GMC-600ProUserGuide.pdf"
+    },
+    {
+      "label": "Dose display units",
+      "value": "µSv/h and mR/h documented in the manual; displayed conversion is not universal dose accuracy",
+      "source": "https://www.gqelectronicsllc.com/GMC-600ProUserGuide.pdf"
+    },
+    {
+      "label": "Logging",
+      "value": "Internal memory logging, USB communication and Wi-Fi server logging; remote services require connectivity",
+      "source": "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889"
+    },
+    {
+      "label": "Current vendor revision",
+      "value": "Current store describes a colour LCD and USB Type-C. Older manual describes a monochrome LCD and mini-USB; match the delivered revision before buying.",
+      "source": "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889"
+    },
+    {
+      "label": "Power",
+      "value": "Internal rechargeable 3.6/3.7 V battery and USB power; replacement compatibility must follow the exact revision instructions",
+      "source": "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889"
+    }
+  ],
+  "pros": [
+    "A documented pancake-tube identity helps a buyer ask specific questions about the measurement task and detector response.",
+    "Count-rate and historical logging can support a repeatable background-comparison exercise when used with an appropriate procedure.",
+    "Local logging and USB power provide options separate from a Wi-Fi server connection."
+  ],
+  "cons": [
+    "It does not identify radionuclides or measure all radiation types and energies equally; a low reading cannot clear an unknown hazard.",
+    "A pancake tube’s response and dose conversion must not be treated as a universal calibrated gamma dose measurement.",
+    "Current vendor page and older manual describe different display and USB hardware; the selected ASIN revision remains unverified."
+  ],
+  "useCases": [
+    "Informed hobbyists learning background counting and instrument limitations without handling unknown radioactive materials.",
+    "Documenting repeat observations under a controlled procedure, with geometry, duration and background kept consistent.",
+    "Users comparing detector technologies for a defined task; professional safety decisions need suitably selected and calibrated equipment."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "GQ current GMC-600 Pro vendor specifications and hardware description",
+      "url": "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "manual",
+      "title": "GQ GMC-600 Pro manual: detector, units and older hardware revision",
+      "url": "https://www.gqelectronicsllc.com/GMC-600ProUserGuide.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "radiation-safety",
+      "title": "CNSC contamination-monitoring guidance: pancake meters and dose-rate limitations",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/resources/frequently-asked-questions/faq-contamination-monitoring/",
+      "kind": "official-safety"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+      "url": "https://www.amazon.ca/dp/B0FHGKCT8D",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "fnirsi-gc-01-geiger-counter",
+    "garrett-pro-pointer-at-review"
+  ],
+  "image": {
+    "src": "/images/fallout/gq-gmc-600-pro-fallout.webp",
+    "alt": "Concept illustration of a black-and-yellow GQ GMC-600 Pro-style Geiger counter with an illustrative colour display inside the complete red FALLOUT HUD frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved Phase 7 integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 7 work order associates B0FHGKCT8D with GMC-600 Pro. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. Selected Canadian listing and hardware revision, supplied detector authenticity, calibration, H*10 filter, accessories and safety-task suitability remain unverified. The artwork is not measurement evidence."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0FHGKCT8D",
+      "url": "https://www.amazon.ca/dp/B0FHGKCT8D?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "Owner Phase 7 work order associates B0FHGKCT8D with GMC-600 Pro. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. Selected Canadian listing and hardware revision, supplied detector authenticity, calibration, H*10 filter, accessories and safety-task suitability remain unverified. The artwork is not measurement evidence.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "GQ identifies the LND 7317 pancake tube and alpha, beta, gamma and X-ray response. Its current store describes colour LCD / USB-C hardware, while the older manual describes monochrome / mini-USB hardware.",
+        "sourceIds": [
+          "manufacturer",
+          "manual"
+        ]
+      },
+      {
+        "text": "The manual documents count-rate and dose-rate display modes. A displayed unit does not establish suitability for a particular radiation-safety task.",
+        "sourceIds": [
+          "manual",
+          "radiation-safety"
+        ]
+      },
+      {
+        "text": "CNSC distinguishes contamination monitoring from gamma dose-rate surveying and explains the filter requirement for pancake meters used as gamma survey meters.",
+        "sourceIds": [
+          "radiation-safety"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Selected Canadian listing and hardware revision, supplied detector authenticity, calibration, H*10 filter, accessories and safety-task suitability remain unverified. The artwork is not measurement evidence.",
+      "No price, stock, rating, ownership, physical testing or independent certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "A radiation detector measures a response; it provides no physical radiation protection and does not establish a safe exposure or safe location. Follow official emergency instructions and qualified radiation-safety advice.",
+      "CNSC guidance cautions against using a pancake contamination meter for gamma dose-rate surveys without an appropriate H*10 filter. No such filter, dose calibration or professional suitability is established for this selected offer.",
+      "Do not collect unknown sources, open suspect material or touch a potentially contaminated surface with the detector. Keep the sensitive detector window protected and follow the exact manual.",
+      "The artwork’s numbers are illustrative, not actual measurements, calibration results or safe-level thresholds. Do not use this profile to clear food, water or an unknown object."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent verification of the selected Canadian offer, delivered model/revision and package remains incomplete.",
+      "Product-specific safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0FHGKCT8D",
+      "checkedAt": "2026-11-01",
+      "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+      "sourceIds": [
+        "manufacturer",
+        "manual",
+        "radiation-safety",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0FHGKCT8D",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B0FHGKCT8D",
+      "matchedModel": "GMC-600 Pro",
+      "notes": "Owner Phase 7 work order associates B0FHGKCT8D with GMC-600 Pro. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. Selected Canadian listing and hardware revision, supplied detector authenticity, calibration, H*10 filter, accessories and safety-task suitability remain unverified. The artwork is not measurement evidence."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match GMC-600 Pro and confirm the LND 7317 detector; do not substitute GMC-600 Plus or another GQ model.",
+      "Ask which hardware revision is supplied: current colour/USB-C description differs from the older monochrome/mini-USB manual. Confirm the matching manual, battery and accessories.",
+      "For any measurement that affects safety, establish the required energy response, calibration, filter and procedure with a qualified specialist.",
+      "Compare the FNIRSI GC-01 reference for a different detector option, or a calibrated task-specific meter when dose assessment is required; no model is interchangeable merely because it displays µSv/h."
+    ]
+  }
+}

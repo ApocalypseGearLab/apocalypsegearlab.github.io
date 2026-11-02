@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { spawnSync } from 'node:child_process';
 import sharp from 'sharp';
 import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
@@ -63,16 +64,16 @@ console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected fi
 
 const supplied=JSON.parse(await readFile('src/data/media/imported-manifest.json','utf8'));
 assert.equal(supplied.provenance.status,'confirmed-by-owner');
-assert.equal(supplied.assets.length,41);
-assert.equal(supplied.assets.filter(asset=>asset.productId).length,41);
-assert.equal(supplied.assets.filter(canPublishImportedAsset).length,40);
-assert.equal(supplied.assets.filter(asset=>asset.category==='fallout').length,10);
-assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,16);
-assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,15);
-assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,41);
-assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,41);
+assert.equal(supplied.assets.length,46);
+assert.equal(supplied.assets.filter(asset=>asset.productId).length,46);
+assert.equal(supplied.assets.filter(canPublishImportedAsset).length,45);
+assert.equal(supplied.assets.filter(asset=>asset.category==='fallout').length,12);
+assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,18);
+assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,16);
+assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,46);
+assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,46);
 const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json').map(file => file.replace(/\.json$/, ''));
-assert.equal(productIds.length,41);
+assert.equal(productIds.length,46);
 assert.deepEqual(productIds.filter(id=>!supplied.assets.some(asset=>asset.productId===id)),[],'Every product maps to its distinct artwork record; Explorer 300 remains rejected');
 const csv=await readFile(supplied.csv,'utf8');
 for(const asset of supplied.assets){
@@ -106,7 +107,7 @@ for(const asset of supplied.assets){
       assert.equal(createHash('sha256').update(original).digest('hex'),asset.source.sha256);
       assert.equal(info.format,'png');assert.equal(info.width,asset.source.width);assert.equal(info.height,asset.source.height);
     }
-    assert.equal(asset.provenance.confirmedAt,['assets/media/bougerv-image-manifest.csv','assets/media/phase5-5-image-manifest.csv'].includes(asset.mappingCsv)?'2026-11-01':['assets/media/phase5-image-manifest.csv','assets/media/phase5-3-image-manifest.csv'].includes(asset.mappingCsv)?'2026-10-31':['assets/media/phase4-6-image-manifest.csv','assets/media/phase4-7-image-manifest.csv'].includes(asset.mappingCsv)?'2026-10-29':asset.mappingCsv==='assets/media/phase4-3-image-manifest.csv'?'2026-10-28':'2026-10-27');
+    assert.equal(asset.provenance.confirmedAt,['assets/media/bougerv-image-manifest.csv','assets/media/phase5-5-image-manifest.csv','assets/media/phase7-image-manifest.csv'].includes(asset.mappingCsv)?'2026-11-01':['assets/media/phase5-image-manifest.csv','assets/media/phase5-3-image-manifest.csv'].includes(asset.mappingCsv)?'2026-10-31':['assets/media/phase4-6-image-manifest.csv','assets/media/phase4-7-image-manifest.csv'].includes(asset.mappingCsv)?'2026-10-29':asset.mappingCsv==='assets/media/phase4-3-image-manifest.csv'?'2026-10-28':'2026-10-27');
     assert.equal(asset.encoding.recolor,false);
     assert.equal(asset.encoding.crop,false);
     assert.deepEqual(asset.variants.map(variant=>variant.width),[480,960,1254]);
@@ -124,7 +125,7 @@ for(const asset of supplied.assets){
   }
   if(asset.productId==='jackery-explorer-300')assert.equal(asset.accuracyStatus,'rejected');
 }
-console.log('Verified all 41 product mappings, CSV associations, hash-verified bytes, 40 approved illustrations and 1 rejected asset, all mapped to distinct products.');
+console.log('Verified all 46 product mappings, CSV associations, hash-verified bytes, 45 approved illustrations and 1 rejected asset, all mapped to distinct products.');
 
 // Superseded sources are retained for traceability, never selected as fallbacks.
 assert.equal(supplied.assets.filter(asset=>asset.replacement).length,3);
@@ -136,3 +137,6 @@ for(const preserved of [...preservation.unchangedProductIllustrations,...preserv
   assert.equal(createHash('sha256').update(await readFile(preserved.file)).digest('hex'),preserved.sha256,`Unexpected recompression: ${preserved.file}`);
 }
 console.log('Confirmed byte-for-byte preservation of the other 11 product illustrations and all 3 bunker variants against the Phase 4.1 baseline.');
+const phase7Encoding=spawnSync(process.execPath,['scripts/build-phase7-media.mjs','--check'],{encoding:'utf8',windowsHide:true});
+assert.equal(phase7Encoding.status,0,phase7Encoding.stdout+'\n'+phase7Encoding.stderr);
+console.log(phase7Encoding.stdout.trim());
