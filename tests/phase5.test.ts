@@ -25,10 +25,10 @@ test('Phase 5 preserves all existing products, policy, tracking and media while 
 if(CONVERSION_INTEGRATION_FILES.has(row.file)||['scripts/verify-products.mjs','scripts/verify-site.mjs'].includes(row.file))continue; // Additive fixture/site assertions are exercised in CI; core-indexation tests protect unchanged product safeguards.
     const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);}
   assert.deepEqual(importedMedia.slice(0,30),baseline.previousAssets);
-  assert.equal(importedMedia.length,41);
+  assert.equal(importedMedia.length,46);
   const categories=[...baseline.categoriesSource.matchAll(/\{ id: '([^']+)', label: '([^']+)', universe: '([^']+)' \}/g)].map((m:any)=>({id:m[1],label:m[2],universe:m[3]}));
   assert.deepEqual(CATEGORIES.slice(0,categories.length),categories);
-  assert.deepEqual(CATEGORIES.slice(categories.length).map(c=>c.id),['fixed-blade-knives','hygiene-sanitation','portable-refrigeration','temperature-monitoring','rechargeable-batteries']);
+  assert.deepEqual(CATEGORIES.slice(categories.length).map(c=>c.id),['fixed-blade-knives','hygiene-sanitation','portable-refrigeration','temperature-monitoring','rechargeable-batteries','optics-observation','metal-detection']);
 });
 
 for(const [id,[asin,category,active]]of Object.entries(PHASE5))test(`${id} preserves exact Canadian identity and its documented product-level decision`,()=>{
@@ -62,8 +62,8 @@ test('four supplied originals map to unique three-size WebPs without changing ol
     assert.match(asset.alt,/^Concept illustration/);assert.match(asset.provenance.scope,/not independent/);
     assert.ok(record.fullSizeReductionPercent>80);
   }
-  assert.equal(new Set(importedMedia.map(a=>a.productId)).size,41);
-  assert.equal(importedMedia.filter(canPublishImportedAsset).length,40);
+  assert.equal(new Set(importedMedia.map(a=>a.productId)).size,46);
+  assert.equal(importedMedia.filter(canPublishImportedAsset).length,45);
 });
 
 test('Royale physical roll count and Garberg offer uncertainty remain explicit instead of becoming invented commercial facts',()=>{

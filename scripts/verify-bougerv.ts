@@ -1,3 +1,4 @@
+import { imagesBeforePhase7 } from './phase7-preservation.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -13,7 +14,7 @@ const stems=['bougerv-53-quart-refrigerator-blackout','bougerv-rocky-v3-55qt-dua
 for(const old of before.pages){
  const $=load(read('dist'+old.path+(old.path.endsWith('/')?'index.html':'')));
  const row={path:old.path,title:$('title').text(),description:$('meta[name=description]').attr('content'),robots:$('meta[name=robots]').attr('content')??null,canonical:$('link[rel=canonical]').attr('href'),h1:$('h1').text(),schemas:$('script[type="application/ld+json"]').map((_,e)=>JSON.parse($(e).text())).get(),images:$('main img').toArray().filter(e=>!stems.some(stem=>($(e).attr('src')??'').includes(stem))).map(e=>Object.fromEntries(['src','srcset','sizes','alt','width','height','loading','fetchpriority'].map(a=>[a,$(e).attr(a)??null])))};
- row.schemas=schemasBeforeBrandLogo(old.path,row.schemas);
+ row.images=imagesBeforePhase7(old.path,row.images);row.schemas=schemasBeforeBrandLogo(old.path,row.schemas);
  if(['/gear/','/blackout/','/fallout/','/outbreak/'].includes(old.path)){
   assert.deepEqual(row.schemas.map(schema=>schema['@type']),['BreadcrumbList','ItemList']);
   // Phase 6 core metadata/schema changes are intentional; every original

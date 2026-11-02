@@ -34,7 +34,7 @@ test('account disclosure and distinct product states remain readable, accessible
  test.setTimeout(120_000);mkdirSync('.tools/qa/account-status',{recursive:true});const rows:any[]=[];
  for(const width of [320,375,768,1024,1440,1920]){
   await page.setViewportSize({width,height:1000});await page.goto('/gear/');
-  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(36);
+  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(41);
   await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(5);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   const violations=(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations;expect(violations).toEqual([]);rows.push({path:'/gear/',width,axeViolations:0});

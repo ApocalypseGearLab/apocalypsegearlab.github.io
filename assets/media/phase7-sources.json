@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "confirmedAt": "2026-11-01",
+  "scope": "Owner-authorised use of these five supplied concept illustrations only; not independent product or listing approval.",
+  "encoding": {
+    "format": "webp",
+    "quality": 85,
+    "effort": 6,
+    "crop": false,
+    "recolor": false
+  },
+  "assets": [
+    {
+      "id": "vortex-diamondback-hd-10x42-outbreak",
+      "category": "outbreak",
+      "productId": "vortex-diamondback-hd-10x42-review",
+      "sourceOriginalName": "Jumelles Vortex Diamondback HD néon vert.png",
+      "master": "assets/media/outbreak/originals/vortex-diamondback-hd-10x42-outbreak.png",
+      "sourceSha256": "e7d3d07b434bc465702bb3b6bb9fffdd3a4d524e5de5ecd1630cd615628ab78a",
+      "captionNote": "Camouflage and labels are illustrative; confirm DB-215-OBL and the selected 10×42 retail variant.",
+      "reviewNote": "Compared with the Vortex DB-215-OBL product reference: twin optical barrels, camouflage armour, central hinge and focus wheel are consistent with the intended binocular form. Illustration is not proof of the exact camouflage pattern, small labels or supplied accessories. Full green HUD and source colours retained.",
+      "references": [
+        "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+      ]
+    },
+    {
+      "id": "garrett-pro-pointer-at-fallout",
+      "category": "fallout",
+      "productId": "garrett-pro-pointer-at-review",
+      "sourceOriginalName": "Détecteur Garrett Pro-Pointer AT en lumière orange.png",
+      "master": "assets/media/fallout/originals/garrett-pro-pointer-at-fallout.png",
+      "sourceSha256": "8cdd59cdc4243a330f35aae9e494d84701900a14a5763b43eda199559b14a54d",
+      "captionNote": "Metal pinpointer, not a radiation detector. Original orange artwork retained; pictured battery and holster do not confirm retail contents.",
+      "reviewNote": "Compared with Garrett’s standard Pro-Pointer AT reference and manual: orange tapered housing, side button, black end cap and holster fit the intended form. Supplied revision has no USA flag sticker. Small lettering, battery brand and kit contents remain illustrative. FALLOUT is editorial classification; the original orange HUD is not recoloured.",
+      "references": [
+        "https://garrett.com/garrett-pro-pointer-at/?d=sport",
+        "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf"
+      ]
+    },
+    {
+      "id": "gq-gmc-600-pro-fallout",
+      "category": "fallout",
+      "productId": "gq-gmc-600-pro-review",
+      "sourceOriginalName": "Compteur Geiger GQ GMC-600 PROocalypsique.png",
+      "master": "assets/media/fallout/originals/gq-gmc-600-pro-fallout.png",
+      "sourceSha256": "de7e32bfa46557222c95fd8bb9665f80c90d3d1eca2402e91f54e9a30d906522",
+      "captionNote": "Display values are invented illustration details, not real measurements or safety thresholds. Confirm the supplied hardware revision.",
+      "reviewNote": "Compared with GQ’s current colour-LCD product description and older manual: the intended GMC-600 Pro name and handheld form are recognisable, but the depicted screen, casing, labels and readings do not authenticate a retail revision. LND 7317 is documented, not inferred from artwork. Complete red HUD and all source pixels retained before resizing.",
+      "references": [
+        "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889",
+        "https://www.gqelectronicsllc.com/GMC-600ProUserGuide.pdf",
+        "https://www.cnsc-ccsn.gc.ca/eng/resources/frequently-asked-questions/faq-contamination-monitoring/"
+      ]
+    },
+    {
+      "id": "fenix-pd36r-pro-blackout",
+      "category": "blackout",
+      "productId": "fenix-pd36r-pro-review",
+      "sourceOriginalName": "Lampe tactique Fenix sur fond futuriste.png",
+      "master": "assets/media/blackout/originals/fenix-pd36r-pro-blackout.png",
+      "sourceSha256": "3b3f8e6d8fb86d62a8e7dad549dd29725a06fec97fd4f0ee77f55ef350e708b6",
+      "captionNote": "Holster and plastic case are illustrative; included accessories and battery must be checked against the selected retail offer.",
+      "reviewNote": "Compared with Fenix’s PD36R Pro reference: black cylindrical body, pocket clip, head and dual-tail-control form fit the intended handheld light. Small lettering, internal components and depicted accessories cannot authenticate the retail package. Original diagonal composition and amber frame retained without crop or recolouring.",
+      "references": [
+        "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight",
+        "https://www.fenixlighting.com/blogs/news/everything-to-know-about-fenix-pd36r-pro"
+      ]
+    },
+    {
+      "id": "motorola-talkabout-t802-blackout",
+      "category": "blackout",
+      "productId": "motorola-talkabout-t802-review",
+      "sourceOriginalName": "Talkies-walkies Motorola futuristes en lumière orange.png",
+      "master": "assets/media/blackout/originals/motorola-talkabout-t802-blackout.png",
+      "sourceSha256": "c96da804c9ed8918bdc6c2de3caae81158a30e705e8763b25cc3859425d54dc1",
+      "captionNote": "Two-radio concept illustration; display values and accessories do not verify the selected Canadian package, radio range or certification.",
+      "reviewNote": "Compared with the Motorola T802/T803 manufacturer datasheet and radio overview: black/blue trim, two upright radios and control/display arrangement resemble the documented T802. Tiny labels and display values are illustrative and do not prove firmware, compliance or delivered contents. Exactly two radios and the full original amber HUD are retained.",
+      "references": [
+        "https://www.motorolasolutions.com/en_us/products/two-way-radios/consumer-two-way-radios/talkabout-t802-t803.html",
+        "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf",
+        "https://www.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/consumer/t802-t803/t802-t803-talkabout_data-sheet_1023_rc.pdf"
+      ]
+    }
+  ]
+}

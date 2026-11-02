@@ -1,3 +1,4 @@
+import { imagesBeforePhase7 } from './phase7-preservation.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync,writeFileSync,mkdirSync} from 'node:fs';
 import {resolve,sep} from 'node:path';
@@ -38,6 +39,7 @@ for(const file of pages){
    const added=new Set(['ecoflow-delta-2-blackout','bluetti-elite-100-v2-solar-kit-blackout','bougerv-53-quart-refrigerator-blackout','bougerv-rocky-v3-55qt-dual-zone-blackout','oria-wireless-fridge-freezer-thermometer-blackout','panasonic-eneloop-aa-bq-cc17-kit-blackout','panasonic-eneloop-aaa-bq-cc17-kit-blackout'].flatMap(stem=>[480,960,1254].map(width=>'/images/blackout/'+stem+(width===1254?'':'-'+width)+'.webp')));
    meta.images=meta.images.filter(img=>!added.has(img.src??''));
   }
+  meta.images=imagesBeforePhase7(path,meta.images);
   if(path==='/gear/'){
    // Intentional catalogue-only SEO correction. Product metadata and all
    // unrelated page attributes still use the historical exact comparison.

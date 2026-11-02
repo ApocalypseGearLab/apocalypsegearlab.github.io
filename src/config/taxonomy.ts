@@ -40,6 +40,8 @@ export const CATEGORIES = [
   { id: 'portable-refrigeration', label: 'Portable refrigeration & freezers', universe: 'blackout' },
   { id: 'temperature-monitoring', label: 'Temperature monitoring & food preservation', universe: 'blackout' },
   { id: 'rechargeable-batteries', label: 'Rechargeable batteries & charging accessories', universe: 'blackout' },
+  { id: 'optics-observation', label: 'Optics & observation', universe: 'outbreak' },
+  { id: 'metal-detection', label: 'Exploration & metal detection', universe: 'fallout' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

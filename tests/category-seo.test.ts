@@ -21,7 +21,7 @@ test('category indexability depends only on its own editorial readiness and prev
 
 test('a catalogue of entirely unapproved informational profiles remains independently indexable',()=>{
  const products=readdirSync('src/data/products').filter(f=>f.endsWith('.json')&&!f.startsWith('template')).map(f=>({id:f.replace(/\.json$/,''),data:productSchema.parse(JSON.parse(readFileSync('src/data/products/'+f,'utf8')))}as Product));
- assert.equal(products.length,41);assert.equal(products.some(isCommerciallyApproved),false);
+ assert.equal(products.length,46);assert.equal(products.some(isCommerciallyApproved),false);
  assert.equal(categoryPageCanBeIndexed(CATALOGUE_EDITORIAL_READY),true);
  // The actual production HTML assertion is in test:site and Playwright. Keep
  // the renderer free of the old catalogue-wide commercial approval predicate.

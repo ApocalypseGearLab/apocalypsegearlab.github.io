@@ -1,0 +1,160 @@
+{
+  "name": "Vortex Diamondback HD 10×42 — Mossy Oak Bottomland",
+  "brand": "Vortex",
+  "modelNumber": "DB-215-OBL",
+  "category": "optics-observation",
+  "outboundPolicy": "amazon-only",
+  "specsStatus": "manufacturer-documented",
+  "summary": "Battery-free 10×42 binoculars for daytime outdoor observation. The DB-215-OBL camouflage variant pairs a 330 ft field of view at 1,000 yd with a documented 21.3 oz weight.",
+  "description": "For someone who wants to examine a trail junction, shoreline or distant landmark before moving closer, binoculars add observation without consuming a phone battery. This profile covers only the Diamondback HD 10×42 in Mossy Oak Bottomland, manufacturer reference DB-215-OBL. Set the interpupillary distance and diopter for your eyes before leaving, then practise finding a stationary subject. Ten-power magnification makes distant detail easier to inspect, but hand movement also becomes more visible. Compare an 8×42 if steadiness matters more than extra magnification, or a 10×50 if you can carry larger optics; neither is the variant documented here. These are conventional daylight binoculars, without electronic night vision, thermal imaging, a rangefinder or a navigation function. Pair observation with a map and a safe route rather than treating a clearer view as permission to enter unfamiliar ground.",
+  "specs": [
+    {
+      "label": "Exact variant",
+      "value": "DB-215-OBL; Diamondback HD 10×42, Mossy Oak Bottomland",
+      "source": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+    },
+    {
+      "label": "Optics",
+      "value": "10× magnification; 42 mm objective lenses",
+      "source": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+    },
+    {
+      "label": "Field of view",
+      "value": "330 ft at 1,000 yd; 6.3° angular field",
+      "source": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+    },
+    {
+      "label": "Eye relief / fit",
+      "value": "15.0 mm eye relief; 55–73 mm interpupillary adjustment",
+      "source": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+    },
+    {
+      "label": "Close focus",
+      "value": "5.0 ft manufacturer minimum",
+      "source": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+    },
+    {
+      "label": "Size / weight",
+      "value": "5.7 in high × 5.1 in wide; 21.3 oz manufacturer weight",
+      "source": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+    },
+    {
+      "label": "Weather construction",
+      "value": "Argon purging and O-ring sealing; manufacturer describes waterproof/fogproof construction, without a submersion depth on this reference page",
+      "source": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+    }
+  ],
+  "pros": [
+    "Optical observation does not require a charging plan or mobile signal.",
+    "The documented fit adjustment and eye relief provide useful measurements to check before purchasing, especially with glasses.",
+    "The 42 mm objective format offers a defined size to compare against larger binoculars when packing."
+  ],
+  "cons": [
+    "10× magnification demands a steady hold; try the fit and stability rather than assuming more magnification is always better.",
+    "15 mm eye relief may not suit every eyeglass wearer; a specification cannot establish personal comfort.",
+    "Camouflage, case contents and the current Canadian seller are not independently matched to the selected ASIN."
+  ],
+  "useCases": [
+    "Day hikers and campsite users who want to inspect distant terrain from an established, safe position.",
+    "Outdoor observers who prefer conventional optics over another rechargeable device.",
+    "Route planning alongside the Garmin GPSMAP 67i profile: binoculars help observe; they do not supply coordinates or emergency communication."
+  ],
+  "sources": [
+    {
+      "id": "manufacturer",
+      "title": "Vortex exact DB-215-OBL variant and optical specifications",
+      "url": "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner Phase 7 work order: intended Canadian ASIN / model association; not a live listing inspection",
+      "url": "https://www.amazon.ca/dp/B0GQCTM4DH",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "garmin-gpsmap-67i-satellite-gps",
+    "motorola-talkabout-t802-review",
+    "511-tactical-rush72-2-backpack"
+  ],
+  "image": {
+    "src": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+    "alt": "Concept illustration of camouflage Vortex Diamondback HD-style binoculars with green objective lenses inside the complete green OUTBREAK HUD frame",
+    "credit": "ApocalypseGearLab owner-supplied concept illustration",
+    "license": "Owner-approved Phase 7 integration; see media provenance record"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Owner Phase 7 work order associates B0GQCTM4DH with DB-215-OBL. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The selected Amazon title, finish, seller and included accessories remain uninspected. Personal eyeglass fit, optical performance and weather resistance have not been physically tested."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0GQCTM4DH",
+      "url": "https://www.amazon.ca/dp/B0GQCTM4DH?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "research": {
+    "checkedAt": "2026-11-01",
+    "identityNotes": "Owner Phase 7 work order associates B0GQCTM4DH with DB-215-OBL. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The selected Amazon title, finish, seller and included accessories remain uninspected. Personal eyeglass fit, optical performance and weather resistance have not been physically tested.",
+    "listingVerified": false,
+    "confirmed": [
+      {
+        "text": "Vortex identifies DB-215-OBL as the Mossy Oak Bottomland Diamondback HD 10×42 and lists its optical, fit and weight specifications.",
+        "sourceIds": [
+          "manufacturer"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The selected Amazon title, finish, seller and included accessories remain uninspected. Personal eyeglass fit, optical performance and weather resistance have not been physically tested.",
+      "No price, stock, rating, ownership, physical testing or independent certification of a supplied unit is established."
+    ],
+    "safetyNotes": [
+      "Never look at the Sun through binoculars; concentrated sunlight can cause serious eye injury.",
+      "Stop walking before raising the binoculars. Keep enough awareness of edges, traffic and people around you to remain in a safe viewing position.",
+      "Fit the strap or harness securely and protect the lenses. Waterproof wording does not establish a depth or permit intentional submersion."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent verification of the selected Canadian offer, delivered model/revision and package remains incomplete.",
+      "Product-specific safety review and editorial publication approval remain pending."
+    ],
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0GQCTM4DH",
+      "checkedAt": "2026-11-01",
+      "reason": "The existing recorded-link policy permits this owner-supplied Canadian ASIN / model association. Manufacturer documentation establishes the intended model; no concrete contradictory selected-ASIN evidence or mandatory hold was found. This permits a recorded retailer link only; it does not verify the current listing, Canadian unit certification, package, safety or SEO publication.",
+      "sourceIds": [
+        "manufacturer",
+        "owner-reference"
+      ]
+    },
+    "listingEvidence": {
+      "url": "https://www.amazon.ca/dp/B0GQCTM4DH",
+      "checkedAt": "2026-11-01",
+      "method": "owner-document",
+      "matchedAsin": "B0GQCTM4DH",
+      "matchedModel": "DB-215-OBL",
+      "notes": "Owner Phase 7 work order associates B0GQCTM4DH with DB-215-OBL. Amazon.ca was inaccessible through the web reader; the live title, selected variant and seller could not be inspected. No HTTP status, invalid-ASIN finding or independent listing verification is inferred. The selected Amazon title, finish, seller and included accessories remain uninspected. Personal eyeglass fit, optical performance and weather resistance have not been physically tested."
+    }
+  },
+  "editorial": {
+    "purchaseChecks": [
+      "Match DB-215-OBL, 10×42 and Mossy Oak Bottomland on the selected offer and delivered packaging; do not substitute 8×42, 10×50 or another finish.",
+      "Try the 55–73 mm fit range, eyecups, diopter and usable eye relief with your usual glasses.",
+      "Confirm Canadian warranty terms, seller and accessories. Manufacturer bundle descriptions do not establish this Amazon offer’s contents.",
+      "Compare steadiness, packed size and fit against an 8×42 or 10×50 before choosing magnification."
+    ]
+  }
+}

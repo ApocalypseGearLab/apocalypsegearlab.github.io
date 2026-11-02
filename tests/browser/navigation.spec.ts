@@ -89,7 +89,7 @@ test('mobile drawer manages focus, collapse, outside clicks, scroll restoration 
   await page.setViewportSize({ width: 375, height: 812 });
   await expect(toggle).toHaveAttribute('aria-expanded', 'false');
   await toggle.click(); await page.getByRole('button', { name: 'Expand OUTBREAK categories' }).click();
-  await page.locator('#menu-outbreak .category-link').last().click();
+  await page.locator('#menu-outbreak .category-link[data-category="fixed-blade-knives"]').click();
   await expect(page.getByLabel('Equipment category', { exact: true })).toHaveValue('fixed-blade-knives');
   await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(categories.find(category => category.id === 'fixed-blade-knives')!.count);
   expect(await page.locator('body').evaluate(node => node.style.overflow)).toBe('');
@@ -114,7 +114,7 @@ test('every category matches the source and resolves to a working initial and sa
   await page.locator(`header .category-link[data-category="${first.id}"]`).click();
   await expect(page.getByLabel('Equipment category', { exact: true })).toHaveValue(first.id);
   await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(first.count);
-  await page.getByRole('button', { name: 'Clear filters' }).click(); await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(41);
+  await page.getByRole('button', { name: 'Clear filters' }).click(); await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(46);
   const xml = await (await request.get('/sitemap-0.xml')).text(); expect((xml.match(/<loc>/g) ?? []).length).toBe(7); expect(xml).not.toContain('#category-');
 });
 
@@ -126,7 +126,7 @@ for (const width of [320, 1440]) test(`all category destinations remain native a
     await expect(page.locator('header .category-link')).toHaveCount(categories.length);
     await page.locator('header .category-link').first().click();
     await expect(page).toHaveURL(/\/gear\/#category-/);
-    await expect(page.locator('[data-catalogue-entry]')).toHaveCount(41);
+    await expect(page.locator('[data-catalogue-entry]')).toHaveCount(46);
     for (const category of categories) await expect(page.locator(`#category-${category.id}`)).toHaveCount(1);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   } finally { await context.close(); }
