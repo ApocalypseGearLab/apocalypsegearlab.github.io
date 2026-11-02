@@ -1,5 +1,6 @@
 ---
 import { SITE, UNIVERSES } from '../config/site';
+import { BRAND } from '../config/branding';
 import { UNIVERSE_IDS } from '../config/taxonomy';
 import { getVisibleProducts } from '../lib/products';
 import { populatedCategories } from '../lib/category-navigation';
@@ -12,7 +13,7 @@ const active = (href: string) => path === href ? 'page' : undefined;
   <div class="container site-header__inner">
     <div class="identity-row">
       <a class="brand" href="/" aria-label={`${SITE.name} home`}>
-        <svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,4 56,18 56,46 32,60 8,46 8,18" fill="none" stroke="currentColor" stroke-width="5"></polygon><circle cx="32" cy="32" r="7" fill="currentColor"></circle></svg>
+        <img class="brand__emblem" src={BRAND.logo} srcset={BRAND.srcset} sizes={BRAND.sizes} width="128" height="128" alt="" aria-hidden="true" loading="eager" decoding="async" />
         <span>{SITE.name}</span>
       </a>
       <span class="index-label">EQUIPMENT INTELLIGENCE <span aria-hidden="true">/</span> THREE SECTORS</span>
@@ -135,12 +136,12 @@ const active = (href: string) => path === href ? 'page' : undefined;
 </script>
 
 <style>
-  .site-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid #41454a; background: #111416; }
+  .site-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid #41454a; background: #000; }
   :global(html:not(.js)) .site-header { position: relative; }
   .site-header__inner { position: static; }
   .identity-row { min-height: 3.75rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
   .brand { display: inline-flex; align-items: center; gap: .65rem; color: var(--c-amber); font: 700 1.1rem var(--f-display); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; }
-  .brand svg { flex-shrink: 0; }
+  .brand__emblem { width: 48px; height: 48px; flex-shrink: 0; object-fit: contain; background: #000; }
   .index-label, .menu-eyebrow, .menu-foot { font: .68rem var(--f-mono); letter-spacing: .09em; color: #aeb5ba; }
   .index-label > span { color: #cda351; margin-inline: .6rem; }
   .site-nav ul { list-style: none; margin: 0; padding: 0; }
@@ -183,8 +184,8 @@ const active = (href: string) => path === href ? 'page' : undefined;
   }
   @media (max-width: 63.999rem) {
     .identity-row { min-height: 4rem; gap: .4rem; }
-    .brand { font-size: .85rem; letter-spacing: .025em; gap: .4rem; }
-    .brand svg { width: 24px; height: 24px; }
+    .brand { font-size: clamp(.73rem, 3.2vw, .85rem); letter-spacing: .015em; gap: .4rem; min-width: 0; }
+    .brand__emblem { width: 38px; height: 38px; }
     .index-label, .mega-toggle { display: none; }
     :global(.js) .primary-links > .desktop-sector { display: none; }
     :global(.js) .nav-toggle { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.75rem; padding: .4rem .55rem; border: 1px solid #4d555c; color: #e0e4e7; background: #1c2125; font: .8rem var(--f-mono); cursor: pointer; }

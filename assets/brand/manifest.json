@@ -1,0 +1,80 @@
+{
+  "sourceSha256": "066aec2bf0a97d6823ed6794f02d3312e14597822af2529296c7cf1fb2563ff8",
+  "source": "User-supplied official ApocalypseGearLab emblem",
+  "preparation": "Preserved opaque original. Whole-canvas Lanczos3 resizing; lossless WebP/PNG. No crop, geometry edits, colour-keying or invented vector.",
+  "transparency": "Retained original black background to preserve internal shadows, negative spaces and fine glowing edges.",
+  "assets": [
+    {
+      "file": "assets/brand/brand-logo-master.png",
+      "url": null,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1882008,
+      "sha256": "066aec2bf0a97d6823ed6794f02d3312e14597822af2529296c7cf1fb2563ff8",
+      "hasAlpha": false
+    },
+    {
+      "file": "public/brand/brand-logo-512.webp",
+      "url": "/brand/brand-logo-512.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 264740,
+      "sha256": "dbfea22390a4784f4f1dd747df5529257e9afff9fbeccb6880a05b3198ebffe7",
+      "hasAlpha": false
+    },
+    {
+      "file": "public/brand/brand-logo-256.webp",
+      "url": "/brand/brand-logo-256.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 77666,
+      "sha256": "c288bc8bf649b6a0d2a726a2d6dc36a5c523386a5e865a7526b3a448a6b47357",
+      "hasAlpha": false
+    },
+    {
+      "file": "public/brand/brand-logo-128.webp",
+      "url": "/brand/brand-logo-128.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 22596,
+      "sha256": "55a30a238ec18411533acef3b486fe6af815fea6511688332002c91d24d5102b",
+      "hasAlpha": false
+    },
+    {
+      "file": "public/brand/brand-logo-64.webp",
+      "url": "/brand/brand-logo-64.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 6132,
+      "sha256": "810d25b83823f3f42edd7e8bc500cb3c1cf60aaa3f5256665f132d52a7b69562",
+      "hasAlpha": false
+    },
+    {
+      "file": "public/favicon-32.png",
+      "url": "/favicon-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1968,
+      "sha256": "4adf6b63217da57f95f0bdd5581d8de411e0168186712f2b4a9a698193a9247d",
+      "hasAlpha": false
+    },
+    {
+      "file": "public/favicon-16.png",
+      "url": "/favicon-16.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 673,
+      "sha256": "c843b1cf001cc90adb65626ee6c63127aa30f5772508b38d85134e6a50ab4659",
+      "hasAlpha": false
+    },
+    {
+      "file": "public/apple-touch-icon.png",
+      "url": "/apple-touch-icon.png",
+      "width": 180,
+      "height": 180,
+      "bytes": 43380,
+      "sha256": "87ae6bff5c1e36c48df763780b9a958eec84d032b7901aef8818299fc84c76e4",
+      "hasAlpha": false
+    }
+  ]
+}

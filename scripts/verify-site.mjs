@@ -11,6 +11,9 @@ const commercialState = new Map(JSON.parse(policy.stdout).products.map(row=>[row
 const root = resolve('dist');
 assert.ok(existsSync(root), 'Run npm run build first');
 const site = 'https://apocalypsegearlab.github.io';
+const brandingBefore=JSON.parse(readFileSync('docs/qa/branding/seo-before.json','utf8'));
+assert.equal(brandingBefore.baseCommit,'00af8b6dc543619981a4646331f08688933d4c9e');
+assert.equal(brandingBefore.pages.length,49);
 const taxonomy = readFileSync('src/config/taxonomy.ts', 'utf8');
 const universeFor = (category) => {
   const match = [...taxonomy.matchAll(/id: '([^']+)', label: '[^']+', universe: '([^']+)'/g)].find((entry) => entry[1] === category);
@@ -31,6 +34,9 @@ for (const file of files) {
   const pathname = `/${file.split(sep).join('/')}`.replace(/index\.html$/, '');
   const html = readFileSync(resolve(root, file), 'utf8');
   const $ = load(html);
+  const previousSEO=brandingBefore.pages.find(page=>page.path===pathname);
+  assert.ok(previousSEO,'Existing page has a baseline: '+pathname);
+  assert.deepEqual({path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()},previousSEO,'Branding preserves SEO and social metadata: '+pathname);
   assert.equal($('meta[name="google-site-verification"]').length, 1, file);
   assert.equal($('meta[name="google-site-verification"]').attr('content'), 'L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk', file);
   assert.equal($('script[src*="googletagmanager.com/gtag/js"]').length, 1, file);
@@ -41,6 +47,13 @@ for (const file of files) {
   assert.equal($('html').attr('lang'), 'en', file);
   assert.equal($('h1').length, 1, file);
   assert.equal($('main#main').length, 1, file);
+  assert.equal($('body > header .brand__emblem').length, 1, 'One official emblem per header: '+file);
+  assert.equal($('body > header .brand__emblem').attr('src'), '/brand/brand-logo-128.webp');
+  assert.equal($('body > header .brand__emblem').attr('width'), '128');
+  assert.equal($('body > header .brand__emblem').attr('height'), '128');
+  for (const size of [16,32]) assert.equal($(`link[rel="icon"][sizes="${size}x${size}"]`).attr('href'), `/favicon-${size}.png`);
+  assert.equal($('link[rel="icon"]').length, 2);
+  assert.equal($('link[rel="apple-touch-icon"]').attr('href'), '/apple-touch-icon.png');
   assert.equal($('title').length, 1, file);
   assert.ok($('title').text().trim(), file);
   assert.ok(!titles.has($('title').text()), `Duplicate title: ${file}`);
@@ -123,7 +136,11 @@ for (const [file, $] of documents) {
   });
   $('img[srcset]').each((_, image) => {
     assert.ok(Number($(image).attr('width')) > 0 && Number($(image).attr('height')) > 0, 'Image needs intrinsic dimensions');
-    assert.ok($(image).attr('alt')?.trim(), 'Useful image needs alt text');
+    if ($(image).hasClass('brand__emblem')) {
+      assert.equal($(image).attr('alt'), '', 'Adjacent brand name supplies the accessible name');
+      assert.equal($(image).attr('aria-hidden'), 'true');
+      assert.equal($(image).closest('a.brand').attr('aria-label'), 'ApocalypseGearLab home');
+    } else assert.ok($(image).attr('alt')?.trim(), 'Useful image needs alt text');
     assert.ok($(image).attr('sizes'), 'Responsive image needs sizes');
     for (const candidate of $(image).attr('srcset').split(',')) {
       const [src, width] = candidate.trim().split(/\s+/);
@@ -138,6 +155,12 @@ for (const [file, $] of documents) {
 const sitemapIndex = load(readFileSync(resolve(root, 'sitemap-index.xml'), 'utf8'), { xmlMode: true });
 assert.equal(readFileSync(resolve(root, 'sitemap.xml'), 'utf8'), readFileSync(resolve(root, 'sitemap-index.xml'), 'utf8'), 'Preserve the original sitemap.xml URL');
 const home = documents.get(resolve(root, 'index.html'));
+const homeSchema=home('script[type="application/ld+json"]').map((_,node)=>JSON.parse(home(node).text())).get();
+assert.equal(homeSchema.filter(schema=>schema['@type']==='Organization').length,1);
+assert.equal(homeSchema.filter(schema=>schema['@type']==='WebSite').length,1);
+assert.equal(homeSchema.find(schema=>schema['@type']==='Organization').logo,site+'/brand/brand-logo-512.webp');
+assert.ok(existsSync(fileFor('/brand/brand-logo-512.webp')));
+assert.equal(existsSync(fileFor('/brand/brand-logo-master.png')),false,'The full-size original is not a page download');
 const mediaReview = JSON.parse(readFileSync('src/data/media/review.json', 'utf8'));
 const heroAllowed = mediaReview.assets.hero?.rightsStatus === 'confirmed-by-owner';
 const mediaManifest = JSON.parse(readFileSync('src/data/media/manifest.json', 'utf8'));

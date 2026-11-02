@@ -1,0 +1,22 @@
+{
+  "baseCommit": "00af8b6dc543619981a4646331f08688933d4c9e",
+  "navigationScriptSha256": "ec5413b04823f68aad4bf2970234b0f3847ff62c22169ff96f4d113e38116a8b",
+  "files": [
+    {
+      "file": "src/lib/category-navigation.ts",
+      "sha256": "70508459381ee7de4ecda2ab1e0ebadaf38b10c61795de319ca6786433b665f5"
+    },
+    {
+      "file": "src/components/CatalogueControls.astro",
+      "sha256": "404875946d5f79128b0968d05d68a9d3501950fd6dd8aef7c3d548cd5a53cdec"
+    },
+    {
+      "file": "src/components/ProductCatalogue.astro",
+      "sha256": "8113500539b0c42eee059db31ca08d3b02716d797b01c612c72dbd6563f7c43e"
+    },
+    {
+      "file": "src/components/UniverseHub.astro",
+      "sha256": "62cd1c3a9bf31b527be5c3947b99412bc4f73205ad5cb5e30d8a0b0e5636e9c7"
+    }
+  ]
+}

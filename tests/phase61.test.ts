@@ -7,6 +7,7 @@ import { populatedCategories, categoryAnchor, categoryDestination } from '../src
 import { productSchema } from '../src/lib/product-schema';
 import { isPubliclyVisible, isCommerciallyApproved } from '../src/lib/release-policy';
 import type { Product } from '../src/lib/products';
+import { beforeBrandIntegration } from './branding-fixture';
 
 const products = readdirSync('src/data/products').filter(file => file.endsWith('.json')).map(file => ({
   id: file.slice(0, -5), data: productSchema.parse(JSON.parse(readFileSync(`src/data/products/${file}`, 'utf8'))),
@@ -48,6 +49,6 @@ test('Phase 6.1 preserves merged Phase 6 editorial, product presentation, taxono
   assert.equal(baseline.files.length, 16);
   for (const row of baseline.files) {
     const canonical = Buffer.from(readFileSync(row.file).toString('latin1').replace(/\r\n/g, '\n'), 'latin1');
-    assert.equal(createHash('sha256').update(canonical).digest('hex'), row.sha256, row.file);
+    assert.equal(createHash('sha256').update(beforeBrandIntegration(row.file, canonical)).digest('hex'), row.sha256, row.file);
   }
 });

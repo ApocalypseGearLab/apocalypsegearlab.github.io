@@ -8,6 +8,7 @@ import {isPubliclyVisible} from '../src/lib/release-policy';
 import {categoryUniverse} from '../src/config/taxonomy';
 import {populatedCategories} from '../src/lib/category-navigation';
 import type {Product} from '../src/lib/products';
+import {schemasBeforeBrandLogo} from './branding-preservation';
 
 const root=resolve('dist');
 const products=readdirSync('src/data/products').filter(f=>f.endsWith('.json')).map(f=>({id:f.replace(/\.json$/,''),data:productSchema.parse(JSON.parse(readFileSync('src/data/products/'+f,'utf8')))} as Product)).filter(isPubliclyVisible);
@@ -49,6 +50,7 @@ for(const file of pages){
   const categoryLinks=$('body > header .category-link').map((_,e)=>$(e).attr('href')).get();
   assert.equal(categoryLinks.length,new Set(categoryLinks).size,'One shared category list for desktop and mobile');
   meta.header=previous.header;
+  meta.jsonLd=schemasBeforeBrandLogo(path,meta.jsonLd);
   // Phase 6 intentionally improves core search metadata and collection schema,
   // and adds one methodology footer link. Product metadata, images, header,
   // canonicals, safety text and documentary destinations remain protected.

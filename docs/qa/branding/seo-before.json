@@ -1,0 +1,1623 @@
+{
+  "baseCommit": "00af8b6dc543619981a4646331f08688933d4c9e",
+  "source": "Production build captured before branding changes",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Survival Gear & Preparedness Guides | ApocalypseGearLab",
+      "description": "Practical survival gear guides and emergency preparedness checklists for blackouts, disasters and extended disruptions.",
+      "canonical": "https://apocalypsegearlab.github.io/",
+      "robots": null,
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "Survival Gear & Preparedness Guides | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Practical survival gear guides and emergency preparedness checklists for blackouts, disasters and extended disruptions."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/404.html",
+      "title": "Page not found | ApocalypseGearLab",
+      "description": "Practical survival gear guides and emergency preparedness checklists for blackouts, disasters and extended disruptions.",
+      "canonical": "https://apocalypsegearlab.github.io/404.html",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "Page not found | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Practical survival gear guides and emergency preparedness checklists for blackouts, disasters and extended disruptions."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/404.html"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/affiliate-disclosure/",
+      "title": "Affiliate disclosure | ApocalypseGearLab",
+      "description": "How ApocalypseGearLab earns commissions from affiliate links and how that affects our editorial decisions.",
+      "canonical": "https://apocalypsegearlab.github.io/affiliate-disclosure/",
+      "robots": null,
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "Affiliate disclosure | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "How ApocalypseGearLab earns commissions from affiliate links and how that affects our editorial decisions."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/affiliate-disclosure/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/blackout/",
+      "title": "Power outage preparedness: batteries, lighting & refrigeration | ApocalypseGearLab",
+      "description": "Practical preparedness for extended electrical outages: power, lighting, radios, communication and household planning.",
+      "canonical": "https://apocalypsegearlab.github.io/blackout/",
+      "robots": null,
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "Power outage preparedness: batteries, lighting & refrigeration | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Practical preparedness for extended electrical outages: power, lighting, radios, communication and household planning."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/blackout/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/fallout/",
+      "title": "Household emergency supplies: water, food & shelter | ApocalypseGearLab",
+      "description": "Responsible disaster and crisis preparedness: evacuation bags, water, food, first aid, shelter and household plans.",
+      "canonical": "https://apocalypsegearlab.github.io/fallout/",
+      "robots": null,
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "Household emergency supplies: water, food & shelter | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Responsible disaster and crisis preparedness: evacuation bags, water, food, first aid, shelter and household plans."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/fallout/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/",
+      "title": "Emergency preparedness gear catalogue | ApocalypseGearLab",
+      "description": "Find emergency equipment by sector, category, product or brand. Compare documented specifications, practical limitations and Canadian buying checks.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/",
+      "robots": null,
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "Emergency preparedness gear catalogue | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Find emergency equipment by sector, category, product or brand. Compare documented specifications, practical limitations and Canadian buying checks."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-2091-p100-particulate-filters/",
+      "title": "3M 2091 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "P100 particulate filters for approved 3M bayonet assemblies. The documented Canadian offer advertises one pair (two filters). The 2091 is distinct from 2097 and has no documented nuisance-level organic-vapor relief.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-2091-p100-particulate-filters/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "3M 2091 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "P100 particulate filters for approved 3M bayonet assemblies. The documented Canadian offer advertises one pair (two filters). The 2091 is distinct from 2097 and has no documented nuisance-level organic-vapor relief."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/3m-2091-p100-particulate-filters/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-2097-p100-particulate-filters/",
+      "title": "3M 2097 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "P100 particulate filters with limited nuisance-level organic-vapor relief. The documented Canadian offer advertises five pairs (ten filters); check the selected pack and approved use.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-2097-p100-particulate-filters/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "3M 2097 P100 Particulate Filters: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "P100 particulate filters with limited nuisance-level organic-vapor relief. The documented Canadian offer advertises five pairs (ten filters); check the selected pack and approved use."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/3m-2097-p100-particulate-filters/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "title": "3M 60921 Organic Vapor/P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Cartridge/filter components for certain organic vapors and P100 particulates. The documented Canadian offer advertises one pair; approved selection, fit and use limits remain essential.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "3M 60921 Organic Vapor/P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Cartridge/filter components for certain organic vapors and P100 particulates. The documented Canadian offer advertises one pair; approved selection, fit and use limits remain essential."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/3m-60921-organic-vapor-p100-cartridges/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "title": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab",
+      "description": "P100 cartridge/filter components for gases and vapors specified by 3M. The documented Canadian offer advertises one pair; this is not universal chemical protection.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "3M 60926 Multi-Gas/Vapor P100 Cartridge Filters: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "P100 cartridge/filter components for gases and vapors specified by 3M. The documented Canadian offer advertises one pair; this is not universal chemical protection."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/3m-60926-multi-gas-vapor-p100-cartridges/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-6800-full-facepiece-respirator/",
+      "title": "3M 6800 Full Facepiece Reusable Respirator: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A medium reusable full facepiece with a clear lens and bayonet filter connections. The facepiece alone does not filter air; hazard selection, compatible approved components and a tight fit are essential.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-6800-full-facepiece-respirator/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "3M 6800 Full Facepiece Reusable Respirator: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A medium reusable full facepiece with a clear lens and bayonet filter connections. The facepiece alone does not filter air; hazard selection, compatible approved components and a tight fit are essential."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/3m-6800-full-facepiece-respirator/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-aura-9205-n95-respirator/",
+      "title": "3M Aura 9205+ N95 particulate respirator: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A disposable particulate respirator documented by 3M as N95. Correct selection, fit and genuine supply matter; this is not protection against gases, vapours or oxygen deficiency.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-aura-9205-n95-respirator/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "3M Aura 9205+ N95 particulate respirator: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A disposable particulate respirator documented by 3M as N95. Correct selection, fit and genuine supply matter; this is not protection against gases, vapours or oxygen deficiency."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/3m-aura-9205-n95-respirator/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/3m-gogglegear-500-safety-goggles/",
+      "title": "3M GoggleGear 500 protective goggles: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Low-profile protective goggles, documented here against the clear GG501SGAF reference. The actual lens markings, Canadian variant and suitability for the task must be checked.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-gogglegear-500-safety-goggles/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "3M GoggleGear 500 protective goggles: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Low-profile protective goggles, documented here against the clear GG501SGAF reference. The actual lens markings, Canadian variant and suitability for the task must be checked."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/3m-gogglegear-500-safety-goggles/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/511-tactical-rush72-2-backpack/",
+      "title": "5.11 Tactical RUSH72 2.0 55 L backpack: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A large compartmentalized pack for an evacuation load or a planned multi-day outing. Its 55 L capacity is a manufacturer specification, not a guarantee of comfortable carrying weight.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/511-tactical-rush72-2-backpack/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "5.11 Tactical RUSH72 2.0 55 L backpack: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A large compartmentalized pack for an evacuation load or a planned multi-day outing. Its 55 L capacity is a manufacturer specification, not a guarantee of comfortable carrying weight."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/511-tactical-rush72-2-backpack/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "title": "BLUETTI Elite 100 V2 — 200 W Solar Offer: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 1024 Wh LiFePO4 station with 1800 W rated AC output, linked to an owner-reported 200 W solar offer. Confirm the panel model and connecting cables before purchase.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "BLUETTI Elite 100 V2 — 200 W Solar Offer: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A 1024 Wh LiFePO4 station with 1800 W rated AC output, linked to an owner-reported 200 W solar offer. Confirm the panel model and connecting cables before purchase."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/bluetti-elite-100-v2-solar-generator-kit/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+      "title": "BougeRV 53 Quart Portable Refrigerator / Freezer: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 53 QT compressor fridge/freezer for a vehicle, camp or a planned blackout power supply. It uses one temperature setting; check the supplied revision and monitor actual food temperature.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "BougeRV 53 Quart Portable Refrigerator / Freezer: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A 53 QT compressor fridge/freezer for a vehicle, camp or a planned blackout power supply. It uses one temperature setting; check the supplied revision and monitor actual food temperature."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/bougerv-53-quart-portable-refrigerator-freezer/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+      "title": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 55 QT / 52 L dual-zone portable fridge for a powered vehicle or camp base. Independent zone settings offer flexibility; a battery, solar panel, phone and illustrated contents are not promised with the Amazon offer.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "BougeRV Rocky V3.0 55QT Dual Zone Portable Car Cooler: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A 55 QT / 52 L dual-zone portable fridge for a powered vehicle or camp base. Independent zone settings offer flexibility; a battery, solar panel, phone and illustrated contents are not promised with the Amazon offer."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/datrex-dx2400f-emergency-food-ration/",
+      "title": "Datrex DX2400F Emergency Food Ration — 2400 Calories: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact ready-to-eat ration documented as twelve 200-kcal bars: 2,400 kcal for the complete packet. Contains wheat; check the delivered ingredients, seals, dates and Canadian pack quantity.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/datrex-dx2400f-emergency-food-ration/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Datrex DX2400F Emergency Food Ration — 2400 Calories: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A compact ready-to-eat ration documented as twelve 200-kcal bars: 2,400 kcal for the complete packet. Contains wheat; check the delivered ingredients, seals, dates and Canadian pack quantity."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/datrex-dx2400f-emergency-food-ration/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/ecoflow-delta-2-portable-power-station/",
+      "title": "EcoFlow DELTA 2 Portable Power Station: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 1024 Wh LiFePO4 station with 1800 W rated AC output for a measured blackout load plan. Solar panels and extra batteries are not established as part of this offer.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-delta-2-portable-power-station/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "EcoFlow DELTA 2 Portable Power Station: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A 1024 Wh LiFePO4 station with 1800 W rated AC output for a measured blackout load plan. Solar panels and extra batteries are not established as part of this offer."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/ecoflow-delta-2-portable-power-station/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/ecoflow-river-2-pro/",
+      "title": "EcoFlow RIVER 2 Pro: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 768 Wh LiFePO4 power station with 800 W rated AC output for lights, communications and a carefully limited set of essential devices.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "EcoFlow RIVER 2 Pro: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A 768 Wh LiFePO4 power station with 800 W rated AC output for lights, communications and a carefully limited set of essential devices."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/ecoflow-river-2-pro/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/esee-4-fixed-blade-knife/",
+      "title": "ESEE-4 Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact fixed-blade reference for campsite cutting and field repairs. The selected configuration has a black blade, gray handle and black sheath with belt attachment; confirm the exact steel and package on the selected offer.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/esee-4-fixed-blade-knife/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "ESEE-4 Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A compact fixed-blade reference for campsite cutting and field repairs. The selected configuration has a black blade, gray handle and black sheath with belt attachment; confirm the exact steel and package on the selected offer."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/esee-4-fixed-blade-knife/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/fenix-cl26r-pro/",
+      "title": "Fenix CL26R Pro rechargeable lantern: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A rechargeable lantern with area, downward and red lighting modes for shared rooms, work surfaces and a portable blackout lighting kit.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Fenix CL26R Pro rechargeable lantern: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A rechargeable lantern with area, downward and red lighting modes for shared rooms, work surfaces and a portable blackout lighting kit."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/fenix-cl26r-pro/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/fenix-hm50r-v2-headlamp/",
+      "title": "Fenix HM50R V2.0 rechargeable headlamp: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact rechargeable headlamp for hands-free outage tasks, with white and red light and a removable lamp body. Battery revision and Canadian listing remain to be matched.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fenix-hm50r-v2-headlamp/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Fenix HM50R V2.0 rechargeable headlamp: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A compact rechargeable headlamp for hands-free outage tasks, with white and red light and a removable lamp body. Battery revision and Canadian listing remain to be matched."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/fenix-hm50r-v2-headlamp/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/fnirsi-gc-01-geiger-counter/",
+      "title": "FNIRSI GC-01 Geiger Counter: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A portable Geiger-counter reference for certain ionising radiation. The upper measurement limit is not established here, and this instrument cannot certify food, water or an area as safe.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/fnirsi-gc-01-geiger-counter/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "FNIRSI GC-01 Geiger Counter: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A portable Geiger-counter reference for certain ionising radiation. The upper measurement limit is not established here, and this instrument cannot certify food, water or an area as safe."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/fnirsi-gc-01-geiger-counter/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/garmin-gpsmap-67i-satellite-gps/",
+      "title": "Garmin GPSMAP 67i satellite communicator: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A handheld navigation device with inReach satellite communication. Messaging and satellite SOS require a compatible active subscription, activation and suitable operating conditions.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/garmin-gpsmap-67i-satellite-gps/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Garmin GPSMAP 67i satellite communicator: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A handheld navigation device with inReach satellite communication. Messaging and satellite SOS require a compatible active subscription, activation and suitable operating conditions."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/garmin-gpsmap-67i-satellite-gps/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/gerber-strongarm-fixed-blade-knife/",
+      "title": "Gerber StrongArm Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A full-tang outdoor utility knife for camp repairs and controlled cutting tasks. The selected reference pairs a black plain-edge blade with a coyote brown grip and sheath; match the selected Canadian offer before buying.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/gerber-strongarm-fixed-blade-knife/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Gerber StrongArm Fixed Blade Knife: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A full-tang outdoor utility knife for camp repairs and controlled cutting tasks. The selected reference pairs a black plain-edge blade with a coyote brown grip and sheath; match the selected Canadian offer before buying."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/gerber-strongarm-fixed-blade-knife/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/iniu-p62-20000mah-65w/",
+      "title": "INIU P62 20000 mAh 65 W power bank: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A USB-C power bank marketed at 20000 mAh and 65 W, documented by the manufacturer as P62-E1. The exact Canadian listing configuration and safety evidence remain unverified.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "INIU P62 20000 mAh 65 W power bank: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A USB-C power bank marketed at 20000 mAh and 65 W, documented by the manufacturer as P62-E1. The exact Canadian listing configuration and safety evidence remain unverified."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/iniu-p62-20000mah-65w/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/jackery-explorer-1000-v2/",
+      "title": "Jackery Explorer 1000 v2: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A 1070 Wh LiFePO4 power station with 1500 W rated AC output for a planned mix of lights, communications and compatible household loads.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Jackery Explorer 1000 v2: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A 1070 Wh LiFePO4 power station with 1500 W rated AC output for a planned mix of lights, communications and compatible household loads."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/jackery-explorer-1000-v2/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/jackery-explorer-300/",
+      "title": "Jackery Explorer 300: specs, uses & limitations | ApocalypseGearLab",
+      "description": "The original Explorer 300 is a small lithium-ion station with a 300 W AC ceiling; its revision needs checking before purchase.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Jackery Explorer 300: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "The original Explorer 300 is a small lithium-ion station with a 300 W AC ceiling; its revision needs checking before purchase."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/jackery-explorer-300/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/jackery-solarsaga-100w-air/",
+      "title": "Jackery SolarSaga 100 W Air: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A folding 100 W solar panel for weather-dependent charging. Match the station, connector and regional cable before building a backup-power kit.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Jackery SolarSaga 100 W Air: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A folding 100 W solar panel for weather-dependent charging. Match the station, connector and regional cable before building a backup-power kit."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/jackery-solarsaga-100w-air/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/kidde-c3010-co-alarm/",
+      "title": "Kidde C3010 carbon monoxide alarm: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A sealed-battery carbon monoxide alarm in the C3010 family. Canadian certification and equivalence to C3010-CA have not been established for this listing.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Kidde C3010 carbon monoxide alarm: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A sealed-battery carbon monoxide alarm in the C3010 family. Canadian certification and equivalence to C3010-CA have not been established for this listing."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/kidde-c3010-co-alarm/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/leatherman-wave-plus-multitool/",
+      "title": "Leatherman Wave+ multi-tool: specs, uses & limitations | ApocalypseGearLab",
+      "description": "An 18-function folding multi-tool for small repairs and kit maintenance. Match the finish and included accessories, and use suitable tools for electrical or high-load work.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/leatherman-wave-plus-multitool/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Leatherman Wave+ multi-tool: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "An 18-function folding multi-tool for small repairs and kit maintenance. Match the finish and included accessories, and use suitable tools for electrical or high-load work."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/leatherman-wave-plus-multitool/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/marmot-precip-rain-jacket/",
+      "title": "Marmot PreCip rain jacket: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A PreCip-family rain shell for an outdoor weather layer. The exact generation, size and colour are unverified; Eco reference features are kept separate from claims about the selected listing.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/marmot-precip-rain-jacket/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Marmot PreCip rain jacket: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A PreCip-family rain shell for an outdoor weather layer. The exact generation, size and colour are unverified; Eco reference features are kept separate from claims about the selected listing."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/marmot-precip-rain-jacket/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/mechanix-m-pact-work-gloves/",
+      "title": "Mechanix Wear M-Pact work gloves: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Work gloves with protective panels for selected impact and abrasion tasks. The black/grey model is the intended reference; size, generation and supplied performance label remain unverified.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/mechanix-m-pact-work-gloves/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Mechanix Wear M-Pact work gloves: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Work gloves with protective panels for selected impact and abrasion tasks. The black/grey model is the intended reference; size, generation and supplied performance label remain unverified."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/mechanix-m-pact-work-gloves/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/merrell-moab-3-mid-waterproof-boots/",
+      "title": "Merrell Moab 3 Mid Waterproof hiking boots: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Mid-height waterproof hiking boots for men, with Beluga selected by the owner. Fit, width and the size-specific ASIN need checking; no size availability is promised.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/merrell-moab-3-mid-waterproof-boots/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Merrell Moab 3 Mid Waterproof hiking boots: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Mid-height waterproof hiking boots for men, with Beluga selected by the owner. Fit, width and the size-specific ASIN need checking; no size availability is promised."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/merrell-moab-3-mid-waterproof-boots/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/midland-er310/",
+      "title": "Midland ER310 emergency radio: specs, uses & limitations | ApocalypseGearLab",
+      "description": "An AM/FM emergency radio with rechargeable, AA, hand-crank and supplementary solar power options. Canadian Weatheradio coverage is no longer available.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/midland-er310/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Midland ER310 emergency radio: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "An AM/FM emergency radio with rechargeable, AA, hand-crank and supplementary solar power options. Canadian Weatheradio coverage is no longer available."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/midland-er310/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "title": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A carbon-steel bushcraft reference with a sheath-mounted survival kit. Morakniv documents kit 13915 with a polymer sheath, ferro rod, diamond sharpener and reflective cord; confirm the selected retailer package before purchase.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Morakniv Garberg BlackBlade Carbon Steel Survival Kit: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A carbon-steel bushcraft reference with a sheath-mounted survival kit. Morakniv documents kit 13915 with a polymer sheath, ferro rod, diamond sharpener and reflective cord; confirm the selected retailer package before purchase."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/morakniv-garberg-blackblade-carbon-survival-kit/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/nanuk-904-first-aid-kit/",
+      "title": "NANUK 904 first aid kit: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact hard-case first aid kit for organized supplies. The exact Canadian fill, expiry dates and suitability for your needs must be checked; the case alone does not establish medical readiness.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/nanuk-904-first-aid-kit/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "NANUK 904 first aid kit: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A compact hard-case first aid kit for organized supplies. The exact Canadian fill, expiry dates and suitability for your needs must be checked; the case alone does not establish medical readiness."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/nanuk-904-first-aid-kit/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/oria-wireless-refrigerator-freezer-thermometer/",
+      "title": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A remote display and two sensors for checking refrigerated and frozen storage during an outage. Reported alarms and min/max readings support monitoring; they do not establish food safety.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/oria-wireless-refrigerator-freezer-thermometer/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "ORIA Wireless Refrigerator / Freezer Thermometer with 2 Sensors: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A remote display and two sensors for checking refrigerated and frozen storage during an outage. Reported alarms and min/max readings support monitoring; they do not establish food safety."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/oria-wireless-refrigerator-freezer-thermometer/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+      "title": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Four standard white AA NiMH cells and a BQ-CC17 AC charger for compatible battery-powered equipment. Charge a spare set before an outage; check device voltage and chemistry requirements.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Panasonic eneloop AA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Four standard white AA NiMH cells and a BQ-CC17 AC charger for compatible battery-powered equipment. Charge a spare set before an outage; check device voltage and chemistry requirements."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+      "title": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Four standard white AAA NiMH cells and a BQ-CC17 AC charger for compatible smaller devices. Already own this charger? Compare separate AAA cells before buying another starter kit.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Panasonic eneloop AAA Rechargeable Batteries with BQ-CC17 Charger: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Four standard white AAA NiMH cells and a BQ-CC17 AC charger for compatible smaller devices. Already own this charger? Compare separate AAA cells before buying another starter kit."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/readywise-84-servings-emergency-food-bucket/",
+      "title": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket: specs, uses & limitations | ApocalypseGearLab",
+      "description": "One gluten-free bucket with 84 labelled servings across four recipes. ReadyWise declares 15,420 kcal, corroborated by the inspected yogurt-dessert label version; servings are not complete meals.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/readywise-84-servings-emergency-food-bucket/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "ReadyWise 84 Servings Gluten-Free Emergency Food Supply Bucket: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "One gluten-free bucket with 84 labelled servings across four recipes. ReadyWise declares 15,420 kcal, corroborated by the inspected yogurt-dessert label version; servings are not complete meals."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/readywise-84-servings-emergency-food-bucket/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/reliance-aqua-tainer-7-gallon/",
+      "title": "Reliance Aqua-Tainer 7-gallon water container: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A rigid water-storage container with a reversible spigot and vent cap. Plan safe filling, cleaning and lifting; storage alone does not make contaminated water drinkable.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/reliance-aqua-tainer-7-gallon/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Reliance Aqua-Tainer 7-gallon water container: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A rigid water-storage container with a reversible spigot and vent cap. Plan safe filling, cleaning and lifting; storage alone does not make contaminated water drinkable."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/reliance-aqua-tainer-7-gallon/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/royale-velour-plush-thick-toilet-paper/",
+      "title": "Royale Velour Plush & Thick Toilet Paper: specs, uses & limitations | ApocalypseGearLab",
+      "description": "An everyday bathroom-tissue supply for a household emergency shelf. The documented pack contains 12 physical rolls; 12 equals 24 is a regular-roll equivalence claim, not 24 physical rolls.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/royale-velour-plush-thick-toilet-paper/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Royale Velour Plush & Thick Toilet Paper: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "An everyday bathroom-tissue supply for a household emergency shelf. The documented pack contains 12 physical rolls; 12 equals 24 is a regular-roll equivalence claim, not 24 physical rolls."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/royale-velour-plush-thick-toilet-paper/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/sawyer-squeeze-sp129-water-filter/",
+      "title": "Sawyer Squeeze SP129 water filtration system: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A squeeze filter for appropriate fresh-water sources, with a cleanable hollow-fibre membrane. It is not a solution for chemical contamination, salt water or every microbiological hazard.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sawyer-squeeze-sp129-water-filter/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "Sawyer Squeeze SP129 water filtration system: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A squeeze filter for appropriate fresh-water sources, with a cleanable hollow-fibre membrane. It is not a solution for chemical contamination, salt water or every microbiological hazard."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/sawyer-squeeze-sp129-water-filter/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/sol-emergency-bivvy/",
+      "title": "SOL Emergency Bivvy with rescue whistle: specs, uses & limitations | ApocalypseGearLab",
+      "description": "A compact reflective emergency bivvy for a temporary weather barrier. It is not an insulated sleeping system or a guarantee against hypothermia; confirm the size and package variant.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sol-emergency-bivvy/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "SOL Emergency Bivvy with rescue whistle: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "A compact reflective emergency bivvy for a temporary weather barrier. It is not an insulated sleeping system or a guarantee against hypothermia; confirm the size and package variant."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/sol-emergency-bivvy/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/gear/sos-3600-calorie-emergency-food-rations/",
+      "title": "S.O.S. Emergency Food Rations — 3600 Calories: specs, uses & limitations | ApocalypseGearLab",
+      "description": "Two packets of ready-to-eat emergency rations sold under the '3600 Calorie' designation. Check the delivered labels, seals and dates; no exact energy total is claimed for the lot.",
+      "canonical": "https://apocalypsegearlab.github.io/gear/sos-3600-calorie-emergency-food-rations/",
+      "robots": "noindex, nofollow",
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "article"
+        },
+        {
+          "name": "og:title",
+          "content": "S.O.S. Emergency Food Rations — 3600 Calories: specs, uses & limitations | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Two packets of ready-to-eat emergency rations sold under the '3600 Calorie' designation. Check the delivered labels, seals and dates; no exact energy total is claimed for the lot."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/gear/sos-3600-calorie-emergency-food-rations/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/how-we-research/",
+      "title": "How we research emergency equipment | ApocalypseGearLab",
+      "description": "Our documentary research method: manufacturer specifications, Canadian offer identity, unresolved limits, concept illustrations and affiliate-link decisions.",
+      "canonical": "https://apocalypsegearlab.github.io/how-we-research/",
+      "robots": null,
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "How we research emergency equipment | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Our documentary research method: manufacturer specifications, Canadian offer identity, unresolved limits, concept illustrations and affiliate-link decisions."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/how-we-research/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    },
+    {
+      "path": "/outbreak/",
+      "title": "Evacuation gear planning: bags, navigation & protection | ApocalypseGearLab",
+      "description": "Equipment profiles for evacuation, outdoor travel and practical protection. Plan your load, understand each item’s limits and follow the manufacturer instructions.",
+      "canonical": "https://apocalypsegearlab.github.io/outbreak/",
+      "robots": null,
+      "social": [
+        {
+          "name": "og:site_name",
+          "content": "ApocalypseGearLab"
+        },
+        {
+          "name": "og:type",
+          "content": "website"
+        },
+        {
+          "name": "og:title",
+          "content": "Evacuation gear planning: bags, navigation & protection | ApocalypseGearLab"
+        },
+        {
+          "name": "og:description",
+          "content": "Equipment profiles for evacuation, outdoor travel and practical protection. Plan your load, understand each item’s limits and follow the manufacturer instructions."
+        },
+        {
+          "name": "og:url",
+          "content": "https://apocalypsegearlab.github.io/outbreak/"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "width": 320,
+  "routes": [
+    "/",
+    "/gear/",
+    "/blackout/",
+    "/fallout/",
+    "/outbreak/",
+    "/how-we-research/",
+    "/gear/ecoflow-river-2-pro/",
+    "/404.html"
+  ],
+  "logoCSSPixels": 38,
+  "headerHeight": 65,
+  "cls": 0,
+  "axeViolations": 0,
+  "horizontalOverflow": false
+}
