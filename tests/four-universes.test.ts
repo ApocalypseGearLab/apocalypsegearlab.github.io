@@ -25,6 +25,8 @@ test('WHITEOUT identity, held ASIN and no commercial schema survive integration'
  assert.deepEqual(UNIVERSE_IDS,['blackout','fallout','outbreak','whiteout']);
  assert.equal(categoryUniverse('winter-sleep-systems'),'whiteout');
  const data=productSchema.parse(JSON.parse(readFileSync('src/data/products/therm-a-rest-neoair-xtherm-nxt-review.json','utf8')));
+ assert.doesNotMatch(JSON.stringify(data),/Ã|Â|â€/,'New profile must retain valid English typography');
+ assert.ok(data.specs.some(spec=>spec.value.includes('20 × 72 in / 51 × 183 cm')));
  const p={id:'therm-a-rest-neoair-xtherm-nxt-review',data}as Product;
  assert.equal(data.links.amazonCa.asin,'B0CS4P19QQ');assert.equal(data.links.amazonCa.url,'https://www.amazon.ca/dp/B0CS4P19QQ?tag=apocalypsegear-20');
  assert.equal(data.research?.affiliateReview?.decision,'hold');assert.equal(data.research?.listingVerified,false);assert.equal(data.research?.publicationApproved,false);

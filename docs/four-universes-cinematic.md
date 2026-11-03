@@ -17,17 +17,17 @@ The 19 supplied WebPs were already optimized. They are copied byte-for-byte, wit
 
 For each of `blackout`, `fallout`, `outbreak`, `whiteout`:
 
-- Source/delivery: `public/images/universes/{universe}-survival-hero-{768,1280,1600}.webp` â†’ `/images/universes/...`
-- Social image: `public/images/universes/{universe}-survival-og.webp` â†’ `/images/universes/...`, measured 1200Ã—630.
+- Source/delivery: `public/images/universes/{universe}-survival-hero-{768,1280,1600}.webp` → `/images/universes/...`
+- Social image: `public/images/universes/{universe}-survival-og.webp` → `/images/universes/...`, measured 1200×630.
 
-| Universe | 768 px | 1280 px | 1600 px | OG 1200Ã—630 |
+| Universe | 768 px | 1280 px | 1600 px | OG 1200×630 |
 | --- | ---: | ---: | ---: | ---: |
 | Blackout | 48,060 B | 120,916 B | 168,356 B | 119,446 B |
 | Fallout | 91,480 B | 219,434 B | 304,400 B | 209,884 B |
 | Outbreak | 59,218 B | 136,708 B | 183,984 B | 130,912 B |
 | Whiteout | 78,242 B | 187,670 B | 256,276 B | 187,826 B |
 
-Product sources: `assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout{-640,-960,}.webp`, delivered through the existing static media-route convention at `/images/whiteout/`. Measured sizes are 640Ã—640 (63,646 B), 960Ã—960 (127,324 B), and **1254Ã—1254** (205,616 B). The supplied file named `-1280` actually measures 1254; the full filename is the requested `therm-a-rest-neoair-xtherm-nxt-whiteout.webp`, and its descriptor uses 1254w.
+Product sources: `assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout{-640,-960,}.webp`, delivered through the existing static media-route convention at `/images/whiteout/`. Measured sizes are 640×640 (63,646 B), 960×960 (127,324 B), and **1254×1254** (205,616 B). The supplied file named `-1280` actually measures 1254; the full filename is the requested `therm-a-rest-neoair-xtherm-nxt-whiteout.webp`, and its descriptor uses 1254w.
 
 `src/data/media/whiteout-manifest.json` and `assets/media/whiteout-image-manifest.csv` record the new product mapping separately. `docs/qa/four-universes/assets.json` records all input names, final paths, dimensions, byte counts and SHA-256 hashes. Heroes use responsive widths, explicit dimensions, eager loading and high fetch priority; homepage previews and product cards lazy-load.
 
@@ -35,9 +35,9 @@ Product sources: `assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout{
 
 The owner supplied ASIN `B0CS4P19QQ` and `https://www.amazon.ca/dp/B0CS4P19QQ?tag=apocalypsegear-20`. On November 2, 2026, the web reader could not access Amazon.ca. Search results are insufficient to verify the exact selected size, variant, seller or delivered package. The stored URL retains the exact supplied tracking ID, but **no rendered link to this ASIN is enabled anywhere**. The explicit product-level decision is `hold`.
 
-[Therm-a-Restâ€™s official model page](https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad) documents the NXT family, 7.3 R-value and size choices. These are manufacturer specifications, not measurements by ApocalypseGearLab or confirmation of the Amazon variant. Size-dependent values are labelled as Regular-size reference information. R-value is not presented as a minimum safe air temperature. The profile explains system fit, puncture/valve limits, moisture management and contingency planning without inventing ratings, prices, availability or testing.
+[Therm-a-Rest’s official model page](https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad) documents the NXT family, 7.3 R-value and size choices. These are manufacturer specifications, not measurements by ApocalypseGearLab or confirmation of the Amazon variant. Size-dependent values are labelled as Regular-size reference information. R-value is not presented as a minimum safe air temperature. The profile explains system fit, puncture/valve limits, moisture management and contingency planning without inventing ratings, prices, availability or testing.
 
-The artwork is explicitly labelled AI-generated concept imagery, not an official manufacturer photograph. The references link to the manufacturerâ€™s official photographs; those photographs are not copied into the repository without reuse authorization.
+The artwork is explicitly labelled AI-generated concept imagery, not an official manufacturer photograph. The references link to the manufacturer’s official photographs; those photographs are not copied into the repository without reuse authorization.
 
 The record remains `draft`, `informational`, `not-tested`, `listingVerified: false`, `publicationApproved: false`, `safetyStatus: pending`, `lastVerified: null`. It uses the existing intentional `noindex, nofollow` and sitemap exclusion. Product/Offer/Review/rating schema is withheld under the unchanged release policy; product breadcrumbs remain. No approval flags were set to satisfy the new-page request.
 

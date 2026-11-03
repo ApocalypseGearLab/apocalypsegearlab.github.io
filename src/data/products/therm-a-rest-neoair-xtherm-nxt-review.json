@@ -40,7 +40,7 @@
     },
     {
       "label": "Regular size reference only",
-      "value": "20 Ã— 72 in / 51 Ã— 183 cm; 15.5 oz / 440 g. Not confirmation of the supplied ASIN variant",
+      "value": "20 × 72 in / 51 × 183 cm; 15.5 oz / 440 g. Not confirmation of the supplied ASIN variant",
       "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
     }
   ],
@@ -96,7 +96,7 @@
     {
       "id": "thermarest-model",
       "kind": "manufacturer",
-      "title": "Therm-a-Rest NeoAir XTherm NXT â€” model and size specifications; official photos available on this page",
+      "title": "Therm-a-Rest NeoAir XTherm NXT — model and size specifications; official photos available on this page",
       "url": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
     }
   ],
@@ -111,7 +111,7 @@
       "decision": "hold",
       "asin": "B0CS4P19QQ",
       "checkedAt": "2026-11-02",
-      "reason": "Exact Amazon model and variant could not be verified; master brief requires buying disabled until verified.",
+      "reason": "Exact Amazon model and selected size have not been independently verified. Buying is unavailable pending those checks.",
       "sourceIds": [
         "thermarest-model"
       ]
