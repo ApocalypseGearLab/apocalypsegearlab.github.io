@@ -1,4 +1,4 @@
-export const UNIVERSE_IDS = ['blackout', 'fallout', 'outbreak'] as const;
+export const UNIVERSE_IDS = ['blackout', 'fallout', 'outbreak', 'whiteout'] as const;
 export type UniverseId = (typeof UNIVERSE_IDS)[number];
 
 export const CATEGORIES = [
@@ -42,6 +42,7 @@ export const CATEGORIES = [
   { id: 'rechargeable-batteries', label: 'Rechargeable batteries & charging accessories', universe: 'blackout' },
   { id: 'optics-observation', label: 'Optics & observation', universe: 'outbreak' },
   { id: 'metal-detection', label: 'Exploration & metal detection', universe: 'fallout' },
+  { id: 'winter-sleep-systems', label: 'Winter sleeping pads & insulation', universe: 'whiteout' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

@@ -36,6 +36,7 @@ export const NAV = [
   { label: 'Blackout', href: '/blackout/' },
   { label: 'Fallout', href: '/fallout/' },
   { label: 'Outbreak', href: '/outbreak/' },
+  { label: 'Whiteout', href: '/whiteout/' },
   { label: 'Gear catalogue', href: '/gear/' },
 ] as const;
 
@@ -58,7 +59,7 @@ export const UNIVERSES: Record<UniverseId, Universe> = {
     tagline: 'Keep light, power and communication running when the grid does not.',
     summary:
       'Practical preparedness for extended electrical outages: power, lighting, radios, communication and household planning.',
-    accent: 'var(--c-amber)',
+    accent: '#F59E0B',
     fiction: false,
     sourcingNote: 'Electrical and battery planning uses manufacturer documentation and official safety guidance. Check the exact model instructions before use.',
   },
@@ -69,10 +70,17 @@ export const UNIVERSES: Record<UniverseId, Universe> = {
     tagline: 'Kits, water, food and shelter for real-world emergencies.',
     summary:
       'Responsible disaster and crisis preparedness: evacuation bags, water, food, first aid, shelter and household plans.',
-    accent: 'var(--c-rust)',
+    accent: '#DC2626',
     fiction: false,
     sourcingNote:
       'Guidance on radiation, chemical hazards or medical treatment will link to official emergency-management sources (for example Ready.gov, FEMA and the Government of Canada). We do not make unsupported safety claims.',
+  },
+  whiteout: {
+    id: 'whiteout', name: 'Whiteout', signal: 'Extreme cold',
+    tagline: 'Build a winter sleep system. Protect insulation. Plan a way back.',
+    summary: 'Winter survival planning for ground insulation, dry sleep systems and emergency shelter. Understand sleeping-pad R-values, equipment limits and cold-weather contingencies.',
+    accent: '#7DD3FC', fiction: false,
+    sourcingNote: 'Cold-weather equipment facts use manufacturer documentation. Cinematic scenes are fictional illustrations, not evidence that equipment makes extreme conditions safe.',
   },
   outbreak: {
     id: 'outbreak',
@@ -81,7 +89,7 @@ export const UNIVERSES: Record<UniverseId, Universe> = {
     tagline: 'Carry, protect and navigate. Fiction stays clearly labelled.',
     summary:
       'Equipment profiles for evacuation, outdoor travel and practical protection. Plan your load, understand each item’s limits and follow the manufacturer instructions.',
-    accent: 'var(--c-moss)',
+    accent: '#65D91E',
     fiction: true,
     sourcingNote: 'Equipment guidance cites manufacturer documents. Respirator fit, eye protection and satellite subscriptions have specific limits; fictional scenarios are kept separate from real safety advice.',
   },

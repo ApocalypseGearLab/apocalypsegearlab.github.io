@@ -57,7 +57,7 @@ for(const file of pages){
   // and adds one methodology footer link. Product metadata, images, header,
   // canonicals, safety text and documentary destinations remain protected.
   assert.ok(meta.footer.some(link=>link.href==='/how-we-research/'));
-  meta.footer=meta.footer.filter(link=>link.href!=='/how-we-research/');
+  meta.footer=meta.footer.filter(link=>!['/how-we-research/','/whiteout/'].includes(link.href??''));
   if(['/gear/','/blackout/','/fallout/','/outbreak/'].includes(path)){
    assert.deepEqual(meta.jsonLd.map(schema=>schema['@type']),['BreadcrumbList','ItemList']);
    assert.ok(meta.title.trim()&&meta.description?.trim());
@@ -110,7 +110,7 @@ for(const p of baseline.pages)assert.ok(pages.some(f=>'/'+f.split(sep).join('/')
 const previousSitemap=load(baseline.sitemap,{xmlMode:true}),currentSitemap=load(readFileSync('dist/sitemap-0.xml','utf8'),{xmlMode:true});
 const oldLocations=previousSitemap('url > loc').map((_,e)=>previousSitemap(e).text()).get();
 const newLocations=currentSitemap('url > loc').map((_,e)=>currentSitemap(e).text()).get();
-assert.deepEqual(newLocations.sort(),[...oldLocations,'https://apocalypsegearlab.github.io/gear/','https://apocalypsegearlab.github.io/how-we-research/'].sort(),'Sitemap adds only the approved catalogue and methodology page');
+assert.deepEqual(newLocations.sort(),[...oldLocations,'https://apocalypsegearlab.github.io/whiteout/','https://apocalypsegearlab.github.io/gear/','https://apocalypsegearlab.github.io/how-we-research/'].sort(),'Sitemap adds only the approved catalogue and methodology page');
 assert.equal(readFileSync('dist/robots.txt','utf8'),baseline.robots);
 const result={products:products.length,productPages:profiles,htmlPages:pages.length,recordedCanadianUrls:products.length,authorized:productRows.filter(p=>p.active).length,blocked:productRows.filter(p=>!p.active).length,commercialCtaInstances:commercialLinks.length,nonAmazonPurchaseCtas:0,incorrectTags:0,manufacturerPurchaseCtasRemoved:0,documentaryReferenceInstances:references.length,manufacturerReferenceInstances:references.filter(r=>r.kind==='manufacturer').length,uniqueManufacturerUrls:new Set(references.filter(r=>r.kind==='manufacturer').map(r=>r.destination)).size,editorialUrlSetsPreserved:true,seoAndMediaAttributesPreserved:true,productRows,commercialLinks,references};
 const output=process.argv.indexOf('--output');if(output>=0){const target=process.argv[output+1];assert.ok(target);mkdirSync(resolve(target,'..'),{recursive:true});writeFileSync(target,JSON.stringify(result,null,2)+'\n');}

@@ -1,3 +1,4 @@
+import {beforeFourUniverses} from '../scripts/four-universes-preservation.mjs';
 import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
@@ -28,7 +29,7 @@ test('account and status changes preserve all products, release/SEO/tracking rul
  const before=read('docs/qa/account-status/before.json');assert.equal(before.baseCommit,'5efd034d6ab5bb38182bef808e93cd199500d480');assert.equal(before.capturedBeforeImplementation,true);
  for(const row of before.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
   if(ACCOUNT_STATUS_FILES.has(row.file)||ACCOUNT_EVIDENCE_FILES.has(row.file))continue;
-  const b=readFileSync(row.file);assert.equal(createHash('sha256').update(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b).digest('hex'),row.sha256,row.file);
+  const b=beforeFourUniverses(row.file,readFileSync(row.file));assert.equal(createHash('sha256').update(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b).digest('hex'),row.sha256,row.file);
  }
  assert.deepEqual(before.products.map((p:any)=>p.id),EVIDENCE_NORMALISED_IDS);
  for(const {id,data:old}of before.products){
@@ -40,9 +41,9 @@ test('account and status changes preserve all products, release/SEO/tracking rul
  }
 });
 
-test('all 46 products have independently assessed dimensions; the account declaration grants no product publication or new links',()=>{
+test('all 47 products have independently assessed dimensions; the account declaration grants no product publication or new links',()=>{
  const statuses=products.map(productVerification);
- assert.equal(statuses.length,46);assert.equal(statuses.filter(s=>s.modelDocumented).length,45);
+ assert.equal(statuses.length,47);assert.equal(statuses.filter(s=>s.modelDocumented).length,46);
  assert.equal(statuses.filter(s=>s.listingStatus==='owner-documented').length,23);
  assert.equal(statuses.filter(s=>s.listingStatus==='independently-verified').length,0);
  assert.equal(statuses.filter(s=>s.linkActive).length,41);assert.equal(statuses.filter(s=>s.safetyStatus==='cleared').length,4);
@@ -57,7 +58,7 @@ test('all 46 products have independently assessed dimensions; the account declar
   if(row.linkActive){assert.deepEqual(row.commercial.outstanding,[]);assert.equal(row.commercial.blocker,null);}
   else{assert.ok(row.commercial.outstanding.length);assert.ok(row.commercial.blocker);}
  }
- assert.deepEqual(products.filter(p=>!productVerification(p).linkActive).map(p=>p.id).sort(),['ecoflow-river-2-pro','iniu-p62-20000mah-65w','jackery-explorer-300','kidde-c3010-co-alarm','nanuk-904-first-aid-kit'].sort());
+ assert.deepEqual(products.filter(p=>!productVerification(p).linkActive).map(p=>p.id).sort(),['ecoflow-river-2-pro','iniu-p62-20000mah-65w','jackery-explorer-300','kidde-c3010-co-alarm','nanuk-904-first-aid-kit','therm-a-rest-neoair-xtherm-nxt-review'].sort());
 });
 
 test('missing, mismatched or partial evidence cannot acquire a complete-documentation or independent-listing label',()=>{

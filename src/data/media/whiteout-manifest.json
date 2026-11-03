@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "source": "Owner master implementation brief supplies and authorizes these WebPs for integration.",
+    "status": "confirmed-by-owner",
+    "confirmedAt": "2026-11-02",
+    "processing": "Copied byte-for-byte; no resize, crop, recolour, upscaling or re-encoding."
+  },
+  "assets": [
+    {
+      "id": "therm-a-rest-neoair-xtherm-nxt-whiteout",
+      "productId": "therm-a-rest-neoair-xtherm-nxt-review",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "therm-a-rest-neoair-xtherm-nxt-whiteout-1280.webp",
+      "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+      "deliverySrc": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 205616,
+      "sha256": "00bf262985642304201aa1d0820c3ae753184f006d9013d4a3bb5fae3415db1e",
+      "variants": [
+        {
+          "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp",
+          "src": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 63646,
+          "sha256": "8d218c461fe02620144ae20f70957c4b732359b839ff4344500c2208dfc174be"
+        },
+        {
+          "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-960.webp",
+          "src": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 127324,
+          "sha256": "00761c8aa6fde94d16af1c1cc186c8c665d7a5ffa88eae50cda955db3e466754"
+        },
+        {
+          "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+          "src": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 205616,
+          "sha256": "00bf262985642304201aa1d0820c3ae753184f006d9013d4a3bb5fae3415db1e"
+        }
+      ],
+      "alt": "AI-generated concept illustration of a light blue insulated sleeping pad inside a complete glacier-blue WHITEOUT HUD frame",
+      "captionNote": "AI-generated cinematic artwork, not an official manufacturer photograph; shape, lettering and accessories do not establish the selected retailer variant.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Broad sleeping-pad form compared against the manufacturer page. Supplied illustrative lettering is not product evidence; exact Amazon size and package remain unverified.",
+      "references": [
+        "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+      ],
+      "reviewedAt": "2026-11-02",
+      "source": {
+        "filename": "therm-a-rest-neoair-xtherm-nxt-whiteout-1280.webp",
+        "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+        "bytes": 205616,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "00bf262985642304201aa1d0820c3ae753184f006d9013d4a3bb5fae3415db1e"
+      },
+      "encoding": {
+        "format": "webp",
+        "resize": false,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/whiteout-image-manifest.csv",
+      "provenance": {
+        "source": "Owner master implementation brief",
+        "scope": "Use supplied cinematic illustration without alteration",
+        "confirmedAt": "2026-11-02"
+      }
+    }
+  ]
+}

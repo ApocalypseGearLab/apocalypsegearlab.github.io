@@ -1,3 +1,4 @@
+import {beforeFourUniverses} from '../scripts/four-universes-preservation.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
@@ -53,7 +54,7 @@ test('historical source normalization permits only the exact authorized icon/sch
   for (const file of ['src/layouts/BaseLayout.astro','src/pages/index.astro']) {
     const bytes = Buffer.from(readFileSync(file).toString('latin1').replace(/\r\n/g,'\n'),'latin1');
     const row = baseline.files.find((row: {file: string}) => row.file === file);
-    assert.equal(hash(beforeBrandIntegration(file,bytes)),row.sha256);
+    assert.equal(hash(beforeBrandIntegration(file,beforeFourUniverses(file,bytes))),row.sha256);
     assert.notEqual(hash(beforeBrandIntegration(file,Buffer.concat([bytes,Buffer.from('\n<!-- unrelated edit -->')]))),row.sha256);
   }
   const layout=readFileSync('src/layouts/BaseLayout.astro').toString('latin1').replace(/\r\n/g,'\n');
@@ -65,5 +66,5 @@ test('branding preserves the merged mega-menu implementation and shared catalogu
   assert.equal(baseline.baseCommit,'00af8b6dc543619981a4646331f08688933d4c9e');
   const source=readFileSync('src/components/Header.astro','utf8').replace(/\r\n/g,'\n');
   assert.equal(hash(source.split('<script>')[1]!.split('</script>')[0]!),baseline.navigationScriptSha256);
-  for (const row of baseline.files) assert.equal(hash(readFileSync(row.file,'utf8').replace(/\r\n/g,'\n')),row.sha256,row.file);
+  for (const row of baseline.files) assert.equal(hash(beforeFourUniverses(row.file,readFileSync(row.file))),row.sha256,row.file);
 });

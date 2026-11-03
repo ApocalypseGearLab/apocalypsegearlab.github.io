@@ -1,3 +1,4 @@
+import {beforeFourUniverses} from '../scripts/four-universes-preservation.mjs';
 import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import test from 'node:test';
@@ -19,10 +20,10 @@ test('BougeRV additions preserve all 36 existing JSON records, prior media, acco
  const before=read('docs/qa/bougerv/before.json');assert.equal(before.baseCommit,'ee3ec72652713f2d89d647c1a83be1b570aaceda');assert.equal(before.capturedBeforeImplementation,true);
  for(const row of before.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;
   if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;
-  const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);
+  const b=beforeFourUniverses(row.file,readFileSync(row.file));assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);
  }
  assert.equal(before.previousAssets.length,36);assert.deepEqual(importedMedia.slice(0,36),before.previousAssets);
- assert.equal(importedMedia.length,46);assert.equal(importedMedia.filter(canPublishImportedAsset).length,45);
+ assert.equal(importedMedia.length,47);assert.equal(importedMedia.filter(canPublishImportedAsset).length,46);
  assert.equal(CATEGORIES.find(c=>c.id==='portable-refrigeration')!.id,'portable-refrigeration');assert.equal(categoryUniverse('portable-refrigeration'),'blackout');
 });
 

@@ -1,0 +1,143 @@
+{
+  "name": "Therm-a-Rest NeoAir XTherm NXT insulated sleeping pad",
+  "brand": "Therm-a-Rest",
+  "modelNumber": "NeoAir XTherm NXT",
+  "category": "winter-sleep-systems",
+  "summary": "Manufacturer-documented winter ground insulation with a 7.3 R-value. Understand sleep-system fit, inflatable-pad limits and the unverified Canadian retailer variant.",
+  "description": "Ground insulation deserves its own place in a winter kit. A pad resists heat loss beneath your body, while a suitable sleeping bag and shelter address other parts of the system. The NeoAir XTherm NXT is an inflatable option; its usefulness depends on fit, condition and a realistic backup plan. This informational profile covers the documented model family, not a verified Amazon size or package.",
+  "outboundPolicy": "documentary-references",
+  "specsStatus": "manufacturer-documented",
+  "specs": [
+    {
+      "label": "Model family",
+      "value": "NeoAir XTherm NXT; distinct from the rectangular MAX",
+      "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    },
+    {
+      "label": "Insulation R-value",
+      "value": "7.3, manufacturer specification across listed sizes; not an air-temperature survival rating",
+      "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    },
+    {
+      "label": "Thickness",
+      "value": "3 in / 7.6 cm",
+      "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    },
+    {
+      "label": "Available sizes",
+      "value": "Regular, Regular Wide and Large; Amazon variant unverified",
+      "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    },
+    {
+      "label": "Fabric",
+      "value": "30D ripstop HT nylon top; 70D nylon bottom",
+      "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    },
+    {
+      "label": "Valve",
+      "value": "WingLock",
+      "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    },
+    {
+      "label": "Regular size reference only",
+      "value": "20 Ã— 72 in / 51 Ã— 183 cm; 15.5 oz / 440 g. Not confirmation of the supplied ASIN variant",
+      "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    }
+  ],
+  "pros": [
+    "Published insulation value enables model comparisons.",
+    "Multiple documented sizes allow a fit check before selection.",
+    "Inflatable design can be packed down between uses."
+  ],
+  "cons": [
+    "A puncture or valve leak can remove support and compromise the intended sleep system.",
+    "R-value alone cannot establish a safe minimum temperature.",
+    "The supplied Canadian ASIN size, package and seller have not been independently verified."
+  ],
+  "useCases": [
+    "Planning ground insulation for a winter sleep system.",
+    "Comparing sleeping-pad fit and documented R-values.",
+    "Preparing a repair and backup plan for inflatable equipment."
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the Amazon title, selected size, model and seller before any buying link is enabled.",
+      "Distinguish mummy-shaped NXT from rectangular NXT MAX.",
+      "Measure the sleep surface needed for your body and sleeping position.",
+      "Read current inflation, care and repair instructions and check included accessories."
+    ]
+  },
+  "image": {
+    "src": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+    "alt": "AI-generated concept illustration of a light blue insulated sleeping pad inside a complete glacier-blue WHITEOUT HUD frame",
+    "credit": "Owner-supplied AI-generated concept illustration",
+    "license": "Owner-authorized master implementation assets"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "B0CS4P19QQ supplied by owner. Amazon.ca was inaccessible through the web reader on 2026-11-02; exact variant and seller could not be inspected. Buying disabled pending verification."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0CS4P19QQ",
+      "url": "https://www.amazon.ca/dp/B0CS4P19QQ?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "sources": [
+    {
+      "id": "thermarest-model",
+      "kind": "manufacturer",
+      "title": "Therm-a-Rest NeoAir XTherm NXT â€” model and size specifications; official photos available on this page",
+      "url": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+    }
+  ],
+  "relatedProducts": [
+    "sol-emergency-bivvy"
+  ],
+  "research": {
+    "checkedAt": "2026-11-02",
+    "identityNotes": "Manufacturer documents the NeoAir XTherm NXT model family. The supplied ASIN could not be inspected; no size, seller or delivered package is verified.",
+    "listingVerified": false,
+    "affiliateReview": {
+      "decision": "hold",
+      "asin": "B0CS4P19QQ",
+      "checkedAt": "2026-11-02",
+      "reason": "Exact Amazon model and variant could not be verified; master brief requires buying disabled until verified.",
+      "sourceIds": [
+        "thermarest-model"
+      ]
+    },
+    "confirmed": [
+      {
+        "text": "The manufacturer documents a 7.3 R-value and three size choices for this model family.",
+        "sourceIds": [
+          "thermarest-model"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Exact model and selected size at B0CS4P19QQ.",
+      "Current seller, accessories, authenticity, availability and price."
+    ],
+    "safetyNotes": [
+      "Ground insulation is one part of a sleep system, not protection against every cold-weather hazard.",
+      "Inspect for leaks and carry an appropriate repair and backup plan.",
+      "No hands-on or temperature-performance testing has been conducted by ApocalypseGearLab."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Verify exact Canadian retailer model and size.",
+      "Complete editorial and safety review."
+    ]
+  }
+}

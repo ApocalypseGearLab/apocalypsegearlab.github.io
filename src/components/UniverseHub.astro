@@ -1,4 +1,6 @@
 ---
+import { CINEMATIC } from '../config/cinematic';
+import UniverseHero from './UniverseHero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import ProductCard from './ProductCard.astro';
@@ -18,16 +20,16 @@ const categories = CATEGORIES.filter((c) => c.universe === id);
 const products = (await getProductsByUniverse(id)).filter((product) => !releasePreview || (!mandatoryHold(product) && product.data.reviewStatus !== 'template'));
 const indexable = categoryPageCanBeIndexed(HUB_EDITORIAL_READY[id], releasePreview);
 const jsonLd = Astro.site ? collectionStructuredData(Astro.site, `/${id}/`, universe.name, products) : [];
-const titles = { blackout: 'Power outage preparedness: batteries, lighting & refrigeration', fallout: 'Household emergency supplies: water, food & shelter', outbreak: 'Evacuation gear planning: bags, navigation & protection' };
+const titles = { blackout: 'Power outage preparedness: batteries, lighting & refrigeration', fallout: 'Household emergency supplies: water, food & shelter', outbreak: 'Evacuation gear planning: bags, navigation & protection', whiteout: 'Winter survival gear: insulated sleeping pads & cold-weather shelter' };
 ---
 
-<BaseLayout canonicalPath={`/${id}/`} title={titles[id]} description={universe.summary} noindex={!indexable} jsonLd={jsonLd}>
+<BaseLayout canonicalPath={`/${id}/`} title={titles[id]} description={universe.summary} noindex={!indexable} jsonLd={[...jsonLd, {'@context': 'https://schema.org', '@type': 'CollectionPage', name: titles[id], description: universe.summary, url: new URL(`/${id}/`, Astro.site).href, image: new URL(`/images/universes/${id}-survival-og.webp`, Astro.site).href }]} ogImage={`/images/universes/${id}-survival-og.webp`} ogImageWidth={1200} ogImageHeight={630} ogImageAlt={CINEMATIC[id].alt}>
+  <UniverseHero id={id} />
   <div class="container hub" data-universe={id} style={`--accent: ${universe.accent}`}>
     <Breadcrumbs items={[{ label: universe.name }]} />
 
     <header class="section hub-head">
       <p class="label">{universe.signal}</p>
-      <h1>{universe.name}</h1>
       <p class="lead">{universe.summary}</p>
       <nav class="hub-jumps" aria-label="Sector sections"><a href="#sector-guide">Read the planning guide</a><a href="#gear">Browse sector equipment</a></nav>
       {universe.fiction && products.length > 0 && <p class="label">Equipment profiles are factual references. Any fictional scenarios are labelled separately.</p>}
@@ -64,6 +66,8 @@ const titles = { blackout: 'Power outage preparedness: batteries, lighting & ref
 </BaseLayout>
 
 <style>
+  /* Deep red remains the sector accent; smaller headings need a lighter text tone. */
+  .hub[data-universe='fallout'] :global(.guide h3) { color: #f07b76; }
   .hub-head h1 { color: var(--accent); }
   .sector-categories { display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; padding-left: 1.2rem; margin-bottom: var(--s-5); }
   .sector-categories a { display: inline-flex; align-items: center; min-height: 2.75rem; }

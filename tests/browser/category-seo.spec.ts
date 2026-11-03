@@ -2,8 +2,8 @@ import {test,expect} from './fixtures';
 import AxeBuilder from '@axe-core/playwright';
 import {mkdirSync,writeFileSync} from 'node:fs';
 
-const core=['/','/gear/','/blackout/','/fallout/','/outbreak/'];
-test('all five core pages are indexable with self canonicals and sitemap entries while unapproved profiles remain restricted',async({page,request})=>{
+const core=['/','/gear/','/blackout/','/fallout/','/outbreak/','/whiteout/'];
+test('all six core pages are indexable with self canonicals and sitemap entries while unapproved profiles remain restricted',async({page,request})=>{
  const xml=await (await request.get('/sitemap-0.xml')).text();
  for(const path of core){
   const response=await page.goto(path);expect(response?.status()).toBe(200);
@@ -28,8 +28,8 @@ test('catalogue guide, sector links and unchanged cards remain accessible from 3
  for(const width of [320,375,768,1024,1440,1920]){
   await page.setViewportSize({width,height:1000});await page.goto('/gear/');
   await expect(page.locator('[data-editorial-guide]')).toContainText('not a hands-on test');
-  await expect(page.locator('article.card')).toHaveCount(46);await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(41);
-  const nav=page.getByRole('navigation',{name:'Equipment sectors'});for(const sector of ['blackout','fallout','outbreak'])await expect(nav.locator(`a[href="/${sector}/"]`)).toHaveCount(1);
+  await expect(page.locator('article.card')).toHaveCount(47);await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(41);
+  const nav=page.getByRole('navigation',{name:'Equipment sectors'});for(const sector of ['blackout','fallout','outbreak','whiteout'])await expect(nav.locator(`a[href="/${sector}/"]`)).toHaveCount(1);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   const violations=(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations;expect(violations).toEqual([]);records.push({width,axeViolations:violations.length});
   if(width===375||width===1440)await page.screenshot({path:`.tools/qa/core-indexation/catalogue-${width}.png`});

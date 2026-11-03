@@ -16,7 +16,7 @@ const active = (href: string) => path === href ? 'page' : undefined;
         <img class="brand__emblem" src={BRAND.logo} srcset={BRAND.srcset} sizes={BRAND.sizes} width="128" height="128" alt="" aria-hidden="true" loading="eager" decoding="async" />
         <span>{SITE.name}</span>
       </a>
-      <span class="index-label">EQUIPMENT INTELLIGENCE <span aria-hidden="true">/</span> THREE SECTORS</span>
+      <span class="index-label">EQUIPMENT INTELLIGENCE <span aria-hidden="true">/</span> FOUR SECTORS</span>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span aria-hidden="true" class="hamburger">☰</span> Menu</button>
     </div>
     <nav id="site-nav" class="site-nav" aria-label="Primary" data-open="false">
@@ -32,7 +32,7 @@ const active = (href: string) => path === href ? 'page' : undefined;
           {UNIVERSE_IDS.map((id, index) => <section class="menu-column" data-sector={id}>
             <div class="column-title"><a class="sector-home" href={`/${id}/`} aria-current={active(`/${id}/`)}><span aria-hidden="true" class="column-number">0{index + 1}</span>{UNIVERSES[id].name}</a><button class="sector-toggle" type="button" aria-label={`Expand ${UNIVERSES[id].name} categories`} aria-expanded="false" aria-controls={`menu-${id}`}><span aria-hidden="true">+</span></button></div>
             <div id={`menu-${id}`} class="column-body">
-              <p class="column-caption">{id === 'blackout' ? 'Stay powered. Stay connected.' : id === 'fallout' ? 'Prepare the essentials.' : 'Pack for the unknown.'}</p>
+              <p class="column-caption">{id === 'blackout' ? 'Stay powered. Stay connected.' : id === 'fallout' ? 'Prepare the essentials.' : id === 'whiteout' ? 'Insulate. Stay dry. Plan shelter.' : 'Pack for the unknown.'}</p>
               <ul>{categories.filter(category => category.universe === id).map(category => <li><a class="category-link" href={category.href} data-category={category.id}><span>{category.label}</span><span class="category-count" aria-label={`${category.count} profiles`}>{category.count.toString().padStart(2, '0')}</span></a></li>)}</ul>
             </div>
           </section>)}
@@ -161,9 +161,10 @@ const active = (href: string) => path === href ? 'page' : undefined;
   .menu-intro { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.2rem 1.5rem; border-bottom: 1px solid #343a3f; }
   .menu-intro > span:last-child { font-size: .78rem; color: #b7bfc5; }
   .menu-eyebrow { color: #e3ba72; }
-  .mega-columns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 1.5rem .5rem 1.75rem; }
+  .mega-columns { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 1.5rem .5rem 1.75rem; }
   .menu-column { --sector-accent: #e8b65d; padding-inline: 1rem; min-width: 0; }
   [data-sector='fallout'] { --sector-accent: #ef9388; }
+  [data-sector='whiteout'] { --sector-accent: #7DD3FC; }
   [data-sector='outbreak'] { --sector-accent: #a1cb88; }
   .menu-column + .menu-column { border-left: 1px solid #353c41; }
   .column-title { display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--sector-accent); padding-bottom: .8rem; }

@@ -44,7 +44,7 @@ for (const width of [320, 375, 768, 1024, 1440, 1920]) {
     const mobile = width < 1024;
     if (mobile) {
       await page.getByRole('button', { name: 'Menu', exact: true }).click();
-      for (const sector of ['BLACKOUT', 'FALLOUT', 'OUTBREAK']) {
+      for (const sector of ['BLACKOUT', 'FALLOUT', 'OUTBREAK', 'WHITEOUT']) {
         const button = page.getByRole('button', { name: `Expand ${sector} categories` });
         await button.click(); await expect(button).toHaveAttribute('aria-expanded', 'true');
       }
@@ -114,8 +114,8 @@ test('every category matches the source and resolves to a working initial and sa
   await page.locator(`header .category-link[data-category="${first.id}"]`).click();
   await expect(page.getByLabel('Equipment category', { exact: true })).toHaveValue(first.id);
   await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(first.count);
-  await page.getByRole('button', { name: 'Clear filters' }).click(); await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(46);
-  const xml = await (await request.get('/sitemap-0.xml')).text(); expect((xml.match(/<loc>/g) ?? []).length).toBe(7); expect(xml).not.toContain('#category-');
+  await page.getByRole('button', { name: 'Clear filters' }).click(); await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(47);
+  const xml = await (await request.get('/sitemap-0.xml')).text(); expect((xml.match(/<loc>/g) ?? []).length).toBe(8); expect(xml).not.toContain('#category-');
 });
 
 for (const width of [320, 1440]) test(`all category destinations remain native and usable without JavaScript at ${width}px`, async ({ browser }) => {
@@ -126,7 +126,7 @@ for (const width of [320, 1440]) test(`all category destinations remain native a
     await expect(page.locator('header .category-link')).toHaveCount(categories.length);
     await page.locator('header .category-link').first().click();
     await expect(page).toHaveURL(/\/gear\/#category-/);
-    await expect(page.locator('[data-catalogue-entry]')).toHaveCount(46);
+    await expect(page.locator('[data-catalogue-entry]')).toHaveCount(47);
     for (const category of categories) await expect(page.locator(`#category-${category.id}`)).toHaveCount(1);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   } finally { await context.close(); }
@@ -137,14 +137,14 @@ test('capture desktop discovery and mobile accordion states with reduced motion'
   await page.setViewportSize({ width: 1440, height: 1100 }); await page.goto('/');
   await page.locator('.gear-trigger > a').hover();
   await page.screenshot({ path: `${screenshotDirectory}/desktop-open.png` });
-  for (const sector of ['blackout', 'fallout', 'outbreak']) {
+  for (const sector of ['blackout', 'fallout', 'outbreak', 'whiteout']) {
     await page.locator(`.menu-column[data-sector="${sector}"] .category-link`).first().hover();
     await page.screenshot({ path: `${screenshotDirectory}/desktop-${sector}-hover.png` });
   }
   await page.setViewportSize({ width: 375, height: 900 });
   await page.getByRole('button', { name: 'Menu', exact: true }).click();
   await page.screenshot({ path: `${screenshotDirectory}/mobile-drawer.png` });
-  for (const sector of ['blackout', 'fallout', 'outbreak']) {
+  for (const sector of ['blackout', 'fallout', 'outbreak', 'whiteout']) {
     const button = page.getByRole('button', { name: `Expand ${sector.toUpperCase()} categories` });
     await button.click(); await button.scrollIntoViewIfNeeded();
     await page.screenshot({ path: `${screenshotDirectory}/mobile-${sector}-expanded.png` });

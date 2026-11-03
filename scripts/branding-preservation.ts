@@ -1,7 +1,9 @@
+import {schemasBeforeFourUniverses} from './four-universes-preservation.mjs';
 import assert from 'node:assert/strict';
 
 /** Permit only the approved property before exact historical schema comparison. */
 export function schemasBeforeBrandLogo(path: string, schemas: Record<string, unknown>[]) {
+  schemas=schemasBeforeFourUniverses(path,schemas);
   if (path !== '/') return schemas;
   assert.equal(schemas.filter(schema => schema['@type'] === 'Organization').length, 1);
   return schemas.map(schema => {

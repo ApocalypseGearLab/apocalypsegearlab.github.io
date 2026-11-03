@@ -57,7 +57,7 @@ for (const asset of manifest.assets) {
     await sharp(bytes).raw().toBuffer();
   }
 }
-assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) => path.slice('/images/'.length)).sort());
+assert.deepEqual((await readdir('public/images')).sort(), [...paths].map((path) => path.slice('/images/'.length)).concat('universes').sort());
 assert.equal(paths.size, 17);
 assert.equal((await readdir('assets/rejected/blackout')).length, 2);
 console.log(`Verified 9 source mappings, 17 WebP source assets and 2 rejected files; dimensions, hashes, metadata, rights and source mapping controls passed. Delivery permissions are checked against dist by test:site.`);
@@ -72,7 +72,7 @@ assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,1
 assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,16);
 assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,46);
 assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,46);
-const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json').map(file => file.replace(/\.json$/, ''));
+const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json' && file !== 'therm-a-rest-neoair-xtherm-nxt-review.json').map(file => file.replace(/\.json$/, ''));
 assert.equal(productIds.length,46);
 assert.deepEqual(productIds.filter(id=>!supplied.assets.some(asset=>asset.productId===id)),[],'Every product maps to its distinct artwork record; Explorer 300 remains rejected');
 const csv=await readFile(supplied.csv,'utf8');
@@ -140,3 +140,7 @@ console.log('Confirmed byte-for-byte preservation of the other 11 product illust
 const phase7Encoding=spawnSync(process.execPath,['scripts/build-phase7-media.mjs','--check'],{encoding:'utf8',windowsHide:true});
 assert.equal(phase7Encoding.status,0,phase7Encoding.stdout+'\n'+phase7Encoding.stderr);
 console.log(phase7Encoding.stdout.trim());
+
+const cinematic=spawnSync(process.execPath,['scripts/verify-four-universes.mjs','--sources-only'],{encoding:'utf8',windowsHide:true});
+assert.equal(cinematic.status,0,cinematic.stdout+'\n'+cinematic.stderr);
+console.log(cinematic.stdout.trim());
