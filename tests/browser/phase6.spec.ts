@@ -12,7 +12,7 @@ test('catalogue search, combined filters, empty state, reset and keyboard contro
   await page.goto('/gear/');
   const visible = page.locator('[data-catalogue-entry]:visible');
   const search = page.getByRole('searchbox');
-  await expect(visible).toHaveCount(46);
+  await expect(visible).toHaveCount(47);
   await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
   expect(await page.evaluate(() => (window as any).__catalogueCLS)).toBe(0);
   await search.fill('ecoflow');
@@ -23,7 +23,7 @@ test('catalogue search, combined filters, empty state, reset and keyboard contro
   await expect(page.locator('[data-catalogue-empty]')).toBeVisible();
   await page.getByRole('button', { name: 'Clear filters' }).focus();
   await page.keyboard.press('Enter');
-  await expect(visible).toHaveCount(46);
+  await expect(visible).toHaveCount(47);
   await expect(search).toHaveValue('');
   await page.getByLabel('Equipment category', { exact: true }).selectOption('rechargeable-batteries');
   await expect(visible).toHaveCount(2);
@@ -41,7 +41,7 @@ test('catalogue search, combined filters, empty state, reset and keyboard contro
   await expect(search).toHaveValue('');
   await expect(page.getByLabel('Equipment category', { exact: true })).toHaveValue('rainwear');
   await page.getByRole('button', { name: 'Clear filters' }).click();
-  await expect(visible).toHaveCount(46);
+  await expect(visible).toHaveCount(47);
   const delay = await page.evaluate(() => {
     const input = document.querySelector<HTMLInputElement>('#gear-query')!;
     const start = performance.now();
@@ -57,7 +57,7 @@ test('catalogue and all hub guides keep working without JavaScript', async ({ br
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 320, height: 900 } });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:4321/gear/');
-  await expect(page.locator('article.card')).toHaveCount(46);
+  await expect(page.locator('article.card')).toHaveCount(47);
   await expect(page.locator('[data-catalogue-controls]')).toBeHidden();
   await page.getByText('Browse equipment categories', { exact: true }).click();
   await page.getByRole('navigation', { name: 'Equipment categories' }).getByRole('link', { name: 'Emergency power stations', exact: true }).click();

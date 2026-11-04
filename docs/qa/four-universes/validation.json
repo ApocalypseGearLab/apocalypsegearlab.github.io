@@ -1,0 +1,86 @@
+[
+  {
+    "command": "npm run check",
+    "exitCode": 0,
+    "log": ".tools/four-final-check.log"
+  },
+  {
+    "command": "npm run test",
+    "exitCode": 0,
+    "log": ".tools/four-final-test.log"
+  },
+  {
+    "command": "npm run test:images",
+    "exitCode": 0,
+    "log": ".tools/four-final-test-images.log"
+  },
+  {
+    "command": "npm run release:check",
+    "exitCode": 0,
+    "log": ".tools/four-final-release-check.log"
+  },
+  {
+    "command": "npm run audit:affiliate",
+    "exitCode": 0,
+    "log": ".tools/four-final-audit-affiliate.log"
+  },
+  {
+    "command": "npm run audit:verification",
+    "exitCode": 0,
+    "log": ".tools/four-final-audit-verification.log"
+  },
+  {
+    "command": "npm run test:products",
+    "exitCode": 0,
+    "log": ".tools/four-final-test-products.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "log": ".tools/four-final-build.log"
+  },
+  {
+    "command": "npm run test:site",
+    "exitCode": 0,
+    "log": ".tools/four-final-test-site.log"
+  },
+  {
+    "command": "npm run test:conversion",
+    "exitCode": 0,
+    "log": ".tools/four-final-test-conversion.log"
+  },
+  {
+    "command": "npm run test:bougerv",
+    "exitCode": 0,
+    "log": ".tools/four-final-test-bougerv.log"
+  },
+  {
+    "command": "npm run test:phase55",
+    "exitCode": 0,
+    "log": ".tools/four-final-test-phase55.log"
+  },
+  {
+    "command": "npm run test:browser",
+    "initialFullRun": {
+      "tests": 179,
+      "passed": 171,
+      "failed": 8,
+      "result": "Corrections required: sitemap count, new fourth accordion expansion in test, FALLOUT small-text contrast."
+    },
+    "focusedRerun": {
+      "tests": 29,
+      "passed": 28,
+      "failed": 1,
+      "result": "All earlier failures resolved; new full-page screenshot waited on an off-screen lazy image."
+    },
+    "finalRerun": {
+      "command": "npm run test:browser -- --last-failed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "exitCode": 0,
+      "result": "Scroll lazy images into view before decoding screenshots."
+    },
+    "coverage": "All 180 current browser cases exercised across the full run and focused reruns; complete suite also required in GitHub Actions."
+  }
+]

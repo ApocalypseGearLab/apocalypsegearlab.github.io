@@ -2,7 +2,7 @@
 import type { UniverseId } from '../config/taxonomy';
 interface Props { id: UniverseId }
 const { id } = Astro.props;
-const sections = id === 'blackout'
+const sections = id === 'whiteout' ? ['Ground insulation', 'A complete sleep system', 'Shelter and a way back', 'Care and repairs'] : id === 'blackout'
   ? ['Before an outage', 'Choosing a power station', 'Wh versus W', 'Estimating runtime', 'Lighting and charging', 'Food refrigeration', 'Battery compatibility', 'Electrical safety']
   : id === 'fallout'
   ? ['Water planning', 'Food and rations', 'First aid organization', 'Sanitation', 'Shelter and warmth', 'Household checklist', 'Equipment limitations']
@@ -10,8 +10,14 @@ const sections = id === 'blackout'
 ---
 <section class="section guide" aria-labelledby="sector-guide" data-sector-guide>
   <p class="label">Preparedness planning · Updated <time datetime="2026-11-01">November 1, 2026</time></p>
-  <h2 id="sector-guide">{id === 'blackout' ? 'Plan power around essential tasks' : id === 'fallout' ? 'Build a practical household emergency supply' : 'Prepare to leave with equipment you can carry'}</h2>
+  <h2 id="sector-guide">{id === 'whiteout' ? 'Plan warmth from the ground up' : id === 'blackout' ? 'Plan power around essential tasks' : id === 'fallout' ? 'Build a practical household emergency supply' : 'Prepare to leave with equipment you can carry'}</h2>
   <nav aria-label="In this preparedness guide"><ul class="guide-toc">{sections.map((title, i) => <li><a href={`#planning-${i + 1}`}>{title}</a></li>)}</ul></nav>
+  {id === 'whiteout' && <>
+    <section id="planning-1"><h3>Start with ground insulation</h3><p>A sleeping bag and a sleeping pad do different jobs. Your body compresses insulation beneath you; a pad adds resistance to heat flowing into the ground. Compare documented R-values for the exact model rather than thickness or cinematic artwork. The <a href="/gear/therm-a-rest-neoair-xtherm-nxt-review/">NeoAir XTherm NXT profile</a> explains the manufacturer’s 7.3 R-value and the unresolved retailer variant. An R-value is not a minimum safe air temperature.</p></section>
+    <section id="planning-2"><h3>Build a complete winter sleep system</h3><p>Match pad width and length to your body and sleeping position. Keep your sleeping bag, spare layers and ground insulation dry. Check the bag’s documented temperature rating and the assumptions behind it; a pad does not replace clothing, shelter or a suitable bag. Practise assembling the full system near an easy exit before taking it into remote winter conditions.</p></section>
+    <section id="planning-3"><h3>Plan shelter and a way back</h3><p>Check the forecast and local travel advisories before leaving. Agree on a route, turnaround criteria and an overdue contact plan. Shelter must address wind and precipitation as well as ground insulation. Carry accessible lighting and communication appropriate to your location; see the <a href="/blackout/#planning-5">lighting and charging guide</a> and <a href="/outbreak/#planning-3">navigation and communication plan</a>. A survival-themed product image does not establish a safe expedition limit.</p></section>
+    <section id="planning-4"><h3>Inspect, repair and prepare a backup</h3><p>Inflate the pad and inspect the valve and seams before travel. Clear sharp debris from the sleeping area and follow the manufacturer’s care instructions. Carry a compatible repair kit and know how to use it. Plan what you will do if an inflatable pad leaks, wet gear cannot be dried or conditions exceed your equipment and experience. Avoid flames and unvented combustion inside shelters.</p></section>
+  </>}
   {id === 'blackout' && <>
     <section id="planning-1"><h3>What to prepare before a power outage</h3><p>Walk through a day without electricity. Write down the tasks that cannot wait: contacting family, moving safely after dark and keeping essential supplies at the right temperature. Record each device, its power input and how long you need it. Charge portable batteries, locate cables and practise finding your lighting before the lights go out. Arrange a separate contingency with your care provider for powered medical equipment.</p></section>
     <section id="planning-2"><h3>How to choose a portable power station</h3><p>Choose output power for the appliances you need to run at the same time, including startup demand. Choose battery energy for the time between charging opportunities. Then check weight, Canadian voltage, allowed temperatures and the charging inputs in the exact model manual. Compare the documented <a href="/gear/ecoflow-delta-2-portable-power-station/">EcoFlow DELTA 2</a>, <a href="/gear/bluetti-elite-100-v2-solar-generator-kit/">BLUETTI Elite 100 V2 kit</a> and <a href="/gear/jackery-explorer-1000-v2/">Jackery Explorer 1000 v2</a> profiles by those requirements, rather than by headline output alone. A kit title does not prove the panel or cable included in a current offer.</p></section>

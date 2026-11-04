@@ -1,3 +1,4 @@
+import {beforeFourUniverses} from '../scripts/four-universes-preservation.mjs';
 import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
@@ -22,9 +23,9 @@ test('Phase 5.3 preserves all 34 earlier products, artwork, release/Google/SEO p
  assert.deepEqual(baseline.allowedIntegrationFiles,['src/data/media/imported-manifest.json','src/components/UniverseHub.astro']);
  for(const row of baseline.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;if(row.file==='src/components/ProductCatalogue.astro')continue; // Core indexation fix: isolated catalogue change protected by category-seo.test.ts and rendered SEO assertions.
 if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
-const b=readFileSync(row.file);assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);}
+const b=beforeFourUniverses(row.file,readFileSync(row.file));assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);}
  assert.deepEqual(importedMedia.slice(0,34),baseline.previousAssets);
- assert.equal(importedMedia.length,46);assert.equal(importedMedia.filter(canPublishImportedAsset).length,45);
+ assert.equal(importedMedia.length,47);assert.equal(importedMedia.filter(canPublishImportedAsset).length,46);
 });
 
 for(const [id,[asin,category]]of Object.entries(PHASE53))test(`${id} permits only its documented recorded link, preserving independent SEO and safety controls`,()=>{

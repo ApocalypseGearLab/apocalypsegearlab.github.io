@@ -22,7 +22,7 @@ const universeFor = (category) => {
   assert.ok(match, `Unknown category: ${category}`);
   return match[2];
 };
-const suppliedMedia = JSON.parse(readFileSync('src/data/media/imported-manifest.json', 'utf8')).assets;
+const suppliedMedia = [...JSON.parse(readFileSync('src/data/media/imported-manifest.json', 'utf8')).assets, ...JSON.parse(readFileSync('src/data/media/whiteout-manifest.json', 'utf8')).assets];
 const files = readdirSync(root, { recursive: true }).filter((name) => name.endsWith('.html'));
 const textArtifacts = readdirSync(root, { recursive: true }).filter((name) => /\.(html|xml|txt|json|js|css)$/.test(name)).map((name) => ({ name, text: readFileSync(resolve(root, name), 'utf8') }));
 const documents = new Map();
@@ -37,8 +37,17 @@ for (const file of files) {
   const html = readFileSync(resolve(root, file), 'utf8');
   const $ = load(html);
   const previousSEO=brandingBefore.pages.find(page=>page.path===pathname);
-  assert.ok(previousSEO||phase7Paths.has(pathname),'Only the five approved Phase 7 profiles may be added: '+pathname);
-  if(previousSEO)assert.deepEqual({path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()},previousSEO,'Branding preserves SEO and social metadata: '+pathname);
+  assert.ok(previousSEO||phase7Paths.has(pathname)||['/whiteout/','/gear/therm-a-rest-neoair-xtherm-nxt-review/'].includes(pathname),'Only explicitly approved integration routes may be added: '+pathname);
+  if(previousSEO){
+    const currentSEO={path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()};
+    if(['/blackout/','/fallout/','/outbreak/'].includes(pathname)){
+      // New cinematic social fields are checked exactly by verify-four-universes.
+      // Every earlier title, description, canonical, robots and social value stays frozen.
+      const addedSocial=new Set(['og:image','og:image:type','og:image:width','og:image:height','og:image:alt','twitter:title','twitter:description','twitter:image','twitter:image:alt']);
+      currentSEO.social=currentSEO.social.filter(row=>!addedSocial.has(row.name)).map(row=>row.name==='twitter:card'?{...row,content:'summary'}:row);
+    }
+    assert.deepEqual(currentSEO,previousSEO,'Preserve every earlier SEO and social field: '+pathname);
+  }
   assert.equal($('meta[name="google-site-verification"]').length, 1, file);
   assert.equal($('meta[name="google-site-verification"]').attr('content'), 'L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk', file);
   assert.equal($('script[src*="googletagmanager.com/gtag/js"]').length, 1, file);
@@ -223,7 +232,7 @@ while (queue.length) {
   });
 }
 for (const url of indexable) assert.ok(reachable.has(url), `Orphaned indexable page: ${url}`);
-const corePages = ['/', '/gear/', '/blackout/', '/fallout/', '/outbreak/'];
+const corePages = ['/', '/gear/', '/blackout/', '/fallout/', '/outbreak/', '/whiteout/'];
 for (const path of corePages) {
   const page = documents.get(fileFor(path));
   assert.ok(page, `Core page missing: ${path}`);

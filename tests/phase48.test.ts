@@ -1,3 +1,4 @@
+import {beforeFourUniverses} from '../scripts/four-universes-preservation.mjs';
 import { PHASE6_INTEGRATION_FILES } from './phase6-fixture';
 import {PHASE55_INTEGRATION_FILES} from './phase55-fixture';
 import {BOUGERV_INTEGRATION_FILES} from './bougerv-fixture';
@@ -22,7 +23,7 @@ test('Phase 4.8 preserves every other product, all artwork, policies and 2091 te
   for(const row of baseline.files){if(PHASE6_INTEGRATION_FILES.has(row.file))continue;if(PHASE55_INTEGRATION_FILES.has(row.file))continue;if(BOUGERV_INTEGRATION_FILES.has(row.file))continue;if(accountStatusFileChanged(row.file))continue;if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
 if(CONVERSION_INTEGRATION_FILES.has(row.file))continue;if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(row.file)) continue; // Phase 5 preservation tests cover additive integration.
 
-    const bytes=readFileSync(row.file);
+    const bytes=beforeFourUniverses(row.file,readFileSync(row.file));
     const content=row.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
     assert.equal(createHash('sha256').update(content).digest('hex'),row.sha256,row.file);
   }

@@ -35,7 +35,7 @@ test('account disclosure and distinct product states remain readable, accessible
  for(const width of [320,375,768,1024,1440,1920]){
   await page.setViewportSize({width,height:1000});await page.goto('/gear/');
   await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(41);
-  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(5);
+  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(6);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   const violations=(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations;expect(violations).toEqual([]);rows.push({path:'/gear/',width,axeViolations:0});
   if(width===375||width===1440){

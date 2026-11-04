@@ -1,0 +1,166 @@
+{
+  "src/components/Header.astro": [
+    {
+      "before": "      </a>\n      <span class=\"index-label\">EQUIPMENT INTELLIGENCE <span aria-hidden=\"true\">/</span> THREE SECTORS</span>\n      <button class=\"nav-toggle\" type=\"button\" aria-expanded=\"false\" aria-controls=\"site-nav\"><span aria-hidden=\"true\" class=\"hamburger\">☰</span> Menu</button>\n",
+      "after": "      </a>\n      <span class=\"index-label\">EQUIPMENT INTELLIGENCE <span aria-hidden=\"true\">/</span> FOUR SECTORS</span>\n      <button class=\"nav-toggle\" type=\"button\" aria-expanded=\"false\" aria-controls=\"site-nav\"><span aria-hidden=\"true\" class=\"hamburger\">☰</span> Menu</button>\n"
+    },
+    {
+      "before": "            <div id={`menu-${id}`} class=\"column-body\">\n              <p class=\"column-caption\">{id === 'blackout' ? 'Stay powered. Stay connected.' : id === 'fallout' ? 'Prepare the essentials.' : 'Pack for the unknown.'}</p>\n              <ul>{categories.filter(category => category.universe === id).map(category => <li><a class=\"category-link\" href={category.href} data-category={category.id}><span>{category.label}</span><span class=\"category-count\" aria-label={`${category.count} profiles`}>{category.count.toString().padStart(2, '0')}</span></a></li>)}</ul>\n",
+      "after": "            <div id={`menu-${id}`} class=\"column-body\">\n              <p class=\"column-caption\">{id === 'blackout' ? 'Stay powered. Stay connected.' : id === 'fallout' ? 'Prepare the essentials.' : id === 'whiteout' ? 'Insulate. Stay dry. Plan shelter.' : 'Pack for the unknown.'}</p>\n              <ul>{categories.filter(category => category.universe === id).map(category => <li><a class=\"category-link\" href={category.href} data-category={category.id}><span>{category.label}</span><span class=\"category-count\" aria-label={`${category.count} profiles`}>{category.count.toString().padStart(2, '0')}</span></a></li>)}</ul>\n"
+    },
+    {
+      "before": "  .menu-eyebrow { color: #e3ba72; }\n  .mega-columns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 1.5rem .5rem 1.75rem; }\n  .menu-column { --sector-accent: #e8b65d; padding-inline: 1rem; min-width: 0; }\n",
+      "after": "  .menu-eyebrow { color: #e3ba72; }\n  .mega-columns { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 1.5rem .5rem 1.75rem; }\n  .menu-column { --sector-accent: #e8b65d; padding-inline: 1rem; min-width: 0; }\n"
+    },
+    {
+      "before": "  [data-sector='fallout'] { --sector-accent: #ef9388; }\n  [data-sector='outbreak'] { --sector-accent: #a1cb88; }\n",
+      "after": "  [data-sector='fallout'] { --sector-accent: #ef9388; }\n  [data-sector='whiteout'] { --sector-accent: #7DD3FC; }\n  [data-sector='outbreak'] { --sector-accent: #a1cb88; }\n"
+    }
+  ],
+  "src/components/ProductCard.astro": [
+    {
+      "before": "\n<article class:list={['panel', 'card', { 'card--illustrated': illustrated }]} data-product-id={product.id} data-universe={universe.id} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>\n  <ProductImage slug={product.id} label={categoryLabel(data.category)} universe={universe.id} releasePreview={releasePreview} />\n",
+      "after": "\n<article class:list={['panel', 'card', { 'card--illustrated': illustrated }]} data-product-id={product.id} data-universe={universe.id} style={`--accent: ${universe.id === 'whiteout' ? '#7DD3FC' : universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>\n  <ProductImage slug={product.id} label={categoryLabel(data.category)} universe={universe.id} releasePreview={releasePreview} />\n"
+    }
+  ],
+  "src/components/ProductCatalogue.astro": [
+    {
+      "before": "          <li><a href=\"/outbreak/\">OUTBREAK — protective equipment, carrying systems and outdoor tools</a></li>\n        </ul>\n",
+      "after": "          <li><a href=\"/outbreak/\">OUTBREAK — protective equipment, carrying systems and outdoor tools</a></li>\n          <li><a href=\"/whiteout/\">WHITEOUT — winter ground insulation and emergency shelter</a></li>\n        </ul>\n"
+    }
+  ],
+  "src/components/ProductImage.astro": [
+    {
+      "before": "const mediaUniverse = supplied?.category ?? universe;\nconst imageAccent = mediaUniverse === 'fallout' ? '240 123 118' : mediaUniverse === 'outbreak' ? '182 245 102' : '245 166 35';\nconst asset = supplied ? {\n",
+      "after": "const mediaUniverse = supplied?.category ?? universe;\nconst imageAccent = mediaUniverse === 'whiteout' ? '125 211 252' : mediaUniverse === 'fallout' ? '240 123 118' : mediaUniverse === 'outbreak' ? '182 245 102' : '245 166 35';\nconst asset = supplied ? {\n"
+    }
+  ],
+  "src/components/ProductProfile.astro": [
+    {
+      "before": "<BaseLayout canonicalPath={`/gear/${product.id}/`} title={`${data.name}: specs, uses & limitations`} description={data.summary} noindex={!indexable} ogType=\"article\" jsonLd={[breadcrumbs, ...(productJson ? [productJson] : [])]}>\n  <article class=\"container section stack\" data-universe={universe.id} data-outbound-policy={publicReferences ? undefined : 'amazon-only'} style={`--accent: ${universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>\n    <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />\n",
+      "after": "<BaseLayout canonicalPath={`/gear/${product.id}/`} title={`${data.name}: specs, uses & limitations`} description={data.summary} noindex={!indexable} ogType=\"article\" jsonLd={[breadcrumbs, ...(productJson ? [productJson] : [])]}>\n  <article class=\"container section stack\" data-universe={universe.id} data-outbound-policy={publicReferences ? undefined : 'amazon-only'} style={`--accent: ${universe.id === 'whiteout' ? '#7DD3FC' : universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>\n    <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />\n"
+    }
+  ],
+  "src/components/SectorGuide.astro": [
+    {
+      "before": "const { id } = Astro.props;\nconst sections = id === 'blackout'\n  ? ['Before an outage', 'Choosing a power station', 'Wh versus W', 'Estimating runtime', 'Lighting and charging', 'Food refrigeration', 'Battery compatibility', 'Electrical safety']\n",
+      "after": "const { id } = Astro.props;\nconst sections = id === 'whiteout' ? ['Ground insulation', 'A complete sleep system', 'Shelter and a way back', 'Care and repairs'] : id === 'blackout'\n  ? ['Before an outage', 'Choosing a power station', 'Wh versus W', 'Estimating runtime', 'Lighting and charging', 'Food refrigeration', 'Battery compatibility', 'Electrical safety']\n"
+    },
+    {
+      "before": "  <p class=\"label\">Preparedness planning · Updated <time datetime=\"2026-11-01\">November 1, 2026</time></p>\n  <h2 id=\"sector-guide\">{id === 'blackout' ? 'Plan power around essential tasks' : id === 'fallout' ? 'Build a practical household emergency supply' : 'Prepare to leave with equipment you can carry'}</h2>\n  <nav aria-label=\"In this preparedness guide\"><ul class=\"guide-toc\">{sections.map((title, i) => <li><a href={`#planning-${i + 1}`}>{title}</a></li>)}</ul></nav>\n",
+      "after": "  <p class=\"label\">Preparedness planning · Updated <time datetime=\"2026-11-01\">November 1, 2026</time></p>\n  <h2 id=\"sector-guide\">{id === 'whiteout' ? 'Plan warmth from the ground up' : id === 'blackout' ? 'Plan power around essential tasks' : id === 'fallout' ? 'Build a practical household emergency supply' : 'Prepare to leave with equipment you can carry'}</h2>\n  <nav aria-label=\"In this preparedness guide\"><ul class=\"guide-toc\">{sections.map((title, i) => <li><a href={`#planning-${i + 1}`}>{title}</a></li>)}</ul></nav>\n"
+    },
+    {
+      "before": "  <nav aria-label=\"In this preparedness guide\"><ul class=\"guide-toc\">{sections.map((title, i) => <li><a href={`#planning-${i + 1}`}>{title}</a></li>)}</ul></nav>\n  {id === 'blackout' && <>\n",
+      "after": "  <nav aria-label=\"In this preparedness guide\"><ul class=\"guide-toc\">{sections.map((title, i) => <li><a href={`#planning-${i + 1}`}>{title}</a></li>)}</ul></nav>\n  {id === 'whiteout' && <>\n    <section id=\"planning-1\"><h3>Start with ground insulation</h3><p>A sleeping bag and a sleeping pad do different jobs. Your body compresses insulation beneath you; a pad adds resistance to heat flowing into the ground. Compare documented R-values for the exact model rather than thickness or cinematic artwork. The <a href=\"/gear/therm-a-rest-neoair-xtherm-nxt-review/\">NeoAir XTherm NXT profile</a> explains the manufacturer’s 7.3 R-value and the unresolved retailer variant. An R-value is not a minimum safe air temperature.</p></section>\n    <section id=\"planning-2\"><h3>Build a complete winter sleep system</h3><p>Match pad width and length to your body and sleeping position. Keep your sleeping bag, spare layers and ground insulation dry. Check the bag’s documented temperature rating and the assumptions behind it; a pad does not replace clothing, shelter or a suitable bag. Practise assembling the full system near an easy exit before taking it into remote winter conditions.</p></section>\n    <section id=\"planning-3\"><h3>Plan shelter and a way back</h3><p>Check the forecast and local travel advisories before leaving. Agree on a route, turnaround criteria and an overdue contact plan. Shelter must address wind and precipitation as well as ground insulation. Carry accessible lighting and communication appropriate to your location; see the <a href=\"/blackout/#planning-5\">lighting and charging guide</a> and <a href=\"/outbreak/#planning-3\">navigation and communication plan</a>. A survival-themed product image does not establish a safe expedition limit.</p></section>\n    <section id=\"planning-4\"><h3>Inspect, repair and prepare a backup</h3><p>Inflate the pad and inspect the valve and seams before travel. Clear sharp debris from the sleeping area and follow the manufacturer’s care instructions. Carry a compatible repair kit and know how to use it. Plan what you will do if an inflatable pad leaks, wet gear cannot be dried or conditions exceed your equipment and experience. Avoid flames and unvented combustion inside shelters.</p></section>\n  </>}\n  {id === 'blackout' && <>\n"
+    }
+  ],
+  "src/components/UniverseCard.astro": [
+    {
+      "before": "---\nimport type { Universe } from '../config/site';\n",
+      "after": "---\nimport { CINEMATIC, cinematicSrc, cinematicSrcset } from '../config/cinematic';\nimport type { Universe } from '../config/site';\n"
+    },
+    {
+      "before": "<a class=\"panel universe\" href={`/${universe.id}/`} style={`--accent: ${universe.accent}`}>\n  <p class=\"label\">{universe.signal}</p>\n",
+      "after": "<a class=\"panel universe\" href={`/${universe.id}/`} style={`--accent: ${universe.accent}`}>\n  <img src={cinematicSrc(universe.id, 768)} srcset={cinematicSrcset(universe.id)} sizes=\"(min-width: 960px) 360px, (min-width: 640px) 50vw, 100vw\" width=\"1600\" height=\"900\" alt={CINEMATIC[universe.id].alt} loading=\"lazy\" decoding=\"async\" />\n  <p class=\"label\">{universe.signal}</p>\n"
+    },
+    {
+      "before": "    {universe.fiction && <span class=\"badge badge--fiction\">Includes fiction</span>}\n    <span class=\"badge\">Guides in development</span>\n  </p>\n",
+      "after": "    {universe.fiction && <span class=\"badge badge--fiction\">Includes fiction</span>}\n    <span class=\"badge\">Planning guide available</span>\n  </p>\n"
+    },
+    {
+      "before": "  .universe h3 { color: var(--accent); font-size: var(--fs-2); text-transform: uppercase; }\n  .status { display: flex; gap: var(--s-2); flex-wrap: wrap; margin: 0; }\n",
+      "after": "  .universe h3 { color: var(--accent); font-size: var(--fs-2); text-transform: uppercase; }\n  .universe img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; margin-bottom: 1rem; }\n  .status { display: flex; gap: var(--s-2); flex-wrap: wrap; margin: 0; }\n"
+    }
+  ],
+  "src/components/UniverseHub.astro": [
+    {
+      "before": "---\nimport BaseLayout from '../layouts/BaseLayout.astro';\n",
+      "after": "---\nimport { CINEMATIC } from '../config/cinematic';\nimport UniverseHero from './UniverseHero.astro';\nimport BaseLayout from '../layouts/BaseLayout.astro';\n"
+    },
+    {
+      "before": "const jsonLd = Astro.site ? collectionStructuredData(Astro.site, `/${id}/`, universe.name, products) : [];\nconst titles = { blackout: 'Power outage preparedness: batteries, lighting & refrigeration', fallout: 'Household emergency supplies: water, food & shelter', outbreak: 'Evacuation gear planning: bags, navigation & protection' };\n---\n",
+      "after": "const jsonLd = Astro.site ? collectionStructuredData(Astro.site, `/${id}/`, universe.name, products) : [];\nconst titles = { blackout: 'Power outage preparedness: batteries, lighting & refrigeration', fallout: 'Household emergency supplies: water, food & shelter', outbreak: 'Evacuation gear planning: bags, navigation & protection', whiteout: 'Winter survival gear: insulated sleeping pads & cold-weather shelter' };\n---\n"
+    },
+    {
+      "before": "\n<BaseLayout canonicalPath={`/${id}/`} title={titles[id]} description={universe.summary} noindex={!indexable} jsonLd={jsonLd}>\n  <div class=\"container hub\" data-universe={id} style={`--accent: ${universe.accent}`}>\n",
+      "after": "\n<BaseLayout canonicalPath={`/${id}/`} title={titles[id]} description={universe.summary} noindex={!indexable} jsonLd={[...jsonLd, {'@context': 'https://schema.org', '@type': 'CollectionPage', name: titles[id], description: universe.summary, url: new URL(`/${id}/`, Astro.site).href, image: new URL(`/images/universes/${id}-survival-og.webp`, Astro.site).href }]} ogImage={`/images/universes/${id}-survival-og.webp`} ogImageWidth={1200} ogImageHeight={630} ogImageAlt={CINEMATIC[id].alt}>\n  <UniverseHero id={id} />\n  <div class=\"container hub\" data-universe={id} style={`--accent: ${universe.accent}`}>\n"
+    },
+    {
+      "before": "      <p class=\"label\">{universe.signal}</p>\n      <h1>{universe.name}</h1>\n      <p class=\"lead\">{universe.summary}</p>\n",
+      "after": "      <p class=\"label\">{universe.signal}</p>\n      <p class=\"lead\">{universe.summary}</p>\n"
+    },
+    {
+      "before": "<style>\n  .hub-head h1 { color: var(--accent); }\n",
+      "after": "<style>\n  /* Deep red remains the sector accent; smaller headings need a lighter text tone. */\n  .hub[data-universe='fallout'] :global(.guide h3) { color: #f07b76; }\n  .hub-head h1 { color: var(--accent); }\n"
+    }
+  ],
+  "src/config/site.ts": [
+    {
+      "before": "  { label: 'Outbreak', href: '/outbreak/' },\n  { label: 'Gear catalogue', href: '/gear/' },\n",
+      "after": "  { label: 'Outbreak', href: '/outbreak/' },\n  { label: 'Whiteout', href: '/whiteout/' },\n  { label: 'Gear catalogue', href: '/gear/' },\n"
+    },
+    {
+      "before": "      'Practical preparedness for extended electrical outages: power, lighting, radios, communication and household planning.',\n    accent: 'var(--c-amber)',\n    fiction: false,\n",
+      "after": "      'Practical preparedness for extended electrical outages: power, lighting, radios, communication and household planning.',\n    accent: '#F59E0B',\n    fiction: false,\n"
+    },
+    {
+      "before": "      'Responsible disaster and crisis preparedness: evacuation bags, water, food, first aid, shelter and household plans.',\n    accent: 'var(--c-rust)',\n    fiction: false,\n",
+      "after": "      'Responsible disaster and crisis preparedness: evacuation bags, water, food, first aid, shelter and household plans.',\n    accent: '#DC2626',\n    fiction: false,\n"
+    },
+    {
+      "before": "      'Guidance on radiation, chemical hazards or medical treatment will link to official emergency-management sources (for example Ready.gov, FEMA and the Government of Canada). We do not make unsupported safety claims.',\n  },\n",
+      "after": "      'Guidance on radiation, chemical hazards or medical treatment will link to official emergency-management sources (for example Ready.gov, FEMA and the Government of Canada). We do not make unsupported safety claims.',\n  },\n  whiteout: {\n    id: 'whiteout', name: 'Whiteout', signal: 'Extreme cold',\n    tagline: 'Build a winter sleep system. Protect insulation. Plan a way back.',\n    summary: 'Winter survival planning for ground insulation, dry sleep systems and emergency shelter. Understand sleeping-pad R-values, equipment limits and cold-weather contingencies.',\n    accent: '#7DD3FC', fiction: false,\n    sourcingNote: 'Cold-weather equipment facts use manufacturer documentation. Cinematic scenes are fictional illustrations, not evidence that equipment makes extreme conditions safe.',\n  },\n"
+    },
+    {
+      "before": "      'Equipment profiles for evacuation, outdoor travel and practical protection. Plan your load, understand each item’s limits and follow the manufacturer instructions.',\n    accent: 'var(--c-moss)',\n    fiction: true,\n",
+      "after": "      'Equipment profiles for evacuation, outdoor travel and practical protection. Plan your load, understand each item’s limits and follow the manufacturer instructions.',\n    accent: '#65D91E',\n    fiction: true,\n"
+    }
+  ],
+  "src/config/taxonomy.ts": [
+    {
+      "before": "export const UNIVERSE_IDS = ['blackout', 'fallout', 'outbreak'] as const;\nexport type UniverseId = (typeof UNIVERSE_IDS)[number];\n",
+      "after": "export const UNIVERSE_IDS = ['blackout', 'fallout', 'outbreak', 'whiteout'] as const;\nexport type UniverseId = (typeof UNIVERSE_IDS)[number];\n"
+    },
+    {
+      "before": "  { id: 'metal-detection', label: 'Exploration & metal detection', universe: 'fallout' },\n] as const;\n",
+      "after": "  { id: 'metal-detection', label: 'Exploration & metal detection', universe: 'fallout' },\n  { id: 'winter-sleep-systems', label: 'Winter sleeping pads & insulation', universe: 'whiteout' },\n] as const;\n"
+    }
+  ],
+  "src/layouts/BaseLayout.astro": [
+    {
+      "before": "  ogImage?: string;\n  ogType?: 'website' | 'article';\n",
+      "after": "  ogImage?: string;\n  ogImageWidth?: number;\n  ogImageHeight?: number;\n  ogImageAlt?: string;\n  ogType?: 'website' | 'article';\n"
+    },
+    {
+      "before": "  ogImage,\n  ogType = 'website',\n",
+      "after": "  ogImage,\n  ogImageWidth, ogImageHeight, ogImageAlt,\n  ogType = 'website',\n"
+    },
+    {
+      "before": "    <meta property=\"og:url\" content={canonical} />\n    {ogImageUrl && <meta property=\"og:image\" content={ogImageUrl} />}\n    <meta name=\"twitter:card\" content={ogImageUrl ? 'summary_large_image' : 'summary'} />\n",
+      "after": "    <meta property=\"og:url\" content={canonical} />\n    {ogImageUrl && <>\n      <meta property=\"og:image\" content={ogImageUrl} />\n      <meta property=\"og:image:type\" content=\"image/webp\" />\n      {ogImageWidth && <meta property=\"og:image:width\" content={String(ogImageWidth)} />}\n      {ogImageHeight && <meta property=\"og:image:height\" content={String(ogImageHeight)} />}\n      {ogImageAlt && <meta property=\"og:image:alt\" content={ogImageAlt} />}\n      <meta name=\"twitter:title\" content={fullTitle} />\n      <meta name=\"twitter:description\" content={description} />\n      <meta name=\"twitter:image\" content={ogImageUrl} />\n      {ogImageAlt && <meta name=\"twitter:image:alt\" content={ogImageAlt} />}\n    </>}\n    <meta name=\"twitter:card\" content={ogImageUrl ? 'summary_large_image' : 'summary'} />\n"
+    }
+  ],
+  "src/lib/category-seo.ts": [
+    {
+      "before": "/** Each guide is reviewed independently; this grants no product approval. */\nexport const HUB_EDITORIAL_READY = { blackout: true, fallout: true, outbreak: true } as const;\n\n",
+      "after": "/** Each guide is reviewed independently; this grants no product approval. */\nexport const HUB_EDITORIAL_READY = { blackout: true, fallout: true, outbreak: true, whiteout: true } as const;\n\n"
+    }
+  ],
+  "src/lib/imported-media.ts": [
+    {
+      "before": "import { canPublishImportedAsset } from './imported-media-policy.mjs';\nexport const importedMedia = manifest.assets;\nexport function importedArtwork(slug: string) {\n",
+      "after": "import { canPublishImportedAsset } from './imported-media-policy.mjs';\nimport whiteout from '../data/media/whiteout-manifest.json';\nexport const importedMedia = [...manifest.assets, ...whiteout.assets];\nexport function importedArtwork(slug: string) {\n"
+    }
+  ],
+  "src/pages/index.astro": [
+    {
+      "before": "          <li><span>Outbreak</span><span class=\"badge\">Planning guide available</span></li>\n          <li><span>Tools</span><span class=\"badge\">Planned</span></li>\n        </ul>\n",
+      "after": "          <li><span>Outbreak</span><span class=\"badge\">Planning guide available</span></li>\n          <li><span>Whiteout</span><span class=\"badge\">Planning guide available</span></li>\n        </ul>\n"
+    },
+    {
+      "before": "    <div class=\"container\" id=\"scenarios\">\n      <h2 id=\"sectors-title\">Three ways to prepare</h2>\n      <div class=\"grid grid--3\">\n",
+      "after": "    <div class=\"container\" id=\"scenarios\">\n      <h2 id=\"sectors-title\">Four ways to prepare</h2>\n      <div class=\"grid grid--3\">\n"
+    }
+  ]
+}

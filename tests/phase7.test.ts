@@ -27,7 +27,7 @@ test('Phase 7 preserves all 41 earlier records, every old media byte, logo, navi
  }
  assert.deepEqual(importedMedia.slice(0,41),baseline.manifest.assets);
  assert.deepEqual({...read('src/data/media/imported-manifest.json'),assets:importedMedia.slice(0,41)},baseline.manifest);
- assert.equal(importedMedia.length,46);assert.equal(CATEGORIES.length,40);
+ assert.equal(importedMedia.length,47);assert.equal(CATEGORIES.length,41);
 });
 
 test('Phase 7 append projection still rejects old content changes and unrelated source edits',()=>{
@@ -36,7 +36,7 @@ test('Phase 7 append projection still rejects old content changes and unrelated 
   const projected=beforePhase7Integration(file,bytes);
   const modified=Buffer.from(bytes);modified[0]=modified[0]!^1;
   if(file.endsWith('.json'))assert.throws(()=>beforePhase7Integration(file,modified));
-  else assert.notEqual(hash(beforePhase7Integration(file,modified)),hash(projected));
+  else assert.throws(()=>beforePhase7Integration(file,modified),'Mutating an authorized source hunk must also fail');
   assert.notEqual(hash(projected),hash(Buffer.concat([projected,Buffer.from('unrelated')])));
  }
  const file='src/data/media/imported-manifest.json';
@@ -66,7 +66,7 @@ for(const [id,[asin,category,sector,stem]]of Object.entries(PHASE7))test(`${id} 
 
 test('new equipment remains discoverable through shared categories while model-specific caveats stay explicit',()=>{
  const products=readdirSync('src/data/products').filter(f=>f.endsWith('.json')).map(f=>({id:f.slice(0,-5),data:productSchema.parse(read('src/data/products/'+f))} as Product));
- assert.equal(populatedCategories(products).length,28);
+ assert.equal(populatedCategories(products).length,29);
  for(const [,category]of Object.values(PHASE7))assert.ok(populatedCategories(products).some(c=>c.id===category));
  const content=(id:string)=>JSON.stringify(read('src/data/products/'+id+'.json'));
  assert.match(content('vortex-diamondback-hd-10x42-review'),/DB-215-OBL/);

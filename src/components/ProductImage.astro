@@ -8,7 +8,7 @@ interface Props { slug: string; label?: string; detail?: boolean; releasePreview
 const { slug, label = 'Equipment profile', detail = false, releasePreview = false, universe = 'blackout' } = Astro.props;
 const supplied = importedArtwork(slug);
 const mediaUniverse = supplied?.category ?? universe;
-const imageAccent = mediaUniverse === 'fallout' ? '240 123 118' : mediaUniverse === 'outbreak' ? '182 245 102' : '245 166 35';
+const imageAccent = mediaUniverse === 'whiteout' ? '125 211 252' : mediaUniverse === 'fallout' ? '240 123 118' : mediaUniverse === 'outbreak' ? '182 245 102' : '245 166 35';
 const asset = supplied ? {
   alt: supplied.alt, identityNote: supplied.reviewNote,
   variants: ('variants' in supplied && supplied.variants) || [{ src: supplied.deliverySrc, width: supplied.width, height: supplied.height }],

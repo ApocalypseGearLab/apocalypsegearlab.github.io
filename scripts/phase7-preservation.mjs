@@ -1,3 +1,4 @@
+import {beforeFourUniverses,imagesBeforeFourUniverses} from './four-universes-preservation.mjs';
 import assert from 'node:assert/strict';
 
 /** @satisfies {Record<string, [string,string,string,string]>} */
@@ -12,6 +13,7 @@ export const PHASE7 = {
 /** Undo exactly the append operation, retaining all earlier source bytes.
  * No baseline is refreshed; changes to any old manifest entry still fail. */
 export function beforePhase7Integration(file, bytes) {
+ bytes=beforeFourUniverses(file,bytes);
  let source=bytes.toString('latin1');
  if(file==='src/data/media/imported-manifest.json'){
   const manifest=JSON.parse(source);
@@ -38,5 +40,5 @@ export function beforePhase7Integration(file, bytes) {
  * Only exact new URLs, in their catalogue or assigned sector, may be projected. */
 export function imagesBeforePhase7(path, images) {
  const allowed=new Set(Object.values(PHASE7).filter(([, , sector])=>path==='/gear/'||path===`/${sector}/`).flatMap(([, , sector, stem])=>[480,960,1254].map(width=>`/images/${sector}/${stem}${width===1254?'':'-'+width}.webp`)));
- return images.filter(img=>!allowed.has(img.src??''));
+ return imagesBeforeFourUniverses(path,images).filter(img=>!allowed.has(img.src??''));
 }

@@ -71,14 +71,14 @@ for (const { slug, data } of drafts) {
   });
 }
 
-for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/gear/']) {
+for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/whiteout/', '/gear/']) {
   test(`${route} exposes the registered profiles in its correct sector`, async ({ page }) => {
     // The full catalogue decodes 45 pictures and runs six axe audits plus
     // screenshots. Bound that deliberate workload separately from one profile.
     test.setTimeout(60_000);
     const sector = route === '/gear/' ? null : route.slice(1,-1);
     const selected = drafts.filter(({data}) => !sector || categoryUniverse(data.category) === sector);
-    const images = route === '/blackout/' ? 17 : route === '/fallout/' ? 12 : route === '/outbreak/' ? 16 : 45;
+    const images = route === '/blackout/' ? 17 : route === '/fallout/' ? 12 : route === '/outbreak/' ? 16 : route === '/whiteout/' ? 1 : 46;
     await page.goto(route);
     await expect(page.locator('article.card')).toHaveCount(selected.length);
     await expect(page.locator('.neutral-media')).toHaveCount(selected.length-images);
