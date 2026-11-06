@@ -1,0 +1,26 @@
+---
+import CanadianFlag from './CanadianFlag.astro';
+import { languageOf, localizedPath } from '../i18n/routes';
+const language = languageOf(Astro.url.pathname);
+---
+<details class="language-selector" data-language-selector>
+  <summary aria-label="Choose language"><span aria-hidden="true">◎</span> <span data-i18n-ignore>{language === 'fr' ? 'Français' : 'English'}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary>
+  <nav class="language-options" aria-label="Language">
+    <a href={localizedPath(Astro.url.pathname, 'en')} hreflang="en-CA" lang="en-CA" data-language-option="en" aria-current={language === 'en' ? 'true' : undefined}><CanadianFlag /> English<span class="language-check" aria-hidden="true">{language === 'en' ? '✓' : ''}</span></a>
+    <a href={localizedPath(Astro.url.pathname, 'fr')} hreflang="fr-CA" lang="fr-CA" data-language-option="fr" aria-current={language === 'fr' ? 'true' : undefined}><CanadianFlag /> Français<span class="language-check" aria-hidden="true">{language === 'fr' ? '✓' : ''}</span></a>
+  </nav>
+</details>
+<style>
+  .language-selector { position: relative; flex: 0 0 auto; color: #d6dde2; font: .78rem var(--f-mono); }
+  summary { display: flex; align-items: center; justify-content: center; gap: .5rem; min-height: 2.75rem; padding: .5rem .75rem; border: 1px solid #414a50; background: #151a1e; cursor: pointer; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary:hover, [open] > summary { color: #f0c47b; border-color: #cda351; }
+  .language-chevron { margin-left: .25rem; }
+  .language-options { position: absolute; top: calc(100% + .4rem); right: 0; z-index: 70; min-width: 12rem; padding: .4rem; background: #171d22; border: 1px solid #54616b; box-shadow: 0 12px 28px #0009; }
+  .language-options a { display: flex; align-items: center; gap: .65rem; min-height: 2.75rem; padding: .65rem .75rem; color: #e5ebef; text-decoration: none; white-space: nowrap; }
+  .language-options a:hover, .language-options a[aria-current] { color: #f0c47b; background: #293138; }
+  .language-check { margin-left: auto; }
+  summary:focus-visible, a:focus-visible { outline: 2px solid #f0c47b; outline-offset: 3px; }
+  @media (max-width: 40rem) { .language-options { left: 0; right: auto; } }
+  @media (max-width: 30rem) { summary { padding-inline: .55rem; } }
+</style>

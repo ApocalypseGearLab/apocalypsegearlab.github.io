@@ -1,0 +1,17 @@
+
+> apocalypsegearlab@0.1.0 test:site
+> node scripts/verify-site.mjs && node scripts/verify-four-universes.mjs && node scripts/verify-bilingual.mjs
+
+Verified 112 HTML pages, 10790 internal references, 16 sitemap URLs, robots.txt, JSON-LD and product publication filtering.
+Verified four indexable cinematic universe pages, 19 exact supplied WebPs, complete OG/Twitter metadata, collection schemas and held Therm-a-Rest ASIN.
+{
+  "englishPages": 56,
+  "frenchPages": 56,
+  "totalPages": 112,
+  "translatedPhrases": 2467,
+  "checkedTextNodes": 12184,
+  "frenchAffiliateControls": 245,
+  "frenchSourceReferences": 131,
+  "indexableUrls": 16,
+  "protectedFiles": 61
+}

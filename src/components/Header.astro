@@ -1,11 +1,13 @@
 ---
+import LanguageSelector from './LanguageSelector.astro';
+import { englishPath } from '../i18n/routes';
 import { SITE, UNIVERSES } from '../config/site';
 import { BRAND } from '../config/branding';
 import { UNIVERSE_IDS } from '../config/taxonomy';
 import { getVisibleProducts } from '../lib/products';
 import { populatedCategories } from '../lib/category-navigation';
 const categories = populatedCategories(await getVisibleProducts());
-const path = Astro.url.pathname;
+const path = englishPath(Astro.url.pathname);
 const active = (href: string) => path === href ? 'page' : undefined;
 ---
 
@@ -17,6 +19,7 @@ const active = (href: string) => path === href ? 'page' : undefined;
         <span>{SITE.name}</span>
       </a>
       <span class="index-label">EQUIPMENT INTELLIGENCE <span aria-hidden="true">/</span> FOUR SECTORS</span>
+      <LanguageSelector />
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span aria-hidden="true" class="hamburger">☰</span> Menu</button>
     </div>
     <nav id="site-nav" class="site-nav" aria-label="Primary" data-open="false">
@@ -139,8 +142,8 @@ const active = (href: string) => path === href ? 'page' : undefined;
   .site-header { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid #41454a; background: #000; }
   :global(html:not(.js)) .site-header { position: relative; }
   .site-header__inner { position: static; }
-  .identity-row { min-height: 3.75rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-  .brand { display: inline-flex; align-items: center; gap: .65rem; color: var(--c-amber); font: 700 1.1rem var(--f-display); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; }
+  .identity-row { flex-wrap: wrap; min-height: 3.75rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+  .brand { margin-right: auto; display: inline-flex; align-items: center; gap: .65rem; color: var(--c-amber); font: 700 1.1rem var(--f-display); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; }
   .brand__emblem { width: 48px; height: 48px; flex-shrink: 0; object-fit: contain; background: #000; }
   .index-label, .menu-eyebrow, .menu-foot { font: .68rem var(--f-mono); letter-spacing: .09em; color: #aeb5ba; }
   .index-label > span { color: #cda351; margin-inline: .6rem; }
@@ -180,7 +183,7 @@ const active = (href: string) => path === href ? 'page' : undefined;
   .menu-foot { padding: .9rem 1.5rem; display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid #343a3f; background: linear-gradient(90deg, rgb(210 161 74 / .05), transparent); }
   .mobile-word { display: none; }
   @media (min-width: 64rem) {
-    :global(.js) .mega-panel { position: absolute; top: 100%; left: 0; right: 0; max-height: calc(100dvh - 7.2rem); overflow-y: auto; transition: opacity 140ms, transform 140ms, visibility 140ms; }
+    :global(.js) .mega-panel { position: absolute; top: 100%; left: 0; right: 0; max-height: calc(100dvh - var(--site-header-height, 7.2rem)); overflow-y: auto; transition: opacity 140ms, transform 140ms, visibility 140ms; }
     :global(.js) [data-mega-open='false'] .mega-panel { opacity: 0; visibility: hidden; transform: translateY(-5px); pointer-events: none; }
   }
   @media (max-width: 63.999rem) {
@@ -191,7 +194,7 @@ const active = (href: string) => path === href ? 'page' : undefined;
     :global(.js) .primary-links > .desktop-sector { display: none; }
     :global(.js) .nav-toggle { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.75rem; padding: .4rem .55rem; border: 1px solid #4d555c; color: #e0e4e7; background: #1c2125; font: .8rem var(--f-mono); cursor: pointer; }
     .hamburger { font-size: 1.1rem; }
-    :global(.js) .site-nav { position: absolute; inset: 100% 0 auto; max-height: calc(100dvh - 4rem); overflow-y: auto; overscroll-behavior: contain; background: #151a1e; border-bottom: 1px solid #515a61; box-shadow: 0 15px 25px rgb(0 0 0 / .35); }
+    :global(.js) .site-nav { position: absolute; inset: 100% 0 auto; max-height: calc(100dvh - var(--site-header-height, 4rem)); overflow-y: auto; overscroll-behavior: contain; background: #151a1e; border-bottom: 1px solid #515a61; box-shadow: 0 15px 25px rgb(0 0 0 / .35); }
     :global(.js) .site-nav:not([data-open='true']) { display: none; }
     :global(.js) .site-nav[data-open='true'] { animation: drawer-in 150ms ease-out; }
     .site-nav .primary-links { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: .6rem 1.25rem; }
@@ -213,4 +216,12 @@ const active = (href: string) => path === href ? 'page' : undefined;
     .discover-title { color: #d3dce3; }
   }
   @keyframes drawer-in { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+
+<style>
+  @media (max-width: 40rem) {
+    .identity-row { gap: .35rem .6rem; padding-block: .5rem; }
+    .identity-row .brand { flex: 1 1 100%; margin: 0; }
+    .identity-row :global(.language-selector) { margin-right: auto; }
+  }
 </style>

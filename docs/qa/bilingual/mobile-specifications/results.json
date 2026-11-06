@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-05",
+  "status": "resolved",
+  "finding": "MOBILE-SPECS-01",
+  "applicationFiles": [
+    "src/components/ProductProfile.astro"
+  ],
+  "testFiles": [
+    "tests/browser/product-specifications.spec.ts"
+  ],
+  "layout": {
+    "stackedThroughPx": 575,
+    "fixedTableColumnsThroughPx": 800,
+    "desktopLayoutUnchangedAbovePx": 800
+  },
+  "regression": {
+    "languages": [
+      "en-CA",
+      "fr-CA"
+    ],
+    "widths": [
+      320,
+      375,
+      768
+    ],
+    "profilesPerLanguageAndWidth": 4,
+    "pageViewportCombinations": 24,
+    "assertions": [
+      "labels do not split inside words",
+      "labels and values fit",
+      "stacked full-width cells on phones",
+      "stable side-by-side tablet columns",
+      "no page overflow",
+      "table/row/header/cell accessibility semantics",
+      "axe table checks"
+    ]
+  },
+  "checks": {
+    "buildPages": 112,
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "astroHints": 0,
+    "unitPassed": 123,
+    "browserPassed": 198,
+    "browserFailed": 0,
+    "browserFlaky": 0,
+    "siteAndBilingual": "passed",
+    "affiliateAudit": "passed",
+    "verificationAudit": "passed",
+    "unchangedProtectedSources": 61
+  },
+  "preservation": {
+    "pages": 112,
+    "unchanged": [
+      "visitor text",
+      "specifications",
+      "translations",
+      "metadata",
+      "links and affiliate attributes",
+      "images",
+      "inline scripts and tracking",
+      "buying holds"
+    ]
+  },
+  "screenshots": [
+    "2097-en-320.png",
+    "2097-en-375.png",
+    "2097-en-768.png",
+    "2097-fr-320.png",
+    "2097-fr-375.png",
+    "2097-fr-768.png"
+  ],
+  "remainingLayoutIssues": [],
+  "deployed": false,
+  "pushed": false,
+  "merged": false
+}

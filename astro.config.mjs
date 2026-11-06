@@ -44,9 +44,19 @@ export default defineConfig({
       hooks: { 'astro:config:done': ({ config }) => { outputDirectory = config.outDir; } },
     },
     sitemap({
+      i18n: { defaultLocale: 'en', locales: { en: 'en-CA', fr: 'fr-CA' } },
+      chunks: {
+        en: item => !new URL(item.url).pathname.startsWith('/fr/') ? item : undefined,
+        fr: item => new URL(item.url).pathname.startsWith('/fr/') ? item : undefined,
+      },
+      serialize: item => {
+        const english = item.links?.find(link => link.lang === 'en-CA');
+        if (english) item.links = [...(item.links ?? []), { lang: 'x-default', url: english.url }];
+        return item;
+      },
       filter: (page) => {
         const pathname = new URL(page).pathname;
-        if (pathname === '/404/' || pathname === '/404.html') return false;
+        if (pathname === '/404/' || pathname === '/404.html' || pathname === '/fr/404/') return false;
         const file = new URL(`.${pathname}index.html`, outputDirectory);
         const html = load(readFileSync(file, 'utf8'));
         return !html('meta[name="robots"]').attr('content')?.split(/[\s,]+/).includes('noindex');
@@ -57,6 +67,8 @@ export default defineConfig({
       hooks: {
         'astro:build:done': ({ dir }) => {
           copyFileSync(new URL('sitemap-index.xml', dir), new URL('sitemap.xml', dir));
+          // Preserve the former child sitemap URL as the English sitemap alias.
+          copyFileSync(new URL('sitemap-en-0.xml', dir), new URL('sitemap-0.xml', dir));
         },
       },
     },

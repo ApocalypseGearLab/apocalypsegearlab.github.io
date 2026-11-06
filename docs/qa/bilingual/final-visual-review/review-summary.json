@@ -1,0 +1,98 @@
+{
+  "reviewDate": "2026-11-05",
+  "method": "Local Astro preview, existing Playwright Chromium tests, local screenshot inspection; blocked Chrome Computer Use was not retried.",
+  "previewUrl": "http://127.0.0.1:4321/",
+  "deployed": false,
+  "pushed": false,
+  "merged": false,
+  "applicationSourceChangedDuringReview": false,
+  "automatedRoutes": 112,
+  "englishUrlsChecked": 56,
+  "englishUrlsAll200WithoutRedirects": true,
+  "visualPageViewportCombinations": 32,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 375,
+      "height": 900
+    }
+  ],
+  "originalScreenshots": 114,
+  "visuallyInspectedContactSheets": [
+    "top-1440-1.png",
+    "top-1440-2.png",
+    "guide-1440-1.png",
+    "gear-1440-1.png",
+    "buy-1440-1.png",
+    "specifications-1440-1.png",
+    "safety-1440-1.png",
+    "home-details-1440-1.png",
+    "top-375-1.png",
+    "top-375-2.png",
+    "top-375-3.png",
+    "top-375-4.png",
+    "guide-375-1.png",
+    "guide-375-2.png",
+    "gear-375-1.png",
+    "gear-375-2.png",
+    "buy-375-1.png",
+    "buy-375-2.png",
+    "specifications-375-1.png",
+    "specifications-375-2.png",
+    "safety-375-1.png",
+    "safety-375-2.png",
+    "home-details-375-1.png",
+    "home-details-375-2.png"
+  ],
+  "pageErrors": [],
+  "failedLocalRequests": [],
+  "checks": {
+    "playwright": {
+      "passed": 16,
+      "failed": 0
+    },
+    "bilingualUnit": {
+      "passed": 5,
+      "failed": 0
+    },
+    "site": "passed",
+    "affiliateAudit": "passed",
+    "verificationAudit": "passed",
+    "protectedOriginalFiles": 61,
+    "affiliateControlsPerLanguage": 245,
+    "technicalSourceLinksPerLanguage": 131,
+    "activeProductDestinations": 41,
+    "heldProductDestinations": 6,
+    "noindexProductProfiles": 47,
+    "affiliateTag": "apocalypsegear-20"
+  },
+  "findings": [
+    {
+      "id": "MOBILE-SPECS-01",
+      "severity": "readability",
+      "status": "resolved",
+      "page": "/gear/3m-2097-p100-particulate-filters/",
+      "locales": [
+        "en",
+        "fr-CA"
+      ],
+      "viewport": 375,
+      "description": "The specification label column is too narrow and breaks labels into short fragments. Values remain visible; no page overflow. Also observed to a lesser extent on the Therm-a-Rest profile. Present in English and French.",
+      "evidence": [
+        "product-2097-en-375-specifications.png",
+        "product-2097-fr-375-specifications.png",
+        "contact-sheets/specifications-375-1.png"
+      ],
+      "recommendation": "Set a useful minimum label width or stack specification rows on small screens while preserving all specification and warning text.",
+      "resolution": "../mobile-specifications/README.md",
+      "resolvedDate": "2026-11-05"
+    }
+  ],
+  "scopeLimits": [
+    "Visual inspection covers homepage, all four universes and three selected product profiles in both languages at two widths; automated rendering covers every route.",
+    "Google and Amazon traffic was mocked or blocked; checks preserve local destinations and events, and do not verify live retailer attribution or account standing."
+  ]
+}

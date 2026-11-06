@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { languageOf, localizedPath, englishPath } from '../i18n/routes';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE } from '../config/site';
@@ -31,7 +32,10 @@ const {
 } = Astro.props;
 
 // Astro's special 404 route is emitted as /404.html on GitHub Pages.
-const canonicalPath = requestedCanonicalPath ?? (Astro.url.pathname === '/404/' ? '/404.html' : Astro.url.pathname);
+const language = languageOf(Astro.url.pathname);
+const canonicalPath = localizedPath(requestedCanonicalPath ?? englishPath(Astro.url.pathname), language);
+const englishUrl = new URL(localizedPath(canonicalPath, 'en'), Astro.site).href;
+const frenchUrl = new URL(localizedPath(canonicalPath, 'fr'), Astro.site).href;
 const canonical = new URL(canonicalPath, Astro.site).href;
 const fullTitle = `${title} | ${SITE.name}`;
 const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : undefined;
@@ -39,15 +43,29 @@ const safeJson = (data: unknown) => JSON.stringify(data).replace(/</g, '\\u003c'
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={language === 'fr' ? 'fr-CA' : 'en-CA'}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
+    <script is:inline define:vars={{ preferredFrenchPath: localizedPath(canonicalPath, 'fr') }}>
+      // Explicit French URLs always work, including with storage disabled. A saved
+      // French preference follows English entry links without server redirects.
+      try {
+        if (document.documentElement.lang === 'en-CA' && localStorage.getItem('agl-language') === 'fr') {
+          const path = preferredFrenchPath;
+          document.documentElement.dataset.languageRedirect = 'true';
+          location.replace(path + location.search + location.hash);
+        }
+      } catch { /* Storage is optional; native language links remain available. */ }
+    </script>
     <GoogleAnalytics />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en-CA" href={englishUrl} />
+    <link rel="alternate" hreflang="fr-CA" href={frenchUrl} />
+    <link rel="alternate" hreflang="x-default" href={englishUrl} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="theme-color" content="#14130f" />
     <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
@@ -55,6 +73,8 @@ const safeJson = (data: unknown) => JSON.stringify(data).replace(/</g, '\\u003c'
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
+    <meta property="og:locale" content={language === 'fr' ? 'fr_CA' : 'en_CA'} />
+    <meta property="og:locale:alternate" content={language === 'fr' ? 'en_CA' : 'fr_CA'} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={fullTitle} />
@@ -73,7 +93,7 @@ const safeJson = (data: unknown) => JSON.stringify(data).replace(/</g, '\\u003c'
     </>}
     <meta name="twitter:card" content={ogImageUrl ? 'summary_large_image' : 'summary'} />
 
-    {jsonLd.map((item) => <script type="application/ld+json" set:html={safeJson(item)} />)}
+    {jsonLd.map((item) => <script type="application/ld+json" set:html={safeJson(language === 'fr' && ['WebSite', 'WebPage', 'CollectionPage', 'Product'].includes(String(item['@type'])) ? { ...item, inLanguage: 'fr-CA' } : item)} />)}
     <script is:inline>document.documentElement.classList.add('js');</script>
   </head>
   <body>
@@ -83,5 +103,6 @@ const safeJson = (data: unknown) => JSON.stringify(data).replace(/</g, '\\u003c'
       <slot />
     </main>
     <Footer />
+    <script>import '../i18n/client';</script>
   </body>
 </html>

@@ -1,0 +1,66 @@
+[
+  {
+    "file": "home-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "home-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "blackout-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "blackout-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "fallout-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "fallout-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "outbreak-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "outbreak-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "whiteout-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "whiteout-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "product-2097-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "product-2097-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "product-kidde-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "product-kidde-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "product-xtherm-en-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  },
+  {
+    "file": "product-xtherm-fr-375-top.png",
+    "brandPixelsSha256": "cf943b0ed1acfdf6911a6459cbec343bca46988e6b3a42cd4ccd8961cedb1c78"
+  }
+]

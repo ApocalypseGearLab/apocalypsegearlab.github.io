@@ -12,8 +12,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "tsx --test tests/four-universes.test.ts tests/phase7.test.ts tests/branding.test.ts tests/phase61.test.ts tests/phase6.test.ts tests/affiliate.test.ts tests/analytics.test.ts tests/catalog.test.ts tests/media-policy.test.ts tests/phase47.test.ts tests/phase48.test.ts tests/phase5.test.ts tests/morakniv.test.ts tests/conversion.test.ts tests/release.test.ts tests/phase53.test.ts tests/category-seo.test.ts tests/product-verification.test.ts tests/bougerv.test.ts tests/phase55.test.ts",
-    "test:site": "node scripts/verify-site.mjs && node scripts/verify-four-universes.mjs",
+    "test": "tsx --test tests/four-universes.test.ts tests/phase7.test.ts tests/branding.test.ts tests/phase61.test.ts tests/phase6.test.ts tests/affiliate.test.ts tests/analytics.test.ts tests/catalog.test.ts tests/media-policy.test.ts tests/phase47.test.ts tests/phase48.test.ts tests/phase5.test.ts tests/morakniv.test.ts tests/conversion.test.ts tests/release.test.ts tests/phase53.test.ts tests/category-seo.test.ts tests/product-verification.test.ts tests/bougerv.test.ts tests/phase55.test.ts tests/bilingual.test.ts",
+    "test:site": "node scripts/verify-site.mjs && node scripts/verify-four-universes.mjs && node scripts/verify-bilingual.mjs",
     "test:products": "node scripts/verify-products.mjs",
     "test:browser": "node scripts/prepare-browser-fixtures.mjs && playwright test",
     "media:phase7": "node scripts/build-phase7-media.mjs",
@@ -26,7 +26,9 @@
     "audit:google": "node scripts/audit-google.mjs",
     "test:conversion": "tsx scripts/audit-conversion.ts",
     "test:bougerv": "tsx scripts/verify-bougerv.ts",
-    "test:phase55": "tsx scripts/verify-phase55.ts"
+    "test:phase55": "tsx scripts/verify-phase55.ts",
+    "test:bilingual": "node scripts/verify-bilingual.mjs",
+    "i18n:extract": "tsx scripts/extract-i18n.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

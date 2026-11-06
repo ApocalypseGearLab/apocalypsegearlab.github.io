@@ -1,8 +1,10 @@
+import { beforeBilingualIntegration } from './bilingual-preservation.mjs';
 import {readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
 const changes=JSON.parse(readFileSync(new URL('../docs/qa/four-universes/source-changes.json',import.meta.url),'utf8'));
 /** Reverse only reviewed, exact source hunks; preserve all other bytes. */
 export function beforeFourUniverses(file, bytes) {
+ bytes = beforeBilingualIntegration(file, bytes);
  if(!changes[file]) return bytes;
  let source=bytes.toString('latin1').replace(/\r\n/g,'\n');
  for(const change of [...(changes[file]??[])].reverse()){
