@@ -1,0 +1,122 @@
+{
+  "site": "https://apocalypsegearlab.github.io",
+  "deployedCommit": "d9d52c705cd5067135988a6cf1ab2019d1da2c98",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "lang": "en-CA",
+      "canonical": "https://apocalypsegearlab.github.io/",
+      "languageLinks": [
+        {
+          "language": "en",
+          "href": "/"
+        },
+        {
+          "language": "fr",
+          "href": "/fr/"
+        }
+      ],
+      "headers": {
+        "etag": "W/\"6aed28fb-9b8e\"",
+        "last-modified": "Fri, 06 Nov 2026 01:10:19 GMT",
+        "cache-control": "max-age=600",
+        "age": "0"
+      },
+      "scripts": []
+    },
+    {
+      "route": "/fr/",
+      "status": 200,
+      "lang": "fr-CA",
+      "canonical": "https://apocalypsegearlab.github.io/fr/",
+      "languageLinks": [
+        {
+          "language": "en",
+          "href": "/"
+        },
+        {
+          "language": "fr",
+          "href": "/fr/"
+        }
+      ],
+      "headers": {
+        "etag": "W/\"6aed28fb-ceea\"",
+        "last-modified": "Fri, 06 Nov 2026 01:10:19 GMT",
+        "cache-control": "max-age=600",
+        "age": "0"
+      },
+      "scripts": []
+    },
+    {
+      "route": "/blackout/",
+      "status": 200,
+      "lang": "en-CA",
+      "canonical": "https://apocalypsegearlab.github.io/blackout/",
+      "languageLinks": [
+        {
+          "language": "en",
+          "href": "/blackout/"
+        },
+        {
+          "language": "fr",
+          "href": "/fr/blackout/"
+        }
+      ],
+      "headers": {
+        "etag": "W/\"6aed28fb-1b5dd\"",
+        "last-modified": "Fri, 06 Nov 2026 01:10:19 GMT",
+        "cache-control": "max-age=600",
+        "age": "0"
+      },
+      "scripts": []
+    },
+    {
+      "route": "/gear/3m-2097-p100-particulate-filters/",
+      "status": 200,
+      "lang": "en-CA",
+      "canonical": "https://apocalypsegearlab.github.io/gear/3m-2097-p100-particulate-filters/",
+      "languageLinks": [
+        {
+          "language": "en",
+          "href": "/gear/3m-2097-p100-particulate-filters/"
+        },
+        {
+          "language": "fr",
+          "href": "/fr/gear/3m-2097-p100-particulate-filters/"
+        }
+      ],
+      "headers": {
+        "etag": "W/\"6aed28fb-f581\"",
+        "last-modified": "Fri, 06 Nov 2026 01:10:19 GMT",
+        "cache-control": "max-age=600",
+        "age": "0"
+      },
+      "scripts": []
+    }
+  ],
+  "modules": [],
+  "inlineLanguageScripts": [
+    {
+      "name": "home-en",
+      "sha256": "e1d98e98055ad26ca6fea634bd2383bbfe6c1067a99704305a108573a87dc030",
+      "focusoutSnippet": ">{n.contains(e.target)||r()}),n.addEventListener(`focusout`,e=>{n.contains(e.relatedTarget)||r()});let i=e=>{let t=new URL(e.href);t.search=location.search,t.hash=location.hash;let n=document.querySelector(`[data-catalogue-control"
+    },
+    {
+      "name": "home-fr",
+      "sha256": "e1d98e98055ad26ca6fea634bd2383bbfe6c1067a99704305a108573a87dc030",
+      "focusoutSnippet": ">{n.contains(e.target)||r()}),n.addEventListener(`focusout`,e=>{n.contains(e.relatedTarget)||r()});let i=e=>{let t=new URL(e.href);t.search=location.search,t.hash=location.hash;let n=document.querySelector(`[data-catalogue-control"
+    },
+    {
+      "name": "universe-en",
+      "sha256": "e1d98e98055ad26ca6fea634bd2383bbfe6c1067a99704305a108573a87dc030",
+      "focusoutSnippet": ">{n.contains(e.target)||r()}),n.addEventListener(`focusout`,e=>{n.contains(e.relatedTarget)||r()});let i=e=>{let t=new URL(e.href);t.search=location.search,t.hash=location.hash;let n=document.querySelector(`[data-catalogue-control"
+    },
+    {
+      "name": "product-en",
+      "sha256": "e1d98e98055ad26ca6fea634bd2383bbfe6c1067a99704305a108573a87dc030",
+      "focusoutSnippet": ">{n.contains(e.target)||r()}),n.addEventListener(`focusout`,e=>{n.contains(e.relatedTarget)||r()});let i=e=>{let t=new URL(e.href);t.search=location.search,t.hash=location.hash;let n=document.querySelector(`[data-catalogue-control"
+    }
+  ],
+  "localBaselineScriptMatchedProduction": true
+}

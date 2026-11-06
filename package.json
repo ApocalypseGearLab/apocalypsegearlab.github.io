@@ -16,6 +16,7 @@
     "test:site": "node scripts/verify-site.mjs && node scripts/verify-four-universes.mjs && node scripts/verify-bilingual.mjs",
     "test:products": "node scripts/verify-products.mjs",
     "test:browser": "node scripts/prepare-browser-fixtures.mjs && playwright test",
+    "test:browser:webkit": "playwright test --config playwright.webkit.config.ts",
     "media:phase7": "node scripts/build-phase7-media.mjs",
     "brand:build": "node scripts/build-brand-assets.mjs",
     "images:build": "node scripts/optimize-images.mjs",

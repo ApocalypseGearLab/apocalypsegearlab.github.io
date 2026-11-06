@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-06",
+  "branch": "fix/ios-language-selector",
+  "base": "d9d52c705cd5067135988a6cf1ab2019d1da2c98",
+  "rootCause": "WebKit fires focusout from the summary with relatedTarget=null on an option tap. The old handler hid the option before its native click; navigation and preference writes never ran.",
+  "fixes": [
+    "Dismiss on actual outside focusin rather than focusout",
+    "Keep an explicit per-tab language choice ahead of persisted preference, including read-only localStorage",
+    "Restore the saved scroll position instantly after WebKit initial fragment painting"
+  ],
+  "widths": [
+    320,
+    375,
+    390
+  ],
+  "webkit": {
+    "startTime": "2026-11-06T22:02:01.240Z",
+    "duration": 151469.247,
+    "expected": 45,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "scope": "Full new iPhone touch/keyboard/storage/no-JavaScript matrix"
+  },
+  "chromium": {
+    "startTime": "2026-11-06T22:06:15.451Z",
+    "duration": 170478.32,
+    "expected": 43,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "scope": "Existing bilingual, analytics, navigation, branding and specification regressions"
+  },
+  "unitPassed": 123,
+  "typeErrors": 0,
+  "typeWarnings": 0,
+  "typeHints": 0,
+  "buildPages": 112,
+  "checks": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:site",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:verification",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:images",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run release:check",
+      "exitCode": 0
+    }
+  ],
+  "siteAndBilingual": "passed",
+  "contentPreservation": {
+    "pages": 112,
+    "unchanged": [
+      "visitor text and translations",
+      "technical specifications",
+      "canonical/hreflang/SEO metadata",
+      "JSON-LD",
+      "link destinations and affiliate attributes",
+      "GA4 and other interaction scripts",
+      "images",
+      "held buying controls"
+    ],
+    "intentionalScriptChanges": [
+      "selector focus dismissal",
+      "explicit per-tab preference fallback",
+      "post-fragment instant position restoration"
+    ]
+  },
+  "physicalIphoneVerified": false,
+  "physicalIphoneVerification": "Pending manual device check",
+  "unrelatedHeroExcluded": true,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false
+}

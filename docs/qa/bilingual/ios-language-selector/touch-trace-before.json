@@ -1,0 +1,1844 @@
+[
+  {
+    "engine": "webkit",
+    "width": 320,
+    "url": "http://127.0.0.1:4321/",
+    "lang": "en-CA",
+    "preference": null,
+    "tapError": null,
+    "requests": [
+      "http://127.0.0.1:4321/"
+    ],
+    "errors": [],
+    "events": [
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 375,
+    "url": "http://127.0.0.1:4321/",
+    "lang": "en-CA",
+    "preference": null,
+    "tapError": null,
+    "requests": [
+      "http://127.0.0.1:4321/"
+    ],
+    "errors": [],
+    "events": [
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "url": "http://127.0.0.1:4321/",
+    "lang": "en-CA",
+    "preference": null,
+    "tapError": null,
+    "requests": [
+      "http://127.0.0.1:4321/"
+    ],
+    "errors": [],
+    "events": [
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "url": "http://127.0.0.1:4321/fr/",
+    "lang": "fr-CA",
+    "preference": "fr",
+    "tapError": null,
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/fr/"
+    ],
+    "errors": [],
+    "events": [
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "fr",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "fr",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "fr",
+        "related": "SUMMARY",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "SUMMARY",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "url": "http://127.0.0.1:4321/fr/",
+    "lang": "fr-CA",
+    "preference": "fr",
+    "tapError": null,
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/fr/"
+    ],
+    "errors": [],
+    "events": [
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "fr",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "fr",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "fr",
+        "related": "SUMMARY",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "SUMMARY",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "url": "http://127.0.0.1:4321/fr/",
+    "lang": "fr-CA",
+    "preference": "fr",
+    "tapError": null,
+    "requests": [
+      "http://127.0.0.1:4321/",
+      "http://127.0.0.1:4321/fr/"
+    ],
+    "errors": [],
+    "events": [
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "undefined",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "BODY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "SPAN",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": false,
+        "trusted": true
+      },
+      {
+        "type": "toggle",
+        "phase": "capture",
+        "target": "DETAILS.language-selector",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerdown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchstart",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "pointerup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "capture",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "touchend",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "undefined",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mousedown",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "SUMMARY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "capture",
+        "target": "SUMMARY",
+        "related": "fr",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusout",
+        "phase": "bubble",
+        "target": "SUMMARY",
+        "related": "fr",
+        "active": "BODY",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "capture",
+        "target": "fr",
+        "related": "SUMMARY",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "focusin",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "SUMMARY",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "mouseup",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "capture",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      },
+      {
+        "type": "click",
+        "phase": "bubble",
+        "target": "fr",
+        "related": "null",
+        "active": "fr",
+        "open": true,
+        "trusted": true
+      }
+    ]
+  }
+]

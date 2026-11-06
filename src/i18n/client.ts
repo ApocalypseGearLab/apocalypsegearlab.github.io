@@ -19,7 +19,9 @@ if (selector) {
     options[next]?.focus();
   });
   document.addEventListener('pointerdown', event => { if (!selector.contains(event.target as Node)) close(); });
-  selector.addEventListener('focusout', event => { if (!selector.contains(event.relatedTarget as Node)) close(); });
+  // Safari can blur the summary with no relatedTarget when an option is tapped.
+  // Keep the link visible until its native click; close on actual outside focus.
+  document.addEventListener('focusin', event => { if (!selector.contains(event.target as Node)) close(); });
   const targetFor = (link: HTMLAnchorElement) => {
     const url = new URL(link.href);
     url.search = location.search; url.hash = location.hash;
@@ -40,6 +42,8 @@ if (selector) {
     const url = targetFor(link); link.href = url.href;
     const language = link.dataset.languageOption!;
     try { localStorage.setItem('agl-language', language); } catch { /* Optional preference. */ }
+    // Preserve this tab's explicit choice even if persistent storage is read-only.
+    try { sessionStorage.setItem('agl-language', language); } catch { /* Native navigation still works. */ }
     if (event.button || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     try { sessionStorage.setItem('agl-language-position', JSON.stringify({ target: url.pathname + url.search + url.hash, x: window.scrollX, y: window.scrollY })); } catch { /* Native fragment navigation remains available. */ }
   });
@@ -50,7 +54,8 @@ try {
     sessionStorage.removeItem('agl-language-position');
     const state = JSON.parse(stored);
     if (state.target === location.pathname + location.search + location.hash && Number.isFinite(state.x) && Number.isFinite(state.y)) {
-      const restore = () => requestAnimationFrame(() => window.scrollTo(state.x, state.y));
+      // WebKit applies its initial fragment scroll in the first paint frame.
+      const restore = () => requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo({ left: state.x, top: state.y, behavior: 'instant' })));
       if (document.readyState === 'complete') restore(); else window.addEventListener('load', restore, { once: true });
     }
   }

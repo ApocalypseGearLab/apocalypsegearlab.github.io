@@ -52,7 +52,10 @@ const safeJson = (data: unknown) => JSON.stringify(data).replace(/</g, '\\u003c'
       // Explicit French URLs always work, including with storage disabled. A saved
       // French preference follows English entry links without server redirects.
       try {
-        if (document.documentElement.lang === 'en-CA' && localStorage.getItem('agl-language') === 'fr') {
+        let preferredLanguage;
+        try { preferredLanguage = sessionStorage.getItem('agl-language'); } catch { /* Session storage is optional. */ }
+        if (preferredLanguage !== 'en' && preferredLanguage !== 'fr') preferredLanguage = localStorage.getItem('agl-language');
+        if (document.documentElement.lang === 'en-CA' && preferredLanguage === 'fr') {
           const path = preferredFrenchPath;
           document.documentElement.dataset.languageRedirect = 'true';
           location.replace(path + location.search + location.hash);
