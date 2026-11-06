@@ -1,0 +1,18 @@
+{
+  "pages": 112,
+  "unchanged": [
+    "visitor text and translations",
+    "technical specifications",
+    "canonical/hreflang/SEO metadata",
+    "JSON-LD",
+    "link destinations and affiliate attributes",
+    "GA4 and other interaction scripts",
+    "images",
+    "held buying controls"
+  ],
+  "intentionalScriptChanges": [
+    "selector focus dismissal",
+    "explicit per-tab preference fallback",
+    "post-fragment instant position restoration"
+  ]
+}
