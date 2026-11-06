@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-05",
+  "build": {
+    "status": "passed",
+    "htmlPages": 112
+  },
+  "typecheck": {
+    "status": "passed",
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "status": "passed",
+    "tests": 123
+  },
+  "productFixtures": {
+    "status": "passed",
+    "programStates": [
+      "active",
+      "disabled"
+    ],
+    "productionRestored": true
+  },
+  "site": {
+    "status": "passed",
+    "internalReferences": 10790,
+    "indexableUrls": 16
+  },
+  "translations": {
+    "status": "passed",
+    "inventoryPhrases": 2359,
+    "missing": 0,
+    "numericFidelity": "Every dictionary phrase preserves source numeric quantities"
+  },
+  "images": {
+    "status": "passed",
+    "productionArtworkUnchanged": true
+  },
+  "audits": {
+    "release": "passed",
+    "affiliate": "passed",
+    "verification": "passed",
+    "conversion": "passed",
+    "bougerv": "passed",
+    "phase55": "passed"
+  },
+  "browser": {
+    "uniqueCases": 192,
+    "initialFullRun": {
+      "passed": 188,
+      "failed": 4
+    },
+    "finalFocusedRun": {
+      "passed": 21,
+      "failed": 0
+    },
+    "resolvedFindings": [
+      "Mobile dropdown aligned inside the viewport",
+      "No-JavaScript assertion checks guide content rather than its heading",
+      "Two historical header-height assertions now validate the responsive selector layout"
+    ],
+    "allHtmlRoutesCheckedAtWidths": [
+      375,
+      1440
+    ],
+    "selectorKeyboardAndAxeWidths": [
+      320,
+      768,
+      1440
+    ],
+    "headerRegressionWidths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "persistenceAndCurrentPageState": "passed",
+    "noJavaScriptAndBlockedStorage": "passed",
+    "frenchAffiliateEvent": "passed"
+  },
+  "publication": {
+    "committed": false,
+    "merged": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "outstandingImplementationIssues": []
+}

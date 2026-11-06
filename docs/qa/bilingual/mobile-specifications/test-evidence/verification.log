@@ -1,0 +1,34 @@
+
+> apocalypsegearlab@0.1.0 audit:verification
+> tsx scripts/audit-product-verification.ts
+
+{
+  "account": {
+    "declaration": {
+      "registration": "registered",
+      "approval": "approved",
+      "source": "owner-declaration",
+      "recordedOn": "2026-10-31",
+      "marketplace": "ca",
+      "site": "https://apocalypsegearlab.github.io",
+      "trackingId": "apocalypsegear-20",
+      "statement": "The site owner declares that the Amazon Associates account is registered and approved.",
+      "independentlyConfirmed": false
+    },
+    "independentFinalApprovalConfirmed": false,
+    "linkingEnabled": true
+  },
+  "summary": {
+    "products": 47,
+    "manufacturerDocumented": 46,
+    "ownerDocumentedListings": 23,
+    "independentlyVerifiedListings": 0,
+    "activeLinks": 41,
+    "heldLinks": 6,
+    "safetyCleared": 4,
+    "safetyPending": 41,
+    "safetyBlocked": 2,
+    "editorialApproved": 4,
+    "fullyApproved": 0
+  }
+}

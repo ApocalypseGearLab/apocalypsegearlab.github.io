@@ -25,7 +25,10 @@ const { categories, count } = Astro.props;
       const matches = filterCatalogue(rows, { query: query.value, sector: sector.value, category: category.value });
       entries.forEach((entry, i) => { entry.hidden = !matches[i]; });
       const count = matches.filter(Boolean).length;
-      form.querySelector('[data-catalogue-count]')!.textContent = `${count} matching equipment ${count === 1 ? 'profile' : 'profiles'} · ${sector.selectedOptions[0]!.text} · ${category.selectedOptions[0]!.text}${query.value.trim() ? ` · Search: ${query.value.trim()}` : ''}`;
+      const french = document.documentElement.lang === 'fr-CA';
+      form.querySelector('[data-catalogue-count]')!.textContent = french
+        ? `${count} ${count === 1 ? 'fiche d’équipement correspondante' : 'fiches d’équipement correspondantes'} · ${sector.selectedOptions[0]!.text} · ${category.selectedOptions[0]!.text}${query.value.trim() ? ` · Recherche : ${query.value.trim()}` : ''}`
+        : `${count} matching equipment ${count === 1 ? 'profile' : 'profiles'} · ${sector.selectedOptions[0]!.text} · ${category.selectedOptions[0]!.text}${query.value.trim() ? ` · Search: ${query.value.trim()}` : ''}`;
       container.querySelector<HTMLElement>('[data-catalogue-empty]')!.hidden = count > 0;
     };
     form.addEventListener('input', update);
@@ -51,9 +54,15 @@ const { categories, count } = Astro.props;
         }
       }
     });
+    const params = new URLSearchParams(location.search);
+    query.value = params.get('q') ?? '';
+    for (const field of [sector, category]) {
+      const value = params.get(field.name);
+      if (value && [...field.options].some(option => option.value === value)) field.value = value;
+    }
     form.hidden = false;
     update();
-    applyCategoryHash();
+    if (!['q', 'sector', 'category'].some(key => params.has(key))) applyCategoryHash();
   }
 </script>
 <style>

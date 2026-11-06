@@ -1,0 +1,33 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Home from '../index.astro';
+import Research from '../how-we-research.astro';
+import Disclosure from '../affiliate-disclosure.astro';
+import NotFound from '../404.astro';
+import UniverseHub from '../../components/UniverseHub.astro';
+import ProductCatalogue from '../../components/ProductCatalogue.astro';
+import ProductProfile from '../../components/ProductProfile.astro';
+import { getVisibleProducts, type Product } from '../../lib/products';
+import { UNIVERSE_IDS, type UniverseId } from '../../config/taxonomy';
+
+// Reuse the English renderers and all publication/affiliate gates. Middleware
+// supplies build-time French HTML; no translation service or JavaScript is needed.
+export const getStaticPaths = (async () => [
+  { params: { path: undefined }, props: { view: 'home' } },
+  { params: { path: 'gear' }, props: { view: 'catalogue' } },
+  { params: { path: 'how-we-research' }, props: { view: 'research' } },
+  { params: { path: 'affiliate-disclosure' }, props: { view: 'disclosure' } },
+  { params: { path: '404' }, props: { view: '404' } },
+  ...UNIVERSE_IDS.map(id => ({ params: { path: id }, props: { view: 'universe', id } })),
+  ...(await getVisibleProducts()).map(product => ({ params: { path: 'gear/' + product.id }, props: { view: 'product', product } })),
+]) satisfies GetStaticPaths;
+interface Props { view: string; id?: UniverseId; product?: Product }
+const { view, id, product } = Astro.props;
+---
+{view === 'home' && <Home />}
+{view === 'research' && <Research />}
+{view === 'disclosure' && <Disclosure />}
+{view === '404' && <NotFound />}
+{view === 'catalogue' && <ProductCatalogue />}
+{view === 'universe' && id && <UniverseHub id={id} />}
+{view === 'product' && product && <ProductProfile product={product} />}

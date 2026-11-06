@@ -24,9 +24,18 @@ for(const width of [320,375,768,1024,1440,1920]) test(`official header is crisp,
     expect(dimensions.width).toBe(mobile?38:48);expect(dimensions.height).toBe(dimensions.width);
     expect(dimensions.naturalWidth).toBeGreaterThanOrEqual(dimensions.width);
     expect(dimensions.currentSrc).toMatch(/\/brand\/brand-logo-(64|128|256)\.webp$/);
-    expect((await page.locator('.site-header').boundingBox())!.height).toBe(mobile?65:114);
+    const headerBounds = (await page.locator('.site-header').boundingBox())!;
+    expect(headerBounds.height).toBeGreaterThanOrEqual(mobile ? 65 : 114);
+    expect(headerBounds.height).toBeLessThanOrEqual(126);
+    const language = (await page.locator('[data-language-selector]').boundingBox())!;
+    expect(language.y + language.height).toBeLessThanOrEqual(headerBounds.y + headerBounds.height);
     const brand=await page.locator('body > header .brand').boundingBox();
-    if(mobile){const toggle=await page.getByRole('button',{name:'Menu',exact:true}).boundingBox();expect(brand!.x+brand!.width).toBeLessThanOrEqual(toggle!.x);}
+    if(mobile){
+      const toggle=(await page.getByRole('button',{name:'Menu',exact:true}).boundingBox())!;
+      if(width <= 640) expect(brand!.y + brand!.height).toBeLessThanOrEqual(toggle.y);
+      else expect(brand!.x + brand!.width).toBeLessThanOrEqual(language.x);
+      expect(language.x + language.width).toBeLessThanOrEqual(toggle.x);
+    }
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   }
   await page.goto('/');await page.locator('.brand__emblem').evaluate((node:HTMLImageElement)=>node.decode());
@@ -40,7 +49,7 @@ for(const width of [320,375,768,1024,1440,1920]) test(`official header is crisp,
   else await page.locator('.gear-trigger > a').hover();
   expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
   if(width===375||width===1440)await page.screenshot({path:`${screenshots}/navigation-after-${width}.png`});
-  writeFileSync(`docs/qa/branding/responsive-${width}.json`,JSON.stringify({width,routes,logoCSSPixels:mobile?38:48,headerHeight:mobile?65:114,cls:0,axeViolations:0,horizontalOverflow:false},null,2)+'\n');
+  writeFileSync(`docs/qa/branding/responsive-${width}.json`,JSON.stringify({width,routes,logoCSSPixels:mobile?38:48,headerHeight:(await page.locator('.site-header').boundingBox())!.height,cls:0,axeViolations:0,horizontalOverflow:false},null,2)+'\n');
 });
 
 test('official favicons, touch icon and Organization logo resolve with exact asset bytes and no schema duplicates',async({page,request})=>{

@@ -15,7 +15,7 @@ const root=resolve('dist');
 const products=readdirSync('src/data/products').filter(f=>f.endsWith('.json')).map(f=>({id:f.replace(/\.json$/,''),data:productSchema.parse(JSON.parse(readFileSync('src/data/products/'+f,'utf8')))} as Product)).filter(isPubliclyVisible);
 const baseline=JSON.parse(readFileSync('docs/qa/phase5-2/baseline.json','utf8'));
 const before=JSON.parse(readFileSync('docs/qa/phase5-2/inventory-before.json','utf8'));
-const pages=readdirSync(root,{recursive:true}).map(String).filter(f=>f.endsWith('.html'));
+const pages=readdirSync(root,{recursive:true}).map(String).filter(f=>f.endsWith('.html') && !f.split(sep).join('/').startsWith('fr/'));
 const navigationCategories=populatedCategories(products);
 const catalogue=load(readFileSync(resolve(root,'gear/index.html'),'utf8'));
 for(const category of navigationCategories){

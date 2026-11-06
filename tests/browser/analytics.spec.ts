@@ -71,8 +71,8 @@ test('XML parses strictly, has unique absolute locations and excludes noindex pa
       return [...doc.querySelectorAll('loc')].map(e=>e.textContent!);
     },{text,root});
   };
-  expect(await parse('/sitemap-index.xml','sitemapindex')).toEqual(['https://apocalypsegearlab.github.io/sitemap-0.xml']);
-  expect(await parse('/sitemap.xml','sitemapindex')).toEqual(['https://apocalypsegearlab.github.io/sitemap-0.xml']);
+  expect(await parse('/sitemap-index.xml','sitemapindex')).toEqual(['https://apocalypsegearlab.github.io/sitemap-en-0.xml', 'https://apocalypsegearlab.github.io/sitemap-fr-0.xml']);
+  expect(await parse('/sitemap.xml','sitemapindex')).toEqual(['https://apocalypsegearlab.github.io/sitemap-en-0.xml', 'https://apocalypsegearlab.github.io/sitemap-fr-0.xml']);
   const urls=await parse('/sitemap-0.xml','urlset');
   expect(new Set(urls).size).toBe(urls.length);
   expect(urls).toHaveLength(8);

@@ -106,8 +106,8 @@ const breadcrumbs = {
     <section>
       <h2>{data.specsStatus === 'owner-reported' ? 'Owner-reported features — verification incomplete' : 'Documented specifications'}</h2>
       {data.specs.length === 0 ? <p class="empty">No verified specifications yet.</p> : (
-        <div class="table-wrap" tabindex="0" role="region" aria-label={`${data.name} specifications`}><table><caption class="visually-hidden">Documented specifications for {data.name}</caption><tbody>
-          {data.specs.map((s) => <tr><th scope="row">{s.label}</th><td>{s.value}{publicReferences && s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={`#${referenceFor(s.source).anchor}`} data-source-citation>Source {references.findIndex(source => source.url === s.source) + 1}</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}
+        <div class="table-wrap product-specifications" tabindex="0" role="region" aria-label={`${data.name} specifications`}><table role="table"><caption class="visually-hidden">Documented specifications for {data.name}</caption><tbody role="rowgroup">
+          {data.specs.map((s) => <tr role="row"><th scope="row" role="rowheader">{s.label}</th><td role="cell">{s.value}{publicReferences && s.source && (/^https:\/\//.test(s.source) ? <span class="spec-source"> <a href={`#${referenceFor(s.source).anchor}`} data-source-citation>Source {references.findIndex(source => source.url === s.source) + 1}</a></span> : <span class="label"> (source: {s.source})</span>)}</td></tr>)}
         </tbody></table></div>
       )}
     </section>
@@ -173,9 +173,15 @@ const breadcrumbs = {
   .sources { padding-left: var(--s-5); }
   .sources li { margin-bottom: var(--s-3); scroll-margin-top: 6rem; }
   .spec-source { display: block; font-size: 0.85rem; margin-top: var(--s-2); }
+  @media (max-width: 800px) {
+    .product-specifications table { table-layout: fixed; }
+    .product-specifications th { width: 32%; }
+  }
   @media (max-width: 575px) {
-    [data-outbound-policy='amazon-only'] table { table-layout: fixed; }
-    [data-outbound-policy='amazon-only'] th { width: 36%; overflow-wrap: normal; }
-    [data-outbound-policy='amazon-only'] :is(th, td) { padding-inline: var(--s-3); }
+    /* Keep native table relationships explicit when rows stack visually. */
+    .product-specifications :is(table, tbody, th, td) { display: block; width: 100%; }
+    .product-specifications tr { display: grid; grid-template-columns: minmax(0, 1fr); }
+    .product-specifications th { border-bottom: 0; }
+    .product-specifications :is(th, td) { min-width: 0; }
   }
 </style>

@@ -84,3 +84,24 @@ On another machine, install the Node version from `.nvmrc` and run `npm ci`. Por
 ### Imported BLACKOUT/FALLOUT WebP pack
 
 See [the media integration report](docs/webp-pack-integration.md). The fourteen unchanged sources and original CSV are under assets/media. The imported manifest maps eight current products, reserves the extra HM50R headlamp and five FALLOUT assets, and records owner provenance confirmation. Only assets with current-product mapping, confirmed rights and reviewed accuracy get a static image route. Explorer 300 remains rejected. No FALLOUT product record is added.
+
+## English / French Canadian editions
+
+English keeps every original URL. The complete French edition is generated under `/fr/` (for example `/blackout/` and `/fr/blackout/`). Both are static HTML on GitHub Pages. The header language menu keeps the equivalent page, query, section, catalogue filters and scroll position. It saves `agl-language` in localStorage; blocked storage and disabled JavaScript retain native language links.
+
+All products use the same renderers, visibility rules, safety holds, Amazon.ca destinations, tracking attributes and artwork. Localization never edits commerce records. The original product indexability restrictions remain in both editions. Each page has a self canonical and reciprocal en-CA/fr-CA/x-default alternatives; the index references English and French XML sitemaps. Original sitemap URLs remain available.
+
+Translations live in `src/i18n/fr-*.json`. The initial editorial catalogue is split across a/b/c; put new shared phrases in `fr-extra.json`. `fr-fixtures.json` contains only the existing synthetic test fixture vocabulary. `allow-*.json` records reviewed identical names, models, technical literals and words shared by the two languages. Never use an identity translation to bypass a missing translation.
+
+Production rendering fails with all missing phrases on the affected page. Add and review their exact normalized English keys, rebuild, then run:
+
+```bash
+npm run i18n:extract  # current rendered English inventory and missing entries in tmp/
+npm run test:bilingual
+npm run test:site
+npm run test:browser
+```
+
+Development allows source-text fallback for unpublished editorial drafts; production does not. New products automatically get matching French routes and cannot build without their translations. Add any new static page to `src/pages/fr/[...path].astro`; whole-site QA rejects unmatched routes. Maintain the same element IDs in both editions so bookmarks and accessible relationships keep working.
+
+See [the bilingual implementation and QA report](docs/bilingual-implementation.md) for coverage, hosting behavior, preservation evidence and review screenshots. No merge or deployment is part of this implementation.

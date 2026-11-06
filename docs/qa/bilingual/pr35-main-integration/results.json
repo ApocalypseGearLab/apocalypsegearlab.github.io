@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-05",
+  "pullRequest": 35,
+  "featureParent": "6a0267a6f10fae473e1d423f4e71f17fb8a51118",
+  "mainParent": "bd31e027599598aaab13df672b54dbf675af1328",
+  "priorProductionBaseline": "47e79687ac2c0e7aad2f25b2a53742a9571c2f89",
+  "latestMainTreeMatchesBaseline": true,
+  "productionTree": "5114899d525193efe734eb74adbcdc397947613e",
+  "resolvedApplicationTree": "47a367dda78591de851d214685c88509260068a6",
+  "resolvedTreeMatchesValidatedBilingualRelease": true,
+  "conflicts": [
+    "package.json",
+    "scripts/four-universes-preservation.mjs",
+    "scripts/verify-site.mjs",
+    "src/components/Header.astro"
+  ],
+  "validation": {
+    "commands": [
+      {
+        "command": "npm run check",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test:images",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run release:check",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run audit:affiliate",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run audit:verification",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test:products",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run build",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test:site",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test:conversion",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test:bougerv",
+        "exitCode": 0
+      },
+      {
+        "command": "npm run test:phase55",
+        "exitCode": 0
+      }
+    ],
+    "pages": 112,
+    "englishPages": 56,
+    "frenchPages": 56,
+    "unitPassed": 123,
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "typeHints": 0,
+    "browser": {
+      "startTime": "2026-11-06T00:41:55.082Z",
+      "duration": 545012.5380000001,
+      "expected": 198,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "internalReferences": 10790,
+    "indexableSitemapUrls": 16,
+    "protectedSources": 61,
+    "affiliateControlsPerLanguage": 245,
+    "technicalSourceLinksPerLanguage": 131,
+    "heldProductDestinations": 6
+  },
+  "unrelatedLocalHeroEditExcludedAndUnchanged": true,
+  "historyRewrite": false,
+  "forcePush": false,
+  "prMerged": false,
+  "pagesDeployed": false
+}

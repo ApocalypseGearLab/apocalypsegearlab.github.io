@@ -1,0 +1,236 @@
+[
+  {
+    "file": "top-1440-1.png",
+    "images": [
+      "home-en-1440-top.png",
+      "home-fr-1440-top.png",
+      "blackout-en-1440-top.png",
+      "blackout-fr-1440-top.png",
+      "fallout-en-1440-top.png",
+      "fallout-fr-1440-top.png",
+      "outbreak-en-1440-top.png",
+      "outbreak-fr-1440-top.png"
+    ]
+  },
+  {
+    "file": "top-1440-2.png",
+    "images": [
+      "whiteout-en-1440-top.png",
+      "whiteout-fr-1440-top.png",
+      "product-2097-en-1440-top.png",
+      "product-2097-fr-1440-top.png",
+      "product-kidde-en-1440-top.png",
+      "product-kidde-fr-1440-top.png",
+      "product-xtherm-en-1440-top.png",
+      "product-xtherm-fr-1440-top.png"
+    ]
+  },
+  {
+    "file": "guide-1440-1.png",
+    "images": [
+      "blackout-en-1440-guide.png",
+      "blackout-fr-1440-guide.png",
+      "fallout-en-1440-guide.png",
+      "fallout-fr-1440-guide.png",
+      "outbreak-en-1440-guide.png",
+      "outbreak-fr-1440-guide.png",
+      "whiteout-en-1440-guide.png",
+      "whiteout-fr-1440-guide.png"
+    ]
+  },
+  {
+    "file": "gear-1440-1.png",
+    "images": [
+      "blackout-en-1440-gear.png",
+      "blackout-fr-1440-gear.png",
+      "fallout-en-1440-gear.png",
+      "fallout-fr-1440-gear.png",
+      "outbreak-en-1440-gear.png",
+      "outbreak-fr-1440-gear.png",
+      "whiteout-en-1440-gear.png",
+      "whiteout-fr-1440-gear.png"
+    ]
+  },
+  {
+    "file": "buy-1440-1.png",
+    "images": [
+      "product-2097-en-1440-buy.png",
+      "product-2097-fr-1440-buy.png",
+      "product-kidde-en-1440-buy.png",
+      "product-kidde-fr-1440-buy.png",
+      "product-xtherm-en-1440-buy.png",
+      "product-xtherm-fr-1440-buy.png"
+    ]
+  },
+  {
+    "file": "specifications-1440-1.png",
+    "images": [
+      "product-2097-en-1440-specifications.png",
+      "product-2097-fr-1440-specifications.png",
+      "product-kidde-en-1440-specifications.png",
+      "product-kidde-fr-1440-specifications.png",
+      "product-xtherm-en-1440-specifications.png",
+      "product-xtherm-fr-1440-specifications.png"
+    ]
+  },
+  {
+    "file": "safety-1440-1.png",
+    "images": [
+      "product-2097-en-1440-safety.png",
+      "product-2097-fr-1440-safety.png",
+      "product-kidde-en-1440-safety.png",
+      "product-kidde-fr-1440-safety.png",
+      "product-xtherm-en-1440-safety.png",
+      "product-xtherm-fr-1440-safety.png"
+    ]
+  },
+  {
+    "file": "home-details-1440-1.png",
+    "images": [
+      "home-en-1440-selector.png",
+      "home-fr-1440-selector.png",
+      "home-en-1440-mission.png",
+      "home-fr-1440-mission.png",
+      "home-en-1440-footer.png",
+      "home-fr-1440-footer.png"
+    ]
+  },
+  {
+    "file": "top-375-1.png",
+    "images": [
+      "home-en-375-top.png",
+      "home-fr-375-top.png",
+      "blackout-en-375-top.png",
+      "blackout-fr-375-top.png"
+    ]
+  },
+  {
+    "file": "top-375-2.png",
+    "images": [
+      "fallout-en-375-top.png",
+      "fallout-fr-375-top.png",
+      "outbreak-en-375-top.png",
+      "outbreak-fr-375-top.png"
+    ]
+  },
+  {
+    "file": "top-375-3.png",
+    "images": [
+      "whiteout-en-375-top.png",
+      "whiteout-fr-375-top.png",
+      "product-2097-en-375-top.png",
+      "product-2097-fr-375-top.png"
+    ]
+  },
+  {
+    "file": "top-375-4.png",
+    "images": [
+      "product-kidde-en-375-top.png",
+      "product-kidde-fr-375-top.png",
+      "product-xtherm-en-375-top.png",
+      "product-xtherm-fr-375-top.png"
+    ]
+  },
+  {
+    "file": "guide-375-1.png",
+    "images": [
+      "blackout-en-375-guide.png",
+      "blackout-fr-375-guide.png",
+      "fallout-en-375-guide.png",
+      "fallout-fr-375-guide.png"
+    ]
+  },
+  {
+    "file": "guide-375-2.png",
+    "images": [
+      "outbreak-en-375-guide.png",
+      "outbreak-fr-375-guide.png",
+      "whiteout-en-375-guide.png",
+      "whiteout-fr-375-guide.png"
+    ]
+  },
+  {
+    "file": "gear-375-1.png",
+    "images": [
+      "blackout-en-375-gear.png",
+      "blackout-fr-375-gear.png",
+      "fallout-en-375-gear.png",
+      "fallout-fr-375-gear.png"
+    ]
+  },
+  {
+    "file": "gear-375-2.png",
+    "images": [
+      "outbreak-en-375-gear.png",
+      "outbreak-fr-375-gear.png",
+      "whiteout-en-375-gear.png",
+      "whiteout-fr-375-gear.png"
+    ]
+  },
+  {
+    "file": "buy-375-1.png",
+    "images": [
+      "product-2097-en-375-buy.png",
+      "product-2097-fr-375-buy.png",
+      "product-kidde-en-375-buy.png",
+      "product-kidde-fr-375-buy.png"
+    ]
+  },
+  {
+    "file": "buy-375-2.png",
+    "images": [
+      "product-xtherm-en-375-buy.png",
+      "product-xtherm-fr-375-buy.png"
+    ]
+  },
+  {
+    "file": "specifications-375-1.png",
+    "images": [
+      "product-2097-en-375-specifications.png",
+      "product-2097-fr-375-specifications.png",
+      "product-kidde-en-375-specifications.png",
+      "product-kidde-fr-375-specifications.png"
+    ]
+  },
+  {
+    "file": "specifications-375-2.png",
+    "images": [
+      "product-xtherm-en-375-specifications.png",
+      "product-xtherm-fr-375-specifications.png"
+    ]
+  },
+  {
+    "file": "safety-375-1.png",
+    "images": [
+      "product-2097-en-375-safety.png",
+      "product-2097-fr-375-safety.png",
+      "product-kidde-en-375-safety.png",
+      "product-kidde-fr-375-safety.png"
+    ]
+  },
+  {
+    "file": "safety-375-2.png",
+    "images": [
+      "product-xtherm-en-375-safety.png",
+      "product-xtherm-fr-375-safety.png"
+    ]
+  },
+  {
+    "file": "home-details-375-1.png",
+    "images": [
+      "home-en-375-selector.png",
+      "home-fr-375-selector.png",
+      "home-en-375-navigation.png",
+      "home-fr-375-navigation.png"
+    ]
+  },
+  {
+    "file": "home-details-375-2.png",
+    "images": [
+      "home-en-375-mission.png",
+      "home-fr-375-mission.png",
+      "home-en-375-footer.png",
+      "home-fr-375-footer.png"
+    ]
+  }
+]

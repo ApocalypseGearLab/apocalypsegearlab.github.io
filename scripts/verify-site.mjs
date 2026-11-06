@@ -36,10 +36,13 @@ for (const file of files) {
   const pathname = `/${file.split(sep).join('/')}`.replace(/index\.html$/, '');
   const html = readFileSync(resolve(root, file), 'utf8');
   const $ = load(html);
+  const isFrench = pathname.startsWith('/fr/');
+  const originalPath = isFrench ? pathname.replace(/^\/fr/, '').replace('/404/', '/404.html') : pathname;
   const previousSEO=brandingBefore.pages.find(page=>page.path===pathname);
-  assert.ok(previousSEO||phase7Paths.has(pathname)||['/whiteout/','/gear/therm-a-rest-neoair-xtherm-nxt-review/'].includes(pathname),'Only explicitly approved integration routes may be added: '+pathname);
+  assert.ok(previousSEO || (isFrench && existsSync(fileFor(originalPath))) || phase7Paths.has(pathname) || ['/whiteout/','/gear/therm-a-rest-neoair-xtherm-nxt-review/'].includes(pathname),'Only explicitly approved integration routes may be added: '+pathname);
   if(previousSEO){
     const currentSEO={path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()};
+    currentSEO.social = currentSEO.social.filter(row => !['og:locale', 'og:locale:alternate'].includes(row.name));
     if(['/blackout/','/fallout/','/outbreak/'].includes(pathname)){
       // New cinematic social fields are checked exactly by verify-four-universes.
       // Every earlier title, description, canonical, robots and social value stays frozen.
@@ -55,7 +58,7 @@ for (const file of files) {
   assert.equal($('script[data-ga4-config]').length, 1, file);
   assert.equal($('script[src*="gtm.js"]').length, 0, 'Do not install a parallel GTM container');
   documents.set(resolve(root, file), $);
-  assert.equal($('html').attr('lang'), 'en', file);
+  assert.equal($('html').attr('lang'), isFrench ? 'fr-CA' : 'en-CA', file);
   assert.equal($('h1').length, 1, file);
   assert.equal($('main#main').length, 1, file);
   assert.equal($('body > header .brand__emblem').length, 1, 'One official emblem per header: '+file);
@@ -109,7 +112,7 @@ for (const [file, $] of documents) {
     assert.equal(link.attr('rel'), 'sponsored nofollow noopener');
     assert.equal(link.attr('data-merchant'), 'amazon-ca', 'Keep the merchant tracking key');
     assert.equal(link.attr('data-marketplace'), 'ca', 'Keep the Canadian marketplace tracking key');
-    assert.ok(link.closest('.card-purchase, [data-product-purchase]').find('[aria-label="Affiliate disclosure"]').text().includes('As an Amazon Associate I earn from qualifying purchases.'), 'Disclosure required next to each active button');
+    assert.ok(link.closest('.card-purchase, [data-product-purchase]').find('.affiliate-note').text().includes($('html').attr('lang') === 'fr-CA' ? 'En tant que' : 'As an Amazon Associate'), 'Disclosure required next to each active button');
   });
   $('article.card[data-product-id]').each((_, element) => {
     const card = $(element), state = commercialState.get(card.attr('data-product-id'));
@@ -119,8 +122,8 @@ for (const [file, $] of documents) {
     assert.equal(card.find('[data-amazon-pending]').length, state.amazonCaActive ? 0 : 1);
     assert.equal(card.find('[data-pending-details]').length, state.amazonCaActive ? 0 : 1);
     if (!state.amazonCaActive) {
-      assert.equal(card.find('[data-amazon-pending]').text().trim(), 'Amazon link pending verification');
-      assert.equal(card.find('[data-pending-details]').attr('href'), `/gear/${state.slug}/`);
+      assert.equal(card.find('[data-amazon-pending]').text().trim(), $('html').attr('lang') === 'fr-CA' ? 'Lien Amazon en attente de vérification' : 'Amazon link pending verification');
+      assert.equal(card.find('[data-pending-details]').attr('href'), `${$('html').attr('lang') === 'fr-CA' ? '/fr' : ''}/gear/${state.slug}/`);
       assert.ok(card.find('.card-hold-reason').text().trim(), 'Held cards must explain the recorded blocker');
       assert.ok(card.find('.card-purchase').text().trim().length < 600, 'Pending card controls must stay concise');
     }
@@ -150,7 +153,7 @@ for (const [file, $] of documents) {
     if ($(image).hasClass('brand__emblem')) {
       assert.equal($(image).attr('alt'), '', 'Adjacent brand name supplies the accessible name');
       assert.equal($(image).attr('aria-hidden'), 'true');
-      assert.equal($(image).closest('a.brand').attr('aria-label'), 'ApocalypseGearLab home');
+      assert.equal($(image).closest('a.brand').attr('aria-label'), $('html').attr('lang') === 'fr-CA' ? 'Accueil ApocalypseGearLab' : 'ApocalypseGearLab home');
     } else assert.ok($(image).attr('alt')?.trim(), 'Useful image needs alt text');
     assert.ok($(image).attr('sizes'), 'Responsive image needs sizes');
     for (const candidate of $(image).attr('srcset').split(',')) {
