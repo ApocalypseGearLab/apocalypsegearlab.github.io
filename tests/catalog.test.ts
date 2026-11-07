@@ -352,7 +352,7 @@ test('slugs, ASINs and related records are unique and refer to existing products
       assert.ok(rawProducts.has(related), `${slug} -> ${related}`);
     }
   }
-  assert.equal(asins.size,47);
+  assert.equal(asins.size,52);
 });
 
 test('Kidde and INIU remain blocked and cannot be published by changing only editorial status', () => {
@@ -429,13 +429,13 @@ test('OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits
 
 test('Catalogue has eighteen BLACKOUT, twelve FALLOUT and sixteen OUTBREAK profiles with substantive original content', () => {
   const products = [...rawProducts].filter(([,raw]) => raw.visibility === 'informational');
-  assert.equal(products.length,47);
+  assert.equal(products.length,52);
   const universes = products.map(([,raw]) => categoryUniverse(productSchema.parse(raw).category));
   assert.equal(universes.filter(id => id === 'blackout').length, 18);
   assert.equal(universes.filter(id => id === 'fallout').length, 12);
   assert.equal(universes.filter(id => id === 'outbreak').length, 16);
-  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size,47);
-  assert.equal(new Set(products.map(([,raw]) => raw.description)).size,47);
+  assert.equal(new Set(products.map(([,raw]) => raw.summary)).size,52);
+  assert.equal(new Set(products.map(([,raw]) => raw.description)).size,52);
   for (const id of ['fenix-hm50r-v2-headlamp','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','nanuk-904-first-aid-kit','leatherman-wave-plus-multitool','sol-emergency-bivvy']) {
     const raw = rawProducts.get(id);
     assert.ok(raw.editorial.purchaseChecks.length >= 3, id);

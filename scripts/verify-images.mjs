@@ -4,6 +4,7 @@ import sharp from 'sharp';
 import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
+import { WHITEOUT_PHASE2_IDS } from './whiteout-phase2-preservation.mjs';
 
 const manifest = JSON.parse(await readFile('src/data/media/manifest.json', 'utf8'));
 const sources = JSON.parse(await readFile('scripts/image-sources.json', 'utf8'));
@@ -72,7 +73,7 @@ assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,1
 assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,16);
 assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,46);
 assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,46);
-const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json' && file !== 'therm-a-rest-neoair-xtherm-nxt-review.json').map(file => file.replace(/\.json$/, ''));
+const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json' && file !== 'therm-a-rest-neoair-xtherm-nxt-review.json' && !WHITEOUT_PHASE2_IDS.includes(file.replace(/\.json$/, ''))).map(file => file.replace(/\.json$/, ''));
 assert.equal(productIds.length,46);
 assert.deepEqual(productIds.filter(id=>!supplied.assets.some(asset=>asset.productId===id)),[],'Every product maps to its distinct artwork record; Explorer 300 remains rejected');
 const csv=await readFile(supplied.csv,'utf8');
@@ -144,3 +145,6 @@ console.log(phase7Encoding.stdout.trim());
 const cinematic=spawnSync(process.execPath,['scripts/verify-four-universes.mjs','--sources-only'],{encoding:'utf8',windowsHide:true});
 assert.equal(cinematic.status,0,cinematic.stdout+'\n'+cinematic.stderr);
 console.log(cinematic.stdout.trim());
+const whiteoutPhase2 = spawnSync(process.execPath, ['scripts/build-whiteout-phase2-media.mjs', '--check'], { encoding: 'utf8', windowsHide: true });
+assert.equal(whiteoutPhase2.status, 0, whiteoutPhase2.stdout + '\n' + whiteoutPhase2.stderr);
+console.log(whiteoutPhase2.stdout.trim());

@@ -21,15 +21,15 @@ test('four-universe integration preserves every earlier product, media, brand an
  }
  const binary=Buffer.from([137,80,13,10,255]);assert.deepEqual(beforeFourUniverses('test.webp',binary),binary);
 });
-test('WHITEOUT identity, held ASIN and no commercial schema survive integration',()=>{
+test('WHITEOUT identity, restricted retailer link and no commercial schema survive integration',()=>{
  assert.deepEqual(UNIVERSE_IDS,['blackout','fallout','outbreak','whiteout']);
  assert.equal(categoryUniverse('winter-sleep-systems'),'whiteout');
  const data=productSchema.parse(JSON.parse(readFileSync('src/data/products/therm-a-rest-neoair-xtherm-nxt-review.json','utf8')));
  assert.doesNotMatch(JSON.stringify(data),/Ã|Â|â€/,'New profile must retain valid English typography');
- assert.ok(data.specs.some(spec=>spec.value.includes('20 × 72 in / 51 × 183 cm')));
+ assert.ok(data.specs.some(spec=>spec.value.includes('183 × 64 × 7.6 cm')));
  const p={id:'therm-a-rest-neoair-xtherm-nxt-review',data}as Product;
- assert.equal(data.links.amazonCa.asin,'B0CS4P19QQ');assert.equal(data.links.amazonCa.url,'https://www.amazon.ca/dp/B0CS4P19QQ?tag=apocalypsegear-20');
- assert.equal(data.research?.affiliateReview?.decision,'hold');assert.equal(data.research?.listingVerified,false);assert.equal(data.research?.publicationApproved,false);
- assert.equal(getMerchantLinks(p)[0]!.href,null);assert.equal(productStructuredData(p,new URL('https://apocalypsegearlab.github.io')),undefined);
+ assert.equal(data.links.amazonCa.asin,'B0CS54SN91');assert.equal(data.links.amazonCa.url,'https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20');
+ assert.equal(data.research?.affiliateReview?.decision,'link-permitted');assert.equal(data.research?.listingVerified,false);assert.equal(data.research?.publicationApproved,false);
+ assert.equal(getMerchantLinks(p)[0]!.href,data.links.amazonCa.url);assert.equal(productStructuredData(p,new URL('https://apocalypsegearlab.github.io')),undefined);
  for(const spec of data.specs)assert.equal(spec.source,'https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad');
 });

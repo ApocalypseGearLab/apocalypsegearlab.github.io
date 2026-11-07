@@ -1,0 +1,730 @@
+{
+  "scope": "Documentary research and selected-page mismatch evidence; no matching target Canadian offer or physical product was independently verified.",
+  "date": "2026-11-06",
+  "catalogue": {
+    "products": 52,
+    "manufacturerDocumented": 51,
+    "ownerDocumentedListings": 23,
+    "independentlyVerifiedListings": 0,
+    "activeLinks": 41,
+    "heldLinks": 11,
+    "safetyCleared": 4,
+    "safetyPending": 46,
+    "safetyBlocked": 2,
+    "editorialApproved": 4,
+    "fullyApproved": 0
+  },
+  "products": [
+    {
+      "id": "hestra-army-leather-heli-ski-gloves",
+      "name": "Hestra Army Leather Heli Ski gloves",
+      "asin": "B00F1F08TM",
+      "model": "30570",
+      "url": "https://www.amazon.ca/dp/B00F1F08TM?tag=apocalypsegear-20",
+      "modelDocumented": true,
+      "citedSpecifications": 5,
+      "manufacturerFacts": 1,
+      "listingStatus": "not-independently-verified",
+      "listingLabel": "Listing not independently verified",
+      "evidenceLabel": "Manufacturer sources cited",
+      "profileLabel": "Information only",
+      "editorialLabel": "Editorial verification incomplete",
+      "editorialApproved": false,
+      "fullyApproved": false,
+      "safetyStatus": "pending",
+      "linkActive": false,
+      "linkLabel": "Amazon.ca link on hold",
+      "linkBlocker": "B00F1F08TM must be matched to Black/White, size 9. The reported Red size 5 B013YNSJHA / 30570-560-05 is not an approved substitute.",
+      "identity": {
+        "independentlyVerified": false,
+        "evidence": null,
+        "assessment": "B00F1F08TM must be matched to Black/White, size 9. The reported Red size 5 B013YNSJHA / 30570-560-05 is not an approved substitute.",
+        "outstanding": [
+          "Independent current Canadian ASIN/selected-variant verification is not recorded."
+        ]
+      },
+      "technical": {
+        "status": "manufacturer-documented-not-physically-tested",
+        "specifications": [
+          {
+            "label": "Documented model",
+            "value": "30570-100, black five-finger model",
+            "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+          },
+          {
+            "label": "Palm material",
+            "value": "Army goat leather",
+            "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+          },
+          {
+            "label": "Backhand fabric",
+            "value": "Hestra Triton polyamide; windproof and water-resistant",
+            "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+          },
+          {
+            "label": "Insulation and liner",
+            "value": "G-Loft insulation; removable Bemberg polyester liner",
+            "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+          },
+          {
+            "label": "Waterproof membrane",
+            "value": "None; not waterproof",
+            "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+          }
+        ],
+        "confirmed": [
+          {
+            "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+            "sourceIds": [
+              "manufacturer-model"
+            ]
+          }
+        ],
+        "unresolvedClaims": [
+          "Confirm B00F1F08TM, model 30570, Black/White and size 9 on the selected Amazon offer."
+        ],
+        "sources": [
+          {
+            "id": "manufacturer-model",
+            "title": "Hestra — Army Leather Heli Ski five-finger, black, 30570-100",
+            "url": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black",
+            "kind": "manufacturer"
+          }
+        ]
+      },
+      "safety": {
+        "status": "pending",
+        "mandatoryHold": null,
+        "limitations": [
+          "Keep insulation dry and avoid a tight fit that restricts circulation. Industrial protective-equipment suitability has not been verified."
+        ],
+        "outstanding": [
+          "Complete the recorded product-specific safety review.",
+          "B00F1F08TM must be matched to Black/White, size 9. The reported Red size 5 B013YNSJHA / 30570-560-05 is not an approved substitute."
+        ]
+      },
+      "editorial": {
+        "reviewStatus": "draft",
+        "publicationApproved": false,
+        "outstanding": [
+          "Canadian listing identity has not been verified.",
+          "Safety review has not been completed.",
+          "Editorial publication approval is pending.",
+          "B00F1F08TM must be matched to Black/White, size 9. The reported Red size 5 B013YNSJHA / 30570-560-05 is not an approved substitute."
+        ],
+        "independentlyIndexable": false
+      },
+      "commercial": {
+        "decision": {
+          "decision": "hold",
+          "asin": "B00F1F08TM",
+          "checkedAt": "2026-11-06",
+          "reason": "B00F1F08TM must be matched to Black/White, size 9. The reported Red size 5 B013YNSJHA / 30570-560-05 is not an approved substitute.",
+          "sourceIds": [
+            "manufacturer-model"
+          ]
+        },
+        "active": false,
+        "blocker": "B00F1F08TM must be matched to Black/White, size 9. The reported Red size 5 B013YNSJHA / 30570-560-05 is not an approved substitute.",
+        "outstanding": [
+          "B00F1F08TM must be matched to Black/White, size 9. The reported Red size 5 B013YNSJHA / 30570-560-05 is not an approved substitute."
+        ]
+      },
+      "physicalTesting": "not-tested"
+    },
+    {
+      "id": "oakley-flight-deck-m-goggles",
+      "name": "Oakley Flight Deck XM / M snow goggles",
+      "asin": "B012Y896ZA",
+      "model": "OO7064-41",
+      "url": "https://www.amazon.ca/dp/B012Y896ZA?tag=apocalypsegear-20",
+      "modelDocumented": true,
+      "citedSpecifications": 4,
+      "manufacturerFacts": 1,
+      "listingStatus": "not-independently-verified",
+      "listingLabel": "Listing not independently verified",
+      "evidenceLabel": "Manufacturer sources cited",
+      "profileLabel": "Information only",
+      "editorialLabel": "Editorial verification incomplete",
+      "editorialApproved": false,
+      "fullyApproved": false,
+      "safetyStatus": "pending",
+      "linkActive": false,
+      "linkLabel": "Amazon.ca link on hold",
+      "linkBlocker": "B012Y896ZA has not been inspected live. Confirm OO7064-41, Medium, Matte Black strap and Prizm Snow Sapphire Iridium lens before activation.",
+      "identity": {
+        "independentlyVerified": false,
+        "evidence": null,
+        "assessment": "B012Y896ZA has not been inspected live. Confirm OO7064-41, Medium, Matte Black strap and Prizm Snow Sapphire Iridium lens before activation.",
+        "outstanding": [
+          "Independent current Canadian ASIN/selected-variant verification is not recorded."
+        ]
+      },
+      "technical": {
+        "status": "manufacturer-documented-not-physically-tested",
+        "specifications": [
+          {
+            "label": "Documented model",
+            "value": "OO7064-41-0; size M / medium",
+            "source": "https://www.oakley.com/en-ca/product/888392149732"
+          },
+          {
+            "label": "Strap and lens",
+            "value": "Matte Black / Prizm Snow Sapphire Iridium",
+            "source": "https://www.oakley.com/en-ca/product/888392149732"
+          },
+          {
+            "label": "Light transmission",
+            "value": "13%; manufacturer condition: sun and clouds",
+            "source": "https://www.oakley.com/en-ca/product/888392149732"
+          },
+          {
+            "label": "Lens system",
+            "value": "Ridgelock; dual lens with F3 anti-fog coating",
+            "source": "https://www.oakley.com/en-ca/product/888392149732"
+          }
+        ],
+        "confirmed": [
+          {
+            "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+            "sourceIds": [
+              "manufacturer-model"
+            ]
+          }
+        ],
+        "unresolvedClaims": [
+          "Match the exact selected variant to OO7064-41; the reported 150 g weight is not manufacturer-confirmed here."
+        ],
+        "sources": [
+          {
+            "id": "manufacturer-model",
+            "title": "Oakley Canada — Flight Deck M, Matte Black / Prizm Snow Sapphire Iridium",
+            "url": "https://www.oakley.com/en-ca/product/888392149732",
+            "kind": "manufacturer"
+          }
+        ]
+      },
+      "safety": {
+        "status": "pending",
+        "mandatoryHold": null,
+        "limitations": [
+          "This profile makes no industrial eye-protection certification claim. Select an appropriate lens for actual light and visibility; stop travel when safe navigation is not possible."
+        ],
+        "outstanding": [
+          "Complete the recorded product-specific safety review.",
+          "B012Y896ZA has not been inspected live. Confirm OO7064-41, Medium, Matte Black strap and Prizm Snow Sapphire Iridium lens before activation."
+        ]
+      },
+      "editorial": {
+        "reviewStatus": "draft",
+        "publicationApproved": false,
+        "outstanding": [
+          "Canadian listing identity has not been verified.",
+          "Safety review has not been completed.",
+          "Editorial publication approval is pending.",
+          "B012Y896ZA has not been inspected live. Confirm OO7064-41, Medium, Matte Black strap and Prizm Snow Sapphire Iridium lens before activation."
+        ],
+        "independentlyIndexable": false
+      },
+      "commercial": {
+        "decision": {
+          "decision": "hold",
+          "asin": "B012Y896ZA",
+          "checkedAt": "2026-11-06",
+          "reason": "B012Y896ZA has not been inspected live. Confirm OO7064-41, Medium, Matte Black strap and Prizm Snow Sapphire Iridium lens before activation.",
+          "sourceIds": [
+            "manufacturer-model"
+          ]
+        },
+        "active": false,
+        "blocker": "B012Y896ZA has not been inspected live. Confirm OO7064-41, Medium, Matte Black strap and Prizm Snow Sapphire Iridium lens before activation.",
+        "outstanding": [
+          "B012Y896ZA has not been inspected live. Confirm OO7064-41, Medium, Matte Black strap and Prizm Snow Sapphire Iridium lens before activation."
+        ]
+      },
+      "physicalTesting": "not-tested"
+    },
+    {
+      "id": "outdoor-research-alti-ii-gore-tex-mitts",
+      "name": "Outdoor Research Alti II GORE-TEX mitts",
+      "asin": "B0B67C7N9M",
+      "model": "300009",
+      "url": "https://www.amazon.ca/dp/B0B67C7N9M?tag=apocalypsegear-20",
+      "modelDocumented": true,
+      "citedSpecifications": 4,
+      "manufacturerFacts": 1,
+      "listingStatus": "not-independently-verified",
+      "listingLabel": "Listing not independently verified",
+      "evidenceLabel": "Manufacturer sources cited",
+      "profileLabel": "Information only",
+      "editorialLabel": "Editorial verification incomplete",
+      "editorialApproved": false,
+      "fullyApproved": false,
+      "safetyStatus": "pending",
+      "linkActive": false,
+      "linkLabel": "Amazon.ca link on hold",
+      "linkBlocker": "Amazon model, colour and size are unverified. B0B67CFPG7 is reported as Small/Agate and is not an approved substitute for the black illustrated mitts.",
+      "identity": {
+        "independentlyVerified": false,
+        "evidence": null,
+        "assessment": "Amazon model, colour and size are unverified. B0B67CFPG7 is reported as Small/Agate and is not an approved substitute for the black illustrated mitts.",
+        "outstanding": [
+          "Independent current Canadian ASIN/selected-variant verification is not recorded."
+        ]
+      },
+      "technical": {
+        "status": "manufacturer-documented-not-physically-tested",
+        "specifications": [
+          {
+            "label": "Documented model",
+            "value": "Alti II GORE-TEX mitt, 300009; not the newer 322807",
+            "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+          },
+          {
+            "label": "Shell construction",
+            "value": "GORE-TEX 2L, 70D nylon",
+            "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+          },
+          {
+            "label": "Palm material",
+            "value": "Pittards Armortan leather",
+            "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+          },
+          {
+            "label": "Insulation and liner",
+            "value": "PrimaLoft Gold; removable insulated mitt liner",
+            "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+          }
+        ],
+        "confirmed": [
+          {
+            "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+            "sourceIds": [
+              "manufacturer-model"
+            ]
+          }
+        ],
+        "unresolvedClaims": [
+          "Verify B0B67C7N9M against model 300009, selected colour and size; resolve reference 3000090862006 before activation."
+        ],
+        "sources": [
+          {
+            "id": "manufacturer-model",
+            "title": "Outdoor Research Spring 2026 manufacturer catalogue — model 300009, page 170",
+            "url": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf",
+            "kind": "manufacturer"
+          }
+        ]
+      },
+      "safety": {
+        "status": "pending",
+        "mandatoryHold": null,
+        "limitations": [
+          "No glove or mitt establishes a safe exposure time in extreme cold. Keep a dry backup and check fit and circulation."
+        ],
+        "outstanding": [
+          "Complete the recorded product-specific safety review.",
+          "Amazon model, colour and size are unverified. B0B67CFPG7 is reported as Small/Agate and is not an approved substitute for the black illustrated mitts."
+        ]
+      },
+      "editorial": {
+        "reviewStatus": "draft",
+        "publicationApproved": false,
+        "outstanding": [
+          "Canadian listing identity has not been verified.",
+          "Safety review has not been completed.",
+          "Editorial publication approval is pending.",
+          "Amazon model, colour and size are unverified. B0B67CFPG7 is reported as Small/Agate and is not an approved substitute for the black illustrated mitts."
+        ],
+        "independentlyIndexable": false
+      },
+      "commercial": {
+        "decision": {
+          "decision": "hold",
+          "asin": "B0B67C7N9M",
+          "checkedAt": "2026-11-06",
+          "reason": "Amazon model, colour and size are unverified. B0B67CFPG7 is reported as Small/Agate and is not an approved substitute for the black illustrated mitts.",
+          "sourceIds": [
+            "manufacturer-model"
+          ]
+        },
+        "active": false,
+        "blocker": "Amazon model, colour and size are unverified. B0B67CFPG7 is reported as Small/Agate and is not an approved substitute for the black illustrated mitts.",
+        "outstanding": [
+          "Amazon model, colour and size are unverified. B0B67CFPG7 is reported as Small/Agate and is not an approved substitute for the black illustrated mitts."
+        ]
+      },
+      "physicalTesting": "not-tested"
+    },
+    {
+      "id": "smartwool-nts-250-balaclava",
+      "name": "Smartwool NTS AW15 250 balaclava",
+      "asin": "B002VGHX1A",
+      "model": "SC967-001-ONE",
+      "url": "https://www.amazon.ca/dp/B002VGHX1A?tag=apocalypsegear-20",
+      "modelDocumented": true,
+      "citedSpecifications": 3,
+      "manufacturerFacts": 1,
+      "listingStatus": "not-independently-verified",
+      "listingLabel": "Listing not independently verified",
+      "evidenceLabel": "Manufacturer sources cited",
+      "profileLabel": "Information only",
+      "editorialLabel": "Editorial verification incomplete",
+      "editorialApproved": false,
+      "fullyApproved": false,
+      "safetyStatus": "pending",
+      "linkActive": false,
+      "linkLabel": "Amazon.ca link on hold",
+      "linkBlocker": "B002VGHX1A, Black, SC967-001-ONE / BSC967001 and the older AW15 revision have not been matched to the manufacturer documentation.",
+      "identity": {
+        "independentlyVerified": false,
+        "evidence": null,
+        "assessment": "B002VGHX1A, Black, SC967-001-ONE / BSC967001 and the older AW15 revision have not been matched to the manufacturer documentation.",
+        "outstanding": [
+          "Independent current Canadian ASIN/selected-variant verification is not recorded."
+        ]
+      },
+      "technical": {
+        "status": "manufacturer-documented-not-physically-tested",
+        "specifications": [
+          {
+            "label": "Documented family",
+            "value": "SW0SC967; older SC967-001-ONE offer not yet matched",
+            "source": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+          },
+          {
+            "label": "Current family material",
+            "value": "100% merino wool, excluding decoration",
+            "source": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+          },
+          {
+            "label": "Current family construction",
+            "value": "Double-layer interlock knit",
+            "source": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+          }
+        ],
+        "confirmed": [
+          {
+            "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+            "sourceIds": [
+              "manufacturer-model"
+            ]
+          }
+        ],
+        "unresolvedClaims": [
+          "Confirm the legacy revision, Black colour, one-size selection and composition; the reported 50 g weight is unverified."
+        ],
+        "sources": [
+          {
+            "id": "manufacturer-model",
+            "title": "Smartwool — current Thermal Merino Balaclava, SW0SC967 family",
+            "url": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967",
+            "kind": "manufacturer"
+          }
+        ]
+      },
+      "safety": {
+        "status": "pending",
+        "mandatoryHold": null,
+        "limitations": [
+          "This balaclava is not waterproof. Extreme wind or blizzard conditions may require additional wind protection. Keep the face opening clear and replace wet layers."
+        ],
+        "outstanding": [
+          "Complete the recorded product-specific safety review.",
+          "B002VGHX1A, Black, SC967-001-ONE / BSC967001 and the older AW15 revision have not been matched to the manufacturer documentation."
+        ]
+      },
+      "editorial": {
+        "reviewStatus": "draft",
+        "publicationApproved": false,
+        "outstanding": [
+          "Canadian listing identity has not been verified.",
+          "Safety review has not been completed.",
+          "Editorial publication approval is pending.",
+          "B002VGHX1A, Black, SC967-001-ONE / BSC967001 and the older AW15 revision have not been matched to the manufacturer documentation."
+        ],
+        "independentlyIndexable": false
+      },
+      "commercial": {
+        "decision": {
+          "decision": "hold",
+          "asin": "B002VGHX1A",
+          "checkedAt": "2026-11-06",
+          "reason": "B002VGHX1A, Black, SC967-001-ONE / BSC967001 and the older AW15 revision have not been matched to the manufacturer documentation.",
+          "sourceIds": [
+            "manufacturer-model"
+          ]
+        },
+        "active": false,
+        "blocker": "B002VGHX1A, Black, SC967-001-ONE / BSC967001 and the older AW15 revision have not been matched to the manufacturer documentation.",
+        "outstanding": [
+          "B002VGHX1A, Black, SC967-001-ONE / BSC967001 and the older AW15 revision have not been matched to the manufacturer documentation."
+        ]
+      },
+      "physicalTesting": "not-tested"
+    },
+    {
+      "id": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "name": "Smartwool Thermal Merino Reversible Cuffed Beanie",
+      "asin": "B0DK9VRQF2",
+      "model": "SW0SW956",
+      "url": "https://www.amazon.ca/dp/B0DK9VRQF2?tag=apocalypsegear-20",
+      "modelDocumented": true,
+      "citedSpecifications": 3,
+      "manufacturerFacts": 1,
+      "listingStatus": "not-independently-verified",
+      "listingLabel": "Listing not independently verified",
+      "evidenceLabel": "Manufacturer sources cited",
+      "profileLabel": "Information only",
+      "editorialLabel": "Editorial verification incomplete",
+      "editorialApproved": false,
+      "fullyApproved": false,
+      "safetyStatus": "pending",
+      "linkActive": false,
+      "linkLabel": "Amazon.ca link on hold",
+      "linkBlocker": "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant.",
+      "identity": {
+        "independentlyVerified": false,
+        "evidence": null,
+        "assessment": "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant.",
+        "outstanding": [
+          "Independent current Canadian ASIN/selected-variant verification is not recorded."
+        ]
+      },
+      "technical": {
+        "status": "manufacturer-documented-not-physically-tested",
+        "specifications": [
+          {
+            "label": "Documented model",
+            "value": "SW0SW956; Black manufacturer option",
+            "source": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+          },
+          {
+            "label": "Material",
+            "value": "100% merino wool, excluding decoration",
+            "source": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+          },
+          {
+            "label": "Construction",
+            "value": "Double-layer interlock knit; reversible; roll cuff",
+            "source": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+          }
+        ],
+        "confirmed": [
+          {
+            "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+            "sourceIds": [
+              "manufacturer-model"
+            ]
+          }
+        ],
+        "unresolvedClaims": [
+          "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant.",
+          "Verify the selected ASIN, SW0SW956 model, dark/Black colour and reversible cuff; the reported 68.04 g weight is unverified."
+        ],
+        "sources": [
+          {
+            "id": "manufacturer-model",
+            "title": "Smartwool — Thermal Merino Reversible Cuffed Beanie, Black, SW0SW956",
+            "url": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521",
+            "kind": "manufacturer"
+          }
+        ]
+      },
+      "safety": {
+        "status": "pending",
+        "mandatoryHold": null,
+        "limitations": [
+          "Add suitable wind and precipitation protection when needed. A beanie alone does not prevent hypothermia or frostbite."
+        ],
+        "outstanding": [
+          "Complete the recorded product-specific safety review.",
+          "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant."
+        ]
+      },
+      "editorial": {
+        "reviewStatus": "draft",
+        "publicationApproved": false,
+        "outstanding": [
+          "Canadian listing identity has not been verified.",
+          "Safety review has not been completed.",
+          "Editorial publication approval is pending.",
+          "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant."
+        ],
+        "independentlyIndexable": false
+      },
+      "commercial": {
+        "decision": {
+          "decision": "hold",
+          "asin": "B0DK9VRQF2",
+          "checkedAt": "2026-11-06",
+          "reason": "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant.",
+          "sourceIds": [
+            "manufacturer-model"
+          ]
+        },
+        "active": false,
+        "blocker": "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant.",
+        "outstanding": [
+          "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant."
+        ]
+      },
+      "physicalTesting": "not-tested"
+    },
+    {
+      "id": "therm-a-rest-neoair-xtherm-nxt-review",
+      "name": "Therm-a-Rest NeoAir XTherm NXT insulated sleeping pad",
+      "asin": "B0CS54SN91",
+      "model": "14016",
+      "url": "https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20",
+      "modelDocumented": true,
+      "citedSpecifications": 9,
+      "manufacturerFacts": 1,
+      "listingStatus": "not-independently-verified",
+      "listingLabel": "Listing not independently verified",
+      "evidenceLabel": "Manufacturer sources cited",
+      "profileLabel": "Information only",
+      "editorialLabel": "Editorial verification incomplete",
+      "editorialApproved": false,
+      "fullyApproved": false,
+      "safetyStatus": "pending",
+      "linkActive": false,
+      "linkLabel": "Amazon.ca link on hold",
+      "linkBlocker": "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions.",
+      "identity": {
+        "independentlyVerified": false,
+        "evidence": null,
+        "assessment": "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions.",
+        "outstanding": [
+          "Independent current Canadian ASIN/selected-variant verification is not recorded."
+        ]
+      },
+      "technical": {
+        "status": "manufacturer-documented-not-physically-tested",
+        "specifications": [
+          {
+            "label": "Model family",
+            "value": "NeoAir XTherm NXT; distinct from the rectangular MAX",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Insulation R-value",
+            "value": "7.3, manufacturer specification across listed sizes; not an air-temperature survival rating",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Thickness",
+            "value": "3 in / 7.6 cm",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Fabric",
+            "value": "30D ripstop HT nylon top; 70D nylon bottom",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Valve",
+            "value": "WingLock",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Manufacturer model and variant",
+            "value": "14016; Regular Wide / Neptune",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Regular Wide dimensions",
+            "value": "183 × 64 × 7.6 cm (72 × 25 × 3 in)",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Regular Wide pad weight",
+            "value": "540 g; Regular is 440 g and is a different size",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          },
+          {
+            "label": "Included accessories",
+            "value": "Pump sack, stuff sack and field repair kit",
+            "source": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+          }
+        ],
+        "confirmed": [
+          {
+            "text": "The manufacturer documents a 7.3 R-value and three size choices for this model family.",
+            "sourceIds": [
+              "thermarest-model"
+            ]
+          }
+        ],
+        "unresolvedClaims": [
+          "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions.",
+          "The supplied 653 kg capacity field lacks manufacturer support and is not a documented specification.",
+          "Current seller, accessories, authenticity, availability and price."
+        ],
+        "sources": [
+          {
+            "id": "thermarest-model",
+            "title": "Therm-a-Rest NeoAir XTherm NXT — model and size specifications; official photos available on this page",
+            "url": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad",
+            "kind": "manufacturer"
+          }
+        ]
+      },
+      "safety": {
+        "status": "pending",
+        "mandatoryHold": null,
+        "limitations": [
+          "Ground insulation is one part of a sleep system, not protection against every cold-weather hazard.",
+          "Inspect for leaks and carry an appropriate repair and backup plan.",
+          "No hands-on or temperature-performance testing has been conducted by ApocalypseGearLab.",
+          "The brief reports an Amazon −20 °C safety statement. Its exact wording and scope could not be inspected. Treat it as an unresolved warning; do not infer that R 7.3 authorizes use below it."
+        ],
+        "outstanding": [
+          "Complete the recorded product-specific safety review.",
+          "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions.",
+          "Complete editorial and safety review."
+        ]
+      },
+      "editorial": {
+        "reviewStatus": "draft",
+        "publicationApproved": false,
+        "outstanding": [
+          "Canadian listing identity has not been verified.",
+          "Safety review has not been completed.",
+          "Editorial publication approval is pending.",
+          "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions.",
+          "Complete editorial and safety review."
+        ],
+        "independentlyIndexable": false
+      },
+      "commercial": {
+        "decision": {
+          "decision": "hold",
+          "asin": "B0CS54SN91",
+          "checkedAt": "2026-11-06",
+          "reason": "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions.",
+          "sourceIds": [
+            "thermarest-model"
+          ]
+        },
+        "active": false,
+        "blocker": "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions.",
+        "outstanding": [
+          "Replacement ASIN B0CS54SN91 is unverified. Confirm model 14016, Regular Wide / Neptune and resolve the reported Amazon −20 °C safety statement against the actual listing and manufacturer instructions."
+        ]
+      },
+      "physicalTesting": "not-tested"
+    }
+  ],
+  "xthermAsinChange": {
+    "previousHeld": "B0CS4P19QQ",
+    "ownerRequestedCandidate": "B0CS54SN91",
+    "targetListingVerified": false
+  },
+  "amazonEvidence": {
+    "webReader": "All nine original/alternative pages inaccessible",
+    "ordinaryHttp": "Five requested pages and two alternatives returned access challenges. B0DK9VRQF2 returned selected Mink Heather / One Size and parent B07WNF5FXC; see amazon-http.json.",
+    "brokenLinkConclusion": "Not established by access restrictions",
+    "targetVariantsVerified": 0
+  }
+}

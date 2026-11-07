@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-06",
+  "method": "One unauthenticated ordinary HTTP GET per candidate; no challenge bypass, cookies or purchase action",
+  "attempts": [
+    {
+      "asin": "B0B67C7N9M",
+      "url": "https://www.amazon.ca/dp/B0B67C7N9M",
+      "status": 200,
+      "accessChallenge": true,
+      "error": null
+    },
+    {
+      "asin": "B00F1F08TM",
+      "url": "https://www.amazon.ca/dp/B00F1F08TM",
+      "status": 200,
+      "accessChallenge": true,
+      "error": null
+    },
+    {
+      "asin": "B012Y896ZA",
+      "url": "https://www.amazon.ca/dp/B012Y896ZA",
+      "status": 200,
+      "accessChallenge": true,
+      "error": null
+    },
+    {
+      "asin": "B002VGHX1A",
+      "url": "https://www.amazon.ca/dp/B002VGHX1A",
+      "status": 200,
+      "accessChallenge": true,
+      "error": null
+    },
+    {
+      "asin": "B0DK9VRQF2",
+      "url": "https://www.amazon.ca/dp/B0DK9VRQF2",
+      "status": 200,
+      "accessChallenge": false,
+      "error": null
+    },
+    {
+      "asin": "B0CS54SN91",
+      "url": "https://www.amazon.ca/dp/B0CS54SN91",
+      "status": 200,
+      "accessChallenge": true,
+      "error": null
+    },
+    {
+      "asin": "B0B67CFPG7",
+      "url": "https://www.amazon.ca/dp/B0B67CFPG7",
+      "status": 200,
+      "accessChallenge": true,
+      "error": null
+    },
+    {
+      "asin": "B013YNSJHA",
+      "url": "https://www.amazon.ca/dp/B013YNSJHA",
+      "status": 200,
+      "accessChallenge": true,
+      "error": null
+    }
+  ],
+  "beanie": {
+    "url": "https://www.amazon.ca/dp/B0DK9VRQF2",
+    "status": 200,
+    "responseSha256": "2fc0ca0079044fabf0a6e0d6a353fa2eb90a85b9dd94bc78773477e7b101a11b",
+    "selectedAsin": "B0DK9VRQF2",
+    "canonicalParent": "https://www.amazon.ca/SmartWool-Unisex-Adult-Thermal-Reversible-BeanieBeanie/dp/B07WNF5FXC",
+    "parentAsin": "B07WNF5FXC",
+    "selectedDimensions": {
+      "size_name": [
+        {
+          "asin": "B0DK9VRQF2",
+          "value": "One Size"
+        }
+      ],
+      "color_name": [
+        {
+          "asin": "B0DK9VRQF2",
+          "value": "Mink Heather"
+        }
+      ]
+    },
+    "assessment": "Current selected colour is Mink Heather, not the intended dark/Black. Canonical parent identity cannot establish a selected Black child. Product/model verification and activation remain held."
+  }
+}

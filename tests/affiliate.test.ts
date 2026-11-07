@@ -99,14 +99,14 @@ test('all non-held profiles can activate independently after documented checks w
     const asin = candidate.data.links.amazonCa.asin!;
     // Simulation only. None of these approvals or evidence records are saved to product data.
     candidate.data.research = { ...candidate.data.research!, listingVerified: true, safetyStatus: 'cleared', publicationApproved: true, publicationBlockers: [],
-      affiliateReview: undefined,
+      affiliateReview: undefined, purchaseDestination: undefined,
       listingEvidence: { url: 'https://www.amazon.ca/dp/' + asin, checkedAt: '2026-10-26', method: 'owner-document', matchedAsin: asin, matchedModel: candidate.data.modelNumber ?? candidate.data.name, notes: 'SYNTHETIC unit-test evidence, not a real listing verification.' } };
     const link = getMerchantLinks(candidate, true)[0]!;
     if (mandatoryHold(candidate)) { assert.equal(link.href, null); retainedHolds++; }
     else { assert.equal(link.href, `https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`); activated++; }
     assert.equal(candidate.data.reviewStatus, 'draft');
   }
-  assert.equal(activated, 44);
+  assert.equal(activated, 49);
   assert.equal(retainedHolds, 3);
 });
 
@@ -134,7 +134,7 @@ test('reviewed recorded links can activate without claiming live listing verific
     else { assert.equal(link.href, null); assert.ok(link.unavailableReason); held++; }
     assert.equal(getMerchantLinks(p, false)[0]?.href, null, 'The account linking switch still applies');
   }
-  assert.equal(active, 41); assert.equal(held, 6);
+  assert.equal(active, 47); assert.equal(held, 5);
 });
 
 test('recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold', () => {
@@ -195,9 +195,9 @@ test('catalogue audit detects accidental duplicate targets and undocumented bloc
 test('complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission',()=>{
   const products=readdirSync('src/data/products').filter(file=>file.endsWith('.json')).map(file=>({id:file.replace('.json',''),data:productSchema.parse(JSON.parse(readFileSync('src/data/products/'+file,'utf8')))} as Product));
   const audit=auditCanadianCatalogue(products);
-  assert.equal(audit.products,47);assert.equal(audit.invalidUrls,0);
+  assert.equal(audit.products,52);assert.equal(audit.invalidUrls,0);
   assert.equal(audit.duplicateAsins,0);assert.equal(audit.duplicateUrls,0);
-  assert.equal(audit.active,41);assert.equal(audit.blocked,6);assert.equal(audit.undocumentedBlocks,0);
+  assert.equal(audit.active,47);assert.equal(audit.blocked,5);assert.equal(audit.undocumentedBlocks,0);
   assert.equal(audit.offersVerified,0,'Recorded-link permission does not invent an independently verified offer');
   for(const row of audit.rows)assert.equal(row.buttonActive,ACTIVE_PRODUCTS.includes(row.slug),row.slug);
 });

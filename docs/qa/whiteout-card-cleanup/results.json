@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-07",
+  "branch": "feat/whiteout-phase2",
+  "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "build": {
+    "pages": 122,
+    "english": 61,
+    "french": 61
+  },
+  "types": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 131,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 24,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "projects": [
+      "chromium",
+      "webkit"
+    ],
+    "widths": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "physicalIPhone": false,
+    "fullUnrelatedSuiteRerun": false
+  },
+  "audits": {
+    "site": true,
+    "bilingualSEO": true,
+    "images": true,
+    "affiliate": true,
+    "verification": true,
+    "releaseSafety": true,
+    "conversion": true,
+    "outputPreservation": true,
+    "gitDiffCheck": true
+  },
+  "affiliate": {
+    "active": 47,
+    "held": 5,
+    "invalidUrls": 0,
+    "duplicateUrls": 0,
+    "duplicateAsins": 0,
+    "undocumentedBlocks": 0,
+    "liveOfferVerification": false
+  },
+  "whiteout": [
+    {
+      "id": "outdoor-research-alti-ii-gore-tex-mitts",
+      "button": "active",
+      "url": "https://www.amazon.ca/dp/B0B67C7N9M?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document"
+    },
+    {
+      "id": "hestra-army-leather-heli-ski-gloves",
+      "button": "active",
+      "url": "https://www.amazon.ca/dp/B00F1F08TM?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document"
+    },
+    {
+      "id": "oakley-flight-deck-m-goggles",
+      "button": "active",
+      "url": "https://www.amazon.ca/dp/B012Y896ZA?tag=apocalypsegear-20",
+      "scope": "exact-variant",
+      "method": "owner-document"
+    },
+    {
+      "id": "smartwool-nts-250-balaclava",
+      "button": "active",
+      "url": "https://www.amazon.ca/dp/B002VGHX1A?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document"
+    },
+    {
+      "id": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "button": "active",
+      "url": "https://www.amazon.ca/dp/B0DK9VRQF2?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document"
+    },
+    {
+      "id": "therm-a-rest-neoair-xtherm-nxt-review",
+      "button": "active",
+      "url": "https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document"
+    }
+  ],
+  "screenshots": {
+    "count": 44,
+    "beforeWidths": [
+      375,
+      1440
+    ],
+    "afterWidths": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "reference": "FNIRSI GC-01"
+  },
+  "preservation": {
+    "branch": "feat/whiteout-phase2",
+    "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+    "allProductRecordsUnchanged": 53,
+    "allOriginalFrenchEntriesUnchanged": true,
+    "initialFilesChecked": 1301,
+    "existingFilesChanged": [
+      "scripts/whiteout-phase2-preservation.mjs",
+      "src/components/ProductCard.astro",
+      "src/components/ProductImage.astro",
+      "src/i18n/fr-whiteout.json",
+      "tests/browser/xtherm-temperature-warning.spec.ts"
+    ],
+    "unrelatedHeroUnchanged": true,
+    "staged": false,
+    "committed": false,
+    "pushed": false,
+    "merged": false,
+    "deployed": false
+  },
+  "remaining": [
+    "Existing independent offer verification and editorial/safety publication limits remain unchanged.",
+    "XTherm manufacturer temperature clarification remains pending; do not use below −20 °C warning retained."
+  ],
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false
+}

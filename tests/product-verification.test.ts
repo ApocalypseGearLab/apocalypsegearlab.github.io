@@ -41,12 +41,12 @@ test('account and status changes preserve all products, release/SEO/tracking rul
  }
 });
 
-test('all 47 products have independently assessed dimensions; the account declaration grants no product publication or new links',()=>{
+test('all 52 products have independently assessed dimensions; the account declaration grants no product publication or new links',()=>{
  const statuses=products.map(productVerification);
- assert.equal(statuses.length,47);assert.equal(statuses.filter(s=>s.modelDocumented).length,46);
+ assert.equal(statuses.length,52);assert.equal(statuses.filter(s=>s.modelDocumented).length,51);
  assert.equal(statuses.filter(s=>s.listingStatus==='owner-documented').length,23);
  assert.equal(statuses.filter(s=>s.listingStatus==='independently-verified').length,0);
- assert.equal(statuses.filter(s=>s.linkActive).length,41);assert.equal(statuses.filter(s=>s.safetyStatus==='cleared').length,4);
+ assert.equal(statuses.filter(s=>s.linkActive).length,47);assert.equal(statuses.filter(s=>s.safetyStatus==='cleared').length,4);
  assert.equal(statuses.filter(s=>s.safetyStatus==='blocked').length,2);assert.equal(statuses.filter(s=>s.editorialApproved).length,4);assert.equal(statuses.filter(s=>s.fullyApproved).length,0);
  for(const product of products){
   assert.equal(isCommerciallyApproved(product),false);assert.ok(publicationIssues(product).length);
@@ -58,7 +58,7 @@ test('all 47 products have independently assessed dimensions; the account declar
   if(row.linkActive){assert.deepEqual(row.commercial.outstanding,[]);assert.equal(row.commercial.blocker,null);}
   else{assert.ok(row.commercial.outstanding.length);assert.ok(row.commercial.blocker);}
  }
- assert.deepEqual(products.filter(p=>!productVerification(p).linkActive).map(p=>p.id).sort(),['ecoflow-river-2-pro','iniu-p62-20000mah-65w','jackery-explorer-300','kidde-c3010-co-alarm','nanuk-904-first-aid-kit','therm-a-rest-neoair-xtherm-nxt-review'].sort());
+ assert.deepEqual(products.filter(p=>!productVerification(p).linkActive).map(p=>p.id).sort(),['ecoflow-river-2-pro','iniu-p62-20000mah-65w','jackery-explorer-300','kidde-c3010-co-alarm','nanuk-904-first-aid-kit'].sort());
 });
 
 test('missing, mismatched or partial evidence cannot acquire a complete-documentation or independent-listing label',()=>{

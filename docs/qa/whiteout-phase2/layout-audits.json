@@ -1,0 +1,375 @@
+{
+  "scope": "Fresh local browser measurements; no field Core Web Vitals or physical iPhone claim",
+  "results": [
+    {
+      "sourceTestArtifact": "docs/qa/branding/responsive-320.json",
+      "result": {
+        "width": 320,
+        "routes": [
+          "/",
+          "/gear/",
+          "/blackout/",
+          "/fallout/",
+          "/outbreak/",
+          "/how-we-research/",
+          "/gear/ecoflow-river-2-pro/",
+          "/404.html"
+        ],
+        "logoCSSPixels": 38,
+        "headerHeight": 104.59375,
+        "cls": 0,
+        "axeViolations": 0,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/branding/responsive-375.json",
+      "result": {
+        "width": 375,
+        "routes": [
+          "/",
+          "/gear/",
+          "/blackout/",
+          "/fallout/",
+          "/outbreak/",
+          "/how-we-research/",
+          "/gear/ecoflow-river-2-pro/",
+          "/404.html"
+        ],
+        "logoCSSPixels": 38,
+        "headerHeight": 104.59375,
+        "cls": 0,
+        "axeViolations": 0,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/phase6/filter-performance.json",
+      "result": {
+        "meanSynchronousFilterMs": 0.3,
+        "note": "Local DOM processing measurement, not field INP"
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/phase6-1/navigation.json",
+      "result": {
+        "categories": [
+          {
+            "id": "power-stations",
+            "label": "Emergency power stations",
+            "universe": "blackout",
+            "count": 5,
+            "href": "/gear/#category-power-stations"
+          },
+          {
+            "id": "solar",
+            "label": "Solar generators and panels",
+            "universe": "blackout",
+            "count": 1,
+            "href": "/gear/#category-solar"
+          },
+          {
+            "id": "battery-banks",
+            "label": "Portable battery banks",
+            "universe": "blackout",
+            "count": 1,
+            "href": "/gear/#category-battery-banks"
+          },
+          {
+            "id": "lighting",
+            "label": "Emergency lighting",
+            "universe": "blackout",
+            "count": 3,
+            "href": "/gear/#category-lighting"
+          },
+          {
+            "id": "weather-radios",
+            "label": "Weather radios",
+            "universe": "blackout",
+            "count": 1,
+            "href": "/gear/#category-weather-radios"
+          },
+          {
+            "id": "backup-comms",
+            "label": "Backup communication",
+            "universe": "blackout",
+            "count": 1,
+            "href": "/gear/#category-backup-comms"
+          },
+          {
+            "id": "home-outage-planning",
+            "label": "Home power outage preparedness",
+            "universe": "blackout",
+            "count": 1,
+            "href": "/gear/#category-home-outage-planning"
+          },
+          {
+            "id": "portable-refrigeration",
+            "label": "Portable refrigeration & freezers",
+            "universe": "blackout",
+            "count": 2,
+            "href": "/gear/#category-portable-refrigeration"
+          },
+          {
+            "id": "temperature-monitoring",
+            "label": "Temperature monitoring & food preservation",
+            "universe": "blackout",
+            "count": 1,
+            "href": "/gear/#category-temperature-monitoring"
+          },
+          {
+            "id": "rechargeable-batteries",
+            "label": "Rechargeable batteries & charging accessories",
+            "universe": "blackout",
+            "count": 2,
+            "href": "/gear/#category-rechargeable-batteries"
+          },
+          {
+            "id": "water",
+            "label": "Water storage and purification",
+            "universe": "fallout",
+            "count": 2,
+            "href": "/gear/#category-water"
+          },
+          {
+            "id": "food-storage",
+            "label": "Emergency food storage",
+            "universe": "fallout",
+            "count": 1,
+            "href": "/gear/#category-food-storage"
+          },
+          {
+            "id": "food-rations",
+            "label": "Emergency food rations",
+            "universe": "fallout",
+            "count": 2,
+            "href": "/gear/#category-food-rations"
+          },
+          {
+            "id": "radiation-detection",
+            "label": "Radiation detection",
+            "universe": "fallout",
+            "count": 2,
+            "href": "/gear/#category-radiation-detection"
+          },
+          {
+            "id": "tools",
+            "label": "Emergency repair tools",
+            "universe": "fallout",
+            "count": 1,
+            "href": "/gear/#category-tools"
+          },
+          {
+            "id": "first-aid",
+            "label": "First aid supplies",
+            "universe": "fallout",
+            "count": 1,
+            "href": "/gear/#category-first-aid"
+          },
+          {
+            "id": "shelter",
+            "label": "Emergency shelter",
+            "universe": "fallout",
+            "count": 1,
+            "href": "/gear/#category-shelter"
+          },
+          {
+            "id": "hygiene-sanitation",
+            "label": "Emergency hygiene & sanitation",
+            "universe": "fallout",
+            "count": 1,
+            "href": "/gear/#category-hygiene-sanitation"
+          },
+          {
+            "id": "metal-detection",
+            "label": "Exploration & metal detection",
+            "universe": "fallout",
+            "count": 1,
+            "href": "/gear/#category-metal-detection"
+          },
+          {
+            "id": "tactical-backpacks",
+            "label": "Evacuation backpacks",
+            "universe": "outbreak",
+            "count": 1,
+            "href": "/gear/#category-tactical-backpacks"
+          },
+          {
+            "id": "respiratory-protection",
+            "label": "Respiratory protection",
+            "universe": "outbreak",
+            "count": 6,
+            "href": "/gear/#category-respiratory-protection"
+          },
+          {
+            "id": "protective-eyewear",
+            "label": "Protective eyewear",
+            "universe": "outbreak",
+            "count": 1,
+            "href": "/gear/#category-protective-eyewear"
+          },
+          {
+            "id": "work-gloves",
+            "label": "Protective work gloves",
+            "universe": "outbreak",
+            "count": 1,
+            "href": "/gear/#category-work-gloves"
+          },
+          {
+            "id": "hiking-footwear",
+            "label": "Hiking footwear",
+            "universe": "outbreak",
+            "count": 1,
+            "href": "/gear/#category-hiking-footwear"
+          },
+          {
+            "id": "rainwear",
+            "label": "Rain shells",
+            "universe": "outbreak",
+            "count": 1,
+            "href": "/gear/#category-rainwear"
+          },
+          {
+            "id": "satellite-navigation",
+            "label": "Satellite navigation and communication",
+            "universe": "outbreak",
+            "count": 1,
+            "href": "/gear/#category-satellite-navigation"
+          },
+          {
+            "id": "fixed-blade-knives",
+            "label": "Outdoor & survival knives",
+            "universe": "outbreak",
+            "count": 3,
+            "href": "/gear/#category-fixed-blade-knives"
+          },
+          {
+            "id": "optics-observation",
+            "label": "Optics & observation",
+            "universe": "outbreak",
+            "count": 1,
+            "href": "/gear/#category-optics-observation"
+          },
+          {
+            "id": "winter-sleep-systems",
+            "label": "Winter sleeping pads & insulation",
+            "universe": "whiteout",
+            "count": 1,
+            "href": "/gear/#category-winter-sleep-systems"
+          },
+          {
+            "id": "winter-gloves-mitts",
+            "label": "Winter gloves & mitts",
+            "universe": "whiteout",
+            "count": 2,
+            "href": "/gear/#category-winter-gloves-mitts"
+          },
+          {
+            "id": "winter-headwear",
+            "label": "Winter headwear & face layers",
+            "universe": "whiteout",
+            "count": 2,
+            "href": "/gear/#category-winter-headwear"
+          },
+          {
+            "id": "snow-goggles",
+            "label": "Snow goggles & lens selection",
+            "universe": "whiteout",
+            "count": 1,
+            "href": "/gear/#category-snow-goggles"
+          }
+        ],
+        "widths": [
+          320,
+          375,
+          768,
+          1024,
+          1440,
+          1920
+        ],
+        "screenshotDirectory": "docs/qa/phase6-1/screenshots",
+        "note": "Source-derived categories; all initial hash filters and no-JS HTML targets validated by the browser suite."
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/blackout-375.json",
+      "result": {
+        "route": "/blackout/",
+        "width": 375,
+        "currentSrc": "/images/universes/blackout-survival-hero-768.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/blackout-1440.json",
+      "result": {
+        "route": "/blackout/",
+        "width": 1440,
+        "currentSrc": "/images/universes/blackout-survival-hero-1600.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/fallout-375.json",
+      "result": {
+        "route": "/fallout/",
+        "width": 375,
+        "currentSrc": "/images/universes/fallout-survival-hero-768.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/fallout-1440.json",
+      "result": {
+        "route": "/fallout/",
+        "width": 1440,
+        "currentSrc": "/images/universes/fallout-survival-hero-1600.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/outbreak-375.json",
+      "result": {
+        "route": "/outbreak/",
+        "width": 375,
+        "currentSrc": "/images/universes/outbreak-survival-hero-768.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/outbreak-1440.json",
+      "result": {
+        "route": "/outbreak/",
+        "width": 1440,
+        "currentSrc": "/images/universes/outbreak-survival-hero-1600.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/whiteout-375.json",
+      "result": {
+        "route": "/whiteout/",
+        "width": 375,
+        "currentSrc": "/images/universes/whiteout-survival-hero-768.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    },
+    {
+      "sourceTestArtifact": "docs/qa/four-universes/whiteout-1440.json",
+      "result": {
+        "route": "/whiteout/",
+        "width": 1440,
+        "currentSrc": "/images/universes/whiteout-survival-hero-1600.webp",
+        "cls": 0,
+        "axeViolations": 0
+      }
+    }
+  ]
+}

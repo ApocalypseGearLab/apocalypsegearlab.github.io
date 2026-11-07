@@ -14,10 +14,12 @@ for(const id of ['blackout','fallout','outbreak','whiteout'])for(const width of 
  writeFileSync(`docs/qa/four-universes/${id}-${width}.json`,JSON.stringify({route:`/${id}/`,width,currentSrc:await hero.evaluate((el:HTMLImageElement)=>new URL(el.currentSrc).pathname),cls:await page.evaluate(()=>(window as any).sceneCLS),axeViolations:0},null,2)+'\n');
  await page.screenshot({path:`docs/qa/four-universes/screenshots/${id}-${width}.png`});
 });
-test('WHITEOUT category filters and held product are usable without exposing an unverified retailer link',async({page})=>{
+test('WHITEOUT category filters and documented product page retain the temperature restriction',async({page})=>{
  await page.goto('/gear/#category-winter-sleep-systems');await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(1);
  await page.locator('[data-catalogue-entry]:visible h3 a').click();await expect(page).toHaveURL(/therm-a-rest-neoair-xtherm-nxt-review/);
- await expect(page.locator('a[href*="B0CS4P19QQ"]')).toHaveCount(0);await expect(page.locator('[data-product-purchase] [aria-disabled=true]')).toHaveCount(1);
+ await expect(page.locator('a[href*="B0CS4P19QQ"]')).toHaveCount(0);await expect(page.locator('[data-product-purchase] [aria-disabled=true]')).toHaveCount(0);
+ await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveAttribute('href','https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20');
+ await expect(page.locator('[data-product-purchase] [data-purchase-destination=product-page]')).toContainText('Do not use below −20 °C');
  for(const width of [320,375,768,1024,1440,1920]){await page.setViewportSize({width,height:900});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
  for(const width of [375,1440]){

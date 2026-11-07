@@ -1,0 +1,12 @@
+{
+  "src/components/ProductCard.astro": [
+    {
+      "before": "const { data } = product;\nconst review = productVerification(product);\nconst amazonLink = getMerchantLinks(product).find(link => link.key === 'amazon-ca');\nconst universe = UNIVERSES[categoryUniverse(data.category)];\n",
+      "after": "const { data } = product;\nconst review = productVerification(product);\n// Suppress these two repetitive card labels only; evidence and review states\n// remain available on the detailed profile and in the verification records.\nconst showProfileLabel = `${review.profileLabel} · ${review.editorialApproved ? review.editorialLabel : review.evidenceLabel}` !== 'Information only · Manufacturer sources cited';\nconst showListingLabel = review.listingStatus !== 'not-independently-verified';\nconst amazonLink = getMerchantLinks(product).find(link => link.key === 'amazon-ca');\nconst universe = UNIVERSES[categoryUniverse(data.category)];\n"
+    },
+    {
+      "before": "  <Heading><a href={profileHref}>{data.name}</a></Heading>\n  <p>{compactCopy?.summary ?? data.summary}</p>\n  {!compactCopy && <div class=\"card-review\" data-product-review>\n    <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}><span class:list={['badge', { 'badge--warn': !review.fullyApproved }]}>{review.profileLabel} · {review.editorialApproved ? review.editorialLabel : review.evidenceLabel}</span></p>\n    <p data-listing-status={review.listingStatus}>{review.listingLabel}</p>\n  </div>}\n  {compactCopy?.caution && <p class=\"card-caution\" data-card-caution>{compactCopy.caution}</p>}\n",
+      "after": "  <Heading><a href={profileHref}>{data.name}</a></Heading>\n  <p>{compactCopy?.summary ?? data.summary}</p>\n  {!compactCopy && (showProfileLabel || showListingLabel) && <div class=\"card-review\" data-product-review>\n    {showProfileLabel && <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}><span class:list={['badge', { 'badge--warn': !review.fullyApproved }]}>{review.profileLabel} · {review.editorialApproved ? review.editorialLabel : review.evidenceLabel}</span></p>}\n    {showListingLabel && <p data-listing-status={review.listingStatus}>{review.listingLabel}</p>}\n  </div>}\n  {compactCopy?.caution && <p class=\"card-caution\" data-card-caution>{compactCopy.caution}</p>}\n"
+    }
+  ]
+}

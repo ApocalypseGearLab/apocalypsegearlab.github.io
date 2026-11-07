@@ -1,0 +1,79 @@
+{
+  "html": "<a class=\"brand\" href=\"/fr/\" aria-label=\"Accueil ApocalypseGearLab\" data-astro-cid-nen7h5rs=\"\"> <img class=\"brand__emblem\" src=\"/brand/brand-logo-128.webp\" srcset=\"/brand/brand-logo-64.webp 64w, /brand/brand-logo-128.webp 128w, /brand/brand-logo-256.webp 256w\" sizes=\"(max-width: 1023px) 38px, 48px\" width=\"128\" height=\"128\" alt=\"\" aria-hidden=\"true\" loading=\"eager\" decoding=\"async\" data-astro-cid-nen7h5rs=\"\"> <span data-astro-cid-nen7h5rs=\"\">ApocalypseGearLab</span> </a>",
+  "rect": {
+    "x": 144,
+    "y": 6,
+    "width": 259.3125,
+    "height": 48,
+    "top": 6,
+    "right": 403.3125,
+    "bottom": 54,
+    "left": 144
+  },
+  "styles": {
+    "display": "flex",
+    "visibility": "visible",
+    "opacity": "1",
+    "color": "rgb(227, 164, 43)",
+    "transform": "none",
+    "clipPath": "none",
+    "position": "static"
+  },
+  "ancestors": [
+    {
+      "class": "identity-row",
+      "rect": {
+        "x": 144,
+        "y": 0,
+        "width": 1152,
+        "height": 60,
+        "top": 0,
+        "right": 1296,
+        "bottom": 60,
+        "left": 144
+      },
+      "overflow": "visible"
+    },
+    {
+      "class": "container site-header__inner",
+      "rect": {
+        "x": 144,
+        "y": 0,
+        "width": 1152,
+        "height": 113,
+        "top": 0,
+        "right": 1296,
+        "bottom": 113,
+        "left": 144
+      },
+      "overflow": "visible"
+    },
+    {
+      "class": "site-header",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 114,
+        "top": 0,
+        "right": 1440,
+        "bottom": 114,
+        "left": 0
+      },
+      "overflow": "visible"
+    }
+  ],
+  "hit": [
+    "SPAN.",
+    "A.brand",
+    "DIV.identity-row",
+    "DIV.container site-header__inner",
+    "HEADER.site-header",
+    "P.",
+    "DIV.verification-summary",
+    "ARTICLE.container section stack",
+    "MAIN.",
+    "BODY.",
+    "HTML.js"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "branch": "feat/whiteout-phase2",
+  "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "allProductRecordsUnchanged": 53,
+  "allOriginalFrenchEntriesUnchanged": true,
+  "initialFilesChecked": 1301,
+  "existingFilesChanged": [
+    "scripts/whiteout-phase2-preservation.mjs",
+    "src/components/ProductCard.astro",
+    "src/components/ProductImage.astro",
+    "src/i18n/fr-whiteout.json",
+    "tests/browser/xtherm-temperature-warning.spec.ts"
+  ],
+  "unrelatedHeroUnchanged": true,
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false
+}

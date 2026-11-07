@@ -7,7 +7,7 @@ const products = readdirSync('src/data/products').filter(file => file.endsWith('
 const permittedUrls = new Set(products.map(p => getMerchantLinks(p)[0]?.href).filter(Boolean));
 
 test('recorded product buttons work on catalogues and profiles in isolated new tabs without Amazon traffic', async ({page, context}) => {
-  // 123 isolated new tabs and 46 profiles are checked sequentially; this is
+  // 141 isolated new tabs and 52 profiles are checked sequentially; this is
   // functional QA, not a 30-second performance budget for the entire catalogue.
   test.setTimeout(90_000);
   const intercepted: string[] = [];
@@ -34,7 +34,7 @@ test('recorded product buttons work on catalogues and profiles in isolated new t
     expect(await popup.evaluate(() => window.opener === null)).toBe(true);
     await popup.close();
   };
-  for (const path of ['/gear/', '/blackout/', '/fallout/', '/outbreak/']) {
+  for (const path of ['/gear/', '/blackout/', '/fallout/', '/outbreak/', '/whiteout/']) {
     await page.goto(path);
     for (const button of await page.locator('a[data-affiliate-click]').all()) await checkNewTab(button);
   }
@@ -53,6 +53,6 @@ test('recorded product buttons work on catalogues and profiles in isolated new t
       await expect(card.locator('a[data-affiliate-click]')).toHaveCount(getMerchantLinks(related)[0]?.href ? 1 : 0);
     }
   }
-  expect(intercepted).toHaveLength(123); // 41 catalogue + 41 sector + 41 individual buttons
+  expect(intercepted).toHaveLength(141); // 47 catalogue + 47 across all four sectors + 47 individual buttons
   expect(new Set(intercepted)).toEqual(permittedUrls);
 });

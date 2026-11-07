@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-06",
+  "branch": "feat/whiteout-phase2",
+  "base": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "newProducts": 5,
+  "updatedExistingProduct": "therm-a-rest-neoair-xtherm-nxt-review",
+  "buildPages": 122,
+  "unitPassed": 127,
+  "typeErrors": 0,
+  "typeWarnings": 0,
+  "typeHints": 0,
+  "checks": [
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:site",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:images",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run release:check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit:verification",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:conversion",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:bougerv",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:phase55",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:products",
+      "exitCode": 0
+    }
+  ],
+  "chromium": {
+    "startTime": "2026-11-07T00:14:57.697Z",
+    "duration": 509965.672,
+    "expected": 212,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "webkit": {
+    "startTime": "2026-11-07T00:23:29.088Z",
+    "duration": 85607.37999999999,
+    "expected": 63,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "bilingual": {
+    "englishPages": 61,
+    "frenchPages": 61,
+    "totalPages": 122,
+    "translatedPhrases": 2631,
+    "checkedTextNodes": 13426,
+    "frenchAffiliateControls": 245,
+    "frenchSourceReferences": 136,
+    "indexableUrls": 16,
+    "protectedFiles": 61
+  },
+  "activeCanadianLinks": 41,
+  "totalHeldCanadianLinks": 11,
+  "whiteoutTargetPurchaseButtonsActive": 0,
+  "existingRecordsPreserved": true,
+  "existingHeroEditUntouched": true,
+  "screenshots": 64,
+  "visualReview": {
+    "desktop": [
+      768,
+      1440
+    ],
+    "chromiumMobile": [
+      320,
+      375
+    ],
+    "webkitTouch": [
+      320,
+      375,
+      390
+    ],
+    "reviewed": "Product image frames, captions, bilingual specifications, label/value stacking, six-card hub, selected-language navigation and filter preservation; automated overflow/decode/accessibility checks passed.",
+    "physicalIphoneVerified": false,
+    "limitations": [
+      "Playwright WebKit on Windows emulates iPhone input and viewport; physical Safari address bar, virtual keyboard and OS-specific behavior remain a manual check.",
+      "Current matching Canadian variants and the exact XTherm retailer −20 °C warning still need evidence.",
+      "Asset and browser checks do not establish field Core Web Vitals."
+    ]
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "merged": false,
+    "deployed": false
+  }
+}

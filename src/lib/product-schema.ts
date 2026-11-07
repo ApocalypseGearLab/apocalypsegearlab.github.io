@@ -53,6 +53,17 @@ export const productSchema = z.object({
     checkedAt: z.iso.date(),
     identityNotes: z.string().min(1),
     listingVerified: z.boolean().default(false),
+    // Product-page permission is separate from exact-variant verification and
+    // editorial publication. Evidence is supplied by a reviewer, never inferred
+    // from a syntactically valid ASIN or an Amazon access challenge.
+    purchaseDestination: z.object({
+      url: httpsUrl, asin: z.string().regex(/^[A-Z0-9]{10}$/),
+      scope: z.enum(['product-page', 'exact-variant']),
+      matchedProduct: z.string().min(1), matchedModel: z.string().min(1).optional(),
+      method: z.enum(['owner-document', 'live-page']), checkedAt: z.iso.date(),
+      sourceIds: z.array(z.string()).min(1), selectionNote: z.string().min(1),
+      safetyDecision: z.enum(['link-permitted', 'hold']), safetyReason: z.string().min(1),
+    }).optional(),
     // Permission to expose a recorded retailer link is not listing verification.
     affiliateReview: z.object({
       decision: z.enum(['link-permitted', 'hold']),
@@ -81,11 +92,24 @@ export const productSchema = z.object({
     if (fact.sourceIds.some((id) => !ids.has(id))) context.addIssue({ code: 'custom', path: ['research', 'confirmed', index], message: 'Evidence must reference an existing source' });
   }
   const affiliateReview = product.research?.affiliateReview;
+  const destination = product.research?.purchaseDestination;
+  if (destination && (destination.asin !== product.links.amazonCa.asin
+    || destination.url !== `https://www.amazon.ca/dp/${product.links.amazonCa.asin}`
+    || destination.matchedProduct !== product.name
+    || destination.sourceIds.some(id => !ids.has(id))
+    || !destination.sourceIds.some(id => product.sources.some(s => s.id === id && s.kind === 'retailer' && s.url === destination.url))
+    || !destination.sourceIds.some(id => product.sources.some(s => s.id === id && s.kind === 'manufacturer'))
+    || (destination.scope === 'exact-variant' && destination.matchedModel !== (product.modelNumber ?? product.name)))) {
+    context.addIssue({ code: 'custom', path: ['research', 'purchaseDestination'], message: 'Purchase evidence must match the product, Canadian ASIN, declared scope and included retailer/manufacturer sources' });
+  }
   if (affiliateReview && (affiliateReview.asin !== product.links.amazonCa.asin || affiliateReview.sourceIds.some(id => !ids.has(id)))) {
     context.addIssue({ code: 'custom', path: ['research', 'affiliateReview'], message: 'Affiliate review must match the recorded ASIN and included sources' });
   }
   if (affiliateReview?.decision === 'link-permitted' && product.research?.safetyStatus === 'blocked') {
     context.addIssue({ code: 'custom', path: ['research', 'affiliateReview'], message: 'A blocked safety review cannot permit affiliate linking' });
+  }
+  if (destination?.safetyDecision === 'link-permitted' && product.research?.safetyStatus === 'blocked') {
+    context.addIssue({ code: 'custom', path: ['research', 'purchaseDestination'], message: 'Blocked product safety cannot permit a purchase destination' });
   }
   for (const marketplace of ['amazonCa', 'amazonCom'] as const) {
     const link = product.links[marketplace];

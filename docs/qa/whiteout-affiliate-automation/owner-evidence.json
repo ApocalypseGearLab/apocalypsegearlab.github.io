@@ -1,0 +1,80 @@
+{
+  "reviewedAt": "2026-11-06",
+  "provenance": "Six Amazon screenshots supplied directly in the conversation alongside product-specific URLs. Product-only transcription; original screenshots contain delivery/account details and are not copied into the repository.",
+  "liveInspection": false,
+  "products": [
+    {
+      "id": "outdoor-research-alti-ii-gore-tex-mitts",
+      "asin": "B0B67C7N9M",
+      "url": "https://www.amazon.ca/dp/B0B67C7N9M?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document",
+      "screenshotNumber": 1,
+      "observed": "The supplied Amazon page shows Alti II mitts in Black with no size selected. Select a size and confirm model 300009 and the final colour before buying; the Small/Agate reference is a different option.",
+      "limitations": "Screenshots were supplied inline with the corresponding URLs. Their address bars/ASINs are not visible. No live availability, price, seller, authenticity or independent inspection is asserted.",
+      "button": "active",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    },
+    {
+      "id": "hestra-army-leather-heli-ski-gloves",
+      "asin": "B00F1F08TM",
+      "url": "https://www.amazon.ca/dp/B00F1F08TM?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document",
+      "screenshotNumber": 3,
+      "observed": "The supplied page pictures Black/White gloves with no size selected, while its details table says Red / size 5. Choose and verify the final 30570 colour and size on Amazon; this link does not guarantee Black/White size 9.",
+      "limitations": "Screenshots were supplied inline with the corresponding URLs. Their address bars/ASINs are not visible. No live availability, price, seller, authenticity or independent inspection is asserted.",
+      "button": "active",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    },
+    {
+      "id": "oakley-flight-deck-m-goggles",
+      "asin": "B012Y896ZA",
+      "url": "https://www.amazon.ca/dp/B012Y896ZA?tag=apocalypsegear-20",
+      "scope": "exact-variant",
+      "method": "owner-document",
+      "screenshotNumber": 4,
+      "observed": "The owner-supplied page shows Medium, Matte Black and Prizm Snow Sapphire Iridium, consistent with reference OO7064-41. Confirm the current selected offer and lens before buying; no independent live inspection is claimed.",
+      "limitations": "Screenshots were supplied inline with the corresponding URLs. Their address bars/ASINs are not visible. No live availability, price, seller, authenticity or independent inspection is asserted.",
+      "button": "active",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    },
+    {
+      "id": "smartwool-nts-250-balaclava",
+      "asin": "B002VGHX1A",
+      "url": "https://www.amazon.ca/dp/B002VGHX1A?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document",
+      "screenshotNumber": 5,
+      "observed": "The supplied page identifies NTS AW15 250 and lists 100% merino wool, with black headwear pictured. Confirm the exact legacy reference, fit and composition on the selected offer; the current SC967 manufacturer family is a separate reference.",
+      "limitations": "Screenshots were supplied inline with the corresponding URLs. Their address bars/ASINs are not visible. No live availability, price, seller, authenticity or independent inspection is asserted.",
+      "button": "active",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    },
+    {
+      "id": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "asin": "B0DK9VRQF2",
+      "url": "https://www.amazon.ca/dp/B0DK9VRQF2?tag=apocalypsegear-20",
+      "scope": "product-page",
+      "method": "owner-document",
+      "screenshotNumber": 6,
+      "observed": "The linked Amazon option is Mink Heather / One Size, described as Merino Sport 250. It is not a verified Black option. The dark concept illustration is not a colour guarantee; confirm the model revision and any alternative colour on Amazon.",
+      "limitations": "Screenshots were supplied inline with the corresponding URLs. Their address bars/ASINs are not visible. No live availability, price, seller, authenticity or independent inspection is asserted.",
+      "button": "active",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    },
+    {
+      "id": "therm-a-rest-neoair-xtherm-nxt-review",
+      "asin": "B0CS54SN91",
+      "url": "https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20",
+      "scope": "exact-variant",
+      "method": "owner-document",
+      "screenshotNumber": 2,
+      "observed": "The supplied page selects Regular Wide / Neptune with the updated stuff sack. Manufacturer reference 14016 and R 7.3 remain the specification basis. The reported Amazon −20 °C warning is unresolved, so purchasing remains on hold.",
+      "limitations": "Screenshots were supplied inline with the corresponding URLs. Their address bars/ASINs are not visible. No live availability, price, seller, authenticity or independent inspection is asserted.",
+      "button": "held",
+      "safetyReason": "The exact wording and scope of the reported Amazon −20 °C warning remain unresolved. Obtain the warning in context and applicable manufacturer clarification before enabling purchase."
+    }
+  ],
+  "xthermFollowUp": "The subsequent owner-confirmed listing identity and explicit prohibition on use below −20 °C, together with official Therm-a-Rest guidance and the current product-page link decision, are documented in docs/xtherm-temperature-review.md. The screenshot transcriptions and original decisions below remain a historical snapshot."
+}

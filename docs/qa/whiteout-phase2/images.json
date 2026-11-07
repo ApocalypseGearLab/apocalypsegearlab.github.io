@@ -1,0 +1,141 @@
+{
+  "format": "webp",
+  "crop": false,
+  "recolour": false,
+  "upscale": false,
+  "sourceBytes": 13157125,
+  "fullSizeBytes": 1027108,
+  "allVariantBytes": 1887944,
+  "assets": [
+    {
+      "id": "outdoor-research-alti-ii-gore-tex-mitts",
+      "original": "Moufles Outdoor Research dans la glace.png",
+      "sourceBytes": 2731161,
+      "fullSizeReductionPercent": 91.83,
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 38778,
+          "quality": 82,
+          "sha256": "cb0ad3d57f9475bed54ff3cf1480a4db2f2e1b514f039f9375bf0e666a21074c"
+        },
+        {
+          "width": 960,
+          "bytes": 139418,
+          "quality": 82,
+          "sha256": "b82276b5ae44608036b6e120112163dbe35f620b75781778a3309e8c3f033ced"
+        },
+        {
+          "width": 1254,
+          "bytes": 223150,
+          "quality": 82,
+          "sha256": "ec89871666538c56b175f2107117111dc3b2548af91e047ac4619252ea4dc0ee"
+        }
+      ]
+    },
+    {
+      "id": "hestra-army-leather-heli-ski-gloves",
+      "original": "Gants Hestra futuristes sur glace lumineuse.png",
+      "sourceBytes": 2946535,
+      "fullSizeReductionPercent": 92.06,
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 42290,
+          "quality": 82,
+          "sha256": "40690027527fed414d07a78cfce9f519efab1cde12d2a49b1165da7b19bd2c43"
+        },
+        {
+          "width": 960,
+          "bytes": 170652,
+          "quality": 82,
+          "sha256": "65f10bafb9ff85cf9c848dc56b5f79a9a83b59e965b5f1b1d8055a044f78e307"
+        },
+        {
+          "width": 1254,
+          "bytes": 233984,
+          "quality": 78,
+          "sha256": "99481c1af174c6442a898286a556e2fcdeed5285650047df40927c82fc6e8756"
+        }
+      ]
+    },
+    {
+      "id": "oakley-flight-deck-m-goggles",
+      "original": "Masque de ski Oakley futuriste.png",
+      "sourceBytes": 2280051,
+      "fullSizeReductionPercent": 92.79,
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 31032,
+          "quality": 82,
+          "sha256": "c33224f88ab91a19c3532484d3690188bf97e7fd431177a4ec1482d1691753b8"
+        },
+        {
+          "width": 960,
+          "bytes": 106976,
+          "quality": 82,
+          "sha256": "6bada3c74ade6837ed255ddf3c7fe06fb3596fff50affbd29a4b6f3dc32937d4"
+        },
+        {
+          "width": 1254,
+          "bytes": 164432,
+          "quality": 82,
+          "sha256": "dd5400fe172e74f50a9e1c2805d6f4d4cf46f208dc19d3b665abece565c2ae33"
+        }
+      ]
+    },
+    {
+      "id": "smartwool-nts-250-balaclava",
+      "original": "Balaclava noire dans une ambiance glacée.png",
+      "sourceBytes": 2396911,
+      "fullSizeReductionPercent": 93.06,
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 26388,
+          "quality": 82,
+          "sha256": "166f172b36b676aaa32d90af204d22d74ca7cb246cf1aad5eff6304eefffff7d"
+        },
+        {
+          "width": 960,
+          "bytes": 103328,
+          "quality": 82,
+          "sha256": "fc34c5d18c601bacaf24a20816e6f280f656bbaae1e5728bcae79c230bf954c7"
+        },
+        {
+          "width": 1254,
+          "bytes": 166428,
+          "quality": 82,
+          "sha256": "c1d658448d8d0b8993c788c250bc51a615ec242968d9f784a1f061244de1a6b2"
+        }
+      ]
+    },
+    {
+      "id": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "original": "Bonnet en mérinos sur surface glacée.png",
+      "sourceBytes": 2802467,
+      "fullSizeReductionPercent": 91.47,
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 37630,
+          "quality": 82,
+          "sha256": "c3e4449385a58104a5b89bcf634d443ea778d1cb7d13e6bf48c10c0fa589ea9b"
+        },
+        {
+          "width": 960,
+          "bytes": 164344,
+          "quality": 82,
+          "sha256": "9862a7e9222a7806b4f6575d78e45cadc818685b852cc068fe3ae4a6efbbdbae"
+        },
+        {
+          "width": 1254,
+          "bytes": 239114,
+          "quality": 80,
+          "sha256": "bb7b49441dfb410919ce629a07bf0ff04a875936b331e0356f08898b1ea2942d"
+        }
+      ]
+    }
+  ]
+}

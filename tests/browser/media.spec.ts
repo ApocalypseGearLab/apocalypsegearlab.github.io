@@ -87,6 +87,10 @@ test('hero reserves space, selects responsive sources and supports reduced motio
 });
 
 test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({ page }) => {
+  // This single QA case decodes 17 images at each of six widths and captures
+  // every layout plus a detail page. Bound the complete workload separately
+  // from a single navigation; retain every image and layout assertion.
+  test.setTimeout(60_000);
   mkdirSync('.tools/qa/phase-3', { recursive: true });
   for (const width of widths) {
     await page.setViewportSize({ width, height: 900 });

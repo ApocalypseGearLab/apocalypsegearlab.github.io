@@ -1,0 +1,169 @@
+{
+  "reviewedAt": "2026-11-07T20:02:11.957Z",
+  "branch": "feat/whiteout-phase2",
+  "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "latestMain": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "remote": "https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io.git",
+  "currentUpstream": "origin/main",
+  "productionUrl": "https://apocalypsegearlab.github.io/",
+  "localReadiness": "Ready for approval to create the reviewed commit and PR; no local validation/conflict blocker found.",
+  "mergeReady": false,
+  "pendingMergeGates": [
+    "Explicit authorization for commit/push/PR",
+    "Published feature commit and PR targeting main",
+    "Passing GitHub CI and final review/merge approval"
+  ],
+  "githubCI": "Not run for these uncommitted changes",
+  "build": {
+    "pages": 122,
+    "english": 61,
+    "french": 61
+  },
+  "types": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "unit": {
+    "passed": 131,
+    "failed": 0
+  },
+  "chromium": {
+    "passed": 234,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "fullCleanRun": true
+  },
+  "webkit": {
+    "passed": 66,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "widths": [
+      320,
+      375,
+      390
+    ],
+    "fullCleanRun": true,
+    "physicalIPhone": false
+  },
+  "affiliate": {
+    "active": 47,
+    "held": 5,
+    "invalidUrls": 0,
+    "duplicateUrls": 0,
+    "duplicateAsins": 0,
+    "undocumentedBlocks": 0,
+    "independentLiveOfferVerification": false
+  },
+  "affiliatePreservation": {
+    "preservedOriginalActiveDestinations": 41,
+    "currentActiveDestinations": 47,
+    "unchangedOriginalRecordsExcludingXTherm": 47,
+    "whiteoutDestinations": [
+      {
+        "id": "hestra-army-leather-heli-ski-gloves",
+        "url": "https://www.amazon.ca/dp/B00F1F08TM?tag=apocalypsegear-20"
+      },
+      {
+        "id": "oakley-flight-deck-m-goggles",
+        "url": "https://www.amazon.ca/dp/B012Y896ZA?tag=apocalypsegear-20"
+      },
+      {
+        "id": "outdoor-research-alti-ii-gore-tex-mitts",
+        "url": "https://www.amazon.ca/dp/B0B67C7N9M?tag=apocalypsegear-20"
+      },
+      {
+        "id": "smartwool-nts-250-balaclava",
+        "url": "https://www.amazon.ca/dp/B002VGHX1A?tag=apocalypsegear-20"
+      },
+      {
+        "id": "smartwool-thermal-merino-reversible-cuffed-beanie",
+        "url": "https://www.amazon.ca/dp/B0DK9VRQF2?tag=apocalypsegear-20"
+      },
+      {
+        "id": "therm-a-rest-neoair-xtherm-nxt-review",
+        "url": "https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20"
+      }
+    ]
+  },
+  "globalCardAudit": {
+    "pages": 122,
+    "cardInstances": 502,
+    "languages": [
+      "en-CA",
+      "fr-CA"
+    ],
+    "universes": [
+      "blackout",
+      "fallout",
+      "outbreak",
+      "whiteout"
+    ],
+    "forbiddenLabels": 0,
+    "emptyVerificationWrappers": 0,
+    "retainedXThermWarnings": 14
+  },
+  "passedCommands": [
+    "npm run test:products",
+    "npm run build",
+    "npm run check",
+    "npm test",
+    "npm run test:site",
+    "npm run test:images",
+    "npm run release:check",
+    "npm run audit:affiliate",
+    "npm run audit:verification",
+    "npm run test:conversion",
+    "npm run test:bougerv",
+    "npm run test:phase55",
+    "node scripts/verify-product-card-labels.mjs",
+    "full Chromium suite (temporary dev-server reuse override)",
+    "full mobile WebKit suite (temporary preview port override)",
+    "source/conflict/secret/JSON scope checks",
+    "git diff --check"
+  ],
+  "preservation": {
+    "sourceTestsScriptsAssetsAndUnrelatedFilesUnchanged": true,
+    "historicalQaFilesChecked": 57,
+    "historicalQaFilesRestored": 57,
+    "extraGeneratedArtifactsArchived": 3,
+    "unrelatedHeroUnchanged": true
+  },
+  "scopeScan": {
+    "included": 243,
+    "groups": {
+      "assets": 21,
+      "docs": 155,
+      "scripts": 11,
+      "src": 22,
+      "tests": 33,
+      "package.json": 1
+    },
+    "conflictMarkerFiles": [],
+    "emptyFiles": [],
+    "possibleSecretFiles": [],
+    "invalidJsonFiles": []
+  },
+  "deployment": {
+    "workflowChanged": false,
+    "automatic": false,
+    "manualDispatchRequired": true,
+    "mainOnly": true,
+    "confirmPublishRequired": true,
+    "triggered": false
+  },
+  "remainingImplementationIssues": [],
+  "limitations": [
+    "Physical iPhone and independent current Amazon offer verification were not performed.",
+    "XTherm manufacturer temperature clarification and existing publication/safety approvals remain pending; warnings and restrictions retained.",
+    "Scrolled full-page screenshots can omit offscreen hero painting or relocate the sticky header; normal viewport capture is correct."
+  ],
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "prOpened": false,
+  "merged": false,
+  "deployed": false
+}

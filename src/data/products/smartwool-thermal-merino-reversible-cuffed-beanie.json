@@ -1,0 +1,134 @@
+{
+  "name": "Smartwool Thermal Merino Reversible Cuffed Beanie",
+  "brand": "Smartwool",
+  "modelNumber": "SW0SW956",
+  "category": "winter-headwear",
+  "summary": "The linked Amazon option is Mink Heather / One Size, sold as Merino Sport 250. Manufacturer SW0SW956 specifications below describe the cited Black reference option; the exact linked revision is not independently verified.",
+  "description": "The manufacturer documents SW0SW956 in Black with reversible construction and a cuff. The supplied dark illustration represents that reference, while the linked Amazon screenshot selects Mink Heather / One Size. Confirm the linked model revision before relying on those reference specifications. A merino layer does not replace weather protection in severe exposure.",
+  "outboundPolicy": "documentary-references",
+  "specsStatus": "manufacturer-documented",
+  "specs": [
+    {
+      "label": "Documented model",
+      "value": "SW0SW956; Black manufacturer option",
+      "source": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+    },
+    {
+      "label": "Material",
+      "value": "100% merino wool, excluding decoration",
+      "source": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+    },
+    {
+      "label": "Construction",
+      "value": "Double-layer interlock knit; reversible; roll cuff",
+      "source": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+    }
+  ],
+  "pros": [
+    "Reversible construction and cuff offer wearing flexibility."
+  ],
+  "cons": [
+    "Merino knit is not a waterproof shell."
+  ],
+  "useCases": [
+    "Adding a dry headwear layer to a winter kit."
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "The linked Amazon option is Mink Heather / One Size, described as Merino Sport 250. It is not a verified Black option. The dark concept illustration is not a colour guarantee; confirm the model revision and any alternative colour on Amazon."
+    ]
+  },
+  "image": {
+    "src": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+    "alt": "Cinematic illustration of a dark cuffed merino-style beanie on ice in a WHITEOUT frame",
+    "credit": "Owner-supplied cinematic concept illustration",
+    "license": "Owner-authorized WHITEOUT Phase 2 assets"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The linked Amazon option is Mink Heather / One Size, described as Merino Sport 250. It is not a verified Black option. The dark concept illustration is not a colour guarantee; confirm the model revision and any alternative colour on Amazon. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0DK9VRQF2",
+      "url": "https://www.amazon.ca/dp/B0DK9VRQF2?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "sources": [
+    {
+      "id": "manufacturer-model",
+      "title": "Smartwool — Thermal Merino Reversible Cuffed Beanie, Black, SW0SW956",
+      "url": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-amazon-screenshot",
+      "title": "Owner-supplied Amazon.ca product-page screenshot",
+      "url": "https://www.amazon.ca/dp/B0DK9VRQF2",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "smartwool-nts-250-balaclava",
+    "therm-a-rest-neoair-xtherm-nxt-review"
+  ],
+  "research": {
+    "checkedAt": "2026-11-06",
+    "identityNotes": "The linked Amazon option is Mink Heather / One Size, described as Merino Sport 250. It is not a verified Black option. The dark concept illustration is not a colour guarantee; confirm the model revision and any alternative colour on Amazon. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed.",
+    "listingVerified": false,
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0DK9VRQF2",
+      "checkedAt": "2026-11-06",
+      "reason": "The linked Amazon option is Mink Heather / One Size, described as Merino Sport 250. It is not a verified Black option. The dark concept illustration is not a colour guarantee; confirm the model revision and any alternative colour on Amazon.",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ]
+    },
+    "confirmed": [
+      {
+        "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+        "sourceIds": [
+          "manufacturer-model"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "The inspected Amazon B0DK9VRQF2 page selects Mink Heather / One Size, not the intended dark/Black option. B07WNF5FXC is the parent family ASIN, not evidence of a selected Black variant.",
+      "Verify the selected ASIN, SW0SW956 model, dark/Black colour and reversible cuff; the reported 68.04 g weight is unverified."
+    ],
+    "safetyNotes": [
+      "Add suitable wind and precipitation protection when needed. A beanie alone does not prevent hypothermia or frostbite."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent selected-variant authentication, full product-specific safety review and editorial publication approval remain incomplete."
+    ],
+    "purchaseDestination": {
+      "url": "https://www.amazon.ca/dp/B0DK9VRQF2",
+      "asin": "B0DK9VRQF2",
+      "scope": "product-page",
+      "matchedProduct": "Smartwool Thermal Merino Reversible Cuffed Beanie",
+      "method": "owner-document",
+      "checkedAt": "2026-11-06",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ],
+      "selectionNote": "The linked Amazon option is Mink Heather / One Size, described as Merino Sport 250. It is not a verified Black option. The dark concept illustration is not a colour guarantee; confirm the model revision and any alternative colour on Amazon.",
+      "safetyDecision": "link-permitted",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    }
+  }
+}

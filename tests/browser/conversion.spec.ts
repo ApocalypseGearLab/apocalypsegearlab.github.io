@@ -21,7 +21,14 @@ test('every current product keeps its decision, prominent canonical purchase con
   await expect(sources.locator('a.btn,[data-affiliate-click]')).toHaveCount(0);
   if(publicReferences)expect(await sources.evaluate(e=>e===e.parentElement!.lastElementChild)).toBe(true);
   expect(await own.evaluate(e=>Boolean(e.compareDocumentPosition(document.querySelector('.product-artwork--detail')!)&Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
-  for(const source of publicReferences?p.data.sources:[])await expect(sources.locator(`[data-source-id="${source.id}"]`)).toHaveAttribute('href',source.url);
+  for(const source of publicReferences?p.data.sources:[]){
+    const citation=sources.locator(`[data-source-id="${source.id}"]`);
+    if(p.data.research?.purchaseDestination?.sourceIds.includes(source.id)&&source.kind==='retailer'&&/^https:\/\/(?:www\.)?amazon\.ca\//.test(source.url)){
+      await expect(citation).not.toHaveAttribute('href');
+      expect(await citation.evaluate(node=>node.tagName)).toBe('SPAN');
+      await expect(citation).toContainText(source.title);
+    }else await expect(citation).toHaveAttribute('href',source.url);
+  }
   await expect(page.locator('.spec-source a[href^="https:"]')).toHaveCount(0);
   if(!approved.href){await expect(own.locator('[aria-disabled=true]')).toHaveCount(1);continue;}
   await expect(link).toHaveAttribute('href',approved.href);await expect(link).toHaveAttribute('data-cta-placement','profile-summary');

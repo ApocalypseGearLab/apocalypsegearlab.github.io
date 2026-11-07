@@ -1,0 +1,143 @@
+{
+  "name": "Hestra Army Leather Heli Ski gloves",
+  "brand": "Hestra",
+  "modelNumber": "30570",
+  "category": "winter-gloves-mitts",
+  "summary": "Five-finger ski gloves with a leather palm and replaceable liner. Select and verify the final colour and size on Amazon; Black/White size 9 is not guaranteed by this product-page link.",
+  "description": "The manufacturer documents the black 30570 five-finger model with a white goat-leather palm. Its textile back resists wind and water, but the complete glove has no waterproof membrane. This is a model reference, not verification of the Canadian retailer’s selected size.",
+  "outboundPolicy": "documentary-references",
+  "specsStatus": "manufacturer-documented",
+  "specs": [
+    {
+      "label": "Documented model",
+      "value": "30570-100, black five-finger model",
+      "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+    },
+    {
+      "label": "Palm material",
+      "value": "Army goat leather",
+      "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+    },
+    {
+      "label": "Backhand fabric",
+      "value": "Hestra Triton polyamide; windproof and water-resistant",
+      "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+    },
+    {
+      "label": "Insulation and liner",
+      "value": "G-Loft insulation; removable Bemberg polyester liner",
+      "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+    },
+    {
+      "label": "Waterproof membrane",
+      "value": "None; not waterproof",
+      "source": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+    }
+  ],
+  "pros": [
+    "Replaceable liner can be removed for drying."
+  ],
+  "cons": [
+    "Sustained wet conditions require additional protection."
+  ],
+  "useCases": [
+    "Assessing fit and hand insulation for ski travel."
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "The supplied page pictures Black/White gloves with no size selected, while its details table says Red / size 5. Choose and verify the final 30570 colour and size on Amazon; this link does not guarantee Black/White size 9."
+    ]
+  },
+  "image": {
+    "src": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+    "alt": "Cinematic illustration of black and white five-finger Hestra gloves on ice in a WHITEOUT frame",
+    "credit": "Owner-supplied cinematic concept illustration",
+    "license": "Owner-authorized WHITEOUT Phase 2 assets"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The supplied page pictures Black/White gloves with no size selected, while its details table says Red / size 5. Choose and verify the final 30570 colour and size on Amazon; this link does not guarantee Black/White size 9. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B00F1F08TM",
+      "url": "https://www.amazon.ca/dp/B00F1F08TM?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "sources": [
+    {
+      "id": "manufacturer-model",
+      "title": "Hestra — Army Leather Heli Ski five-finger, black, 30570-100",
+      "url": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-amazon-screenshot",
+      "title": "Owner-supplied Amazon.ca product-page screenshot",
+      "url": "https://www.amazon.ca/dp/B00F1F08TM",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "outdoor-research-alti-ii-gore-tex-mitts",
+    "therm-a-rest-neoair-xtherm-nxt-review"
+  ],
+  "research": {
+    "checkedAt": "2026-11-06",
+    "identityNotes": "The supplied page pictures Black/White gloves with no size selected, while its details table says Red / size 5. Choose and verify the final 30570 colour and size on Amazon; this link does not guarantee Black/White size 9. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed.",
+    "listingVerified": false,
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B00F1F08TM",
+      "checkedAt": "2026-11-06",
+      "reason": "The supplied page pictures Black/White gloves with no size selected, while its details table says Red / size 5. Choose and verify the final 30570 colour and size on Amazon; this link does not guarantee Black/White size 9.",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ]
+    },
+    "confirmed": [
+      {
+        "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+        "sourceIds": [
+          "manufacturer-model"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Confirm B00F1F08TM, model 30570, Black/White and size 9 on the selected Amazon offer."
+    ],
+    "safetyNotes": [
+      "Keep insulation dry and avoid a tight fit that restricts circulation. Industrial protective-equipment suitability has not been verified."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent selected-variant authentication, full product-specific safety review and editorial publication approval remain incomplete."
+    ],
+    "purchaseDestination": {
+      "url": "https://www.amazon.ca/dp/B00F1F08TM",
+      "asin": "B00F1F08TM",
+      "scope": "product-page",
+      "matchedProduct": "Hestra Army Leather Heli Ski gloves",
+      "method": "owner-document",
+      "checkedAt": "2026-11-06",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ],
+      "selectionNote": "The supplied page pictures Black/White gloves with no size selected, while its details table says Red / size 5. Choose and verify the final 30570 colour and size on Amazon; this link does not guarantee Black/White size 9.",
+      "safetyDecision": "link-permitted",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "reviewedAt": "2026-11-06",
+  "branch": "feat/whiteout-phase2",
+  "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "stagedFiles": [],
+  "pushed": false,
+  "merged": false,
+  "deployed": false,
+  "decision": {
+    "productId": "therm-a-rest-neoair-xtherm-nxt-review",
+    "button": "active-product-page",
+    "url": "https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20",
+    "identity": "14016 / Regular Wide / Neptune / 540 g / R 7.3",
+    "evidenceMethod": "owner-document plus inspected official manufacturer documentation",
+    "liveAmazonVerification": false,
+    "warning": "Amazon warning reported by the owner: Do not use below −20 °C. Therm-a-Rest has not confirmed that use below this threshold is permitted. R 7.3 does not establish a safe air temperature, including at or above −20 °C.",
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "manufacturerClarification": [
+      "Written Therm-a-Rest guidance applicable to NeoAir XTherm NXT model 14016 is required to reconcile the Amazon prohibition on use below −20 °C: confirm whether it is a product-use limit, its conditions and which current instructions govern. Until then, preserve the prohibition and do not claim suitability below it."
+    ]
+  },
+  "checks": {
+    "build": {
+      "pages": 122,
+      "english": 61,
+      "french": 61,
+      "exitCode": 0
+    },
+    "unit": {
+      "passed": 131,
+      "failed": 0
+    },
+    "typeCheck": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "finalCommands": [
+      {
+        "command": "npm run check",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-check.log"
+      },
+      {
+        "command": "npm run test",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-test.log"
+      },
+      {
+        "command": "npm run test:site",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-test-site.log"
+      },
+      {
+        "command": "npm run test:images",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-test-images.log"
+      },
+      {
+        "command": "npm run release:check",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-release-check.log"
+      },
+      {
+        "command": "npm run audit:affiliate",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-audit-affiliate.log"
+      },
+      {
+        "command": "npm run audit:verification",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-audit-verification.log"
+      },
+      {
+        "command": "npm run test:conversion",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-test-conversion.log"
+      },
+      {
+        "command": "npm run test:bougerv",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-test-bougerv.log"
+      },
+      {
+        "command": "npm run test:phase55",
+        "exitCode": 0,
+        "log": "tmp/xtherm-complete-test-phase55.log"
+      }
+    ],
+    "actualProductFixtureChecks": {
+      "exitCode": 0,
+      "log": "tmp/xtherm-test-products.log",
+      "recheckedByBrowserPreparation": true,
+      "realDataRestored": true
+    },
+    "chromium": {
+      "full": {
+        "startTime": "2026-11-07T03:51:56.314Z",
+        "duration": 1253045.208,
+        "expected": 221,
+        "skipped": 0,
+        "unexpected": 3,
+        "flaky": 0
+      },
+      "followup": {
+        "startTime": "2026-11-07T04:15:12.809Z",
+        "duration": 256673.87,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "mediaDiagnostic": {
+        "startTime": "2026-11-07T04:20:41.225Z",
+        "duration": 73303.682,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "finalFocused": {
+        "startTime": "2026-11-07T04:22:52.518Z",
+        "duration": 96159.875,
+        "expected": 11,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "coverage": "All 224 cases have passing coverage across the full and focused runs; no single clean 224-case rerun is claimed.",
+      "initialIssues": [
+        "One obsolete XTherm hold expectation replaced by exact URL and warning assertions.",
+        "Catalogue QA workload: removed duplicate preview navigation/assertions; bounded whole-catalogue workload at 90s.",
+        "Media QA workload: all assertions passed in 41.7s, exceeding its prior 30s budget; bounded this one six-width/102-image case at 60s."
+      ],
+      "finalUnresolvedFailures": 0
+    },
+    "webkit": {
+      "startTime": "2026-11-07T04:25:05.294Z",
+      "duration": 166514.193,
+      "expected": 66,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "viewportWidths": [
+        320,
+        375,
+        390
+      ],
+      "physicalIPhoneVerified": false
+    },
+    "affiliate": {
+      "products": 52,
+      "active": 47,
+      "held": 5,
+      "invalidUrls": 0,
+      "duplicateUrls": 0,
+      "duplicateAsins": 0,
+      "undocumentedBlocks": 0,
+      "independentlyVerifiedOffers": 0
+    }
+  },
+  "preservation": {
+    "otherProductFilesUnchanged": 52,
+    "otherActualProductsUnchanged": 51,
+    "templateUnchanged": true,
+    "otherRuntimeSourceFilesUnchanged": 133,
+    "existingFrenchEntriesUnchanged": true,
+    "xthermSpecificationsUnchanged": true,
+    "xthermImageUnchanged": true,
+    "allAffiliateDestinationsUnchanged": true,
+    "generalSafetyNotesUnchanged": true,
+    "sharedSafetyAffiliateSEODisclosureAnalyticsAndSelectorCodeUnchanged": true,
+    "rootUniverseHeroSha256": "2b7b1871dc265aadbcf09217203f1cd4b290e19d38ff0473e196181048d7a841",
+    "historicalGeneratedQaFilesArchivedAndRestored": 57
+  },
+  "visualReview": {
+    "inspected": [
+      "purchase-en-375.png",
+      "purchase-fr-375.png",
+      "purchase-en-1440.png",
+      "purchase-fr-1440.png",
+      "purchase-fr-1440-settled.png"
+    ],
+    "result": "Warning and native CTA readable in both languages without clipping; layout and colour system retained.",
+    "captureLimitation": "One French desktop capture omitted the brand although DOM, styles, geometry and hit testing were correct. A fresh independent capture shows the correct brand. Exact transient paint cause unconfirmed; header code unchanged.",
+    "diagnostic": "header-diagnostic.json"
+  },
+  "outstanding": [
+    "No applicable manufacturer confirmation permitting use below the reported −20 °C prohibition was found; retain it pending written model-14016 clarification.",
+    "Physical iPhone Safari verification and independent current Amazon offer verification were not performed."
+  ],
+  "changedFiles": [
+    "docs/qa/whiteout-affiliate-automation/owner-evidence.json",
+    "docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-en-webkit-375-specs.png",
+    "docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-fr-webkit-375-specs.png",
+    "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-375-artwork.png",
+    "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-375-specs.png",
+    "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-webkit-375-specs.png",
+    "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-375-artwork.png",
+    "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-375-specs.png",
+    "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-webkit-375-specs.png",
+    "docs/qa/whiteout-phase2/screenshots/whiteout-en-1440.png",
+    "docs/qa/whiteout-phase2/screenshots/whiteout-en-375.png",
+    "docs/qa/whiteout-phase2/screenshots/whiteout-fr-1440.png",
+    "docs/qa/whiteout-phase2/screenshots/whiteout-fr-375.png",
+    "docs/qa/whiteout-phase2/source-changes.json",
+    "docs/qa/xtherm-temperature-review/evidence.json",
+    "docs/qa/xtherm-temperature-review/header-diagnostic.json",
+    "docs/qa/xtherm-temperature-review/screenshots/purchase-en-1440.png",
+    "docs/qa/xtherm-temperature-review/screenshots/purchase-en-375.png",
+    "docs/qa/xtherm-temperature-review/screenshots/purchase-fr-1440-settled.png",
+    "docs/qa/xtherm-temperature-review/screenshots/purchase-fr-1440.png",
+    "docs/qa/xtherm-temperature-review/screenshots/purchase-fr-375.png",
+    "docs/whiteout-affiliate-automation.md",
+    "docs/xtherm-temperature-review.md",
+    "scripts/verify-four-universes.mjs",
+    "scripts/verify-whiteout-phase2.mjs",
+    "src/data/products/therm-a-rest-neoair-xtherm-nxt-review.json",
+    "src/i18n/fr-whiteout.json",
+    "tests/affiliate.test.ts",
+    "tests/browser/blackout.spec.ts",
+    "tests/browser/category-seo.spec.ts",
+    "tests/browser/four-universes.spec.ts",
+    "tests/browser/media.spec.ts",
+    "tests/browser/phase44.spec.ts",
+    "tests/browser/product-verification.spec.ts",
+    "tests/browser/recorded-links.spec.ts",
+    "tests/browser/release.spec.ts",
+    "tests/browser/whiteout-phase2.spec.ts",
+    "tests/browser/xtherm-temperature-warning.spec.ts",
+    "tests/catalogue-fixture.ts",
+    "tests/four-universes.test.ts",
+    "tests/phase6.test.ts",
+    "tests/product-verification.test.ts",
+    "tests/webkit/whiteout-phase2.spec.ts",
+    "tests/whiteout-phase2.test.ts"
+  ],
+  "inventoryExcludes": [
+    "temporary tools and logs",
+    "generated builds",
+    "secrets",
+    "the generated results/inventory files themselves"
+  ]
+}

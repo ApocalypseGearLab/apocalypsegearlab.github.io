@@ -1,0 +1,56 @@
+{
+  "reviewedAt": "2026-11-06",
+  "productId": "therm-a-rest-neoair-xtherm-nxt-review",
+  "ownerConfirmation": {
+    "source": "User message: THERM-A-REST XTHERM NXT — FINAL PRODUCT REVIEW",
+    "asin": "B0CS54SN91",
+    "manufacturerModel": "14016",
+    "variant": "Regular Wide / Neptune",
+    "weight": "540 g",
+    "rValue": "7.3",
+    "amazonWarning": "Do not use below −20 °C",
+    "warningProvenance": "Explicit owner transcription of Amazon product details; absent from the earlier screenshot",
+    "liveAmazonVerification": false
+  },
+  "officialSources": [
+    {
+      "url": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad",
+      "findings": "Model 14016, Regular Wide, Neptune, 0.54 kg, R 7.3. Extreme-cold marketing is present; no numeric minimum-use temperature reconciling the retailer warning was found."
+    },
+    {
+      "url": "https://cascadedesigns.com/en-ca/blogs/thermarest-gear/how-warm-is-a-sleeping-pad-r-value-vs-degree-ratings",
+      "findings": "Standardized R-value measures pad insulation; ground and personal/environmental variables prevent a universal temperature rating."
+    },
+    {
+      "url": "https://cascadedesigns.com/pages/faq-thermarest",
+      "findings": "ASTM F3340-18 supports like-for-like pad R-value comparisons, not a model-specific safe air-temperature cutoff."
+    }
+  ],
+  "decision": {
+    "url": "https://www.amazon.ca/dp/B0CS54SN91",
+    "asin": "B0CS54SN91",
+    "scope": "product-page",
+    "matchedProduct": "Therm-a-Rest NeoAir XTherm NXT insulated sleeping pad",
+    "matchedModel": "14016",
+    "method": "owner-document",
+    "checkedAt": "2026-11-06",
+    "sourceIds": [
+      "thermarest-model",
+      "owner-amazon-screenshot",
+      "thermarest-r-value-guidance"
+    ],
+    "selectionNote": "Amazon warning reported by the owner: Do not use below −20 °C. Therm-a-Rest has not confirmed that use below this threshold is permitted. R 7.3 does not establish a safe air temperature, including at or above −20 °C. The owner confirms B0CS54SN91 as model 14016, Regular Wide / Neptune, 540 g, R 7.3. This is a product-page link; confirm the current selected size, colour and package on Amazon.",
+    "safetyDecision": "link-permitted",
+    "safetyReason": "Permit only a documented product-page link with the owner-reported prohibition on use below −20 °C displayed before the button. Official model specifications and owner listing details support the destination identity; R 7.3 and extreme-cold marketing do not authorize use below that limit or establish safety above it. Full safety and editorial approval remain pending."
+  },
+  "fullSafetyStatus": "pending",
+  "publicationApproved": false,
+  "remainingManufacturerEvidence": [
+    "Written Therm-a-Rest guidance applicable to NeoAir XTherm NXT model 14016 is required to reconcile the Amazon prohibition on use below −20 °C: confirm whether it is a product-use limit, its conditions and which current instructions govern. Until then, preserve the prohibition and do not claim suitability below it."
+  ],
+  "unchangedLimitations": [
+    "Ground insulation is one part of a sleep system, not protection against every cold-weather hazard.",
+    "Inspect for leaks and carry an appropriate repair and backup plan.",
+    "No hands-on or temperature-performance testing has been conducted by ApocalypseGearLab."
+  ]
+}

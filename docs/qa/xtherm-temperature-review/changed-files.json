@@ -1,0 +1,273 @@
+{
+  "scope": "Delta from the start of this XTherm-only review, including refreshed QA artifacts",
+  "excludedGeneratedManifests": [
+    "docs/qa/xtherm-temperature-review/results.json",
+    "docs/qa/xtherm-temperature-review/changed-files.json"
+  ],
+  "files": [
+    {
+      "file": "docs/qa/whiteout-affiliate-automation/owner-evidence.json",
+      "change": "modified",
+      "bytes": 6566,
+      "sha256": "1a7d81de7aa8e5db2e684d0afd48e5ce459b05d038c08f1d38f855f3a1a34ea9"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-en-webkit-375-specs.png",
+      "change": "modified",
+      "bytes": 152036,
+      "sha256": "ec99b2d778c5c17aa8ad7591796ab68628481d0efb05156170d794960b5b126b"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-fr-webkit-375-specs.png",
+      "change": "modified",
+      "bytes": 170080,
+      "sha256": "6e2319a632acaf5f42387c01d62bd6fc169f4155d1b0bd3a34f8b69ea9298fee"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-375-artwork.png",
+      "change": "modified",
+      "bytes": 231917,
+      "sha256": "d64ffa82afcb3bec2356eb9b4080d9179326dd936d119a8f7e271debe1785919"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-375-specs.png",
+      "change": "modified",
+      "bytes": 43392,
+      "sha256": "b6294d3fcc755032854a984ba76e3604614f8b1f58021392e536d8baf909d2ff"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-webkit-375-specs.png",
+      "change": "modified",
+      "bytes": 142090,
+      "sha256": "ed14461e6d9ae67fadae62452eae4219d9dc538ab0ed26d9ce88b03f73c2f162"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-375-artwork.png",
+      "change": "modified",
+      "bytes": 232761,
+      "sha256": "3b0d395b56fec73c84c5d7c5b7ab2e4e6517b3b8b2fff1530df9b431dadfade3"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-375-specs.png",
+      "change": "modified",
+      "bytes": 45397,
+      "sha256": "54eae15a8d2b69ddff797033dc75c4bca83e459ea837ab5ae1e7bfa941f8e409"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-webkit-375-specs.png",
+      "change": "modified",
+      "bytes": 713300,
+      "sha256": "cb5a7b061108deb94edc2a232951ac55acf28eedcfa397dd24ea74d0750e5dcb"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/whiteout-en-1440.png",
+      "change": "modified",
+      "bytes": 2390803,
+      "sha256": "6a5c76d271ff77352da3a43731bc478400e219cc60ca3b77f6081429792ad2d8"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/whiteout-en-375.png",
+      "change": "modified",
+      "bytes": 1546625,
+      "sha256": "a0cc523e3916244407263d66f09199fde52422e7663af8e6587d751880b403af"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/whiteout-fr-1440.png",
+      "change": "modified",
+      "bytes": 2492764,
+      "sha256": "4d6b31154df35fef2d8e438b7ae2570b5c1cae0a3e78cc117342d090691082a7"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/screenshots/whiteout-fr-375.png",
+      "change": "modified",
+      "bytes": 1614397,
+      "sha256": "6457bdb252ff61c56e907dc43500ad2f48acdd4bb1aeb96b2937a47f1acc72ac"
+    },
+    {
+      "file": "docs/qa/whiteout-phase2/source-changes.json",
+      "change": "modified",
+      "bytes": 63244,
+      "sha256": "528ffee18636982a823fd0d3a26cf8f8f049de820ae2620b17b6c2beb875d881"
+    },
+    {
+      "file": "docs/qa/xtherm-temperature-review/evidence.json",
+      "change": "new",
+      "bytes": 3372,
+      "sha256": "c8691b0f909165664ef8bbd9edd097e3a1592f8618a79b4a81cc74b2dedd7199"
+    },
+    {
+      "file": "docs/qa/xtherm-temperature-review/header-diagnostic.json",
+      "change": "new",
+      "bytes": 1945,
+      "sha256": "b8bdce003535295df9ccc0b8b1e4eecd4971bf064d24c97ade6baf4cf49210e4"
+    },
+    {
+      "file": "docs/qa/xtherm-temperature-review/screenshots/purchase-en-1440.png",
+      "change": "new",
+      "bytes": 428371,
+      "sha256": "ac9c23886d626c0196eded21f54ae1bb679d210080401bb559d9fcdc171956a7"
+    },
+    {
+      "file": "docs/qa/xtherm-temperature-review/screenshots/purchase-en-375.png",
+      "change": "new",
+      "bytes": 203451,
+      "sha256": "5ef1dfb8f573fe83648aa02c1412f2ea7e9b6a036e8694585e5d42ef98222364"
+    },
+    {
+      "file": "docs/qa/xtherm-temperature-review/screenshots/purchase-fr-1440-settled.png",
+      "change": "new",
+      "bytes": 386062,
+      "sha256": "646ef891e361747c5cfcb538420d5816e2fb9582548a12b88f20e9b4c4818b24"
+    },
+    {
+      "file": "docs/qa/xtherm-temperature-review/screenshots/purchase-fr-1440.png",
+      "change": "new",
+      "bytes": 386062,
+      "sha256": "646ef891e361747c5cfcb538420d5816e2fb9582548a12b88f20e9b4c4818b24"
+    },
+    {
+      "file": "docs/qa/xtherm-temperature-review/screenshots/purchase-fr-375.png",
+      "change": "new",
+      "bytes": 148760,
+      "sha256": "f6d36619b2b8924ed9cc3472646159376511c41f49fb66ec680f4033d2f2bec3"
+    },
+    {
+      "file": "docs/whiteout-affiliate-automation.md",
+      "change": "modified",
+      "bytes": 15161,
+      "sha256": "0220cd73241d39dd85ab4a50abe5dfabe661ca9d45d29a48f843a6333f97c5fb"
+    },
+    {
+      "file": "docs/xtherm-temperature-review.md",
+      "change": "new",
+      "bytes": 9510,
+      "sha256": "092022fabcc00f94d379a46da69cadd73be2fe89d4f4c20c3f8c7d058e0d954c"
+    },
+    {
+      "file": "scripts/verify-four-universes.mjs",
+      "change": "modified",
+      "bytes": 4927,
+      "sha256": "dec19f15406ec84c42d7699d5ad62da7962902cb24400e2f09b671b73047cf5a"
+    },
+    {
+      "file": "scripts/verify-whiteout-phase2.mjs",
+      "change": "modified",
+      "bytes": 3469,
+      "sha256": "e6be4315431f13a538e5257a32cee4d54a3a8ad6da599477d75af0910721c7c1"
+    },
+    {
+      "file": "src/data/products/therm-a-rest-neoair-xtherm-nxt-review.json",
+      "change": "modified",
+      "bytes": 10900,
+      "sha256": "d6875c38202b5b4b3710fd161e41b9c0b8666682c8c4ad7020f7b8b180a1906f"
+    },
+    {
+      "file": "src/i18n/fr-whiteout.json",
+      "change": "modified",
+      "bytes": 43050,
+      "sha256": "4a174270719e3cfdb111b761ed79c043185c782736ebafefb252093a4e1313d3"
+    },
+    {
+      "file": "tests/affiliate.test.ts",
+      "change": "modified",
+      "bytes": 13719,
+      "sha256": "eb267abe70030049dc44a38aff6eecd90d2586bdbaac3fc0a2c35086ed34f9e3"
+    },
+    {
+      "file": "tests/browser/blackout.spec.ts",
+      "change": "modified",
+      "bytes": 8605,
+      "sha256": "7b651d0cb3261fd466d692e21f0f96faad10521066a06b9b7bb6307a5d3bbea3"
+    },
+    {
+      "file": "tests/browser/category-seo.spec.ts",
+      "change": "modified",
+      "bytes": 3417,
+      "sha256": "76bb8d2b461142c2d0eb34a7afb6d0ff8fe9863c379102798e38088ac88d50e2"
+    },
+    {
+      "file": "tests/browser/four-universes.spec.ts",
+      "change": "modified",
+      "bytes": 3413,
+      "sha256": "0cfe2399dbf60be5501147281be01cf45cf8623b83abecf30ad2b1600f65948a"
+    },
+    {
+      "file": "tests/browser/media.spec.ts",
+      "change": "modified",
+      "bytes": 10390,
+      "sha256": "9f653b5a8ded201b7c4005ae325a81978ff2fc635046ae7e4635927134ce4ab5"
+    },
+    {
+      "file": "tests/browser/phase44.spec.ts",
+      "change": "modified",
+      "bytes": 4120,
+      "sha256": "195c42e3b157435d05967f97c1602b75f0d03c9b4a07526d2c98250f4e635022"
+    },
+    {
+      "file": "tests/browser/product-verification.spec.ts",
+      "change": "modified",
+      "bytes": 4679,
+      "sha256": "f7e607ceb63426cf60257b8eb043f93e1837644eb2b09f96632e1136c588a4af"
+    },
+    {
+      "file": "tests/browser/recorded-links.spec.ts",
+      "change": "modified",
+      "bytes": 3486,
+      "sha256": "d7b25ce21d46e92869a9f6e30a8b044910ba7bc4dd1cbc280b840c9ff8eecdb0"
+    },
+    {
+      "file": "tests/browser/release.spec.ts",
+      "change": "modified",
+      "bytes": 6929,
+      "sha256": "810a855e01f63e8d33c0d7ef0c418fec9a798384dc35d5cd5a1c492640232af4"
+    },
+    {
+      "file": "tests/browser/whiteout-phase2.spec.ts",
+      "change": "modified",
+      "bytes": 6175,
+      "sha256": "11d3e4ccb295c06d76a33e16599d229a0c77455d339221b6575b5232be999973"
+    },
+    {
+      "file": "tests/browser/xtherm-temperature-warning.spec.ts",
+      "change": "new",
+      "bytes": 4410,
+      "sha256": "cbd49928a9fd1268dfaff7fe3194c54277b6dbd10433bad5a955fc05a5f8eeb8"
+    },
+    {
+      "file": "tests/catalogue-fixture.ts",
+      "change": "modified",
+      "bytes": 3141,
+      "sha256": "dffbdf071ef25e16a3cab202fd713371f6b10fdf483f2057ffee16eb9ef67d61"
+    },
+    {
+      "file": "tests/four-universes.test.ts",
+      "change": "modified",
+      "bytes": 3165,
+      "sha256": "5f865b2f86a1c6d8cc86a16997f109556e7375c06b815335c97f7054a2370af6"
+    },
+    {
+      "file": "tests/phase6.test.ts",
+      "change": "modified",
+      "bytes": 5001,
+      "sha256": "7d8e01a31d6a90465d4d153907f1dfb900804bfaa1711fa00ff7b22bd9b0e6cc"
+    },
+    {
+      "file": "tests/product-verification.test.ts",
+      "change": "modified",
+      "bytes": 7646,
+      "sha256": "7e6b2d8bf570501cfc6e923cf6037e6acb8a928226f4713127d304c9294ac7e7"
+    },
+    {
+      "file": "tests/webkit/whiteout-phase2.spec.ts",
+      "change": "modified",
+      "bytes": 3812,
+      "sha256": "ed36433da1c68c2f422fb4355199385da2f1f2ce5e3cd9157acede9cc64a55de"
+    },
+    {
+      "file": "tests/whiteout-phase2.test.ts",
+      "change": "modified",
+      "bytes": 12584,
+      "sha256": "f7736b0a6f8818ab5b2b5fdf45520ffc7649cd303a558c00499a6f414e72d70e"
+    }
+  ]
+}

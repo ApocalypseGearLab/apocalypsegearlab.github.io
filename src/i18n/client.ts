@@ -33,13 +33,19 @@ if (selector) {
     return url;
   };
   // Keep real hrefs useful for context-menu and modified-click navigation too.
-  const refresh = () => { for (const link of options) link.href = targetFor(link).href; };
+  // Native details toggle events can arrive during WebKit's synthetic touch
+  // sequence. Do not mutate an already-correct destination while it is tapped.
+  const refresh = () => { for (const link of options) {
+    const href = targetFor(link).href;
+    if (link.href !== href) link.href = href;
+  } };
   selector.addEventListener('toggle', refresh);
   window.addEventListener('hashchange', refresh);
   document.addEventListener('input', refresh);
   refresh();
   for (const link of options) link.addEventListener('click', event => {
-    const url = targetFor(link); link.href = url.href;
+    const url = targetFor(link);
+    if (link.href !== url.href) link.href = url.href;
     const language = link.dataset.languageOption!;
     try { localStorage.setItem('agl-language', language); } catch { /* Optional preference. */ }
     // Preserve this tab's explicit choice even if persistent storage is read-only.

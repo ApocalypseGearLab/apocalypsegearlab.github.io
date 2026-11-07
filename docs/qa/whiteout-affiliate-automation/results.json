@@ -1,0 +1,159 @@
+{
+  "completedAt": "2026-11-07T03:32:21.454Z",
+  "branch": "feat/whiteout-phase2",
+  "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "scope": "Owner-documented Canadian product destinations and reusable evidence-driven activation; no independent live listing inspection",
+  "unit": {
+    "passed": 130,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check": "check",
+      "exitCode": 0,
+      "log": "tmp/automation-check.log"
+    },
+    {
+      "check": "test",
+      "exitCode": 0,
+      "log": "tmp/automation-test.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "log": "tmp/automation-build.log"
+    },
+    {
+      "check": "test:site",
+      "exitCode": 0,
+      "log": "tmp/automation-test-site.log"
+    },
+    {
+      "check": "test:images",
+      "exitCode": 0,
+      "log": "tmp/automation-test-images.log"
+    },
+    {
+      "check": "release:check",
+      "exitCode": 0,
+      "log": "tmp/automation-release-check.log"
+    },
+    {
+      "check": "audit:affiliate",
+      "exitCode": 0,
+      "log": "tmp/automation-audit-affiliate.log"
+    },
+    {
+      "check": "audit:verification",
+      "exitCode": 0,
+      "log": "tmp/automation-audit-verification.log"
+    },
+    {
+      "check": "test:conversion",
+      "exitCode": 0,
+      "log": "tmp/automation-test-conversion.log"
+    },
+    {
+      "check": "test:bougerv",
+      "exitCode": 0,
+      "log": "tmp/automation-test-bougerv.log"
+    },
+    {
+      "check": "test:phase55",
+      "exitCode": 0,
+      "log": "tmp/automation-test-phase55.log"
+    },
+    {
+      "check": "test:products",
+      "exitCode": 0,
+      "log": "tmp/automation-test-products.log"
+    },
+    {
+      "check": "test:site",
+      "exitCode": 0,
+      "log": "tmp/automation-test-site.log"
+    }
+  ],
+  "chromium": {
+    "startTime": "2026-11-07T03:19:10.998Z",
+    "duration": 593445.2729999999,
+    "expected": 214,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "webkit": {
+    "startTime": "2026-11-07T03:03:32.805Z",
+    "duration": 161006.405,
+    "expected": 66,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "webkitRepeatedDiagnostics": {
+    "startTime": "2026-11-07T02:59:25.210Z",
+    "duration": 157337.017,
+    "expected": 63,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "earlierWebkitRun": {
+    "startTime": "2026-11-07T02:56:37.915Z",
+    "duration": 105494.245,
+    "expected": 64,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  },
+  "webkitInvestigation": "60 initial instrumented cycles passed. Redundant unchanged-href writes were observed and removed. One earlier current-code full run had two non-navigation tap failures. Repeated diagnostic run passed 63 cases. Original cause is not conclusively established; do not infer physical iPhone certification or erase the earlier failures.",
+  "counts": {
+    "pages": 122,
+    "english": 61,
+    "french": 61,
+    "indexableSitemapUrls": 16,
+    "active": 46,
+    "held": 6,
+    "whiteoutActive": 5,
+    "whiteoutHeld": 1,
+    "legacyActivePreserved": 41
+  },
+  "safety": "XTherm purchase remains held until the reported −20 °C statement is supplied in context and reconciled with applicable manufacturer guidance. All original safety notes remain.",
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false,
+  "previousChromiumRun": {
+    "startTime": "2026-11-07T03:06:46.688Z",
+    "duration": 631111.432,
+    "expected": 211,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  },
+  "chromiumCorrections": "Three stale test assertions corrected: 46 active controls, descriptive scoped screenshot citation, and 138 clicks including WHITEOUT. Complete suite rerun successfully.",
+  "finalTypecheck": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "visualScreenshots": [
+    {
+      "file": "docs/qa/whiteout-affiliate-automation/screenshots/hestra-army-leather-heli-ski-gloves-fr-375.png",
+      "sha256": "8530c2683b3cf2963ae104a604f0ebd9584ee4f6664ac5b8a27f5c77b147c004"
+    },
+    {
+      "file": "docs/qa/whiteout-affiliate-automation/screenshots/oakley-flight-deck-m-goggles-fr-1440.png",
+      "sha256": "45c6cf7b8a705a27ab6e1a7a4b375a1ce8ac815db104ef8b4203469f8599c753"
+    },
+    {
+      "file": "docs/qa/whiteout-affiliate-automation/screenshots/smartwool-thermal-merino-reversible-cuffed-beanie-en-375.png",
+      "sha256": "a19f1798aba675fb2448e525cb5ae824bdd09382ff652edfd55a58a403474f8c"
+    },
+    {
+      "file": "docs/qa/whiteout-affiliate-automation/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-375.png",
+      "sha256": "0a6193c11f45648db11d5af5158a9378111dc8ce8a62747003cabc6da9c0dc2b"
+    }
+  ]
+}
