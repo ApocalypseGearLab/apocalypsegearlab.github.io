@@ -77,7 +77,7 @@ for(const file of pages){
   assert.equal(a.attr('data-merchant'),'amazon-ca');assert.equal(a.attr('data-marketplace'),'ca');
   assert.equal(a.attr('data-product-name'),p.data.name);
   const placement=a.attr('data-cta-placement');
-  const expected=a.closest('[data-product-purchase]').length?'profile-summary':a.closest('[aria-labelledby="compatible-3m-filters"]').length?'compatible-filter':path==='/gear/'?'catalogue-card':/^\/(blackout|fallout|outbreak)\/$/.test(path)?'collection-card':'related-card';
+  const expected=a.closest('[data-product-purchase]').length?'profile-summary':a.closest('[aria-labelledby="compatible-3m-filters"]').length?'compatible-filter':path==='/gear/'?'catalogue-card':/^\/(blackout|fallout|outbreak|whiteout)\/$/.test(path)?'collection-card':'related-card';
   assert.equal(placement,expected);assert.equal(a.clone().children().remove().end().text().trim(),'View on Amazon.ca');
   assert.ok(a.closest('.card-purchase,[data-product-purchase]').find('[aria-label="Affiliate disclosure"]').length);
   row.placements.push(path+'#'+placement);
@@ -98,7 +98,15 @@ for(const file of pages){
  const html=$('main').html()??'';
  assert.ok(html.indexOf('data-product-purchase')<html.indexOf('product-artwork--detail'),'Primary control before product artwork');
  assert.equal($('main a[href^="https://"]').not('[data-affiliate-click]').not('[data-source-click]').length,0,'All profile documentary links are ordinary links in the source section');
- for(const source of publicReferences?p.data.sources:[]){const a=sources.find('a[data-source-click]').filter((_,e)=>$(e).attr('data-source-id')===source.id);assert.equal(a.length,1,source.id);assert.equal(a.attr('href'),source.url);assert.equal(a.attr('data-source-kind'),source.kind);assert.equal(a.attr('data-product'),id);assert.ok(!a.hasClass('btn'));references.push({sourcePage:path,productId:id,sourceId:source.id,kind:source.kind,destination:source.url,tracking:'source_reference_click',classification:before.sourceBindings.find((s:{productId:string;id:string})=>s.productId===id&&s.id===source.id)?.classification??'review-new-source'});}
+ for(const source of publicReferences?p.data.sources:[]){
+  const a=sources.find('a[data-source-click]').filter((_,e)=>$(e).attr('data-source-id')===source.id);
+  if(p.data.research?.purchaseDestination?.sourceIds.includes(source.id)&&source.kind==='retailer'&&/^https:\/\/(?:www\.)?amazon\.ca\//.test(source.url)){
+   assert.equal(a.length,0,'Scoped Amazon evidence must not introduce an untagged second purchase link');
+   assert.equal(sources.find('span[data-source-id]').filter((_,e)=>$(e).attr('data-source-id')===source.id).length,1);
+   continue;
+  }
+  assert.equal(a.length,1,source.id);assert.equal(a.attr('href'),source.url);assert.equal(a.attr('data-source-kind'),source.kind);assert.equal(a.attr('data-product'),id);assert.ok(!a.hasClass('btn'));references.push({sourcePage:path,productId:id,sourceId:source.id,kind:source.kind,destination:source.url,tracking:'source_reference_click',classification:before.sourceBindings.find((s:{productId:string;id:string})=>s.productId===id&&s.id===source.id)?.classification??'review-new-source'});
+ }
  for(const [index,spec]of p.data.specs.entries()){
   const cell=$('.table-wrap tbody tr').eq(index).find('td').first();assert.ok(cell.text().includes(spec.value),'Keep specification: '+id+'/'+spec.label);
   if(publicReferences&&spec.source?.startsWith('https://')){const citation=cell.find('a[data-source-citation]');assert.equal(citation.length,1);const anchor=citation.attr('href')!.slice(1);assert.equal(sources.find('li').filter((_,e)=>$(e).attr('id')===anchor).find('a').attr('href'),spec.source);}

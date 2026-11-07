@@ -1,0 +1,249 @@
+{
+  "baseCommit": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "files": [
+    {
+      "file": "src/data/products/3m-2091-p100-particulate-filters.json",
+      "sha256": "21f68eadb8be732f75c0a0c794a71268110889e6921c890daa5068ffe7520cb2"
+    },
+    {
+      "file": "src/data/products/3m-2097-p100-particulate-filters.json",
+      "sha256": "cbe52d01653e3c2176442f2ec65d7e7dad991a21038b92de592013b31df8b7bc"
+    },
+    {
+      "file": "src/data/products/3m-60921-organic-vapor-p100-cartridges.json",
+      "sha256": "c741ea7da2a772f9c8875827fee857a5b9f6f10a7c9e9a4594652d37bbcf944a"
+    },
+    {
+      "file": "src/data/products/3m-60926-multi-gas-vapor-p100-cartridges.json",
+      "sha256": "d4a69dc094b465ce701ca2d30b0c81b607687aa15d774a47172ad0495268cee2"
+    },
+    {
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "sha256": "13996338973bc814e5e235e2b072de57945f1120c193c69144862508ae498c18"
+    },
+    {
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "sha256": "6a4d547d3e8cd3a0c50e245c438ebf5621643fb41a8e22f2e44e3a66359fc22d"
+    },
+    {
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "sha256": "54a5e6c38bafb2183a864ef0d53234d3841d1b91451e5d7423a2e327a6490967"
+    },
+    {
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "sha256": "557a44270f011c9690f7819466fa72d1bb94a274d1733b7021804a6abba0dba3"
+    },
+    {
+      "file": "src/data/products/bluetti-elite-100-v2-solar-generator-kit.json",
+      "sha256": "b1042ee948270dae5759db192e6c3058720a2d14eb66dd42fe02af0481a0c905"
+    },
+    {
+      "file": "src/data/products/bougerv-53-quart-portable-refrigerator-freezer.json",
+      "sha256": "9002a408f3a6255c9ed5cbae09f61c5921c0724f7937f1ea8274eb233f7b7567"
+    },
+    {
+      "file": "src/data/products/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler.json",
+      "sha256": "5e0cc7c9f54efd0b8d9ab180986e46f3fa56fa231758f34e7eb639de75811bd2"
+    },
+    {
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "sha256": "360aa6192b2f1a24c4b006f5ab3947883ca1a60b4aa579e7a729ddb1d40e7094"
+    },
+    {
+      "file": "src/data/products/ecoflow-delta-2-portable-power-station.json",
+      "sha256": "bc0923af22e0d8f13bc18a57d1e1f45a61492c018fb2f8e7266494153f40a6cc"
+    },
+    {
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "sha256": "f032ae7a9d2e7e1a53f2adc1fd27b02220139ab87d95c75fa9dfb03dc5fad1f1"
+    },
+    {
+      "file": "src/data/products/esee-4-fixed-blade-knife.json",
+      "sha256": "03ef13248b624bf82b1f1b5899220c7483adbf8438a71a1a9fdb05c99eae0fff"
+    },
+    {
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "sha256": "4289bc4e946b84da54d7eb4848b65463a63cba124029bb9e860fa0daddfc78b1"
+    },
+    {
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "sha256": "ab879cfee97a70decc5c2f97285d0396fc89339d991e13338cd4bcc80d048cd8"
+    },
+    {
+      "file": "src/data/products/fenix-pd36r-pro-review.json",
+      "sha256": "4543e583a2b8c53ff7027d15ed6eeecd2261eca72c5870836e2c7e3c3f26558d"
+    },
+    {
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "sha256": "ec2bde139446459c4da7023cbe4c94f90ced93cebc21e187da032e589e0aa888"
+    },
+    {
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "sha256": "729504cd145311ea35949aa4b6eac066c5395003a2d9d04ee4c5432c5babb559"
+    },
+    {
+      "file": "src/data/products/garrett-pro-pointer-at-review.json",
+      "sha256": "801d971562aa9a9639abcc355628ef51998e8d54f7db15d860fd2b4279e07488"
+    },
+    {
+      "file": "src/data/products/gerber-strongarm-fixed-blade-knife.json",
+      "sha256": "b20ee569e2b0de4c46e39de7713cc87d4cfc6bf8ca2d2fd081574f922d274df4"
+    },
+    {
+      "file": "src/data/products/gq-gmc-600-pro-review.json",
+      "sha256": "52a283e904c3c429dea4122f37999fb466eda6d89e50df94c78c35b02e360cb8"
+    },
+    {
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "sha256": "a01ecabbbc0d9c77e6ad11d09f64a5ddc22cafdc1c0a9bde6c90c707c69a903b"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "sha256": "14eb142f5d898c2a9e6b892c85762ffbf9feac7f61e5e748c3f83d17771d6cf8"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-300.json",
+      "sha256": "8582b7936c14cddd6fee9fca5442c153166fb589dee923c698b0af014268c3fc"
+    },
+    {
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "sha256": "93278e4d830ec6686b9d17b18e0352da7a9a00b915cf87ce6c564d0d4c3d5d98"
+    },
+    {
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "sha256": "4d29781c78e827b79e7f0b07d44938df36e65a7c94639390a0eccdac24a2a1e8"
+    },
+    {
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "sha256": "732d97745645d046eecd6a7df7f412686287e06a6d2d4b8c516831e8750dce47"
+    },
+    {
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "sha256": "405c2e06cd4211860c5cc6a3468846ea09ee6fc6b8206b39929e40ce565c72d3"
+    },
+    {
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "sha256": "7367a1c2ab3e4d8a1057a37c470dbae03b5c58e53bd3288409f325f8801d82cf"
+    },
+    {
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "sha256": "39d49d6f56af038c944312754d7dd2e6d63e06374615058680413c0f38ad24b9"
+    },
+    {
+      "file": "src/data/products/midland-er310.json",
+      "sha256": "8c41333ffc09e9da9b537db0f42e73e023e366b5b4a3ec27ad842d8457e3bcb4"
+    },
+    {
+      "file": "src/data/products/morakniv-garberg-blackblade-carbon-survival-kit.json",
+      "sha256": "d5f07c52da034b02bda08453b206ccb235a8700e982e003a842b051b2bb2f075"
+    },
+    {
+      "file": "src/data/products/motorola-talkabout-t802-review.json",
+      "sha256": "d88ba3c5ddcc40a128d29cddda94c644bbebc537e115c1b14ad1af4168abf8d0"
+    },
+    {
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "sha256": "0f3a55654dc0e766621bf583d976b176aa828be373bc962d595d7ac7cf5407ee"
+    },
+    {
+      "file": "src/data/products/oria-wireless-refrigerator-freezer-thermometer.json",
+      "sha256": "6d2e3468c6902015f5ac4f6b90cfed79bd9e71cd0e6e765e3255a05e9117632a"
+    },
+    {
+      "file": "src/data/products/panasonic-eneloop-aa-rechargeable-battery-charger-kit.json",
+      "sha256": "7c04f9a0635aedcffc2c88e99e24531b61c3d8321b23d19a3a2e32c8e43df02d"
+    },
+    {
+      "file": "src/data/products/panasonic-eneloop-aaa-rechargeable-battery-charger-kit.json",
+      "sha256": "6703b017859101c31f64921ca8557cc2562716c13e44e18b4f682fe85cfa4d6f"
+    },
+    {
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "sha256": "a5bfe8377c81d78177f9b42adca05553312a059569003931b71ef9d62860a063"
+    },
+    {
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "sha256": "b3cf9d300a37b9eeb4ec62b261a34f5ee5195a02ed060c284ae4f2ec1e0383c7"
+    },
+    {
+      "file": "src/data/products/royale-velour-plush-thick-toilet-paper.json",
+      "sha256": "04b33c018584f495a13682c6f292b1a88d1bad30c2f33839ca6c6000da837228"
+    },
+    {
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "sha256": "35d3e6409910e0fb5233301b8462bf883a8ca31265f361b7488f344b5cced2b8"
+    },
+    {
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "sha256": "19fd0b49797422be6c17228fe5125fed8f21ed9efab7f2db6241d394fc8b6f92"
+    },
+    {
+      "file": "src/data/products/sos-3600-calorie-emergency-food-rations.json",
+      "sha256": "2576c0414bbc71540ebef1648de2340fa28903cf63184cbd3083b168d7810143"
+    },
+    {
+      "file": "src/data/products/template-product.json",
+      "sha256": "d0037c2bca0c0aeff8d137bec6b8aa1f6c88b02f38fee036730fc607243f4cb0"
+    },
+    {
+      "file": "src/data/products/therm-a-rest-neoair-xtherm-nxt-review.json",
+      "sha256": "76ffd2255b345d6acadb0efc73ebd7218f81327d537ae71a8dcb539f610095c4"
+    },
+    {
+      "file": "src/data/products/vortex-diamondback-hd-10x42-review.json",
+      "sha256": "b0aa6bd739a9ac7071e56dd30d24d7bc40b23d261339854368b457398ae454a3"
+    },
+    {
+      "file": "src/config/analytics.ts",
+      "sha256": "66693e24af0185ba2d5d475143e3f095297c99ef4c3f5ed39254c8e761108ff9"
+    },
+    {
+      "file": "src/config/site.ts",
+      "sha256": "a09a0559a9d72a5d48c5e78aeeefe7855d67affb6c256fcf38213dd4740e7997"
+    },
+    {
+      "file": "src/config/taxonomy.ts",
+      "sha256": "c38b33c5579fbb1df21641ee7bb48ae46e8468a3bbcd5515772bdab61396d6b2"
+    },
+    {
+      "file": "src/data/media/imported-manifest.json",
+      "sha256": "860efabcd4ab950dcab513ebf9ead0eca06fade3b68211d37276e338c9ae7d4c"
+    },
+    {
+      "file": "src/data/media/manifest.json",
+      "sha256": "76e22cd459c54b72b2f8790bdb56208ca685d90dfb5714054fc1c6b570c75f9d"
+    },
+    {
+      "file": "src/data/media/review.json",
+      "sha256": "4ef227b8f3714aee14eacc9dfaee7439fdb29097ed71b62bf35743085ee62265"
+    },
+    {
+      "file": "src/data/media/whiteout-manifest.json",
+      "sha256": "da05759a5a9ada57338a7bac827d5afc7a159efb1420cae552d7fc3c89f9d943"
+    },
+    {
+      "file": "src/lib/affiliate-analytics.ts",
+      "sha256": "b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571"
+    },
+    {
+      "file": "src/lib/affiliate-audit.ts",
+      "sha256": "adeac50314c530466f2e453ba779eec1c6ed3b9ae407ce599379370615d56da8"
+    },
+    {
+      "file": "src/lib/affiliate.ts",
+      "sha256": "019f51a754bdb42c35e0e4a526e824a978ace82c0ee21e90564621f94077485d"
+    },
+    {
+      "file": "src/lib/product-schema.ts",
+      "sha256": "c0dee004adee61fbe0011c495f127acf1a8c39f08043bc4857e736b3b0c5035d"
+    },
+    {
+      "file": "src/lib/product-verification.ts",
+      "sha256": "81fcb7dfeacc6896ca646b53fe6d3ad94c7402843ef568646340171038f5d42c"
+    },
+    {
+      "file": "src/lib/release-policy.ts",
+      "sha256": "1a71543f3760f7cab33fb0293dc8bed0c66e2a8c887438e4404cffd5681a08ce"
+    }
+  ]
+}

@@ -4,19 +4,30 @@ import {readFileSync,readdirSync,mkdirSync,writeFileSync} from 'node:fs';
 import {productVerification} from '../../src/lib/product-verification';
 import {categoryUniverse} from '../../src/config/taxonomy';
 import type {Product} from '../../src/lib/products';
+const cardCopy=JSON.parse(readFileSync('src/data/whiteout-card-copy.json','utf8'));
+const french:Record<string,string>=Object.assign({},...['a','b','c','extra','fixtures','whiteout'].map(part=>JSON.parse(readFileSync(`src/i18n/fr-${part}.json`,'utf8'))));
 const products=readdirSync('src/data/products').filter(f=>f.endsWith('.json')&&!f.startsWith('template')).map(f=>({id:f.replace(/\.json$/,''),data:JSON.parse(readFileSync('src/data/products/'+f,'utf8'))} as Product));
 
 test('all cards and profiles distinguish documentation, listing evidence, editorial review and link availability',async({page})=>{
  test.setTimeout(120_000);
- for(const route of ['/gear/','/blackout/','/fallout/','/outbreak/']){
+ for(const language of ['en','fr']) for(const path of ['/gear/','/blackout/','/fallout/','/outbreak/','/whiteout/']){
+  const prefix=language==='fr'?'/fr':'',route=prefix+path;
+  const t=(text:string)=>language==='fr'?french[text]!:text;
   await page.goto(route);expect(await page.locator('main').innerText()).not.toContain('Information only · Verification pending');
-  const expected=products.filter(p=>route==='/gear/'||route==='/'+categoryUniverse(p.data.category)+'/');
+  const expected=products.filter(p=>path==='/gear/'||path==='/'+categoryUniverse(p.data.category)+'/');
+  await expect(page.locator('article.card')).toHaveCount(expected.length);
+  expect(await page.locator('article.card').allTextContents()).not.toEqual(expect.arrayContaining([expect.stringContaining(t('Information only · Manufacturer sources cited'))]));
+  expect(await page.locator('article.card').allTextContents()).not.toEqual(expect.arrayContaining([expect.stringContaining(t('Listing not independently verified'))]));
   for(const p of expected){
    const status=productVerification(p),card=page.locator(`article.card[data-product-id="${p.id}"]`);
-   await expect(card.locator('[data-product-review]')).toContainText(status.profileLabel);
-   await expect(card.locator('[data-editorial-status]')).toHaveAttribute('data-editorial-status',status.editorialApproved?'model-reviewed':'incomplete');
-   await expect(card.locator('[data-listing-status]')).toHaveAttribute('data-listing-status',status.listingStatus);
-   await expect(card.locator('[data-listing-status]')).toHaveText(status.listingLabel);
+   const compact=categoryUniverse(p.data.category)==='whiteout'&&p.id in cardCopy;
+   const showEditorial=!compact&&`${status.profileLabel} · ${status.editorialApproved?status.editorialLabel:status.evidenceLabel}`!=='Information only · Manufacturer sources cited';
+   const showListing=!compact&&status.listingStatus!=='not-independently-verified';
+   await expect(card.locator('[data-editorial-status]')).toHaveCount(showEditorial?1:0);
+   if(showEditorial)await expect(card.locator('[data-editorial-status]')).toHaveAttribute('data-editorial-status',status.editorialApproved?'model-reviewed':'incomplete');
+   await expect(card.locator('[data-listing-status]')).toHaveCount(showListing?1:0);
+   if(showListing){await expect(card.locator('[data-listing-status]')).toHaveAttribute('data-listing-status',status.listingStatus);await expect(card.locator('[data-listing-status]')).toHaveText(t(status.listingLabel));}
+   await expect(card.locator('[data-product-review]')).toHaveCount(showEditorial||showListing?1:0);
    await expect(card.locator('[data-link-status]')).toHaveAttribute('data-link-status',status.linkActive?'active':'held');
   }
  }
@@ -34,8 +45,8 @@ test('account disclosure and distinct product states remain readable, accessible
  test.setTimeout(120_000);mkdirSync('.tools/qa/account-status',{recursive:true});const rows:any[]=[];
  for(const width of [320,375,768,1024,1440,1920]){
   await page.setViewportSize({width,height:1000});await page.goto('/gear/');
-  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(41);
-  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(6);
+  await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(47);
+  await expect(page.locator('article.card [data-amazon-pending]')).toHaveCount(5);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   const violations=(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations;expect(violations).toEqual([]);rows.push({path:'/gear/',width,axeViolations:0});
   if(width===375||width===1440){

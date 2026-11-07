@@ -1,0 +1,133 @@
+{
+  "name": "Smartwool NTS AW15 250 balaclava",
+  "brand": "Smartwool",
+  "modelNumber": "SC967-001-ONE",
+  "category": "winter-headwear",
+  "summary": "Merino head and face coverage. The owner-supplied Amazon page identifies NTS AW15 250 and lists 100% merino wool; the exact legacy revision and reported weight remain unverified.",
+  "description": "Smartwool currently documents the SW0SC967 Thermal Merino Balaclava family in merino wool. That current family reference does not establish the revision or contents sold under the older NTS AW15 Amazon title. The supplied black illustration is a visual association, not material or variant evidence.",
+  "outboundPolicy": "documentary-references",
+  "specsStatus": "manufacturer-documented",
+  "specs": [
+    {
+      "label": "Documented family",
+      "value": "SW0SC967; older SC967-001-ONE offer not yet matched",
+      "source": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+    },
+    {
+      "label": "Current family material",
+      "value": "100% merino wool, excluding decoration",
+      "source": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+    },
+    {
+      "label": "Current family construction",
+      "value": "Double-layer interlock knit",
+      "source": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+    }
+  ],
+  "pros": [
+    "Merino fabric supports moisture management."
+  ],
+  "cons": [
+    "No waterproof or blizzard wind-barrier claim is established."
+  ],
+  "useCases": [
+    "Planning a headwear layer beneath suitable weather protection."
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "The supplied page identifies NTS AW15 250 and lists 100% merino wool, with black headwear pictured. Confirm the exact legacy reference, fit and composition on the selected offer; the current SC967 manufacturer family is a separate reference."
+    ]
+  },
+  "image": {
+    "src": "/images/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+    "alt": "Cinematic illustration of a black Smartwool-style balaclava on ice in a WHITEOUT frame",
+    "credit": "Owner-supplied cinematic concept illustration",
+    "license": "Owner-authorized WHITEOUT Phase 2 assets"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The supplied page identifies NTS AW15 250 and lists 100% merino wool, with black headwear pictured. Confirm the exact legacy reference, fit and composition on the selected offer; the current SC967 manufacturer family is a separate reference. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B002VGHX1A",
+      "url": "https://www.amazon.ca/dp/B002VGHX1A?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "sources": [
+    {
+      "id": "manufacturer-model",
+      "title": "Smartwool — current Thermal Merino Balaclava, SW0SC967 family",
+      "url": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-amazon-screenshot",
+      "title": "Owner-supplied Amazon.ca product-page screenshot",
+      "url": "https://www.amazon.ca/dp/B002VGHX1A",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "smartwool-thermal-merino-reversible-cuffed-beanie",
+    "therm-a-rest-neoair-xtherm-nxt-review"
+  ],
+  "research": {
+    "checkedAt": "2026-11-06",
+    "identityNotes": "The supplied page identifies NTS AW15 250 and lists 100% merino wool, with black headwear pictured. Confirm the exact legacy reference, fit and composition on the selected offer; the current SC967 manufacturer family is a separate reference. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed.",
+    "listingVerified": false,
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B002VGHX1A",
+      "checkedAt": "2026-11-06",
+      "reason": "The supplied page identifies NTS AW15 250 and lists 100% merino wool, with black headwear pictured. Confirm the exact legacy reference, fit and composition on the selected offer; the current SC967 manufacturer family is a separate reference.",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ]
+    },
+    "confirmed": [
+      {
+        "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+        "sourceIds": [
+          "manufacturer-model"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Confirm the legacy revision, Black colour, one-size selection and composition; the reported 50 g weight is unverified."
+    ],
+    "safetyNotes": [
+      "This balaclava is not waterproof. Extreme wind or blizzard conditions may require additional wind protection. Keep the face opening clear and replace wet layers."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent selected-variant authentication, full product-specific safety review and editorial publication approval remain incomplete."
+    ],
+    "purchaseDestination": {
+      "url": "https://www.amazon.ca/dp/B002VGHX1A",
+      "asin": "B002VGHX1A",
+      "scope": "product-page",
+      "matchedProduct": "Smartwool NTS AW15 250 balaclava",
+      "method": "owner-document",
+      "checkedAt": "2026-11-06",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ],
+      "selectionNote": "The supplied page identifies NTS AW15 250 and lists 100% merino wool, with black headwear pictured. Confirm the exact legacy reference, fit and composition on the selected offer; the current SC967 manufacturer family is a separate reference.",
+      "safetyDecision": "link-permitted",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    }
+  }
+}

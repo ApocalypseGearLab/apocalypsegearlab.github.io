@@ -1,6 +1,7 @@
 import type { Product } from './products';
 import { AMAZON_CA_LINKING_ENABLED } from '../config/site';
 import { isCommerciallyApproved, isPubliclyVisible, publicationIssues, mandatoryHold } from './release-policy';
+import { purchaseDestinationIssues } from './purchase-destination';
 
 export type Marketplace = 'ca' | 'us' | 'other';
 
@@ -12,6 +13,8 @@ export interface MerchantLink {
   /** null = linking is unavailable or held; a URL does not imply listing verification. */
   href: string | null;
   unavailableReason?: string;
+  destinationScope?: 'product-page' | 'exact-variant';
+  selectionNote?: string;
 }
 
 function isTrustedUrl(url: string | null, allowedHosts?: string[]): url is string {
@@ -66,7 +69,10 @@ export function canadianAffiliateIssues(product: Product): string[] {
   if (review) {
     if (review.asin !== link.asin || !review.reason.trim() || !/^\d{4}-\d{2}-\d{2}$/.test(review.checkedAt) || !review.sourceIds.length || review.sourceIds.some(id => !product.data.sources.some(source => source.id === id))) issues.push('The affiliate review does not match this product.');
     if (review.decision === 'hold') issues.push(review.reason);
-  } else {
+  }
+  if (research?.purchaseDestination) {
+    issues.push(...purchaseDestinationIssues(product));
+  } else if (!review) {
     // Unreviewed/new records do not acquire permission just by having a URL.
     issues.push(...publicationIssues(product));
     if (!research?.listingEvidence) issues.push('Evidence matching the Canadian listing to the model is missing.');
@@ -86,7 +92,7 @@ export function getMerchantLinks(product: Product, amazonPermission: Marketplace
   const unavailableReason = mandatoryHold(product)
     ?? (!caEnrolled ? 'Affiliate linking disabled'
     : !matchesCanadianListing(links.amazonCa) ? 'Canadian retailer URL not verified'
-    : product.data.research?.affiliateReview ? caIssues[0] ?? 'Retailer link unavailable'
+    : product.data.research?.affiliateReview || product.data.research?.purchaseDestination ? caIssues[0] ?? 'Retailer link unavailable'
     : !product.data.research?.listingVerified || !hasMatchingCanadianEvidence(product) ? 'Canadian listing identity not verified'
     : product.data.research.safetyStatus !== 'cleared' ? 'Product safety review incomplete'
     : caIssues.length ? 'Product verification incomplete'
@@ -99,6 +105,10 @@ export function getMerchantLinks(product: Product, amazonPermission: Marketplace
       unavailableReason,
       label: 'View on Amazon.ca',
       href: caEnrolled && caIssues.length === 0 ? links.amazonCa.url : null,
+      ...(product.data.research?.purchaseDestination ? {
+        destinationScope: product.data.research.purchaseDestination.scope,
+        selectionNote: product.data.research.purchaseDestination.selectionNote,
+      } : {}),
     },
     {
       key: 'amazon-com',

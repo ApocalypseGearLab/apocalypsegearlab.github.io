@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-07",
+  "branch": "feat/whiteout-phase2",
+  "build": {
+    "pages": 122,
+    "languages": 2
+  },
+  "unit": {
+    "passed": 131,
+    "failed": 0
+  },
+  "types": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "browser": {
+    "passed": 22,
+    "chromium": 11,
+    "webkit": 11,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0
+  },
+  "cardAudit": {
+    "pages": 122,
+    "cardInstances": 502,
+    "languages": [
+      "en-CA",
+      "fr-CA"
+    ],
+    "universes": [
+      "blackout",
+      "fallout",
+      "outbreak",
+      "whiteout"
+    ],
+    "forbiddenLabels": 0,
+    "emptyVerificationWrappers": 0,
+    "retainedXThermWarnings": 14
+  },
+  "affiliate": {
+    "active": 47,
+    "held": 5,
+    "invalidUrls": 0,
+    "duplicateUrls": 0,
+    "duplicateAsins": 0,
+    "undocumentedBlocks": 0
+  },
+  "passedCommands": [
+    "npm run build",
+    "npm run check",
+    "npm test",
+    "npm run test:site",
+    "node scripts/verify-product-card-labels.mjs",
+    "npm run audit:affiliate",
+    "npm run audit:verification",
+    "npm run release:check",
+    "npm run test:conversion",
+    "focused Chromium/WebKit regressions",
+    "independent source/output preservation",
+    "git diff --check"
+  ],
+  "preservation": {
+    "builtPages": 122,
+    "cardInstancesCompared": 502,
+    "removedLabelInstances": 664,
+    "unchangedDetailedVerificationBlocks": 104,
+    "otherCardContentIdentical": true,
+    "affiliateButtonsIdentical": true,
+    "purchaseSectionsIdentical": true,
+    "seoMetadataIdentical": true,
+    "sourceFilesChecked": 1355,
+    "existingSourceFilesChanged": [
+      "scripts/whiteout-phase2-preservation.mjs",
+      "src/components/ProductCard.astro",
+      "tests/browser/product-verification.spec.ts"
+    ],
+    "productRecordsUnchanged": 53,
+    "unrelatedUniverseHeroUnchanged": true,
+    "branch": "feat/whiteout-phase2",
+    "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+    "staged": false,
+    "committed": false,
+    "pushed": false,
+    "merged": false,
+    "deployed": false
+  },
+  "changedFiles": [
+    "src/components/ProductCard.astro",
+    "scripts/whiteout-phase2-preservation.mjs",
+    "tests/browser/product-verification.spec.ts",
+    "scripts/verify-product-card-labels.mjs",
+    "docs/global-product-card-labels.md",
+    "docs/qa/global-card-labels/source-changes.json",
+    "docs/qa/global-card-labels/preservation.json",
+    "docs/qa/global-card-labels/results.json"
+  ],
+  "remainingIssues": [],
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false
+}

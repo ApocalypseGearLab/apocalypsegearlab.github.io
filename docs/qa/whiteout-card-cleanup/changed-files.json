@@ -1,0 +1,358 @@
+{
+  "scope": "This cleanup only; previous WHITEOUT work preserved",
+  "excludes": [
+    "temporary scripts/logs/tools",
+    "generated builds",
+    "the inventory itself"
+  ],
+  "files": [
+    {
+      "file": "docs/qa/whiteout-card-cleanup/after.json",
+      "status": "added",
+      "bytes": 210161,
+      "sha256": "afb99e2c7b91b131e2749646bb73eb9188000e3becc46c24e45dedf65146e8ff"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/before.json",
+      "status": "added",
+      "bytes": 158844,
+      "sha256": "60be6c5b6fe43ce55b86f7eb95564de87fd747d92659703094a20f270392df18"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/copy-review.json",
+      "status": "added",
+      "bytes": 35811,
+      "sha256": "8eea0a9e8bf92fa4dd9c28056939731ce47de534577e899cdfa4f2741d9536db"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/preservation.json",
+      "status": "added",
+      "bytes": 589,
+      "sha256": "f13c8c4437a22544fa6348aa619eab55db2d1cb5171d6b41046ba5d99ffd215f"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/results.json",
+      "status": "added",
+      "bytes": 3695,
+      "sha256": "25e75acdfb4697b989e6ee2bb97f5640433cf9c8bfbcc49976ce4cd8d04be4e1"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-fnirsi-reference-en-1440.png",
+      "status": "added",
+      "bytes": 110165,
+      "sha256": "242493a537d9e3b081760610c32746c6f5f87af8480eeb406497f2b7044b2069"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-fnirsi-reference-en-375.png",
+      "status": "added",
+      "bytes": 155194,
+      "sha256": "605267eb75213580689fd6ee6ca71c9700fb1ac4f7a9fe7b808c52192c2d34a3"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-fnirsi-reference-fr-1440.png",
+      "status": "added",
+      "bytes": 115922,
+      "sha256": "dfe385c4ace03fbb8400e71e35074fec3fc21aae518b284bd7e2c02add1ef54d"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-fnirsi-reference-fr-375.png",
+      "status": "added",
+      "bytes": 159539,
+      "sha256": "ffe04ecbb5e532060e83159685cbc6ba6f8cc79e7b23bf08109cefbd250fb74b"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-en-1440.png",
+      "status": "added",
+      "bytes": 107568,
+      "sha256": "1243fd8b7fcd020a8161fc90b7ea958b03581c2070b3402995349de75f5e900f"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-en-320.png",
+      "status": "added",
+      "bytes": 110706,
+      "sha256": "f550c96af57d1c71419e449bdc638b1e95498d8af8d67cacfef72da89868973e"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-en-375.png",
+      "status": "added",
+      "bytes": 160848,
+      "sha256": "5854905502834d1a4c8713be8950ac4db897612ddc45605c57196427f6eea093"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-en-768.png",
+      "status": "added",
+      "bytes": 174178,
+      "sha256": "0f23403ceb3910a77638c34ff116f1302a8d12028085be4701c367538dc447d7"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-fr-1440.png",
+      "status": "added",
+      "bytes": 109953,
+      "sha256": "6d244a57d8898756ee586866d06910d43783d805abd0d049eed2550c470bc671"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-fr-320.png",
+      "status": "added",
+      "bytes": 113263,
+      "sha256": "296e96feb87e1ad71478bfed7a5c8c415aa1c65508472a1ac53df454cd860b7c"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-fr-375.png",
+      "status": "added",
+      "bytes": 162713,
+      "sha256": "8504c0da1592f01c19cf334ef7ade93294ff2288121e775451ee74852eee2f4a"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-smartwool-thermal-merino-reversible-cuffed-beanie-fr-768.png",
+      "status": "added",
+      "bytes": 176599,
+      "sha256": "2ecb12bc407b93b7abe7ac8be9ab75fed7989912eaa5209c9d4bd6c7abc645db"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-en-1440.png",
+      "status": "added",
+      "bytes": 118456,
+      "sha256": "6efdb3cc62811f65cebaba7c1abec3763d65c65b8c0c4196812a7e884a93ecb7"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-en-320.png",
+      "status": "added",
+      "bytes": 122600,
+      "sha256": "4ac76e08a27e473fefdb1242f9b9a8747223f7238d9f2dad837143e71920b6bd"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-en-375.png",
+      "status": "added",
+      "bytes": 160687,
+      "sha256": "b73953058d4099382302850c911cb11f8797143896f0dac58ae75ef6af76894f"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-en-768.png",
+      "status": "added",
+      "bytes": 172882,
+      "sha256": "45a5b8b5fb96416012f9eb6010171053e142a52ed569979eacb147216bb35aa9"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-fr-1440.png",
+      "status": "added",
+      "bytes": 121114,
+      "sha256": "1da656a313b497c47b1d425a15b2a7795b3faefb4d4263e4951fa7e0693fb8fb"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-fr-320.png",
+      "status": "added",
+      "bytes": 125430,
+      "sha256": "6d6348e6c1463704c1dfbc94926dbe087591089ec6aa5e1926f6362051b67063"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-fr-375.png",
+      "status": "added",
+      "bytes": 162517,
+      "sha256": "3708ce97cd28d851a2467b9435d0ecddc0d7ea6b76f79eba2a54e18ebea84c50"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-therm-a-rest-neoair-xtherm-nxt-review-fr-768.png",
+      "status": "added",
+      "bytes": 175140,
+      "sha256": "0d17605e010940ec2065b063c60d125ba898e4ce416a6f95ab442b24c7207b6a"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-en-1440.png",
+      "status": "added",
+      "bytes": 632919,
+      "sha256": "5192c97a22743765a7f52d70dab560f7055831d03cca5ac769f1fd3e516a061b"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-en-320.png",
+      "status": "added",
+      "bytes": 685615,
+      "sha256": "5a75f09fea3210ee81a110e1304f9e7535f8c496817c2dde6e718dc44e95cf5f"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-en-375.png",
+      "status": "added",
+      "bytes": 953685,
+      "sha256": "7f85d61fe13ca8aa2cca77a0189d2ba5f459deb78c47ee1bf7a596834ced7eb6"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-en-768.png",
+      "status": "added",
+      "bytes": 1014444,
+      "sha256": "56fa17aa237cea41a09bd813ef3f4956db7f85305f226415885323b1b4e0cd13"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-fr-1440.png",
+      "status": "added",
+      "bytes": 648092,
+      "sha256": "455f2b732787b8a2395fa3898b590395da670b27afb000d8a65ef6cabf641e25"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-fr-320.png",
+      "status": "added",
+      "bytes": 704428,
+      "sha256": "c69ffa53312e75fc88c103ffbb02b08ca791b765a63d860a17cc402d0fcb4eff"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-fr-375.png",
+      "status": "added",
+      "bytes": 968767,
+      "sha256": "d429d9d8805019c6b702736744585f34d35426e642db20251b783b50461f0730"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/after-whiteout-grid-fr-768.png",
+      "status": "added",
+      "bytes": 1030587,
+      "sha256": "108570fde84d5e11bdbb029340894e66b47a7bad9194f001f14e1ad5509f9d90"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-fnirsi-reference-en-1440.png",
+      "status": "added",
+      "bytes": 112860,
+      "sha256": "40addecd437ebbd02d8769f14b1335a79b859c8784bf2a5f25ab0a2cdf6b29e2"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-fnirsi-reference-en-375.png",
+      "status": "added",
+      "bytes": 155194,
+      "sha256": "605267eb75213580689fd6ee6ca71c9700fb1ac4f7a9fe7b808c52192c2d34a3"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-fnirsi-reference-fr-1440.png",
+      "status": "added",
+      "bytes": 118685,
+      "sha256": "76f0ded369c6ab0911c694b261b2cb5edfe319c50bbbffe29eb5d913d545f6b5"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-fnirsi-reference-fr-375.png",
+      "status": "added",
+      "bytes": 163816,
+      "sha256": "bfab80412e58a8c09bd1edfba3919979296db85bfd3e588c138e619faf1114e0"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-smartwool-thermal-merino-reversible-cuffed-beanie-en-1440.png",
+      "status": "added",
+      "bytes": 132533,
+      "sha256": "78e65291dd20b057964042d862bb4c812039a30153f907de25b04998ed4d6706"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-smartwool-thermal-merino-reversible-cuffed-beanie-en-375.png",
+      "status": "added",
+      "bytes": 184573,
+      "sha256": "f67f4217af819f2efbe7a792a19775b2b4068bad1f1cc172cf1169bd4cd8204d"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-smartwool-thermal-merino-reversible-cuffed-beanie-fr-1440.png",
+      "status": "added",
+      "bytes": 137478,
+      "sha256": "ecba07ca8957e481b35f26546c694ec202ac1a025a6a50ecb3284a250af50653"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-smartwool-thermal-merino-reversible-cuffed-beanie-fr-375.png",
+      "status": "added",
+      "bytes": 188964,
+      "sha256": "da46fc1f7e84ca845a958daa2ffb85aae315f82c22ac2a66142adfdb9d0a1fed"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-therm-a-rest-neoair-xtherm-nxt-review-en-1440.png",
+      "status": "added",
+      "bytes": 151408,
+      "sha256": "6334987e4d130be4e8977a0b5721ed14552e3e1a3f3b6cd5758c78e15c17e35a"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-therm-a-rest-neoair-xtherm-nxt-review-en-375.png",
+      "status": "added",
+      "bytes": 196625,
+      "sha256": "c79f85f6c43fe2ff9e2a8412f62ecb2ca9254bd8c702fc943cc863f841f92d22"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-therm-a-rest-neoair-xtherm-nxt-review-fr-1440.png",
+      "status": "added",
+      "bytes": 160949,
+      "sha256": "bcd0351738b02283773a7de74e1b0b80fb13f84f4f57c0946f5c33350ce6f83e"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-therm-a-rest-neoair-xtherm-nxt-review-fr-375.png",
+      "status": "added",
+      "bytes": 204675,
+      "sha256": "8bcd21d036537bc80cc70c7038d64fb1b9ea82a48b420c7f98f81f158f59dada"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-whiteout-grid-en-1440.png",
+      "status": "added",
+      "bytes": 814590,
+      "sha256": "07bce2fa8617548b8f6d108a8c25a0f8b0f7c6b920fe6ce6d24d789851739d6c"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-whiteout-grid-en-375.png",
+      "status": "added",
+      "bytes": 1097459,
+      "sha256": "0d6009d6b670bb04c0fb87ac5f3c80c3ec176fdf2fd7c97680dcec6f76f0fdfa"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-whiteout-grid-fr-1440.png",
+      "status": "added",
+      "bytes": 865027,
+      "sha256": "2e30d20789f681f510fd5da5d89dc3638fbf0f1696026c4745d41660ca2be589"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/screenshots/before-whiteout-grid-fr-375.png",
+      "status": "added",
+      "bytes": 1126697,
+      "sha256": "da234b44aa82a7047fc5926c971d8550c8a2f89442814dd6854071e10959529a"
+    },
+    {
+      "file": "docs/qa/whiteout-card-cleanup/source-changes.json",
+      "status": "added",
+      "bytes": 9558,
+      "sha256": "18a251f27fc283c2215237db1e532e458b8708cb59b6bd07f16437a380c747f2"
+    },
+    {
+      "file": "docs/whiteout-card-cleanup.md",
+      "status": "added",
+      "bytes": 11610,
+      "sha256": "dd2eede28f9d441c423b045cf7cbf7bbb9205b95c4b20f2ccc71728772980d7d"
+    },
+    {
+      "file": "scripts/whiteout-phase2-preservation.mjs",
+      "status": "modified",
+      "bytes": 2044,
+      "sha256": "4df5351c778b2802a15281c70509f7166cc07856f6f1a9d8eac7c210aec8f8b2"
+    },
+    {
+      "file": "src/components/ProductCard.astro",
+      "status": "modified",
+      "bytes": 5683,
+      "sha256": "7f315822b8ec957909bc2327cb04d428037b8306c8b4c8ae01af713051ee3509"
+    },
+    {
+      "file": "src/components/ProductImage.astro",
+      "status": "modified",
+      "bytes": 4383,
+      "sha256": "8e3eae1bce55520177949143f5c409ba6029dfcba515a0fe6ea643db9f4603d9"
+    },
+    {
+      "file": "src/data/whiteout-card-copy.json",
+      "status": "added",
+      "bytes": 1571,
+      "sha256": "eb1c020d2ba78682d56d394fc7000e8ee715887e81d3048cb945ecb9e41dfd9b"
+    },
+    {
+      "file": "src/i18n/fr-whiteout.json",
+      "status": "modified",
+      "bytes": 45636,
+      "sha256": "5d64dc59c6118334858610c4bf34b664e8de92c66edf75836a4a8bee02e5e484"
+    },
+    {
+      "file": "tests/browser/whiteout-card-cleanup.spec.ts",
+      "status": "added",
+      "bytes": 8089,
+      "sha256": "22f42032ad4779530e48c5c672d4ce52d264149afc724f3d55247b6e624dba76"
+    },
+    {
+      "file": "tests/browser/xtherm-temperature-warning.spec.ts",
+      "status": "modified",
+      "bytes": 4684,
+      "sha256": "7e7b9543dff2f6ed109666fe5fb7c6625e1ae5716a3e15961d0afdfb64dae7fb"
+    }
+  ]
+}

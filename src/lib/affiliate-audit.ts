@@ -27,13 +27,17 @@ export function auditCanadianCatalogue(products: Product[]) {
       && evidence.url === `https://www.amazon.ca/dp/${link.asin}`
       && evidence.matchedAsin === link.asin && evidence.matchedModel === (product.data.modelNumber ?? product.data.name));
     const merchant = getMerchantLinks(product)[0]!;
-    const blockDocumented = Boolean(mandatoryHold(product) || (product.data.research?.affiliateReview?.decision === 'hold' && product.data.research.affiliateReview.reason.trim()));
+    const destination = product.data.research?.purchaseDestination;
+    const blockDocumented = Boolean(mandatoryHold(product) || (product.data.research?.affiliateReview?.decision === 'hold' && product.data.research.affiliateReview.reason.trim())
+      || (destination?.safetyDecision === 'hold' && destination.safetyReason.trim()));
     return {
       slug: product.id, product: product.data.name, model: product.data.modelNumber,
       asin: link.asin, url: link.url, urlValid: technicalIssues.length === 0,
       technicalIssues, duplicateAsinWith: [] as string[], duplicateUrlWith: [] as string[],
       offerVerified, offerEvidenceMethod: evidence?.method ?? null,
-      affiliateDecision: product.data.research?.affiliateReview?.decision ?? 'unreviewed',
+      affiliateDecision: product.data.research?.affiliateReview?.decision ?? destination?.safetyDecision ?? 'unreviewed',
+      decisionSource: product.data.research?.affiliateReview ? 'recorded-review' : destination ? 'scoped-destination' : 'unreviewed',
+      destinationScope: destination?.scope ?? null, destinationEvidenceMethod: destination?.method ?? null,
       buttonActive: Boolean(merchant.href), blocker: merchant.href ? null : merchant.unavailableReason ?? 'Undocumented block',
       blockDocumented: merchant.href ? null : blockDocumented,
       commercialIssues: canadianAffiliateIssues(product), editorialIssues: publicationIssues(product),

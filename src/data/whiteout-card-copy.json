@@ -1,0 +1,25 @@
+{
+  "outdoor-research-alti-ii-gore-tex-mitts": {
+    "summary": "Modular winter mitts with a GORE-TEX shell and removable insulated liner. Select your size and colour on Amazon.",
+    "caution": "No glove or mitt guarantees a safe exposure time in extreme cold."
+  },
+  "hestra-army-leather-heli-ski-gloves": {
+    "summary": "Five-finger ski gloves with a leather palm and replaceable liner. Select your size and colour on Amazon.",
+    "caution": "These gloves are not waterproof; add protection in sustained wet conditions."
+  },
+  "oakley-flight-deck-m-goggles": {
+    "summary": "Medium snow goggles with a Matte Black / Prizm Snow Sapphire Iridium option. The lens is intended for sun and clouds, not every blizzard or low-light situation."
+  },
+  "smartwool-nts-250-balaclava": {
+    "summary": "Merino head and face coverage. The Amazon page describes the NTS AW15 250 in Black with 100% merino wool.",
+    "caution": "Merino knit is not waterproof; add weather protection as needed."
+  },
+  "smartwool-thermal-merino-reversible-cuffed-beanie": {
+    "summary": "The linked Amazon option is Mink Heather / One Size, sold as Merino Sport 250. A merino layer for a winter headwear kit.",
+    "caution": "Merino knit is not a waterproof shell."
+  },
+  "therm-a-rest-neoair-xtherm-nxt-review": {
+    "summary": "Regular Wide / Neptune sleeping pad with R-value 7.3 and a documented weight of 540 g. An insulated ground layer for a winter sleep system.",
+    "caution": "Amazon warning: Do not use below −20 °C. R-value is not a safe air-temperature rating."
+  }
+}

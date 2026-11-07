@@ -43,6 +43,9 @@ export const CATEGORIES = [
   { id: 'optics-observation', label: 'Optics & observation', universe: 'outbreak' },
   { id: 'metal-detection', label: 'Exploration & metal detection', universe: 'fallout' },
   { id: 'winter-sleep-systems', label: 'Winter sleeping pads & insulation', universe: 'whiteout' },
+  { id: 'winter-gloves-mitts', label: 'Winter gloves & mitts', universe: 'whiteout' },
+  { id: 'winter-headwear', label: 'Winter headwear & face layers', universe: 'whiteout' },
+  { id: 'snow-goggles', label: 'Snow goggles & lens selection', universe: 'whiteout' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

@@ -1,0 +1,160 @@
+{
+  "completedAt": "2026-11-07T00:58:32.447Z",
+  "branch": "feat/whiteout-phase2",
+  "baseCommit": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "outcome": {
+    "newlyActivated": 0,
+    "whiteoutHeld": 6,
+    "existingActivePreserved": 41,
+    "malformedWhiteoutUrls": 0,
+    "undocumentedWhiteoutBlocks": 0,
+    "reason": "Each exact target offer still lacks required evidence; explicit product-level holds are effective.",
+    "affiliateRuntimeDefectFound": false,
+    "allBrowserChecksPassed": false
+  },
+  "checks": [
+    {
+      "check": "check",
+      "exitCode": 0,
+      "log": "tmp/button-audit-check.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "log": "tmp/button-audit-build.log"
+    },
+    {
+      "check": "test:site",
+      "exitCode": 0,
+      "log": "tmp/button-audit-test-site.log"
+    },
+    {
+      "check": "test:images",
+      "exitCode": 0,
+      "log": "tmp/button-audit-test-images.log"
+    },
+    {
+      "check": "release:check",
+      "exitCode": 0,
+      "log": "tmp/button-audit-release-check.log"
+    },
+    {
+      "check": "audit:affiliate",
+      "exitCode": 0,
+      "log": "tmp/button-audit-audit-affiliate.log"
+    },
+    {
+      "check": "audit:verification",
+      "exitCode": 0,
+      "log": "tmp/button-audit-audit-verification.log"
+    },
+    {
+      "check": "test:conversion",
+      "exitCode": 0,
+      "log": "tmp/button-audit-test-conversion.log"
+    },
+    {
+      "check": "test:bougerv",
+      "exitCode": 0,
+      "log": "tmp/button-audit-test-bougerv.log"
+    },
+    {
+      "check": "test:phase55",
+      "exitCode": 0,
+      "log": "tmp/button-audit-test-phase55.log"
+    },
+    {
+      "check": "test:products",
+      "exitCode": 0,
+      "log": "tmp/button-audit-test-products.log"
+    },
+    {
+      "check": "test:site",
+      "exitCode": 0,
+      "log": "tmp/button-audit-test-site.log"
+    }
+  ],
+  "unit": {
+    "command": "npm test",
+    "passed": 129,
+    "failed": 0,
+    "skipped": 0
+  },
+  "typecheck": {
+    "command": "npm run check",
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "chromium": {
+    "command": "npm run test:browser -- --reporter=line,json",
+    "startTime": "2026-11-07T00:42:23.355Z",
+    "duration": 532959.813,
+    "expected": 214,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "webkit": {
+    "command": "npm run test:browser:webkit -- --reporter=line,json",
+    "startTime": "2026-11-07T00:55:28.812Z",
+    "duration": 92111.77399999999,
+    "expected": 62,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "intermittentWebkitFinding": {
+    "firstRun": {
+      "startTime": "2026-11-07T00:51:44.728Z",
+      "duration": 84133.859,
+      "expected": 62,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "isolatedTracedRun": {
+      "startTime": "2026-11-07T00:54:19.383Z",
+      "duration": 30515.221,
+      "expected": 10,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "description": "First full run: French tap on balaclava at 390 px remained on English (62 passed, 1 failed). Ten isolated traced repetitions passed. Second full run: all WHITEOUT profiles passed but English tap on /fr/blackout/ with read-only localStorage at 375 px remained French (62 passed, 1 failed). Cause unresolved; no selector code changed. Do not describe the WebKit suite as green.",
+    "secondFailure": {
+      "test": "a read-only saved French preference cannot override an explicit English selection",
+      "width": 375,
+      "expectedUrl": "http://127.0.0.1:4321/blackout/",
+      "actualUrl": "http://127.0.0.1:4321/fr/blackout/",
+      "timeoutMs": 5000,
+      "screenshot": "webkit-375-language-failure.png"
+    }
+  },
+  "correctedDuringValidation": [
+    "The added browser test initially imported the translation module through an unsupported JSON-loader path; the final test reads its JSON fixture directly.",
+    "The temporary diagnostic helper was given the required Astro collection field before the final clean type check."
+  ],
+  "limitations": [
+    "Amazon challenge responses are not selected-offer evidence and do not establish broken links.",
+    "Two full WebKit runs each had one touch-navigation failure, on different cases. The original case passed ten traced repetitions. The interaction cause remains unresolved.",
+    "Physical iPhone Safari and real selected-offer availability are not certified by local browser emulation.",
+    "Synthetic eligibility/button fixtures do not grant production verification or send live affiliate clicks."
+  ],
+  "followupFiles": [
+    "tests/whiteout-phase2.test.ts",
+    "tests/browser/whiteout-phase2.spec.ts",
+    "docs/whiteout-amazon-button-audit.md",
+    "docs/whiteout-phase2-implementation.md",
+    "docs/qa/whiteout-button-audit/amazon-recheck.json",
+    "docs/qa/whiteout-button-audit/gates.json",
+    "docs/qa/whiteout-button-audit/results.json",
+    "docs/qa/whiteout-button-audit/webkit-375-language-failure.png"
+  ],
+  "originalUniverseHeroSha256": "2b7b1871dc265aadbcf09217203f1cd4b290e19d38ff0473e196181048d7a841",
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false
+}

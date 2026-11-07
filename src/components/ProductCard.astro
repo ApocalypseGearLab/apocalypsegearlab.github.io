@@ -10,34 +10,46 @@ import { getMerchantLinks } from '../lib/affiliate';
 import AffiliateButton from './AffiliateButton.astro';
 import DisclosureNotice from './DisclosureNotice.astro';
 import type { CtaPlacement } from '../lib/affiliate-analytics';
+import whiteoutCardCopy from '../data/whiteout-card-copy.json';
 
 interface Props { product: Product; headingLevel?: 2 | 3; releasePreview?: boolean; placement?: CtaPlacement }
 const { product, headingLevel = 3, releasePreview = false, placement = 'related-card' } = Astro.props;
 const Heading = headingLevel === 2 ? 'h2' : 'h3';
 const { data } = product;
 const review = productVerification(product);
+// Suppress these two repetitive card labels only; evidence and review states
+// remain available on the detailed profile and in the verification records.
+const showProfileLabel = `${review.profileLabel} · ${review.editorialApproved ? review.editorialLabel : review.evidenceLabel}` !== 'Information only · Manufacturer sources cited';
+const showListingLabel = review.listingStatus !== 'not-independently-verified';
 const amazonLink = getMerchantLinks(product).find(link => link.key === 'amazon-ca');
 const universe = UNIVERSES[categoryUniverse(data.category)];
+// Presentation copy only: detailed records, evidence and link gates stay intact.
+// Unconfigured products retain the full existing notices until copy is reviewed.
+const compactCopy = universe.id === 'whiteout'
+  ? (whiteoutCardCopy as Record<string, { summary: string; caution?: string }>)[product.id]
+  : undefined;
 const artwork = importedArtwork(product.id);
 const illustrated = artwork && canPublishImportedAsset(artwork);
 const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
 ---
 
-<article class:list={['panel', 'card', { 'card--illustrated': illustrated }]} data-product-id={product.id} data-universe={universe.id} style={`--accent: ${universe.id === 'whiteout' ? '#7DD3FC' : universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
-  <ProductImage slug={product.id} label={categoryLabel(data.category)} universe={universe.id} releasePreview={releasePreview} />
+<article class:list={['panel', 'card', { 'card--illustrated': illustrated, 'card--compact': Boolean(compactCopy) }]} data-product-id={product.id} data-universe={universe.id} style={`--accent: ${universe.id === 'whiteout' ? '#7DD3FC' : universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
+  <ProductImage slug={product.id} label={categoryLabel(data.category)} universe={universe.id} releasePreview={releasePreview} compactCaption={Boolean(compactCopy)} />
   <p class="label">{universe.name} · {categoryLabel(data.category)}</p>
   <p class="brand">{data.brand}{data.modelNumber ? ` · ${data.modelNumber}` : ''}</p>
   <Heading><a href={profileHref}>{data.name}</a></Heading>
-  <p>{data.summary}</p>
-  <div class="card-review" data-product-review>
-    <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}><span class:list={['badge', { 'badge--warn': !review.fullyApproved }]}>{review.profileLabel} · {review.editorialApproved ? review.editorialLabel : review.evidenceLabel}</span></p>
-    <p data-listing-status={review.listingStatus}>{review.listingLabel}</p>
-  </div>
-  {productCaution(product) && <p class="card-caution">{productCaution(product)!.split('. ')[0]}.</p>}
-  {!productCaution(product) && data.cons[0] && <p class="card-caution"><strong>Consider:</strong> {data.cons[0]}</p>}
+  <p>{compactCopy?.summary ?? data.summary}</p>
+  {!compactCopy && (showProfileLabel || showListingLabel) && <div class="card-review" data-product-review>
+    {showProfileLabel && <p data-editorial-status={review.editorialApproved ? 'model-reviewed' : 'incomplete'}><span class:list={['badge', { 'badge--warn': !review.fullyApproved }]}>{review.profileLabel} · {review.editorialApproved ? review.editorialLabel : review.evidenceLabel}</span></p>}
+    {showListingLabel && <p data-listing-status={review.listingStatus}>{review.listingLabel}</p>}
+  </div>}
+  {compactCopy?.caution && <p class="card-caution" data-card-caution>{compactCopy.caution}</p>}
+  {!compactCopy && productCaution(product) && <p class="card-caution">{productCaution(product)!.split('. ')[0]}.</p>}
+  {!compactCopy && !productCaution(product) && data.cons[0] && <p class="card-caution"><strong>Consider:</strong> {data.cons[0]}</p>}
   {(!data.links.amazonCa.url || amazonLink?.href) && <a class="profile-details" href={profileHref}>Product details<span class="visually-hidden"> for {data.name}</span></a>}
   {data.links.amazonCa.url && amazonLink && <div class="card-purchase">
     {amazonLink.href && <><p class="label" data-link-status="active">{review.linkLabel}</p><DisclosureNotice compact /></>}
+    {!compactCopy && amazonLink.href && amazonLink.destinationScope && <p class="card-hold-reason" data-purchase-destination={amazonLink.destinationScope}><strong>{amazonLink.destinationScope === 'product-page' ? 'Product page — confirm your variant on Amazon.' : 'Owner-documented variant — confirm the current offer.'}</strong> {amazonLink.selectionNote}</p>}
     {amazonLink.href ? <AffiliateButton link={amazonLink} productId={product.id} productName={data.name} placement={placement} /> : <>
       <p class="label pending-message" data-amazon-pending data-link-status="held">Amazon link pending verification</p>
       <p class="card-hold-reason">{review.linkBlocker?.split('. ')[0]?.replace(/\.$/, '')}.</p>
@@ -52,6 +64,9 @@ const profileHref = `${releasePreview ? '/review' : ''}/gear/${product.id}/`;
   .card :is(h2, h3) a:hover { color: var(--accent); }
   .card--illustrated::before, .card--illustrated::after { display: none; }
   .card--illustrated:focus-within { border-color: var(--accent); }
+  .card--compact { display: flex; flex-direction: column; height: 100%; }
+  .card--compact > .profile-details { margin-top: auto; }
+  .card--compact .card-purchase { margin-top: 0; }
   @media (hover: hover) { .card--illustrated:hover { border-color: var(--accent); } }
   .brand { color: var(--c-muted); font-size: 0.9rem; }
   .card-review { display: grid; gap: var(--s-2); color: var(--c-muted); font-size: 0.85rem; }

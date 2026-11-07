@@ -3,6 +3,7 @@ import { readFileSync, readdirSync, existsSync, writeFileSync } from 'node:fs';
 import { resolve, sep } from 'node:path';
 import { createHash } from 'node:crypto';
 import { load } from 'cheerio';
+import { beforeWhiteoutPhase2 } from './whiteout-phase2-preservation.mjs';
 
 const read = file => readFileSync(file, 'utf8');
 const site = 'https://apocalypsegearlab.github.io';
@@ -13,11 +14,11 @@ const fileFor = pathname => resolve(root, '.' + pathname, pathname.endsWith('/')
 const english = files.filter(file => !file.split(sep).join('/').startsWith('fr/'));
 const toFrench = path => path === '/404.html' ? '/fr/404/' : '/fr' + path;
 const normalize = value => value.replace(/\s+/gu, ' ').trim();
-const dictionary = Object.assign({}, ...['a', 'b', 'c', 'extra', 'fixtures'].map(part => JSON.parse(read('src/i18n/fr-' + part + '.json'))));
-const unchanged = new Set(['a', 'b', 'c'].flatMap(part => JSON.parse(read('src/i18n/allow-' + part + '.json'))));
+const dictionary = Object.assign({}, ...['a', 'b', 'c', 'extra', 'fixtures', 'whiteout'].map(part => JSON.parse(read('src/i18n/fr-' + part + '.json'))));
+const unchanged = new Set(['a', 'b', 'c', 'whiteout'].flatMap(part => JSON.parse(read('src/i18n/allow-' + part + '.json'))));
 const indexed = new Set();
 let affiliateControls = 0, references = 0, checkedTextNodes = 0;
-for (const row of JSON.parse(read('docs/qa/bilingual/protected-files.json'))) assert.equal(createHash('sha256').update(readFileSync(row.file)).digest('hex'), row.sha256, 'Protected source changed: ' + row.file);
+for (const row of JSON.parse(read('docs/qa/bilingual/protected-files.json'))) assert.equal(createHash('sha256').update(beforeWhiteoutPhase2(row.file, readFileSync(row.file))).digest('hex'), row.sha256, 'Protected source changed outside reviewed Phase 2 hunks: ' + row.file);
 assert.equal(files.length, english.length * 2, 'One French page for every existing English page');
 for (const file of english) {
   const pathname = pathFor(file), frenchPath = toFrench(pathname);

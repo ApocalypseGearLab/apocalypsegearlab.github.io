@@ -28,7 +28,7 @@ test('catalogue guide, sector links and unchanged cards remain accessible from 3
  for(const width of [320,375,768,1024,1440,1920]){
   await page.setViewportSize({width,height:1000});await page.goto('/gear/');
   await expect(page.locator('[data-editorial-guide]')).toContainText('not a hands-on test');
-  await expect(page.locator('article.card')).toHaveCount(47);await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(41);
+  await expect(page.locator('article.card')).toHaveCount(52);await expect(page.locator('article.card a[data-affiliate-click]')).toHaveCount(47);
   const nav=page.getByRole('navigation',{name:'Equipment sectors'});for(const sector of ['blackout','fallout','outbreak','whiteout'])await expect(nav.locator(`a[href="/${sector}/"]`)).toHaveCount(1);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   const violations=(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations;expect(violations).toEqual([]);records.push({width,axeViolations:violations.length});

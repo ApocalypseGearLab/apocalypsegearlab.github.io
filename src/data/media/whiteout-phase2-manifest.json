@@ -1,0 +1,369 @@
+{
+  "provenance": {
+    "source": "Five cinematic PNGs attached by the owner to the WHITEOUT Phase 2 implementation request",
+    "status": "confirmed-by-owner",
+    "confirmedAt": "2026-11-06"
+  },
+  "assets": [
+    {
+      "id": "outdoor-research-alti-ii-gore-tex-mitts-whiteout",
+      "productId": "outdoor-research-alti-ii-gore-tex-mitts",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Moufles Outdoor Research dans la glace.png",
+      "file": "assets/media/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+      "deliverySrc": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 223150,
+      "sha256": "ec89871666538c56b175f2107117111dc3b2548af91e047ac4619252ea4dc0ee",
+      "variants": [
+        {
+          "file": "assets/media/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp",
+          "src": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 38778,
+          "sha256": "cb0ad3d57f9475bed54ff3cf1480a4db2f2e1b514f039f9375bf0e666a21074c",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-960.webp",
+          "src": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 139418,
+          "sha256": "b82276b5ae44608036b6e120112163dbe35f620b75781778a3309e8c3f033ced",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+          "src": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 223150,
+          "sha256": "ec89871666538c56b175f2107117111dc3b2548af91e047ac4619252ea4dc0ee",
+          "quality": 82
+        }
+      ],
+      "alt": "Cinematic illustration of black Outdoor Research mitts on ice in a glacier-blue WHITEOUT frame",
+      "captionNote": "Supplied black concept artwork; the catalogue’s Agate variant is red. Colour, construction details and selected retailer variant are not authenticated by this illustration.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "references": [
+        "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+      ],
+      "reviewedAt": "2026-11-06",
+      "source": {
+        "filename": "Moufles Outdoor Research dans la glace.png",
+        "file": "assets/media/whiteout/source/outdoor-research-alti-ii-gore-tex-mitts.png",
+        "bytes": 2731161,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "582d58b90d3eefe4c462167de65eb4065f94ae5ae3878060eee0958aa5202ce7"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 82,
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/whiteout-phase2-image-manifest.csv",
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT Phase 2 image attachment",
+        "scope": "Authorized cinematic illustration; not independent product, variant or performance evidence",
+        "confirmedAt": "2026-11-06"
+      }
+    },
+    {
+      "id": "hestra-army-leather-heli-ski-gloves-whiteout",
+      "productId": "hestra-army-leather-heli-ski-gloves",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Gants Hestra futuristes sur glace lumineuse.png",
+      "file": "assets/media/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+      "deliverySrc": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 233984,
+      "sha256": "99481c1af174c6442a898286a556e2fcdeed5285650047df40927c82fc6e8756",
+      "variants": [
+        {
+          "file": "assets/media/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp",
+          "src": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 42290,
+          "sha256": "40690027527fed414d07a78cfce9f519efab1cde12d2a49b1165da7b19bd2c43",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-960.webp",
+          "src": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 170652,
+          "sha256": "65f10bafb9ff85cf9c848dc56b5f79a9a83b59e965b5f1b1d8055a044f78e307",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+          "src": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 233984,
+          "sha256": "99481c1af174c6442a898286a556e2fcdeed5285650047df40927c82fc6e8756",
+          "quality": 78
+        }
+      ],
+      "alt": "Cinematic illustration of black and white five-finger Hestra gloves on ice in a WHITEOUT frame",
+      "captionNote": "Black/White five-finger concept illustration; lettering and hardware are illustrative and do not verify size 9 or the Amazon variant.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "references": [
+        "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+      ],
+      "reviewedAt": "2026-11-06",
+      "source": {
+        "filename": "Gants Hestra futuristes sur glace lumineuse.png",
+        "file": "assets/media/whiteout/source/hestra-army-leather-heli-ski-gloves.png",
+        "bytes": 2946535,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "52111a4ebd12d3ef67363ea648e524fc7563c8aaf331d56fb79ca4eacbfd74a0"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 78,
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/whiteout-phase2-image-manifest.csv",
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT Phase 2 image attachment",
+        "scope": "Authorized cinematic illustration; not independent product, variant or performance evidence",
+        "confirmedAt": "2026-11-06"
+      }
+    },
+    {
+      "id": "oakley-flight-deck-m-goggles-whiteout",
+      "productId": "oakley-flight-deck-m-goggles",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Masque de ski Oakley futuriste.png",
+      "file": "assets/media/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+      "deliverySrc": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 164432,
+      "sha256": "dd5400fe172e74f50a9e1c2805d6f4d4cf46f208dc19d3b665abece565c2ae33",
+      "variants": [
+        {
+          "file": "assets/media/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp",
+          "src": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 31032,
+          "sha256": "c33224f88ab91a19c3532484d3690188bf97e7fd431177a4ec1482d1691753b8",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/oakley-flight-deck-m-goggles-whiteout-960.webp",
+          "src": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 106976,
+          "sha256": "6bada3c74ade6837ed255ddf3c7fe06fb3596fff50affbd29a4b6f3dc32937d4",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+          "src": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 164432,
+          "sha256": "dd5400fe172e74f50a9e1c2805d6f4d4cf46f208dc19d3b665abece565c2ae33",
+          "quality": 82
+        }
+      ],
+      "alt": "Cinematic illustration of blue-lens Oakley snow goggles with a black strap on ice",
+      "captionNote": "Concept illustration of a blue lens and black strap; tint, optical performance, lettering and exact retailer variant cannot be verified from artwork.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "references": [
+        "https://www.oakley.com/en-ca/product/888392149732"
+      ],
+      "reviewedAt": "2026-11-06",
+      "source": {
+        "filename": "Masque de ski Oakley futuriste.png",
+        "file": "assets/media/whiteout/source/oakley-flight-deck-m-goggles.png",
+        "bytes": 2280051,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "e7263354461d14782c3ecd8b97d2c133df9963caef97f4b30a195a71a09aeded"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 82,
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/whiteout-phase2-image-manifest.csv",
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT Phase 2 image attachment",
+        "scope": "Authorized cinematic illustration; not independent product, variant or performance evidence",
+        "confirmedAt": "2026-11-06"
+      }
+    },
+    {
+      "id": "smartwool-nts-250-balaclava-whiteout",
+      "productId": "smartwool-nts-250-balaclava",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Balaclava noire dans une ambiance glacée.png",
+      "file": "assets/media/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+      "deliverySrc": "/images/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 166428,
+      "sha256": "c1d658448d8d0b8993c788c250bc51a615ec242968d9f784a1f061244de1a6b2",
+      "variants": [
+        {
+          "file": "assets/media/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp",
+          "src": "/images/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 26388,
+          "sha256": "166f172b36b676aaa32d90af204d22d74ca7cb246cf1aad5eff6304eefffff7d",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/smartwool-nts-250-balaclava-whiteout-960.webp",
+          "src": "/images/whiteout/smartwool-nts-250-balaclava-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 103328,
+          "sha256": "fc34c5d18c601bacaf24a20816e6f280f656bbaae1e5728bcae79c230bf954c7",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+          "src": "/images/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 166428,
+          "sha256": "c1d658448d8d0b8993c788c250bc51a615ec242968d9f784a1f061244de1a6b2",
+          "quality": 82
+        }
+      ],
+      "alt": "Cinematic illustration of a black Smartwool-style balaclava on ice in a WHITEOUT frame",
+      "captionNote": "Black balaclava concept illustration; it does not establish the older AW15 revision, fibre composition or selected Amazon product.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "references": [
+        "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+      ],
+      "reviewedAt": "2026-11-06",
+      "source": {
+        "filename": "Balaclava noire dans une ambiance glacée.png",
+        "file": "assets/media/whiteout/source/smartwool-nts-250-balaclava.png",
+        "bytes": 2396911,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "c4ddb472556717169c35d7aefaf594ba92170a15e43523851c2d80b1a08438f6"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 82,
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/whiteout-phase2-image-manifest.csv",
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT Phase 2 image attachment",
+        "scope": "Authorized cinematic illustration; not independent product, variant or performance evidence",
+        "confirmedAt": "2026-11-06"
+      }
+    },
+    {
+      "id": "smartwool-thermal-merino-reversible-cuffed-beanie-whiteout",
+      "productId": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Bonnet en mérinos sur surface glacée.png",
+      "file": "assets/media/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+      "deliverySrc": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 239114,
+      "sha256": "bb7b49441dfb410919ce629a07bf0ff04a875936b331e0356f08898b1ea2942d",
+      "variants": [
+        {
+          "file": "assets/media/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp",
+          "src": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 37630,
+          "sha256": "c3e4449385a58104a5b89bcf634d443ea778d1cb7d13e6bf48c10c0fa589ea9b",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-960.webp",
+          "src": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 164344,
+          "sha256": "9862a7e9222a7806b4f6575d78e45cadc818685b852cc068fe3ae4a6efbbdbae",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+          "src": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 239114,
+          "sha256": "bb7b49441dfb410919ce629a07bf0ff04a875936b331e0356f08898b1ea2942d",
+          "quality": 80
+        }
+      ],
+      "alt": "Cinematic illustration of a dark cuffed merino-style beanie on ice in a WHITEOUT frame",
+      "captionNote": "Dark cuffed-beanie concept illustration; it does not authenticate fibre content, the reversible side or the selected retailer colour.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "references": [
+        "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+      ],
+      "reviewedAt": "2026-11-06",
+      "source": {
+        "filename": "Bonnet en mérinos sur surface glacée.png",
+        "file": "assets/media/whiteout/source/smartwool-thermal-merino-reversible-cuffed-beanie.png",
+        "bytes": 2802467,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "65575a0bc07fe9e05eb7aaf9e79171109299104a6032f8e9c6aabb0f69cd31c6"
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 80,
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "mappingCsv": "assets/media/whiteout-phase2-image-manifest.csv",
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT Phase 2 image attachment",
+        "scope": "Authorized cinematic illustration; not independent product, variant or performance evidence",
+        "confirmedAt": "2026-11-06"
+      }
+    }
+  ]
+}

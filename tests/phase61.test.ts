@@ -17,7 +17,7 @@ const products = readdirSync('src/data/products').filter(file => file.endsWith('
 test('navigation categories exactly match public products, canonical labels, sectors and stable destinations', () => {
   const visible = products.filter(isPubliclyVisible);
   const categories = populatedCategories(products);
-  assert.equal(visible.length, 47);
+  assert.equal(visible.length, 52);
   assert.equal(new Set(categories.map(c => c.id)).size, categories.length);
   assert.deepEqual(new Set(categories.map(c => c.id)), new Set(visible.map(p => p.data.category)));
   for (const category of categories) {

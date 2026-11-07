@@ -25,7 +25,7 @@ test('Phase 5.3 preserves all 34 earlier products, artwork, release/Google/SEO p
 if(row.file===`src/pages/images/blackout/[file].webp.ts`)continue; // Phase 5.3 responsive route; production validation checks every old and new variant byte.
 const b=beforeFourUniverses(row.file,readFileSync(row.file));assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);}
  assert.deepEqual(importedMedia.slice(0,34),baseline.previousAssets);
- assert.equal(importedMedia.length,47);assert.equal(importedMedia.filter(canPublishImportedAsset).length,46);
+ assert.equal(importedMedia.length,52);assert.equal(importedMedia.filter(canPublishImportedAsset).length,51);
 });
 
 for(const [id,[asin,category]]of Object.entries(PHASE53))test(`${id} permits only its documented recorded link, preserving independent SEO and safety controls`,()=>{

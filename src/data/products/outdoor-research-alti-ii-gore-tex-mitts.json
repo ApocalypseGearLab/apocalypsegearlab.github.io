@@ -1,0 +1,139 @@
+{
+  "name": "Outdoor Research Alti II GORE-TEX mitts",
+  "brand": "Outdoor Research",
+  "modelNumber": "300009",
+  "category": "winter-gloves-mitts",
+  "summary": "Modular winter mitts with a documented GORE-TEX shell and removable insulated liner. The Amazon product page requires a size selection and final variant confirmation.",
+  "description": "This profile documents model 300009 from the manufacturer catalogue. The old product URL now redirects to a newer Alti model, so its specifications are not substituted here. The supplied black artwork does not establish the colour or size of either Amazon candidate.",
+  "outboundPolicy": "documentary-references",
+  "specsStatus": "manufacturer-documented",
+  "specs": [
+    {
+      "label": "Documented model",
+      "value": "Alti II GORE-TEX mitt, 300009; not the newer 322807",
+      "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+    },
+    {
+      "label": "Shell construction",
+      "value": "GORE-TEX 2L, 70D nylon",
+      "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+    },
+    {
+      "label": "Palm material",
+      "value": "Pittards Armortan leather",
+      "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+    },
+    {
+      "label": "Insulation and liner",
+      "value": "PrimaLoft Gold; removable insulated mitt liner",
+      "source": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+    }
+  ],
+  "pros": [
+    "Removable liner supports drying between uses."
+  ],
+  "cons": [
+    "Mitts trade individual finger dexterity for coverage.",
+    "The black illustration does not match the catalogue’s red Agate colour."
+  ],
+  "useCases": [
+    "Comparing modular hand insulation for winter travel."
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "The supplied Amazon page shows Alti II mitts in Black with no size selected. Select a size and confirm model 300009 and the final colour before buying; the Small/Agate reference is a different option."
+    ]
+  },
+  "image": {
+    "src": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+    "alt": "Cinematic illustration of black Outdoor Research mitts on ice in a glacier-blue WHITEOUT frame",
+    "credit": "Owner-supplied cinematic concept illustration",
+    "license": "Owner-authorized WHITEOUT Phase 2 assets"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The supplied Amazon page shows Alti II mitts in Black with no size selected. Select a size and confirm model 300009 and the final colour before buying; the Small/Agate reference is a different option. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B0B67C7N9M",
+      "url": "https://www.amazon.ca/dp/B0B67C7N9M?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "sources": [
+    {
+      "id": "manufacturer-model",
+      "title": "Outdoor Research Spring 2026 manufacturer catalogue — model 300009, page 170",
+      "url": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-amazon-screenshot",
+      "title": "Owner-supplied Amazon.ca product-page screenshot",
+      "url": "https://www.amazon.ca/dp/B0B67C7N9M",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "hestra-army-leather-heli-ski-gloves",
+    "therm-a-rest-neoair-xtherm-nxt-review"
+  ],
+  "research": {
+    "checkedAt": "2026-11-06",
+    "identityNotes": "The supplied Amazon page shows Alti II mitts in Black with no size selected. Select a size and confirm model 300009 and the final colour before buying; the Small/Agate reference is a different option. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed.",
+    "listingVerified": false,
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B0B67C7N9M",
+      "checkedAt": "2026-11-06",
+      "reason": "The supplied Amazon page shows Alti II mitts in Black with no size selected. Select a size and confirm model 300009 and the final colour before buying; the Small/Agate reference is a different option.",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ]
+    },
+    "confirmed": [
+      {
+        "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+        "sourceIds": [
+          "manufacturer-model"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Verify B0B67C7N9M against model 300009, selected colour and size; resolve reference 3000090862006 before activation."
+    ],
+    "safetyNotes": [
+      "No glove or mitt establishes a safe exposure time in extreme cold. Keep a dry backup and check fit and circulation."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent selected-variant authentication, full product-specific safety review and editorial publication approval remain incomplete."
+    ],
+    "purchaseDestination": {
+      "url": "https://www.amazon.ca/dp/B0B67C7N9M",
+      "asin": "B0B67C7N9M",
+      "scope": "product-page",
+      "matchedProduct": "Outdoor Research Alti II GORE-TEX mitts",
+      "method": "owner-document",
+      "checkedAt": "2026-11-06",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ],
+      "selectionNote": "The supplied Amazon page shows Alti II mitts in Black with no size selected. Select a size and confirm model 300009 and the final colour before buying; the Small/Agate reference is a different option.",
+      "safetyDecision": "link-permitted",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    }
+  }
+}

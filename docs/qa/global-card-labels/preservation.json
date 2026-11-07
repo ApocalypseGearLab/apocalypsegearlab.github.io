@@ -1,0 +1,25 @@
+{
+  "builtPages": 122,
+  "cardInstancesCompared": 502,
+  "removedLabelInstances": 664,
+  "unchangedDetailedVerificationBlocks": 104,
+  "otherCardContentIdentical": true,
+  "affiliateButtonsIdentical": true,
+  "purchaseSectionsIdentical": true,
+  "seoMetadataIdentical": true,
+  "sourceFilesChecked": 1355,
+  "existingSourceFilesChanged": [
+    "scripts/whiteout-phase2-preservation.mjs",
+    "src/components/ProductCard.astro",
+    "tests/browser/product-verification.spec.ts"
+  ],
+  "productRecordsUnchanged": 53,
+  "unrelatedUniverseHeroUnchanged": true,
+  "branch": "feat/whiteout-phase2",
+  "head": "658bbef6c748f4a2ece7555458275e246d9ef600",
+  "staged": false,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false
+}

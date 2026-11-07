@@ -4,8 +4,8 @@ import { assetReview, canDisplayProductArtwork } from '../lib/media-policy';
 import { importedArtwork, canPublishImportedAsset } from '../lib/imported-media';
 import type { UniverseId } from '../config/taxonomy';
 
-interface Props { slug: string; label?: string; detail?: boolean; releasePreview?: boolean; universe?: UniverseId }
-const { slug, label = 'Equipment profile', detail = false, releasePreview = false, universe = 'blackout' } = Astro.props;
+interface Props { slug: string; label?: string; detail?: boolean; releasePreview?: boolean; universe?: UniverseId; compactCaption?: boolean }
+const { slug, label = 'Equipment profile', detail = false, releasePreview = false, universe = 'blackout', compactCaption = false } = Astro.props;
 const supplied = importedArtwork(slug);
 const mediaUniverse = supplied?.category ?? universe;
 const imageAccent = mediaUniverse === 'whiteout' ? '125 211 252' : mediaUniverse === 'fallout' ? '240 123 118' : mediaUniverse === 'outbreak' ? '182 245 102' : '245 166 35';
@@ -30,8 +30,8 @@ const large = asset?.variants.at(-1);
     alt={asset.alt.replace('AI-assisted illustration', 'Concept illustration')} loading={detail ? 'eager' : 'lazy'} decoding="async"
   />
   <figcaption>
-    <span>Concept illustration, not a product photograph.</span>
-    {supplied && 'captionNote' in supplied && <span class="identity-note" data-artwork-caveat>{supplied.captionNote}</span>}
+    <span>{compactCaption && !detail ? 'Conceptual illustration, not a product photograph.' : 'Concept illustration, not a product photograph.'}</span>
+    {(!compactCaption || detail) && supplied && 'captionNote' in supplied && <span class="identity-note" data-artwork-caveat>{supplied.captionNote}</span>}
     {detail && supplied && <span class="identity-note">Illustrated labels are not specifications; see the documented model details.</span>}
     {detail && editorialArtwork && !supplied && <span class="identity-note">{review?.caption ?? review?.note ?? asset.identityNote} Commercial use and source-photo permissions await owner confirmation.</span>}
   </figcaption>

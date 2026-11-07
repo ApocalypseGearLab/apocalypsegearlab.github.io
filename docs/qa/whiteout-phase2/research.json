@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-11-06",
+  "scope": "Documentary manufacturer research and owner-supplied candidates; no physical testing or authenticated current Amazon offer",
+  "amazon": {
+    "method": "Web reader open attempts",
+    "requestedAsins": [
+      "B0B67C7N9M",
+      "B00F1F08TM",
+      "B012Y896ZA",
+      "B002VGHX1A",
+      "B0DK9VRQF2",
+      "B0CS54SN91"
+    ],
+    "alternativeAsins": [
+      "B0B67CFPG7",
+      "B013YNSJHA",
+      "B07WNF5FXC"
+    ],
+    "result": "All nine pages were inaccessible through the tool. This does not establish broken links, unavailability or invalid ASINs.",
+    "ownerFollowup": "Continue the implementation with supplied candidates; preserve rules and report missing variant evidence rather than invent verification.",
+    "httpFollowup": "Ordinary HTTP returned access challenges for five requested products and both OR/Hestra alternatives. The beanie response supplied a real selected Mink Heather / One Size child and parent-family evidence; see amazon-http.json. No current target Black variant was verified."
+  },
+  "manufacturerSources": [
+    {
+      "product": "outdoor-research-alti-ii-gore-tex-mitts",
+      "url": "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf",
+      "kind": "Manufacturer-produced catalogue hosted by a distributor",
+      "location": "Printed page 170 / PDF index 170",
+      "findings": "300009 Alti II; GORE-TEX 2L 70D nylon, Pittards Armortan leather palm, PrimaLoft Gold, removable insulated mitt liner. Agate 0862 is red in the catalogue image.",
+      "limitations": "Historical model-specific catalogue, not proof of a Canadian Amazon variant. The old manufacturer product URL redirects to newer model 322807; its specifications were not substituted. The supplied black artwork cannot authenticate a selected black listing."
+    },
+    {
+      "product": "hestra-army-leather-heli-ski-gloves",
+      "url": "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black",
+      "findings": "Black five-finger 30570-100 with white goat-leather palm, Triton polyamide backhand, removable Bemberg lining and G-Loft insulation; no waterproof membrane.",
+      "limitations": "Does not match B00F1F08TM to size 9 or authenticate the retailer offer. Red size 5 alternative is not selected."
+    },
+    {
+      "product": "oakley-flight-deck-m-goggles",
+      "url": "https://www.oakley.com/en-ca/product/888392149732",
+      "findings": "OO7064-41-0 size M; Matte Black strap / Prizm Snow Sapphire Iridium; 13% transmission, sun and clouds; Ridgelock, dual lens and F3 anti-fog coating.",
+      "limitations": "No universal low-light/blizzard suitability or industrial protective-equipment certification is claimed. Reported 150 g weight is not adopted as a manufacturer fact."
+    },
+    {
+      "product": "smartwool-nts-250-balaclava",
+      "url": "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967",
+      "findings": "Current SW0SC967 family: double-layer interlock construction and 100% merino wool excluding decoration.",
+      "limitations": "Current family documentation does not prove the older NTS AW15 / SC967-001-ONE / BSC967001 retailer revision or 50 g weight. It is not described as waterproof."
+    },
+    {
+      "product": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "url": "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521",
+      "findings": "SW0SW956 Black manufacturer option; double-layer merino construction, reversible, roll cuff, 100% merino wool excluding decoration.",
+      "limitations": "Does not match either Amazon candidate to the intended dark colour. Reported 68.04 g weight is not a confirmed manufacturer specification."
+    },
+    {
+      "product": "therm-a-rest-neoair-xtherm-nxt-review",
+      "url": "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad",
+      "location": "Tech Specs table, Regular Wide column",
+      "findings": "SKU 14016, Neptune, R 7.3; 540 g; 183 × 64 × 7.6 cm; pump sack, stuff sack and field repair kit. Regular is a different size at 440 g.",
+      "limitations": "No confirmation of B0CS54SN91. The owner-reported Amazon −20 °C warning remains unresolved; R-value is not a minimum air-temperature guarantee. The unsupported 653 kg capacity field is retained as an unresolved claim, excluded from documented specifications."
+    }
+  ]
+}

@@ -43,11 +43,13 @@ for(const id of ['blackout','fallout','outbreak','whiteout']){
 }
 const $=load(readFileSync('dist/gear/therm-a-rest-neoair-xtherm-nxt-review/index.html','utf8'));
 assert.equal($('a[href*="B0CS4P19QQ"]').length,0,'Unverified ASIN must never become a rendered link');
-assert.equal($('[data-product-purchase] a[data-affiliate-click]').length,0);
-assert.equal($('[data-product-purchase] [aria-disabled=true]').length,1);
+assert.equal($('[data-product-purchase] a[href="https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20"]').length,1,'Owner-documented XTherm product page retains its exact Canadian affiliate destination');
+assert.match($('[data-product-purchase] [data-purchase-destination=product-page]').text(),/Do not use below −20 °C/,'The temperature prohibition must accompany the retailer link');
+assert.equal($('[data-product-purchase] a[data-affiliate-click]').length,1);
+assert.equal($('[data-product-purchase] [aria-disabled=true]').length,0);
 assert.equal($('.product-artwork--detail img').attr('src'),'/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp');
 assert.ok($('meta[name=robots]').attr('content').includes('noindex'));
 assert.ok($('main').text().includes('7.3'));assert.ok($('figcaption').text().includes('not an official manufacturer photograph'));
 assert.ok($('a[href="https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"]').length);
 assert.doesNotMatch($('script[type="application/ld+json"]').text(),/"@type":"(?:Offer|Product|Review|AggregateRating)"/);
-console.log('Verified four indexable cinematic universe pages, 19 exact supplied WebPs, complete OG/Twitter metadata, collection schemas and held Therm-a-Rest ASIN.');
+console.log('Verified four indexable cinematic universe pages, 19 exact supplied WebPs, complete OG/Twitter metadata, collection schemas and restricted Therm-a-Rest product-page link.');

@@ -1,0 +1,139 @@
+{
+  "name": "Oakley Flight Deck XM / M snow goggles",
+  "brand": "Oakley",
+  "modelNumber": "OO7064-41",
+  "category": "snow-goggles",
+  "summary": "Medium snow goggles with a documented Matte Black / Prizm Snow Sapphire Iridium option. The lens is intended for sun and clouds, not every blizzard or low-light situation.",
+  "description": "The manufacturer identifies this option as OO7064-41-0, size M. Ridgelock supports lens changes, while the double lens has an F3 anti-fog coating. Anti-fog treatment does not guarantee clear vision in every condition. The owner-supplied Amazon screenshot documents the matching Medium, Matte Black / Sapphire Iridium configuration.",
+  "outboundPolicy": "documentary-references",
+  "specsStatus": "manufacturer-documented",
+  "specs": [
+    {
+      "label": "Documented model",
+      "value": "OO7064-41-0; size M / medium",
+      "source": "https://www.oakley.com/en-ca/product/888392149732"
+    },
+    {
+      "label": "Strap and lens",
+      "value": "Matte Black / Prizm Snow Sapphire Iridium",
+      "source": "https://www.oakley.com/en-ca/product/888392149732"
+    },
+    {
+      "label": "Light transmission",
+      "value": "13%; manufacturer condition: sun and clouds",
+      "source": "https://www.oakley.com/en-ca/product/888392149732"
+    },
+    {
+      "label": "Lens system",
+      "value": "Ridgelock; dual lens with F3 anti-fog coating",
+      "source": "https://www.oakley.com/en-ca/product/888392149732"
+    }
+  ],
+  "pros": [
+    "Replaceable lens allows condition-specific selection."
+  ],
+  "cons": [
+    "Sapphire tint is not a universal low-light lens."
+  ],
+  "useCases": [
+    "Comparing snow-goggle fit and lens transmission."
+  ],
+  "editorial": {
+    "purchaseChecks": [
+      "The owner-supplied page shows Medium, Matte Black and Prizm Snow Sapphire Iridium, consistent with reference OO7064-41. Confirm the current selected offer and lens before buying; no independent live inspection is claimed.",
+      "Match the exact selected variant to OO7064-41; the reported 150 g weight is not manufacturer-confirmed here."
+    ]
+  },
+  "image": {
+    "src": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+    "alt": "Cinematic illustration of blue-lens Oakley snow goggles with a black strap on ice",
+    "credit": "Owner-supplied cinematic concept illustration",
+    "license": "Owner-authorized WHITEOUT Phase 2 assets"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "The owner-supplied page shows Medium, Matte Black and Prizm Snow Sapphire Iridium, consistent with reference OO7064-41. Confirm the current selected offer and lens before buying; no independent live inspection is claimed. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B012Y896ZA",
+      "url": "https://www.amazon.ca/dp/B012Y896ZA?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "sources": [
+    {
+      "id": "manufacturer-model",
+      "title": "Oakley Canada — Flight Deck M, Matte Black / Prizm Snow Sapphire Iridium",
+      "url": "https://www.oakley.com/en-ca/product/888392149732",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "owner-amazon-screenshot",
+      "title": "Owner-supplied Amazon.ca product-page screenshot",
+      "url": "https://www.amazon.ca/dp/B012Y896ZA",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "therm-a-rest-neoair-xtherm-nxt-review"
+  ],
+  "research": {
+    "checkedAt": "2026-11-06",
+    "identityNotes": "The owner-supplied page shows Medium, Matte Black and Prizm Snow Sapphire Iridium, consistent with reference OO7064-41. Confirm the current selected offer and lens before buying; no independent live inspection is claimed. Owner supplied the URL-to-screenshot association; browser address bars and ASINs are not visible in the screenshots. No live Amazon inspection or exact child-ASIN authentication is claimed.",
+    "listingVerified": false,
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B012Y896ZA",
+      "checkedAt": "2026-11-06",
+      "reason": "The owner-supplied page shows Medium, Matte Black and Prizm Snow Sapphire Iridium, consistent with reference OO7064-41. Confirm the current selected offer and lens before buying; no independent live inspection is claimed.",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ]
+    },
+    "confirmed": [
+      {
+        "text": "The specifications below describe the cited manufacturer model; the Canadian offer is not verified.",
+        "sourceIds": [
+          "manufacturer-model"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Match the exact selected variant to OO7064-41; the reported 150 g weight is not manufacturer-confirmed here."
+    ],
+    "safetyNotes": [
+      "This profile makes no industrial eye-protection certification claim. Select an appropriate lens for actual light and visibility; stop travel when safe navigation is not possible."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Independent selected-variant authentication, full product-specific safety review and editorial publication approval remain incomplete."
+    ],
+    "purchaseDestination": {
+      "url": "https://www.amazon.ca/dp/B012Y896ZA",
+      "asin": "B012Y896ZA",
+      "scope": "exact-variant",
+      "matchedProduct": "Oakley Flight Deck XM / M snow goggles",
+      "matchedModel": "OO7064-41",
+      "method": "owner-document",
+      "checkedAt": "2026-11-06",
+      "sourceIds": [
+        "manufacturer-model",
+        "owner-amazon-screenshot"
+      ],
+      "selectionNote": "The owner-supplied page shows Medium, Matte Black and Prizm Snow Sapphire Iridium, consistent with reference OO7064-41. Confirm the current selected offer and lens before buying; no independent live inspection is claimed.",
+      "safetyDecision": "link-permitted",
+      "safetyReason": "Documented model limitations remain visible. No unresolved product-specific purchase safety prohibition was identified for this general retailer link; this is not full safety certification or editorial approval."
+    }
+  }
+}
