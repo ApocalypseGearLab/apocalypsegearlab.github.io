@@ -60,7 +60,15 @@ For privacy-related requests about this website’s handling of personal informa
 
 The sole operator serves as Privacy Officer and personally reviews requests for access, correction, withdrawal of consent and deletion, where applicable.
 
-Messages to this address use Google’s Gmail service. We use the information you send to handle and respond to your privacy request. These messages may be processed outside Quebec or Canada. Google processes email under its own [Privacy Policy](https://policies.google.com/privacy).
+Privacy complaints are also handled personally by the Privacy Officer. We use only the information needed to understand a request, verify identity or authority when necessary, and provide a response. We respect applicable Quebec response deadlines.
+
+We maintain minimal private request records and protect the Gmail account and devices used to handle them. We review relevant records under our control, protect other people’s information, and explain the action taken or the reasons for a refusal and applicable review rights.
+
+We retain request records only for justified purposes and applicable legal obligations. Once those purposes and obligations end, we securely delete unnecessary identifiable copies. We document any continuing retention and its review trigger. Provider retention and backups may follow separate rules.
+
+[Information about privacy rights and recourse in Quebec](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/citoyens-protection-renseignements-personnels/recours-devant-commission).
+
+Messages to this address use Google’s consumer Gmail service. We use the information you send to handle and respond to your privacy request. These messages may be processed outside Quebec or Canada. Google processes email under its own [Privacy Policy](https://policies.google.com/privacy).
 
 Describe your privacy request using only the information needed to handle it. Do not send passwords, payment details, identity documents or other sensitive information by email. Do not post personal information in public repository issues.
 

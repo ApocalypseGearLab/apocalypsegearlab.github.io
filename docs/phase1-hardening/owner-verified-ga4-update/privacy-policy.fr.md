@@ -60,7 +60,15 @@ Pour les demandes relatives à la confidentialité et au traitement des renseign
 
 L’unique exploitant agit à titre de Responsable de la protection des renseignements personnels et examine personnellement les demandes d’accès, de correction, de retrait du consentement et de suppression, selon le cas.
 
-Les messages envoyés à cette adresse utilisent le service Gmail de Google. Nous utilisons les renseignements que vous envoyez pour traiter votre demande de confidentialité et y répondre. Ces messages peuvent être traités hors du Québec ou du Canada. Google traite les courriels selon sa propre [Politique de confidentialité](https://policies.google.com/privacy?hl=fr).
+Les plaintes relatives à la confidentialité sont aussi traitées personnellement par le Responsable de la protection des renseignements personnels. Nous utilisons seulement les renseignements nécessaires pour comprendre une demande, vérifier l’identité ou l’autorité lorsque nécessaire et répondre. Nous respectons les délais de réponse applicables au Québec.
+
+Nous conservons des dossiers privés minimaux sur les demandes et protégeons le compte Gmail et les appareils utilisés pour les traiter. Nous examinons les dossiers pertinents sous notre contrôle, protégeons les renseignements concernant d’autres personnes et expliquons les mesures prises ou les motifs d’un refus ainsi que les recours applicables.
+
+Nous conservons les dossiers de demande seulement pour des fins justifiées et les obligations légales applicables. Lorsque ces fins et obligations prennent fin, nous supprimons de façon sécuritaire les copies identifiantes devenues inutiles. Nous documentons toute conservation prolongée et son déclencheur de réexamen. La conservation par les fournisseurs et leurs sauvegardes peut suivre des règles distinctes.
+
+[Information sur les droits et les recours en matière de confidentialité au Québec](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/citoyens-protection-renseignements-personnels/recours-devant-commission).
+
+Les messages envoyés à cette adresse utilisent le service Gmail grand public de Google. Nous utilisons les renseignements que vous envoyez pour traiter votre demande de confidentialité et y répondre. Ces messages peuvent être traités hors du Québec ou du Canada. Google traite les courriels selon sa propre [Politique de confidentialité](https://policies.google.com/privacy?hl=fr).
 
 Décrivez votre demande de confidentialité en fournissant seulement les renseignements nécessaires à son traitement. N’envoyez pas de mots de passe, de renseignements de paiement, de pièces d’identité ni d’autres renseignements sensibles par courriel. Ne publiez pas de renseignements personnels dans les tickets publics du dépôt.
 

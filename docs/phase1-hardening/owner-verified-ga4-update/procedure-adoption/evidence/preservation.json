@@ -1,0 +1,22 @@
+{
+  "beforeCheckpointPaths": 831,
+  "unchangedCheckpointPaths": 822,
+  "approvedCheckpointChanges": [
+    "src/i18n/fr-privacy.json",
+    "src/pages/privacy.astro",
+    "docs/phase1-hardening/owner-verified-ga4-update/evidence/owner-verified-facts.json",
+    "docs/phase1-hardening/owner-verified-ga4-update/official-sources.md",
+    "docs/phase1-hardening/owner-verified-ga4-update/owner-decisions.md",
+    "docs/phase1-hardening/owner-verified-ga4-update/privacy-policy.en.md",
+    "docs/phase1-hardening/owner-verified-ga4-update/privacy-policy.fr.md",
+    "docs/phase1-hardening/owner-verified-ga4-update/provider-transfer-assessment.md",
+    "docs/phase1-hardening/owner-verified-ga4-update/README.md"
+  ],
+  "unexpectedChanges": [],
+  "protectedOriginalHashes": 234,
+  "consentRuntimeAndOtherImplementationInputsUnchanged": true,
+  "affiliateAndImageEvidenceReusedWithUnchangedInputs": true,
+  "ownerUnknownsNotGuessed": true,
+  "adoptionClosed": true,
+  "sourceContentOnly": true
+}

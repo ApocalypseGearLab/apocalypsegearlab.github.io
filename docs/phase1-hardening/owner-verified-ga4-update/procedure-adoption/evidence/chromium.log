@@ -1,0 +1,17 @@
+
+[WebServer] (node:5692) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 2 workers
+
+
+(node:42552) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:40904) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/2] [chromium] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[2/2] [chromium] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+  2 passed (15.2s)

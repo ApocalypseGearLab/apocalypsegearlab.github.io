@@ -1,0 +1,233 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\.tools\\node-v22.23.4-win-x64\\node.exe",
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      ".tools/procedure-adoption/chromium.config.mjs",
+      "--project",
+      "chromium",
+      "--grep",
+      "final privacy policies|EN/FR footer"
+    ],
+    "configFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\.tools\\procedure-adoption\\chromium.config.mjs",
+    "rootDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/.tools/procedure-adoption/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/(?:privacy(?:-storage)?-phase1|analytics)\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/.tools/procedure-adoption/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-320",
+        "name": "webkit-320",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/.tools/procedure-adoption/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-375",
+        "name": "webkit-375",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/.tools/procedure-adoption/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-390",
+        "name": "webkit-390",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\.tools\\procedure-adoption\\chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\owner-verified-ga4-update\\procedure-adoption\\evidence\\chromium-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run preview -- --host 127.0.0.1 --port 4321",
+      "url": "http://127.0.0.1:4321",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "privacy-phase1.spec.ts",
+      "file": "privacy-phase1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6671,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T16:44:17.265Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-8d726be029add0a3aac1",
+          "file": "privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2815,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T16:44:17.266Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-3b5b8a40a2e3defb899d",
+          "file": "privacy-phase1.spec.ts",
+          "line": 120,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-08T16:44:09.546Z",
+    "duration": 15223.037999999999,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
