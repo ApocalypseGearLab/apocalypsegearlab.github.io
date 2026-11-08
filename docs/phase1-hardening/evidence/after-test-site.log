@@ -1,0 +1,27 @@
+
+> apocalypsegearlab@0.1.0 test:site
+> node scripts/verify-site.mjs && node scripts/verify-four-universes.mjs && node scripts/verify-bilingual.mjs && node scripts/verify-whiteout-phase2.mjs
+
+Verified 124 HTML pages, 12678 internal references, 16 sitemap URLs, robots.txt, JSON-LD and product publication filtering.
+Verified four indexable cinematic universe pages, 19 exact supplied WebPs, complete OG/Twitter metadata, collection schemas and restricted Therm-a-Rest product-page link.
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+2 !== 1
+
+    at file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/verify-bilingual.mjs:43:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 2,
+  expected: 1,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.23.4

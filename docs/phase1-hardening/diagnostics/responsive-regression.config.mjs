@@ -1,0 +1,3 @@
+import {defineConfig} from '@playwright/test';
+import {resolve} from 'node:path';
+export default defineConfig({testDir:'../../../tests/browser',testMatch:'responsive-phase1.spec.ts',timeout:60000,workers:2,fullyParallel:true,projects:[{name:'chromium-responsive',use:{browserName:'chromium'}},{name:'webkit-responsive',use:{browserName:'webkit'}}],use:{baseURL:'http://127.0.0.1:4321',screenshot:'only-on-failure'},outputDir:resolve('docs/phase1-hardening/evidence/responsive-browser-artifacts'),reporter:[['json',{outputFile:resolve('docs/phase1-hardening/evidence/responsive-browser-results.json')}]],webServer:{command:'npm run preview -- --host 127.0.0.1 --port 4321',url:'http://127.0.0.1:4321',reuseExistingServer:false}});

@@ -1,0 +1,1144 @@
+
+> apocalypsegearlab@0.1.0 test
+> tsx --test tests/four-universes.test.ts tests/phase7.test.ts tests/branding.test.ts tests/phase61.test.ts tests/phase6.test.ts tests/affiliate.test.ts tests/analytics.test.ts tests/catalog.test.ts tests/media-policy.test.ts tests/phase47.test.ts tests/phase48.test.ts tests/phase5.test.ts tests/morakniv.test.ts tests/conversion.test.ts tests/release.test.ts tests/phase53.test.ts tests/category-seo.test.ts tests/product-verification.test.ts tests/bougerv.test.ts tests/phase55.test.ts tests/bilingual.test.ts tests/whiteout-phase2.test.ts tests/privacy.test.ts
+
+TAP version 13
+# Subtest: Amazon links remain pending before Associates enrollment
+ok 1 - Amazon links remain pending before Associates enrollment
+  ---
+  duration_ms: 2.4968
+  type: 'test'
+  ...
+# Subtest: verified HTTPS Amazon links keep their affiliate tags
+ok 2 - verified HTTPS Amazon links keep their affiliate tags
+  ---
+  duration_ms: 1.7647
+  type: 'test'
+  ...
+# Subtest: each Amazon marketplace uses its own domain
+ok 3 - each Amazon marketplace uses its own domain
+  ---
+  duration_ms: 0.3784
+  type: 'test'
+  ...
+# Subtest: Canadian short links cannot bypass exact ASIN and tracking checks
+ok 4 - Canadian short links cannot bypass exact ASIN and tracking checks
+  ---
+  duration_ms: 0.2497
+  type: 'test'
+  ...
+# Subtest: Canadian enrollment alone never activates Amazon.com links
+ok 5 - Canadian enrollment alone never activates Amazon.com links
+  ---
+  duration_ms: 0.4822
+  type: 'test'
+  ...
+# Subtest: unsafe protocols, credentials and lookalike Amazon hosts are rejected
+ok 6 - unsafe protocols, credentials and lookalike Amazon hosts are rejected
+  ---
+  duration_ms: 0.6987
+  type: 'test'
+  ...
+# Subtest: null links stay pending and partner links require credential-free HTTPS
+ok 7 - null links stay pending and partner links require credential-free HTTPS
+  ---
+  duration_ms: 0.4381
+  type: 'test'
+  ...
+# Subtest: affiliate relations disclose sponsorship and isolate the new tab
+ok 8 - affiliate relations disclose sponsorship and isolate the new tab
+  ---
+  duration_ms: 0.2557
+  type: 'test'
+  ...
+# Subtest: commercially approved ASIN links still require the exact Canadian model path and tag
+ok 9 - commercially approved ASIN links still require the exact Canadian model path and tag
+  ---
+  duration_ms: 1.8742
+  type: 'test'
+  ...
+# Subtest: initial-period linking permits a verified informational draft without final account approval
+ok 10 - initial-period linking permits a verified informational draft without final account approval
+  ---
+  duration_ms: 0.9633
+  type: 'test'
+  ...
+# Subtest: a flag alone, mismatched listing evidence or missing ASIN cannot activate a Canadian link
+ok 11 - a flag alone, mismatched listing evidence or missing ASIN cannot activate a Canadian link
+  ---
+  duration_ms: 0.4432
+  type: 'test'
+  ...
+# Subtest: all non-held profiles can activate independently after documented checks without changing their draft status
+ok 12 - all non-held profiles can activate independently after documented checks without changing their draft status
+  ---
+  duration_ms: 55.5697
+  type: 'test'
+  ...
+# Subtest: the pending button identifies the missing prerequisite rather than final account approval
+ok 13 - the pending button identifies the missing prerequisite rather than final account approval
+  ---
+  duration_ms: 0.4177
+  type: 'test'
+  ...
+# Subtest: reviewed recorded links can activate without claiming live listing verification or final approval
+ok 14 - reviewed recorded links can activate without claiming live listing verification or final approval
+  ---
+  duration_ms: 30.8048
+  type: 'test'
+  ...
+# Subtest: recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold
+ok 15 - recorded-link permission cannot bypass safety blocks, a mismatched ASIN, or an explicit hold
+  ---
+  duration_ms: 5.8267
+  type: 'test'
+  ...
+# Subtest: the schema binds each link review to its ASIN and documented sources
+ok 16 - the schema binds each link review to its ASIN and documented sources
+  ---
+  duration_ms: 2.2938
+  type: 'test'
+  ...
+# Subtest: independent URL audit rejects wrong domains, ASIN paths, tags, credentials and fragments without enabling them
+ok 17 - independent URL audit rejects wrong domains, ASIN paths, tags, credentials and fragments without enabling them
+  ---
+  duration_ms: 2.1662
+  type: 'test'
+  ...
+# Subtest: catalogue audit detects accidental duplicate targets and undocumented blocks independently of rendering
+ok 18 - catalogue audit detects accidental duplicate targets and undocumented blocks independently of rendering
+  ---
+  duration_ms: 1.5653
+  type: 'test'
+  ...
+# Subtest: complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission
+ok 19 - complete catalogue audit distinguishes valid recorded URLs, offer verification and current linking permission
+  ---
+  duration_ms: 30.877
+  type: 'test'
+  ...
+# Subtest: affiliate parameters identify the recorded Canadian destination without page query data
+ok 20 - affiliate parameters identify the recorded Canadian destination without page query data
+  ---
+  duration_ms: 2.2798
+  type: 'test'
+  ...
+# Subtest: malformed, foreign, retagged and incomplete destinations cannot be tracked as affiliate clicks
+ok 21 - malformed, foreign, retagged and incomplete destinations cannot be tracked as affiliate clicks
+  ---
+  duration_ms: 0.7869
+  type: 'test'
+  ...
+# Subtest: English URLs round-trip through static French routes, including the Pages 404
+ok 22 - English URLs round-trip through static French routes, including the Pages 404
+  ---
+  duration_ms: 1.3584
+  type: 'test'
+  ...
+# Subtest: new visitor text fails closed while generated counts and dates remain localizable
+ok 23 - new visitor text fails closed while generated counts and dates remain localizable
+  ---
+  duration_ms: 15.9975
+  type: 'test'
+  ...
+# Subtest: localization preserves affiliate destinations and executable analytics while translating accessible text
+ok 24 - localization preserves affiliate destinations and executable analytics while translating accessible text
+  ---
+  duration_ms: 10.0204
+  type: 'test'
+  ...
+# Subtest: only reviewed source hunks are projected before historical checks
+not ok 25 - only reviewed source hunks are projected before historical checks
+  ---
+  duration_ms: 6.7768
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\bilingual.test.ts:37:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one reviewed WHITEOUT Phase 2 hunk: package.json
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeWhiteoutPhase2 (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/whiteout-phase2-preservation.mjs:21:12)
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:8:11)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\bilingual.test.ts:42:26)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: every translated phrase preserves all numeric specifications and warning quantities
+ok 26 - every translated phrase preserves all numeric specifications and warning quantities
+  ---
+  duration_ms: 21.0178
+  type: 'test'
+  ...
+# Subtest: BougeRV additions preserve all 36 existing JSON records, prior media, account, release/SEO rules, GA4 and home
+not ok 27 - BougeRV additions preserve all 36 existing JSON records, prior media, account, release/SEO rules, GA4 and home
+  ---
+  duration_ms: 212.3475
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\bougerv.test.ts:19:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\bougerv.test.ts:23:11)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: bougerv-53-quart-portable-refrigerator-freezer has only recorded Canadian linking permission with full editorial and safety safeguards
+ok 28 - bougerv-53-quart-portable-refrigerator-freezer has only recorded Canadian linking permission with full editorial and safety safeguards
+  ---
+  duration_ms: 36.531
+  type: 'test'
+  ...
+# Subtest: bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler has only recorded Canadian linking permission with full editorial and safety safeguards
+ok 29 - bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler has only recorded Canadian linking permission with full editorial and safety safeguards
+  ---
+  duration_ms: 39.3566
+  type: 'test'
+  ...
+# Subtest: BougeRV reference policy defaults to visible documentary links for existing products and cannot invent a single range or included battery
+ok 30 - BougeRV reference policy defaults to visible documentary links for existing products and cannot invent a single range or included battery
+  ---
+  duration_ms: 3.2551
+  type: 'test'
+  ...
+# Subtest: historical rendered-schema checks permit exactly one approved logo while retaining all previous fields
+ok 31 - historical rendered-schema checks permit exactly one approved logo while retaining all previous fields
+  ---
+  duration_ms: 9.4889
+  type: 'test'
+  ...
+# Subtest: the official emblem master stays exactly as supplied and every recorded asset has consistent bytes and geometry
+ok 32 - the official emblem master stays exactly as supplied and every recorded asset has consistent bytes and geometry
+  ---
+  duration_ms: 66.7393
+  type: 'test'
+  ...
+# Subtest: every derivative preserves the complete source canvas and resampled colours without masks or geometry edits
+ok 33 - every derivative preserves the complete source canvas and resampled colours without masks or geometry edits
+  ---
+  duration_ms: 399.8502
+  type: 'test'
+  ...
+# Subtest: historical source normalization permits only the exact authorized icon/schema edits
+ok 34 - historical source normalization permits only the exact authorized icon/schema edits
+  ---
+  duration_ms: 3.2548
+  type: 'test'
+  ...
+# Subtest: branding preserves the merged mega-menu implementation and shared catalogue behavior
+ok 35 - branding preserves the merged mega-menu implementation and shared catalogue behavior
+  ---
+  duration_ms: 1.9855
+  type: 'test'
+  ...
+# Subtest: 2091 is a separate particulate-only record with the exact ASIN and distinct artwork, not a relabelled 2097
+ok 36 - 2091 is a separate particulate-only record with the exact ASIN and distinct artwork, not a relabelled 2097
+  ---
+  duration_ms: 18.314
+  type: 'test'
+  ...
+# Subtest: the catalogue audit preserves every previous product, artwork, affiliate policy and commercial decision
+ok 37 - the catalogue audit preserves every previous product, artwork, affiliate policy and commercial decision
+  ---
+  duration_ms: 118.0084
+  type: 'test'
+  ...
+# Subtest: Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision
+ok 38 - Phase 4.6 appends only three media records and preserves every previous product, image, policy and affiliate decision
+  ---
+  duration_ms: 85.3976
+  type: 'test'
+  ...
+# Subtest: Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits
+ok 39 - Phase 4.4 nine independent commercial decisions retain exact Canadian ASINs and their evidence limits
+  ---
+  duration_ms: 10.7454
+  type: 'test'
+  ...
+# Subtest: all 26 product identities and the 17 unaudited records are preserved against main
+ok 40 - all 26 product identities and the 17 unaudited records are preserved against main
+  ---
+  duration_ms: 7.5948
+  type: 'test'
+  ...
+# Subtest: prior media, bunker, affiliate configuration and mandatory safety controls survive additive taxonomy integration
+ok 41 - prior media, bunker, affiliate configuration and mandatory safety controls survive additive taxonomy integration
+  ---
+  duration_ms: 63.1906
+  type: 'test'
+  ...
+# Subtest: Midland owner-transcribed ER310-MFN identity permits only the recorded link without a battery or verification guarantee
+ok 42 - Midland owner-transcribed ER310-MFN identity permits only the recorded link without a battery or verification guarantee
+  ---
+  duration_ms: 6.393
+  type: 'test'
+  ...
+# Subtest: S.O.S. two-pack link permission retains rounded nutrition, dated shelf life and all other product records
+ok 43 - S.O.S. two-pack link permission retains rounded nutrition, dated shelf life and all other product records
+  ---
+  duration_ms: 4.3336
+  type: 'test'
+  ...
+# Subtest: ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared kcal without changing other commercial decisions
+ok 44 - ReadyWise inspected yogurt label reconciles 84 servings and 15420 declared kcal without changing other commercial decisions
+  ---
+  duration_ms: 13.2529
+  type: 'test'
+  ...
+# Subtest: retailer identity evidence cannot replace manufacturer technical evidence or editorial publication approval
+ok 45 - retailer identity evidence cannot replace manufacturer technical evidence or editorial publication approval
+  ---
+  duration_ms: 2.2662
+  type: 'test'
+  ...
+# Subtest: Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits
+ok 46 - Phase 4.3 preserves food arithmetic, exact variants and facepiece assembly limits
+  ---
+  duration_ms: 2.5721
+  type: 'test'
+  ...
+# Subtest: remaining product holds cannot be bypassed by setting unrelated editorial approval flags
+ok 47 - remaining product holds cannot be bypassed by setting unrelated editorial approval flags
+  ---
+  duration_ms: 2.1353
+  type: 'test'
+  ...
+# Subtest: forty-six registered links retain exact identities and obey product-level evidence decisions
+ok 48 - forty-six registered links retain exact identities and obey product-level evidence decisions
+  ---
+  duration_ms: 13.7977
+  type: 'test'
+  ...
+# Subtest: slugs, ASINs and related records are unique and refer to existing products
+ok 49 - slugs, ASINs and related records are unique and refer to existing products
+  ---
+  duration_ms: 23.1151
+  type: 'test'
+  ...
+# Subtest: Kidde and INIU remain blocked and cannot be published by changing only editorial status
+ok 50 - Kidde and INIU remain blocked and cannot be published by changing only editorial status
+  ---
+  duration_ms: 0.6617
+  type: 'test'
+  ...
+# Subtest: editorial publication requires listing verification and safety clearance
+ok 51 - editorial publication requires listing verification and safety clearance
+  ---
+  duration_ms: 2.4135
+  type: 'test'
+  ...
+# Subtest: schema rejects missing evidence, duplicate sources and incorrect ASIN mappings
+ok 52 - schema rejects missing evidence, duplicate sources and incorrect ASIN mappings
+  ---
+  duration_ms: 0.7755
+  type: 'test'
+  ...
+# Subtest: no Product, Review, Offer or AggregateRating data is emitted for drafts
+ok 53 - no Product, Review, Offer or AggregateRating data is emitted for drafts
+  ---
+  duration_ms: 5.5649
+  type: 'test'
+  ...
+# Subtest: approved Product structured data contains identity only, without invented commercial or review data
+ok 54 - approved Product structured data contains identity only, without invented commercial or review data
+  ---
+  duration_ms: 0.7999
+  type: 'test'
+  ...
+# Subtest: Canadian ASIN links reject foreign tags, duplicate tags and extra tracking
+ok 55 - Canadian ASIN links reject foreign tags, duplicate tags and extra tracking
+  ---
+  duration_ms: 0.8512
+  type: 'test'
+  ...
+# Subtest: OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits without fictional safety promises
+ok 56 - OUTBREAK preserves particulate, PPE, clothing-variant and satellite limits without fictional safety promises
+  ---
+  duration_ms: 1.2652
+  type: 'test'
+  ...
+# Subtest: Catalogue has eighteen BLACKOUT, twelve FALLOUT and sixteen OUTBREAK profiles with substantive original content
+ok 57 - Catalogue has eighteen BLACKOUT, twelve FALLOUT and sixteen OUTBREAK profiles with substantive original content
+  ---
+  duration_ms: 16.5351
+  type: 'test'
+  ...
+# Subtest: category indexability depends only on its own editorial readiness and preview status
+ok 58 - category indexability depends only on its own editorial readiness and preview status
+  ---
+  duration_ms: 1.1128
+  type: 'test'
+  ...
+# Subtest: a catalogue of entirely unapproved informational profiles remains independently indexable
+ok 59 - a catalogue of entirely unapproved informational profiles remains independently indexable
+  ---
+  duration_ms: 45.7068
+  type: 'test'
+  ...
+# Subtest: core SEO correction preserves every product, affiliate/safety policy, image, tracking implementation and other page source
+not ok 60 - core SEO correction preserves every product, affiliate/safety policy, image, tracking implementation and other page source
+  ---
+  duration_ms: 232.0793
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\category-seo.test.ts:35:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\category-seo.test.ts:39:243)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: conversion changes preserve all product data, release/SEO/account policy, Google configuration, artwork and home/navigation
+not ok 61 - conversion changes preserve all product data, release/SEO/account policy, Google configuration, artwork and home/navigation
+  ---
+  duration_ms: 174.3134
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\conversion.test.ts:15:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\conversion.test.ts:20:64)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: the purchase display guard accepts only canonical Canadian affiliate destinations, never documentary/US/partner controls
+ok 62 - the purchase display guard accepts only canonical Canadian affiliate destinations, never documentary/US/partner controls
+  ---
+  duration_ms: 1.9711
+  type: 'test'
+  ...
+# Subtest: affiliate placement and canonical product name enrich the existing event without page query data
+ok 63 - affiliate placement and canonical product name enrich the existing event without page query data
+  ---
+  duration_ms: 0.6682
+  type: 'test'
+  ...
+# Subtest: source reference events are distinct, constrained and exclude destination/page query strings and fragments
+ok 64 - source reference events are distinct, constrained and exclude destination/page query strings and fragments
+  ---
+  duration_ms: 1.6118
+  type: 'test'
+  ...
+# Subtest: four-universe integration preserves every earlier product, media, brand and tracking byte with exact source projections
+not ok 65 - four-universe integration preserves every earlier product, media, brand and tracking byte with exact source projections
+  ---
+  duration_ms: 363.9678
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\four-universes.test.ts:12:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    src/components/Footer.astro
+    + actual - expected
+    
+    + 'a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79'
+    - 'ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7'
+  actual: 'a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\four-universes.test.ts:17:173)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: WHITEOUT identity, restricted retailer link and no commercial schema survive integration
+ok 66 - WHITEOUT identity, restricted retailer link and no commercial schema survive integration
+  ---
+  duration_ms: 48.3275
+  type: 'test'
+  ...
+# Subtest: rejected Explorer 300 artwork cannot render in development or production
+ok 67 - rejected Explorer 300 artwork cannot render in development or production
+  ---
+  duration_ms: 1.254
+  type: 'test'
+  ...
+# Subtest: owner-authorized pack maps all fifty-two products while withholding the inaccurate Explorer 300 illustration
+ok 68 - owner-authorized pack maps all fifty-two products while withholding the inaccurate Explorer 300 illustration
+  ---
+  duration_ms: 0.4602
+  type: 'test'
+  ...
+# Subtest: owner confirmation permits the public bunker without authorizing product artwork
+ok 69 - owner confirmation permits the public bunker without authorizing product artwork
+  ---
+  duration_ms: 0.2795
+  type: 'test'
+  ...
+# Subtest: reference review allows editorial previews without granting commercial permissions
+ok 70 - reference review allows editorial previews without granting commercial permissions
+  ---
+  duration_ms: 0.1899
+  type: 'test'
+  ...
+# Subtest: Morakniv fix preserves other products, policy, tracking, SEO code and all original media
+not ok 71 - Morakniv fix preserves other products, policy, tracking, SEO code and all original media
+  ---
+  duration_ms: 5.2677
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\morakniv.test.ts:21:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\morakniv.test.ts:26:17)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: Morakniv owner-model reference permits only the recorded Canadian link and leaves offer verification and SEO separate
+ok 72 - Morakniv owner-model reference permits only the recorded Canadian link and leaves offer verification and SEO separate
+  ---
+  duration_ms: 23.5495
+  type: 'test'
+  ...
+# Subtest: Phase 4.7 changes only three commercial records and appends only the 2091 media mapping
+not ok 73 - Phase 4.7 changes only three commercial records and appends only the 2091 media mapping
+  ---
+  duration_ms: 105.9786
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase47.test.ts:23:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase47.test.ts:40:13)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: 3m-60921-organic-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 74 - 3m-60921-organic-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 23.8842
+  type: 'test'
+  ...
+# Subtest: 3m-60926-multi-gas-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 75 - 3m-60926-multi-gas-vapor-p100-cartridges permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 2.357
+  type: 'test'
+  ...
+# Subtest: 3m-2097-p100-particulate-filters permits the owner-documented pack while preserving editorial and respiratory safeguards
+ok 76 - 3m-2097-p100-particulate-filters permits the owner-documented pack while preserving editorial and respiratory safeguards
+  ---
+  duration_ms: 2.376
+  type: 'test'
+  ...
+# Subtest: 2091 preserves its supplied original and artwork independently of the documented Phase 4.8 link decision
+ok 77 - 2091 preserves its supplied original and artwork independently of the documented Phase 4.8 link decision
+  ---
+  duration_ms: 22.1522
+  type: 'test'
+  ...
+# Subtest: Phase 4.8 preserves every other product, all artwork, policies and 2091 technical precautions
+not ok 78 - Phase 4.8 preserves every other product, all artwork, policies and 2091 technical precautions
+  ---
+  duration_ms: 131.6619
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase48.test.ts:21:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase48.test.ts:26:17)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: 2091 owner-document resolves the pair hold without authenticating units or granting editorial approval
+ok 79 - 2091 owner-document resolves the pair hold without authenticating units or granting editorial approval
+  ---
+  duration_ms: 34.9464
+  type: 'test'
+  ...
+# Subtest: Phase 5 preserves all existing products, policy, tracking and media while appending two categories and four mappings
+not ok 80 - Phase 5 preserves all existing products, policy, tracking and media while appending two categories and four mappings
+  ---
+  duration_ms: 92.8395
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase5.test.ts:23:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase5.test.ts:27:13)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: gerber-strongarm-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+ok 81 - gerber-strongarm-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 36.1934
+  type: 'test'
+  ...
+# Subtest: esee-4-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+ok 82 - esee-4-fixed-blade-knife preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 2.7844
+  type: 'test'
+  ...
+# Subtest: morakniv-garberg-blackblade-carbon-survival-kit preserves exact Canadian identity and its documented product-level decision
+ok 83 - morakniv-garberg-blackblade-carbon-survival-kit preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 2.4775
+  type: 'test'
+  ...
+# Subtest: royale-velour-plush-thick-toilet-paper preserves exact Canadian identity and its documented product-level decision
+ok 84 - royale-velour-plush-thick-toilet-paper preserves exact Canadian identity and its documented product-level decision
+  ---
+  duration_ms: 1.9751
+  type: 'test'
+  ...
+# Subtest: four supplied originals map to unique three-size WebPs without changing old artwork or using pictures as package proof
+ok 85 - four supplied originals map to unique three-size WebPs without changing old artwork or using pictures as package proof
+  ---
+  duration_ms: 63.4798
+  type: 'test'
+  ...
+# Subtest: Royale physical roll count and Garberg offer uncertainty remain explicit instead of becoming invented commercial facts
+ok 86 - Royale physical roll count and Garberg offer uncertainty remain explicit instead of becoming invented commercial facts
+  ---
+  duration_ms: 5.8054
+  type: 'test'
+  ...
+# Subtest: Phase 5.3 preserves all 34 earlier products, artwork, release/Google/SEO policy and shared conversion renderers
+not ok 87 - Phase 5.3 preserves all 34 earlier products, artwork, release/Google/SEO policy and shared conversion renderers
+  ---
+  duration_ms: 176.9657
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase53.test.ts:20:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase53.test.ts:26:9)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: ecoflow-delta-2-portable-power-station permits only its documented recorded link, preserving independent SEO and safety controls
+ok 88 - ecoflow-delta-2-portable-power-station permits only its documented recorded link, preserving independent SEO and safety controls
+  ---
+  duration_ms: 62.9953
+  type: 'test'
+  ...
+# Subtest: bluetti-elite-100-v2-solar-generator-kit permits only its documented recorded link, preserving independent SEO and safety controls
+ok 89 - bluetti-elite-100-v2-solar-generator-kit permits only its documented recorded link, preserving independent SEO and safety controls
+  ---
+  duration_ms: 22.6192
+  type: 'test'
+  ...
+# Subtest: BLUETTI advertised title and manufacturer bundle never establish exact retailer panel/cables; DELTA 2 does not acquire a solar panel
+ok 90 - BLUETTI advertised title and manufacturer bundle never establish exact retailer panel/cables; DELTA 2 does not acquire a solar panel
+  ---
+  duration_ms: 1.8617
+  type: 'test'
+  ...
+# Subtest: Phase 5.5 preserves all 38 existing product records, media bytes, affiliate/GA4/SEO policy and home
+not ok 91 - Phase 5.5 preserves all 38 existing product records, media bytes, affiliate/GA4/SEO policy and home
+  ---
+  duration_ms: 242.8466
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase55.test.ts:18:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase55.test.ts:20:148)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: oria-wireless-refrigerator-freezer-thermometer uses its recorded Canadian link without inventing manufacturer, listing or publication approval
+ok 92 - oria-wireless-refrigerator-freezer-thermometer uses its recorded Canadian link without inventing manufacturer, listing or publication approval
+  ---
+  duration_ms: 33.3297
+  type: 'test'
+  ...
+# Subtest: panasonic-eneloop-aa-rechargeable-battery-charger-kit uses its recorded Canadian link without inventing manufacturer, listing or publication approval
+ok 93 - panasonic-eneloop-aa-rechargeable-battery-charger-kit uses its recorded Canadian link without inventing manufacturer, listing or publication approval
+  ---
+  duration_ms: 15.8854
+  type: 'test'
+  ...
+# Subtest: panasonic-eneloop-aaa-rechargeable-battery-charger-kit uses its recorded Canadian link without inventing manufacturer, listing or publication approval
+ok 94 - panasonic-eneloop-aaa-rechargeable-battery-charger-kit uses its recorded Canadian link without inventing manufacturer, listing or publication approval
+  ---
+  duration_ms: 13.5766
+  type: 'test'
+  ...
+# Subtest: ORIA owner-reported features cannot acquire verified-manufacturer status or bypass editorial release
+ok 95 - ORIA owner-reported features cannot acquire verified-manufacturer status or bypass editorial release
+  ---
+  duration_ms: 3.5257
+  type: 'test'
+  ...
+# Subtest: Panasonic kits retain four-cell quantities, separate AA/AAA identities and conditional capacity/charge/cycle conventions
+ok 96 - Panasonic kits retain four-cell quantities, separate AA/AAA identities and conditional capacity/charge/cycle conventions
+  ---
+  duration_ms: 2.7661
+  type: 'test'
+  ...
+# Subtest: search combines literal name/brand tokens, sector and category with reset and empty states
+ok 97 - search combines literal name/brand tokens, sector and category with reset and empty states
+  ---
+  duration_ms: 4.0224
+  type: 'test'
+  ...
+# Subtest: Phase 6 preserves all product records, media, affiliate and tracking implementation bytes
+not ok 98 - Phase 6 preserves all product records, media, affiliate and tracking implementation bytes
+  ---
+  duration_ms: 292.2959
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase6.test.ts:35:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    src/lib/affiliate-analytics.ts
+    + actual - expected
+    
+    + '556950f692735db48b325130dad539e40eb820b651103d6e3271d88e9f70c6f8'
+    - 'b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571'
+  actual: '556950f692735db48b325130dad539e40eb820b651103d6e3271d88e9f70c6f8'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase6.test.ts:40:12)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: preservation accepts the documented CSV checkout endings but rejects content and binary changes
+ok 99 - preservation accepts the documented CSV checkout endings but rejects content and binary changes
+  ---
+  duration_ms: 4.5965
+  type: 'test'
+  ...
+# Subtest: hub readiness is independent; no draft earns indexability through an available affiliate link
+ok 100 - hub readiness is independent; no draft earns indexability through an available affiliate link
+  ---
+  duration_ms: 49.786
+  type: 'test'
+  ...
+# Subtest: navigation categories exactly match public products, canonical labels, sectors and stable destinations
+ok 101 - navigation categories exactly match public products, canonical labels, sectors and stable destinations
+  ---
+  duration_ms: 4.9496
+  type: 'test'
+  ...
+# Subtest: an established empty category appears automatically only for an explicitly public product
+ok 102 - an established empty category appears automatically only for an explicitly public product
+  ---
+  duration_ms: 0.9358
+  type: 'test'
+  ...
+# Subtest: Phase 6.1 preserves merged Phase 6 editorial, product presentation, taxonomy and SEO source
+not ok 103 - Phase 6.1 preserves merged Phase 6 editorial, product presentation, taxonomy and SEO source
+  ---
+  duration_ms: 4.9376
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase61.test.ts:47:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    src/components/Footer.astro
+    + actual - expected
+    
+    + 'a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79'
+    - 'ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7'
+  actual: 'a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase61.test.ts:53:12)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Phase 7 preserves all 41 earlier records, every old media byte, logo, navigation and release/tracking source
+not ok 104 - Phase 7 preserves all 41 earlier records, every old media byte, logo, navigation and release/tracking source
+  ---
+  duration_ms: 280.6565
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\phase7.test.ts:18:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    src/components/Footer.astro
+    + actual - expected
+    
+    + 'a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79'
+    - 'ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7'
+  actual: 'a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\phase7.test.ts:26:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: Phase 7 append projection still rejects old content changes and unrelated source edits
+ok 105 - Phase 7 append projection still rejects old content changes and unrelated source edits
+  ---
+  duration_ms: 15.3121
+  type: 'test'
+  ...
+# Subtest: vortex-diamondback-hd-10x42-review keeps exact identity, documented specs, owner evidence and unapproved release state
+ok 106 - vortex-diamondback-hd-10x42-review keeps exact identity, documented specs, owner evidence and unapproved release state
+  ---
+  duration_ms: 26.7292
+  type: 'test'
+  ...
+# Subtest: garrett-pro-pointer-at-review keeps exact identity, documented specs, owner evidence and unapproved release state
+ok 107 - garrett-pro-pointer-at-review keeps exact identity, documented specs, owner evidence and unapproved release state
+  ---
+  duration_ms: 12.616
+  type: 'test'
+  ...
+# Subtest: gq-gmc-600-pro-review keeps exact identity, documented specs, owner evidence and unapproved release state
+ok 108 - gq-gmc-600-pro-review keeps exact identity, documented specs, owner evidence and unapproved release state
+  ---
+  duration_ms: 13.7776
+  type: 'test'
+  ...
+# Subtest: fenix-pd36r-pro-review keeps exact identity, documented specs, owner evidence and unapproved release state
+ok 109 - fenix-pd36r-pro-review keeps exact identity, documented specs, owner evidence and unapproved release state
+  ---
+  duration_ms: 9.5516
+  type: 'test'
+  ...
+# Subtest: motorola-talkabout-t802-review keeps exact identity, documented specs, owner evidence and unapproved release state
+ok 110 - motorola-talkabout-t802-review keeps exact identity, documented specs, owner evidence and unapproved release state
+  ---
+  duration_ms: 11.9249
+  type: 'test'
+  ...
+# Subtest: new equipment remains discoverable through shared categories while model-specific caveats stay explicit
+ok 111 - new equipment remains discoverable through shared categories while model-specific caveats stay explicit
+  ---
+  duration_ms: 23.2508
+  type: 'test'
+  ...
+# Subtest: only a current explicit analytics decision can be remembered
+ok 112 - only a current explicit analytics decision can be remembered
+  ---
+  duration_ms: 1.2439
+  type: 'test'
+  ...
+# Subtest: expired, future and malformed consent records fail closed
+ok 113 - expired, future and malformed consent records fail closed
+  ---
+  duration_ms: 0.2689
+  type: 'test'
+  ...
+# Subtest: owner approval is recorded with scope and provenance, never promoted to independent Amazon confirmation
+ok 114 - owner approval is recorded with scope and provenance, never promoted to independent Amazon confirmation
+  ---
+  duration_ms: 2.1247
+  type: 'test'
+  ...
+# Subtest: account and status changes preserve all products, release/SEO/tracking rules, home, navigation and images except three evidence additions
+not ok 115 - account and status changes preserve all products, release/SEO/tracking rules, home, navigation and images except three evidence additions
+  ---
+  duration_ms: 179.0297
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\product-verification.test.ts:28:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Exactly one bilingual integration hunk: src/components/GoogleAnalytics.astro
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    beforeBilingualIntegration (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/bilingual-preservation.mjs:13:12)
+    beforeFourUniverses (file:///C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/scripts/four-universes-preservation.mjs:8:10)
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\product-verification.test.ts:32:11)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: all 52 products have independently assessed dimensions; the account declaration grants no product publication or new links
+ok 116 - all 52 products have independently assessed dimensions; the account declaration grants no product publication or new links
+  ---
+  duration_ms: 27.4668
+  type: 'test'
+  ...
+# Subtest: missing, mismatched or partial evidence cannot acquire a complete-documentation or independent-listing label
+ok 117 - missing, mismatched or partial evidence cannot acquire a complete-documentation or independent-listing label
+  ---
+  duration_ms: 0.7847
+  type: 'test'
+  ...
+# Subtest: even fabricated product publication flags cannot override the three ASIN-based mandatory holds
+ok 118 - even fabricated product publication flags cannot override the three ASIN-based mandatory holds
+  ---
+  duration_ms: 0.87
+  type: 'test'
+  ...
+# Subtest: mandatory holds survive accidental status and approval flag changes
+ok 119 - mandatory holds survive accidental status and approval flag changes
+  ---
+  duration_ms: 16.184
+  type: 'test'
+  ...
+# Subtest: published specifications cannot lose their included manufacturer evidence
+ok 120 - published specifications cannot lose their included manufacturer evidence
+  ---
+  duration_ms: 2.3299
+  type: 'test'
+  ...
+# Subtest: concrete per-product holds also prevent editorial publication after unrelated approval flags change
+ok 121 - concrete per-product holds also prevent editorial publication after unrelated approval flags change
+  ---
+  duration_ms: 6.1057
+  type: 'test'
+  ...
+# Subtest: removing the research object cannot bypass the published schema guard
+ok 122 - removing the research object cannot bypass the published schema guard
+  ---
+  duration_ms: 0.5988
+  type: 'test'
+  ...
+# Subtest: public reference visibility does not grant commercial approval or buying links
+ok 123 - public reference visibility does not grant commercial approval or buying links
+  ---
+  duration_ms: 0.8599
+  type: 'test'
+  ...
+# Subtest: all eight selected profiles are public references, including held products with prominent cautions
+ok 124 - all eight selected profiles are public references, including held products with prominent cautions
+  ---
+  duration_ms: 3.6456
+  type: 'test'
+  ...
+# Subtest: new drafts and templates stay internal without an explicit visibility selection
+ok 125 - new drafts and templates stay internal without an explicit visibility selection
+  ---
+  duration_ms: 1.4451
+  type: 'test'
+  ...
+# Subtest: the additive WHITEOUT dictionary preserves every pre-existing French translation
+ok 126 - the additive WHITEOUT dictionary preserves every pre-existing French translation
+  ---
+  duration_ms: 7.7812
+  type: 'test'
+  ...
+# Subtest: Phase 2 adds exactly five products and preserves every original protected byte outside reviewed hunks
+not ok 127 - Phase 2 adds exactly five products and preserves every original protected byte outside reviewed hunks
+  ---
+  duration_ms: 15.2293
+  type: 'test'
+  location: 'C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\whiteout-phase2.test.ts:23:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    src/lib/affiliate-analytics.ts
+    + actual - expected
+    
+    + '556950f692735db48b325130dad539e40eb820b651103d6e3271d88e9f70c6f8'
+    - 'b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571'
+  actual: '556950f692735db48b325130dad539e40eb820b651103d6e3271d88e9f70c6f8'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\whiteout-phase2.test.ts:30:42)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: six WHITEOUT profiles preserve identity and SEO while six documented destinations activate with retained safety restrictions
+ok 128 - six WHITEOUT profiles preserve identity and SEO while six documented destinations activate with retained safety restrictions
+  ---
+  duration_ms: 15.7399
+  type: 'test'
+  ...
+# Subtest: variant discrepancies, manufacturer-backed Regular Wide data and cold-weather warnings are retained
+ok 129 - variant discrepancies, manufacturer-backed Regular Wide data and cold-weather warnings are retained
+  ---
+  duration_ms: 2.2328
+  type: 'test'
+  ...
+# Subtest: XTherm retailer permission retains the explicit cold limit without granting safety or publication approval
+ok 130 - XTherm retailer permission retains the explicit cold limit without granting safety or publication approval
+  ---
+  duration_ms: 1.4482
+  type: 'test'
+  ...
+# Subtest: each WHITEOUT destination can activate after a documented review without publishing the profile
+ok 131 - each WHITEOUT destination can activate after a documented review without publishing the profile
+  ---
+  duration_ms: 6.3156
+  type: 'test'
+  ...
+# Subtest: WHITEOUT permission cannot override mismatched evidence, a retained hold, blocked safety or the affiliate tag
+ok 132 - WHITEOUT permission cannot override mismatched evidence, a retained hold, blocked safety or the affiliate tag
+  ---
+  duration_ms: 6.9087
+  type: 'test'
+  ...
+# Subtest: future eligible products activate automatically from scoped evidence without an affiliate whitelist or publication approval
+ok 133 - future eligible products activate automatically from scoped evidence without an affiliate whitelist or publication approval
+  ---
+  duration_ms: 2.5982
+  type: 'test'
+  ...
+1..133
+# tests 133
+# suites 0
+# pass 117
+# fail 16
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3372.4011

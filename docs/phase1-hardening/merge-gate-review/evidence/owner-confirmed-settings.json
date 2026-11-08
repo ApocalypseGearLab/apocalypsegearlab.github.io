@@ -1,0 +1,50 @@
+{
+  "confirmedLocalDate": "2026-11-08",
+  "source": "Explicit owner confirmation, not an independent inspection of the private GA4 account",
+  "propertyName": "ApocalypseGearLab",
+  "measurementId": "G-YFJJ5N9RBX",
+  "eventDataRetention": "2 months",
+  "userDataRetention": "2 months",
+  "resetOnNewActivity": false,
+  "allFourOptionalAccountDataSharing": false,
+  "googleAdsLinks": 0,
+  "enhancedMeasurement": {
+    "enabled": true,
+    "pageViews": true,
+    "scrolls": true,
+    "outboundClicks": true,
+    "siteSearch": true,
+    "formInteractions": true,
+    "videoEngagement": true,
+    "fileDownloads": true
+  },
+  "universalAnalyticsEventCollection": false,
+  "emailRedaction": true,
+  "userProvidedDataCollection": {
+    "enabled": false,
+    "savedByOwner": true,
+    "automaticEmailPhoneNameAddressDetection": false
+  },
+  "operatorLocation": "Quebec, Canada",
+  "privacyContact": "apocalypsegearlab@gmail.com",
+  "responsibleRole": {
+    "en": "Privacy Officer",
+    "fr": "Responsable de la protection des renseignements personnels",
+    "person": "Sole operator; personal name not authorized for publication"
+  },
+  "requestHandling": "Owner personally reviews access, correction, consent withdrawal and deletion requests where applicable",
+  "notProvided": [
+    "specific request-response practices/times",
+    "Gmail retention/deletion procedures",
+    "other product links",
+    "Google tag destinations and automatic detection/consent settings",
+    "GA4 access roles/counts"
+  ],
+  "quebecProviderTransferAssessment": "NOT completed or confirmed by owner",
+  "authorization": {
+    "conditionalMerge": true,
+    "gatesMustPass": true,
+    "ownerExplicitlyBlocksMergeAndDeploymentUntilAssessmentResolved": true
+  },
+  "noPersonalNameAddressPhone": true
+}

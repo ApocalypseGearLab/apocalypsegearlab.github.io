@@ -1,0 +1,3 @@
+import {defineConfig} from '@playwright/test';
+import {resolve} from 'node:path';
+export default defineConfig({testDir:'../../../tests/browser',testMatch:'media.spec.ts',grep:/supplied SEO WebPs|hero reserves space|BLACKOUT artwork stays complete/,timeout:60000,workers:1,use:{baseURL:'http://127.0.0.1:4321',browserName:'chromium'},outputDir:resolve('docs/phase1-hardening/evidence/media-browser-artifacts'),reporter:[['json',{outputFile:resolve('docs/phase1-hardening/evidence/media-browser-results.json')}]],webServer:{command:'npm run preview -- --host 127.0.0.1 --port 4321',url:'http://127.0.0.1:4321',reuseExistingServer:false}});

@@ -1,0 +1,23 @@
+{
+  "chromium": {
+    "projects": [
+      "chromium"
+    ],
+    "workers": 2
+  },
+  "webkit": {
+    "projects": [
+      "webkit-320",
+      "webkit-375",
+      "webkit-390"
+    ],
+    "workers": 1
+  },
+  "retries": 0,
+  "assertionChanges": false,
+  "forceClicks": false,
+  "dependenciesInstalled": false,
+  "reason": "Two preliminary 2-worker WebKit runs stalled at click stability. Sequential WebKit run reduces Windows scheduling load; source/expectations and 30-second test deadlines stay unchanged.",
+  "upstreamIssue": "https://github.com/microsoft/playwright/issues/43818",
+  "rootCauseConfirmed": false
+}

@@ -1,0 +1,1477 @@
+{
+  "base": "2cc35df11968242c00fcc08060c18e5182dcabe0",
+  "branch": "feat/phase1-production-hardening",
+  "note": "Generated dist/.astro/.tools and linked dependencies excluded from per-file source inventory; see Markdown inventory. Self inventory has no self hash.",
+  "files": [
+    {
+      "path": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+      "status": "new",
+      "bytes": 24116,
+      "sha256": "78ef1209aeebf7922c8e8ac352bb83b0ee76bc12ce4bb6991558d7ca7c815b8f"
+    },
+    {
+      "path": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp",
+      "status": "new",
+      "bytes": 68756,
+      "sha256": "d862ddfe648b09eb467f937fe7fd56aaa1c0272c79953349ea6c6d994f8c009a"
+    },
+    {
+      "path": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+      "status": "new",
+      "bytes": 23296,
+      "sha256": "9622eb1c4355afbceb4fd6ae35aac23c89deded690e310eb02a2e83940465065"
+    },
+    {
+      "path": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp",
+      "status": "new",
+      "bytes": 64410,
+      "sha256": "36a1ec2442a92960965b57a657b7c645552263a61e4efdc87a8dce8d5480aadd"
+    },
+    {
+      "path": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+      "status": "new",
+      "bytes": 43798,
+      "sha256": "59e337868e9288f40d2bf9b9012793f15e5f700e653a9e2cd0a291d853efe5c9"
+    },
+    {
+      "path": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp",
+      "status": "new",
+      "bytes": 126440,
+      "sha256": "2883ca05a7df2bcdb4bc203a7ac782356e6550993522c0dfde68237f269710c7"
+    },
+    {
+      "path": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+      "status": "new",
+      "bytes": 26482,
+      "sha256": "a2a21a6ab85c62bb408d35c270635f10877630c01419a52926f217c6ddd5b6d8"
+    },
+    {
+      "path": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp",
+      "status": "new",
+      "bytes": 79758,
+      "sha256": "6fa1cd1fa6d5ab0aa902404f474502fdcb8e671f365b22f3be0f8d2ce49740e7"
+    },
+    {
+      "path": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+      "status": "new",
+      "bytes": 27312,
+      "sha256": "f8c42b5b795b4d5324095cc93ecd42669a113bea4a8a4e10dc95592093bc179e"
+    },
+    {
+      "path": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp",
+      "status": "new",
+      "bytes": 72494,
+      "sha256": "04dbfc0614fce8bcb8f33a98349450ece19a0374295b233edbb580cb856ee650"
+    },
+    {
+      "path": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+      "status": "new",
+      "bytes": 24488,
+      "sha256": "e7660a63de7f5e57eebe337ee1e1d36fe7a2d66ae882e889bd923aca7bca0e13"
+    },
+    {
+      "path": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp",
+      "status": "new",
+      "bytes": 96122,
+      "sha256": "7c2b8f9475b5c000b5e8e58b35ab8a72d3ef5cacb6e1fad90c2a52710d1c6a3c"
+    },
+    {
+      "path": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+      "status": "new",
+      "bytes": 21104,
+      "sha256": "14d9d1eb6edfd2207bed4e0218e639fb2f17d0646f984c77ca14fd24bdff0330"
+    },
+    {
+      "path": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp",
+      "status": "new",
+      "bytes": 58230,
+      "sha256": "206ce62fbd5db203a2e9b362d5b964c70cd263b86267ad25df0f9314246ca27f"
+    },
+    {
+      "path": "assets/media/blackout/midland-er310-emergency-radio-blackout-480.webp",
+      "status": "new",
+      "bytes": 44072,
+      "sha256": "2900218757dcf2749db3b6bd1248f992d44b0c408b1faff6202e4f0a7ce3a7a5"
+    },
+    {
+      "path": "assets/media/blackout/midland-er310-emergency-radio-blackout-960.webp",
+      "status": "new",
+      "bytes": 133396,
+      "sha256": "279579fb533273a05bd4167f305bdea45a14c1b8c52e139590a1755cd6a1cc16"
+    },
+    {
+      "path": "assets/media/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+      "status": "new",
+      "bytes": 32006,
+      "sha256": "0b44044110df6d68015f7b4b85b80c173d61d05b3c39005f3cc407798c66e021"
+    },
+    {
+      "path": "assets/media/fallout/leatherman-wave-plus-multitool-fallout-960.webp",
+      "status": "new",
+      "bytes": 95390,
+      "sha256": "d0f954da158c0bdd6ead9834c39d681929c20359a41b5a0da3d6ce65a76174df"
+    },
+    {
+      "path": "assets/media/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+      "status": "new",
+      "bytes": 51432,
+      "sha256": "feb06b89350cdff0f331fb2c50d80c9acdcec74a493fd82b256eba060f1bdd76"
+    },
+    {
+      "path": "assets/media/fallout/nanuk-904-first-aid-kit-fallout-960.webp",
+      "status": "new",
+      "bytes": 159018,
+      "sha256": "5c3f1fd7e6873fdfcdb0e22ef22a52c0a1725b2c94511d06fc13d90fed519a0b"
+    },
+    {
+      "path": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+      "status": "new",
+      "bytes": 39432,
+      "sha256": "10294ee13304b0c4063471cbb974e1a1a3ee06d9da010824fd49c396cac74293"
+    },
+    {
+      "path": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp",
+      "status": "new",
+      "bytes": 112546,
+      "sha256": "25d295efcf6fd2b2b7060076bac8d0886e61d6addf2a1f5209f0fa17b9c338f7"
+    },
+    {
+      "path": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+      "status": "new",
+      "bytes": 40098,
+      "sha256": "f055d164ef021e71c2a838f3316674d7464fc9ce5ecb4db76a0f39f96a5d3743"
+    },
+    {
+      "path": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp",
+      "status": "new",
+      "bytes": 114328,
+      "sha256": "a1b99b03c98227a9896f83f9b1ee1c5f2c0697bb8dce9c6274e6f0f177f2f22d"
+    },
+    {
+      "path": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+      "status": "new",
+      "bytes": 56618,
+      "sha256": "152c87245344a34ab251ca26ab295a31e4b7f7f95ee1762644f85a2505a5345a"
+    },
+    {
+      "path": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp",
+      "status": "new",
+      "bytes": 175034,
+      "sha256": "beef9fd77f6477540a47d2f874cbfb48c658f2073359bd0093f7cd4119209f8e"
+    },
+    {
+      "path": "docs/phase1-hardening/changed-file-inventory.md",
+      "status": "new",
+      "bytes": 9888,
+      "sha256": "0f6f8c047600952d943a23f8b8590a15f5f1c54624076e71504ae5efc770458a"
+    },
+    {
+      "path": "docs/phase1-hardening/diagnostics/browser-after.mjs",
+      "status": "new",
+      "bytes": 3887,
+      "sha256": "748d2e6e415d3e660fdfbd827e295caaa9b7be3393b89ddb89a47d2d32173f10"
+    },
+    {
+      "path": "docs/phase1-hardening/diagnostics/browser-baseline.mjs",
+      "status": "new",
+      "bytes": 3922,
+      "sha256": "b4f08c861daf9dd34211c9127657f61051ae17c9edd6f3707dd52f520545e634"
+    },
+    {
+      "path": "docs/phase1-hardening/diagnostics/consent-google-probe.mjs",
+      "status": "new",
+      "bytes": 3645,
+      "sha256": "cf09206b69fa4efdfa73d10a8fe59b6469dac5179a12d1c6647520eec56d9dd1"
+    },
+    {
+      "path": "docs/phase1-hardening/diagnostics/media-regression.config.mjs",
+      "status": "new",
+      "bytes": 638,
+      "sha256": "1edebbc42414bf6cc72b564c40693fcee1de3541803bee1a9a85b8d6aa06adaf"
+    },
+    {
+      "path": "docs/phase1-hardening/diagnostics/privacy-regression.config.mjs",
+      "status": "new",
+      "bytes": 1098,
+      "sha256": "890c1156d79ea216d345cec9ceca2a6e00ecc6943469cefab2848d85e17f51dd"
+    },
+    {
+      "path": "docs/phase1-hardening/diagnostics/responsive-regression.config.mjs",
+      "status": "new",
+      "bytes": 730,
+      "sha256": "bc2276617f2df11ca77b73f56241ff46f9fd7af3751f1c29e72582c5c3f8b711"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-audit-affiliate.log",
+      "status": "new",
+      "bytes": 70196,
+      "sha256": "bccc4b1333db673f4290fec0664a1fcae2732996882fe2d47217fb50f7025d76"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-audit-verification.log",
+      "status": "new",
+      "bytes": 938,
+      "sha256": "a7053eed21c7788fd0e6b754b0ff7826c5296135568228d694dcf8d09c5ed0ec"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-browser-first.json",
+      "status": "new",
+      "bytes": 55603,
+      "sha256": "7cc69bbd861022c8a47ee9d5648e3a636a972515e68a356a8a2538608ffb391a"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-browser-first.log",
+      "status": "new",
+      "bytes": 2618,
+      "sha256": "43e0eafd64fd2b380a071860ffd90b5951f1aab3b185777df24e08d8b304c894"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-browser.json",
+      "status": "new",
+      "bytes": 55481,
+      "sha256": "e121c40afe91f76c88b35bb3a6b0c0daf986e8742c88ca788d95bcda7937315e"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-browser.log",
+      "status": "new",
+      "bytes": 2496,
+      "sha256": "6614c2ab24bb1132c02b6528cb0dbefa9a5f6eb2efe3ebb913ca3dbae48bb005"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-build-first.log",
+      "status": "new",
+      "bytes": 4356,
+      "sha256": "7bc5969c911fc0106994fd70744c704acd1cb5909f1abda2d4e91c6cf43afb6b"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-build.log",
+      "status": "new",
+      "bytes": 25750,
+      "sha256": "38142572b90825139b94788d1d0ea34d324e9480b19130f1ba1bdc3d2767c333"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-check-first.log",
+      "status": "new",
+      "bytes": 416,
+      "sha256": "6cbd100b659b56fd818294fe9e21c56384e174cd2900e98b932fa3439878ffe0"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-check-results.json",
+      "status": "new",
+      "bytes": 123,
+      "sha256": "5f0214150fb5e4cbaa9fe6e437e003487520287acd457736d0c75080eba31739"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-check.log",
+      "status": "new",
+      "bytes": 930,
+      "sha256": "8edabd5b5eb53fd39257fda36fa995693e2b91c11be38af6eb526979df54528e"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-release-check.log",
+      "status": "new",
+      "bytes": 44894,
+      "sha256": "17802788c1f8ddf5bb09341c4247214335900bbaca1a6345e7a2df46773f6257"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/gear-1440.png",
+      "status": "new",
+      "bytes": 108944,
+      "sha256": "c8291ce9d6e28af76ac007c09209812d4985ce74b69eec5b03374dff698aaa35"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/gear-390.png",
+      "status": "new",
+      "bytes": 45121,
+      "sha256": "8401a2580ac2c2db1f1fd56577e8a64c6c39a245258646e130223b5dcc095a08"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/gear-therm-a-rest-neoair-xtherm-nxt-review-1440.png",
+      "status": "new",
+      "bytes": 126922,
+      "sha256": "cd7f9e24b72d96de0eae7c192625cdabf151cbd96be83195494b2723bbed5e66"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/gear-therm-a-rest-neoair-xtherm-nxt-review-390.png",
+      "status": "new",
+      "bytes": 67725,
+      "sha256": "9a4cbd377a6f77266077d6c6ee124ab79e96a51d4026641e9198faec76a010c0"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/home-1440.png",
+      "status": "new",
+      "bytes": 1668738,
+      "sha256": "2a0daff19ac0e81956fdd7032aed704164b68d4a6ccde42a8ce2d9a56348ae72"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/home-390.png",
+      "status": "new",
+      "bytes": 240870,
+      "sha256": "631365fb3f4e2759f3be2c85ebddffd46ecc10532e3d537f4100255e220960a8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/whiteout-1440.png",
+      "status": "new",
+      "bytes": 1345814,
+      "sha256": "27d487e7aecf2c0c30c6bc5b869d25c675499082fc9f70c035bea01958f478ce"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-screenshots/whiteout-390.png",
+      "status": "new",
+      "bytes": 270435,
+      "sha256": "dd01348d87157e74d8a0eca73002f4019ed93b238ab6bf429546d25bba097bea"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-test-bougerv.log",
+      "status": "new",
+      "bytes": 1271,
+      "sha256": "3225a84666585c77a2ff5b3e745f65901f26505b6290c98bf6bc638a13625135"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-test-conversion.log",
+      "status": "new",
+      "bytes": 522,
+      "sha256": "3c718bf2c5b49b59a187df30482bae7193c15014316f3f72ac2cd123689f42f2"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-test-images.log",
+      "status": "new",
+      "bytes": 1045,
+      "sha256": "7fce1b14696dc9ab76d43b984fce2e8f7008880ae3a26a968d62b1de5c21174b"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-test-phase55.log",
+      "status": "new",
+      "bytes": 1361,
+      "sha256": "152da40956884efadc48a8231ffda9df9e207970bb34197bb41facc9ae06bdc4"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-test-site.log",
+      "status": "new",
+      "bytes": 1198,
+      "sha256": "8ad02724477b06e51331b30ddde931a56a02aec1259e7e15108471da7ca06415"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-test.log",
+      "status": "new",
+      "bytes": 36381,
+      "sha256": "118aced3b6cabe838846e2229ddab5a3dbccb45102ea627b3805fd7ac85b40c2"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-unit-first.log",
+      "status": "new",
+      "bytes": 56768,
+      "sha256": "efe25bcbb458aaca651bcb078214bc98b9b693eede5327fc598bc6ebb4a2fe76"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/after-unit.log",
+      "status": "new",
+      "bytes": 37176,
+      "sha256": "6abb215dc5ad64d44e387188bc80101f19cd44b0970dc472b835a17b97286123"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-audit-affiliate.log",
+      "status": "new",
+      "bytes": 70196,
+      "sha256": "bccc4b1333db673f4290fec0664a1fcae2732996882fe2d47217fb50f7025d76"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-audit-verification.log",
+      "status": "new",
+      "bytes": 938,
+      "sha256": "a7053eed21c7788fd0e6b754b0ff7826c5296135568228d694dcf8d09c5ed0ec"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-browser.json",
+      "status": "new",
+      "bytes": 51486,
+      "sha256": "42e7512e0ff9c3a7b8488b93d0c25d5c4e7f15779ac067c35199d2e1af70b7d5"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-browser.log",
+      "status": "new",
+      "bytes": 2509,
+      "sha256": "ce09d6627e2ea11be234d72a396f227b80a8c733f3c89e06dd059f4e26b6b0a8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-build.log",
+      "status": "new",
+      "bytes": 23513,
+      "sha256": "131b5a77898399edb745910dba2580e6f37b15c637005d53cf395b6ae4fb7222"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-check-results.json",
+      "status": "new",
+      "bytes": 924,
+      "sha256": "8935320941b5100d6e10ab2cb7b56ee3970b8986f0431ccdb16d6f8e676643ea"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-check.log",
+      "status": "new",
+      "bytes": 403,
+      "sha256": "296d16bf71e2cb43f010e9e9fdf6b525157a6f8edf23c107e64dee0acb35e33c"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-google-storage.json",
+      "status": "new",
+      "bytes": 1286,
+      "sha256": "b71257b430343f3e5a6a198e9ba8d481f6d6e6e13a84654f8e5a946cef51caee"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-release-check.log",
+      "status": "new",
+      "bytes": 44894,
+      "sha256": "17802788c1f8ddf5bb09341c4247214335900bbaca1a6345e7a2df46773f6257"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/gear-1440.png",
+      "status": "new",
+      "bytes": 108944,
+      "sha256": "c8291ce9d6e28af76ac007c09209812d4985ce74b69eec5b03374dff698aaa35"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/gear-390.png",
+      "status": "new",
+      "bytes": 45121,
+      "sha256": "8401a2580ac2c2db1f1fd56577e8a64c6c39a245258646e130223b5dcc095a08"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/gear-therm-a-rest-neoair-xtherm-nxt-review-1440.png",
+      "status": "new",
+      "bytes": 126922,
+      "sha256": "cd7f9e24b72d96de0eae7c192625cdabf151cbd96be83195494b2723bbed5e66"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/gear-therm-a-rest-neoair-xtherm-nxt-review-390.png",
+      "status": "new",
+      "bytes": 67725,
+      "sha256": "9a4cbd377a6f77266077d6c6ee124ab79e96a51d4026641e9198faec76a010c0"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/home-1440.png",
+      "status": "new",
+      "bytes": 1668738,
+      "sha256": "2a0daff19ac0e81956fdd7032aed704164b68d4a6ccde42a8ce2d9a56348ae72"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/home-390.png",
+      "status": "new",
+      "bytes": 240870,
+      "sha256": "631365fb3f4e2759f3be2c85ebddffd46ecc10532e3d537f4100255e220960a8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/whiteout-1440.png",
+      "status": "new",
+      "bytes": 1345814,
+      "sha256": "27d487e7aecf2c0c30c6bc5b869d25c675499082fc9f70c035bea01958f478ce"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-screenshots/whiteout-390.png",
+      "status": "new",
+      "bytes": 270435,
+      "sha256": "dd01348d87157e74d8a0eca73002f4019ed93b238ab6bf429546d25bba097bea"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-test-images.log",
+      "status": "new",
+      "bytes": 910,
+      "sha256": "335fa35a390bacae064efffa12c31e87291dc439105b41b465568505be740224"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-test-site.log",
+      "status": "new",
+      "bytes": 982,
+      "sha256": "76e925cc9a0b29ab13adbc71652ad8d071465d6aa96cb2da32c1ad5d0b1876a9"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/baseline-test.log",
+      "status": "new",
+      "bytes": 35968,
+      "sha256": "3c93ee86f17346d0c0964222a9f800458edb0d39fdd21f2fd76e4f2f5545bd6b"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/.last-run.json",
+      "status": "new",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-chromium-phase1/privacy-en.png",
+      "status": "new",
+      "bytes": 325496,
+      "sha256": "a694f909f5cf68f867677176994d8d5ec17b4a1de2edc27510a9cd8a51c03b1d"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-chromium-phase1/privacy-fr.png",
+      "status": "new",
+      "bytes": 361078,
+      "sha256": "0e13a8c479c2b5c887da16b8ce8fb13a1b5e48fafb855e10b4df3c47d1505e60"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-320/privacy-en.png",
+      "status": "new",
+      "bytes": 1151071,
+      "sha256": "56085f183f43d22c4ba5d815b9010b190eaf4ca44462a3b090b06a73a22d23ac"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-320/privacy-fr.png",
+      "status": "new",
+      "bytes": 1249915,
+      "sha256": "5dfd5f92c568dfbb190e70e9525f1470bd0332399ea3e4e5112f0166b9d8bd54"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-375/privacy-en.png",
+      "status": "new",
+      "bytes": 1123911,
+      "sha256": "37e0aec45e0b9bd47c8452d0dafa114fedafa3dea6bd0391645643284ed4d564"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-375/privacy-fr.png",
+      "status": "new",
+      "bytes": 1223205,
+      "sha256": "640838622b7817b1d64faa317f02d0c4f6e0be2be4fa43198f9325de236fa6f1"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-390/privacy-en.png",
+      "status": "new",
+      "bytes": 1116010,
+      "sha256": "92c9681d376e33e0286d9870e0c9286464f9e99dece5b0cc195eb143a2156c74"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-390/privacy-fr.png",
+      "status": "new",
+      "bytes": 1207665,
+      "sha256": "6ad718b991646fcd99266f212151b4c4ada663dfc42df751f6d05c3048442703"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-final-results.json",
+      "status": "new",
+      "bytes": 28372,
+      "sha256": "9b2d38b054ccc3bf28e4a8867ed487d11b79914cc431f62a440b2b266ecd6046"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-final.log",
+      "status": "new",
+      "bytes": 5862,
+      "sha256": "a2253b8813ead49afea6b6636e8bce1a45eee49c7b5f7ab5a1ad05eaef09ec1d"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/.last-run.json",
+      "status": "new",
+      "bytes": 243,
+      "sha256": "5326c95ba34acd5a7a1f7800fc7fc2433d4c5090bdfea7f3e62ea560bc8bb972"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-chromium-phase1/error-context.md",
+      "status": "new",
+      "bytes": 41207,
+      "sha256": "e0e9dd521fa3311d96ff220af3b4191203a56c98118ecf60174e76a519dfb7e8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-chromium-phase1/test-failed-1.png",
+      "status": "new",
+      "bytes": 303436,
+      "sha256": "e33c5111dbdd75344d956255a6a8f0ea386cadfceddde219bc831a5db1b7cbb1"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-320/error-context.md",
+      "status": "new",
+      "bytes": 38809,
+      "sha256": "8c985f9a055b37dad931a7629398ee0ce2cd1d246ed7381f618e33e5d8a600e6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-320/test-failed-1.png",
+      "status": "new",
+      "bytes": 126656,
+      "sha256": "d326af6cd893360e8e7f4d7cb96e6b6d9bdd5fa4c8fd4a81ef3945af2dd82db1"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-375/error-context.md",
+      "status": "new",
+      "bytes": 38831,
+      "sha256": "669b82154422994b30a7a81b36a5ed27b508492f8bb381b315d0561bae8d98e1"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-375/test-failed-1.png",
+      "status": "new",
+      "bytes": 138306,
+      "sha256": "0ee7eb4b0d4c94487d02347571273b4af33406f15a80b33591043847a54a4fcd"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-390/error-context.md",
+      "status": "new",
+      "bytes": 39400,
+      "sha256": "f5094f71d32b2db3a9effeac942aef78eecf61eced2eeefe8eaa89c049686812"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-390/test-failed-1.png",
+      "status": "new",
+      "bytes": 139794,
+      "sha256": "7f95a51d8f36e9c0c5fb6fa7f0c1d263c87bc4123004d7f6eb1410e0acb0907d"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-chromium-phase1/privacy-en.png",
+      "status": "new",
+      "bytes": 322871,
+      "sha256": "b39a0676c7dcb1b16f647c02b24d134657ea3e22b1d73ca9c2057097e33bf8ad"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-chromium-phase1/privacy-fr.png",
+      "status": "new",
+      "bytes": 360068,
+      "sha256": "201bad8b05d4aa78a7de404b91da1444761c99e77e8b5fe7d34c30d800082c8e"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-320/privacy-en.png",
+      "status": "new",
+      "bytes": 1148193,
+      "sha256": "c5caf360cfd5b698572d9355b93b58f7196f139c6470465c606984208a053b4f"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-320/privacy-fr.png",
+      "status": "new",
+      "bytes": 1243494,
+      "sha256": "589a1112969537bd3d3f866d1164f79ff63a37a7f30b6a10f4025303dcab599e"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-375/privacy-en.png",
+      "status": "new",
+      "bytes": 1122727,
+      "sha256": "be2df6b14142128e4077192225f5b9bc4f99b620296bc924da0d0539558feb84"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-375/privacy-fr.png",
+      "status": "new",
+      "bytes": 1217451,
+      "sha256": "e4faac9588446509f0168840a79dae719ceaadcab46c65dfec1888cfbc5b2ffd"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-390/privacy-en.png",
+      "status": "new",
+      "bytes": 1111349,
+      "sha256": "d0204090042775e042e1051b16b52f4a82b933fe47305252636ef09ba9ddd25e"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-390/privacy-fr.png",
+      "status": "new",
+      "bytes": 1202168,
+      "sha256": "b7aadf2c019f600a01f601139f8c0cf9ac84650ea68b48571ec01bd92ee7636b"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-initial-results.json",
+      "status": "new",
+      "bytes": 285059,
+      "sha256": "0941610ca4e1ef2945bcedc45b6b7969346bc14308bf49115a3822d4f710d7e0"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/.last-run.json",
+      "status": "new",
+      "bytes": 439,
+      "sha256": "583b2ee57a5e50d7efbebe2550df4cd695e63bdec8c3fc2e10696752115655b3"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-chromium-phase1/privacy-en.png",
+      "status": "new",
+      "bytes": 327820,
+      "sha256": "3af97c2f969af7d2cfc1c6ac2d391947c0a36db50bf210c86af78305c67a160f"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-chromium-phase1/privacy-fr.png",
+      "status": "new",
+      "bytes": 372361,
+      "sha256": "a0aec12a1718988a193473d80bc6786d6904b6321a778705eee667e50c73ec51"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-320/privacy-en.png",
+      "status": "new",
+      "bytes": 1154222,
+      "sha256": "3331c58b17ba3dd48e23dc7cd7658f8a7ea46bb449daf5779a2e16c528549771"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-320/privacy-fr.png",
+      "status": "new",
+      "bytes": 1340236,
+      "sha256": "7f3af5317d7001ddf9eed5ff399eb584dbc260842181a29c595c52dea685a3a3"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-375/privacy-en.png",
+      "status": "new",
+      "bytes": 1124519,
+      "sha256": "3655e149140a65a995784fdd1af8e86c19978ee5f42d5bd03483b801b495beb8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-375/privacy-fr.png",
+      "status": "new",
+      "bytes": 1305216,
+      "sha256": "e346c080ccedb9c321abf899d953e9725ad15698f648687aa683cb6d4d478acf"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-390/privacy-en.png",
+      "status": "new",
+      "bytes": 1118177,
+      "sha256": "86b656a26bb4b4320ebe4fa53973558ae74070be65b9726e85d67cfd5f20a66c"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-privacy-phase1-pri-6f96c-ain-bilingual-accessibility-webkit-390/privacy-fr.png",
+      "status": "new",
+      "bytes": 1290440,
+      "sha256": "2d1a1ada2292773cc0b3121e16dbcf5a6195301709040c3eeabe230884ad61c8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--74e88-ect-candidates-at-390-DPR-1-webkit-390/error-context.md",
+      "status": "new",
+      "bytes": 112326,
+      "sha256": "11fd174b278c70d3eac0a8237265e36e684946fbd2b8a959c060236f5c87f3e9"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--74e88-ect-candidates-at-390-DPR-1-webkit-390/test-failed-1.png",
+      "status": "new",
+      "bytes": 158003,
+      "sha256": "269f6056a9a5f780d64e252022c6a20c0de031ab50e84a253285a43433748c01"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--a2462-ect-candidates-at-390-DPR-2-webkit-320/error-context.md",
+      "status": "new",
+      "bytes": 112326,
+      "sha256": "0bab525fa596981c48deb65e970f486d55c8665b679f77a35c077b2052a0c2e6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--a2462-ect-candidates-at-390-DPR-2-webkit-320/test-failed-1.png",
+      "status": "new",
+      "bytes": 641816,
+      "sha256": "cf99aaf378e90102bdc04f347957ad66e38f12a6549882232902d1ac5ba9cef1"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--a2462-ect-candidates-at-390-DPR-2-webkit-375/error-context.md",
+      "status": "new",
+      "bytes": 112326,
+      "sha256": "0bab525fa596981c48deb65e970f486d55c8665b679f77a35c077b2052a0c2e6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--a2462-ect-candidates-at-390-DPR-2-webkit-375/test-failed-1.png",
+      "status": "new",
+      "bytes": 737850,
+      "sha256": "8fe5a4db7426fae6dbc650abb8b14c527f7bd7cadfbcb04797372271acabf203"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--caaae-ct-candidates-at-1440-DPR-1-webkit-320/error-context.md",
+      "status": "new",
+      "bytes": 113223,
+      "sha256": "62a4c4988f404d3a253b2669d50fd648d98fb9e7ccc37e32f06b12c439b0a881"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--caaae-ct-candidates-at-1440-DPR-1-webkit-320/test-failed-1.png",
+      "status": "new",
+      "bytes": 508439,
+      "sha256": "633098fb61b99c25fd20180185b5654584cb941e0d526a1b3b9f2e0c7a330b71"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--caaae-ct-candidates-at-1440-DPR-1-webkit-375/error-context.md",
+      "status": "new",
+      "bytes": 113223,
+      "sha256": "62a4c4988f404d3a253b2669d50fd648d98fb9e7ccc37e32f06b12c439b0a881"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--caaae-ct-candidates-at-1440-DPR-1-webkit-375/test-failed-1.png",
+      "status": "new",
+      "bytes": 322665,
+      "sha256": "32704f560b8b1ec511dd825a2199ede6613d372539a85fc3831735b7c86db1f1"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--f10b6-ct-candidates-at-1440-DPR-2-webkit-320/error-context.md",
+      "status": "new",
+      "bytes": 113223,
+      "sha256": "aebd898c856323a5603e6a5c70af0795f16db4ff9a73149fe49dd8b0a14d5e79"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--f10b6-ct-candidates-at-1440-DPR-2-webkit-320/test-failed-1.png",
+      "status": "new",
+      "bytes": 1573532,
+      "sha256": "8f34cb2ef20ef1404e7f7d202697ef1b0db2ae548e4d7b32aef9800990e0ca8d"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--f10b6-ct-candidates-at-1440-DPR-2-webkit-375/error-context.md",
+      "status": "new",
+      "bytes": 113223,
+      "sha256": "aebd898c856323a5603e6a5c70af0795f16db4ff9a73149fe49dd8b0a14d5e79"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--f10b6-ct-candidates-at-1440-DPR-2-webkit-375/test-failed-1.png",
+      "status": "new",
+      "bytes": 1573532,
+      "sha256": "8f34cb2ef20ef1404e7f7d202697ef1b0db2ae548e4d7b32aef9800990e0ca8d"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--f10b6-ct-candidates-at-1440-DPR-2-webkit-390/error-context.md",
+      "status": "new",
+      "bytes": 113223,
+      "sha256": "aebd898c856323a5603e6a5c70af0795f16db4ff9a73149fe49dd8b0a14d5e79"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-artifacts/browser-responsive-phase1--f10b6-ct-candidates-at-1440-DPR-2-webkit-390/test-failed-1.png",
+      "status": "new",
+      "bytes": 937442,
+      "sha256": "a7b130720907701ab93c2ff4c2c7546e326254481af2cb1a2de307698c9e2f84"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement-results.json",
+      "status": "new",
+      "bytes": 162037,
+      "sha256": "8a62d46e04fce65bc3b7f9c28ca374f03100b177c58e25d0f60b58be543ecda3"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser-supplement.log",
+      "status": "new",
+      "bytes": 27030,
+      "sha256": "0879b2f8edb48a19ff1a2a0800129547fdca4600f29bb1f98083db07c3bc4520"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/browser.log",
+      "status": "new",
+      "bytes": 42993,
+      "sha256": "9284c7a8030a326bcb94490cd4560e13246bfbe171b0149a457df26d7521ade4"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/changed-file-inventory.json",
+      "status": "new",
+      "note": "Self inventory: no self-referential hash/size"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/consent-google-runtime.json",
+      "status": "new",
+      "bytes": 2608,
+      "sha256": "74074814f863bfe42b473814a7695d7d8acb04623d393016550d3699a6898f96"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/consent-google-runtime.log",
+      "status": "new",
+      "bytes": 1788,
+      "sha256": "7865841e197aac7941e6a57cb217222a12bf081051849f124f691ef11e4714fe"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/diagnostic-config-list.log",
+      "status": "new",
+      "bytes": 3970,
+      "sha256": "4c1e6385d83d8d336822adbf894470932fd01a8aa084ec8d0ace4267a3cefac8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/final-check-results.json",
+      "status": "new",
+      "bytes": 373,
+      "sha256": "15e706fb0817815218061049251d6ea7c7633a9adbb28cebeff0240d79c1538e"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/final-check.log",
+      "status": "new",
+      "bytes": 403,
+      "sha256": "96a9e6f418f3d6b1044ec9d6591c771108710f25abe8b95a7a4aa45b9926aac6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/final-invariants.json",
+      "status": "new",
+      "bytes": 1118,
+      "sha256": "e6528d3b2b1ce8dbd46f510541a35b81375608fdcb393d7317f13c852460d94f"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/final-test-site.log",
+      "status": "new",
+      "bytes": 982,
+      "sha256": "1e90e379c39000ecb82e723a77c0ba94b5089e465534f7210fe41b057d9b0b1c"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/final-test.log",
+      "status": "new",
+      "bytes": 36378,
+      "sha256": "7f2498ea6a0c432ef21da251d5e6bd4f04225378e7ff88dabb6628545b4bea7c"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/git-status-final.txt",
+      "status": "new",
+      "bytes": 19564,
+      "sha256": "06c1e0817721a5e62bff9e3e3c8d121b7a41056675bd4d6987472755483f7705"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/image-framing-comparison.png",
+      "status": "new",
+      "bytes": 2520380,
+      "sha256": "9d909d850a1ad04366ac7ea7c47f749d478a136a7b9cf74ddcefde32da10c04a"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/image-generation.log",
+      "status": "new",
+      "bytes": 140,
+      "sha256": "92f1204eda28a54907d1222e299bee4892c278229488f0462b590fd12e51e547"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/image-quality-diagnostics.json",
+      "status": "new",
+      "bytes": 3254,
+      "sha256": "0b600b5a7bfdccd91f63bab4d5aeb24ea8cf76b445e911075843c66b19e65b12"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/media-browser-artifacts/.last-run.json",
+      "status": "new",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/media-browser-results.json",
+      "status": "new",
+      "bytes": 6868,
+      "sha256": "c837151e37bf45066aba1c41cb607e17d28ac53cc16b17882be06c9768d3a50d"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/media-browser.log",
+      "status": "new",
+      "bytes": 776,
+      "sha256": "167ddb8b0035d7ef5751581cc413b170d6bb3e90bcfb5275be7b896198f4f081"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/preservation-results.json",
+      "status": "new",
+      "bytes": 476,
+      "sha256": "f4c95e88103cc6fb88dd4ca094dd4ef16aa8746f97f18da6fe4e00d59e40b301"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/product-readiness-source-records.json",
+      "status": "new",
+      "bytes": 75784,
+      "sha256": "7bc488404ad5217b896f7872d878095146b9167d948fb0be75fbc72ac07a7780"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/rebuild-summary.log",
+      "status": "new",
+      "bytes": 92,
+      "sha256": "2fd33e56cde515387e318890e8c9ea191e9fb2ed61b6749fc976c4c3c9701531"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-capture-preservation.json",
+      "status": "new",
+      "bytes": 5342,
+      "sha256": "cd6761a6b59a9da3a2e28c8b4689ef22a3236ddc6101b77b0786f61bf09433e0"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/catalogue-1440.png",
+      "status": "new",
+      "bytes": 116507,
+      "sha256": "055238eb9e1e1765ab128580e767ecb202fbadf64b092b17c2ee582e3e59b2c8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/catalogue-375.png",
+      "status": "new",
+      "bytes": 56066,
+      "sha256": "d484b17dd4811d12b9a773970883301a62e9326f99caf945b5cc5eab3e1c44a1"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/gq-gmc-600-pro-review-375.png",
+      "status": "new",
+      "bytes": 845778,
+      "sha256": "3d10e45a11978f5c9b08f0e90beb05d58efc1d848aac3bd3402d61c54dcf4a99"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/vortex-diamondback-hd-10x42-review-1440.png",
+      "status": "new",
+      "bytes": 1676465,
+      "sha256": "1a1f8d6e5b0caea14998866c877ed8beaaa1f780cc5dda2d457b62d1328709f6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/hestra-army-leather-heli-ski-gloves-en-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 145429,
+      "sha256": "8df07de5f56600f52d2fd263538bf9b273fdd025e6d53346ffb873790fa58e60"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/oakley-flight-deck-m-goggles-en-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 156971,
+      "sha256": "97dcf3a577c200878859390084c85a2c7a7a066f86843275a74e413a66620fa9"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/oakley-flight-deck-m-goggles-fr-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 162020,
+      "sha256": "e757f054539ec8b72712bc3cae3459a3824fdbdcb6c83b1cb94fc138c1b9eded"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-en-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 155302,
+      "sha256": "7f39c7bb705dbb35a8ecb6d96479f8e4805f276d4d80419f4e6ca7f73b5f327a"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-fr-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 159812,
+      "sha256": "6c7df07611933fdb002043f9c50ed1ba260b92421c24c9c251a0c48cf2531ef8"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-en-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 176441,
+      "sha256": "0eeb9067e635667519239a9f07dc1ae9430ca704acaf139ce9714c93c5006e67"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-fr-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 170080,
+      "sha256": "6e2319a632acaf5f42387c01d62bd6fc169f4155d1b0bd3a34f8b69ea9298fee"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-thermal-merino-reversible-cuffed-beanie-en-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 162589,
+      "sha256": "2405345f13bed76ffb3982e271433b64199ca6f0b65331641097cbcbdb2df1b6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-thermal-merino-reversible-cuffed-beanie-fr-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 164856,
+      "sha256": "58a3cdcc96e1b27c24682e046a38ace116c4e945eb8eb8e209bebe2d85faf27e"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 142090,
+      "sha256": "ed14461e6d9ae67fadae62452eae4219d9dc538ab0ed26d9ce88b03f73c2f162"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-webkit-375-specs.png",
+      "status": "new",
+      "bytes": 149578,
+      "sha256": "5473da8cd2e4d806c264135903fdfc9d676a9e0954c647740aad5c834c34f7cd"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-en-1440.png",
+      "status": "new",
+      "bytes": 922919,
+      "sha256": "448aabec8b116e9efb2b168af51f2769af10a6acef361e9e62db967e79a56351"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-en-375.png",
+      "status": "new",
+      "bytes": 1415195,
+      "sha256": "db14784d853b7dff9899b91f6df85e33134024d896dc0537c0eb5e2f717bc1ba"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-fr-1440.png",
+      "status": "new",
+      "bytes": 2294424,
+      "sha256": "179c77afe670a072205bcdc8025d4fc22e2ae0b60557eb2997d1a7538e03aac9"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-fr-375.png",
+      "status": "new",
+      "bytes": 1467828,
+      "sha256": "ee109a504dd01517c20d3ceacd9294c25a8d75a1def87c027521b8784d908ca7"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/release-check-final.log",
+      "status": "new",
+      "bytes": 416,
+      "sha256": "d0c87b6054a2fb18e3917cfdb6472a52456bd9590c028d26c07a5146cc04f905"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/release-check-results.json",
+      "status": "new",
+      "bytes": 379,
+      "sha256": "694dfd0a1bc212142a173e96aee7ea61dd4e489f2a46407655317c339b1a63a3"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/release-check.log",
+      "status": "new",
+      "bytes": 403,
+      "sha256": "1a54660d35b76f9197e20f7a32ee1ccaa0cd3663dc39471895b674d18d7778d3"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/release-test-products.log",
+      "status": "new",
+      "bytes": 105701,
+      "sha256": "1bb8c6a72297335510077fb852ca9fe9a12f86f4c31abc3cd0c9558ffd9c7efa"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/release-test-site.log",
+      "status": "new",
+      "bytes": 982,
+      "sha256": "1e90e379c39000ecb82e723a77c0ba94b5089e465534f7210fe41b057d9b0b1c"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/release-test.log",
+      "status": "new",
+      "bytes": 36378,
+      "sha256": "11f682cc5f638137c2925af485539cf2390ffecc54ffa02276e0fc7d761ee8a6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/responsive-browser-artifacts/.last-run.json",
+      "status": "new",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/responsive-browser-results.json",
+      "status": "new",
+      "bytes": 98934,
+      "sha256": "808e4d7b6a4aaef54fd5bcdd6b8eac95ef8437b1091176f70e4793be00199988"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/responsive-browser.log",
+      "status": "new",
+      "bytes": 2372,
+      "sha256": "126ede01e859d9bcdc5aa291c1813664dc61c7b292caabdfe0eb8e46b4c6790d"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/responsive-candidate-selection.json",
+      "status": "new",
+      "bytes": 63426,
+      "sha256": "0ac4750e3a73b98fcf91b4a7671334a5717760d12d85791e1d2646ffc63b4597"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/source-baseline-hashes.json",
+      "status": "new",
+      "bytes": 172945,
+      "sha256": "578bd9efcf591b9e9abc66e3405779fc8282ef7463634f9552a57ccd4c985c05"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/source-before-implementation.json",
+      "status": "new",
+      "bytes": 15249,
+      "sha256": "c5655d372056147f3e7cd71af3edc490b46b77d6ba5ef1a5a25813b09fdb36c9"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/source-changes.json",
+      "status": "new",
+      "bytes": 60290,
+      "sha256": "68fe333cdda46988b903c65081b6db38e46e41eb840701c1d8f7ddea264fa4c6"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/validation-initial.json",
+      "status": "new",
+      "bytes": 1463,
+      "sha256": "69be2c1d57e7e2ec83c606fc7436212c8d5c47f4e3d949eec07ee0e8b4793555"
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/validation-results.json",
+      "status": "new",
+      "bytes": 3165,
+      "sha256": "e52c68591580c25666232d22291c5e6b7f727d6a415ed86c3391942879f738ab"
+    },
+    {
+      "path": "docs/phase1-hardening/image-optimization-report.md",
+      "status": "new",
+      "bytes": 4979,
+      "sha256": "4953f194b520fa590d4adeb98a8e190472266b789c8e8f0155e6797f316c3a44"
+    },
+    {
+      "path": "docs/phase1-hardening/performance-report.md",
+      "status": "new",
+      "bytes": 5226,
+      "sha256": "190a9be5d30a8382c30e3f1f29ec342300d6f6c437da8d87527907c7aa737fd2"
+    },
+    {
+      "path": "docs/phase1-hardening/PR-SUMMARY.md",
+      "status": "new",
+      "bytes": 3986,
+      "sha256": "eeda1f489288eb5d88dd375c5575931b3dfb29c79fa49a274ed81e13dcf1686e"
+    },
+    {
+      "path": "docs/phase1-hardening/privacy-analytics-report.md",
+      "status": "new",
+      "bytes": 8352,
+      "sha256": "a06a307bfea165a90a2dcfcf12b8da7be0b59b6cb4bb0b35af61a8e11cf68162"
+    },
+    {
+      "path": "docs/phase1-hardening/product-readiness-matrix.md",
+      "status": "new",
+      "bytes": 11481,
+      "sha256": "cebcdb3a12a2571e236be8a6209d6c761368eec4332cfa8d3f90eb2f3ca11c8c"
+    },
+    {
+      "path": "docs/phase1-hardening/README.md",
+      "status": "new",
+      "bytes": 4286,
+      "sha256": "05d6be715783af491d3f0bfa2df3dcc649469ef57489d1c427056367befd2af1"
+    },
+    {
+      "path": "docs/phase1-hardening/validation-report.md",
+      "status": "new",
+      "bytes": 9613,
+      "sha256": "aac57d224e2b1d4134052cfca4708af462dadd907ac52f6b6f66e73d2dca0e3c"
+    },
+    {
+      "path": "package.json",
+      "status": "modified",
+      "bytes": 2317,
+      "sha256": "8e51276f540d19843fa3dd4d574961432327384c8671899aac5e48df63a53c83",
+      "baselineSha256": "0dd6bc3ad7162654e7b2c681654ef29737a215f6897c40e269088aa5755bc542"
+    },
+    {
+      "path": "scripts/audit-conversion.ts",
+      "status": "modified",
+      "bytes": 14096,
+      "sha256": "885ba43f6e62d405308fe92f4f08a8ad4d8893491e1c1273a1b7c4f94acde502",
+      "baselineSha256": "4c2c67128d363151936d3dd9612a089e3976e6c947affc32737fd4216489ed57"
+    },
+    {
+      "path": "scripts/audit-google.mjs",
+      "status": "modified",
+      "bytes": 9541,
+      "sha256": "a664c84a149d511c293d211c02439ed18a0280e668f9d8acb2f5c84d006af128",
+      "baselineSha256": "505002323cd0fc58f4d7bcfb4845c8c49ba286657e94d2945cc147576b28205c"
+    },
+    {
+      "path": "scripts/build-responsive-imported-media.mjs",
+      "status": "new",
+      "bytes": 3577,
+      "sha256": "eccaa2558cff33f90957de300ed39f8a3816893eb238de5dae32f80428eecb6d"
+    },
+    {
+      "path": "scripts/phase1-preservation.mjs",
+      "status": "new",
+      "bytes": 1501,
+      "sha256": "403f146efe766184a5b8937c12eb3da2b5ede5c10915992cd751110945836a0b"
+    },
+    {
+      "path": "scripts/verify-bilingual.mjs",
+      "status": "modified",
+      "bytes": 9035,
+      "sha256": "8b29f4472cd801647262321dbefd48549ff7efddf87a73650faf0334c097aec6",
+      "baselineSha256": "b908b43d6f3b2fc46f9ab98212cb0e86de8b56799efc654b19050bac79a8c459"
+    },
+    {
+      "path": "scripts/verify-images.mjs",
+      "status": "modified",
+      "bytes": 11146,
+      "sha256": "c512c9de4b3cdaf452edf737ed16ee2a91aabddfc5a3d6dc9267e834960a8b41",
+      "baselineSha256": "5b00c6ab5b6e4eab466efd897de9a81652e99855fe7b04baf405bcdb50fcbd7e"
+    },
+    {
+      "path": "scripts/verify-site.mjs",
+      "status": "modified",
+      "bytes": 20577,
+      "sha256": "d7e95c796fc98606e12482a37c66337dc9c03a58c0b996af1d9225b0cf432d40",
+      "baselineSha256": "1b5c1ec9e4e623e63c2e75ec63821789ca43593c21614117e56e45342b9b40d6"
+    },
+    {
+      "path": "scripts/whiteout-phase2-preservation.mjs",
+      "status": "modified",
+      "bytes": 2375,
+      "sha256": "839e95df84047002e93d0cf4c67d371b0ae13587634df8c6ec5c492045c95981",
+      "baselineSha256": "a308a8dcd1fbc70faf2ec6fb3a9e39a6602331b4319aaef70daf894bfec7914d"
+    },
+    {
+      "path": "src/components/AnalyticsConsent.astro",
+      "status": "new",
+      "bytes": 1495,
+      "sha256": "0c5a28846ba1605a40edbae64cb2b50938e16299461fc7b5342532df30cd47cf"
+    },
+    {
+      "path": "src/components/Footer.astro",
+      "status": "modified",
+      "bytes": 1495,
+      "sha256": "a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79",
+      "baselineSha256": "ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7"
+    },
+    {
+      "path": "src/components/GoogleAnalytics.astro",
+      "status": "modified",
+      "bytes": 351,
+      "sha256": "857ef9cebdaefa5f7abed7fa8e5fe9d92fc5dbd85d4ca15140cf0501e41a9fac",
+      "baselineSha256": "1e49d899533307289e53d51b8ad049bd9c8b530331fe240353e1cb2c5b5b7449"
+    },
+    {
+      "path": "src/data/media/responsive-imported-manifest.json",
+      "status": "new",
+      "bytes": 21647,
+      "sha256": "178ae693fc5f01bb6623c10e5cb08dfc54d5fd5061699986408131887acc3b85"
+    },
+    {
+      "path": "src/i18n/fr-privacy.json",
+      "status": "new",
+      "bytes": 11585,
+      "sha256": "bf6cae95d3f4af88082ab9e60c79698a5270995f251d715ebb6b6ac7cdd6c15e"
+    },
+    {
+      "path": "src/i18n/translate.ts",
+      "status": "modified",
+      "bytes": 5459,
+      "sha256": "ab153b4c70a007ab29409f7113c0faa06c4b9a91c8f654d2a9e8c21c89e974a4",
+      "baselineSha256": "a5b8f4dc654342134df9bd9585e5d61385d2365f984d957c7a2b11f8846586d7"
+    },
+    {
+      "path": "src/lib/affiliate-analytics.ts",
+      "status": "modified",
+      "bytes": 4420,
+      "sha256": "556950f692735db48b325130dad539e40eb820b651103d6e3271d88e9f70c6f8",
+      "baselineSha256": "b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571"
+    },
+    {
+      "path": "src/lib/analytics-consent.ts",
+      "status": "new",
+      "bytes": 6510,
+      "sha256": "bea1bbcd46b33aac2f9df541cea27285507629fe3edec93cb5299ee10bf95e1d"
+    },
+    {
+      "path": "src/lib/imported-media.ts",
+      "status": "modified",
+      "bytes": 902,
+      "sha256": "01428ffccbc91dc735a6cd42a4987ec43adec979fa8120c787c34b782928fad8",
+      "baselineSha256": "a42d3230c4e38ed942cdf7caec8feefb7151e8a4f6e6f671cfdc1a0a8f0c24e0"
+    },
+    {
+      "path": "src/pages/fr/[...path].astro",
+      "status": "modified",
+      "bytes": 1931,
+      "sha256": "fc5fc61612051034092d6a7d77da4245fefface1e8f5caf4be783a85ba6bd42a",
+      "baselineSha256": "79f6f572e34c17cbcdde6b0c47d5a9057bd09b3ea57e732e5b4c7ebae0148659"
+    },
+    {
+      "path": "src/pages/images/blackout/[file].webp.ts",
+      "status": "modified",
+      "bytes": 1219,
+      "sha256": "53e31fc0ae35f82c7144fc4076180326f9009c7bdd825b832589f10ef5a1e605",
+      "baselineSha256": "1262d693b53919d9801a678d37e6976234a18ecb50ca23532db3d294f16aa363"
+    },
+    {
+      "path": "src/pages/images/fallout/[file].webp.ts",
+      "status": "modified",
+      "bytes": 1217,
+      "sha256": "9b5252f560305cccc6200a3b47ad529fb274427b6858805fa79c5ca221c09e7f",
+      "baselineSha256": "e44305ca39ced28f3c5e1b5ea29ae67dc21833c42de0edb8e24318f6c12dbfb4"
+    },
+    {
+      "path": "src/pages/privacy.astro",
+      "status": "new",
+      "bytes": 5973,
+      "sha256": "41acde60229a48f2f03e513c4ddc9e89e0962953ce4e6873aa162ea789a71aa1"
+    },
+    {
+      "path": "tests/browser/analytics.spec.ts",
+      "status": "modified",
+      "bytes": 5709,
+      "sha256": "9a0e0a92a83a16c8dc96eeaffc5e2c05ee01f3b8aac77dfe3baf69351f424002",
+      "baselineSha256": "d51b05b23b8e10f033137af64bd9751926b8ab12fc4f7d2ac7e13f1e0541408b"
+    },
+    {
+      "path": "tests/browser/bilingual.spec.ts",
+      "status": "modified",
+      "bytes": 8629,
+      "sha256": "8b81c7dd48f69772e1d73bfcd7623437c970f9282b5f4d23c421d9f978971bd9",
+      "baselineSha256": "1414b8fe01917290b09e994ae33bd7f6b20cd6672f63693ce272f861a6f3eb4e"
+    },
+    {
+      "path": "tests/browser/bougerv.spec.ts",
+      "status": "modified",
+      "bytes": 6350,
+      "sha256": "d00a3e2cb8a8fbcf776b2b2209535a66126f767aab5fbafe5b18bdfb2721ae62",
+      "baselineSha256": "9aa72bbadc35b6237c94b879368a2405e85f491745d7b207634428cd0c99c782"
+    },
+    {
+      "path": "tests/browser/conversion.spec.ts",
+      "status": "modified",
+      "bytes": 8632,
+      "sha256": "156d76896e13971ca84e95468075834e4ea12e7ede3ce055f4528b01196479e0",
+      "baselineSha256": "65da1e054902501e7f7d02d3bb93a1aa5467b58999e37af90404e05c0dd3f007"
+    },
+    {
+      "path": "tests/browser/fixtures.ts",
+      "status": "modified",
+      "bytes": 1043,
+      "sha256": "02e246f4f8994ec86c9f0ff43b539769a0876024edb773ccdd6241c1c06cc2e5",
+      "baselineSha256": "f0b38410546f8af8b6476ad345ccc71ea936cf611c958c1266ddd53994511cbf"
+    },
+    {
+      "path": "tests/browser/media.spec.ts",
+      "status": "modified",
+      "bytes": 10399,
+      "sha256": "962575a5075d3cc0e9f9b2a92f5de3f20ed6ffd879b389ba84da73190083d6cb",
+      "baselineSha256": "9f653b5a8ded201b7c4005ae325a81978ff2fc635046ae7e4635927134ce4ab5"
+    },
+    {
+      "path": "tests/browser/morakniv.spec.ts",
+      "status": "modified",
+      "bytes": 4711,
+      "sha256": "e18a1437f033b8558b7121c01501c496c35bd0b1ae20969422a03091b0751dd1",
+      "baselineSha256": "c0beff94c9403708d6488432bf72fb7565c2a2d4ad3201bdf4883959526cd370"
+    },
+    {
+      "path": "tests/browser/phase47.spec.ts",
+      "status": "modified",
+      "bytes": 6334,
+      "sha256": "a51e00c1d21fa44a6cdbe49ee0d951464da4ece100982d94e735b9a3caff69c2",
+      "baselineSha256": "c88ec932932e8629e53295aff913dc8051244cae3ac34f0246f90159fe17c00c"
+    },
+    {
+      "path": "tests/browser/phase48.spec.ts",
+      "status": "modified",
+      "bytes": 4479,
+      "sha256": "a598e67b3408085ea6a109fd0aa5acafae4ebadd50579de74d2d247273987ded",
+      "baselineSha256": "fb99fb348ca6037f4e8f4c1366584c8cb456d0e28415522266fd84f305e23b1c"
+    },
+    {
+      "path": "tests/browser/phase5.spec.ts",
+      "status": "modified",
+      "bytes": 6404,
+      "sha256": "f17cf345f60f11a0d2656c46298013f0eb59f21601d9018ba80412874f7b3f66",
+      "baselineSha256": "2142f58c0d489c810fd48aaf2e57e0e265d00f9172b8f93c8a43b5bb6a13af9c"
+    },
+    {
+      "path": "tests/browser/phase53.spec.ts",
+      "status": "modified",
+      "bytes": 6692,
+      "sha256": "982b4aeaf84bf2f212af68b74718fb118f21484d9e4c4640f1e1c1d43ab3354c",
+      "baselineSha256": "b906f414a7a825a645aea07fc7d368e997cd87e35825f449aac29144244589c8"
+    },
+    {
+      "path": "tests/browser/phase55.spec.ts",
+      "status": "modified",
+      "bytes": 6420,
+      "sha256": "15f2ab6b38359911cbb610e4869a8ca8632c13cc84fb3e869fa87dba1f00df14",
+      "baselineSha256": "bcba9bcd4c292970d7f0f5bd341ddf06e24ba3e3b614ff9544e78f95e0e594e6"
+    },
+    {
+      "path": "tests/browser/phase7.spec.ts",
+      "status": "modified",
+      "bytes": 7793,
+      "sha256": "e67980bae62e0541c4cbcbd7dfbac3e14cbcd67598341cce76716a6d0261ba73",
+      "baselineSha256": "3bc6e4cd37e2e4caf28def7ba79c42c5079d599c8f2ad1d5c549e483d8fde5e8"
+    },
+    {
+      "path": "tests/browser/privacy-phase1.spec.ts",
+      "status": "new",
+      "bytes": 7464,
+      "sha256": "e36831faa9146b97a17b42f32d6ad255e965d22dcf8e9477eaacf3d056043445"
+    },
+    {
+      "path": "tests/browser/responsive-phase1.spec.ts",
+      "status": "new",
+      "bytes": 2124,
+      "sha256": "abe50cc58ccf001ae9a7778a1c485f6d00438059a7fcd6ea22973260fac96b65"
+    },
+    {
+      "path": "tests/browser/whiteout-card-cleanup.spec.ts",
+      "status": "modified",
+      "bytes": 8229,
+      "sha256": "180a2f38e8ba96a4dc5380085431f37ced0d893f91647b9253c42ca06e54fc37",
+      "baselineSha256": "22f42032ad4779530e48c5c672d4ce52d264149afc724f3d55247b6e624dba76"
+    },
+    {
+      "path": "tests/browser/whiteout-phase2.spec.ts",
+      "status": "modified",
+      "bytes": 6315,
+      "sha256": "04fe8e5a852e1b3ff5b1aa07e236465276a89d6a8ed77391087a4208ee985ad3",
+      "baselineSha256": "11d3e4ccb295c06d76a33e16599d229a0c77455d339221b6575b5232be999973"
+    },
+    {
+      "path": "tests/browser/xtherm-temperature-warning.spec.ts",
+      "status": "modified",
+      "bytes": 4824,
+      "sha256": "f3e554467f02b11ac5aa9b41c5394de518ac94aeeaf54ea938ac91bd594af076",
+      "baselineSha256": "7e7b9543dff2f6ed109666fe5fb7c6625e1ae5716a3e15961d0afdfb64dae7fb"
+    },
+    {
+      "path": "tests/privacy.test.ts",
+      "status": "new",
+      "bytes": 1112,
+      "sha256": "f03fbef053fa8dabc94e7d2cb9a9d403e77396e3f45355c4ee4d59360fc9eb89"
+    }
+  ]
+}

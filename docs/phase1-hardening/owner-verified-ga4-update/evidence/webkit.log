@@ -1,0 +1,31 @@
+[WebServer] (node:35228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 8 tests using 1 worker
+
+
+(node:35232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/8] [chromium] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[2/8] [chromium] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+(node:6260) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[3/8] [webkit-320] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[4/8] [webkit-320] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+
+(node:19440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[5/8] [webkit-375] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[6/8] [webkit-375] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+
+(node:31016) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[7/8] [webkit-390] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[8/8] [webkit-390] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+  8 passed (46.4s)

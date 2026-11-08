@@ -1,0 +1,21 @@
+
+> apocalypsegearlab@0.1.0 test:conversion
+> tsx scripts/audit-conversion.ts
+
+{
+  "products": 52,
+  "productPages": 52,
+  "htmlPages": 62,
+  "recordedCanadianUrls": 52,
+  "authorized": 47,
+  "blocked": 5,
+  "commercialCtaInstances": 277,
+  "nonAmazonPurchaseCtas": 0,
+  "incorrectTags": 0,
+  "manufacturerPurchaseCtasRemoved": 0,
+  "documentaryReferenceInstances": 137,
+  "manufacturerReferenceInstances": 91,
+  "uniqueManufacturerUrls": 83,
+  "editorialUrlSetsPreserved": true,
+  "seoAndMediaAttributesPreserved": true
+}

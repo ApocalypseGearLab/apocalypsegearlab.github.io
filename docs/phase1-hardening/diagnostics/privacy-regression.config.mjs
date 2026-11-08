@@ -1,0 +1,5 @@
+import {resolve} from 'node:path';
+import {defineConfig,devices} from '@playwright/test';
+export default defineConfig({testDir:'../../../tests',timeout:60000,workers:2,fullyParallel:true,reporter:[['json',{outputFile:resolve('docs/phase1-hardening/evidence/browser-final-results.json')}]],outputDir:resolve('docs/phase1-hardening/evidence/browser-artifacts'),use:{baseURL:'http://127.0.0.1:4321',screenshot:'only-on-failure'},projects:[
+{name:'chromium-phase1',testMatch:/browser\/(privacy-phase1|responsive-phase1|analytics|bilingual|bougerv|conversion|morakniv|phase48|phase5|phase47|phase53|phase55|phase7|whiteout-card-cleanup|xtherm-temperature-warning|whiteout-phase2)\.spec\.ts/,use:{browserName:'chromium'}},
+...[320,375,390].map(width=>({name:'webkit-'+width,testMatch:[/browser\/privacy-phase1\.spec\.ts/,/webkit\/.*\.spec\.ts/],use:{...devices['iPhone 13'],browserName:'webkit',viewport:{width,height:844},screen:{width,height:844},reducedMotion:'reduce'}}))],webServer:{command:'npm run preview -- --host 127.0.0.1 --port 4321',url:'http://127.0.0.1:4321',reuseExistingServer:false}});

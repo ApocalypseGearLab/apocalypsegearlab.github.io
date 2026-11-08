@@ -1,0 +1,1043 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\.tools\\node-v22.23.4-win-x64\\node.exe",
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      ".tools/ga4-verified-settings/chromium.config.mjs",
+      "--project=chromium",
+      "--workers=2"
+    ],
+    "configFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\.tools\\ga4-verified-settings\\chromium.config.mjs",
+    "rootDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/(?:privacy(?:-storage)?-phase1|analytics)\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-320",
+        "name": "webkit-320",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-375",
+        "name": "webkit-375",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-390",
+        "name": "webkit-390",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\ga4-verified-settings\\evidence\\chromium-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\ga4-verified-settings\\evidence\\chromium-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run preview -- --host 127.0.0.1 --port 4321",
+      "url": "http://127.0.0.1:4321",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "analytics.spec.ts",
+      "file": "analytics.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "one Google loader, one config and preserved verification on document navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1229,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:43.476Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "634c82c6846b68aa8d60-bf7d5bbd8a1ba663605c",
+          "file": "analytics.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "active affiliate mouse and keyboard clicks each queue one event and keep native new tabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1214,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:43.493Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "634c82c6846b68aa8d60-7b65b641f0a930e6d614",
+          "file": "analytics.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "blocked and prevented clicks emit nothing; Analytics exceptions cannot break navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1241,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:45.034Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "634c82c6846b68aa8d60-596afcbbabd587a1a17f",
+          "file": "analytics.spec.ts",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "XML parses strictly, has unique absolute locations and excludes noindex pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1218,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:45.072Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "634c82c6846b68aa8d60-4c276c1a5a88cfa0b801",
+          "file": "analytics.spec.ts",
+          "line": 61,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "privacy-phase1.spec.ts",
+      "file": "privacy-phase1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1034,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:46.546Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-4ed9c8f4ec136b3c3e74",
+          "file": "privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1005,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:46.546Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-0b53fe522dce46e8fdcb",
+          "file": "privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 658,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:47.585Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-0f8c60658d5203799ff0",
+          "file": "privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1016,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:47.608Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-0f034c555a3ff3c40bdd",
+          "file": "privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5779,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:48.266Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-8d726be029add0a3aac1",
+          "file": "privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 505,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:48.659Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-32f0ea3435bee5d721d0",
+          "file": "privacy-phase1.spec.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 852,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:49.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-122f92cbde371bca4566",
+          "file": "privacy-phase1.spec.ts",
+          "line": 105,
+          "column": 1
+        },
+        {
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2594,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:50.061Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-3b5b8a40a2e3defb899d",
+          "file": "privacy-phase1.spec.ts",
+          "line": 113,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "privacy-storage-phase1.spec.ts",
+      "file": "privacy-storage-phase1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1195,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:52.696Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-1a3cfdce8210ef4cac84",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1144,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:53.908Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-6472204fe2b57741370d",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1362,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:54.097Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-82d7611a5b54d56d5efe",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1982,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:55.072Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-6342651d9fe06835f9e5",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1904,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:55.484Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-2a61769c7564f5a85b73",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "en: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1003,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:57.091Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-f75bef56453f76f7c06b",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1456,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:57.449Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-960b3c632ddc31c996e8",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:58.144Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-cbe23c2eac0fa5bb3b47",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1570,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:58.940Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-53d3cef11bc90b46ed48",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1433,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:41:59.460Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-4af7b356d94b4aa64071",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1067,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:00.542Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-dd480368d7f13daf992a",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "fr: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 790,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:00.913Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-7b2e7418b43649f22421",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-08T02:41:38.452Z",
+    "duration": 23676.269,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

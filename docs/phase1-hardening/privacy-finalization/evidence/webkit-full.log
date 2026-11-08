@@ -1,0 +1,153 @@
+[WebServer] (node:1560) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[WebServer] (node:29956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 131 tests using 1 worker
+
+
+
+(node:23004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[2/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[3/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[4/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[5/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[6/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:91:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[7/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:98:1 › clearing storage in another tab also revokes an existing document grant
+[8/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:106:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[9/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[10/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[11/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[12/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[13/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[14/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[15/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[16/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[17/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[18/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[19/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[20/131] [webkit-320] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+[21/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[22/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[23/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[24/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[25/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[26/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[27/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[28/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[29/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[30/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[31/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[32/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[33/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[34/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[35/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[36/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[37/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[38/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[39/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[40/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[41/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[42/131] [webkit-320] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+
+(node:33688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[43/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[44/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[45/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[46/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[47/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[48/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:91:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[49/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:98:1 › clearing storage in another tab also revokes an existing document grant
+[50/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:106:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[51/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[52/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[53/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[54/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[55/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[56/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[57/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[58/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[59/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[60/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[61/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[62/131] [webkit-375] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+[63/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[64/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[65/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[66/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[67/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[68/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[69/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[70/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[71/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[72/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[73/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[74/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[75/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[76/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[77/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[78/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[79/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[80/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[81/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[82/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[83/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[84/131] [webkit-375] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+(node:16368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[85/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[86/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[87/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[88/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[89/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[90/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:91:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[91/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:98:1 › clearing storage in another tab also revokes an existing document grant
+[92/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:106:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[93/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[94/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[95/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[96/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[97/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[98/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[99/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[100/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[101/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[102/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[103/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[104/131] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+[105/131] [webkit-390] › .tools\privacy-finalization\tests\browser\responsive-phase1.spec.ts:5:1 › all 26 new derivatives deliver exact approved bytes and original images remain available
+[106/131] [webkit-390] › .tools\privacy-finalization\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 1
+[107/131] [webkit-390] › .tools\privacy-finalization\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 2
+[108/131] [webkit-390] › .tools\privacy-finalization\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 1
+[109/131] [webkit-390] › .tools\privacy-finalization\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 2
+[110/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[111/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[112/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[113/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[114/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[115/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[116/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[117/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[118/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[119/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[120/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[121/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[122/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[123/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[124/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[125/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[126/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[127/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[128/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[129/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[130/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[131/131] [webkit-390] › .tools\privacy-finalization\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+  131 passed (6.5m)

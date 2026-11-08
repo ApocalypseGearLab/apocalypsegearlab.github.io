@@ -1,0 +1,1002 @@
+[
+  {
+    "project": "chromium-responsive",
+    "test": "all 13 responsive cards select candidates at 390 DPR 1",
+    "width": 390,
+    "dpr": 1,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  },
+  {
+    "project": "chromium-responsive",
+    "test": "all 13 responsive cards select candidates at 390 DPR 2",
+    "width": 390,
+    "dpr": 2,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  },
+  {
+    "project": "chromium-responsive",
+    "test": "all 13 responsive cards select candidates at 1440 DPR 1",
+    "width": 1440,
+    "dpr": 1,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  },
+  {
+    "project": "chromium-responsive",
+    "test": "all 13 responsive cards select candidates at 1440 DPR 2",
+    "width": 1440,
+    "dpr": 2,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  },
+  {
+    "project": "webkit-responsive",
+    "test": "all 13 responsive cards select candidates at 390 DPR 1",
+    "width": 390,
+    "dpr": 1,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  },
+  {
+    "project": "webkit-responsive",
+    "test": "all 13 responsive cards select candidates at 390 DPR 2",
+    "width": 390,
+    "dpr": 2,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp",
+        "width": 300,
+        "height": 300,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  },
+  {
+    "project": "webkit-responsive",
+    "test": "all 13 responsive cards select candidates at 1440 DPR 1",
+    "width": 1440,
+    "dpr": 1,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  },
+  {
+    "project": "webkit-responsive",
+    "test": "all 13 responsive cards select candidates at 1440 DPR 2",
+    "width": 1440,
+    "dpr": 2,
+    "observations": [
+      {
+        "id": "ecoflow-river-2-pro-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a grey and black EcoFlow power station in an amber frame",
+        "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp 480w, /images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp 960w, /images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-hm50r-v2-headlamp-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Fenix HM50R V2.0 rechargeable headlamp in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp 480w, /images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp 960w, /images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+      },
+      {
+        "id": "fenix-cl26r-pro-camping-lantern-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a camouflage Fenix camping lantern in an amber inventory frame",
+        "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp 480w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp 960w, /images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-explorer-1000-v2-power-station-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black and orange Jackery Explorer 1000 v2 power station",
+        "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp 480w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp 960w, /images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+      },
+      {
+        "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a white Kidde carbon monoxide alarm in an amber frame",
+        "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp 480w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp 960w, /images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+      },
+      {
+        "id": "leatherman-wave-plus-multitool-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a silver Leatherman Wave+ with deployed tools in a red inventory frame",
+        "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp 480w, /images/fallout/leatherman-wave-plus-multitool-fallout-960.webp 960w, /images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+      },
+      {
+        "id": "iniu-p62-20000mah-power-bank-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a black INIU power bank with display and detachable cable in an amber frame",
+        "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp 480w, /images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp 960w, /images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+      },
+      {
+        "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a four-section folding Jackery solar panel in an amber frame",
+        "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp 480w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp 960w, /images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+      },
+      {
+        "id": "midland-er310-emergency-radio-blackout",
+        "src": "http://127.0.0.1:4321/images/blackout/midland-er310-emergency-radio-blackout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a red Midland emergency radio in an amber inventory frame",
+        "srcset": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp 480w, /images/blackout/midland-er310-emergency-radio-blackout-960.webp 960w, /images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+      },
+      {
+        "id": "nanuk-904-first-aid-kit-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of NANUK 904 first aid kit in a red inventory frame",
+        "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp 480w, /images/fallout/nanuk-904-first-aid-kit-fallout-960.webp 960w, /images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+      },
+      {
+        "id": "sawyer-squeeze-sp129-water-filter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of Sawyer Squeeze SP129 water filtration system in a red inventory frame",
+        "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp 480w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp 960w, /images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+      },
+      {
+        "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of a blue Reliance Aqua-Tainer 7-gallon container with red caps in a red inventory frame",
+        "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp 480w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp 960w, /images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+      },
+      {
+        "id": "sol-emergency-bivvy-survival-shelter-fallout",
+        "src": "http://127.0.0.1:4321/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+        "width": 220,
+        "height": 220,
+        "fit": "contain",
+        "alt": "Concept illustration of SOL Emergency Bivvy with rescue whistle in a red inventory frame",
+        "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp 480w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp 960w, /images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+      }
+    ]
+  }
+]

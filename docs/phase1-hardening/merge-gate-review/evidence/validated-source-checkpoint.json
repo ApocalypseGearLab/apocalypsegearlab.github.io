@@ -1,0 +1,38 @@
+[
+  {
+    "path": "src/pages/privacy.astro",
+    "sha256": "e1c7d6a9f5b3c159f7df5b82f69f406e931c47a4c0ad8dafdaaf4535596f67cd"
+  },
+  {
+    "path": "src/i18n/fr-privacy.json",
+    "sha256": "f0aa56199c1dd91a1253b17e184d8c9b5bbfe4c022b7d0c51e3dfa7f821a85a8"
+  },
+  {
+    "path": "tests/browser/privacy-phase1.spec.ts",
+    "sha256": "705afbb3a28679784ee91ca076655b1b2a52e44e324f56f1c11593158782705a"
+  },
+  {
+    "path": "src/lib/analytics-consent.ts",
+    "sha256": "7b8929733a9cb2a0574317178bcfa89aa69bf429a9b00d9ada859a88cf89a0e0"
+  },
+  {
+    "path": "src/lib/affiliate-analytics.ts",
+    "sha256": "556950f692735db48b325130dad539e40eb820b651103d6e3271d88e9f70c6f8"
+  },
+  {
+    "path": "src/components/GoogleAnalytics.astro",
+    "sha256": "857ef9cebdaefa5f7abed7fa8e5fe9d92fc5dbd85d4ca15140cf0501e41a9fac"
+  },
+  {
+    "path": "src/components/AnalyticsConsent.astro",
+    "sha256": "0c5a28846ba1605a40edbae64cb2b50938e16299461fc7b5342532df30cd47cf"
+  },
+  {
+    "path": "src/components/Footer.astro",
+    "sha256": "a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79"
+  },
+  {
+    "path": "docs/phase1-hardening/evidence/source-changes.json",
+    "sha256": "f643264366ecae51a6973fa07fae63539014c4fd657597fc9ebe182acbf12a8d"
+  }
+]

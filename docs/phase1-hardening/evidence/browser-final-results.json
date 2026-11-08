@@ -1,0 +1,831 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\.tools\\node-v22.23.4-win-x64\\node.exe",
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "docs/phase1-hardening/diagnostics/privacy-regression.config.mjs",
+      "privacy-phase1",
+      "--list"
+    ],
+    "configFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\diagnostics\\privacy-regression.config.mjs",
+    "rootDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/evidence/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium-phase1",
+        "name": "chromium-phase1",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/browser\\/(privacy-phase1|responsive-phase1|analytics|bilingual|bougerv|conversion|morakniv|phase48|phase5|phase47|phase53|phase55|phase7|whiteout-card-cleanup|xtherm-temperature-warning|whiteout-phase2)\\.spec\\.ts/"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/evidence/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit-320",
+        "name": "webkit-320",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/browser\\/privacy-phase1\\.spec\\.ts/",
+          "/webkit\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/evidence/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit-375",
+        "name": "webkit-375",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/browser\\/privacy-phase1\\.spec\\.ts/",
+          "/webkit\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/evidence/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit-390",
+        "name": "webkit-390",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/browser\\/privacy-phase1\\.spec\\.ts/",
+          "/webkit\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\evidence\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "chromium-phase1",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "browserName": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium-phase1"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\evidence\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "webkit-320",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          {},
+          {}
+        ],
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "screen": {
+            "width": 320,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit",
+          "browserName": "webkit",
+          "reducedMotion": "reduce"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-320"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\evidence\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "webkit-375",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          {},
+          {}
+        ],
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 375,
+            "height": 844
+          },
+          "screen": {
+            "width": 375,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit",
+          "browserName": "webkit",
+          "reducedMotion": "reduce"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-375"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\evidence\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "webkit-390",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          {},
+          {}
+        ],
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": {
+            "width": 390,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit",
+          "browserName": "webkit",
+          "reducedMotion": "reduce"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-390"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\evidence\\browser-final-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run preview -- --host 127.0.0.1 --port 4321",
+      "url": "http://127.0.0.1:4321",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "browser\\privacy-phase1.spec.ts",
+      "file": "browser/privacy-phase1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-phase1",
+              "projectName": "chromium-phase1",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-842fab5bd14c94e533a0",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-phase1",
+              "projectName": "chromium-phase1",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-a21d760179ea16f5ced8",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-phase1",
+              "projectName": "chromium-phase1",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-41e482b0abbda0fee35c",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-phase1",
+              "projectName": "chromium-phase1",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-cea90362af15af1209ea",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "privacy drafts and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-phase1",
+              "projectName": "chromium-phase1",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-31b1b5296b4231995ca6",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-phase1",
+              "projectName": "chromium-phase1",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-7699d0a340fb56e2879d",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-phase1",
+              "projectName": "chromium-phase1",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-08c2e61427028f86c749",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 85,
+          "column": 1
+        },
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-60e25c0505cea35da6bc",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-5761ec8372a72fbcb590",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-4c511b778f6b0cca6930",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-973a4d031ceba3d69917",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "privacy drafts and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-95f81ff6f32fbf14779f",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-3da56af53c38161a6d24",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-f8edee7fc5908a4e0482",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 85,
+          "column": 1
+        },
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-edd2d393f3faa3522703",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-30007b6ea80f09a07da1",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-22a270d61e4b3a6a9e7d",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-68a6f73360ee061e0b3a",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "privacy drafts and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-7646f1d2b4aa47b3827e",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-d0e2de5d452967efbd28",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-2b75274acb3cd8203978",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 85,
+          "column": 1
+        },
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-484feb0f7be40083b961",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-ec09f3a1887718a74ab8",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-f441c7ebabc48200e72f",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-3cf75d5a8c135a2451d3",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "privacy drafts and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-c83c162374b33d6025e3",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-b7a431f198d96c19c972",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "71c3266d373246ea1645-86754645bb767e6b743c",
+          "file": "browser/privacy-phase1.spec.ts",
+          "line": 85,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-08T00:18:34.001Z",
+    "duration": 146.55200000000002,
+    "expected": 0,
+    "skipped": 28,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,58 @@
+TAP version 13
+# Subtest: English URLs round-trip through static French routes, including the Pages 404
+ok 1 - English URLs round-trip through static French routes, including the Pages 404
+  ---
+  duration_ms: 1.1601
+  type: 'test'
+  ...
+# Subtest: new visitor text fails closed while generated counts and dates remain localizable
+ok 2 - new visitor text fails closed while generated counts and dates remain localizable
+  ---
+  duration_ms: 10.8256
+  type: 'test'
+  ...
+# Subtest: localization preserves affiliate destinations and executable analytics while translating accessible text
+ok 3 - localization preserves affiliate destinations and executable analytics while translating accessible text
+  ---
+  duration_ms: 3.267
+  type: 'test'
+  ...
+# Subtest: only reviewed source hunks are projected before historical checks
+ok 4 - only reviewed source hunks are projected before historical checks
+  ---
+  duration_ms: 8.0215
+  type: 'test'
+  ...
+# Subtest: every translated phrase preserves all numeric specifications and warning quantities
+ok 5 - every translated phrase preserves all numeric specifications and warning quantities
+  ---
+  duration_ms: 11.0745
+  type: 'test'
+  ...
+# Subtest: only a current explicit analytics decision can be remembered
+ok 6 - only a current explicit analytics decision can be remembered
+  ---
+  duration_ms: 1.7962
+  type: 'test'
+  ...
+# Subtest: expired, future and malformed consent records fail closed
+ok 7 - expired, future and malformed consent records fail closed
+  ---
+  duration_ms: 0.2924
+  type: 'test'
+  ...
+# Subtest: reviewed source restoration treats replacement metacharacters as literal text
+ok 8 - reviewed source restoration treats replacement metacharacters as literal text
+  ---
+  duration_ms: 3.0213
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1189.2945

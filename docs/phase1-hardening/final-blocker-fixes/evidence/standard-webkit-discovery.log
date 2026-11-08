@@ -1,0 +1,130 @@
+Listing tests:
+  [webkit-iphone-320] › browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+  [webkit-iphone-320] › browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+  [webkit-iphone-320] › browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+  [webkit-iphone-320] › browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+  [webkit-iphone-320] › browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+  [webkit-iphone-320] › browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  [webkit-iphone-320] › browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  [webkit-iphone-320] › browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+  [webkit-iphone-320] › webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+  [webkit-iphone-320] › webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+  [webkit-iphone-320] › webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+  [webkit-iphone-320] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+  [webkit-iphone-320] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+  [webkit-iphone-320] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+  [webkit-iphone-320] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+  [webkit-iphone-320] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+  [webkit-iphone-320] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+  [webkit-iphone-375] › browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+  [webkit-iphone-375] › browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+  [webkit-iphone-375] › browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+  [webkit-iphone-375] › browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+  [webkit-iphone-375] › browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+  [webkit-iphone-375] › browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  [webkit-iphone-375] › browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  [webkit-iphone-375] › browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+  [webkit-iphone-375] › webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+  [webkit-iphone-375] › webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+  [webkit-iphone-375] › webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+  [webkit-iphone-375] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+  [webkit-iphone-375] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+  [webkit-iphone-375] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+  [webkit-iphone-375] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+  [webkit-iphone-375] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+  [webkit-iphone-375] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+  [webkit-iphone-390] › browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+  [webkit-iphone-390] › browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+  [webkit-iphone-390] › browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+  [webkit-iphone-390] › browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+  [webkit-iphone-390] › browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+  [webkit-iphone-390] › browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  [webkit-iphone-390] › browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  [webkit-iphone-390] › browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+  [webkit-iphone-390] › browser\responsive-phase1.spec.ts:5:1 › all 26 new derivatives deliver exact approved bytes and original images remain available
+  [webkit-iphone-390] › browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 1
+  [webkit-iphone-390] › browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 2
+  [webkit-iphone-390] › browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 1
+  [webkit-iphone-390] › browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 2
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+  [webkit-iphone-390] › webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+  [webkit-iphone-390] › webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+  [webkit-iphone-390] › webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+  [webkit-iphone-390] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+  [webkit-iphone-390] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+  [webkit-iphone-390] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+  [webkit-iphone-390] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+  [webkit-iphone-390] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+  [webkit-iphone-390] › webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+Total: 128 tests in 7 files

@@ -1,0 +1,67 @@
+
+[WebServer] (node:2672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 28 tests using 2 workers
+
+(node:19116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+(node:33864) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/28] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[2/28] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[3/28] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[4/28] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[5/28] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[6/28] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[7/28] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:81:1 › clearing storage in another tab also revokes an existing document grant
+(node:8420) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[8/28] [webkit-320] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+
+(node:33108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[9/28] [webkit-320] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[10/28] [webkit-320] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[11/28] [webkit-320] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[12/28] [webkit-320] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[13/28] [webkit-320] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[14/28] [webkit-320] › tests\browser\privacy-phase1.spec.ts:81:1 › clearing storage in another tab also revokes an existing document grant
+
+(node:33816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[15/28] [webkit-375] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+
+(node:18560) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[16/28] [webkit-375] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[17/28] [webkit-375] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[18/28] [webkit-375] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[19/28] [webkit-375] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[20/28] [webkit-375] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[21/28] [webkit-375] › tests\browser\privacy-phase1.spec.ts:81:1 › clearing storage in another tab also revokes an existing document grant
+
+(node:25004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[22/28] [webkit-390] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+
+(node:7816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[23/28] [webkit-390] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[24/28] [webkit-390] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[25/28] [webkit-390] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[26/28] [webkit-390] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[27/28] [webkit-390] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[28/28] [webkit-390] › tests\browser\privacy-phase1.spec.ts:81:1 › clearing storage in another tab also revokes an existing document grant
+  28 passed (47.6s)

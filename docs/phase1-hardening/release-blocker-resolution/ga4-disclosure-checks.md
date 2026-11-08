@@ -1,0 +1,15 @@
+# Only the remaining GA4 checks that matter
+
+**Do not reconfirm cleared settings:** property/measurement ID, two-month event/user retention, reset off, four sharing switches off, zero Google Ads links, all seven named enhanced-measurement categories, UA collection off, email redaction on and user-provided identity collection off are already owner-confirmed and described.
+
+| Remaining check | Why it matters / minimum evidence | Not required solely for this release |
+|---|---|---|
+| Product links and Google-tag destinations | One inspection of Product links and Manage Google tag/destinations. Record additional advertising recipients, exports such as BigQuery, or cross-site data flows if present; otherwise confirm none observed. Extra exports have separate retention/access. Current state is explicitly **not checked**, not presumed empty. | Full screenshots/private account identifiers; disabling every link without assessing its actual flow. An administrative association is not automatically a blocker without a material additional purpose/recipient. |
+| Processing terms | Admin → Account details → Data Processing Amendment/terms: record accepted/incorporated status for the correct account. If not accepted and applicable, owner reviews/accepts the terms. | Assuming the public document proves this account accepted it, or creating/enabling a Google Ads association. |
+| Authorized access | Confirm access is restricted to intended people/service accounts; identify any additional recipient category that materially changes the assessment. Check account-level/inherited access as needed for that conclusion. | Publishing a personal email list or every role count; repeating an organizational permissions audit when no extra access exists. |
+
+Google’s [official acceptance instructions](https://support.google.com/analytics/answer/3379636?hl=en) distinguish older outside-EEA/UK/Swiss accounts from new accounts with automatic acceptance. Therefore owner action is **check status, then accept only if needed**; this agent cannot establish the private status from documentation. The public [service list](https://business.safety.google/adsservices/) includes Analytics under the processing terms despite their “Ads” title. This does not extend the same contract automatically to Gmail.
+
+No separate private consent-screen certification is demanded: source and browser evidence establish that this website does not load the whole Google tag before permission and unloads it on withdrawal. Private automatic-event options cannot execute this absent tag. Confirmed enhanced-measurement scope is already disclosed; inspect additional settings only if they add processing outside that scope. Do not claim that a browser queue test proves all private account collection or redaction behavior.
+
+Ordinary traffic, custom affiliate_click and future supported video measurement remain enabled/described as requested. Event-count deduplication/reporting refinements are optional unless being presented as misleading conversion totals; no conversion totals are being published here.

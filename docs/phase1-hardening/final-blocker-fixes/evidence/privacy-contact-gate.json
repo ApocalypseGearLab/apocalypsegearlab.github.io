@@ -1,0 +1,26 @@
+{
+  "emailSuppliedByOwner": true,
+  "publicDisplayApproved": false,
+  "emailHitsInDistributable": [],
+  "policyDrafts": [
+    {
+      "language": "en",
+      "route": "/privacy/",
+      "pendingApprovalMarkers": 1,
+      "robots": "noindex, nofollow",
+      "contactInEmittedHtml": false,
+      "draftFile": "privacy-policy-draft.en.md",
+      "draftSha256": "399f92763ac8c1fa6893557be7989050113fc1bf3b721a8dc9802c6d0f8a7b46"
+    },
+    {
+      "language": "fr",
+      "route": "/fr/privacy/",
+      "pendingApprovalMarkers": 1,
+      "robots": "noindex, nofollow",
+      "contactInEmittedHtml": false,
+      "draftFile": "privacy-policy-draft.fr.md",
+      "draftSha256": "5d87270390678980e258e49b77db924b3c479dd39295468b816ea26fb183f016"
+    }
+  ],
+  "note": "Raw emitted HTML inspected directly; draft-only contact wording is not wired into the application. Complete dist text-asset scan also found no supplied email."
+}

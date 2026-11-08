@@ -1,0 +1,20 @@
+[
+  {
+    "language": "en",
+    "route": "/privacy/",
+    "sha256": "c023358a685f5ea4218cfa9c1c1915ee14f9e3848416d9274a3f8b816a7bc631",
+    "exactSearchConsoleText": true,
+    "robots": "noindex, nofollow",
+    "contact": "mailto:apocalypsegearlab@gmail.com",
+    "unadoptedGovernanceInserted": false
+  },
+  {
+    "language": "fr",
+    "route": "/fr/privacy/",
+    "sha256": "8743cfe6925421a87a52abc4f672d50f51fdd1252c2a1bab40234ceb57714a9d",
+    "exactSearchConsoleText": true,
+    "robots": "noindex, nofollow",
+    "contact": "mailto:apocalypsegearlab@gmail.com",
+    "unadoptedGovernanceInserted": false
+  }
+]

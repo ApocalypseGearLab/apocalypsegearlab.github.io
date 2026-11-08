@@ -1,0 +1,849 @@
+{
+  "kind": "Local laboratory, one run per route/width, cold browser contexts, unthrottled CPU/network, DPR1, reduced motion, Google blocked in timing runs, 1-second post-load observation; INP/field/physical-device unmeasured",
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "metrics": {
+        "lcp": 332,
+        "cls": 0,
+        "fcp": 332,
+        "ttfb": 80.80000001192093,
+        "domContentLoaded": 307.5,
+        "duration": 321,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [],
+      "screenshot": "baseline-screenshots/home-1440.png"
+    },
+    {
+      "route": "/gear/",
+      "width": 1440,
+      "metrics": {
+        "lcp": 272,
+        "cls": 0,
+        "fcp": 272,
+        "ttfb": 88.09999999403954,
+        "domContentLoaded": 117.2000000178814,
+        "duration": 250.59999999403954,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [
+        {
+          "src": "/images/outbreak/3m-2091-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-2091-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/3m-2091-outbreak-480.webp 480w, /images/outbreak/3m-2091-outbreak-960.webp 960w, /images/outbreak/3m-2091-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-2097-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-2097-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/3m-2097-outbreak-480.webp 480w, /images/outbreak/3m-2097-outbreak-960.webp 960w, /images/outbreak/3m-2097-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-60921-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-60921-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/3m-60921-outbreak-480.webp 480w, /images/outbreak/3m-60921-outbreak-960.webp 960w, /images/outbreak/3m-60921-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-60926-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-60926-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/3m-60926-outbreak-480.webp 480w, /images/outbreak/3m-60926-outbreak-960.webp 960w, /images/outbreak/3m-60926-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp 480w, /images/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp 960w, /images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp 480w, /images/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp 960w, /images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp 480w, /images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp 960w, /images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp 480w, /images/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp 960w, /images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp 480w, /images/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp 960w, /images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/bougerv-53-quart-refrigerator-blackout-480.webp 480w, /images/blackout/bougerv-53-quart-refrigerator-blackout-960.webp 960w, /images/blackout/bougerv-53-quart-refrigerator-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp 480w, /images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-960.webp 960w, /images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp 480w, /images/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp 960w, /images/fallout/datrex-dx2400f-emergency-rations-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/ecoflow-delta-2-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/ecoflow-delta-2-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/ecoflow-delta-2-blackout-480.webp 480w, /images/blackout/ecoflow-delta-2-blackout-960.webp 960w, /images/blackout/ecoflow-delta-2-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/esee-4-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/esee-4-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/esee-4-outbreak-480.webp 480w, /images/outbreak/esee-4-outbreak-960.webp 960w, /images/outbreak/esee-4-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/fenix-pd36r-pro-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/fenix-pd36r-pro-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/fenix-pd36r-pro-blackout-480.webp 480w, /images/blackout/fenix-pd36r-pro-blackout-960.webp 960w, /images/blackout/fenix-pd36r-pro-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp 480w, /images/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp 960w, /images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp 480w, /images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp 960w, /images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/garrett-pro-pointer-at-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/garrett-pro-pointer-at-fallout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/fallout/garrett-pro-pointer-at-fallout-480.webp 480w, /images/fallout/garrett-pro-pointer-at-fallout-960.webp 960w, /images/fallout/garrett-pro-pointer-at-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/gerber-strongarm-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/gerber-strongarm-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/gerber-strongarm-outbreak-480.webp 480w, /images/outbreak/gerber-strongarm-outbreak-960.webp 960w, /images/outbreak/gerber-strongarm-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/gq-gmc-600-pro-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/gq-gmc-600-pro-fallout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/fallout/gq-gmc-600-pro-fallout-480.webp 480w, /images/fallout/gq-gmc-600-pro-fallout-960.webp 960w, /images/fallout/gq-gmc-600-pro-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp 480w, /images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-960.webp 960w, /images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp 480w, /images/outbreak/marmot-precip-rain-jacket-outbreak-960.webp 960w, /images/outbreak/marmot-precip-rain-jacket-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp 480w, /images/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp 960w, /images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp 480w, /images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp 960w, /images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/midland-er310-emergency-radio-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/midland-er310-emergency-radio-blackout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/morakniv-garberg-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/morakniv-garberg-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/morakniv-garberg-outbreak-480.webp 480w, /images/outbreak/morakniv-garberg-outbreak-960.webp 960w, /images/outbreak/morakniv-garberg-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/motorola-talkabout-t802-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/motorola-talkabout-t802-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/motorola-talkabout-t802-blackout-480.webp 480w, /images/blackout/motorola-talkabout-t802-blackout-960.webp 960w, /images/blackout/motorola-talkabout-t802-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp 480w, /images/whiteout/oakley-flight-deck-m-goggles-whiteout-960.webp 960w, /images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp 480w, /images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-960.webp 960w, /images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp 480w, /images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-960.webp 960w, /images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp 480w, /images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-960.webp 960w, /images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp 480w, /images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-960.webp 960w, /images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/fallout/readywise-84-servings-emergency-food-fallout-480.webp 480w, /images/fallout/readywise-84-servings-emergency-food-fallout-960.webp 960w, /images/fallout/readywise-84-servings-emergency-food-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/royale-velour-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/royale-velour-fallout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/fallout/royale-velour-fallout-480.webp 480w, /images/fallout/royale-velour-fallout-960.webp 960w, /images/fallout/royale-velour-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp 480w, /images/fallout/sos-3600-calorie-emergency-food-fallout-960.webp 960w, /images/fallout/sos-3600-calorie-emergency-food-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp 480w, /images/whiteout/smartwool-nts-250-balaclava-whiteout-960.webp 960w, /images/whiteout/smartwool-nts-250-balaclava-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp 480w, /images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-960.webp 960w, /images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 220,
+          "srcset": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp 640w, /images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-960.webp 960w, /images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp",
+          "renderedWidth": 220,
+          "naturalWidth": 219,
+          "srcset": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp 480w, /images/outbreak/vortex-diamondback-hd-10x42-outbreak-960.webp 960w, /images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp 1254w"
+        }
+      ],
+      "screenshot": "baseline-screenshots/gear-1440.png"
+    },
+    {
+      "route": "/whiteout/",
+      "width": 1440,
+      "metrics": {
+        "lcp": 280,
+        "cls": 0,
+        "fcp": 280,
+        "ttfb": 111.19999998807907,
+        "domContentLoaded": 131.90000000596046,
+        "duration": 253.5,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [],
+      "screenshot": "baseline-screenshots/whiteout-1440.png"
+    },
+    {
+      "route": "/gear/therm-a-rest-neoair-xtherm-nxt-review/",
+      "width": 1440,
+      "metrics": {
+        "lcp": 216,
+        "cls": 0,
+        "fcp": 216,
+        "ttfb": 63.20000001788139,
+        "domContentLoaded": 83,
+        "duration": 197.80000001192093,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [],
+      "screenshot": "baseline-screenshots/gear-therm-a-rest-neoair-xtherm-nxt-review-1440.png"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "metrics": {
+        "lcp": 136,
+        "cls": 0,
+        "fcp": 120,
+        "ttfb": 1.0999999940395355,
+        "domContentLoaded": 19.5,
+        "duration": 94.09999999403954,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [],
+      "screenshot": "baseline-screenshots/home-390.png"
+    },
+    {
+      "route": "/gear/",
+      "width": 390,
+      "metrics": {
+        "lcp": 160,
+        "cls": 0,
+        "fcp": 160,
+        "ttfb": 1.9000000059604645,
+        "domContentLoaded": 32.20000001788139,
+        "duration": 153.2000000178814,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [
+        {
+          "src": "/images/outbreak/3m-2091-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-2091-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/3m-2091-outbreak-480.webp 480w, /images/outbreak/3m-2091-outbreak-960.webp 960w, /images/outbreak/3m-2091-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-2097-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-2097-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/3m-2097-outbreak-480.webp 480w, /images/outbreak/3m-2097-outbreak-960.webp 960w, /images/outbreak/3m-2097-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-60921-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-60921-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/3m-60921-outbreak-480.webp 480w, /images/outbreak/3m-60921-outbreak-960.webp 960w, /images/outbreak/3m-60921-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-60926-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-60926-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/3m-60926-outbreak-480.webp 480w, /images/outbreak/3m-60926-outbreak-960.webp 960w, /images/outbreak/3m-60926-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp 480w, /images/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp 960w, /images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp 480w, /images/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp 960w, /images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp 480w, /images/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp 960w, /images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp 480w, /images/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp 960w, /images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp 480w, /images/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp 960w, /images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/bougerv-53-quart-refrigerator-blackout-480.webp 480w, /images/blackout/bougerv-53-quart-refrigerator-blackout-960.webp 960w, /images/blackout/bougerv-53-quart-refrigerator-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp 480w, /images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-960.webp 960w, /images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp 480w, /images/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp 960w, /images/fallout/datrex-dx2400f-emergency-rations-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/ecoflow-delta-2-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/ecoflow-delta-2-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/ecoflow-delta-2-blackout-480.webp 480w, /images/blackout/ecoflow-delta-2-blackout-960.webp 960w, /images/blackout/ecoflow-delta-2-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/esee-4-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/esee-4-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/esee-4-outbreak-480.webp 480w, /images/outbreak/esee-4-outbreak-960.webp 960w, /images/outbreak/esee-4-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/fenix-pd36r-pro-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/fenix-pd36r-pro-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/fenix-pd36r-pro-blackout-480.webp 480w, /images/blackout/fenix-pd36r-pro-blackout-960.webp 960w, /images/blackout/fenix-pd36r-pro-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp 480w, /images/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp 960w, /images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp 480w, /images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp 960w, /images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/garrett-pro-pointer-at-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/garrett-pro-pointer-at-fallout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/garrett-pro-pointer-at-fallout-480.webp 480w, /images/fallout/garrett-pro-pointer-at-fallout-960.webp 960w, /images/fallout/garrett-pro-pointer-at-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/gerber-strongarm-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/gerber-strongarm-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/gerber-strongarm-outbreak-480.webp 480w, /images/outbreak/gerber-strongarm-outbreak-960.webp 960w, /images/outbreak/gerber-strongarm-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/gq-gmc-600-pro-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/gq-gmc-600-pro-fallout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/gq-gmc-600-pro-fallout-480.webp 480w, /images/fallout/gq-gmc-600-pro-fallout-960.webp 960w, /images/fallout/gq-gmc-600-pro-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp 480w, /images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-960.webp 960w, /images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/marmot-precip-rain-jacket-outbreak-480.webp 480w, /images/outbreak/marmot-precip-rain-jacket-outbreak-960.webp 960w, /images/outbreak/marmot-precip-rain-jacket-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp 480w, /images/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp 960w, /images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp 480w, /images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp 960w, /images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/midland-er310-emergency-radio-blackout.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/midland-er310-emergency-radio-blackout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/midland-er310-emergency-radio-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/morakniv-garberg-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/morakniv-garberg-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/morakniv-garberg-outbreak-480.webp 480w, /images/outbreak/morakniv-garberg-outbreak-960.webp 960w, /images/outbreak/morakniv-garberg-outbreak.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/motorola-talkabout-t802-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/motorola-talkabout-t802-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/motorola-talkabout-t802-blackout-480.webp 480w, /images/blackout/motorola-talkabout-t802-blackout-960.webp 960w, /images/blackout/motorola-talkabout-t802-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/nanuk-904-first-aid-kit-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp 480w, /images/whiteout/oakley-flight-deck-m-goggles-whiteout-960.webp 960w, /images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp 480w, /images/blackout/oria-wireless-fridge-freezer-thermometer-blackout-960.webp 960w, /images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp 480w, /images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-960.webp 960w, /images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp 480w, /images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-960.webp 960w, /images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp 480w, /images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-960.webp 960w, /images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/readywise-84-servings-emergency-food-fallout-480.webp 480w, /images/fallout/readywise-84-servings-emergency-food-fallout-960.webp 960w, /images/fallout/readywise-84-servings-emergency-food-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/royale-velour-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/royale-velour-fallout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/royale-velour-fallout-480.webp 480w, /images/fallout/royale-velour-fallout-960.webp 960w, /images/fallout/royale-velour-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/sos-3600-calorie-emergency-food-fallout-480.webp 480w, /images/fallout/sos-3600-calorie-emergency-food-fallout-960.webp 960w, /images/fallout/sos-3600-calorie-emergency-food-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp 480w, /images/whiteout/smartwool-nts-250-balaclava-whiteout-960.webp 960w, /images/whiteout/smartwool-nts-250-balaclava-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp 480w, /images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-960.webp 960w, /images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+          "selected": "http://127.0.0.1:50177/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp 1254w"
+        },
+        {
+          "src": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp",
+          "selected": "http://127.0.0.1:50177/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 299,
+          "srcset": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp 640w, /images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-960.webp 960w, /images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp 1254w"
+        },
+        {
+          "src": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp",
+          "selected": "http://127.0.0.1:50177/images/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp",
+          "renderedWidth": 300,
+          "naturalWidth": 300,
+          "srcset": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp 480w, /images/outbreak/vortex-diamondback-hd-10x42-outbreak-960.webp 960w, /images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp 1254w"
+        }
+      ],
+      "screenshot": "baseline-screenshots/gear-390.png"
+    },
+    {
+      "route": "/whiteout/",
+      "width": 390,
+      "metrics": {
+        "lcp": 136,
+        "cls": 0,
+        "fcp": 136,
+        "ttfb": 1,
+        "domContentLoaded": 20,
+        "duration": 107.40000000596046,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [],
+      "screenshot": "baseline-screenshots/whiteout-390.png"
+    },
+    {
+      "route": "/gear/therm-a-rest-neoair-xtherm-nxt-review/",
+      "width": 390,
+      "metrics": {
+        "lcp": 124,
+        "cls": 0,
+        "fcp": 124,
+        "ttfb": 1,
+        "domContentLoaded": 16.200000017881393,
+        "duration": 101.7000000178814,
+        "overflow": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+      },
+      "candidates": [],
+      "screenshot": "baseline-screenshots/gear-therm-a-rest-neoair-xtherm-nxt-review-390.png"
+    }
+  ]
+}

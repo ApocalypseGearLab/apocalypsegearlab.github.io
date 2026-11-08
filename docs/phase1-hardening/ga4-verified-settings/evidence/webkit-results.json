@@ -1,0 +1,2447 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\.tools\\node-v22.23.4-win-x64\\node.exe",
+      "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      ".tools/ga4-verified-settings/webkit.config.mjs",
+      "--project=webkit-320",
+      "--project=webkit-375",
+      "--project=webkit-390",
+      "--workers=1"
+    ],
+    "configFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\.tools\\ga4-verified-settings\\webkit.config.mjs",
+    "rootDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/webkit-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/(?:privacy(?:-storage)?-phase1|analytics)\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/webkit-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit-320",
+        "name": "webkit-320",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/webkit-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit-375",
+        "name": "webkit-375",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/docs/phase1-hardening/ga4-verified-settings/evidence/webkit-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit-390",
+        "name": "webkit-390",
+        "testDir": "C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/tmp/phase1-production-hardening/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "/privacy(?:-storage)?-phase1\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\ga4-verified-settings\\evidence\\webkit-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "webkit-320",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 320,
+            "height": 844
+          },
+          "screen": {
+            "width": 320,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit",
+          "browserName": "webkit",
+          "reducedMotion": "reduce"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-320"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\ga4-verified-settings\\evidence\\webkit-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "webkit-375",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 375,
+            "height": 844
+          },
+          "screen": {
+            "width": 375,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit",
+          "browserName": "webkit",
+          "reducedMotion": "reduce"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-375"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\ga4-verified-settings\\evidence\\webkit-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "webkit-390",
+        "testDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "snapshotDir": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4321",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": {
+            "width": 390,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit",
+          "browserName": "webkit",
+          "reducedMotion": "reduce"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-390"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\1995\\Downloads\\apocalypsegearlab-phase1-revise\\apocalypsegearlab\\tmp\\phase1-production-hardening\\docs\\phase1-hardening\\ga4-verified-settings\\evidence\\webkit-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview -- --host 127.0.0.1 --port 4321",
+      "url": "http://127.0.0.1:4321",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "privacy-phase1.spec.ts",
+      "file": "privacy-phase1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2252,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:08.639Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-a2784ea56ea343b508da",
+          "file": "privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2091,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:11.032Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-adca0884b56878144614",
+          "file": "privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1384,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:13.172Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-31be6bc99234e1330188",
+          "file": "privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1496,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:14.577Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-fed40286d5296541046c",
+          "file": "privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4883,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:16.093Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-b3d93f884695b0131e77",
+          "file": "privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 739,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:20.997Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-d9f40501846f026a3fb9",
+          "file": "privacy-phase1.spec.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1241,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:21.754Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-4b113b234de9706a7fb7",
+          "file": "privacy-phase1.spec.ts",
+          "line": 105,
+          "column": 1
+        },
+        {
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3810,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:23.025Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-63a2078e8c1a58049b9c",
+          "file": "privacy-phase1.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3419,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:02.778Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-8fcdc660205f28302b20",
+          "file": "privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:06.379Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-65975f8a0e0cef597a16",
+          "file": "privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1339,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:08.732Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-b91658c40e9483602a93",
+          "file": "privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2225,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:10.087Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-8c078c0753f6c02048b7",
+          "file": "privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5814,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:12.328Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-2a0de12160cb81091797",
+          "file": "privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 871,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:18.158Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-67c689f772284aa45e9c",
+          "file": "privacy-phase1.spec.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1680,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:19.043Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-f00eee269876ab0a9df8",
+          "file": "privacy-phase1.spec.ts",
+          "line": 105,
+          "column": 1
+        },
+        {
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4264,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:20.743Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-e9a371a81b3c20d5cbbf",
+          "file": "privacy-phase1.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "default and rejection send no Google requests; native affiliate navigation works independently",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2695,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:58.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-a6bd8d96ad6107a93f28",
+          "file": "privacy-phase1.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2077,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:00.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-89f78b8cde0fe9983a3a",
+          "file": "privacy-phase1.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "expired or malformed choices fail closed; storage failure cannot enable analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1523,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:03.066Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-7977c171131399a76c61",
+          "file": "privacy-phase1.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "cross-tab withdrawal overrides a session grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1867,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:04.603Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-0ef83ca5ec58c327cc9d",
+          "file": "privacy-phase1.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5529,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:06.492Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-d09d9b0e152d57875a3c",
+          "file": "privacy-phase1.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "JavaScript disabled leaves Google off and privacy/retailer links native",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 906,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:12.035Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-551b1fb73732a5a14b1a",
+          "file": "privacy-phase1.spec.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "clearing storage in another tab also revokes an existing document grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:12.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-caf53c4dbf494c6c928b",
+          "file": "privacy-phase1.spec.ts",
+          "line": 105,
+          "column": 1
+        },
+        {
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4764,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:14.753Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1dc4e097e83cffbba5d-17d370257c056020afe8",
+          "file": "privacy-phase1.spec.ts",
+          "line": 113,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "privacy-storage-phase1.spec.ts",
+      "file": "privacy-storage-phase1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2946,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:26.889Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-0ffc87a60afbe6b40d97",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2749,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:29.860Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-3f083a8db83825902e08",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3008,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:32.631Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-b24af52d0c508d925737",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2482,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:35.665Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-c6367438eef2bbdfe35d",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2263,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:38.177Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-778fad86322ff74303ff",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "en: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1959,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:40.463Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-5b200752ad59047d5b3b",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2908,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:42.442Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-c8cce96c3d7abb71e3e4",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2264,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:45.365Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-5da6de6275882ae0dccd",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3880,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:47.645Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-23c8867b24498ed02ecb",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3263,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:51.559Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-deb31d434702ef37de9d",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3405,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:54.842Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-3e7bfa73429fb2f6d64f",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "fr: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-320",
+              "projectName": "webkit-320",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3558,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:42:58.284Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-ef3d482bee282560aa98",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        },
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3192,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:25.041Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-bc22450f58ecda79af46",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2588,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:28.255Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-2a772421dc3f6a3a8ad5",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3280,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:30.859Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-7f115b27ab101dd0cfd7",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2535,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:34.156Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-1e2e27d2f2201aac23a1",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2731,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:36.706Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-470c979c66d63773e9fb",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "en: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1872,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:39.455Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-473d297ec293734d6aca",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3081,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:41.342Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-74b887c7f718ccb4efcb",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2488,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:44.438Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-87da88d31610d4390e32",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3203,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:46.943Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-d54315f931ff06f9bb47",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2431,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:50.164Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-bf83203911ed3f4e0d93",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2752,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:52.609Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-da04ea7e3fde83a71d88",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "fr: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-375",
+              "projectName": "webkit-375",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1893,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:43:55.376Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-fb7dcd3f15c90825e404",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        },
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3660,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:19.543Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-d08ad2560f0a4266eff6",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2704,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:23.226Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-4e1ad5127d7b94273d79",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3652,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:25.947Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-f5578cbdd88f12459926",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2636,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:29.612Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImVuIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-1669652e1de2d1c6201e",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2302,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:32.265Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-3b0edadb8b839263f546",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "en: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1984,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:34.581Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-7f35fff4ffbd0fc26e68",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:36.579Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYmVmb3JlLWxvYWQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-99acbf8bc48558f9d2ea",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2511,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:39.651Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InRocm93IiwidGltaW5nIjoiYWZ0ZXItZ3JhbnQiLCJzdGFsZUdyYW50UmVhZGFibGUiOnRydWUsInJlcXVlc3RzQWZ0ZXJXaXRoZHJhd2FsIjowLCJuYXRpdmVBZmZpbGlhdGVBbmROYXZpZ2F0aW9uIjp0cnVlfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-fe5572b9508a38dc3208",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3258,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:42.183Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImJlZm9yZS1sb2FkIiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-204bc07dfe004518b972",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2511,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:45.461Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "restricted-storage-result",
+                      "contentType": "application/json",
+                      "body": "eyJsYW5ndWFnZSI6ImZyIiwibW9kZSI6InNpbGVudCIsInRpbWluZyI6ImFmdGVyLWdyYW50Iiwic3RhbGVHcmFudFJlYWRhYmxlIjp0cnVlLCJyZXF1ZXN0c0FmdGVyV2l0aGRyYXdhbCI6MCwibmF0aXZlQWZmaWxpYXRlQW5kTmF2aWdhdGlvbiI6dHJ1ZX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-6c68fc66f9d4f98191f2",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:47.989Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-e2a0dc0118955a2096b9",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 74,
+          "column": 2
+        },
+        {
+          "title": "fr: session denial overrides an older read-only persistent grant",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1876,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T02:44:50.418Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d8cbe3b464bc58361a89-66f76f1bd43a81d0e3c0",
+          "file": "privacy-storage-phase1.spec.ts",
+          "line": 81,
+          "column": 2
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-08T02:42:04.594Z",
+    "duration": 168056.11700000003,
+    "expected": 60,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

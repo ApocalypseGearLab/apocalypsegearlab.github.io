@@ -1,0 +1,68 @@
+
+[WebServer] (node:15472) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:17444) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 42 tests using 2 workers
+
+
+(node:3036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+(node:34480) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/42] [chromium] › .tools\final-blocker-fixes\tests\browser\bilingual.spec.ts:96:1 › blocked localStorage does not prevent explicit switching
+[2/42] [chromium] › .tools\final-blocker-fixes\tests\browser\phase6.spec.ts:6:1 › catalogue search, combined filters, empty state, reset and keyboard controls
+[3/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[4/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[5/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[6/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[7/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[8/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[9/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+[10/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[11/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[12/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[13/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[14/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[15/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[16/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[17/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[18/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[19/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[20/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[21/42] [chromium] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+
+(node:34396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:33776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[22/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[23/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[24/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[25/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[26/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[27/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[28/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+[29/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[30/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[31/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[32/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[33/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[34/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[35/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[36/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[37/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[38/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[39/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[40/42] [webkit-390] › .tools\final-blocker-fixes\tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+[41/42] [webkit-390] › .tools\final-blocker-fixes\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[42/42] [webkit-390] › .tools\final-blocker-fixes\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+  42 passed (1.2m)

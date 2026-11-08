@@ -1,0 +1,79 @@
+[WebServer] (node:33752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 60 tests using 1 worker
+
+
+(node:36092) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[2/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[3/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[4/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[5/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[6/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:105:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[7/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:112:1 › clearing storage in another tab also revokes an existing document grant
+[8/60] [webkit-320] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[9/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[10/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[11/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[12/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[13/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[14/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[15/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[16/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[17/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[18/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[19/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[20/60] [webkit-320] › tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+
+(node:36600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[21/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[22/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[23/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[24/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[25/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[26/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:105:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[27/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:112:1 › clearing storage in another tab also revokes an existing document grant
+[28/60] [webkit-375] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[29/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[30/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[31/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[32/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[33/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[34/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[35/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[36/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[37/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[38/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[39/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[40/60] [webkit-375] › tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+
+(node:21080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[41/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[42/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[43/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[44/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[45/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[46/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:105:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[47/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:112:1 › clearing storage in another tab also revokes an existing document grant
+[48/60] [webkit-390] › tests\browser\privacy-phase1.spec.ts:120:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[49/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[50/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[51/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[52/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[53/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[54/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[55/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[56/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[57/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[58/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[59/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[60/60] [webkit-390] › tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+  60 passed (3.2m)

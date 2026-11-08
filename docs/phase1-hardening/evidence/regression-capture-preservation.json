@@ -1,0 +1,97 @@
+[
+  {
+    "file": "docs/qa/phase7/screenshots/catalogue-1440.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/catalogue-1440.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/phase7/screenshots/catalogue-375.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/catalogue-375.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/phase7/screenshots/gq-gmc-600-pro-review-375.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/gq-gmc-600-pro-review-375.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/phase7/screenshots/vortex-diamondback-hd-10x42-review-1440.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/phase7/screenshots/vortex-diamondback-hd-10x42-review-1440.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/hestra-army-leather-heli-ski-gloves-en-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/hestra-army-leather-heli-ski-gloves-en-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/oakley-flight-deck-m-goggles-en-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/oakley-flight-deck-m-goggles-en-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/oakley-flight-deck-m-goggles-fr-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/oakley-flight-deck-m-goggles-fr-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-en-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-en-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-fr-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/outdoor-research-alti-ii-gore-tex-mitts-fr-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-en-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-en-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-fr-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-nts-250-balaclava-fr-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/smartwool-thermal-merino-reversible-cuffed-beanie-en-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-thermal-merino-reversible-cuffed-beanie-en-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/smartwool-thermal-merino-reversible-cuffed-beanie-fr-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/smartwool-thermal-merino-reversible-cuffed-beanie-fr-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-en-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-webkit-375-specs.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/therm-a-rest-neoair-xtherm-nxt-review-fr-webkit-375-specs.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/whiteout-en-1440.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-en-1440.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/whiteout-en-375.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-en-375.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/whiteout-fr-1440.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-fr-1440.png",
+    "baselineRestored": true
+  },
+  {
+    "file": "docs/qa/whiteout-phase2/screenshots/whiteout-fr-375.png",
+    "capture": "docs/phase1-hardening/evidence/regression-captures/docs/qa/whiteout-phase2/screenshots/whiteout-fr-375.png",
+    "baselineRestored": true
+  }
+]

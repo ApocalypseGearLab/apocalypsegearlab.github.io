@@ -1,0 +1,25 @@
+{
+  "head": "2cc35df11968242c00fcc08060c18e5182dcabe0",
+  "branch": "feat/phase1-production-hardening",
+  "indexEmpty": true,
+  "priorCandidateFiles": 370,
+  "unchangedPriorCandidateFiles": 363,
+  "approvedPriorCandidateChanges": [
+    "docs/phase1-hardening/evidence/source-changes.json",
+    "scripts/phase1-preservation.mjs",
+    "src/i18n/fr-privacy.json",
+    "src/lib/analytics-consent.ts",
+    "src/pages/privacy.astro",
+    "tests/privacy.test.ts",
+    "docs/phase1-hardening/README.md"
+  ],
+  "unexpectedPriorCandidateChanges": [],
+  "validatedSourceHashes": 9,
+  "protectedOriginalHashes": 234,
+  "sourceProjectionsMatchHEAD": true,
+  "sourceProjectionCount": 33,
+  "unrelatedCheckpointFiles": 2537,
+  "unrelatedDifferences": [],
+  "archivedQaCaptures": 75,
+  "historicalQaPathsRestored": true
+}

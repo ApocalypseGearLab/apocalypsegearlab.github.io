@@ -1,0 +1,126 @@
+{
+  "runs": [
+    {
+      "engine": "chromium",
+      "stats": {
+        "startTime": "2026-11-08T05:56:46.001Z",
+        "duration": 11795.983999999999,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "projects": [
+        {
+          "name": "chromium",
+          "tests": 2
+        }
+      ],
+      "tests": [
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "chromium",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "chromium",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "stats": {
+        "startTime": "2026-11-08T05:57:00.244Z",
+        "duration": 37103.227,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "projects": [
+        {
+          "name": "webkit-320",
+          "tests": 2
+        },
+        {
+          "name": "webkit-375",
+          "tests": 2
+        },
+        {
+          "name": "webkit-390",
+          "tests": 2
+        }
+      ],
+      "tests": [
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "webkit-320",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "webkit-320",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "webkit-375",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "webkit-375",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "webkit-390",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "webkit-390",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        }
+      ]
+    }
+  ],
+  "totalTests": 8,
+  "selection": "final privacy policies|EN/FR footer",
+  "sourceTestsUnchanged": true,
+  "noNewFullSuiteClaim": true
+}

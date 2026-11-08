@@ -1,0 +1,68 @@
+[
+  {
+    "name": "build",
+    "code": 0,
+    "ms": 9999,
+    "log": "docs/phase1-hardening/release-readiness/evidence/build.log"
+  },
+  {
+    "name": "check",
+    "code": 0,
+    "ms": 12291,
+    "log": "docs/phase1-hardening/release-readiness/evidence/check.log"
+  },
+  {
+    "name": "test",
+    "code": 0,
+    "ms": 4898,
+    "log": "docs/phase1-hardening/release-readiness/evidence/test.log"
+  },
+  {
+    "name": "test:images",
+    "code": 0,
+    "ms": 18350,
+    "log": "docs/phase1-hardening/release-readiness/evidence/test-images.log"
+  },
+  {
+    "name": "release:check",
+    "code": 0,
+    "ms": 771,
+    "log": "docs/phase1-hardening/release-readiness/evidence/release-check.log"
+  },
+  {
+    "name": "audit:affiliate",
+    "code": 0,
+    "ms": 800,
+    "log": "docs/phase1-hardening/release-readiness/evidence/audit-affiliate.log"
+  },
+  {
+    "name": "audit:verification",
+    "code": 0,
+    "ms": 836,
+    "log": "docs/phase1-hardening/release-readiness/evidence/audit-verification.log"
+  },
+  {
+    "name": "test:site",
+    "code": 0,
+    "ms": 11259,
+    "log": "docs/phase1-hardening/release-readiness/evidence/test-site.log"
+  },
+  {
+    "name": "test:conversion",
+    "code": 0,
+    "ms": 2475,
+    "log": "docs/phase1-hardening/release-readiness/evidence/test-conversion.log"
+  },
+  {
+    "name": "test:bougerv",
+    "code": 0,
+    "ms": 2032,
+    "log": "docs/phase1-hardening/release-readiness/evidence/test-bougerv.log"
+  },
+  {
+    "name": "test:phase55",
+    "code": 0,
+    "ms": 1669,
+    "log": "docs/phase1-hardening/release-readiness/evidence/test-phase55.log"
+  }
+]

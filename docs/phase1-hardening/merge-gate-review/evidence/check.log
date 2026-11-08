@@ -1,0 +1,13 @@
+
+> apocalypsegearlab@0.1.0 check
+> astro check
+
+00 h 33 min 30 s [content] Syncing content
+00 h 33 min 30 s [content] Synced content
+00 h 33 min 30 s [types] Generated 958ms
+00 h 33 min 30 s [check] Getting diagnostics for Astro files in C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening...
+Result (183 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

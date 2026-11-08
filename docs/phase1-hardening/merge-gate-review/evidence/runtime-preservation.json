@@ -1,0 +1,38 @@
+{
+  "runtimeChanged": false,
+  "matchedFiles": [
+    {
+      "path": "src/lib/analytics-consent.ts",
+      "sha256": "7b8929733a9cb2a0574317178bcfa89aa69bf429a9b00d9ada859a88cf89a0e0",
+      "unchangedFromPrior": true
+    },
+    {
+      "path": "src/lib/affiliate-analytics.ts",
+      "sha256": "556950f692735db48b325130dad539e40eb820b651103d6e3271d88e9f70c6f8",
+      "unchangedFromPrior": true
+    },
+    {
+      "path": "src/components/GoogleAnalytics.astro",
+      "sha256": "857ef9cebdaefa5f7abed7fa8e5fe9d92fc5dbd85d4ca15140cf0501e41a9fac",
+      "unchangedFromPrior": true
+    },
+    {
+      "path": "src/components/AnalyticsConsent.astro",
+      "sha256": "0c5a28846ba1605a40edbae64cb2b50938e16299461fc7b5342532df30cd47cf",
+      "unchangedFromPrior": true
+    },
+    {
+      "path": "src/components/Footer.astro",
+      "sha256": "a1cdc7730f862e735ad80257a08f07c94f7ac590efbca4270f72ca2b01dedc79",
+      "unchangedFromPrior": true
+    },
+    {
+      "path": "docs/phase1-hardening/evidence/source-changes.json",
+      "sha256": "f643264366ecae51a6973fa07fae63539014c4fd657597fc9ebe182acbf12a8d",
+      "unchangedFromPrior": true
+    }
+  ],
+  "accountChangesMade": false,
+  "originalUnitAndBrowserResultsMatchedBeforePolicyEdits": true,
+  "newChecksRequiredBecausePolicyAndItsTestChanged": true
+}

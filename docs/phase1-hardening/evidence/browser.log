@@ -1,0 +1,362 @@
+
+[WebServer] (node:33552) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 181 tests using 2 workers
+
+(node:10724) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:15524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/181] [chromium-phase1] › tests\browser\analytics.spec.ts:19:1 › active affiliate mouse and keyboard clicks each queue one event and keep native new tabs
+[2/181] [chromium-phase1] › tests\browser\analytics.spec.ts:7:1 › one Google loader, one config and preserved verification on document navigation
+[3/181] [chromium-phase1] › tests\browser\analytics.spec.ts:42:1 › blocked and prevented clicks emit nothing; Analytics exceptions cannot break navigation
+[4/181] [chromium-phase1] › tests\browser\analytics.spec.ts:61:1 › XML parses strictly, has unique absolute locations and excludes noindex pages
+[5/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:7:34 › all bilingual routes render without overflow at 375px
+[6/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:7:34 › all bilingual routes render without overflow at 1440px
+[7/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:28:1 › language switch preserves page, fragment, filters, scroll and preference
+[8/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:55:1 › French filter zero state and reset stay French
+[9/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 320
+[10/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 768
+[11/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 1440
+[12/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:84:1 › static French pages and native selector work with JavaScript disabled
+[13/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:96:1 › blocked localStorage does not prevent explicit switching
+[14/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:108:34 › review screenshots at 375
+[15/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:108:34 › review screenshots at 1440
+[16/181] [chromium-phase1] › tests\browser\bilingual.spec.ts:123:1 › French affiliate clicks queue the existing event once with the original destination and identity
+[17/181] [chromium-phase1] › tests\browser\bougerv.spec.ts:7:49 › bougerv-53-quart-portable-refrigerator-freezer is visible, Amazon-only, noindex and accessible at six widths with the correct artwork
+[18/181] [chromium-phase1] › tests\browser\bougerv.spec.ts:7:49 › bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler is visible, Amazon-only, noindex and accessible at six widths with the correct artwork
+[19/181] [chromium-phase1] › tests\browser\bougerv.spec.ts:43:1 › both BougeRV affiliate controls open safely with exactly one GA4 event per action in all four placements
+[20/181] [chromium-phase1] › tests\browser\conversion.spec.ts:11:1 › every current product keeps its decision, prominent canonical purchase control and accessible bottom references
+[21/181] [chromium-phase1] › tests\browser\conversion.spec.ts:44:1 › documentary mouse and keyboard navigation emits one source event and no affiliate conversion
+[22/181] [chromium-phase1] › tests\browser\conversion.spec.ts:68:1 › all three HUD identities keep readable CTAs, safety notices and bottom references at six viewport widths
+[23/181] [chromium-phase1] › tests\browser\morakniv.spec.ts:9:1 › Morakniv recorded link works in all four placements with one GA4 event per action and unchanged noindex
+[24/181] [chromium-phase1] › tests\browser\phase47.spec.ts:8:1 › the three documented 3M CTAs work in every placement and emit exactly one affiliate event per action
+[25/181] [chromium-phase1] › tests\browser\phase47.spec.ts:38:1 › 2091 preserves its full HUD, responsive sources, accessibility and documented pair at 320–1920px
+[26/181] [chromium-phase1] › tests\browser\phase48.spec.ts:8:1 › 2091 documented-pair link works in all four placements on phone and desktop without duplicate tracking
+[27/181] [chromium-phase1] › tests\browser\phase48.spec.ts:46:1 › 2091 retains informational SEO, product cautions and no permanent historical offer data
+[28/181] [chromium-phase1] › tests\browser\phase5.spec.ts:6:64 › gerber-strongarm-fixed-blade-knife renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[29/181] [chromium-phase1] › tests\browser\phase5.spec.ts:6:64 › esee-4-fixed-blade-knife renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[30/181] [chromium-phase1] › tests\browser\phase5.spec.ts:6:64 › morakniv-garberg-blackblade-carbon-survival-kit renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[31/181] [chromium-phase1] › tests\browser\phase5.spec.ts:6:64 › royale-velour-plush-thick-toilet-paper renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[32/181] [chromium-phase1] › tests\browser\phase5.spec.ts:48:1 › four permitted Phase 5 links keep exact ASINs, new tabs and one affiliate event per mouse or keyboard action
+[33/181] [chromium-phase1] › tests\browser\phase53.spec.ts:7:49 › ecoflow-delta-2-portable-power-station complete BLACKOUT artwork, power checklist and profile at six viewport widths
+[34/181] [chromium-phase1] › tests\browser\phase53.spec.ts:7:49 › bluetti-elite-100-v2-solar-generator-kit complete BLACKOUT artwork, power checklist and profile at six viewport widths
+[35/181] [chromium-phase1] › tests\browser\phase53.spec.ts:42:1 › both power-station links fire exactly one affiliate event per mouse/keyboard action in all four placements
+[36/181] [chromium-phase1] › tests\browser\phase55.spec.ts:5:49 › oria-wireless-refrigerator-freezer-thermometer is visible, responsive, accessible and accurately captioned at six widths
+[37/181] [chromium-phase1] › tests\browser\phase55.spec.ts:5:49 › panasonic-eneloop-aa-rechargeable-battery-charger-kit is visible, responsive, accessible and accurately captioned at six widths
+[38/181] [chromium-phase1] › tests\browser\phase55.spec.ts:5:49 › panasonic-eneloop-aaa-rechargeable-battery-charger-kit is visible, responsive, accessible and accurately captioned at six widths
+[39/181] [chromium-phase1] › tests\browser\phase55.spec.ts:32:1 › Phase 5.5 Amazon CTAs open safely and emit exactly one affiliate_click per mouse or keyboard action in every applicable placement
+[40/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 vortex-diamondback-hd-10x42-review has accessible content, intact illustration and recorded-link tracking at 375px
+[41/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 garrett-pro-pointer-at-review has accessible content, intact illustration and recorded-link tracking at 375px
+[42/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 gq-gmc-600-pro-review has accessible content, intact illustration and recorded-link tracking at 375px
+[43/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 fenix-pd36r-pro-review has accessible content, intact illustration and recorded-link tracking at 375px
+[44/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 motorola-talkabout-t802-review has accessible content, intact illustration and recorded-link tracking at 375px
+[45/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 vortex-diamondback-hd-10x42-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[46/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 garrett-pro-pointer-at-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[47/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 gq-gmc-600-pro-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[48/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 fenix-pd36r-pro-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[49/181] [chromium-phase1] › tests\browser\phase7.spec.ts:9:86 › Phase 7 motorola-talkabout-t802-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[50/181] [chromium-phase1] › tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 320px
+[51/181] [chromium-phase1] › tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 375px
+[52/181] [chromium-phase1] › tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 768px
+[53/181] [chromium-phase1] › tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1024px
+[54/181] [chromium-phase1] › tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1440px
+[55/181] [chromium-phase1] › tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1920px
+[56/181] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[57/181] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[58/181] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[59/181] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[60/181] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[61/181] [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  1) [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-product-purchase] a')
+    Expected: "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20"
+    Error: strict mode violation: locator('[data-product-purchase] a') resolved to 2 elements:
+        1) <a data-astro-cid-5em2qhfi="" href="/affiliate-disclosure/">Full disclosure</a> aka getByRole('link', { name: 'Full disclosure' }).first()
+        2) <a target="_blank" data-marketplace="ca" data-affiliate-click="" class="btn btn--primary" data-merchant="amazon-ca" data-astro-cid-awtibqwi="" data-product="midland-er310" rel="sponsored nofollow noopener" data-cta-placement="profile-summary" data-product-name="Midland ER310 emergency radio" href="https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20">…</a> aka getByRole('link', { name: 'View on Amazon.ca (affiliate' }).first()
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-product-purchase] a') with timeout 5000ms
+      - waiting for locator('[data-product-purchase] a')
+
+
+      76 |  await page.goto(baseURL+'/gear/midland-er310/');await expect(page.locator('script[src*="googletagmanager"]')).toHaveCount(0);
+      77 |  await expect(page.locator('footer a[href="/privacy/"]')).toHaveCount(2);
+    > 78 |  await expect(page.locator('[data-product-purchase] a')).toHaveAttribute('href','https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20');await context.close();
+         |                                                          ^
+      79 | });
+      80 |
+        at C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\browser\privacy-phase1.spec.ts:78:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-chromium-phase1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-chromium-phase1\error-context.md
+
+
+
+(node:12120) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[62/181] [chromium-phase1] › tests\browser\responsive-phase1.spec.ts:5:1 › all 26 new derivatives deliver exact approved bytes and original images remain available
+[63/181] [chromium-phase1] › tests\browser\responsive-phase1.spec.ts:8:62 › all 13 responsive cards select candidates at 390 DPR 1
+[64/181] [chromium-phase1] › tests\browser\responsive-phase1.spec.ts:8:62 › all 13 responsive cards select candidates at 390 DPR 2
+[65/181] [chromium-phase1] › tests\browser\responsive-phase1.spec.ts:8:62 › all 13 responsive cards select candidates at 1440 DPR 1
+[66/181] [chromium-phase1] › tests\browser\responsive-phase1.spec.ts:8:62 › all 13 responsive cards select candidates at 1440 DPR 2
+[67/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 320px
+[68/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 320px
+[69/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 375px
+[70/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 375px
+[71/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 768px
+[72/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 768px
+[73/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 1440px
+[74/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 1440px
+[75/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:94:33 › WHITEOUT concise cards preserve native links and warning without JavaScript en
+[76/181] [chromium-phase1] › tests\browser\whiteout-card-cleanup.spec.ts:94:33 › WHITEOUT concise cards preserve native links and warning without JavaScript fr
+[77/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:6:47 › WHITEOUT documented destinations, exact URLs and retained safety restriction en
+[78/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:6:47 › WHITEOUT documented destinations, exact URLs and retained safety restriction fr
+[79/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 320px
+[80/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 320px
+[81/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 375px
+[82/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 375px
+[83/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 768px
+[84/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 768px
+[85/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 1440px
+[86/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 1440px
+[87/181] [chromium-phase1] › tests\browser\whiteout-phase2.spec.ts:82:1 › WHITEOUT new category filters retain state while switching languages
+[88/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 320px
+[89/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 320px
+[90/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 375px
+[91/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 375px
+[92/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 390px
+[93/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 390px
+[94/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 1440px
+[95/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 1440px
+[96/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:57:34 › XTherm warning and link work without JavaScript en
+[97/181] [chromium-phase1] › tests\browser\xtherm-temperature-warning.spec.ts:57:34 › XTherm warning and link work without JavaScript fr
+
+(node:32844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:22216) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[98/181] [webkit-320] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[99/181] [webkit-320] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[100/181] [webkit-320] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[101/181] [webkit-320] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[102/181] [webkit-320] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[103/181] [webkit-320] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  2) [webkit-320] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-product-purchase] a')
+    Expected: "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20"
+    Error: strict mode violation: locator('[data-product-purchase] a') resolved to 2 elements:
+        1) <a data-astro-cid-5em2qhfi="" href="/affiliate-disclosure/">Full disclosure</a> aka getByRole('link', { name: 'Full disclosure' }).first()
+        2) <a target="_blank" data-marketplace="ca" data-affiliate-click="" class="btn btn--primary" data-merchant="amazon-ca" data-astro-cid-awtibqwi="" data-product="midland-er310" rel="sponsored nofollow noopener" data-cta-placement="profile-summary" data-product-name="Midland ER310 emergency radio" href="https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20">…</a> aka getByRole('link', { name: 'View on Amazon.ca (affiliate' }).first()
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-product-purchase] a') with timeout 5000ms
+      - waiting for locator('[data-product-purchase] a')
+
+
+      76 |  await page.goto(baseURL+'/gear/midland-er310/');await expect(page.locator('script[src*="googletagmanager"]')).toHaveCount(0);
+      77 |  await expect(page.locator('footer a[href="/privacy/"]')).toHaveCount(2);
+    > 78 |  await expect(page.locator('[data-product-purchase] a')).toHaveAttribute('href','https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20');await context.close();
+         |                                                          ^
+      79 | });
+      80 |
+        at C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\browser\privacy-phase1.spec.ts:78:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-320\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-320\error-context.md
+
+
+
+(node:32552) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[104/181] [webkit-320] › tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[105/181] [webkit-320] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[106/181] [webkit-320] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[107/181] [webkit-320] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[108/181] [webkit-320] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[109/181] [webkit-320] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[110/181] [webkit-320] › tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[111/181] [webkit-320] › tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[112/181] [webkit-320] › tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[113/181] [webkit-320] › tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[114/181] [webkit-320] › tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[115/181] [webkit-320] › tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[116/181] [webkit-320] › tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[117/181] [webkit-320] › tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[118/181] [webkit-320] › tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[119/181] [webkit-320] › tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[120/181] [webkit-320] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[121/181] [webkit-320] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[122/181] [webkit-320] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[123/181] [webkit-320] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[124/181] [webkit-320] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[125/181] [webkit-320] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+
+(node:21612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[126/181] [webkit-375] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[127/181] [webkit-375] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+
+(node:3708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[128/181] [webkit-375] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[129/181] [webkit-375] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[130/181] [webkit-375] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[131/181] [webkit-375] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  3) [webkit-375] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-product-purchase] a')
+    Expected: "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20"
+    Error: strict mode violation: locator('[data-product-purchase] a') resolved to 2 elements:
+        1) <a data-astro-cid-5em2qhfi="" href="/affiliate-disclosure/">Full disclosure</a> aka getByRole('link', { name: 'Full disclosure' }).first()
+        2) <a target="_blank" data-marketplace="ca" data-affiliate-click="" class="btn btn--primary" data-merchant="amazon-ca" data-astro-cid-awtibqwi="" data-product="midland-er310" rel="sponsored nofollow noopener" data-cta-placement="profile-summary" data-product-name="Midland ER310 emergency radio" href="https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20">…</a> aka getByRole('link', { name: 'View on Amazon.ca (affiliate' }).first()
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-product-purchase] a') with timeout 5000ms
+      - waiting for locator('[data-product-purchase] a')
+
+
+      76 |  await page.goto(baseURL+'/gear/midland-er310/');await expect(page.locator('script[src*="googletagmanager"]')).toHaveCount(0);
+      77 |  await expect(page.locator('footer a[href="/privacy/"]')).toHaveCount(2);
+    > 78 |  await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveAttribute('href','https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20');await context.close();
+         |                                                          ^
+      79 | });
+      80 |
+        at C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\browser\privacy-phase1.spec.ts:78:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-375\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-375\error-context.md
+
+
+
+(node:31452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[132/181] [webkit-375] › tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[133/181] [webkit-375] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[134/181] [webkit-375] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[135/181] [webkit-375] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[136/181] [webkit-375] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[137/181] [webkit-375] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[138/181] [webkit-375] › tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[139/181] [webkit-375] › tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[140/181] [webkit-375] › tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[141/181] [webkit-375] › tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[142/181] [webkit-375] › tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[143/181] [webkit-375] › tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[144/181] [webkit-375] › tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[145/181] [webkit-375] › tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[146/181] [webkit-375] › tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[147/181] [webkit-375] › tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[148/181] [webkit-375] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[149/181] [webkit-375] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[150/181] [webkit-375] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[151/181] [webkit-375] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[152/181] [webkit-375] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[153/181] [webkit-375] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+
+(node:32728) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[154/181] [webkit-390] › tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+
+(node:20688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[155/181] [webkit-390] › tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[156/181] [webkit-390] › tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[157/181] [webkit-390] › tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[158/181] [webkit-390] › tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[159/181] [webkit-390] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  4) [webkit-390] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('[data-product-purchase] a')
+    Expected: "https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20"
+    Error: strict mode violation: locator('[data-product-purchase] a') resolved to 2 elements:
+        1) <a data-astro-cid-5em2qhfi="" href="/affiliate-disclosure/">Full disclosure</a> aka getByRole('link', { name: 'Full disclosure' }).first()
+        2) <a target="_blank" data-marketplace="ca" data-affiliate-click="" class="btn btn--primary" data-merchant="amazon-ca" data-astro-cid-awtibqwi="" data-product="midland-er310" rel="sponsored nofollow noopener" data-cta-placement="profile-summary" data-product-name="Midland ER310 emergency radio" href="https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20">…</a> aka getByRole('link', { name: 'View on Amazon.ca (affiliate' }).first()
+
+    Call log:
+      - Expect "toHaveAttribute" locator('[data-product-purchase] a') with timeout 5000ms
+      - waiting for locator('[data-product-purchase] a')
+
+
+      76 |  await page.goto(baseURL+'/gear/midland-er310/');await expect(page.locator('script[src*="googletagmanager"]')).toHaveCount(0);
+      77 |  await expect(page.locator('footer a[href="/privacy/"]')).toHaveCount(2);
+    > 78 |  await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveAttribute('href','https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20');await context.close();
+         |                                                          ^
+      79 | });
+      80 |
+      81 | test('clearing storage in another tab also revokes an existing document grant',async({page,context})=>{
+        at C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\tests\browser\privacy-phase1.spec.ts:78:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-390\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: .tools\phase1\docs\phase1-hardening\evidence\browser-artifacts\browser-privacy-phase1-Jav-e6ee5-ivacy-retailer-links-native-webkit-390\error-context.md
+
+
+
+(node:17148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[160/181] [webkit-390] › tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[161/181] [webkit-390] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[162/181] [webkit-390] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[163/181] [webkit-390] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[164/181] [webkit-390] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[165/181] [webkit-390] › tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[166/181] [webkit-390] › tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[167/181] [webkit-390] › tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[168/181] [webkit-390] › tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[169/181] [webkit-390] › tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[170/181] [webkit-390] › tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[171/181] [webkit-390] › tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[172/181] [webkit-390] › tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[173/181] [webkit-390] › tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[174/181] [webkit-390] › tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[175/181] [webkit-390] › tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[176/181] [webkit-390] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[177/181] [webkit-390] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[178/181] [webkit-390] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[179/181] [webkit-390] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[180/181] [webkit-390] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[181/181] [webkit-390] › tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+  4 failed
+    [chromium-phase1] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+    [webkit-320] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+    [webkit-375] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+    [webkit-390] › tests\browser\privacy-phase1.spec.ts:74:1 › JavaScript disabled leaves Google off and privacy/retailer links native 
+  177 passed (6.8m)

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ecoflow-river-2-pro-power-station-blackout",
+    "psnrDb": 36.62645704281004,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "fenix-hm50r-v2-headlamp-blackout",
+    "psnrDb": 32.89794109117974,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "fenix-cl26r-pro-camping-lantern-blackout",
+    "psnrDb": 36.514257228614014,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "jackery-explorer-1000-v2-power-station-blackout",
+    "psnrDb": 35.11312622432045,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+    "psnrDb": 35.98618538177634,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "leatherman-wave-plus-multitool-fallout",
+    "psnrDb": 33.85447973748833,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "iniu-p62-20000mah-power-bank-blackout",
+    "psnrDb": 35.00355407376905,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+    "psnrDb": 36.41311005896907,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "midland-er310-emergency-radio-blackout",
+    "psnrDb": 33.46833290019874,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "nanuk-904-first-aid-kit-fallout",
+    "psnrDb": 30.99389688814382,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "sawyer-squeeze-sp129-water-filter-fallout",
+    "psnrDb": 31.82598441951447,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+    "psnrDb": 31.226855977917836,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  },
+  {
+    "id": "sol-emergency-bivvy-survival-shelter-fallout",
+    "psnrDb": 29.557068685201582,
+    "method": "Decoded 480 variant versus original resized to 480 with same Sharp resize; RGB pixel comparison, not a perceptual quality certification."
+  }
+]

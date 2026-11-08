@@ -1,0 +1,51 @@
+{
+  "recordedOn": "2026-11-08",
+  "source": "Owner statement reporting GA4 Administration screenshots; screenshots not supplied to or independently inspected by this agent",
+  "property": "ApocalypseGearLab",
+  "measurementId": "G-YFJJ5N9RBX",
+  "newOwnerVerifiedFacts": {
+    "dataProcessingTerms": {
+      "accepted": true,
+      "date": "2025-12-24"
+    },
+    "googleAdsAssociations": 0,
+    "bigQueryGA4IntegrationAssociations": 0,
+    "searchConsole": {
+      "linked": true,
+      "property": "https://apocalypsegearlab.github.io/",
+      "linkedOn": "2026-11-08"
+    },
+    "accountAccess": {
+      "administratorsListed": 1,
+      "additionalUsersListed": 0
+    },
+    "propertyAccess": {
+      "administratorsListed": 1,
+      "additionalUsersListed": 0
+    },
+    "optionalAccountDataSharingAllFourDisabled": true,
+    "userProvidedCollectionAndAutomaticDetectionDisabledAndSaved": true,
+    "enhancedMeasurementEnabled": true
+  },
+  "previousOwnerVerifiedFactsRetained": {
+    "eventRetentionMonths": 2,
+    "userRetentionMonths": 2,
+    "resetUserDataOnNewActivity": false,
+    "emailRedaction": true,
+    "universalAnalyticsEventCollection": false,
+    "operatingLocation": "Quebec, Canada",
+    "privacyOnlyEmail": "apocalypsegearlab@gmail.com",
+    "soleOperatorPrivacyRoleApproved": true
+  },
+  "notEstablished": [
+    "Every possible Google product integration or tag destination",
+    "Manual exports, independently configured exports or third-party access outside the inspected GA4 lists",
+    "Search Console users/owners or Google-account security settings",
+    "Gmail versus contracted Workspace and governing mailbox terms",
+    "Mailbox delegates, forwarding, connected apps and local copies",
+    "Adoption/implementation of proposed request/retention/deletion safeguards",
+    "Owner adequacy decision for covered provider/transfer arrangements",
+    "New publication authorization"
+  ],
+  "noPrivateAccountChangesByAgent": true
+}

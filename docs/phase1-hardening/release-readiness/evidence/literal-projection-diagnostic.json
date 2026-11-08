@@ -1,0 +1,193 @@
+{
+  "appliedToSource": false,
+  "note": "Review-only diagnostic substitutes a callback replacer so $ sequences in baseline text remain literal. Real helper was not modified.",
+  "all31Match": true,
+  "rows": [
+    {
+      "file": "package.json",
+      "literalCallbackSha256": "0dd6bc3ad7162654e7b2c681654ef29737a215f6897c40e269088aa5755bc542",
+      "expectedHEADSha256": "0dd6bc3ad7162654e7b2c681654ef29737a215f6897c40e269088aa5755bc542",
+      "matchesHEAD": true
+    },
+    {
+      "file": "scripts/audit-conversion.ts",
+      "literalCallbackSha256": "4c2c67128d363151936d3dd9612a089e3976e6c947affc32737fd4216489ed57",
+      "expectedHEADSha256": "4c2c67128d363151936d3dd9612a089e3976e6c947affc32737fd4216489ed57",
+      "matchesHEAD": true
+    },
+    {
+      "file": "scripts/audit-google.mjs",
+      "literalCallbackSha256": "505002323cd0fc58f4d7bcfb4845c8c49ba286657e94d2945cc147576b28205c",
+      "expectedHEADSha256": "505002323cd0fc58f4d7bcfb4845c8c49ba286657e94d2945cc147576b28205c",
+      "matchesHEAD": true
+    },
+    {
+      "file": "scripts/verify-bilingual.mjs",
+      "literalCallbackSha256": "b908b43d6f3b2fc46f9ab98212cb0e86de8b56799efc654b19050bac79a8c459",
+      "expectedHEADSha256": "b908b43d6f3b2fc46f9ab98212cb0e86de8b56799efc654b19050bac79a8c459",
+      "matchesHEAD": true
+    },
+    {
+      "file": "scripts/verify-images.mjs",
+      "literalCallbackSha256": "5b00c6ab5b6e4eab466efd897de9a81652e99855fe7b04baf405bcdb50fcbd7e",
+      "expectedHEADSha256": "5b00c6ab5b6e4eab466efd897de9a81652e99855fe7b04baf405bcdb50fcbd7e",
+      "matchesHEAD": true
+    },
+    {
+      "file": "scripts/verify-site.mjs",
+      "literalCallbackSha256": "1b5c1ec9e4e623e63c2e75ec63821789ca43593c21614117e56e45342b9b40d6",
+      "expectedHEADSha256": "1b5c1ec9e4e623e63c2e75ec63821789ca43593c21614117e56e45342b9b40d6",
+      "matchesHEAD": true
+    },
+    {
+      "file": "scripts/whiteout-phase2-preservation.mjs",
+      "literalCallbackSha256": "a308a8dcd1fbc70faf2ec6fb3a9e39a6602331b4319aaef70daf894bfec7914d",
+      "expectedHEADSha256": "a308a8dcd1fbc70faf2ec6fb3a9e39a6602331b4319aaef70daf894bfec7914d",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/components/Footer.astro",
+      "literalCallbackSha256": "ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7",
+      "expectedHEADSha256": "ea0c66fac7aeb3b302e66f3a25e5c7555c2f355349e551b0a54eab08417703b7",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/components/GoogleAnalytics.astro",
+      "literalCallbackSha256": "1e49d899533307289e53d51b8ad049bd9c8b530331fe240353e1cb2c5b5b7449",
+      "expectedHEADSha256": "1e49d899533307289e53d51b8ad049bd9c8b530331fe240353e1cb2c5b5b7449",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/i18n/translate.ts",
+      "literalCallbackSha256": "a5b8f4dc654342134df9bd9585e5d61385d2365f984d957c7a2b11f8846586d7",
+      "expectedHEADSha256": "a5b8f4dc654342134df9bd9585e5d61385d2365f984d957c7a2b11f8846586d7",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/lib/affiliate-analytics.ts",
+      "literalCallbackSha256": "b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571",
+      "expectedHEADSha256": "b8f8ab8def2f6dbd26b57311a098d39a0ee3a279e3824ad3a6858986dfa06571",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/lib/imported-media.ts",
+      "literalCallbackSha256": "a42d3230c4e38ed942cdf7caec8feefb7151e8a4f6e6f671cfdc1a0a8f0c24e0",
+      "expectedHEADSha256": "a42d3230c4e38ed942cdf7caec8feefb7151e8a4f6e6f671cfdc1a0a8f0c24e0",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/pages/fr/[...path].astro",
+      "literalCallbackSha256": "79f6f572e34c17cbcdde6b0c47d5a9057bd09b3ea57e732e5b4c7ebae0148659",
+      "expectedHEADSha256": "79f6f572e34c17cbcdde6b0c47d5a9057bd09b3ea57e732e5b4c7ebae0148659",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/pages/images/blackout/[file].webp.ts",
+      "literalCallbackSha256": "1262d693b53919d9801a678d37e6976234a18ecb50ca23532db3d294f16aa363",
+      "expectedHEADSha256": "1262d693b53919d9801a678d37e6976234a18ecb50ca23532db3d294f16aa363",
+      "matchesHEAD": true
+    },
+    {
+      "file": "src/pages/images/fallout/[file].webp.ts",
+      "literalCallbackSha256": "e44305ca39ced28f3c5e1b5ea29ae67dc21833c42de0edb8e24318f6c12dbfb4",
+      "expectedHEADSha256": "e44305ca39ced28f3c5e1b5ea29ae67dc21833c42de0edb8e24318f6c12dbfb4",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/analytics.spec.ts",
+      "literalCallbackSha256": "d51b05b23b8e10f033137af64bd9751926b8ab12fc4f7d2ac7e13f1e0541408b",
+      "expectedHEADSha256": "d51b05b23b8e10f033137af64bd9751926b8ab12fc4f7d2ac7e13f1e0541408b",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/bilingual.spec.ts",
+      "literalCallbackSha256": "1414b8fe01917290b09e994ae33bd7f6b20cd6672f63693ce272f861a6f3eb4e",
+      "expectedHEADSha256": "1414b8fe01917290b09e994ae33bd7f6b20cd6672f63693ce272f861a6f3eb4e",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/bougerv.spec.ts",
+      "literalCallbackSha256": "9aa72bbadc35b6237c94b879368a2405e85f491745d7b207634428cd0c99c782",
+      "expectedHEADSha256": "9aa72bbadc35b6237c94b879368a2405e85f491745d7b207634428cd0c99c782",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/conversion.spec.ts",
+      "literalCallbackSha256": "65da1e054902501e7f7d02d3bb93a1aa5467b58999e37af90404e05c0dd3f007",
+      "expectedHEADSha256": "65da1e054902501e7f7d02d3bb93a1aa5467b58999e37af90404e05c0dd3f007",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/fixtures.ts",
+      "literalCallbackSha256": "f0b38410546f8af8b6476ad345ccc71ea936cf611c958c1266ddd53994511cbf",
+      "expectedHEADSha256": "f0b38410546f8af8b6476ad345ccc71ea936cf611c958c1266ddd53994511cbf",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/media.spec.ts",
+      "literalCallbackSha256": "9f653b5a8ded201b7c4005ae325a81978ff2fc635046ae7e4635927134ce4ab5",
+      "expectedHEADSha256": "9f653b5a8ded201b7c4005ae325a81978ff2fc635046ae7e4635927134ce4ab5",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/morakniv.spec.ts",
+      "literalCallbackSha256": "c0beff94c9403708d6488432bf72fb7565c2a2d4ad3201bdf4883959526cd370",
+      "expectedHEADSha256": "c0beff94c9403708d6488432bf72fb7565c2a2d4ad3201bdf4883959526cd370",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/phase47.spec.ts",
+      "literalCallbackSha256": "c88ec932932e8629e53295aff913dc8051244cae3ac34f0246f90159fe17c00c",
+      "expectedHEADSha256": "c88ec932932e8629e53295aff913dc8051244cae3ac34f0246f90159fe17c00c",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/phase48.spec.ts",
+      "literalCallbackSha256": "fb99fb348ca6037f4e8f4c1366584c8cb456d0e28415522266fd84f305e23b1c",
+      "expectedHEADSha256": "fb99fb348ca6037f4e8f4c1366584c8cb456d0e28415522266fd84f305e23b1c",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/phase5.spec.ts",
+      "literalCallbackSha256": "2142f58c0d489c810fd48aaf2e57e0e265d00f9172b8f93c8a43b5bb6a13af9c",
+      "expectedHEADSha256": "2142f58c0d489c810fd48aaf2e57e0e265d00f9172b8f93c8a43b5bb6a13af9c",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/phase53.spec.ts",
+      "literalCallbackSha256": "b906f414a7a825a645aea07fc7d368e997cd87e35825f449aac29144244589c8",
+      "expectedHEADSha256": "b906f414a7a825a645aea07fc7d368e997cd87e35825f449aac29144244589c8",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/phase55.spec.ts",
+      "literalCallbackSha256": "bcba9bcd4c292970d7f0f5bd341ddf06e24ba3e3b614ff9544e78f95e0e594e6",
+      "expectedHEADSha256": "bcba9bcd4c292970d7f0f5bd341ddf06e24ba3e3b614ff9544e78f95e0e594e6",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/phase7.spec.ts",
+      "literalCallbackSha256": "3bc6e4cd37e2e4caf28def7ba79c42c5079d599c8f2ad1d5c549e483d8fde5e8",
+      "expectedHEADSha256": "3bc6e4cd37e2e4caf28def7ba79c42c5079d599c8f2ad1d5c549e483d8fde5e8",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/whiteout-card-cleanup.spec.ts",
+      "literalCallbackSha256": "22f42032ad4779530e48c5c672d4ce52d264149afc724f3d55247b6e624dba76",
+      "expectedHEADSha256": "22f42032ad4779530e48c5c672d4ce52d264149afc724f3d55247b6e624dba76",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/whiteout-phase2.spec.ts",
+      "literalCallbackSha256": "11d3e4ccb295c06d76a33e16599d229a0c77455d339221b6575b5232be999973",
+      "expectedHEADSha256": "11d3e4ccb295c06d76a33e16599d229a0c77455d339221b6575b5232be999973",
+      "matchesHEAD": true
+    },
+    {
+      "file": "tests/browser/xtherm-temperature-warning.spec.ts",
+      "literalCallbackSha256": "7e7b9543dff2f6ed109666fe5fb7c6625e1ae5716a3e15961d0afdfb64dae7fb",
+      "expectedHEADSha256": "7e7b9543dff2f6ed109666fe5fb7c6625e1ae5716a3e15961d0afdfb64dae7fb",
+      "matchesHEAD": true
+    }
+  ]
+}

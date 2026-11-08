@@ -1,0 +1,47 @@
+[
+  {
+    "path": "src/lib/analytics-consent.ts",
+    "bytes": 7481,
+    "sha256": "7b8929733a9cb2a0574317178bcfa89aa69bf429a9b00d9ada859a88cf89a0e0"
+  },
+  {
+    "path": "scripts/phase1-preservation.mjs",
+    "bytes": 1682,
+    "sha256": "a7d174254bf1e526573504bac344c5a7f4ee08b60b51aa58786f1f4a05ad9d76"
+  },
+  {
+    "path": "tests/browser/phase6.spec.ts",
+    "bytes": 7303,
+    "sha256": "2ba04a6587ef26efd412d3b64924770b3766a96c7ba876099b645d9b12a93618"
+  },
+  {
+    "path": "playwright.webkit.config.ts",
+    "bytes": 843,
+    "sha256": "4648bab22cfc4719e428fd0b31c70c530f7727eefeaff0ef1800a8264e352a93"
+  },
+  {
+    "path": "tests/privacy.test.ts",
+    "bytes": 1831,
+    "sha256": "65f080413ec6b5f44e61c834fa9538d6b0b3bee29778e8e9e4506bb3e66dae8a"
+  },
+  {
+    "path": "tests/browser/privacy-storage-phase1.spec.ts",
+    "bytes": 6117,
+    "sha256": "becaa475c18da910cf174008964baa9f03f6977bbeafe9f25512ba1499fe777d"
+  },
+  {
+    "path": "src/pages/privacy.astro",
+    "bytes": 6133,
+    "sha256": "d8e2b06d5da496ca552bdb1315f58905acd6d12c57bc4cdde40e0e80930ea26e"
+  },
+  {
+    "path": "src/i18n/fr-privacy.json",
+    "bytes": 12014,
+    "sha256": "c7f09664156e2077aa3fc16fd268040a38ee2a1a90dc4004665218d0b1c51819"
+  },
+  {
+    "path": "docs/phase1-hardening/evidence/source-changes.json",
+    "bytes": 63010,
+    "sha256": "f643264366ecae51a6973fa07fae63539014c4fd657597fc9ebe182acbf12a8d"
+  }
+]

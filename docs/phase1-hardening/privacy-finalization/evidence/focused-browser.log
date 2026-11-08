@@ -1,0 +1,130 @@
+
+[WebServer] (node:9088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:17396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+Running 43 tests using 2 workers
+
+(node:24596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:1784) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[2/43] [chromium] › .tools\privacy-finalization\tests\browser\bilingual.spec.ts:96:1 › blocked localStorage does not prevent explicit switching
+[3/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[4/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[5/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[6/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[7/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:91:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[8/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:98:1 › clearing storage in another tab also revokes an existing document grant
+[9/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:106:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[10/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[11/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[12/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[13/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[14/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[15/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+[16/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[17/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[18/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[19/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[20/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[21/43] [chromium] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+
+(node:35508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:35452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[22/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[23/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[24/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[25/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[26/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:64:1 › final privacy policies and keyboard-operable choices retain bilingual accessibility
+[27/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:91:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[28/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:98:1 › clearing storage in another tab also revokes an existing document grant
+[29/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-phase1.spec.ts:106:1 › EN/FR footer privacy links reach the final localized policy without enabling analytics
+[30/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[31/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[32/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[33/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  1) [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('[data-analytics-choice="denied"]')
+        - locator resolved to <button class="btn" type="button" aria-pressed="false" data-astro-cid-fg2vtww3="" data-analytics-choice="denied">Continue without analytics</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      19 | const choose=async(page:any,value:'granted'|'denied')=>{
+      20 |  await page.locator('[data-analytics-consent]').evaluate((panel:HTMLDetailsElement)=>panel.open=true);
+    > 21 |  await page.locator('[data-analytics-choice="'+value+'"]').click();
+         |                                                            ^
+      22 | };
+      23 | const commands=(page:any)=>page.evaluate(()=>((window as any).dataLayer??[]).map((row:any)=>Array.from(row)));
+      24 | const ready=async(page:any)=>expect(page.locator('[data-analytics-choice="granted"]')).toBeEnabled();
+        at choose (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\.tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:21:60)
+        at C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\.tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:46:5
+
+    Error Context: docs\phase1-hardening\privacy-finalization\evidence\focused-browser-artifacts\browser-privacy-storage-ph-8a695-rage-restricted-before-load-webkit-390\error-context.md
+
+
+
+(node:6760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[34/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[35/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+  2) [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('[data-analytics-choice="granted"]')
+        - locator resolved to <button class="btn" type="button" aria-pressed="false" data-astro-cid-fg2vtww3="" data-analytics-choice="granted">Allow analytics</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      19 | const choose=async(page:any,value:'granted'|'denied')=>{
+      20 |  await page.locator('[data-analytics-consent]').evaluate((panel:HTMLDetailsElement)=>panel.open=true);
+    > 21 |  await page.locator('[data-analytics-choice="'+value+'"]').click();
+         |                                                            ^
+      22 | };
+      23 | const commands=(page:any)=>page.evaluate(()=>((window as any).dataLayer??[]).map((row:any)=>Array.from(row)));
+      24 | const ready=async(page:any)=>expect(page.locator('[data-analytics-choice="granted"]')).toBeEnabled();
+        at choose (C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\.tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:21:60)
+        at C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\.tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:49:4
+
+    Error Context: docs\phase1-hardening\privacy-finalization\evidence\focused-browser-artifacts\browser-privacy-storage-ph-2253d-rage-restricted-after-grant-webkit-390\error-context.md
+
+
+
+(node:33960) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[36/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+[37/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+[38/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+[39/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+[40/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+[41/43] [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+[42/43] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[43/43] [webkit-390] › .tools\privacy-finalization\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+  2 failed
+    [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load 
+    [webkit-390] › .tools\privacy-finalization\tests\browser\privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant 
+  41 passed (2.0m)

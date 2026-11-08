@@ -1,0 +1,124 @@
+{
+  "runs": [
+    {
+      "runner": "chromium",
+      "stats": {
+        "startTime": "2026-11-08T06:43:28.764Z",
+        "duration": 12059.491,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "tests": [
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "chromium",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "chromium",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        }
+      ]
+    },
+    {
+      "runner": "webkit",
+      "stats": {
+        "startTime": "2026-11-08T06:43:43.264Z",
+        "duration": 46362.653999999995,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "tests": [
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "chromium",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "chromium",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "webkit-320",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "webkit-320",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "webkit-375",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "webkit-375",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "final privacy policies and keyboard-operable choices retain bilingual accessibility",
+          "project": "webkit-390",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        },
+        {
+          "file": "privacy-phase1.spec.ts",
+          "title": "EN/FR footer privacy links reach the final localized policy without enabling analytics",
+          "project": "webkit-390",
+          "status": "expected",
+          "results": [
+            "passed"
+          ]
+        }
+      ]
+    }
+  ],
+  "totalExecutions": 10,
+  "uniqueProjectCases": 8,
+  "note": "Primary Chromium selection ran two cases. The single-worker all-project invocation also ran those two Chromium cases plus six WebKit cases at 320/375/390px. Ten executions are eight unique project/case combinations, not ten distinct tests.",
+  "noNewFullSuiteClaim": true
+}

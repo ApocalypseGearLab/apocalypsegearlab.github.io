@@ -1,0 +1,7 @@
+{
+  "phase1OriginalInventoryEntries": 240,
+  "phase1ChecksumDrift": [],
+  "originalWorktreeCheckpointFiles": 2537,
+  "originalWorktreeChecksumDrift": [],
+  "note": "New release-review documentation/artifacts are additional files; no original Phase 1 source or report was rewritten. Historical docs/qa captures are preserved separately after the browser suite."
+}

@@ -1,0 +1,53 @@
+{
+  "checkedLocalDate": "2026-11-07",
+  "sources": [
+    {
+      "url": "https://developers.google.com/tag-platform/security/guides/privacy",
+      "purpose": "Disable flag, signal/ad controls"
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/11397207?hl=en-GB",
+      "purpose": "Cookies and code/interface precedence"
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/7667196?hl=en",
+      "purpose": "Retention/reset and aggregate-report distinction"
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/1011397?hl=en",
+      "purpose": "Four account sharing options"
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/6002761?hl=en",
+      "purpose": "Product links"
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/12131703",
+      "purpose": "Tag destinations and automatic event detection"
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/9216061?hl=en",
+      "purpose": "Enhanced measurement"
+    },
+    {
+      "url": "https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/collecte-renseignements-personnels_entreprises/",
+      "purpose": "Technology collection disclosures/activation"
+    },
+    {
+      "url": "https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/responsable-protection-renseignements-personnels-entreprise",
+      "purpose": "Responsible title/contact"
+    },
+    {
+      "url": "https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/conservation-destruction-renseignements-personnels",
+      "purpose": "Retention and secure destruction"
+    },
+    {
+      "url": "https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25",
+      "purpose": "Covered transfers and assessments"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/43818",
+      "purpose": "Matching Windows/WebKit rAF stall report; local cause not proven"
+    }
+  ]
+}

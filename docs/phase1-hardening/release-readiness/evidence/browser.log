@@ -1,0 +1,417 @@
+
+[WebServer] (node:9152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] (node:26412) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 338 tests using 2 workers
+
+(node:12800) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+
+(node:31824) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/338] [chromium] › .tools\release-review\tests\browser\affiliate-audit.spec.ts:40:1 › 6800 keeps four distinct compatible filters with documented links and working internal navigation
+[2/338] [chromium] › .tools\release-review\tests\browser\affiliate-audit.spec.ts:5:1 › 2091 has its own green illustration and documented Canadian pair without reusing the 2097 image
+[3/338] [chromium] › .tools\release-review\tests\browser\affiliate.spec.ts:4:1 › actual Astro affiliate markup supports active and pending states without sending Amazon traffic
+[4/338] [chromium] › .tools\release-review\tests\browser\analytics.spec.ts:7:1 › one Google loader, one config and preserved verification on document navigation
+[5/338] [chromium] › .tools\release-review\tests\browser\analytics.spec.ts:19:1 › active affiliate mouse and keyboard clicks each queue one event and keep native new tabs
+[6/338] [chromium] › .tools\release-review\tests\browser\analytics.spec.ts:42:1 › blocked and prevented clicks emit nothing; Analytics exceptions cannot break navigation
+[7/338] [chromium] › .tools\release-review\tests\browser\analytics.spec.ts:61:1 › XML parses strictly, has unique absolute locations and excludes noindex pages
+[8/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:7:34 › all bilingual routes render without overflow at 375px
+[9/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:7:34 › all bilingual routes render without overflow at 1440px
+[10/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:28:1 › language switch preserves page, fragment, filters, scroll and preference
+[11/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:55:1 › French filter zero state and reset stay French
+[12/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 320
+[13/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 768
+[14/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 1440
+[15/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:84:1 › static French pages and native selector work with JavaScript disabled
+[16/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:96:1 › blocked localStorage does not prevent explicit switching
+[17/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:108:34 › review screenshots at 375
+[18/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:108:34 › review screenshots at 1440
+[19/338] [chromium] › .tools\release-review\tests\browser\bilingual.spec.ts:123:1 › French affiliate clicks queue the existing event once with the original destination and identity
+[20/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 3m-2091-p100-particulate-filters draft evidence, mobile layout and safe informational publication
+[21/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 3m-2097-p100-particulate-filters draft evidence, mobile layout and safe informational publication
+[22/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 3m-60921-organic-vapor-p100-cartridges draft evidence, mobile layout and safe informational publication
+[23/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 3m-60926-multi-gas-vapor-p100-cartridges draft evidence, mobile layout and safe informational publication
+[24/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 3m-6800-full-facepiece-respirator draft evidence, mobile layout and safe informational publication
+[25/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 3m-aura-9205-n95-respirator draft evidence, mobile layout and safe informational publication
+[26/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 3m-gogglegear-500-safety-goggles draft evidence, mobile layout and safe informational publication
+[27/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › 511-tactical-rush72-2-backpack draft evidence, mobile layout and safe informational publication
+[28/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › bluetti-elite-100-v2-solar-generator-kit draft evidence, mobile layout and safe informational publication
+[29/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › bougerv-53-quart-portable-refrigerator-freezer draft evidence, mobile layout and safe informational publication
+[30/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler draft evidence, mobile layout and safe informational publication
+[31/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › datrex-dx2400f-emergency-food-ration draft evidence, mobile layout and safe informational publication
+[32/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › ecoflow-delta-2-portable-power-station draft evidence, mobile layout and safe informational publication
+[33/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › ecoflow-river-2-pro draft evidence, mobile layout and safe informational publication
+[34/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › esee-4-fixed-blade-knife draft evidence, mobile layout and safe informational publication
+[35/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › fenix-cl26r-pro draft evidence, mobile layout and safe informational publication
+[36/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › fenix-hm50r-v2-headlamp draft evidence, mobile layout and safe informational publication
+[37/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › fenix-pd36r-pro-review draft evidence, mobile layout and safe informational publication
+[38/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › fnirsi-gc-01-geiger-counter draft evidence, mobile layout and safe informational publication
+[39/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › garmin-gpsmap-67i-satellite-gps draft evidence, mobile layout and safe informational publication
+[40/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › garrett-pro-pointer-at-review draft evidence, mobile layout and safe informational publication
+[41/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › gerber-strongarm-fixed-blade-knife draft evidence, mobile layout and safe informational publication
+[42/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › gq-gmc-600-pro-review draft evidence, mobile layout and safe informational publication
+[43/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › hestra-army-leather-heli-ski-gloves draft evidence, mobile layout and safe informational publication
+[44/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › iniu-p62-20000mah-65w draft evidence, mobile layout and safe informational publication
+[45/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › jackery-explorer-1000-v2 draft evidence, mobile layout and safe informational publication
+[46/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › jackery-explorer-300 draft evidence, mobile layout and safe informational publication
+[47/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › jackery-solarsaga-100w-air draft evidence, mobile layout and safe informational publication
+[48/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › kidde-c3010-co-alarm draft evidence, mobile layout and safe informational publication
+[49/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › leatherman-wave-plus-multitool draft evidence, mobile layout and safe informational publication
+[50/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › marmot-precip-rain-jacket draft evidence, mobile layout and safe informational publication
+[51/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › mechanix-m-pact-work-gloves draft evidence, mobile layout and safe informational publication
+[52/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › merrell-moab-3-mid-waterproof-boots draft evidence, mobile layout and safe informational publication
+[53/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › midland-er310 draft evidence, mobile layout and safe informational publication
+[54/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › morakniv-garberg-blackblade-carbon-survival-kit draft evidence, mobile layout and safe informational publication
+[55/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › motorola-talkabout-t802-review draft evidence, mobile layout and safe informational publication
+[56/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › nanuk-904-first-aid-kit draft evidence, mobile layout and safe informational publication
+[57/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › oakley-flight-deck-m-goggles draft evidence, mobile layout and safe informational publication
+[58/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › oria-wireless-refrigerator-freezer-thermometer draft evidence, mobile layout and safe informational publication
+[59/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › outdoor-research-alti-ii-gore-tex-mitts draft evidence, mobile layout and safe informational publication
+[60/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › panasonic-eneloop-aa-rechargeable-battery-charger-kit draft evidence, mobile layout and safe informational publication
+[61/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › panasonic-eneloop-aaa-rechargeable-battery-charger-kit draft evidence, mobile layout and safe informational publication
+[62/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › readywise-84-servings-emergency-food-bucket draft evidence, mobile layout and safe informational publication
+[63/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › reliance-aqua-tainer-7-gallon draft evidence, mobile layout and safe informational publication
+[64/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › royale-velour-plush-thick-toilet-paper draft evidence, mobile layout and safe informational publication
+[65/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › sawyer-squeeze-sp129-water-filter draft evidence, mobile layout and safe informational publication
+[66/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › smartwool-nts-250-balaclava draft evidence, mobile layout and safe informational publication
+[67/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › smartwool-thermal-merino-reversible-cuffed-beanie draft evidence, mobile layout and safe informational publication
+[68/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › sol-emergency-bivvy draft evidence, mobile layout and safe informational publication
+[69/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › sos-3600-calorie-emergency-food-rations draft evidence, mobile layout and safe informational publication
+[70/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › therm-a-rest-neoair-xtherm-nxt-review draft evidence, mobile layout and safe informational publication
+[71/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:16:3 › vortex-diamondback-hd-10x42-review draft evidence, mobile layout and safe informational publication
+[72/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:75:3 › /blackout/ exposes the registered profiles in its correct sector
+[73/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:75:3 › /fallout/ exposes the registered profiles in its correct sector
+[74/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:75:3 › /outbreak/ exposes the registered profiles in its correct sector
+[75/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:75:3 › /whiteout/ exposes the registered profiles in its correct sector
+[76/338] [chromium] › .tools\release-review\tests\browser\blackout.spec.ts:75:3 › /gear/ exposes the registered profiles in its correct sector
+[77/338] [chromium] › .tools\release-review\tests\browser\bougerv.spec.ts:7:49 › bougerv-53-quart-portable-refrigerator-freezer is visible, Amazon-only, noindex and accessible at six widths with the correct artwork
+[78/338] [chromium] › .tools\release-review\tests\browser\bougerv.spec.ts:7:49 › bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler is visible, Amazon-only, noindex and accessible at six widths with the correct artwork
+[79/338] [chromium] › .tools\release-review\tests\browser\bougerv.spec.ts:43:1 › both BougeRV affiliate controls open safely with exactly one GA4 event per action in all four placements
+[80/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:10:50 › official header is crisp, stable and accessible at 320px
+[81/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:10:50 › official header is crisp, stable and accessible at 375px
+[82/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:10:50 › official header is crisp, stable and accessible at 768px
+[83/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:10:50 › official header is crisp, stable and accessible at 1024px
+[84/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:10:50 › official header is crisp, stable and accessible at 1440px
+[85/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:10:50 › official header is crisp, stable and accessible at 1920px
+[86/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:55:1 › official favicons, touch icon and Organization logo resolve with exact asset bytes and no schema duplicates
+[87/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:75:1 › brand link has one accessible name, visible keyboard focus and native no-JavaScript home navigation
+[88/338] [chromium] › .tools\release-review\tests\browser\branding.spec.ts:85:1 › responsive emblem selects sufficient pixels on 2x and 3x displays without downloading the master
+[89/338] [chromium] › .tools\release-review\tests\browser\category-seo.spec.ts:6:1 › all six core pages are indexable with self canonicals and sitemap entries while unapproved profiles remain restricted
+[90/338] [chromium] › .tools\release-review\tests\browser\category-seo.spec.ts:26:1 › catalogue guide, sector links and unchanged cards remain accessible from 320 to 1920px
+[91/338] [chromium] › .tools\release-review\tests\browser\conversion.spec.ts:11:1 › every current product keeps its decision, prominent canonical purchase control and accessible bottom references
+[92/338] [chromium] › .tools\release-review\tests\browser\conversion.spec.ts:44:1 › documentary mouse and keyboard navigation emits one source event and no affiliate conversion
+[93/338] [chromium] › .tools\release-review\tests\browser\conversion.spec.ts:68:1 › all three HUD identities keep readable CTAs, safety notices and bottom references at six viewport widths
+[94/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › blackout cinematic hero and collection at 375px
+[95/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › blackout cinematic hero and collection at 1440px
+[96/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › fallout cinematic hero and collection at 375px
+[97/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › fallout cinematic hero and collection at 1440px
+[98/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › outbreak cinematic hero and collection at 375px
+[99/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › outbreak cinematic hero and collection at 1440px
+[100/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › whiteout cinematic hero and collection at 375px
+[101/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:4:92 › whiteout cinematic hero and collection at 1440px
+[102/338] [chromium] › .tools\release-review\tests\browser\four-universes.spec.ts:17:1 › WHITEOUT category filters and documented product page retain the temperature restriction
+[103/338] [chromium] › .tools\release-review\tests\browser\media.spec.ts:9:1 › supplied SEO WebPs are delivered unchanged only for the twenty reviewed product mappings
+[104/338] [chromium] › .tools\release-review\tests\browser\media.spec.ts:27:1 › hero reserves space, selects responsive sources and supports reduced motion
+[105/338] [chromium] › .tools\release-review\tests\browser\media.spec.ts:89:1 › BLACKOUT artwork stays complete in cards and nested draft pages
+[106/338] [chromium] › .tools\release-review\tests\browser\media.spec.ts:137:1 › rejected artwork has no image URL, download or static production asset
+[107/338] [chromium] › .tools\release-review\tests\browser\media.spec.ts:152:1 › reviewed illustrations disclose their limits without displaying withdrawn objections
+[108/338] [chromium] › .tools\release-review\tests\browser\morakniv.spec.ts:9:1 › Morakniv recorded link works in all four placements with one GA4 event per action and unchanged noindex
+[109/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:13:1 › desktop hover bridge, outside click, keyboard disclosure, Escape and focus leave
+[110/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 320px
+[111/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 375px
+[112/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 768px
+[113/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 1024px
+[114/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 1440px
+[115/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 1920px
+[116/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:66:1 › mobile drawer manages focus, collapse, outside clicks, scroll restoration and breakpoint changes
+[117/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:98:1 › every category matches the source and resolves to a working initial and same-page filter
+[118/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:121:34 › all category destinations remain native and usable without JavaScript at 320px
+[119/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:121:34 › all category destinations remain native and usable without JavaScript at 1440px
+[120/338] [chromium] › .tools\release-review\tests\browser\navigation.spec.ts:135:1 › capture desktop discovery and mobile accordion states with reduced motion
+[121/338] [chromium] › .tools\release-review\tests\browser\phase42.spec.ts:4:1 › OUTBREAK has sixteen green inventory cards with sixteen recorded links, compact disclosures and readable concept captions
+[122/338] [chromium] › .tools\release-review\tests\browser\phase43.spec.ts:5:1 › Phase 4.3 supplied images have correct initial mobile/desktop sources and render in related cards
+[123/338] [chromium] › .tools\release-review\tests\browser\phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 320px
+[124/338] [chromium] › .tools\release-review\tests\browser\phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 375px
+[125/338] [chromium] › .tools\release-review\tests\browser\phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 768px
+[126/338] [chromium] › .tools\release-review\tests\browser\phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 1024px
+[127/338] [chromium] › .tools\release-review\tests\browser\phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 1440px
+[128/338] [chromium] › .tools\release-review\tests\browser\phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 1920px
+[129/338] [chromium] › .tools\release-review\tests\browser\phase44.spec.ts:48:1 › pending Details links work with the keyboard and keep complete hold explanations on the profiles
+[130/338] [chromium] › .tools\release-review\tests\browser\phase45.spec.ts:4:1 › ReadyWise yogurt-version profile states declared nutrition and keeps the exact Canadian CTA at mobile and desktop sizes
+[131/338] [chromium] › .tools\release-review\tests\browser\phase46.spec.ts:10:40 › 3M 60921 artwork and profile retain documented pair or pack permission and link back to 6800
+[132/338] [chromium] › .tools\release-review\tests\browser\phase46.spec.ts:10:40 › 3M 60926 artwork and profile retain documented pair or pack permission and link back to 6800
+[133/338] [chromium] › .tools\release-review\tests\browser\phase46.spec.ts:10:40 › 3M 2097 artwork and profile retain documented pair or pack permission and link back to 6800
+[134/338] [chromium] › .tools\release-review\tests\browser\phase46.spec.ts:40:1 › 6800 compares four compatible components with explicit hazard limits and reciprocal navigation
+[135/338] [chromium] › .tools\release-review\tests\browser\phase47.spec.ts:8:1 › the three documented 3M CTAs work in every placement and emit exactly one affiliate event per action
+[136/338] [chromium] › .tools\release-review\tests\browser\phase47.spec.ts:38:1 › 2091 preserves its full HUD, responsive sources, accessibility and documented pair at 320–1920px
+[137/338] [chromium] › .tools\release-review\tests\browser\phase48.spec.ts:8:1 › 2091 documented-pair link works in all four placements on phone and desktop without duplicate tracking
+[138/338] [chromium] › .tools\release-review\tests\browser\phase48.spec.ts:46:1 › 2091 retains informational SEO, product cautions and no permanent historical offer data
+[139/338] [chromium] › .tools\release-review\tests\browser\phase5.spec.ts:6:64 › gerber-strongarm-fixed-blade-knife renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[140/338] [chromium] › .tools\release-review\tests\browser\phase5.spec.ts:6:64 › esee-4-fixed-blade-knife renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[141/338] [chromium] › .tools\release-review\tests\browser\phase5.spec.ts:6:64 › morakniv-garberg-blackblade-carbon-survival-kit renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[142/338] [chromium] › .tools\release-review\tests\browser\phase5.spec.ts:6:64 › royale-velour-plush-thick-toilet-paper renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+[143/338] [chromium] › .tools\release-review\tests\browser\phase5.spec.ts:48:1 › four permitted Phase 5 links keep exact ASINs, new tabs and one affiliate event per mouse or keyboard action
+[144/338] [chromium] › .tools\release-review\tests\browser\phase53.spec.ts:7:49 › ecoflow-delta-2-portable-power-station complete BLACKOUT artwork, power checklist and profile at six viewport widths
+[145/338] [chromium] › .tools\release-review\tests\browser\phase53.spec.ts:7:49 › bluetti-elite-100-v2-solar-generator-kit complete BLACKOUT artwork, power checklist and profile at six viewport widths
+[146/338] [chromium] › .tools\release-review\tests\browser\phase53.spec.ts:42:1 › both power-station links fire exactly one affiliate event per mouse/keyboard action in all four placements
+[147/338] [chromium] › .tools\release-review\tests\browser\phase55.spec.ts:5:49 › oria-wireless-refrigerator-freezer-thermometer is visible, responsive, accessible and accurately captioned at six widths
+[148/338] [chromium] › .tools\release-review\tests\browser\phase55.spec.ts:5:49 › panasonic-eneloop-aa-rechargeable-battery-charger-kit is visible, responsive, accessible and accurately captioned at six widths
+[149/338] [chromium] › .tools\release-review\tests\browser\phase55.spec.ts:5:49 › panasonic-eneloop-aaa-rechargeable-battery-charger-kit is visible, responsive, accessible and accurately captioned at six widths
+[150/338] [chromium] › .tools\release-review\tests\browser\phase55.spec.ts:32:1 › Phase 5.5 Amazon CTAs open safely and emit exactly one affiliate_click per mouse or keyboard action in every applicable placement
+[151/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:6:1 › catalogue search, combined filters, empty state, reset and keyboard controls
+  1) [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:6:1 › catalogue search, combined filters, empty state, reset and keyboard controls 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "2 matching"
+    Error: strict mode violation: getByRole('status') resolved to 2 elements:
+        1) <p role="status" aria-live="polite" aria-atomic="true" class="filter-status" data-catalogue-count="" data-astro-cid-2csvkgym="">2 matching equipment profiles · All sectors · All…</p> aka getByText('2 matching equipment profiles')
+        2) <p role="status" aria-live="polite" data-analytics-status="" data-astro-cid-fg2vtww3="">Optional analytics is off until you allow it.</p> aka getByText('Optional analytics is off')
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+
+
+      18 |   await search.fill('ecoflow');
+      19 |   await expect(visible).toHaveCount(2);
+    > 20 |   await expect(page.getByRole('status')).toContainText('2 matching');
+         |                                          ^
+      21 |   await page.getByLabel('Sector', { exact: true }).selectOption('fallout');
+      22 |   await expect(visible).toHaveCount(0);
+      23 |   await expect(page.locator('[data-catalogue-empty]')).toBeVisible();
+        at C:\Users\1995\Downloads\apocalypsegearlab-phase1-revise\apocalypsegearlab\tmp\phase1-production-hardening\.tools\release-review\tests\browser\phase6.spec.ts:20:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    docs\phase1-hardening\release-readiness\evidence\browser-artifacts\browser-phase6-catalogue-s-b91e1-reset-and-keyboard-controls-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: docs\phase1-hardening\release-readiness\evidence\browser-artifacts\browser-phase6-catalogue-s-b91e1-reset-and-keyboard-controls-chromium\error-context.md
+
+
+
+(node:32784) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[152/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 home: accessibility, six widths and review screenshots
+[153/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:56:1 › catalogue and all hub guides keep working without JavaScript
+[154/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 catalogue: accessibility, six widths and review screenshots
+[155/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 blackout: accessibility, six widths and review screenshots
+[156/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 fallout: accessibility, six widths and review screenshots
+[157/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 outbreak: accessibility, six widths and review screenshots
+[158/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 methodology: accessibility, six widths and review screenshots
+[159/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 power-profile: accessibility, six widths and review screenshots
+[160/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 fridge-profile: accessibility, six widths and review screenshots
+[161/338] [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:83:38 › Phase 6 respirator-profile: accessibility, six widths and review screenshots
+[162/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 vortex-diamondback-hd-10x42-review has accessible content, intact illustration and recorded-link tracking at 375px
+[163/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 garrett-pro-pointer-at-review has accessible content, intact illustration and recorded-link tracking at 375px
+[164/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 gq-gmc-600-pro-review has accessible content, intact illustration and recorded-link tracking at 375px
+[165/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 fenix-pd36r-pro-review has accessible content, intact illustration and recorded-link tracking at 375px
+[166/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 motorola-talkabout-t802-review has accessible content, intact illustration and recorded-link tracking at 375px
+[167/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 vortex-diamondback-hd-10x42-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[168/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 garrett-pro-pointer-at-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[169/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 gq-gmc-600-pro-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[170/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 fenix-pd36r-pro-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[171/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:9:86 › Phase 7 motorola-talkabout-t802-review has accessible content, intact illustration and recorded-link tracking at 1440px
+[172/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 320px
+[173/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 375px
+[174/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 768px
+[175/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1024px
+[176/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1440px
+[177/338] [chromium] › .tools\release-review\tests\browser\phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1920px
+[178/338] [chromium] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[179/338] [chromium] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[180/338] [chromium] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[181/338] [chromium] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[182/338] [chromium] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[183/338] [chromium] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[184/338] [chromium] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+[185/338] [chromium] › .tools\release-review\tests\browser\product-specifications.spec.ts:13:3 › en product specifications remain readable at 320px
+[186/338] [chromium] › .tools\release-review\tests\browser\product-specifications.spec.ts:13:3 › en product specifications remain readable at 375px
+[187/338] [chromium] › .tools\release-review\tests\browser\product-specifications.spec.ts:13:3 › en product specifications remain readable at 768px
+[188/338] [chromium] › .tools\release-review\tests\browser\product-specifications.spec.ts:13:3 › fr product specifications remain readable at 320px
+[189/338] [chromium] › .tools\release-review\tests\browser\product-specifications.spec.ts:13:3 › fr product specifications remain readable at 375px
+[190/338] [chromium] › .tools\release-review\tests\browser\product-specifications.spec.ts:13:3 › fr product specifications remain readable at 768px
+[191/338] [chromium] › .tools\release-review\tests\browser\product-verification.spec.ts:11:1 › all cards and profiles distinguish documentation, listing evidence, editorial review and link availability
+[192/338] [chromium] › .tools\release-review\tests\browser\product-verification.spec.ts:44:1 › account disclosure and distinct product states remain readable, accessible and responsive
+[193/338] [chromium] › .tools\release-review\tests\browser\recorded-links.spec.ts:9:1 › recorded product buttons work on catalogues and profiles in isolated new tabs without Amazon traffic
+[194/338] [chromium] › .tools\release-review\tests\browser\release.spec.ts:12:1 › production restores the authorized bunker while enforcing artwork permissions, private previews and product-level affiliate decisions
+[195/338] [chromium] › .tools\release-review\tests\browser\release.spec.ts:50:1 › BLACKOUT candidate previews use reviewed illustrations and exclude commercial holds
+[196/338] [chromium] › .tools\release-review\tests\browser\release.spec.ts:73:32 › ecoflow-river-2-pro release presentation stays private with documented facts and product-level merchant states
+[197/338] [chromium] › .tools\release-review\tests\browser\release.spec.ts:73:32 › fenix-cl26r-pro release presentation stays private with documented facts and product-level merchant states
+[198/338] [chromium] › .tools\release-review\tests\browser\release.spec.ts:73:32 › jackery-explorer-1000-v2 release presentation stays private with documented facts and product-level merchant states
+[199/338] [chromium] › .tools\release-review\tests\browser\release.spec.ts:73:32 › jackery-solarsaga-100w-air release presentation stays private with documented facts and product-level merchant states
+[200/338] [chromium] › .tools\release-review\tests\browser\release.spec.ts:73:32 › midland-er310 release presentation stays private with documented facts and product-level merchant states
+[201/338] [chromium] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:5:1 › all 26 new derivatives deliver exact approved bytes and original images remain available
+[202/338] [chromium] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 1
+[203/338] [chromium] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 2
+[204/338] [chromium] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 1
+[205/338] [chromium] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 2
+[206/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:7:3 › homepage accessibility and responsive layout
+[207/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:7:3 › /blackout/ accessibility and responsive layout
+[208/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:7:3 › /fallout/ accessibility and responsive layout
+[209/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:7:3 › /outbreak/ accessibility and responsive layout
+[210/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:7:3 › /gear/ accessibility and responsive layout
+[211/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:7:3 › /affiliate-disclosure/ accessibility and responsive layout
+[212/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:7:3 › /404.html accessibility and responsive layout
+[213/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:31:1 › mobile menu supports keyboard, Escape and sector navigation
+[214/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:48:1 › navigation and skip link work without JavaScript
+[215/338] [chromium] › .tools\release-review\tests\browser\site.spec.ts:62:1 › product template is previewable only in development, with pending affiliate links
+[216/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 320px
+[217/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 320px
+[218/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 375px
+[219/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 375px
+[220/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 768px
+[221/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 768px
+[222/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 1440px
+[223/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 1440px
+[224/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:94:33 › WHITEOUT concise cards preserve native links and warning without JavaScript en
+[225/338] [chromium] › .tools\release-review\tests\browser\whiteout-card-cleanup.spec.ts:94:33 › WHITEOUT concise cards preserve native links and warning without JavaScript fr
+[226/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:6:47 › WHITEOUT documented destinations, exact URLs and retained safety restriction en
+[227/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:6:47 › WHITEOUT documented destinations, exact URLs and retained safety restriction fr
+[228/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 320px
+[229/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 320px
+[230/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 375px
+[231/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 375px
+[232/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 768px
+[233/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 768px
+[234/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 1440px
+[235/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 1440px
+[236/338] [chromium] › .tools\release-review\tests\browser\whiteout-phase2.spec.ts:82:1 › WHITEOUT new category filters retain state while switching languages
+[237/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 320px
+[238/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 320px
+[239/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 375px
+[240/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 375px
+[241/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 390px
+[242/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 390px
+[243/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 1440px
+[244/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 1440px
+[245/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:57:34 › XTherm warning and link work without JavaScript en
+[246/338] [chromium] › .tools\release-review\tests\browser\xtherm-temperature-warning.spec.ts:57:34 › XTherm warning and link work without JavaScript fr
+
+(node:14588) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:28036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[247/338] [webkit-320] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+[248/338] [webkit-320] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[249/338] [webkit-320] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[250/338] [webkit-320] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[251/338] [webkit-320] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[252/338] [webkit-320] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[253/338] [webkit-320] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+[254/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[255/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[256/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[257/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[258/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[259/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[260/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[261/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[262/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[263/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[264/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[265/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[266/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[267/338] [webkit-320] › .tools\release-review\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[268/338] [webkit-320] › .tools\release-review\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[269/338] [webkit-320] › .tools\release-review\tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[270/338] [webkit-320] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[271/338] [webkit-320] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[272/338] [webkit-320] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[273/338] [webkit-320] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[274/338] [webkit-320] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[275/338] [webkit-320] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+
+(node:20896) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[276/338] [webkit-375] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+
+(node:5096) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[277/338] [webkit-375] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[278/338] [webkit-375] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[279/338] [webkit-375] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[280/338] [webkit-375] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[281/338] [webkit-375] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[282/338] [webkit-375] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+[283/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[284/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[285/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[286/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[287/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[288/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[289/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[290/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[291/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[292/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[293/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[294/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[295/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[296/338] [webkit-375] › .tools\release-review\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[297/338] [webkit-375] › .tools\release-review\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[298/338] [webkit-375] › .tools\release-review\tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[299/338] [webkit-375] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[300/338] [webkit-375] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[301/338] [webkit-375] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[302/338] [webkit-375] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[303/338] [webkit-375] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[304/338] [webkit-375] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+(node:18188) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[305/338] [webkit-390] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+
+(node:33904) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[306/338] [webkit-390] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+[307/338] [webkit-390] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+[308/338] [webkit-390] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+[309/338] [webkit-390] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+[310/338] [webkit-390] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+[311/338] [webkit-390] › .tools\release-review\tests\browser\privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+[312/338] [webkit-390] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:5:1 › all 26 new derivatives deliver exact approved bytes and original images remain available
+[313/338] [webkit-390] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 1
+[314/338] [webkit-390] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 2
+[315/338] [webkit-390] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 1
+[316/338] [webkit-390] › .tools\release-review\tests\browser\responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 2
+[317/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches / in both directions without losing its location
+[318/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /blackout/ in both directions without losing its location
+[319/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /fallout/ in both directions without losing its location
+[320/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /outbreak/ in both directions without losing its location
+[321/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /whiteout/ in both directions without losing its location
+[322/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:14:40 › touch switches /gear/3m-2097-p100-particulate-filters/ in both directions without losing its location
+[323/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:50:1 › catalogue touch switching retains search, sector, category, query and anchor
+[324/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:69:1 › menu supports tap, outside tap, Escape, focus departure and keyboard activation
+[325/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:100:1 › tapping an option’s flag works while interacting with mobile navigation
+[326/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:111:1 › saved preferences follow entry links but never replace an explicit language choice
+[327/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:127:1 › unavailable browser storage leaves native touch navigation working
+[328/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:139:1 › a read-only saved French preference cannot override an explicit English selection
+[329/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /
+[330/338] [webkit-390] › .tools\release-review\tests\webkit\language-selector.spec.ts:162:72 › without JavaScript › native details and links round-trip /gear/3m-2097-p100-particulate-filters/
+[331/338] [webkit-390] › .tools\release-review\tests\webkit\language-storage.spec.ts:3:1 › persistent preference still works in a fresh session and when session storage is blocked
+[332/338] [webkit-390] › .tools\release-review\tests\webkit\language-tap-stability.spec.ts:3:1 › repeated single-tap language choices survive read-only preferences without a second tap
+[333/338] [webkit-390] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT outdoor-research-alti-ii-gore-tex-mitts: native touch round-trip, image and mobile specs
+[334/338] [webkit-390] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT hestra-army-leather-heli-ski-gloves: native touch round-trip, image and mobile specs
+[335/338] [webkit-390] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT oakley-flight-deck-m-goggles: native touch round-trip, image and mobile specs
+[336/338] [webkit-390] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-nts-250-balaclava: native touch round-trip, image and mobile specs
+[337/338] [webkit-390] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT smartwool-thermal-merino-reversible-cuffed-beanie: native touch round-trip, image and mobile specs
+[338/338] [webkit-390] › .tools\release-review\tests\webkit\whiteout-phase2.spec.ts:4:85 › WHITEOUT therm-a-rest-neoair-xtherm-nxt-review: native touch round-trip, image and mobile specs
+  1 failed
+    [chromium] › .tools\release-review\tests\browser\phase6.spec.ts:6:1 › catalogue search, combined filters, empty state, reset and keyboard controls 
+  337 passed (16.3m)

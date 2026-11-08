@@ -1,0 +1,20 @@
+[
+  {
+    "name": "check",
+    "code": 0,
+    "ms": 22072,
+    "log": "docs/phase1-hardening/evidence/release-check.log"
+  },
+  {
+    "name": "test",
+    "code": 0,
+    "ms": 7087,
+    "log": "docs/phase1-hardening/evidence/release-test.log"
+  },
+  {
+    "name": "test:site",
+    "code": 0,
+    "ms": 18365,
+    "log": "docs/phase1-hardening/evidence/release-test-site.log"
+  }
+]

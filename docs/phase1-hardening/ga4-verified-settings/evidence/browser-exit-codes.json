@@ -1,0 +1,12 @@
+[
+  {
+    "engine": "chromium",
+    "exitCode": 0,
+    "workers": 2
+  },
+  {
+    "engine": "webkit",
+    "exitCode": 0,
+    "workers": 1
+  }
+]

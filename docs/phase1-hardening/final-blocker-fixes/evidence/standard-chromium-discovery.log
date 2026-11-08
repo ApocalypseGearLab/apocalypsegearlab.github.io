@@ -1,0 +1,260 @@
+Listing tests:
+  affiliate-audit.spec.ts:5:1 › 2091 has its own green illustration and documented Canadian pair without reusing the 2097 image
+  affiliate-audit.spec.ts:40:1 › 6800 keeps four distinct compatible filters with documented links and working internal navigation
+  affiliate.spec.ts:4:1 › actual Astro affiliate markup supports active and pending states without sending Amazon traffic
+  analytics.spec.ts:7:1 › one Google loader, one config and preserved verification on document navigation
+  analytics.spec.ts:19:1 › active affiliate mouse and keyboard clicks each queue one event and keep native new tabs
+  analytics.spec.ts:42:1 › blocked and prevented clicks emit nothing; Analytics exceptions cannot break navigation
+  analytics.spec.ts:61:1 › XML parses strictly, has unique absolute locations and excludes noindex pages
+  bilingual.spec.ts:7:34 › all bilingual routes render without overflow at 375px
+  bilingual.spec.ts:7:34 › all bilingual routes render without overflow at 1440px
+  bilingual.spec.ts:28:1 › language switch preserves page, fragment, filters, scroll and preference
+  bilingual.spec.ts:55:1 › French filter zero state and reset stay French
+  bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 320
+  bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 768
+  bilingual.spec.ts:66:39 › French selector and navigation are keyboard accessible at 1440
+  bilingual.spec.ts:84:1 › static French pages and native selector work with JavaScript disabled
+  bilingual.spec.ts:96:1 › blocked localStorage does not prevent explicit switching
+  bilingual.spec.ts:108:34 › review screenshots at 375
+  bilingual.spec.ts:108:34 › review screenshots at 1440
+  bilingual.spec.ts:123:1 › French affiliate clicks queue the existing event once with the original destination and identity
+  blackout.spec.ts:16:3 › 3m-2091-p100-particulate-filters draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › 3m-2097-p100-particulate-filters draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › 3m-60921-organic-vapor-p100-cartridges draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › 3m-60926-multi-gas-vapor-p100-cartridges draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › 3m-6800-full-facepiece-respirator draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › 3m-aura-9205-n95-respirator draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › 3m-gogglegear-500-safety-goggles draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › 511-tactical-rush72-2-backpack draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › bluetti-elite-100-v2-solar-generator-kit draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › bougerv-53-quart-portable-refrigerator-freezer draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › datrex-dx2400f-emergency-food-ration draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › ecoflow-delta-2-portable-power-station draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › ecoflow-river-2-pro draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › esee-4-fixed-blade-knife draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › fenix-cl26r-pro draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › fenix-hm50r-v2-headlamp draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › fenix-pd36r-pro-review draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › fnirsi-gc-01-geiger-counter draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › garmin-gpsmap-67i-satellite-gps draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › garrett-pro-pointer-at-review draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › gerber-strongarm-fixed-blade-knife draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › gq-gmc-600-pro-review draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › hestra-army-leather-heli-ski-gloves draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › iniu-p62-20000mah-65w draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › jackery-explorer-1000-v2 draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › jackery-explorer-300 draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › jackery-solarsaga-100w-air draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › kidde-c3010-co-alarm draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › leatherman-wave-plus-multitool draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › marmot-precip-rain-jacket draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › mechanix-m-pact-work-gloves draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › merrell-moab-3-mid-waterproof-boots draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › midland-er310 draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › morakniv-garberg-blackblade-carbon-survival-kit draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › motorola-talkabout-t802-review draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › nanuk-904-first-aid-kit draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › oakley-flight-deck-m-goggles draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › oria-wireless-refrigerator-freezer-thermometer draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › outdoor-research-alti-ii-gore-tex-mitts draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › panasonic-eneloop-aa-rechargeable-battery-charger-kit draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › panasonic-eneloop-aaa-rechargeable-battery-charger-kit draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › readywise-84-servings-emergency-food-bucket draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › reliance-aqua-tainer-7-gallon draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › royale-velour-plush-thick-toilet-paper draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › sawyer-squeeze-sp129-water-filter draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › smartwool-nts-250-balaclava draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › smartwool-thermal-merino-reversible-cuffed-beanie draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › sol-emergency-bivvy draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › sos-3600-calorie-emergency-food-rations draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › therm-a-rest-neoair-xtherm-nxt-review draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:16:3 › vortex-diamondback-hd-10x42-review draft evidence, mobile layout and safe informational publication
+  blackout.spec.ts:75:3 › /blackout/ exposes the registered profiles in its correct sector
+  blackout.spec.ts:75:3 › /fallout/ exposes the registered profiles in its correct sector
+  blackout.spec.ts:75:3 › /outbreak/ exposes the registered profiles in its correct sector
+  blackout.spec.ts:75:3 › /whiteout/ exposes the registered profiles in its correct sector
+  blackout.spec.ts:75:3 › /gear/ exposes the registered profiles in its correct sector
+  bougerv.spec.ts:7:49 › bougerv-53-quart-portable-refrigerator-freezer is visible, Amazon-only, noindex and accessible at six widths with the correct artwork
+  bougerv.spec.ts:7:49 › bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler is visible, Amazon-only, noindex and accessible at six widths with the correct artwork
+  bougerv.spec.ts:43:1 › both BougeRV affiliate controls open safely with exactly one GA4 event per action in all four placements
+  branding.spec.ts:10:50 › official header is crisp, stable and accessible at 320px
+  branding.spec.ts:10:50 › official header is crisp, stable and accessible at 375px
+  branding.spec.ts:10:50 › official header is crisp, stable and accessible at 768px
+  branding.spec.ts:10:50 › official header is crisp, stable and accessible at 1024px
+  branding.spec.ts:10:50 › official header is crisp, stable and accessible at 1440px
+  branding.spec.ts:10:50 › official header is crisp, stable and accessible at 1920px
+  branding.spec.ts:55:1 › official favicons, touch icon and Organization logo resolve with exact asset bytes and no schema duplicates
+  branding.spec.ts:75:1 › brand link has one accessible name, visible keyboard focus and native no-JavaScript home navigation
+  branding.spec.ts:85:1 › responsive emblem selects sufficient pixels on 2x and 3x displays without downloading the master
+  category-seo.spec.ts:6:1 › all six core pages are indexable with self canonicals and sitemap entries while unapproved profiles remain restricted
+  category-seo.spec.ts:26:1 › catalogue guide, sector links and unchanged cards remain accessible from 320 to 1920px
+  conversion.spec.ts:11:1 › every current product keeps its decision, prominent canonical purchase control and accessible bottom references
+  conversion.spec.ts:44:1 › documentary mouse and keyboard navigation emits one source event and no affiliate conversion
+  conversion.spec.ts:68:1 › all three HUD identities keep readable CTAs, safety notices and bottom references at six viewport widths
+  four-universes.spec.ts:4:92 › blackout cinematic hero and collection at 375px
+  four-universes.spec.ts:4:92 › blackout cinematic hero and collection at 1440px
+  four-universes.spec.ts:4:92 › fallout cinematic hero and collection at 375px
+  four-universes.spec.ts:4:92 › fallout cinematic hero and collection at 1440px
+  four-universes.spec.ts:4:92 › outbreak cinematic hero and collection at 375px
+  four-universes.spec.ts:4:92 › outbreak cinematic hero and collection at 1440px
+  four-universes.spec.ts:4:92 › whiteout cinematic hero and collection at 375px
+  four-universes.spec.ts:4:92 › whiteout cinematic hero and collection at 1440px
+  four-universes.spec.ts:17:1 › WHITEOUT category filters and documented product page retain the temperature restriction
+  media.spec.ts:9:1 › supplied SEO WebPs are delivered unchanged only for the twenty reviewed product mappings
+  media.spec.ts:27:1 › hero reserves space, selects responsive sources and supports reduced motion
+  media.spec.ts:89:1 › BLACKOUT artwork stays complete in cards and nested draft pages
+  media.spec.ts:137:1 › rejected artwork has no image URL, download or static production asset
+  media.spec.ts:152:1 › reviewed illustrations disclose their limits without displaying withdrawn objections
+  morakniv.spec.ts:9:1 › Morakniv recorded link works in all four placements with one GA4 event per action and unchanged noindex
+  navigation.spec.ts:13:1 › desktop hover bridge, outside click, keyboard disclosure, Escape and focus leave
+  navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 320px
+  navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 375px
+  navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 768px
+  navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 1024px
+  navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 1440px
+  navigation.spec.ts:42:3 › open navigation has no overflow or axe violations at 1920px
+  navigation.spec.ts:66:1 › mobile drawer manages focus, collapse, outside clicks, scroll restoration and breakpoint changes
+  navigation.spec.ts:98:1 › every category matches the source and resolves to a working initial and same-page filter
+  navigation.spec.ts:121:34 › all category destinations remain native and usable without JavaScript at 320px
+  navigation.spec.ts:121:34 › all category destinations remain native and usable without JavaScript at 1440px
+  navigation.spec.ts:135:1 › capture desktop discovery and mobile accordion states with reduced motion
+  phase42.spec.ts:4:1 › OUTBREAK has sixteen green inventory cards with sixteen recorded links, compact disclosures and readable concept captions
+  phase43.spec.ts:5:1 › Phase 4.3 supplied images have correct initial mobile/desktop sources and render in related cards
+  phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 320px
+  phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 375px
+  phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 768px
+  phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 1024px
+  phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 1440px
+  phase44.spec.ts:16:49 › Phase 4.4 compact pending cards, exact decisions and readable controls at 1920px
+  phase44.spec.ts:48:1 › pending Details links work with the keyboard and keep complete hold explanations on the profiles
+  phase45.spec.ts:4:1 › ReadyWise yogurt-version profile states declared nutrition and keeps the exact Canadian CTA at mobile and desktop sizes
+  phase46.spec.ts:10:40 › 3M 60921 artwork and profile retain documented pair or pack permission and link back to 6800
+  phase46.spec.ts:10:40 › 3M 60926 artwork and profile retain documented pair or pack permission and link back to 6800
+  phase46.spec.ts:10:40 › 3M 2097 artwork and profile retain documented pair or pack permission and link back to 6800
+  phase46.spec.ts:40:1 › 6800 compares four compatible components with explicit hazard limits and reciprocal navigation
+  phase47.spec.ts:8:1 › the three documented 3M CTAs work in every placement and emit exactly one affiliate event per action
+  phase47.spec.ts:38:1 › 2091 preserves its full HUD, responsive sources, accessibility and documented pair at 320–1920px
+  phase48.spec.ts:8:1 › 2091 documented-pair link works in all four placements on phone and desktop without duplicate tracking
+  phase48.spec.ts:46:1 › 2091 retains informational SEO, product cautions and no permanent historical offer data
+  phase5.spec.ts:6:64 › gerber-strongarm-fixed-blade-knife renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+  phase5.spec.ts:6:64 › esee-4-fixed-blade-knife renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+  phase5.spec.ts:6:64 › morakniv-garberg-blackblade-carbon-survival-kit renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+  phase5.spec.ts:6:64 › royale-velour-plush-thick-toilet-paper renders its own finished artwork, substantive profile and correct sector from 320 to 1920px
+  phase5.spec.ts:48:1 › four permitted Phase 5 links keep exact ASINs, new tabs and one affiliate event per mouse or keyboard action
+  phase53.spec.ts:7:49 › ecoflow-delta-2-portable-power-station complete BLACKOUT artwork, power checklist and profile at six viewport widths
+  phase53.spec.ts:7:49 › bluetti-elite-100-v2-solar-generator-kit complete BLACKOUT artwork, power checklist and profile at six viewport widths
+  phase53.spec.ts:42:1 › both power-station links fire exactly one affiliate event per mouse/keyboard action in all four placements
+  phase55.spec.ts:5:49 › oria-wireless-refrigerator-freezer-thermometer is visible, responsive, accessible and accurately captioned at six widths
+  phase55.spec.ts:5:49 › panasonic-eneloop-aa-rechargeable-battery-charger-kit is visible, responsive, accessible and accurately captioned at six widths
+  phase55.spec.ts:5:49 › panasonic-eneloop-aaa-rechargeable-battery-charger-kit is visible, responsive, accessible and accurately captioned at six widths
+  phase55.spec.ts:32:1 › Phase 5.5 Amazon CTAs open safely and emit exactly one affiliate_click per mouse or keyboard action in every applicable placement
+  phase6.spec.ts:6:1 › catalogue search, combined filters, empty state, reset and keyboard controls
+  phase6.spec.ts:56:1 › catalogue and all hub guides keep working without JavaScript
+  phase6.spec.ts:83:38 › Phase 6 home: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 catalogue: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 blackout: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 fallout: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 outbreak: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 methodology: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 power-profile: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 fridge-profile: accessibility, six widths and review screenshots
+  phase6.spec.ts:83:38 › Phase 6 respirator-profile: accessibility, six widths and review screenshots
+  phase7.spec.ts:9:86 › Phase 7 vortex-diamondback-hd-10x42-review has accessible content, intact illustration and recorded-link tracking at 375px
+  phase7.spec.ts:9:86 › Phase 7 garrett-pro-pointer-at-review has accessible content, intact illustration and recorded-link tracking at 375px
+  phase7.spec.ts:9:86 › Phase 7 gq-gmc-600-pro-review has accessible content, intact illustration and recorded-link tracking at 375px
+  phase7.spec.ts:9:86 › Phase 7 fenix-pd36r-pro-review has accessible content, intact illustration and recorded-link tracking at 375px
+  phase7.spec.ts:9:86 › Phase 7 motorola-talkabout-t802-review has accessible content, intact illustration and recorded-link tracking at 375px
+  phase7.spec.ts:9:86 › Phase 7 vortex-diamondback-hd-10x42-review has accessible content, intact illustration and recorded-link tracking at 1440px
+  phase7.spec.ts:9:86 › Phase 7 garrett-pro-pointer-at-review has accessible content, intact illustration and recorded-link tracking at 1440px
+  phase7.spec.ts:9:86 › Phase 7 gq-gmc-600-pro-review has accessible content, intact illustration and recorded-link tracking at 1440px
+  phase7.spec.ts:9:86 › Phase 7 fenix-pd36r-pro-review has accessible content, intact illustration and recorded-link tracking at 1440px
+  phase7.spec.ts:9:86 › Phase 7 motorola-talkabout-t802-review has accessible content, intact illustration and recorded-link tracking at 1440px
+  phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 320px
+  phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 375px
+  phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 768px
+  phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1024px
+  phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1440px
+  phase7.spec.ts:57:49 › Phase 7 cards and category navigation remain discoverable at 1920px
+  privacy-phase1.spec.ts:8:1 › default and rejection send no Google requests; native affiliate navigation works independently
+  privacy-phase1.spec.ts:28:1 › explicit grant queues one config, persists across EN/FR, and withdrawal removes cookies and unloads analytics
+  privacy-phase1.spec.ts:45:1 › expired or malformed choices fail closed; storage failure cannot enable analytics
+  privacy-phase1.spec.ts:57:1 › cross-tab withdrawal overrides a session grant
+  privacy-phase1.spec.ts:64:1 › privacy drafts and keyboard-operable choices retain bilingual accessibility
+  privacy-phase1.spec.ts:78:1 › JavaScript disabled leaves Google off and privacy/retailer links native
+  privacy-phase1.spec.ts:85:1 › clearing storage in another tab also revokes an existing document grant
+  privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  privacy-storage-phase1.spec.ts:35:3 › en: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  privacy-storage-phase1.spec.ts:74:2 › en: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  privacy-storage-phase1.spec.ts:81:2 › en: session denial overrides an older read-only persistent grant
+  privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted before-load
+  privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with throw read-only local storage, no session storage, restricted after-grant
+  privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted before-load
+  privacy-storage-phase1.spec.ts:35:3 › fr: withdrawal stays off with silent read-only local storage, no session storage, restricted after-grant
+  privacy-storage-phase1.spec.ts:74:2 › fr: wholly unavailable storage permits only a current explicit grant and survives withdrawal/reload
+  privacy-storage-phase1.spec.ts:81:2 › fr: session denial overrides an older read-only persistent grant
+  product-specifications.spec.ts:13:3 › en product specifications remain readable at 320px
+  product-specifications.spec.ts:13:3 › en product specifications remain readable at 375px
+  product-specifications.spec.ts:13:3 › en product specifications remain readable at 768px
+  product-specifications.spec.ts:13:3 › fr product specifications remain readable at 320px
+  product-specifications.spec.ts:13:3 › fr product specifications remain readable at 375px
+  product-specifications.spec.ts:13:3 › fr product specifications remain readable at 768px
+  product-verification.spec.ts:11:1 › all cards and profiles distinguish documentation, listing evidence, editorial review and link availability
+  product-verification.spec.ts:44:1 › account disclosure and distinct product states remain readable, accessible and responsive
+  recorded-links.spec.ts:9:1 › recorded product buttons work on catalogues and profiles in isolated new tabs without Amazon traffic
+  release.spec.ts:12:1 › production restores the authorized bunker while enforcing artwork permissions, private previews and product-level affiliate decisions
+  release.spec.ts:50:1 › BLACKOUT candidate previews use reviewed illustrations and exclude commercial holds
+  release.spec.ts:73:32 › ecoflow-river-2-pro release presentation stays private with documented facts and product-level merchant states
+  release.spec.ts:73:32 › fenix-cl26r-pro release presentation stays private with documented facts and product-level merchant states
+  release.spec.ts:73:32 › jackery-explorer-1000-v2 release presentation stays private with documented facts and product-level merchant states
+  release.spec.ts:73:32 › jackery-solarsaga-100w-air release presentation stays private with documented facts and product-level merchant states
+  release.spec.ts:73:32 › midland-er310 release presentation stays private with documented facts and product-level merchant states
+  responsive-phase1.spec.ts:5:1 › all 26 new derivatives deliver exact approved bytes and original images remain available
+  responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 1
+  responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 390 DPR 2
+  responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 1
+  responsive-phase1.spec.ts:8:71 › all 13 responsive cards select candidates at 1440 DPR 2
+  site.spec.ts:7:3 › homepage accessibility and responsive layout
+  site.spec.ts:7:3 › /blackout/ accessibility and responsive layout
+  site.spec.ts:7:3 › /fallout/ accessibility and responsive layout
+  site.spec.ts:7:3 › /outbreak/ accessibility and responsive layout
+  site.spec.ts:7:3 › /gear/ accessibility and responsive layout
+  site.spec.ts:7:3 › /affiliate-disclosure/ accessibility and responsive layout
+  site.spec.ts:7:3 › /404.html accessibility and responsive layout
+  site.spec.ts:31:1 › mobile menu supports keyboard, Escape and sector navigation
+  site.spec.ts:48:1 › navigation and skip link work without JavaScript
+  site.spec.ts:62:1 › product template is previewable only in development, with pending affiliate links
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 320px
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 320px
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 375px
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 375px
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 768px
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 768px
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases en 1440px
+  whiteout-card-cleanup.spec.ts:10:3 › WHITEOUT compact cards retain disclosures, variants, safety and tracked purchases fr 1440px
+  whiteout-card-cleanup.spec.ts:94:33 › WHITEOUT concise cards preserve native links and warning without JavaScript en
+  whiteout-card-cleanup.spec.ts:94:33 › WHITEOUT concise cards preserve native links and warning without JavaScript fr
+  whiteout-phase2.spec.ts:6:47 › WHITEOUT documented destinations, exact URLs and retained safety restriction en
+  whiteout-phase2.spec.ts:6:47 › WHITEOUT documented destinations, exact URLs and retained safety restriction fr
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 320px
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 320px
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 375px
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 375px
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 768px
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 768px
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications en 1440px
+  whiteout-phase2.spec.ts:45:81 › WHITEOUT Phase 2 profiles, imagery and specifications fr 1440px
+  whiteout-phase2.spec.ts:82:1 › WHITEOUT new category filters retain state while switching languages
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 320px
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 320px
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 375px
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 375px
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 390px
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 390px
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link en 1440px
+  xtherm-temperature-warning.spec.ts:10:3 › XTherm retained temperature warning before the native purchase link fr 1440px
+  xtherm-temperature-warning.spec.ts:57:34 › XTherm warning and link work without JavaScript en
+  xtherm-temperature-warning.spec.ts:57:34 › XTherm warning and link work without JavaScript fr
+Total: 258 tests in 36 files

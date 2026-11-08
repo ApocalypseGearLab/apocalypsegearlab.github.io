@@ -1,0 +1,126 @@
+{
+  "validatedLocalDate": "2026-11-08",
+  "scope": "Remaining file-preservation and release-readiness validation only; no application or test edit, no WHITEOUT integration.",
+  "freshChecks": {
+    "independentIntegrityExitCode": 0,
+    "protectedOriginalFiles": 234,
+    "sourceProjections": 33,
+    "sourceProjectionsMatchHEAD": true,
+    "preservedBaselineHtmlPages": 122,
+    "affiliateControls": 554,
+    "productLanguageNoindexPages": 104,
+    "holds": [
+      "ecoflow-river-2-pro",
+      "iniu-p62-20000mah-65w",
+      "jackery-explorer-300",
+      "kidde-c3010-co-alarm",
+      "nanuk-904-first-aid-kit"
+    ],
+    "responsiveOriginals": 13,
+    "responsiveVariants": 26,
+    "unchangedSeoFiles": [
+      "robots.txt",
+      "sitemap-0.xml",
+      "sitemap-en-0.xml",
+      "sitemap-fr-0.xml",
+      "sitemap-index.xml",
+      "sitemap.xml"
+    ],
+    "syntheticProducts": [],
+    "previousCandidateFiles": 653,
+    "unchangedPreviousCandidateFiles": 649,
+    "expectedPriorChanges": 4,
+    "frozenSourceHashesMatch": 9,
+    "unrelatedFilesCompared": 2537,
+    "unrelatedDifferences": [],
+    "whitespaceExitCode": 0,
+    "indexEmpty": true,
+    "head": "2cc35df11968242c00fcc08060c18e5182dcabe0",
+    "branch": "feat/phase1-production-hardening",
+    "worktreeHeadsAndBranchesUnchanged": true,
+    "testPortsStopped": true
+  },
+  "reusedResults": {
+    "localTestDate": "2026-11-07",
+    "unitTests": 134,
+    "chromium": 24,
+    "webkit": 60,
+    "webkitWorkers": 1,
+    "skipped": 0,
+    "flaky": 0,
+    "retries": 0,
+    "commands": [
+      {
+        "command": "npm run build",
+        "exitCode": 0,
+        "log": "build.log"
+      },
+      {
+        "command": "npm run check",
+        "exitCode": 0,
+        "log": "check.log"
+      },
+      {
+        "command": "npm run test",
+        "exitCode": 0,
+        "log": "test.log"
+      },
+      {
+        "command": "npm run test:site",
+        "exitCode": 0,
+        "log": "test-site.log"
+      },
+      {
+        "command": "npm run test:images",
+        "exitCode": 0,
+        "log": "test-images.log"
+      },
+      {
+        "command": "npm run release:check",
+        "exitCode": 0,
+        "log": "release-check.log"
+      },
+      {
+        "command": "npm run audit:affiliate",
+        "exitCode": 0,
+        "log": "audit-affiliate.log"
+      },
+      {
+        "command": "npm run audit:verification",
+        "exitCode": 0,
+        "log": "audit-verification.log"
+      }
+    ],
+    "basis": "Frozen source/test hashes and built privacy HTML match saved successful evidence; supporting prior candidate and source-projection checks pass."
+  },
+  "diagnosticHarness": {
+    "initialError": "Relocated helper retained an old relative import path; no application test ran or failed in that attempt.",
+    "initialLog": "independent-integrity-initial-path-error.log",
+    "correction": "Corrected only the ignored diagnostic helper import; full integrity rerun then passed."
+  },
+  "disposition": {
+    "technical": "GO for local code review with disclosed Windows single-worker WebKit qualification",
+    "publicationAndMerge": "NO-GO pending the remaining documented account/privacy operating requirements",
+    "noGitOrDeploymentActions": true
+  },
+  "finalInventory": {
+    "generated": true,
+    "totalPaths": 706,
+    "implementationPaths": 71,
+    "documentationPaths": 635,
+    "previousPathsUnchanged": 649,
+    "previousPathsUpdated": 4,
+    "newPaths": 53,
+    "indexActionsAuthorized": false
+  },
+  "policyExportsMatchBuiltHtml": [
+    {
+      "language": "en",
+      "exportMatchesBuild": true
+    },
+    {
+      "language": "fr",
+      "exportMatchesBuild": true
+    }
+  ]
+}

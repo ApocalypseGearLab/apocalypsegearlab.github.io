@@ -1,0 +1,22 @@
+{
+  "head": "2cc35df11968242c00fcc08060c18e5182dcabe0",
+  "branch": "feat/phase1-production-hardening",
+  "indexEmpty": true,
+  "priorCandidateFiles": 750,
+  "unchangedPriorCandidateFiles": 747,
+  "approvedPriorCandidateChanges": [
+    "src/i18n/fr-privacy.json",
+    "src/pages/privacy.astro",
+    "docs/phase1-hardening/README.md"
+  ],
+  "unexpectedPriorCandidateChanges": [],
+  "validatedSourceHashes": 9,
+  "protectedOriginalHashes": 234,
+  "sourceProjectionsMatchHEAD": true,
+  "sourceProjectionCount": 33,
+  "sourceProjectionEvidenceReusedWithUnchangedInputs": true,
+  "unrelatedCheckpointFiles": 2537,
+  "unrelatedDifferences": [],
+  "archivedQaCaptures": 0,
+  "historicalQaPathsRestored": true
+}
