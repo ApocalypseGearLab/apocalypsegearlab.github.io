@@ -89,7 +89,7 @@ const waitForEvent=async(name,location)=>{
 for(const path of ['/','/gear/midland-er310/','/gear/fenix-cl26r-pro/']){
   await page.goto(base+path,{waitUntil:'networkidle'});
   if(live){
-    await page.locator('[data-analytics-consent]').evaluate(panel=>panel.open=true);
+    if(!await page.locator('[data-analytics-consent]').isVisible())await page.locator('[data-analytics-open]').click();
     await page.locator('[data-analytics-choice=granted]').click();
   }
   await waitForEvent('page_view',base+path);

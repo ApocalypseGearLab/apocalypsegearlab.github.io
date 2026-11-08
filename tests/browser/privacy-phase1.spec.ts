@@ -2,8 +2,9 @@ import {test,expect} from './fixtures';
 import AxeBuilder from '@axe-core/playwright';
 const key='agl-analytics-consent';
 const rows=(page:any)=>page.evaluate(()=>((window as any).dataLayer??[]).map((r:any)=>Array.from(r)));
-const grant=async(page:any)=>{await page.locator('[data-analytics-consent]').evaluate((e:HTMLDetailsElement)=>e.open=true);await page.locator('[data-analytics-choice="granted"]').click();};
-const deny=async(page:any)=>{await page.locator('[data-analytics-consent]').evaluate((e:HTMLDetailsElement)=>e.open=true);await page.locator('[data-analytics-choice="denied"]').click();};
+const open=async(page:any)=>{if(!await page.locator('[data-analytics-consent]').isVisible())await page.locator('[data-analytics-open]').click();};
+const grant=async(page:any)=>{await open(page);await page.locator('[data-analytics-choice="granted"]').click();};
+const deny=async(page:any)=>{await open(page);await page.locator('[data-analytics-choice="denied"]').click();};
 
 test('default and rejection send no Google requests; native affiliate navigation works independently',async({page,context})=>{
  const google:string[]=[];page.on('request',r=>{if(/google|doubleclick/.test(new URL(r.url()).hostname))google.push(r.url());});
@@ -92,11 +93,11 @@ test('final privacy policies and keyboard-operable choices retain bilingual acce
   await expect(policy.locator('form,address,a[href^="tel:"]')).toHaveCount(0);
   await expect(policy).toContainText(route.startsWith('/fr/')?'Cette adresse est réservée aux demandes de confidentialité':'This address is reserved for privacy requests');
   await expect(policy).toContainText(route.startsWith('/fr/')?'Il n’efface pas les renseignements déjà reçus par Google.':'It does not erase information already received by Google.');
-  const panel=page.locator('[data-analytics-consent]');
-  if(!await panel.evaluate((e:HTMLDetailsElement)=>e.open)){await panel.locator('summary').focus();await page.keyboard.press('Enter');}
+  await open(page);
   const allow=page.locator('[data-analytics-choice="granted"]');await allow.focus();await page.keyboard.press('Enter');await expect(allow).toHaveAttribute('aria-pressed','true');
+  await open(page);
   const button=page.locator('[data-analytics-choice="denied"]');const reloaded=page.waitForEvent('load');await button.focus();await page.keyboard.press('Enter');await reloaded;await expect(page.locator('[data-analytics-loader]')).toHaveCount(0);
-  await panel.locator('summary').focus();await page.keyboard.press('Enter');await expect(button).toBeVisible();
+  await page.locator('[data-analytics-open]').focus();await page.keyboard.press('Enter');await expect(button).toBeVisible();
   expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
   await page.screenshot({path:testInfo.outputPath(route.startsWith('/fr/')?'privacy-fr.png':'privacy-en.png'),fullPage:true,scale:'css'});
  }
@@ -123,7 +124,8 @@ test('EN/FR footer privacy links reach the final localized policy without enabli
   await page.goto(prefix+source);
   await expect(page.locator('[data-analytics-choice="granted"]')).toBeEnabled();
   const links=page.locator('footer a[href="'+prefix+'/privacy/"]');
-  await expect(links).toHaveCount(2);
+  await expect(links).toHaveCount(1);
+  await expect(page.locator('[data-analytics-consent] a[href="'+prefix+'/privacy/"]')).toHaveCount(1);
   await links.first().click();
   await expect(page).toHaveURL(new RegExp(prefix+'/privacy/$'));
   await expect(page.locator('html')).toHaveAttribute('lang',prefix?'fr-CA':'en-CA');
