@@ -67,9 +67,9 @@ The owner explicitly adopted the prepared version 2 procedure and committed to i
 | Justified-purpose/legal-obligation retention, then secure deletion of unnecessary copies | Adopted; applicable statutory minima/recourse holds remain part of the procedure |
 | Actual downloads/exports/screenshots/printouts/offline/device-backup arrangements | Owner explicitly states not checked |
 | Private case-register location and control implementation details | Not independently inspected; implementation remains the owner’s responsibility |
-| Matching EN/FR public explanation | Applied locally in this update; validated before the requested feature-branch commit |
+| Matching EN/FR public explanation | Present in the validated implementation; unchanged by documentation cleanup |
 | Provider/transfer protection decision and merge/deployment authorization | Separate; not granted by adoption |
 
 Source is the owner’s express adoption and approved-practices message, not a prefilled signature or an inference from CI. No unsupported earlier effective date or past operational history is asserted.
 
-The [English](privacy-policy.en.md) and [French](privacy-policy.fr.md) policies describe the adopted commitments while preserving provider/backup limitations. The earlier [prepared public summary](../release-blocker-resolution/policy-governance-additions.md) is a historical draft; current source/output governs. Do not describe adoption as independent verification that every local copy has already been found or securely erased.
+The canonical [English policy source](../../../src/pages/privacy.astro) and [French translations](../../../src/i18n/fr-privacy.json) describe the adopted commitments and provider/backup limitations. Unknown copy arrangements are not evidence that uncontrolled copies exist or that an incident occurred. Do not describe adoption as independent verification that every local copy has already been found or securely erased.

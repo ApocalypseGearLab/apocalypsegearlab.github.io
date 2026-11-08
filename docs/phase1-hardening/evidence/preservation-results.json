@@ -1,8 +1,0 @@
-{
-  "originalCheckpointFiles": 2537,
-  "originalDifferences": [],
-  "phaseProtectedFiles": 230,
-  "phaseProtectedDifferences": [],
-  "note": "Compared existing checkpoint bytes only; newly generated Phase 1 files are listed separately. No differences were reverted in original worktrees.",
-  "finalInvariants": "final-invariants.json confirms unchanged sitemap/robots bytes, all 104 product-language noindex directives and removal of synthetic fixtures after test:products."
-}

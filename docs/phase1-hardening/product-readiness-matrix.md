@@ -4,7 +4,7 @@ Prepared 2026-11-07 against main `2cc35df11968242c00fcc08060c18e5182dcabe0`. Doc
 
 ## Five held destinations
 
-All entries are P0 publication blockers, not newly discovered product defects. Source records are captured in [product-readiness-source-records.json](evidence/product-readiness-source-records.json). All affected paths are `src/data/products/<id>.json`, with EN `/gear/<id>/` and FR `/fr/gear/<id>/` informational draft pages.
+All entries are P0 publication blockers, not newly discovered product defects. The canonical source records remain in [src/data/products](../../src/data/products/); duplicate snapshots are omitted from this review package. All affected paths are `src/data/products/<id>.json`, with EN `/gear/<id>/` and FR `/fr/gear/<id>/` informational draft pages.
 
 | Product / stored ASIN | Missing evidence | Required next action | Approval / current disposition | Effort / regression risk |
 |---|---|---|---|---|
@@ -38,13 +38,13 @@ The unchanged `src/lib/release-policy.ts` requires `reviewStatus === "published"
 2. Reviewer captures dated primary manufacturer and exact Canadian selected-offer evidence, including visible ASIN/variant and source URLs, and records conflicts explicitly. Price, stock, seller and recall evidence must be current at that future review.
 3. Draft factual EN and FR copy; qualify untested status, reconcile quantities/units, check accessibility and preserve all cautions. No hands-on testing claim without a real test.
 4. Separate reviewer checks source-to-claim mapping, safety scope, affiliate identity and publication criteria. Owner approval is explicit and recorded; no implied approval from this matrix.
-5. A future approved implementation may change only eligible records, then validate EN/FR metadata, schema, internal links, robots and sitemap inclusion. Request approval before any commit/push/PR/deployment under the current instructions.
+5. A future approved implementation may change only eligible records, then validate EN/FR metadata, schema, internal links, robots and sitemap inclusion. Any future product publication requires separate approval; Phase 1 cleanup does not grant it.
 
 No new publication dates, reviewer names or approvals have been invented. Time estimates exclude external waiting. Remaining 104 product-language pages stay excluded from indexing; 47 active destinations and five holds are retained.
 
 ## Historical primary sources already recorded
 
-The following URLs come from repository product records, with their original research dates preserved in the evidence JSON. Their presence is not a fresh fetch or proof that the current selected Amazon offer matches.
+The following URLs come from repository product records, with their original research dates preserved in the product records. Their presence is not a fresh fetch or proof that the current selected Amazon offer matches.
 
 - **ecoflow-river-2-pro** (record research date 2026-10-29): [EcoFlow Canada RIVER 2 Pro specifications](https://ca.ecoflow.com/products/river-2-pro-portable-power-station).
 - **iniu-p62-20000mah-65w** (record research date 2026-10-29): [INIU P62-E1 manufacturer specifications](https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w).

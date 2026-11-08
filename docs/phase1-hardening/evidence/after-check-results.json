@@ -1,8 +1,0 @@
-[
-  {
-    "name": "build",
-    "code": 0,
-    "ms": 9960,
-    "log": "docs/phase1-hardening/evidence/after-build.log"
-  }
-]

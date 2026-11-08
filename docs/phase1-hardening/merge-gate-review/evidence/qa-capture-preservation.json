@@ -1,4 +1,0 @@
-{
-  "note": "Only historical QA paths initially clean at review start are restored. Fresh review artifacts remain archived under this review; application/source files are not touched.",
-  "rows": []
-}

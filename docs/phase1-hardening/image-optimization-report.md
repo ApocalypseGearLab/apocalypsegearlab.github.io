@@ -1,6 +1,6 @@
 # Responsive image measurements
 
-Measured 2026-11-07 from the exact 13 single-candidate assets identified by the master audit (`C:/Users/1995/Downloads/apocalypsegearlab-phase1-revise/apocalypsegearlab/docs/audits/evidence/catalogue-image-bytes.json`). The audit files remain in place in the original checkout.
+Measured November 7, 2026 from the 13 existing single-candidate product assets. These are recorded local measurements, not a new production performance audit.
 
 The new sidecar `src/data/media/responsive-imported-manifest.json` records dimensions, paths, byte sizes and SHA-256 values. Original 1254 × 1254 WebPs, supplied masters, original rights manifest and descriptive EN/FR alt text remain unchanged. Each image now has 480, 960 and original 1254 width candidates. `deliveredMedia` adds only derived delivery metadata; original records and product identity stay intact.
 
@@ -31,12 +31,8 @@ Run `node scripts/build-responsive-imported-media.mjs --check` or `npm run test:
 
 Existing `ProductImage.astro` keeps explicit dimensions, square containment, lazy card loading and its established sizes expression. Detail `src` remains the original; browsers may select a smaller detail candidate according to rendered width/DPR.
 
-## Browser selection and visual review
+## Browser validation and limits
 
-The local before/after catalogue capture at 390 and 1440 CSS pixels, DPR 1, decoded and scrolled every card. All 13 previously selected the original; all 13 now selected their 480 variant. Exact rendered widths, srcsets and currentSrc are in [baseline-browser.json](evidence/baseline-browser.json) and [after-browser.json](evidence/after-browser.json). Focused tests additionally cover 390/1440 at DPR 1/2, all 39 delivered original/derivative hashes, square geometry and source membership. Browser selection is browser-managed; a candidate larger than CSS width is expected for high DPR.
+The validated image cases cover 390/1440 CSS pixels at DPR 1/2, all 39 delivered original/derivative hashes, square geometry and source membership. Recorded Chromium/WebKit candidate selection for all 13 cards was 390/DPR1 → 480; 390/DPR2 → 960; 1440/DPR1 → 480; 1440/DPR2 → 480. Selection remains browser-managed. Original/480/960 contact-sheet review was recorded as consistent in framing, identity, labels and colour treatment, with expected lossy detail differences.
 
-The [three-column contact sheet](evidence/image-framing-comparison.png) was visually inspected for all 13 assets: original, 480 and 960 at equal display size. Framing, identity, labels and cinematic colour treatment remain consistent at card size; resizing introduces expected lossy detail differences. [Pixel diagnostics](evidence/image-quality-diagnostics.json) compare decoded 480 images with a matching original resize; these are supplementary measurements, not a visual-quality certification. Original high-resolution artwork remains available.
-
-No measured field CWV, Lighthouse score or universal speed improvement is claimed. See [performance report](performance-report.md).
-
-Both Chromium and WebKit selected the same candidates in the final dedicated image run: 390/DPR1 → 480; 390/DPR2 → 960; 1440/DPR1 → 480; 1440/DPR2 → 480, for all 13 cards. See [responsive-candidate-selection.json](evidence/responsive-candidate-selection.json). WebKit can abort an in-flight decode while selecting a new srcset candidate; the test waits for a stable successfully decoded source rather than treating that normal transition as a broken image. All hash, geometry and membership checks remain.
+The final implementation passed [GitHub CI on 69cf055](https://github.com/ApocalypseGearLab/apocalypsegearlab.github.io/actions/runs/42510493911). Historical screenshots and raw diagnostics are archived locally rather than duplicated in the PR. No measured field CWV, Lighthouse score or universal speed improvement is claimed. Unthrottled single-sample localhost timings were insufficient for a causal performance conclusion and are excluded from this release summary.

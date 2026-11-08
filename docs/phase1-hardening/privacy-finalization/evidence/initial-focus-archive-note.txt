@@ -1,1 +1,0 @@
-The .raw.json preserves the original initial Playwright JSON. The companion .json only updates artifact-directory paths after archival; test results and assertions are unchanged. Initial artifacts are under focused-initial-browser-artifacts.

@@ -1,27 +1,21 @@
-# Release requirements versus optional work
+# Release requirements and optional improvements
 
-This register narrows the previous reviews. It is a practical application to the recorded project, not a declaration of compliance or a new whole-site audit.
+Current November 8, 2026. This is a bounded release decision register, not another whole-site audit or a legal-compliance certificate.
 
-## Applicable legal basis
+The [Quebec private-sector Act](https://www.legisquebec.gouv.qc.ca/fr/document/lc/P-39.1) addresses the responsible role/contact (3.1), proportionate governance and its public explanation (3.2), project assessment (3.3), safeguards (10), and outside-Quebec assessment, adequate protection and written arrangements (17). Section 18.3 addresses a particular without-consent service-contract route; it does not demand an identical new DPA from every provider regardless of role. The [CAI transfer guidance](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/utilisation-communication-renseignements-personnels) confirms the covered-transfer requirements.
 
-The Quebec private-sector [Act](https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1) addresses a public responsible role/contact (3.1), proportionate governance and its public explanation (3.2), project assessments (3.3), safeguards (10), and outside-Quebec assessment/adequate protection/written arrangements (17). Section 18.3’s written service-contract exception concerns a particular without-consent route; it is not a reason to demand the same new DPA for every provider regardless of role. A GDPR document or consent alone does not establish satisfaction of the Quebec transfer requirements.
-
-| Category | Actual release requirement / present state |
+| Requirement | Current status / necessary action |
 |---|---|
-| Legal — responsibility | Public role/contact is already confirmed and in both policies. No personal name, home address, phone or separately hired officer is requested by this review. |
-| Legal — governance/rights | Adopt and implement the proportionate [request procedure](privacy-request-procedure.md), then publish the matching clear governance summary. Keeping a draft is not implementation. [CAI governance guidance](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/responsable-protection-renseignements-personnels-entreprise). |
-| Legal — assessment/arrangements | Finish the small factual/contract gaps and record the Privacy Officer’s reasoned decision on the prepared three-provider assessment. Resolve an actual required protection gap; do not require custom negotiation or paid service migration without identifying the gap. |
-| Legal — accurate collection disclosure/consent | Known GA4 scope/controls and opt-in/withdrawal are already reflected in the policies and validated. Additional actual recipients/exports must be accounted for. A fresh consent redesign or blanket disabling of desired analytics is not identified as necessary. |
-| Legal — proportionate safeguards/lifecycle | Verify authorized access/copy paths and adopt workable retention/destruction rules. [CAI lifecycle guidance](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/conservation-destruction-renseignements-personnels). No arbitrary universal email-retention number is imposed. |
-| Owner authorization — separate from privacy law | Latest instruction requires the owner’s publication authorization after required conditions are resolved. No stage/commit/push/merge/deployment now, despite earlier conditional authorization. |
-| Engineering — separate from privacy law | Honour the requested PR/CI/protection workflow before future merge. The previous live snapshot found no active main protection; that fact is not itself a Law 25 defect or an inaccurate privacy-policy statement. No protections are changed in this task. |
+| Responsible privacy role/contact | Owner-confirmed public title and privacy-only mailbox are present in both policies. No invented personal name, telephone or address. |
+| Governance and rights handling | [Version 2 procedure](../owner-verified-ga4-update/privacy-request-procedure.md) explicitly adopted, including applicable deadlines, proportionate verification, safeguards, minimal records and justified-purpose/legal-obligation retention then secure deletion. Implementation is the owner's responsibility; no repeat adoption is requested. |
+| Accurate disclosure and consent | Validated EN/FR policies describe verified GA4 settings, whole-tag opt-in/withdrawal, hosting and the privacy mailbox. Neither additional private integrations nor a false assertion of their absence is invented. |
+| Covered provider/transfer protection decision | [Desktop assessment](../owner-verified-ga4-update/provider-transfer-assessment.md) prepared; final Privacy Officer adequate-protection/written-arrangement conclusion not recorded. Complete that decision, checking only scope-relevant additional flows/copies and resolving any specific required protection gap found. This remains the substantive privacy release condition. |
+| Authorized publication and CI | Separate owner merge/publication authorization remains required after the decision and any necessary correction. PR cleanup commits/pushes are authorized; merge and deployment are not. Preserve the normal CI workflow. |
 
-## Not automatic release blockers
+## Unknowns and optional work
 
-- Hiring external counsel/a formal external DPO, buying a privacy platform, moving every service into Canada, switching automatically to paid Workspace, obtaining a legal-compliance certificate or negotiating bespoke agreements with all vendors. A **specific unresolved contractual/legal protection gap** may warrant targeted advice or a service change; that is different from making all these purchases prerequisites.
-- Publishing private account-user names/emails, collecting every role count or every automatic-event UI screenshot. Verify sufficient authorized access and actual extra data flows instead.
-- A fixed 30/90/365-day retention policy for privacy emails. Use an adopted, defensible purpose/hold-based rule; the separate legal access/correction response deadline is not an email-retention period.
-- Treating two-factor authentication as the name of a statutory requirement. It is a strong proposed safeguard; appropriate account protection remains necessary and an equivalent control would need a reason.
-- New performance audits, screenshots of every page, all-site Lighthouse/CWV runs, affiliate re-research, image regeneration, new WHITEOUT integration, new video embeds or a redesigned consent UI. Unchanged validated evidence can be reused.
+Other Google Product links/tag destinations and local/downloaded Gmail-copy arrangements remain expressly not checked. They are evidence limitations, not established extra flows, uncontrolled copies, incidents or automatic standalone compliance failures. Do not convert an unverified fact into a legal conclusion. Record only material results in the existing assessment.
 
-The earlier reports’ broad unknown lists are superseded by this narrower classification, not erased. The [owner decision card](owner-decisions.md) is the remaining action list.
+No observed technical or security defect remains from the validated implementation. Optional MFA/hardening details, paid Workspace migration, a bespoke contract for every provider, a privacy platform, an external certification, new screenshots, performance audits or new product integration are not automatic release conditions. Appropriate safeguards and legally required protection remain necessary; a specific demonstrated gap may require a targeted correction or advice. No fixed arbitrary mailbox-retention period is imposed.
+
+The owner-approved practices and verified facts remain in the [adoption procedure](../owner-verified-ga4-update/privacy-request-procedure.md) and [fact record](../owner-verified-ga4-update/evidence/owner-verified-facts.json). Historical checkpoint reports and duplicate public-policy exports have been removed from the review diff; the [current release notes](../README.md) identify canonical policy sources and passing validation evidence.
