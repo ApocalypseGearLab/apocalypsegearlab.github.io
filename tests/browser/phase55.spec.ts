@@ -47,3 +47,6 @@ test('Phase 5.5 Amazon CTAs open safely and emit exactly one affiliate_click per
  }
  expect(requests).toHaveLength(22);
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

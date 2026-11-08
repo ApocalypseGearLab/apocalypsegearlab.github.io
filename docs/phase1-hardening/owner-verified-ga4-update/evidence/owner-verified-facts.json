@@ -1,0 +1,96 @@
+{
+  "recordedOn": "2026-11-08",
+  "source": "Owner confirmations: GA4 Administration screenshots reported by the owner and subsequent textual mailbox statements; private screenshots/accounts/mailbox not independently inspected by this agent",
+  "property": "ApocalypseGearLab",
+  "measurementId": "G-YFJJ5N9RBX",
+  "newOwnerVerifiedFacts": {
+    "dataProcessingTerms": {
+      "accepted": true,
+      "date": "2025-12-24"
+    },
+    "googleAdsAssociations": 0,
+    "bigQueryGA4IntegrationAssociations": 0,
+    "searchConsole": {
+      "linked": true,
+      "property": "https://apocalypsegearlab.github.io/",
+      "linkedOn": "2026-11-08"
+    },
+    "accountAccess": {
+      "administratorsListed": 1,
+      "additionalUsersListed": 0
+    },
+    "propertyAccess": {
+      "administratorsListed": 1,
+      "additionalUsersListed": 0
+    },
+    "optionalAccountDataSharingAllFourDisabled": true,
+    "userProvidedCollectionAndAutomaticDetectionDisabledAndSaved": true,
+    "enhancedMeasurementEnabled": true
+  },
+  "previousOwnerVerifiedFactsRetained": {
+    "eventRetentionMonths": 2,
+    "userRetentionMonths": 2,
+    "resetUserDataOnNewActivity": false,
+    "emailRedaction": true,
+    "universalAnalyticsEventCollection": false,
+    "operatingLocation": "Quebec, Canada",
+    "privacyOnlyEmail": "apocalypsegearlab@gmail.com",
+    "soleOperatorPrivacyRoleApproved": true
+  },
+  "notEstablished": [
+    "Every possible Google product integration or tag destination",
+    "Manual exports, independently configured exports or third-party access outside the inspected GA4 lists",
+    "Search Console users/owners or Google-account security settings",
+    "Owner adequacy decision for covered provider/transfer arrangements",
+    "New publication authorization",
+    "Local/downloaded copies, exports, screenshots/printouts, offline/cache or device-backup arrangements for privacy-request records",
+    "Actual account/device safeguards and provider-specific optional content-reuse settings; no on/off state inferred",
+    "Implementation details for adopted controls and actual privacy-request copy inventory; no independent operational inspection"
+  ],
+  "noPrivateAccountChangesByAgent": true,
+  "ownerVerifiedMailbox": {
+    "recordedOn": "2026-11-08",
+    "address": "apocalypsegearlab@gmail.com",
+    "service": "Free consumer Gmail; not Google Workspace",
+    "soleUser": true,
+    "otherMailboxUsers": false,
+    "delegatedAccessReported": false,
+    "automaticForwarding": false,
+    "thirdPartyEmailApplicationsConnected": false,
+    "accessChannels": [
+      "Gmail website",
+      "Official Gmail mobile application"
+    ],
+    "localDownloadedCopyArrangements": "unverified"
+  },
+  "procedureAdoptionStatus": "Owner explicitly adopted version 2 and committed to implementing it, recorded November 8, 2026",
+  "procedureAdoption": {
+    "recordedOn": "2026-11-08",
+    "source": "Explicit owner message adopting the prepared single-operator procedure",
+    "adopted": true,
+    "version": 2,
+    "ownerImplementationCommitment": true,
+    "independentImplementationInspection": false,
+    "approvedPractices": [
+      "Personal handling at approved privacy-only mailbox",
+      "Proportionate identity verification when necessary",
+      "Access/correction/deletion/consent withdrawal/complaints",
+      "Applicable Quebec response deadlines",
+      "Minimal private request records",
+      "Gmail account/device protection",
+      "Justified-purpose and applicable-law retention, then secure deletion of unnecessary copies"
+    ],
+    "localDownloadedCopyArrangements": "unverified",
+    "providerTransferApprovalNotImplied": true,
+    "mergeDeploymentApprovalNotImplied": true
+  },
+  "ownerConfirmedUnverifiedAreas": {
+    "recordedOn": "2026-11-08",
+    "otherGoogleProductLinksAndTagDestinations": "Not checked; neither enabled nor disabled inferred",
+    "privacyMailCopies": "Downloaded attachments, exported messages, screenshots, printouts, offline copies and device backups not checked; neither existence nor absence inferred",
+    "mailboxAccessChannelsReconfirmed": [
+      "Gmail website",
+      "Official Gmail mobile app"
+    ]
+  }
+}

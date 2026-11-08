@@ -57,7 +57,8 @@ for(const file of pages){
   // and adds one methodology footer link. Product metadata, images, header,
   // canonicals, safety text and documentary destinations remain protected.
   assert.ok(meta.footer.some(link=>link.href==='/how-we-research/'));
-  meta.footer=meta.footer.filter(link=>!['/how-we-research/','/whiteout/'].includes(link.href??''));
+  assert.equal(meta.footer.filter(link=>link.href==='/privacy/').length,2,'Privacy links in footer and consent panel');
+  meta.footer=meta.footer.filter(link=>!['/how-we-research/','/whiteout/','/privacy/'].includes(link.href??''));
   if(['/gear/','/blackout/','/fallout/','/outbreak/'].includes(path)){
    assert.deepEqual(meta.jsonLd.map(schema=>schema['@type']),['BreadcrumbList','ItemList']);
    assert.ok(meta.title.trim()&&meta.description?.trim());

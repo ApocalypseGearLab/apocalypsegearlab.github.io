@@ -89,3 +89,6 @@ test('XML parses strictly, has unique absolute locations and excludes noindex pa
   }
   expect(readFileSync('dist/sitemap.xml','utf8')).toBe(readFileSync('dist/sitemap-index.xml','utf8'));
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

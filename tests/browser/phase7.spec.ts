@@ -12,7 +12,7 @@ for(const width of [375,1440])for(const [id,[asin,,sector]]of Object.entries(PHA
  await page.addInitScript(()=>{
   (window as any).__phase7CLS=0;
   new PerformanceObserver(list=>{for(const entry of list.getEntries() as any[])if(!entry.hadRecentInput)(window as any).__phase7CLS+=entry.value;}).observe({type:'layout-shift',buffered:true});
-  (window as any).gtag=(...args:any[])=>(window as any).phase7Event(args);
+
  });
  await context.route('https://www.amazon.ca/**',route=>route.fulfill({status:200,contentType:'text/html',body:'<!doctype html><title>Local retailer simulation</title>'}));
  await page.setViewportSize({width,height:1000});await page.goto(`/gear/${id}/`);
@@ -39,6 +39,7 @@ for(const width of [375,1440])for(const [id,[asin,,sector]]of Object.entries(PHA
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  expect(await page.evaluate(()=>(window as any).__phase7CLS)).toBe(0);
  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
+ await page.evaluate(()=>{window.gtag=(...args:any[])=>(window as any).phase7Event(args);});
  const button=page.locator('[data-product-purchase] a[data-affiliate-click]');
  await expect(button).toHaveAttribute('href',`https://www.amazon.ca/dp/${asin}?tag=apocalypsegear-20`);
  await expect(button).toHaveAttribute('rel','sponsored nofollow noopener');await expect(button).toHaveAttribute('data-cta-placement','profile-summary');
@@ -77,3 +78,6 @@ for(const width of [320,375,768,1024,1440,1920])test(`Phase 7 cards and category
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  if(width===375||width===1440){mkdirSync(directory,{recursive:true});await page.screenshot({path:`${directory}/catalogue-${width}.png`});}
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

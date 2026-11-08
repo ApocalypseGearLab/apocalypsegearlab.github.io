@@ -1,0 +1,57 @@
+# Product verification and publication readiness
+
+Prepared 2026-11-07 against main `2cc35df11968242c00fcc08060c18e5182dcabe0`. Documentation only: no product record, ASIN, safety rule, review status, product robots directive or sitemap exclusion was changed. Historical record evidence is not a new live retailer or recall verification.
+
+## Five held destinations
+
+All entries are P0 publication blockers, not newly discovered product defects. The canonical source records remain in [src/data/products](../../src/data/products/); duplicate snapshots are omitted from this review package. All affected paths are `src/data/products/<id>.json`, with EN `/gear/<id>/` and FR `/fr/gear/<id>/` informational draft pages.
+
+| Product / stored ASIN | Missing evidence | Required next action | Approval / current disposition | Effort / regression risk |
+|---|---|---|---|---|
+| ecoflow-river-2-pro / B0BVLPGS79 | B0BVLPGS79 selects different B0D2HX1ZS9 metadata; EFR620 model versus EFR617 part identifier is unresolved. | Obtain dated Canadian offer capture showing address-bar ASIN and selected child, seller, model/revision and voltage; match delivered label and regional manual/certification to manufacturer evidence. Resolve parent/child mapping without substituting the stored ASIN. | Electrical-identity reviewer and owner; hold until exact mapping is approved. No reviewer has been assigned. | 2–6 h per file plus external response time; high if a hold is relaxed prematurely. |
+| iniu-p62-20000mah-65w / B0DB888L9F | P62/P62-E1 detachable GoCord versus integrated-cable representation; exact Canadian revision and safety documentation are unconfirmed. | Dated ASIN/variant/seller capture plus exact delivered-unit label/cable configuration; manufacturer manual and applicable Canadian safety evidence. A different INIU model recall or generic marketing badge cannot clear this unit. | Electrical-identity reviewer and owner; mandatory hold remains. No reviewer has been assigned. | 2–6 h per file plus external response time; high if a hold is relaxed prematurely. |
+| jackery-explorer-300 / B082TMBYR6 | 292/293/293.8 Wh, Li-ion/NCM versus LiFePO4 and 110/120 V representations conflict. | Match B082TMBYR6 to exact Explorer 300/JE-300E regional revision, physical label and manufacturer manual; reconcile chemistry, capacity, voltage and charging compatibility. Preserve rejected USB-C artwork exclusion. | Electrical-identity reviewer and owner; mandatory hold remains. No reviewer has been assigned. | 2–6 h per file plus external response time; high if a hold is relaxed prematurely. |
+| kidde-c3010-co-alarm / B00FHW7PBS | US C3010 / UL 2034 does not establish Canadian C3010-CA equivalence or certification. | Obtain actual certification mark/file, Canadian instructions and manufacturer confirmation connecting B00FHW7PBS and 21010045 to the exact Canadian unit. Confirm current applicable certification independently. | Qualified Canadian certification reviewer and owner; mandatory hold remains. No reviewer has been assigned. | 2–6 h per file plus external response time; high if a hold is relaxed prematurely. |
+| nanuk-904-first-aid-kit / B0G3XYHL33 | US FSA02 versus Canadian FSA03; 108/109/110-item counts and fill configuration conflict. | Match B0G3XYHL33 to filled 904S-880RD-PA0-FSA03 SKU, dated Canadian offer and manufacturer fill list; document contents, substitutions, expiry and sterile-item status. Do not infer workplace or medical suitability. | Product-identity/content reviewer and owner; commercial hold remains. No reviewer has been assigned. | 2–6 h per file plus external response time; high if a hold is relaxed prematurely. |
+
+## Therm-a-Rest exception remains pending
+
+**P0: preserve the owner-reported prohibition on use below −20°C**, pending written manufacturer clarification applicable to the exact model 14016 / Regular Wide / Neptune / B0CS54SN91. R-value 7.3 is not an ambient-temperature guarantee, including at or above −20°C. Do not convert the prohibition into a general comfort or safety rating. Unsupported 653 kg load language and seller/accessory authenticity need their own evidence.
+
+Affected file: `src/data/products/therm-a-rest-neoair-xtherm-nxt-review.json`; both language profiles retain existing warning and draft/noindex state. Required action: owner or designated reviewer obtains dated written manufacturer response, records scope and exact model, then separately reviews any proposed copy change. Effort: 1–3 h plus manufacturer wait; regression risk: high if wording changes without applicable evidence. Existing allowed destination does not constitute publication approval.
+
+## Three future pilot candidates
+
+These are lower-risk editorial candidates relative to electrical, alarm and medical-supply holds, not cleared products or purchase recommendations. Each remains `draft`, `not-tested`, `listingVerified: false`, `publicationApproved: false`, with pending safety/review requirements.
+
+| Candidate / stored ASIN | Existing evidence and precise gap | Next evidence and editorial work | Priority / effort / risk |
+|---|---|---|---|
+| royale-velour-plush-thick-toilet-paper / B085XRS7KP | Owner reference has 12 physical rolls advertised as 24 equivalent rolls. Independent current offer/selected variant and capture date are missing. | Capture current exact Canadian ASIN, pack/ply/sheet counts and seller; match manufacturer packaging. Reconcile equivalent-roll language explicitly; exclude unsupported environmental, sanitizing or stock claims. | P1 readiness; 2–4 h each plus evidence access; medium identity/copy risk. |
+| 511-tactical-rush72-2-backpack / B0D9R239MT | 56565 / RUSH72 2.0 / 55 L manufacturer context exists, but exact selected Canadian ASIN variant and delivered package have not been independently matched. | Dated offer, selected colour/size/model and seller; label/package and manufacturer dimensional/capacity comparison. Preserve that capacity is not a carrying-load recommendation and it is not a dry bag. | P1 readiness; 2–4 h each plus evidence access; medium identity/copy risk. |
+| smartwool-thermal-merino-reversible-cuffed-beanie / B0DK9VRQF2 | Mink Heather / One Size context differs from manufacturer Black reference. Screenshot lacks visible address-bar ASIN; 68.04 g weight is unsupported. | Match exact child ASIN/colour/revision/SW0SW956 label and fibre composition to manufacturer evidence; remove or explicitly qualify unsupported weight in a separately approved editorial change. Do not substitute Black. | P1 readiness; 2–4 h each plus evidence access; medium identity/copy risk. |
+
+## Publication gate and staged plan
+
+The unchanged `src/lib/release-policy.ts` requires `reviewStatus === "published"` and zero `publicationIssues`: documented research, verified Canadian listing, cleared safety status, explicit editorial approval, no mandatory ID/ASIN hold, no affiliate hold and no publication blockers. Informational visibility is separate from commercial approval and from artwork rights. EcoFlow and NANUK hold through their record-level affiliate review; three other IDs/ASINs have mandatory holds as well.
+
+1. Owner assigns a reviewer and approves which pilot to investigate first; the order above favours simpler pack-identity evidence.
+2. Reviewer captures dated primary manufacturer and exact Canadian selected-offer evidence, including visible ASIN/variant and source URLs, and records conflicts explicitly. Price, stock, seller and recall evidence must be current at that future review.
+3. Draft factual EN and FR copy; qualify untested status, reconcile quantities/units, check accessibility and preserve all cautions. No hands-on testing claim without a real test.
+4. Separate reviewer checks source-to-claim mapping, safety scope, affiliate identity and publication criteria. Owner approval is explicit and recorded; no implied approval from this matrix.
+5. A future approved implementation may change only eligible records, then validate EN/FR metadata, schema, internal links, robots and sitemap inclusion. Any future product publication requires separate approval; Phase 1 cleanup does not grant it.
+
+No new publication dates, reviewer names or approvals have been invented. Time estimates exclude external waiting. Remaining 104 product-language pages stay excluded from indexing; 47 active destinations and five holds are retained.
+
+## Historical primary sources already recorded
+
+The following URLs come from repository product records, with their original research dates preserved in the product records. Their presence is not a fresh fetch or proof that the current selected Amazon offer matches.
+
+- **ecoflow-river-2-pro** (record research date 2026-10-29): [EcoFlow Canada RIVER 2 Pro specifications](https://ca.ecoflow.com/products/river-2-pro-portable-power-station).
+- **iniu-p62-20000mah-65w** (record research date 2026-10-29): [INIU P62-E1 manufacturer specifications](https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w).
+- **jackery-explorer-300** (record research date 2026-10-29): [Jackery Explorer 300 user manual, US English specifications](https://r.jackery.net/productGuide/Jackery%20Explorer%20300%20user%20manual.pdf); [Jackery Explorer 300 technical information](https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information); [Jackery Canada Explorer 300 current regional page](https://ca.jackery.com/products/explorer-300-portable-power-station); [Jackery Canada SolarSaga 100 Air, included connections and exclusions](https://ca.jackery.com/products/jackery-solarsaga-100-air).
+- **kidde-c3010-co-alarm** (record research date 2026-10-29): [Kidde Canada C3010-CA (separate Canadian designation)](https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/c3010-ca); [Kidde C3010 US product data sheet with part 21010045](https://brand.kidde.com/m/f4ea19b2ad5aed6/original/PDS_C3010.pdf).
+- **nanuk-904-first-aid-kit** (record research date 2026-10-29): [NANUK 904 First Aid Kit contents and dimensions](https://nanuk.com/products/nanuk-904-first-aid-kit); [NANUK 904 filled-kit specification sheet — USA variant](https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636); [NANUK Canada: 904 filled kit, Canadian SKU and indicative contents](https://nanukcases.ca/products/nanuk-904-first-aid-kit).
+- **therm-a-rest-neoair-xtherm-nxt-review** (record research date 2026-11-06): [Therm-a-Rest NeoAir XTherm NXT — model and size specifications; official photos available on this page](https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad); [Therm-a-Rest — R-value versus temperature ratings](https://cascadedesigns.com/en-ca/blogs/thermarest-gear/how-warm-is-a-sleeping-pad-r-value-vs-degree-ratings).
+- **royale-velour-plush-thick-toilet-paper** (record research date 2026-10-31): [Royale: documented product reference](https://www.royale.ca/products/bathroom-tissue/); [Royale manufacturer FAQ: material and environmental statements](https://www.royale.ca/faq/).
+- **511-tactical-rush72-2-backpack** (record research date 2026-10-27): [5.11 Tactical RUSH72 2.0 dimensions and materials](https://www.511tactical.com/rush72-2-0-backpack.html).
+- **smartwool-thermal-merino-reversible-cuffed-beanie** (record research date 2026-11-06): [Smartwool — Thermal Merino Reversible Cuffed Beanie, Black, SW0SW956](https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521).

@@ -87,3 +87,6 @@ test('WHITEOUT new category filters retain state while switching languages', asy
   await expect(page).toHaveURL('/fr/gear/?sector=whiteout&category=winter-gloves-mitts#category-winter-gloves-mitts');
   await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(2);
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

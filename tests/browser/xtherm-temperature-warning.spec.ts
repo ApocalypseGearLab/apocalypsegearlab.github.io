@@ -63,3 +63,6 @@ for (const lang of ['en', 'fr']) test(`XTherm warning and link work without Java
   await expect(purchase.locator('a[data-affiliate-click]')).toHaveAttribute('href', url);
   await context.close();
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

@@ -58,3 +58,6 @@ test('Morakniv recorded link works in all four placements with one GA4 event per
   }
   expect(errors).toEqual([]);
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

@@ -56,3 +56,6 @@ test('both BougeRV affiliate controls open safely with exactly one GA4 event per
  }
  expect(requests).toHaveLength(16);
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

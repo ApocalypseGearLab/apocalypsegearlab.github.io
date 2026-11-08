@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "scope": "Responsive derivatives of13 existing owner-approved imported illustrations; original artwork and all identity/rights records remain authoritative and unchanged.",
+  "assets": [
+    {
+      "id": "ecoflow-river-2-pro-power-station-blackout",
+      "productId": "ecoflow-river-2-pro",
+      "source": {
+        "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+        "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0",
+        "bytes": 131338,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+          "src": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 24116,
+          "sha256": "78ef1209aeebf7922c8e8ac352bb83b0ee76bc12ce4bb6991558d7ca7c815b8f"
+        },
+        {
+          "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp",
+          "src": "/images/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 68756,
+          "sha256": "d862ddfe648b09eb467f937fe7fd56aaa1c0272c79953349ea6c6d994f8c009a"
+        },
+        {
+          "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+          "src": "/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 131338,
+          "sha256": "ebae089a237d2fb162df06d4407e03ab42625a32900f227b087e4577543b3cc0"
+        }
+      ]
+    },
+    {
+      "id": "fenix-hm50r-v2-headlamp-blackout",
+      "productId": "fenix-hm50r-v2-headlamp",
+      "source": {
+        "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+        "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2",
+        "bytes": 237356,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+          "src": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 43798,
+          "sha256": "59e337868e9288f40d2bf9b9012793f15e5f700e653a9e2cd0a291d853efe5c9"
+        },
+        {
+          "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp",
+          "src": "/images/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 126440,
+          "sha256": "2883ca05a7df2bcdb4bc203a7ac782356e6550993522c0dfde68237f269710c7"
+        },
+        {
+          "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+          "src": "/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 237356,
+          "sha256": "191f468cc433693d467d11cdfab5995fd5f54b3117cb74d0ddebbf919ad73fe2"
+        }
+      ]
+    },
+    {
+      "id": "fenix-cl26r-pro-camping-lantern-blackout",
+      "productId": "fenix-cl26r-pro",
+      "source": {
+        "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+        "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943",
+        "bytes": 120578,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+          "src": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 23296,
+          "sha256": "9622eb1c4355afbceb4fd6ae35aac23c89deded690e310eb02a2e83940465065"
+        },
+        {
+          "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp",
+          "src": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 64410,
+          "sha256": "36a1ec2442a92960965b57a657b7c645552263a61e4efdc87a8dce8d5480aadd"
+        },
+        {
+          "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+          "src": "/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 120578,
+          "sha256": "3450ba9c70f75f80994ba82355a9c23ec4840ee199b1e623eb9982f415355943"
+        }
+      ]
+    },
+    {
+      "id": "jackery-explorer-1000-v2-power-station-blackout",
+      "productId": "jackery-explorer-1000-v2",
+      "source": {
+        "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+        "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d",
+        "bytes": 135916,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+          "src": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 27312,
+          "sha256": "f8c42b5b795b4d5324095cc93ecd42669a113bea4a8a4e10dc95592093bc179e"
+        },
+        {
+          "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp",
+          "src": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 72494,
+          "sha256": "04dbfc0614fce8bcb8f33a98349450ece19a0374295b233edbb580cb856ee650"
+        },
+        {
+          "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+          "src": "/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 135916,
+          "sha256": "64b90db94a5b4c4d23615e319ea5151310ea349e3d52a4a60eb7f2426d7a7b6d"
+        }
+      ]
+    },
+    {
+      "id": "kidde-c3010-carbon-monoxide-alarm-blackout",
+      "productId": "kidde-c3010-co-alarm",
+      "source": {
+        "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+        "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc",
+        "bytes": 118340,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+          "src": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 21104,
+          "sha256": "14d9d1eb6edfd2207bed4e0218e639fb2f17d0646f984c77ca14fd24bdff0330"
+        },
+        {
+          "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp",
+          "src": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 58230,
+          "sha256": "206ce62fbd5db203a2e9b362d5b964c70cd263b86267ad25df0f9314246ca27f"
+        },
+        {
+          "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+          "src": "/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 118340,
+          "sha256": "20abfc5512f735b1e1ebb1018bdf6ff1b1d7dbf79dd3230a74f780f01b5ac4cc"
+        }
+      ]
+    },
+    {
+      "id": "leatherman-wave-plus-multitool-fallout",
+      "productId": "leatherman-wave-plus-multitool",
+      "source": {
+        "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+        "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da",
+        "bytes": 176614,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+          "src": "/images/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 32006,
+          "sha256": "0b44044110df6d68015f7b4b85b80c173d61d05b3c39005f3cc407798c66e021"
+        },
+        {
+          "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout-960.webp",
+          "src": "/images/fallout/leatherman-wave-plus-multitool-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 95390,
+          "sha256": "d0f954da158c0bdd6ead9834c39d681929c20359a41b5a0da3d6ce65a76174df"
+        },
+        {
+          "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+          "src": "/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 176614,
+          "sha256": "cdf19277690ceaaebe89a45034d574ce884da3497971fae4735e5c30069994da"
+        }
+      ]
+    },
+    {
+      "id": "iniu-p62-20000mah-power-bank-blackout",
+      "productId": "iniu-p62-20000mah-65w",
+      "source": {
+        "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+        "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa",
+        "bytes": 169576,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+          "src": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 26482,
+          "sha256": "a2a21a6ab85c62bb408d35c270635f10877630c01419a52926f217c6ddd5b6d8"
+        },
+        {
+          "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp",
+          "src": "/images/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 79758,
+          "sha256": "6fa1cd1fa6d5ab0aa902404f474502fdcb8e671f365b22f3be0f8d2ce49740e7"
+        },
+        {
+          "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+          "src": "/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 169576,
+          "sha256": "afae10bc055bad205f3448023bd8173af42f1089854b2866426ff4f321c8cdfa"
+        }
+      ]
+    },
+    {
+      "id": "jackery-solarsaga-100w-air-solar-panel-blackout",
+      "productId": "jackery-solarsaga-100w-air",
+      "source": {
+        "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+        "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977",
+        "bytes": 205778,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+          "src": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 24488,
+          "sha256": "e7660a63de7f5e57eebe337ee1e1d36fe7a2d66ae882e889bd923aca7bca0e13"
+        },
+        {
+          "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp",
+          "src": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 96122,
+          "sha256": "7c2b8f9475b5c000b5e8e58b35ab8a72d3ef5cacb6e1fad90c2a52710d1c6a3c"
+        },
+        {
+          "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+          "src": "/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 205778,
+          "sha256": "3533d6be2c3db93ab910beef734039b92d7740039d28bfdda8f743ed64af3977"
+        }
+      ]
+    },
+    {
+      "id": "midland-er310-emergency-radio-blackout",
+      "productId": "midland-er310",
+      "source": {
+        "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+        "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c",
+        "bytes": 249316,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/blackout/midland-er310-emergency-radio-blackout-480.webp",
+          "src": "/images/blackout/midland-er310-emergency-radio-blackout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 44072,
+          "sha256": "2900218757dcf2749db3b6bd1248f992d44b0c408b1faff6202e4f0a7ce3a7a5"
+        },
+        {
+          "file": "assets/media/blackout/midland-er310-emergency-radio-blackout-960.webp",
+          "src": "/images/blackout/midland-er310-emergency-radio-blackout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 133396,
+          "sha256": "279579fb533273a05bd4167f305bdea45a14c1b8c52e139590a1755cd6a1cc16"
+        },
+        {
+          "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+          "src": "/images/blackout/midland-er310-emergency-radio-blackout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 249316,
+          "sha256": "2fe321bec56d530c6d8955873e943a1eca4333d71f9dcb85d1f8c6114ead3b5c"
+        }
+      ]
+    },
+    {
+      "id": "nanuk-904-first-aid-kit-fallout",
+      "productId": "nanuk-904-first-aid-kit",
+      "source": {
+        "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+        "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d",
+        "bytes": 313204,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+          "src": "/images/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 51432,
+          "sha256": "feb06b89350cdff0f331fb2c50d80c9acdcec74a493fd82b256eba060f1bdd76"
+        },
+        {
+          "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout-960.webp",
+          "src": "/images/fallout/nanuk-904-first-aid-kit-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 159018,
+          "sha256": "5c3f1fd7e6873fdfcdb0e22ef22a52c0a1725b2c94511d06fc13d90fed519a0b"
+        },
+        {
+          "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+          "src": "/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 313204,
+          "sha256": "bd63d95bdf35f0cf8b575ebe74f9aa682b3ddb2b3d747eb2cd9000ab8829a88d"
+        }
+      ]
+    },
+    {
+      "id": "sawyer-squeeze-sp129-water-filter-fallout",
+      "productId": "sawyer-squeeze-sp129-water-filter",
+      "source": {
+        "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+        "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede",
+        "bytes": 214632,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+          "src": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 40098,
+          "sha256": "f055d164ef021e71c2a838f3316674d7464fc9ce5ecb4db76a0f39f96a5d3743"
+        },
+        {
+          "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp",
+          "src": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 114328,
+          "sha256": "a1b99b03c98227a9896f83f9b1ee1c5f2c0697bb8dce9c6274e6f0f177f2f22d"
+        },
+        {
+          "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+          "src": "/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 214632,
+          "sha256": "63f61186fc605a94ccdc77b66353dd16e43b54ce3197a7e17d0eb76f339a4ede"
+        }
+      ]
+    },
+    {
+      "id": "reliance-aqua-tainer-7-gallon-water-container-fallout",
+      "productId": "reliance-aqua-tainer-7-gallon",
+      "source": {
+        "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+        "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476",
+        "bytes": 204054,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+          "src": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 39432,
+          "sha256": "10294ee13304b0c4063471cbb974e1a1a3ee06d9da010824fd49c396cac74293"
+        },
+        {
+          "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp",
+          "src": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 112546,
+          "sha256": "25d295efcf6fd2b2b7060076bac8d0886e61d6addf2a1f5209f0fa17b9c338f7"
+        },
+        {
+          "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+          "src": "/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 204054,
+          "sha256": "9fb48fcd2d4e20313d009e52227c47f75e9f6837e0a35177ac2d5a95f6e87476"
+        }
+      ]
+    },
+    {
+      "id": "sol-emergency-bivvy-survival-shelter-fallout",
+      "productId": "sol-emergency-bivvy",
+      "source": {
+        "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+        "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b",
+        "bytes": 315398,
+        "width": 1254,
+        "height": 1254
+      },
+      "encoding": {
+        "format": "webp",
+        "quality": 83,
+        "effort": 6,
+        "crop": false,
+        "recolor": false
+      },
+      "variants": [
+        {
+          "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+          "src": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 56618,
+          "sha256": "152c87245344a34ab251ca26ab295a31e4b7f7f95ee1762644f85a2505a5345a"
+        },
+        {
+          "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp",
+          "src": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 175034,
+          "sha256": "beef9fd77f6477540a47d2f874cbfb48c658f2073359bd0093f7cd4119209f8e"
+        },
+        {
+          "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+          "src": "/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 315398,
+          "sha256": "5824acf16f7df6622fb4a64c2eb6e281024a701c9011752beddae85687a7ac7b"
+        }
+      ]
+    }
+  ]
+}

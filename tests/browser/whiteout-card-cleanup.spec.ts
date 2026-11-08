@@ -99,3 +99,6 @@ for (const lang of ['en','fr']) test(`WHITEOUT concise cards preserve native lin
   await expect(page.locator('[data-product-id=therm-a-rest-neoair-xtherm-nxt-review] [data-card-caution]')).toContainText(lang==='fr'?'ne pas utiliser sous −20 °C':'Do not use below −20 °C');
   await context.close();
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

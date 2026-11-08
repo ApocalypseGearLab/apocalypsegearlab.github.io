@@ -1,0 +1,19 @@
+<details id="analytics-preferences" class="analytics-preferences" data-analytics-consent open>
+  <summary>Analytics preferences</summary>
+  <p>Optional Google Analytics helps us understand page visits and equipment-link clicks. It may use cookies and send device and usage information to Google. It stays off unless you allow it. Your choice does not affect navigation or Amazon.ca links.</p>
+  <p data-analytics-status role="status" aria-live="polite">Optional analytics is off until you allow it.</p>
+  <div class="choices">
+    <button type="button" class="btn" data-analytics-choice="granted" disabled>Allow analytics</button>
+    <button type="button" class="btn" data-analytics-choice="denied" disabled>Continue without analytics</button>
+  </div>
+  <p><a href="/privacy/">Read the privacy policy</a>. You can change your choice here at any time.</p>
+  <p>Without JavaScript, optional analytics stays off.</p>
+</details>
+<style>
+  .analytics-preferences { margin-top: var(--s-5); max-width: var(--measure); border: 1px solid var(--c-line); padding: var(--s-4); font-size: .9rem; }
+  summary { cursor: pointer; min-height: 2.75rem; padding-block: .5rem; color: var(--c-amber); font-weight: 700; }
+  .choices { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-4); }
+  .choices button { white-space: normal; }
+  .choices button[aria-pressed='true'] { outline: 2px solid var(--c-text); outline-offset: 2px; }
+  :global(html:not(.js)) .choices { display: none; }
+</style>

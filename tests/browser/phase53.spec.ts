@@ -61,3 +61,6 @@ test('both power-station links fire exactly one affiliate event per mouse/keyboa
  }
  mkdirSync('.tools/qa/phase5-3',{recursive:true});writeFileSync('.tools/qa/phase5-3/affiliate-events.json',JSON.stringify({simulation:true,realConversions:false,results},null,2)+'\n');
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

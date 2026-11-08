@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './tests/webkit',
+  testDir: './tests',
   fullyParallel: true,
   workers: 2,
   use: {
@@ -13,6 +13,9 @@ export default defineConfig({
   },
   projects: [320, 375, 390].map(width => ({
     name: `webkit-iphone-${width}`,
+    testMatch: [/webkit\/.*\.spec\.ts/, /browser\/privacy-phase1\.spec\.ts/,
+      /browser\/privacy-storage-phase1\.spec\.ts/,
+      ...(width === 390 ? [/browser\/responsive-phase1\.spec\.ts/] : [])],
     use: { viewport: { width, height: 844 }, screen: { width, height: 844 } },
   })),
   webServer: {

@@ -14,7 +14,7 @@ const fileFor = pathname => resolve(root, '.' + pathname, pathname.endsWith('/')
 const english = files.filter(file => !file.split(sep).join('/').startsWith('fr/'));
 const toFrench = path => path === '/404.html' ? '/fr/404/' : '/fr' + path;
 const normalize = value => value.replace(/\s+/gu, ' ').trim();
-const dictionary = Object.assign({}, ...['a', 'b', 'c', 'extra', 'fixtures', 'whiteout'].map(part => JSON.parse(read('src/i18n/fr-' + part + '.json'))));
+const dictionary = Object.assign({}, ...['a', 'b', 'c', 'extra', 'fixtures', 'whiteout', 'privacy'].map(part => JSON.parse(read('src/i18n/fr-' + part + '.json'))));
 const unchanged = new Set(['a', 'b', 'c', 'whiteout'].flatMap(part => JSON.parse(read('src/i18n/allow-' + part + '.json'))));
 const indexed = new Set();
 let affiliateControls = 0, references = 0, checkedTextNodes = 0;
@@ -38,7 +38,9 @@ for (const file of english) {
     assert.equal(page('[data-language-option="fr"]').attr('href'), frenchPath);
     assert.equal(page('[data-language-option][aria-current]').length, 1);
     assert.equal(page('meta[name="google-site-verification"]').attr('content'), 'L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk');
-    assert.equal(page('script[src*="googletagmanager.com/gtag/js"]').attr('src'), 'https://www.googletagmanager.com/gtag/js?id=G-YFJJ5N9RBX');
+    assert.equal(page('script[src*="googletagmanager.com/gtag/js"]').length, 0, 'Google must not load before opt-in');
+    assert.equal(page('[data-analytics-consent]').length,1);
+    assert.equal(page('footer a[href="'+(language==='fr-CA'?'/fr/privacy/':'/privacy/')+'"]').length,2);
     if (!page('meta[name=robots]').attr('content')?.includes('noindex') && route !== '/404.html') indexed.add(site + route);
   }
   assert.equal(fr('meta[name=robots]').attr('content'), en('meta[name=robots]').attr('content'), pathname);
