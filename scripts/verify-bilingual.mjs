@@ -15,7 +15,10 @@ const english = files.filter(file => !file.split(sep).join('/').startsWith('fr/'
 const toFrench = path => path === '/404.html' ? '/fr/404/' : '/fr' + path;
 const normalize = value => value.replace(/\s+/gu, ' ').trim();
 const dictionary = Object.assign({}, ...['a', 'b', 'c', 'extra', 'fixtures', 'whiteout', 'privacy'].map(part => JSON.parse(read('src/i18n/fr-' + part + '.json'))));
-const unchanged = new Set(['a', 'b', 'c', 'whiteout'].flatMap(part => JSON.parse(read('src/i18n/allow-' + part + '.json'))));
+const unchanged = new Set([
+  ...['a', 'b', 'c', 'whiteout'].flatMap(part => JSON.parse(read('src/i18n/allow-' + part + '.json'))),
+  'Options', // Owner-specified consent label is identical in English and French.
+]);
 const indexed = new Set();
 let affiliateControls = 0, references = 0, checkedTextNodes = 0;
 for (const row of JSON.parse(read('docs/qa/bilingual/protected-files.json'))) assert.equal(createHash('sha256').update(beforeWhiteoutPhase2(row.file, readFileSync(row.file))).digest('hex'), row.sha256, 'Protected source changed outside reviewed Phase 2 hunks: ' + row.file);

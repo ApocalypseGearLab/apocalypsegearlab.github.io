@@ -1,19 +1,94 @@
-<details id="analytics-preferences" class="analytics-preferences" data-analytics-consent open>
-  <summary>Analytics preferences</summary>
-  <p>Optional Google Analytics helps us understand page visits and equipment-link clicks. It may use cookies and send device and usage information to Google. It stays off unless you allow it. Your choice does not affect navigation or Amazon.ca links.</p>
-  <p data-analytics-status role="status" aria-live="polite">Optional analytics is off until you allow it.</p>
-  <div class="choices">
-    <button type="button" class="btn" data-analytics-choice="granted" disabled>Allow analytics</button>
-    <button type="button" class="btn" data-analytics-choice="denied" disabled>Continue without analytics</button>
+<button type="button" class="consent-reopen" data-analytics-open aria-controls="analytics-preferences" aria-expanded="false" disabled>Analytics preferences</button>
+<noscript class="consent-nojs">Without JavaScript, optional analytics stays off.</noscript>
+<section id="analytics-preferences" class="consent-card" data-analytics-consent aria-labelledby="analytics-title" hidden>
+  <header class="consent-heading">
+    <span class="consent-icon" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.2 3.1 7.5 7.5 9.5 4.4-2 7.5-5.3 7.5-9.5V6L12 3Z"/><path d="m8.5 11.8 2.2 2.2 4.8-4.8"/></svg>
+    </span>
+    <h2 id="analytics-title">Your privacy matters</h2>
+  </header>
+  <div class="consent-content">
+    <p class="consent-intro">We use optional analytics cookies to understand visits and improve ApocalypseGearLab. You can browse and use Amazon links without accepting.</p>
+    <p class="consent-status" data-analytics-status role="status" aria-live="polite">Optional analytics is off until you allow it.</p>
+    <div id="analytics-options" class="consent-options" data-analytics-options-panel hidden>
+      <div class="consent-category">
+        <div class="consent-category-heading"><strong>Essential storage</strong><span class="consent-always">Always active</span></div>
+        <p>Stores your language and privacy choices.</p>
+      </div>
+      <div class="consent-category">
+        <label class="consent-toggle"><strong>GA4 Analytics</strong><input type="checkbox" data-analytics-toggle aria-describedby="analytics-optional" /></label>
+        <p id="analytics-optional">Optional visit and equipment-link measurement. Off unless you opt in.</p>
+      </div>
+    </div>
   </div>
-  <p><a href="/privacy/">Read the privacy policy</a>. You can change your choice here at any time.</p>
-  <p>Without JavaScript, optional analytics stays off.</p>
-</details>
+  <div class="consent-controls">
+    <div class="consent-actions" data-analytics-actions>
+      <button type="button" class="consent-button consent-accept" data-analytics-choice="granted" disabled>Accept</button>
+      <button type="button" class="consent-button consent-decline" data-analytics-choice="denied" disabled>Decline</button>
+      <button type="button" class="consent-button consent-options-button" data-analytics-options aria-controls="analytics-options" aria-expanded="false" disabled>Options</button>
+    </div>
+    <div class="consent-save-actions" data-analytics-save-actions hidden>
+      <button type="button" class="consent-button consent-accept" data-analytics-save disabled>Save preferences</button>
+      <button type="button" class="consent-button consent-decline" data-analytics-back>Back</button>
+    </div>
+    <a class="consent-policy" href="/privacy/">Read the privacy policy</a>
+  </div>
+</section>
 <style>
-  .analytics-preferences { margin-top: var(--s-5); max-width: var(--measure); border: 1px solid var(--c-line); padding: var(--s-4); font-size: .9rem; }
-  summary { cursor: pointer; min-height: 2.75rem; padding-block: .5rem; color: var(--c-amber); font-weight: 700; }
-  .choices { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-4); }
-  .choices button { white-space: normal; }
-  .choices button[aria-pressed='true'] { outline: 2px solid var(--c-text); outline-offset: 2px; }
-  :global(html:not(.js)) .choices { display: none; }
+  :global(body:has(> [data-analytics-consent]:not([hidden]))) { padding-bottom: var(--analytics-consent-clearance, 26rem); }
+  .consent-reopen { margin-top: var(--s-4); padding: .5rem 0; min-height: 2.75rem; border: 0; background: transparent; color: var(--c-amber); font: inherit; text-decoration: underline; text-underline-offset: .2em; cursor: pointer; }
+  .consent-nojs { display: block; font-size: .875rem; color: var(--c-muted); }
+  .consent-card {
+    --consent-edge: var(--s-5);
+    position: fixed;
+    z-index: 80;
+    left: max(var(--consent-edge), env(safe-area-inset-left));
+    bottom: max(var(--consent-edge), env(safe-area-inset-bottom));
+    width: 28rem;
+    max-width: calc(100% - 2 * var(--consent-edge));
+    max-height: calc(100dvh - max(var(--consent-edge), env(safe-area-inset-top)) - max(var(--consent-edge), env(safe-area-inset-bottom)));
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    gap: var(--s-3);
+    padding: 1.25rem;
+    border: 1px solid var(--c-line);
+    border-color: color-mix(in srgb, var(--c-text) 24%, var(--c-line));
+    border-radius: 12px;
+    background: var(--c-bg);
+    background: radial-gradient(ellipse at top left, color-mix(in srgb, var(--c-amber) 7%, transparent), transparent 65%), var(--c-bg);
+    color: var(--c-text);
+    box-shadow: 0 16px 48px rgb(0 0 0 / .5);
+    box-shadow: 0 16px 48px rgb(0 0 0 / .5), 0 0 28px color-mix(in srgb, var(--c-amber) 6%, transparent), inset 0 1px 0 color-mix(in srgb, var(--c-text) 8%, transparent);
+    font: .875rem / 1.5 var(--f-body);
+    text-align: left;
+  }
+  .consent-heading { display: flex; align-items: center; gap: var(--s-3); }
+  .consent-icon { display: grid; place-items: center; width: 2.25rem; height: 2.25rem; flex: 0 0 auto; color: var(--c-amber); background: color-mix(in srgb, var(--c-amber) 8%, var(--c-bg)); border: 1px solid color-mix(in srgb, var(--c-amber) 28%, var(--c-line)); border-radius: 9px; }
+  .consent-heading h2 { margin: 0; font: 700 1.2rem / 1.2 var(--f-display); letter-spacing: .01em; }
+  .consent-content { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; }
+  .consent-intro { margin: 0; }
+  .consent-status { margin: var(--s-2) 0 0; font-size: .8rem; color: var(--c-muted); }
+  .consent-options { margin-top: var(--s-3); border-top: 1px solid var(--c-line); }
+  .consent-category { padding-top: var(--s-3); }
+  .consent-category + .consent-category { margin-top: var(--s-3); border-top: 1px solid var(--c-line); }
+  .consent-category-heading, .consent-toggle { display: flex; align-items: center; justify-content: space-between; gap: var(--s-2); }
+  .consent-category p { margin: var(--s-1) 0 0; font-size: .8rem; color: var(--c-muted); }
+  .consent-always { flex-shrink: 0; font-size: .7rem; color: var(--c-text); border: 1px solid var(--c-line); border-radius: 4px; padding: .15rem .4rem; }
+  .consent-toggle { min-height: 2.75rem; cursor: pointer; }
+  .consent-toggle input { width: 1.25rem; height: 1.25rem; margin: 0 .4rem; accent-color: var(--c-amber); cursor: pointer; flex-shrink: 0; }
+  .consent-controls { display: grid; gap: var(--s-2); }
+  .consent-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-2); }
+  .consent-save-actions { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: var(--s-2); }
+  .consent-button { min-width: 0; min-height: 2.75rem; padding: .65rem .5rem; border: 1px solid var(--c-line); border-radius: 6px; font: 700 .875rem / 1.25 var(--f-body); cursor: pointer; }
+  .consent-accept { background: var(--c-amber); border-color: var(--c-amber); color: var(--c-bg); }
+  .consent-decline { background: var(--c-surface-2); border-color: color-mix(in srgb, var(--c-text) 60%, var(--c-line)); color: var(--c-text); }
+  .consent-options-button { background: transparent; color: var(--c-text); }
+  .consent-button:hover { box-shadow: inset 0 0 0 1px currentColor; }
+  .consent-policy { display: inline-flex; justify-self: start; align-items: center; min-height: 2.75rem; font-size: .8rem; color: var(--c-muted); }
+  .consent-policy:hover { color: var(--c-text); }
+  .consent-card :focus-visible, .consent-reopen:focus-visible { outline: 3px solid var(--c-amber); outline-offset: 3px; }
+  @media (max-width: 37.5rem) {
+    .consent-card { --consent-edge: var(--s-3); right: max(var(--consent-edge), env(safe-area-inset-right)); width: auto; max-width: none; padding: var(--s-4); }
+    .consent-heading h2 { font-size: 1.125rem; }
+  }
 </style>

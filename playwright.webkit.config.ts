@@ -15,7 +15,7 @@ export default defineConfig({
     name: `webkit-iphone-${width}`,
     testMatch: [/webkit\/.*\.spec\.ts/, /browser\/privacy-phase1\.spec\.ts/,
       /browser\/privacy-storage-phase1\.spec\.ts/,
-      ...(width === 390 ? [/browser\/responsive-phase1\.spec\.ts/] : [])],
+      ...(width === 390 ? [/browser\/responsive-phase1\.spec\.ts/, /browser\/consent-ui\.spec\.ts/] : [])],
     use: { viewport: { width, height: 844 }, screen: { width, height: 844 } },
   })),
   webServer: {

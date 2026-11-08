@@ -25,10 +25,41 @@ export function installAnalyticsConsent(doc: Document = document) {
   if (installed.has(doc) || !doc.defaultView) return;
   installed.add(doc);
   const win = doc.defaultView as AnalyticsWindow;
-  const panel = doc.querySelector<HTMLDetailsElement>('[data-analytics-consent]');
+  const panel = doc.querySelector<HTMLElement>('[data-analytics-consent]');
   if (!panel) return; // Fail closed if the consent UI is unavailable.
   const status = panel.querySelector<HTMLElement>('[data-analytics-status]')!;
   const buttons = panel.querySelectorAll<HTMLButtonElement>('[data-analytics-choice]');
+  const toggle = panel.querySelector<HTMLInputElement>('[data-analytics-toggle]')!;
+  const options = panel.querySelector<HTMLElement>('[data-analytics-options-panel]')!;
+  const optionsButton = panel.querySelector<HTMLButtonElement>('[data-analytics-options]')!;
+  const actions = panel.querySelector<HTMLElement>('[data-analytics-actions]')!;
+  const saveActions = panel.querySelector<HTMLElement>('[data-analytics-save-actions]')!;
+  const saveButton = panel.querySelector<HTMLButtonElement>('[data-analytics-save]')!;
+  const openers = doc.querySelectorAll<HTMLButtonElement | HTMLAnchorElement>('[data-analytics-open], a[href="#analytics-preferences"]');
+  // A body child cannot be clipped or repositioned by a transformed footer/container.
+  doc.body.append(panel);
+  // Leave scroll room for footer links behind the nonmodal card, including expanded options.
+  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(() => {
+    const clearance = panel.hidden ? 0 : panel.getBoundingClientRect().height + parseFloat(win.getComputedStyle(panel).bottom) + 12;
+    doc.body.style.setProperty('--analytics-consent-clearance', clearance + 'px');
+  }).observe(panel);
+  let returnFocus: HTMLElement | undefined;
+  const show = (visible: boolean) => {
+    panel.hidden = !visible;
+    for (const opener of openers) opener.setAttribute('aria-expanded', String(visible));
+  };
+  const showOptions = (expanded: boolean) => {
+    options.hidden = !expanded;
+    actions.hidden = expanded;
+    saveActions.hidden = !expanded;
+    optionsButton.setAttribute('aria-expanded', String(expanded));
+  };
+  const close = () => {
+    show(false);
+    if (panel.contains(doc.activeElement)) {
+      (returnFocus?.isConnected ? returnFocus : doc.querySelector<HTMLElement>('main'))?.focus({preventScroll:true});
+    }
+  };
   const french = doc.documentElement.lang === 'fr-CA';
   let choice: AnalyticsChoice | undefined;
   let loaded = false;
@@ -79,6 +110,9 @@ export function installAnalyticsConsent(doc: Document = document) {
         ? (french ? 'L’analyse facultative est désactivée.' : 'Optional analytics is off.')
         : (french ? 'L’analyse facultative est désactivée tant que vous ne l’autorisez pas.' : 'Optional analytics is off until you allow it.');
     for (const button of buttons) { button.disabled = false; button.setAttribute('aria-pressed', String(button.dataset.analyticsChoice === choice)); }
+    toggle.checked = choice === 'granted';
+    optionsButton.disabled = false;
+    saveButton.disabled = false;
   };
   const start = () => {
     if (loaded || doc.documentElement.dataset.languageRedirect === 'true') return;
@@ -121,9 +155,35 @@ export function installAnalyticsConsent(doc: Document = document) {
   };
   const stored = read();
   apply(stored?.choice);
-  panel.open = !stored;
+  show(!stored);
+  for (const opener of openers) {
+    if (opener.tagName === 'BUTTON') (opener as HTMLButtonElement).disabled = false;
+    opener.addEventListener('click', event => {
+      event.preventDefault();
+      returnFocus = opener;
+      toggle.checked = choice === 'granted';
+      showOptions(false);
+      show(true);
+      buttons[0]?.focus({preventScroll:true});
+    });
+  }
   for (const button of buttons) button.addEventListener('click', () => {
     apply(button.dataset.analyticsChoice as AnalyticsChoice, true);
+    close();
+  });
+  optionsButton.addEventListener('click', () => {
+    toggle.checked = choice === 'granted';
+    showOptions(true);
+    toggle.focus({preventScroll:true});
+  });
+  const back = () => { showOptions(false); optionsButton.focus({preventScroll:true}); };
+  panel.querySelector('[data-analytics-back]')!.addEventListener('click', back);
+  panel.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !options.hidden) { event.preventDefault(); back(); }
+  });
+  saveButton.addEventListener('click', () => {
+    apply(toggle.checked ? 'granted' : 'denied', true);
+    close();
   });
   win.addEventListener('storage', event => {
     if (event.key !== ANALYTICS_CONSENT_KEY && event.key !== null) return;
@@ -132,6 +192,7 @@ export function installAnalyticsConsent(doc: Document = document) {
     try { if (record) win.sessionStorage.setItem(ANALYTICS_CONSENT_KEY, JSON.stringify(record)); else win.sessionStorage.removeItem(ANALYTICS_CONSENT_KEY); } catch { /* Optional. */ }
     const current = record?.choice === 'granted' ? read() : record;
     apply(current?.choice);
-    panel.open = !current;
+    showOptions(false);
+    show(!current);
   });
 }
