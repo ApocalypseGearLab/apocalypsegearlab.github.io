@@ -5,9 +5,10 @@ import c from './fr-c.json';
 import extra from './fr-extra.json';
 import fixtures from './fr-fixtures.json';
 import whiteout from './fr-whiteout.json';
+import privacy from './fr-privacy.json';
 import { localizedPath } from './routes';
 
-export const french: Record<string, string> = { ...a, ...b, ...c, ...extra, ...fixtures, ...whiteout };
+export const french: Record<string, string> = { ...a, ...b, ...c, ...extra, ...fixtures, ...whiteout, ...privacy };
 export const normalize = (text: string) => text.replace(/\s+/gu, ' ').trim();
 /** Fail closed: new English content cannot silently ship on a French page. */
 export function translate(text: string, strict = true): string {

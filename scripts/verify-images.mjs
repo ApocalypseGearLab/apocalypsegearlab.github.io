@@ -148,3 +148,7 @@ console.log(cinematic.stdout.trim());
 const whiteoutPhase2 = spawnSync(process.execPath, ['scripts/build-whiteout-phase2-media.mjs', '--check'], { encoding: 'utf8', windowsHide: true });
 assert.equal(whiteoutPhase2.status, 0, whiteoutPhase2.stdout + '\n' + whiteoutPhase2.stderr);
 console.log(whiteoutPhase2.stdout.trim());
+
+const responsive=spawnSync(process.execPath,['scripts/build-responsive-imported-media.mjs','--check'],{encoding:'utf8',windowsHide:true});
+assert.equal(responsive.status,0,responsive.stdout+'\n'+responsive.stderr);
+console.log(responsive.stdout.trim());

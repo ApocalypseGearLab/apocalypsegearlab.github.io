@@ -1,3 +1,4 @@
+import { hasAnalyticsConsent } from './analytics-consent';
 import { GA4_MEASUREMENT_ID } from '../config/analytics';
 
 export type CtaPlacement = 'catalogue-card' | 'collection-card' | 'profile-summary' | 'related-card' | 'compatible-filter';
@@ -54,7 +55,7 @@ export function installAffiliateAnalytics(doc: Document = document) {
   if (installed.has(doc)) return;
   installed.add(doc);
   const track = (event: MouseEvent) => {
-    if (event.defaultPrevented || (event.type === 'click' ? event.button !== 0 : event.button !== 1)) return;
+    if (!hasAnalyticsConsent(doc) || event.defaultPrevented || (event.type === 'click' ? event.button !== 0 : event.button !== 1)) return;
     const target = event.target instanceof Element ? event.target : null;
     const anchor = target?.closest<HTMLAnchorElement>('a[href]');
     if (!anchor || anchor.closest('[aria-disabled="true"], [disabled]')) return;

@@ -129,7 +129,7 @@ test('BLACKOUT artwork stays complete in cards and nested draft pages', async ({
   await expect(page.locator('.product-artwork--detail figcaption')).toContainText('Illustrated labels are not specifications');
   const detail = page.locator('.product-artwork--detail img');
   await detail.evaluate((img: HTMLImageElement) => img.decode());
-  expect(await detail.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(/fenix-cl26r-pro-camping-lantern-blackout\.webp$/);
+  expect(await detail.evaluate((img: HTMLImageElement) => img.currentSrc)).toMatch(/fenix-cl26r-pro-camping-lantern-blackout(?:-960)?\.webp$/);
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
   await page.screenshot({ path: '.tools/qa/phase-3/detail-1920.png', fullPage: true });
 });

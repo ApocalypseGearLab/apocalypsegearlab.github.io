@@ -1,7 +1,7 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { importedMedia, canPublishImportedAsset } from '../../../lib/imported-media';
+import { deliveredMedia as importedMedia, canPublishImportedAsset } from '../../../lib/imported-media';
 
 export const getStaticPaths = (() => importedMedia.filter((asset) => asset.category === 'blackout' && canPublishImportedAsset(asset)).flatMap((asset) => {
   const variants = ('variants' in asset && asset.variants) || [{file: asset.file, src: asset.deliverySrc}];

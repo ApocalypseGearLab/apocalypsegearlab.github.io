@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import Home from '../index.astro';
 import Research from '../how-we-research.astro';
 import Disclosure from '../affiliate-disclosure.astro';
+import Privacy from '../privacy.astro';
 import NotFound from '../404.astro';
 import UniverseHub from '../../components/UniverseHub.astro';
 import ProductCatalogue from '../../components/ProductCatalogue.astro';
@@ -17,6 +18,7 @@ export const getStaticPaths = (async () => [
   { params: { path: 'gear' }, props: { view: 'catalogue' } },
   { params: { path: 'how-we-research' }, props: { view: 'research' } },
   { params: { path: 'affiliate-disclosure' }, props: { view: 'disclosure' } },
+  { params: { path: 'privacy' }, props: { view: 'privacy' } },
   { params: { path: '404' }, props: { view: '404' } },
   ...UNIVERSE_IDS.map(id => ({ params: { path: id }, props: { view: 'universe', id } })),
   ...(await getVisibleProducts()).map(product => ({ params: { path: 'gear/' + product.id }, props: { view: 'product', product } })),
@@ -27,6 +29,7 @@ const { view, id, product } = Astro.props;
 {view === 'home' && <Home />}
 {view === 'research' && <Research />}
 {view === 'disclosure' && <Disclosure />}
+{view === 'privacy' && <Privacy />}
 {view === '404' && <NotFound />}
 {view === 'catalogue' && <ProductCatalogue />}
 {view === 'universe' && id && <UniverseHub id={id} />}

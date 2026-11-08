@@ -40,7 +40,7 @@ for (const file of files) {
   const isFrench = pathname.startsWith('/fr/');
   const originalPath = isFrench ? pathname.replace(/^\/fr/, '').replace('/404/', '/404.html') : pathname;
   const previousSEO=brandingBefore.pages.find(page=>page.path===pathname);
-  assert.ok(previousSEO || (isFrench && existsSync(fileFor(originalPath))) || phase7Paths.has(pathname) || ['/whiteout/','/gear/therm-a-rest-neoair-xtherm-nxt-review/'].includes(pathname),'Only explicitly approved integration routes may be added: '+pathname);
+  assert.ok(previousSEO || (isFrench && existsSync(fileFor(originalPath))) || phase7Paths.has(pathname) || ['/whiteout/','/gear/therm-a-rest-neoair-xtherm-nxt-review/','/privacy/'].includes(pathname),'Only explicitly approved integration routes may be added: '+pathname);
   if(previousSEO){
     const currentSEO={path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()};
     currentSEO.social = currentSEO.social.filter(row => !['og:locale', 'og:locale:alternate'].includes(row.name));
@@ -54,9 +54,10 @@ for (const file of files) {
   }
   assert.equal($('meta[name="google-site-verification"]').length, 1, file);
   assert.equal($('meta[name="google-site-verification"]').attr('content'), 'L1PfzJJwmxprbyNPTX3LpNLl86Ic-ivCj_JlSzI0Iwk', file);
-  assert.equal($('script[src*="googletagmanager.com/gtag/js"]').length, 1, file);
-  assert.equal($('script[src*="googletagmanager.com/gtag/js"]').attr('src'), 'https://www.googletagmanager.com/gtag/js?id=G-YFJJ5N9RBX', file);
-  assert.equal($('script[data-ga4-config]').length, 1, file);
+  assert.equal($('script[src*="googletagmanager.com/gtag/js"]').length,0,'Google must not load before opt-in: '+file);
+  assert.equal($('[data-analytics-consent]').length,1,file);
+  assert.equal($('[data-analytics-choice="granted"]').length,1,file);
+  assert.equal($('[data-analytics-choice="denied"]').length,1,file);
   assert.equal($('script[src*="gtm.js"]').length, 0, 'Do not install a parallel GTM container');
   documents.set(resolve(root, file), $);
   assert.equal($('html').attr('lang'), isFrench ? 'fr-CA' : 'en-CA', file);

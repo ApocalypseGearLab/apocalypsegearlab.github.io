@@ -99,3 +99,6 @@ test('all three HUD identities keep readable CTAs, safety notices and bottom ref
  }
  expect(errors).toEqual([]);
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

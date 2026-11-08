@@ -134,3 +134,6 @@ test('French affiliate clicks queue the existing event once with the original de
   expect(events).toHaveLength(1);
   expect(events[0]![2]).toMatchObject({ product_name: 'Midland ER310 emergency radio', product_id: 'midland-er310', asin: 'B015QIC1PW', destination_url: 'https://www.amazon.ca/dp/B015QIC1PW?tag=apocalypsegear-20', page_location: 'http://127.0.0.1:4321/fr/gear/midland-er310/' });
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

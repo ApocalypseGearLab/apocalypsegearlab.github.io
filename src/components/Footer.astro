@@ -1,4 +1,5 @@
 ---
+import AnalyticsConsent from './AnalyticsConsent.astro';
 import { SITE, NAV, AMAZON_CA_LINKING_ENABLED, AMAZON_ASSOCIATE_STATEMENT } from '../config/site';
 const year = new Date().getFullYear();
 ---
@@ -15,10 +16,12 @@ const year = new Date().getFullYear();
         {NAV.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
         <li><a href="/how-we-research/">How we research</a></li>
         <li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li>
+        <li><a href="/privacy/">Privacy policy</a></li>
       </ul>
     </nav>
   </div>
   <div class="container"><p class="label small">&copy; {year} {SITE.name}{import.meta.env.DEV && <> · Version {SITE.version}</>}</p></div>
+  <div class="container"><AnalyticsConsent /></div>
 </footer>
 
 <style>

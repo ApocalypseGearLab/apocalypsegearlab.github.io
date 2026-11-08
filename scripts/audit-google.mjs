@@ -43,14 +43,13 @@ if(renderDist){
     await route.fulfill({status:200,contentType:types[extname(file)]??'application/octet-stream',body:readFileSync(file)});
   });
 }
-if(!live) await context.route(/^https:\/\/([^/]+\.)?(google-analytics\.com|googletagmanager\.com)\//,route=>route.abort());
+if(!live) await context.route(/^https:\/\/([^/]+\.)?(google-analytics\.com|googletagmanager\.com|google\.com|doubleclick\.net)\//,route=>route.abort());
 if(live) await context.addInitScript(()=>{
   window.dataLayer=[];
-  window.gtag=function(){
-    // Scoped to this QA browser. No debug flag is shipped to real visitors.
-    if(arguments[0]==='config') arguments[2]={...arguments[2],debug_mode:true};
-    // gtag's command queue uses Arguments objects, not GTM-style arrays.
-    window.dataLayer.push(arguments);
+  const push=window.dataLayer.push;
+  window.dataLayer.push=function(...rows){
+    for(const row of rows) if(row?.[0]==='config') row[2]={...row[2],debug_mode:true};
+    return push.apply(this,rows);
   };
 });
 // Retailer is always locally simulated, including during live Google checks.
@@ -70,7 +69,7 @@ const decode=request=>{
   });
 };
 page.on('request',request=>{
-  if(!/google-analytics\.com|googletagmanager\.com/.test(new URL(request.url()).hostname)) return;
+  if(!/(^|\.)(google-analytics\.com|googletagmanager\.com|google\.com|doubleclick\.net)$/.test(new URL(request.url()).hostname)) return;
   const url=new URL(request.url());
   const row={host:url.hostname,path:url.pathname,method:request.method(),events:decode(request)};
   network.push(row);requests.set(request,row);
@@ -89,6 +88,10 @@ const waitForEvent=async(name,location)=>{
 };
 for(const path of ['/','/gear/midland-er310/','/gear/fenix-cl26r-pro/']){
   await page.goto(base+path,{waitUntil:'networkidle'});
+  if(live){
+    await page.locator('[data-analytics-consent]').evaluate(panel=>panel.open=true);
+    await page.locator('[data-analytics-choice=granted]').click();
+  }
   await waitForEvent('page_view',base+path);
   runtime.push(await page.evaluate(()=>({path:location.pathname,gtag:typeof window.gtag,
     configCount:(window.dataLayer??[]).filter(row=>row&&row[0]==='config').length,
@@ -134,6 +137,7 @@ assert.ok(resources.every(row=>row.status===200&&!row.redirected),'Some required
 assert.ok(xml.every(row=>!row.parseError&&row.namespace==='http://www.sitemaps.org/schemas/sitemap/0.9'),'Invalid XML');
 assert.ok(submitted.every(row=>row.status===200&&!row.robots?.includes('noindex')&&row.canonical===row.url),'Invalid indexable URL');
 assert.equal(errors.length,0,'Browser JavaScript errors');
+if(!live) assert.ok(runtime.every(row=>row.configCount===0&&row.loaderCount===0),'Google must stay off before permission');
 if(live){
   assert.ok(runtime.every(row=>row.configCount===1&&row.loaderCount===1),'Google integration duplicated');
   for(const row of runtime)assert.ok(network.some(request=>request.status===204&&request.events.some(event=>event.en==='page_view'&&event.dl===base+row.path)),'Missing delivered page_view: '+row.path);

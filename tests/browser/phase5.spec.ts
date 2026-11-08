@@ -67,3 +67,6 @@ test('four permitted Phase 5 links keep exact ASINs, new tabs and one affiliate 
     }
   }
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

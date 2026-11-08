@@ -56,3 +56,6 @@ test('2091 retains informational SEO, product cautions and no permanent historic
   expect(structured.join(' ')).not.toMatch(/"@type"\s*:\s*"(?:Product|Offer|AggregateRating)"/);
   await expect(page.locator('.product-artwork--detail figcaption')).toContainText('Concept illustration, not a product photograph.');
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

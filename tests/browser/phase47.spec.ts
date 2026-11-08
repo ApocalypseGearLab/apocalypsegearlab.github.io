@@ -70,3 +70,6 @@ test('2091 preserves its full HUD, responsive sources, accessibility and documen
   }
   expect((await request.get('/images/outbreak/originals/3m-2091-outbreak.png')).status()).toBe(404);
 });
+
+// Tracking assertions explicitly exercise the permitted state; default-off is tested separately.
+test.use({ analyticsPermission: true });

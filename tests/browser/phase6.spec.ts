@@ -17,7 +17,7 @@ test('catalogue search, combined filters, empty state, reset and keyboard contro
   expect(await page.evaluate(() => (window as any).__catalogueCLS)).toBe(0);
   await search.fill('ecoflow');
   await expect(visible).toHaveCount(2);
-  await expect(page.getByRole('status')).toContainText('2 matching');
+  await expect(page.locator('[data-catalogue-count]')).toContainText('2 matching');
   await page.getByLabel('Sector', { exact: true }).selectOption('fallout');
   await expect(visible).toHaveCount(0);
   await expect(page.locator('[data-catalogue-empty]')).toBeVisible();
@@ -30,7 +30,7 @@ test('catalogue search, combined filters, empty state, reset and keyboard contro
   await search.fill('aaa');
   await expect(visible).toHaveCount(1);
   await expect(visible).toContainText('Panasonic');
-  await expect(page.getByRole('status')).toContainText('1 matching equipment profile · All sectors');
+  await expect(page.locator('[data-catalogue-count]')).toContainText('1 matching equipment profile · All sectors');
   await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href', 'https://apocalypsegearlab.github.io/gear/');
   await page.getByRole('button', { name: 'Clear filters' }).click();
   await search.fill('[.*]');
