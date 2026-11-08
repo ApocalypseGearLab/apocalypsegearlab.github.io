@@ -98,7 +98,7 @@ test('final privacy policies and keyboard-operable choices retain bilingual acce
   const button=page.locator('[data-analytics-choice="denied"]');const reloaded=page.waitForEvent('load');await button.focus();await page.keyboard.press('Enter');await reloaded;await expect(page.locator('[data-analytics-loader]')).toHaveCount(0);
   await panel.locator('summary').focus();await page.keyboard.press('Enter');await expect(button).toBeVisible();
   expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
-  await page.screenshot({path:testInfo.outputPath(route.startsWith('/fr/')?'privacy-fr.png':'privacy-en.png'),fullPage:true});
+  await page.screenshot({path:testInfo.outputPath(route.startsWith('/fr/')?'privacy-fr.png':'privacy-en.png'),fullPage:true,scale:'css'});
  }
 });
 
