@@ -56,7 +56,7 @@ for(const width of [375,1440])for(const [id,[asin,,sector]]of Object.entries(PHA
 
 for(const width of [320,375,768,1024,1440,1920])test(`Phase 7 cards and category navigation remain discoverable at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:1000});await page.goto('/gear/');
- const visible=page.locator('[data-catalogue-entry]:visible');await expect(visible).toHaveCount(52);
+ const visible=page.locator('[data-catalogue-entry]:visible');await expect(visible).toHaveCount(57);
  for(const [id,[,category,sector]]of Object.entries(PHASE7)){
   const product=read(`src/data/products/${id}.json`);
   await page.getByRole('searchbox').fill(product.brand);

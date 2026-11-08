@@ -21,5 +21,25 @@
   "therm-a-rest-neoair-xtherm-nxt-review": {
     "summary": "Regular Wide / Neptune sleeping pad with R-value 7.3 and a documented weight of 540 g. An insulated ground layer for a winter sleep system.",
     "caution": "Amazon warning: Do not use below −20 °C. R-value is not a safe air-temperature rating."
+  },
+  "kahtoola-microspikes": {
+    "summary": "Stretch-on traction for winter footwear. Select the correct fit for your shoes or boots on Amazon.",
+    "caution": "The boots shown in the cinematic image are not included. MICROspikes are not a substitute for technical mountaineering crampons."
+  },
+  "darn-tough-hunter-boot-socks": {
+    "summary": "Hunter Boot socks for a winter footwear kit. Check the selected size and colour on Amazon.",
+    "caution": "Check sock and boot fit together; avoid compression that restricts circulation."
+  },
+  "smartwool-merino-250-base-layer": {
+    "summary": "A long-sleeve merino crew for a winter layering system. Confirm the selected size and colour on Amazon.",
+    "caution": "A base layer is not a weatherproof outer shell; add protection for the conditions."
+  },
+  "therm-a-rest-polar-ranger-sleeping-bag": {
+    "summary": "A down sleeping bag for a winter sleep system. Confirm the selected length and current model on Amazon.",
+    "caution": "A sleeping bag alone does not guarantee safety in extreme cold; plan ground insulation and shelter."
+  },
+  "baffin-impact-winter-boots": {
+    "summary": "Winter boots with removable inner insulation. Confirm the selected size and colour on Amazon.",
+    "caution": "Waterproof-base construction does not mean the entire boot is waterproof."
   }
 }

@@ -46,6 +46,10 @@ export const CATEGORIES = [
   { id: 'winter-gloves-mitts', label: 'Winter gloves & mitts', universe: 'whiteout' },
   { id: 'winter-headwear', label: 'Winter headwear & face layers', universe: 'whiteout' },
   { id: 'snow-goggles', label: 'Snow goggles & lens selection', universe: 'whiteout' },
+  { id: 'winter-traction', label: 'Winter footwear traction', universe: 'whiteout' },
+  { id: 'winter-socks', label: 'Winter socks', universe: 'whiteout' },
+  { id: 'winter-base-layers', label: 'Winter base layers', universe: 'whiteout' },
+  { id: 'winter-boots', label: 'Winter boots', universe: 'whiteout' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

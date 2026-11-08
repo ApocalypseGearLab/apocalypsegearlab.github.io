@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "kahtoola-microspikes-whiteout",
+      "productId": "kahtoola-microspikes",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Bottes de randonnée sur glace enneigée.png",
+      "file": "assets/media/whiteout/kahtoola-microspikes-whiteout.webp",
+      "deliverySrc": "/images/whiteout/kahtoola-microspikes-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "file": "assets/media/whiteout/kahtoola-microspikes-whiteout-480.webp",
+          "src": "/images/whiteout/kahtoola-microspikes-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 53652,
+          "sha256": "f6f9015ae58f60eb543ab89c2eb2826af3b3e1ed19fea386d93721a1a6a3cbde",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/kahtoola-microspikes-whiteout-960.webp",
+          "src": "/images/whiteout/kahtoola-microspikes-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 180144,
+          "sha256": "cbc6726e051ad98e34b6388d646fe3d81fbf865b174a68c4c5a47b549ac045dd",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/kahtoola-microspikes-whiteout.webp",
+          "src": "/images/whiteout/kahtoola-microspikes-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 249964,
+          "sha256": "28c48d0c72e144bd9a8d9a5838a030d87d6bd4145f4790606c8dc2c66185a08a",
+          "quality": 80
+        }
+      ],
+      "alt": "Cinematic illustration of red Kahtoola MICROspikes fitted over black hiking boots on ice; boots not included",
+      "captionNote": "The boots shown in the cinematic image are not included. MICROspikes are not a substitute for technical mountaineering crampons.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "references": [
+        "https://kahtoola.com/traction/microspikes-footwear-traction/"
+      ],
+      "reviewedAt": "2026-11-08",
+      "source": {
+        "filename": "Bottes de randonnée sur glace enneigée.png",
+        "file": "assets/media/whiteout/source/kahtoola-microspikes.png",
+        "bytes": 2802015,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "9474212c4734ba20bb1b85695f42b3ae23480c40693d2604d0bc67c1b726f76e"
+      },
+      "encoding": {
+        "format": "webp",
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT image attachment",
+        "scope": "Authorized cinematic illustration; not variant or performance evidence",
+        "confirmedAt": "2026-11-08"
+      },
+      "bytes": 249964,
+      "sha256": "28c48d0c72e144bd9a8d9a5838a030d87d6bd4145f4790606c8dc2c66185a08a",
+      "mappingCsv": "assets/media/whiteout-products-image-manifest.csv"
+    },
+    {
+      "id": "darn-tough-hunter-boot-socks-whiteout",
+      "productId": "darn-tough-hunter-boot-socks",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Chaussettes de randonnée dans un cadre futuriste.png",
+      "file": "assets/media/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+      "deliverySrc": "/images/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "file": "assets/media/whiteout/darn-tough-hunter-boot-socks-whiteout-480.webp",
+          "src": "/images/whiteout/darn-tough-hunter-boot-socks-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 47490,
+          "sha256": "8903c185a4bf6d011394e80808070eb876ac5a9c3fbc5eb506d482eb0ab16c9b",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/darn-tough-hunter-boot-socks-whiteout-960.webp",
+          "src": "/images/whiteout/darn-tough-hunter-boot-socks-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 194860,
+          "sha256": "d31c56d0231e2c02f5b231910e0e854509a8d631c5c4b413bdba7e67d18f3261",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+          "src": "/images/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 240856,
+          "sha256": "7c47523b70e9617b0eff124878673a8b32cb09ea6f41ebc463811dfe6ab35a16",
+          "quality": 74
+        }
+      ],
+      "alt": "Cinematic illustration of grey and black Darn Tough socks with orange accents on ice",
+      "captionNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "references": [
+        "https://darntough.com/products/mens-merino-wool-boot-full-cushion-heavyweight-hunting-socks"
+      ],
+      "reviewedAt": "2026-11-08",
+      "source": {
+        "filename": "Chaussettes de randonnée dans un cadre futuriste.png",
+        "file": "assets/media/whiteout/source/darn-tough-hunter-boot-socks.png",
+        "bytes": 2972350,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "19021b3d6ed2f8c9415ff92e974b69c6a2b39bf3331c2346c322ddb7357a18e3"
+      },
+      "encoding": {
+        "format": "webp",
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT image attachment",
+        "scope": "Authorized cinematic illustration; not variant or performance evidence",
+        "confirmedAt": "2026-11-08"
+      },
+      "bytes": 240856,
+      "sha256": "7c47523b70e9617b0eff124878673a8b32cb09ea6f41ebc463811dfe6ab35a16",
+      "mappingCsv": "assets/media/whiteout-products-image-manifest.csv"
+    },
+    {
+      "id": "smartwool-merino-250-base-layer-whiteout",
+      "productId": "smartwool-merino-250-base-layer",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Sous-vêtement Smartwool dans la glace futuriste.png",
+      "file": "assets/media/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+      "deliverySrc": "/images/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "file": "assets/media/whiteout/smartwool-merino-250-base-layer-whiteout-480.webp",
+          "src": "/images/whiteout/smartwool-merino-250-base-layer-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 25668,
+          "sha256": "0b7d1ccbd8ce496e400633f83c192b573376086bb664e27d669acd2be179eb1d",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/smartwool-merino-250-base-layer-whiteout-960.webp",
+          "src": "/images/whiteout/smartwool-merino-250-base-layer-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 81514,
+          "sha256": "9388386ba17fc8bd16fb827bd7443356b86b1d8983d3dac86379f56de8f905cc",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+          "src": "/images/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 135298,
+          "sha256": "27b925957eea405324ef7ff967be9bc99c0609b074371954e29ec947884a4a0f",
+          "quality": 82
+        }
+      ],
+      "alt": "Cinematic illustration of a black Smartwool long-sleeve crew-neck base layer on ice",
+      "captionNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "references": [
+        "https://www.smartwool.com/en-ca/products/mens-classic-thermal-merino-base-layer-crew-boxed-sw016350"
+      ],
+      "reviewedAt": "2026-11-08",
+      "source": {
+        "filename": "Sous-vêtement Smartwool dans la glace futuriste.png",
+        "file": "assets/media/whiteout/source/smartwool-merino-250-base-layer.png",
+        "bytes": 2358502,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "a082650ad623464d2bcd58a78f0ec7fb4a092021fac2897ccbe0dd7d29c65199"
+      },
+      "encoding": {
+        "format": "webp",
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT image attachment",
+        "scope": "Authorized cinematic illustration; not variant or performance evidence",
+        "confirmedAt": "2026-11-08"
+      },
+      "bytes": 135298,
+      "sha256": "27b925957eea405324ef7ff967be9bc99c0609b074371954e29ec947884a4a0f",
+      "mappingCsv": "assets/media/whiteout-products-image-manifest.csv"
+    },
+    {
+      "id": "therm-a-rest-polar-ranger-sleeping-bag-whiteout",
+      "productId": "therm-a-rest-polar-ranger-sleeping-bag",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Sac de couchage orange sur glace futuriste.png",
+      "file": "assets/media/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+      "deliverySrc": "/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "file": "assets/media/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout-480.webp",
+          "src": "/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 45364,
+          "sha256": "e673f330a596a24c05fc2b4b295bafb0d7f61c1da0abd2cf05cb5f09fa557275",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout-960.webp",
+          "src": "/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 154244,
+          "sha256": "e00da88d937673e1296d976b03500440b57a489e1c3d7312a980742ea7140f51",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+          "src": "/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 236008,
+          "sha256": "e8c9be873f72ff883384e11b063404874a8e9942e1eff28c15ef40cb6f298b2b",
+          "quality": 82
+        }
+      ],
+      "alt": "Cinematic illustration of an orange Therm-a-Rest Polar Ranger sleeping bag with blue lining on ice",
+      "captionNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "references": [
+        "https://cascadedesigns.com/products/polar-ranger-20f-30c-down-sleeping-bag"
+      ],
+      "reviewedAt": "2026-11-08",
+      "source": {
+        "filename": "Sac de couchage orange sur glace futuriste.png",
+        "file": "assets/media/whiteout/source/therm-a-rest-polar-ranger-sleeping-bag.png",
+        "bytes": 2560389,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "368ca3e88a6366068a0d014e2d8bff8c53cd23115b77cc2c3697c1816fdb2fda"
+      },
+      "encoding": {
+        "format": "webp",
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT image attachment",
+        "scope": "Authorized cinematic illustration; not variant or performance evidence",
+        "confirmedAt": "2026-11-08"
+      },
+      "bytes": 236008,
+      "sha256": "e8c9be873f72ff883384e11b063404874a8e9942e1eff28c15ef40cb6f298b2b",
+      "mappingCsv": "assets/media/whiteout-products-image-manifest.csv"
+    },
+    {
+      "id": "baffin-impact-winter-boots-whiteout",
+      "productId": "baffin-impact-winter-boots",
+      "category": "whiteout",
+      "usage": "current-product",
+      "sourceOriginalName": "Bottes Baffin dans un désert glacé futuriste.png",
+      "file": "assets/media/whiteout/baffin-impact-winter-boots-whiteout.webp",
+      "deliverySrc": "/images/whiteout/baffin-impact-winter-boots-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "file": "assets/media/whiteout/baffin-impact-winter-boots-whiteout-480.webp",
+          "src": "/images/whiteout/baffin-impact-winter-boots-whiteout-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 43288,
+          "sha256": "2bb4f7a50f4ab19c958f52da7a729250af3581df5fea07b3e04c7111fb1355ab",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/baffin-impact-winter-boots-whiteout-960.webp",
+          "src": "/images/whiteout/baffin-impact-winter-boots-whiteout-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 160226,
+          "sha256": "62267394e2b2d163454d186f54f40656b6544bfcb1ec97509ce97671e66cc2ea",
+          "quality": 82
+        },
+        {
+          "file": "assets/media/whiteout/baffin-impact-winter-boots-whiteout.webp",
+          "src": "/images/whiteout/baffin-impact-winter-boots-whiteout.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 237884,
+          "sha256": "8ab01609722c8926af031433343751ceb82f900366095d40dd453f89edc2f56f",
+          "quality": 80
+        }
+      ],
+      "alt": "Cinematic illustration of black Baffin Impact winter boots with double buckles on ice",
+      "captionNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "rightsStatus": "confirmed-by-owner",
+      "accuracyStatus": "reviewed-illustration",
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "references": [
+        "https://www.baffin.com/products/40000048"
+      ],
+      "reviewedAt": "2026-11-08",
+      "source": {
+        "filename": "Bottes Baffin dans un désert glacé futuriste.png",
+        "file": "assets/media/whiteout/source/baffin-impact-winter-boots.png",
+        "bytes": 2878709,
+        "width": 1254,
+        "height": 1254,
+        "sha256": "42be2581558648ece175e54bcdf5a2d2c2e944c0bb45e1053f8326ffa7898ed1"
+      },
+      "encoding": {
+        "format": "webp",
+        "resize": true,
+        "crop": false,
+        "recolor": false
+      },
+      "provenance": {
+        "source": "Owner-supplied WHITEOUT image attachment",
+        "scope": "Authorized cinematic illustration; not variant or performance evidence",
+        "confirmedAt": "2026-11-08"
+      },
+      "bytes": 237884,
+      "sha256": "8ab01609722c8926af031433343751ceb82f900366095d40dd453f89edc2f56f",
+      "mappingCsv": "assets/media/whiteout-products-image-manifest.csv"
+    }
+  ]
+}

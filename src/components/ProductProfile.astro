@@ -148,7 +148,7 @@ const breadcrumbs = {
       <h2 id="sources">Technical Sources &amp; References</h2>
       <p>Documentation for the specifications and limitations above. Manufacturer references and retailer identity evidence serve different purposes; these are not additional purchase options.</p>
       <ol class="sources">{references.map(source => <li id={source.anchor}>
-        {research?.purchaseDestination?.sourceIds.includes(source.id) && source.kind === 'retailer' && /^https:\/\/(?:www\.)?amazon\.ca\//.test(source.url) ? <><span data-source-id={source.id}>{source.title}</span>{' '}<span>Owner-supplied screenshot; use the buying options above for the retailer destination.</span></> : <a href={source.url} data-source-click data-product={product.id} data-source-id={source.id} data-source-kind={source.kind}>{source.title}</a>}
+        {research?.purchaseDestination?.sourceIds.includes(source.id) && source.kind === 'retailer' && /^https:\/\/(?:www\.)?amazon\.ca\//.test(source.url) ? <><span data-source-id={source.id}>{source.title}</span>{' '}<span>{research.purchaseDestination.method === 'live-page' ? 'Retailer page inspected live; use the buying options above for the retailer destination.' : 'Owner-supplied screenshot; use the buying options above for the retailer destination.'}</span></> : <a href={source.url} data-source-click data-product={product.id} data-source-id={source.id} data-source-kind={source.kind}>{source.title}</a>}
         <span class="label"> · {source.kind.replaceAll('-', ' ')}</span>
       </li>)}</ol>
       <p class="label">A source-check date records the research visit. It does not guarantee the current seller, inventory, recall status or certification of a delivered unit.</p>

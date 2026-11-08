@@ -6,6 +6,7 @@ import { spawnSync } from 'node:child_process';
 import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
 import { PHASE7 } from './phase7-preservation.mjs';
 import { WHITEOUT_PHASE2_IDS } from './whiteout-phase2-preservation.mjs';
+import { WHITEOUT_PRODUCT_IDS } from './whiteout-products-preservation.mjs';
 
 const policy = spawnSync(process.execPath, [resolve('node_modules/tsx/dist/cli.mjs'), 'scripts/release-check.ts'], {encoding:'utf8'});
 assert.equal(policy.status,0,policy.stderr);
@@ -13,7 +14,7 @@ const commercialState = new Map(JSON.parse(policy.stdout).products.map(row=>[row
 const root = resolve('dist');
 assert.ok(existsSync(root), 'Run npm run build first');
 const site = 'https://apocalypsegearlab.github.io';
-const phase7Paths=new Set([...Object.keys(PHASE7), ...WHITEOUT_PHASE2_IDS].map(id=>`/gear/${id}/`));
+const phase7Paths=new Set([...Object.keys(PHASE7), ...WHITEOUT_PHASE2_IDS, ...WHITEOUT_PRODUCT_IDS].map(id=>`/gear/${id}/`));
 const brandingBefore=JSON.parse(readFileSync('docs/qa/branding/seo-before.json','utf8'));
 assert.equal(brandingBefore.baseCommit,'00af8b6dc543619981a4646331f08688933d4c9e');
 assert.equal(brandingBefore.pages.length,49);
@@ -23,7 +24,7 @@ const universeFor = (category) => {
   assert.ok(match, `Unknown category: ${category}`);
   return match[2];
 };
-const suppliedMedia = ['imported-manifest', 'whiteout-manifest', 'whiteout-phase2-manifest'].flatMap(name => JSON.parse(readFileSync(`src/data/media/${name}.json`, 'utf8')).assets);
+const suppliedMedia = ['imported-manifest', 'whiteout-manifest', 'whiteout-phase2-manifest', 'whiteout-products-manifest'].flatMap(name => JSON.parse(readFileSync(`src/data/media/${name}.json`, 'utf8')).assets);
 const files = readdirSync(root, { recursive: true }).filter((name) => name.endsWith('.html'));
 const textArtifacts = readdirSync(root, { recursive: true }).filter((name) => /\.(html|xml|txt|json|js|css)$/.test(name)).map((name) => ({ name, text: readFileSync(resolve(root, name), 'utf8') }));
 const documents = new Map();

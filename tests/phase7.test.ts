@@ -27,7 +27,7 @@ test('Phase 7 preserves all 41 earlier records, every old media byte, logo, navi
  }
  assert.deepEqual(importedMedia.slice(0,41),baseline.manifest.assets);
  assert.deepEqual({...read('src/data/media/imported-manifest.json'),assets:importedMedia.slice(0,41)},baseline.manifest);
- assert.equal(importedMedia.length,52);assert.equal(CATEGORIES.length,44);
+ assert.equal(importedMedia.length,57);assert.equal(CATEGORIES.length,48);
 });
 
 test('Phase 7 append projection still rejects old content changes and unrelated source edits',()=>{
@@ -66,7 +66,7 @@ for(const [id,[asin,category,sector,stem]]of Object.entries(PHASE7))test(`${id} 
 
 test('new equipment remains discoverable through shared categories while model-specific caveats stay explicit',()=>{
  const products=readdirSync('src/data/products').filter(f=>f.endsWith('.json')).map(f=>({id:f.slice(0,-5),data:productSchema.parse(read('src/data/products/'+f))} as Product));
- assert.equal(populatedCategories(products).length,32);
+ assert.equal(populatedCategories(products).length,36);
  for(const [,category]of Object.values(PHASE7))assert.ok(populatedCategories(products).some(c=>c.id===category));
  const content=(id:string)=>JSON.stringify(read('src/data/products/'+id+'.json'));
  assert.match(content('vortex-diamondback-hd-10x42-review'),/DB-215-OBL/);
