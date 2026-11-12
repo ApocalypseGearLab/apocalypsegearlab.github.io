@@ -15,8 +15,13 @@ for(const id of ['blackout','fallout','outbreak','whiteout'])for(const width of 
  await page.screenshot({path:`docs/qa/four-universes/screenshots/${id}-${width}.png`});
 });
 test('WHITEOUT category filters and documented product page retain the temperature restriction',async({page})=>{
- await page.goto('/gear/#category-winter-sleep-systems');await expect(page.locator('[data-catalogue-entry]:visible')).toHaveCount(1);
- await page.locator('[data-catalogue-entry]:visible h3 a').click();await expect(page).toHaveURL(/therm-a-rest-neoair-xtherm-nxt-review/);
+ await page.goto('/gear/#category-winter-sleep-systems');
+ const sleepLinks=page.locator('[data-catalogue-entry]:visible h3 a');
+ expect(await sleepLinks.evaluateAll(links=>links.map(link=>link.getAttribute('href')).sort())).toEqual([
+  '/gear/therm-a-rest-neoair-xtherm-nxt-review/', '/gear/therm-a-rest-polar-ranger-sleeping-bag/',
+ ]);
+ await sleepLinks.filter({hasText:'NeoAir XTherm NXT'}).click();await expect(page).toHaveURL(/therm-a-rest-neoair-xtherm-nxt-review/);
+ await page.waitForLoadState('load');
  await expect(page.locator('a[href*="B0CS4P19QQ"]')).toHaveCount(0);await expect(page.locator('[data-product-purchase] [aria-disabled=true]')).toHaveCount(0);
  await expect(page.locator('[data-product-purchase] a[data-affiliate-click]')).toHaveAttribute('href','https://www.amazon.ca/dp/B0CS54SN91?tag=apocalypsegear-20');
  await expect(page.locator('[data-product-purchase] [data-purchase-destination=product-page]')).toContainText('Do not use below −20 °C');
