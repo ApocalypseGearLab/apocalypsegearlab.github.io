@@ -4,7 +4,6 @@ import sharp from 'sharp';
 import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { canPublishImportedAsset } from '../src/lib/imported-media-policy.mjs';
-import { WHITEOUT_PHASE2_IDS } from './whiteout-phase2-preservation.mjs';
 
 const manifest = JSON.parse(await readFile('src/data/media/manifest.json', 'utf8'));
 const sources = JSON.parse(await readFile('scripts/image-sources.json', 'utf8'));
@@ -73,9 +72,17 @@ assert.equal(supplied.assets.filter(asset=>asset.category==='blackout').length,1
 assert.equal(supplied.assets.filter(asset=>asset.category==='outbreak').length,16);
 assert.equal(new Set(supplied.assets.map(asset=>asset.sha256)).size,46);
 assert.equal(new Set(supplied.assets.filter(asset=>asset.productId).map(asset=>asset.productId)).size,46);
-const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json' && file !== 'therm-a-rest-neoair-xtherm-nxt-review.json' && !WHITEOUT_PHASE2_IDS.includes(file.replace(/\.json$/, ''))).map(file => file.replace(/\.json$/, ''));
-assert.equal(productIds.length,46);
-assert.deepEqual(productIds.filter(id=>!supplied.assets.some(asset=>asset.productId===id)),[],'Every product maps to its distinct artwork record; Explorer 300 remains rejected');
+// Catalogue coverage spans the same four manifests as runtime image delivery.
+// Keep the legacy manifest's 46-asset contract above, but never compare its
+// subset with newer WHITEOUT products or exempt products by a growing ID list.
+const whiteoutAssets = (await Promise.all(['whiteout-manifest', 'whiteout-phase2-manifest', 'whiteout-products-manifest'].map(async name =>
+  JSON.parse(await readFile(`src/data/media/${name}.json`, 'utf8')).assets
+))).flat();
+const catalogueAssets = [...supplied.assets, ...whiteoutAssets];
+const productIds = (await readdir('src/data/products')).filter(file => file.endsWith('.json') && file !== 'template-product.json').map(file => file.replace(/\.json$/, '')).sort();
+const mappedIds = catalogueAssets.map(asset => asset.productId);
+assert.equal(new Set(mappedIds).size, mappedIds.length, 'Each product has one distinct artwork record');
+assert.deepEqual([...mappedIds].sort(), productIds, 'Every catalogue product maps to artwork across all manifests; Explorer 300 remains rejected');
 const csv=await readFile(supplied.csv,'utf8');
 for(const asset of supplied.assets){
   assert.match(asset.file,/^assets\/media\/(blackout|fallout|outbreak)\/[a-z0-9-]+\.webp$/);
