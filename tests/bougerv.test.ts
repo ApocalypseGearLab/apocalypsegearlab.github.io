@@ -23,7 +23,7 @@ test('BougeRV additions preserve all 36 existing JSON records, prior media, acco
   const b=beforeFourUniverses(row.file,readFileSync(row.file));assert.equal(hash(row.normaliseNewlines?b.toString('utf8').replace(/\r\n/g,'\n'):b),row.sha256,row.file);
  }
  assert.equal(before.previousAssets.length,36);assert.deepEqual(importedMedia.slice(0,36),before.previousAssets);
- assert.equal(importedMedia.length,52);assert.equal(importedMedia.filter(canPublishImportedAsset).length,51);
+ assert.equal(importedMedia.length,57);assert.equal(importedMedia.filter(canPublishImportedAsset).length,56);
  assert.equal(CATEGORIES.find(c=>c.id==='portable-refrigeration')!.id,'portable-refrigeration');assert.equal(categoryUniverse('portable-refrigeration'),'blackout');
 });
 

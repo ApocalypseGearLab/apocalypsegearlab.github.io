@@ -68,7 +68,7 @@ for (const width of [320, 375, 768, 1440]) for (const language of ['en', 'fr']) 
     }
   }
   await page.goto(`${prefix}/whiteout/#gear`);
-  await expect(page.locator('article.card')).toHaveCount(6);
+  await expect(page.locator('article.card')).toHaveCount(11);
   expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([]);
   if ([375, 1440].includes(width)) {
     for (const image of await page.locator('article.card img').all()) {

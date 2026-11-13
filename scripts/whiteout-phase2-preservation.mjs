@@ -1,4 +1,5 @@
 import {beforePhase1, imagesBeforePhase1} from './phase1-preservation.mjs';
+import {beforeWhiteoutProducts, WHITEOUT_PRODUCT_IDS} from './whiteout-products-preservation.mjs';
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 const changes = JSON.parse(readFileSync(new URL('../docs/qa/whiteout-phase2/source-changes.json', import.meta.url), 'utf8'));
@@ -7,6 +8,7 @@ const globalCardLabels = JSON.parse(readFileSync(new URL('../docs/qa/global-card
 /** Reverse only reviewed Phase 2 hunks before older frozen baseline checks.
  * Unrelated edits outside a hunk survive projection; edits inside it fail closed. */
 export function beforeWhiteoutPhase2(file, bytes) {
+  bytes = beforeWhiteoutProducts(file, bytes);
   bytes = beforePhase1(file, bytes);
   for (const reviewed of [globalCardLabels, cardCleanup]) if (reviewed[file]) {
     let source = bytes.toString('utf8').replace(/\r\n/g, '\n');
@@ -31,6 +33,8 @@ export const WHITEOUT_PHASE2_IDS = [
   'smartwool-thermal-merino-reversible-cuffed-beanie',
 ];
 export function imagesBeforeWhiteoutPhase2(path, images) {
+  const current = new Set(WHITEOUT_PRODUCT_IDS.flatMap(id => [480, 960, 1254].map(width => `/images/whiteout/${id}-whiteout${width === 1254 ? '' : '-' + width}.webp`)));
+  images = images.filter(image => !current.has(image.src ?? ''));
   images = imagesBeforePhase1(images);
   if (!['/gear/', '/whiteout/', '/gear/therm-a-rest-neoair-xtherm-nxt-review/'].includes(path)) return images;
   const added = new Set(WHITEOUT_PHASE2_IDS.flatMap(id => [480, 960, 1254].map(width => `/images/whiteout/${id}-whiteout${width === 1254 ? '' : '-' + width}.webp`)));

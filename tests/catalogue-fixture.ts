@@ -34,7 +34,13 @@ export const PHASE53 = {
   'bluetti-elite-100-v2-solar-generator-kit':['B0FD3VBD6G','power-stations',true],
 } as const;
 import { PHASE7 } from '../scripts/phase7-preservation.mjs';
-export const ACTIVE_PRODUCTS = ['therm-a-rest-neoair-xtherm-nxt-review','outdoor-research-alti-ii-gore-tex-mitts','hestra-army-leather-heli-ski-gloves','oakley-flight-deck-m-goggles','smartwool-nts-250-balaclava','smartwool-thermal-merino-reversible-cuffed-beanie',...Object.keys(PHASE7),'jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration','fnirsi-gc-01-geiger-counter','midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket',...Object.keys(PHASE55),...Object.keys(BOUGERV),...Object.keys(PHASE53),...Object.keys(OUTBREAK),...Object.keys(PHASE46_FILTERS),...Object.keys(FILTER_2091),...Object.entries(PHASE5).filter(([,entry])=>entry[2]).map(([id])=>id)];
+export const ACTIVE_PRODUCTS = [
+  'kahtoola-microspikes',
+  'darn-tough-hunter-boot-socks',
+  'smartwool-merino-250-base-layer',
+  'therm-a-rest-polar-ranger-sleeping-bag',
+  'baffin-impact-winter-boots',
+'therm-a-rest-neoair-xtherm-nxt-review','outdoor-research-alti-ii-gore-tex-mitts','hestra-army-leather-heli-ski-gloves','oakley-flight-deck-m-goggles','smartwool-nts-250-balaclava','smartwool-thermal-merino-reversible-cuffed-beanie',...Object.keys(PHASE7),'jackery-explorer-1000-v2','fenix-cl26r-pro','jackery-solarsaga-100w-air','sawyer-squeeze-sp129-water-filter','reliance-aqua-tainer-7-gallon','leatherman-wave-plus-multitool','sol-emergency-bivvy','fenix-hm50r-v2-headlamp','datrex-dx2400f-emergency-food-ration','fnirsi-gc-01-geiger-counter','midland-er310','sos-3600-calorie-emergency-food-rations','readywise-84-servings-emergency-food-bucket',...Object.keys(PHASE55),...Object.keys(BOUGERV),...Object.keys(PHASE53),...Object.keys(OUTBREAK),...Object.keys(PHASE46_FILTERS),...Object.keys(FILTER_2091),...Object.entries(PHASE5).filter(([,entry])=>entry[2]).map(([id])=>id)];
 
 export {BOUGERV} from './bougerv-fixture';
 

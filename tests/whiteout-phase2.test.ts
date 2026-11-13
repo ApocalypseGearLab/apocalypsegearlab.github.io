@@ -1,4 +1,5 @@
 import test from 'node:test';
+import { WHITEOUT_PRODUCT_IDS } from '../scripts/whiteout-products-preservation.mjs';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -26,7 +27,7 @@ test('Phase 2 adds exactly five products and preserves every original protected 
   const before = read('docs/qa/whiteout-phase2/before.json');
   assert.equal(before.baseCommit, '658bbef6c748f4a2ece7555458275e246d9ef600');
   const oldIds = before.files.filter((r: {file:string}) => r.file.startsWith('src/data/products/')).map((r:{file:string}) => r.file.split('/').at(-1));
-  assert.deepEqual(readdirSync('src/data/products').filter(file => !oldIds.includes(file)).sort(), WHITEOUT_PHASE2_IDS.map(id => id + '.json').sort());
+  assert.deepEqual(readdirSync('src/data/products').filter(file => !oldIds.includes(file) && !WHITEOUT_PRODUCT_IDS.some(id => file === id + '.json')).sort(), WHITEOUT_PHASE2_IDS.map(id => id + '.json').sort());
   for (const row of before.files) assert.equal(hash(beforeWhiteoutPhase2(row.file, readFileSync(row.file))), row.sha256, row.file);
   for (const file of ['src/config/taxonomy.ts', `src/data/products/${xId}.json`]) {
     const bytes = readFileSync(file);

@@ -43,10 +43,10 @@ test('account and status changes preserve all products, release/SEO/tracking rul
 
 test('all 52 products have independently assessed dimensions; the account declaration grants no product publication or new links',()=>{
  const statuses=products.map(productVerification);
- assert.equal(statuses.length,52);assert.equal(statuses.filter(s=>s.modelDocumented).length,51);
+ assert.equal(statuses.length,57);assert.equal(statuses.filter(s=>s.modelDocumented).length,56);
  assert.equal(statuses.filter(s=>s.listingStatus==='owner-documented').length,23);
  assert.equal(statuses.filter(s=>s.listingStatus==='independently-verified').length,0);
- assert.equal(statuses.filter(s=>s.linkActive).length,47);assert.equal(statuses.filter(s=>s.safetyStatus==='cleared').length,4);
+ assert.equal(statuses.filter(s=>s.linkActive).length,52);assert.equal(statuses.filter(s=>s.safetyStatus==='cleared').length,4);
  assert.equal(statuses.filter(s=>s.safetyStatus==='blocked').length,2);assert.equal(statuses.filter(s=>s.editorialApproved).length,4);assert.equal(statuses.filter(s=>s.fullyApproved).length,0);
  for(const product of products){
   assert.equal(isCommerciallyApproved(product),false);assert.ok(publicationIssues(product).length);

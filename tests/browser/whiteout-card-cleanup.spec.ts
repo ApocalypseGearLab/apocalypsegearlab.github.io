@@ -22,7 +22,7 @@ for (const width of [320, 375, 768, 1440]) for (const lang of ['en', 'fr']) {
     for (const route of ['/whiteout/', '/gear/?sector=whiteout']) {
       await page.goto(prefix + route);
       const cards = page.locator('article.card:visible');
-      await expect(cards).toHaveCount(6);
+      await expect(cards).toHaveCount(Object.keys(copy).length);
       for (const [id, content] of Object.entries(copy)) {
         const card = page.locator(`article[data-product-id="${id}"]`);
         const product = products[id];
@@ -73,7 +73,7 @@ for (const width of [320, 375, 768, 1440]) for (const lang of ['en', 'fr']) {
           const popup = await opened; await expect(popup).toHaveURL(products[id].links.amazonCa.url); await popup.close();
         }
         const events = await page.evaluate(() => ((window as unknown as {dataLayer: unknown[][]}).dataLayer ?? []).map(event => Array.from(event)).filter(event => event[1] === 'affiliate_click').map(event => event[2]));
-        expect(events).toHaveLength(6);
+        expect(events).toHaveLength(Object.keys(copy).length);
         for (const id of Object.keys(copy)) expect(events).toContainEqual(expect.objectContaining({ product_id:id, asin:products[id].links.amazonCa.asin, destination_url:products[id].links.amazonCa.url, marketplace:'ca' }));
       }
     }

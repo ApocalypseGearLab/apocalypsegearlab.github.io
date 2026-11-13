@@ -73,13 +73,13 @@ for (const { slug, data } of drafts) {
 
 for (const route of ['/blackout/', '/fallout/', '/outbreak/', '/whiteout/', '/gear/']) {
   test(`${route} exposes the registered profiles in its correct sector`, async ({ page }) => {
-    // The full catalogue decodes 51 pictures and audits all 52 cards at six
+    // The full catalogue decodes 56 pictures and audits all 57 cards at six
     // widths with full-page captures. This is a bounded QA workload, not a
     // page-load performance test; the smaller sector collections retain 60s.
     test.setTimeout(route === '/gear/' ? 90_000 : 60_000);
     const sector = route === '/gear/' ? null : route.slice(1,-1);
     const selected = drafts.filter(({data}) => !sector || categoryUniverse(data.category) === sector);
-    const images = route === '/blackout/' ? 17 : route === '/fallout/' ? 12 : route === '/outbreak/' ? 16 : route === '/whiteout/' ? 6 : 51;
+    const images = route === '/blackout/' ? 17 : route === '/fallout/' ? 12 : route === '/outbreak/' ? 16 : route === '/whiteout/' ? 11 : 56;
     await page.goto(route);
     await expect(page.locator('article.card')).toHaveCount(selected.length);
     await expect(page.locator('.neutral-media')).toHaveCount(selected.length-images);

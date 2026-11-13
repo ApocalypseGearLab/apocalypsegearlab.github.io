@@ -1,0 +1,119 @@
+{
+  "name": "Darn Tough Hunter Boot socks",
+  "brand": "Darn Tough",
+  "modelNumber": "2101",
+  "category": "winter-socks",
+  "summary": "Hunter Boot socks for a winter footwear kit. Check the selected size and colour on Amazon.",
+  "description": "Boot-height hunting socks; heavyweight with full cushion. The manufacturer documents the product family below. The supplied Amazon.ca URL was inspected live for product-page identity; it does not guarantee the selected size, colour, revision or delivered unit. The cinematic artwork is an illustration, not specification evidence.",
+  "outboundPolicy": "documentary-references",
+  "specsStatus": "manufacturer-documented",
+  "specs": [
+    {
+      "label": "Documented product type",
+      "value": "Boot-height hunting socks; heavyweight with full cushion",
+      "source": "https://darntough.com/products/mens-merino-wool-boot-full-cushion-heavyweight-hunting-socks"
+    }
+  ],
+  "pros": [],
+  "cons": [
+    "Check sock and boot fit together; avoid compression that restricts circulation."
+  ],
+  "useCases": [],
+  "editorial": {
+    "purchaseChecks": [
+      "Confirm the selected size, colour, seller and package contents on Amazon before buying."
+    ]
+  },
+  "image": {
+    "src": "/images/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+    "alt": "Cinematic illustration of grey and black Darn Tough socks with orange accents on ice",
+    "credit": "Owner-supplied cinematic concept illustration",
+    "license": "Owner-authorized WHITEOUT assets"
+  },
+  "merchant": {
+    "name": "Amazon.ca",
+    "notes": "Live Amazon.ca supplied URL displays DARN TOUGH (2101) Hunter Boot heavyweight full cushion socks. Size selection is required. No fibre percentage, selected size, seller authentication or exact-variant guarantee is inferred."
+  },
+  "links": {
+    "amazonCa": {
+      "asin": "B096M49HRL",
+      "url": "https://www.amazon.ca/dp/B096M49HRL?tag=apocalypsegear-20"
+    },
+    "amazonCom": {
+      "asin": null,
+      "url": null
+    },
+    "partners": []
+  },
+  "testing": "not-tested",
+  "reviewStatus": "draft",
+  "visibility": "informational",
+  "lastVerified": null,
+  "sources": [
+    {
+      "id": "manufacturer-model",
+      "title": "Darn Tough — Hunter Boot heavyweight socks, style 2101",
+      "url": "https://darntough.com/products/mens-merino-wool-boot-full-cushion-heavyweight-hunting-socks",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "amazon-live-page",
+      "title": "Amazon.ca — product page inspected live",
+      "url": "https://www.amazon.ca/dp/B096M49HRL",
+      "kind": "retailer"
+    }
+  ],
+  "relatedProducts": [
+    "therm-a-rest-neoair-xtherm-nxt-review"
+  ],
+  "research": {
+    "checkedAt": "2026-11-08",
+    "identityNotes": "Live Amazon.ca supplied URL displays DARN TOUGH (2101) Hunter Boot heavyweight full cushion socks. Size selection is required. No fibre percentage, selected size, seller authentication or exact-variant guarantee is inferred.",
+    "listingVerified": false,
+    "affiliateReview": {
+      "decision": "link-permitted",
+      "asin": "B096M49HRL",
+      "checkedAt": "2026-11-08",
+      "reason": "Live Amazon.ca supplied URL displays DARN TOUGH (2101) Hunter Boot heavyweight full cushion socks. Size selection is required. No fibre percentage, selected size, seller authentication or exact-variant guarantee is inferred.",
+      "sourceIds": [
+        "manufacturer-model",
+        "amazon-live-page"
+      ]
+    },
+    "confirmed": [
+      {
+        "text": "Boot-height hunting socks; heavyweight with full cushion",
+        "sourceIds": [
+          "manufacturer-model"
+        ]
+      }
+    ],
+    "unverifiedClaims": [
+      "Confirm the selected size, colour, seller and package contents on Amazon before buying."
+    ],
+    "safetyNotes": [
+      "Check sock and boot fit together; avoid compression that restricts circulation.",
+      "Keep a dry spare pair and change wet socks. Socks alone do not establish a safe cold-exposure time."
+    ],
+    "safetyStatus": "pending",
+    "publicationApproved": false,
+    "publicationBlockers": [
+      "Exact selected-variant authentication, full product-specific safety review and editorial publication approval remain incomplete."
+    ],
+    "purchaseDestination": {
+      "url": "https://www.amazon.ca/dp/B096M49HRL",
+      "asin": "B096M49HRL",
+      "scope": "product-page",
+      "matchedProduct": "Darn Tough Hunter Boot socks",
+      "method": "live-page",
+      "checkedAt": "2026-11-08",
+      "sourceIds": [
+        "manufacturer-model",
+        "amazon-live-page"
+      ],
+      "selectionNote": "Confirm the selected size, colour, seller and package contents on Amazon before buying.",
+      "safetyDecision": "link-permitted",
+      "safetyReason": "Product-page identity matched live. Visible limitations remain; this does not grant full safety certification or editorial publication."
+    }
+  }
+}
