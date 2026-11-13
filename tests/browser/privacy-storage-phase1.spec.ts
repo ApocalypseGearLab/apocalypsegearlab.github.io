@@ -17,7 +17,7 @@ function restrictStorage(mode:Restriction) {
  Object.defineProperty(window,'sessionStorage',{configurable:true,get(){throw new Error('Session storage unavailable');}});
 }
 const choose=async(page:any,value:'granted'|'denied')=>{
- await page.locator('[data-analytics-consent]').evaluate((panel:HTMLDetailsElement)=>panel.open=true);
+ if(!await page.locator('[data-analytics-consent]').isVisible())await page.locator('[data-analytics-open]').click();
  await page.locator('[data-analytics-choice="'+value+'"]').click();
 };
 const commands=(page:any)=>page.evaluate(()=>((window as any).dataLayer??[]).map((row:any)=>Array.from(row)));
