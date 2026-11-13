@@ -91,4 +91,23 @@
     .consent-card { --consent-edge: var(--s-3); right: max(var(--consent-edge), env(safe-area-inset-right)); width: auto; max-width: none; padding: var(--s-4); }
     .consent-heading h2 { font-size: 1.125rem; }
   }
+
+  @media (max-width: 63.999rem) {
+    /* Keep the sticky header reachable, even with Options open. */
+    .consent-card { max-height: calc(100dvh - var(--site-header-height, 4rem) - max(var(--consent-edge), env(safe-area-inset-top)) - max(var(--consent-edge), env(safe-area-inset-bottom))); }
+    /* Separate scroll regions: the drawer ends above the fixed decision card. */
+    :global(body:has(> [data-analytics-consent]:not([hidden])) .site-nav[data-open='true']) {
+      max-height: max(3.5rem, calc(100dvh - var(--site-header-height, 4rem) - var(--analytics-consent-clearance, 26rem)));
+    }
+    :global(body:has(.site-nav[data-open='true'])) .consent-card {
+      max-height: calc(100dvh - var(--site-header-height, 4rem) - 5rem - max(var(--consent-edge), env(safe-area-inset-top)) - max(var(--consent-edge), env(safe-area-inset-bottom)));
+    }
+  }
+  @media (max-width: 63.999rem) and (max-height: 30rem) {
+    /* Compact landscape keeps the menu and the decision targets on screen. */
+    .consent-card { padding: var(--s-3); gap: var(--s-2); grid-template-rows: minmax(0, 1fr) auto; }
+    .consent-heading { display: none; }
+    :global(body:has(.site-nav[data-open='true'])) .consent-card { max-height: none; gap: 0; grid-template-rows: auto; }
+    :global(body:has(.site-nav[data-open='true'])) .consent-content { display: none; }
+  }
 </style>

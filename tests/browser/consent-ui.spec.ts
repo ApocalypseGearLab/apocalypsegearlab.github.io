@@ -98,3 +98,50 @@ test.describe('preference decisions and access',()=>{
   await page.screenshot({path:testInfo.outputPath('consent-fr-landscape.png'),scale:'css'});
  });
 });
+
+test.describe('mobile drawer and consent share the viewport',()=>{
+ const separated=async(page:Page)=>{
+  await expect.poll(async()=>{
+   const drawer=(await page.locator('#site-nav').boundingBox())!,consent=(await card(page).boundingBox())!;
+   return Math.round(consent.y-drawer.y-drawer.height);
+  }).toBeGreaterThanOrEqual(8);
+  await visibleControlsFit(page);
+ };
+ for(const width of [320,375,390])test.describe(width+'px portrait',()=>{
+  test.use({viewport:{width,height:568},isMobile:true,hasTouch:true,deviceScaleFactor:1,reducedMotion:'reduce'});
+  for(const language of ['en','fr'] as const)test(language+': drawer controls and pending consent never intercept each other',async({page},testInfo)=>{
+   await page.goto(language==='fr'?'/fr/':'/');await expect(card(page)).toBeVisible();
+   const menu=page.locator('.nav-toggle');await menu.click();await separated(page);
+   await expect(menu).toHaveAttribute('aria-expanded','true');
+   for(const button of await page.locator('.sector-toggle').all()){
+    await button.click();await expect(button).toHaveAttribute('aria-expanded','true');await separated(page);
+   }
+   await expect(page.locator('#site-nav')).toHaveAttribute('data-open','true');
+   expect(await page.locator('#site-nav').evaluate(element=>element.scrollHeight>element.clientHeight)).toBe(true);
+   expect(await page.evaluate(()=>localStorage.getItem('agl-analytics-consent'))).toBe(null);await expect(requests(page)).toHaveCount(0);
+   if(width===320&&language==='fr')await page.screenshot({path:testInfo.outputPath('drawer-consent-fr-320.png'),scale:'css'});
+   await page.keyboard.press('Escape');await expect(menu).toBeFocused();await expect(menu).toHaveAttribute('aria-expanded','false');
+   await expect(card(page)).toBeVisible();await expect(card(page)).toHaveCSS('position','fixed');
+   // Choosing Options from beside the open drawer must receive its native click.
+   await menu.click();await page.locator('[data-analytics-options]').click();
+   await expect(menu).toHaveAttribute('aria-expanded','false');await expect(page.locator('[data-analytics-toggle]')).toBeFocused();
+   // Opening navigation from Options also leaves a real, non-overlapping scroll region.
+   await menu.click();await separated(page);await expect(page.locator('[data-analytics-options-panel]')).toBeVisible();
+   await page.keyboard.press('Escape');await expect(menu).toBeFocused();
+   await expect(page.locator('[data-analytics-toggle]')).not.toBeChecked();
+   await page.locator('[data-analytics-back]').click();await visibleControlsFit(page);
+   expect(await page.evaluate(()=>localStorage.getItem('agl-analytics-consent'))).toBe(null);await expect(requests(page)).toHaveCount(0);
+   await page.locator('[data-analytics-choice="denied"]').click();await expect(card(page)).toBeHidden();
+   expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('agl-analytics-consent')!).choice)).toBe('denied');
+  });
+ });
+ for(const width of [320,375,390])test('short '+width+'px: compact decisions stay clickable beside the drawer',async({page})=>{
+  await page.setViewportSize({width,height:320});await page.goto('/fr/');await expect(card(page)).toBeVisible();await visibleControlsFit(page);
+  const menu=page.locator('.nav-toggle');await menu.click();await separated(page);
+  await page.locator('[aria-controls="menu-guides"]').click();await expect(page.locator('#menu-guides')).toBeVisible();await separated(page);
+  if(width===320)expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
+  await page.locator('[data-analytics-options]').click();await expect(menu).toHaveAttribute('aria-expanded','false');
+  await expect(page.locator('.consent-content')).toBeVisible();await expect(page.locator('[data-analytics-toggle]')).not.toBeChecked();await visibleControlsFit(page);
+  expect(await page.evaluate(()=>localStorage.getItem('agl-analytics-consent'))).toBe(null);await expect(requests(page)).toHaveCount(0);
+ });
+});
