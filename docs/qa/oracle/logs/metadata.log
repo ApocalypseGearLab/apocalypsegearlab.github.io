@@ -1,0 +1,70 @@
+
+> apocalypsegearlab@0.1.0 test:metadata
+> tsx scripts/verify-product-metadata.ts
+
+{
+  "generatedAt": "2026-11-20T02:12:14.440Z",
+  "mode": "built",
+  "requireOfficial": false,
+  "jsonFiles": 58,
+  "invalidFiles": [],
+  "products": 57,
+  "templates": 1,
+  "public": 57,
+  "suspended": 3,
+  "eligible": 54,
+  "eligibleWithoutJsonImage": [
+    "3m-2091-p100-particulate-filters",
+    "ecoflow-river-2-pro",
+    "fenix-cl26r-pro",
+    "fenix-hm50r-v2-headlamp",
+    "jackery-explorer-1000-v2",
+    "jackery-solarsaga-100w-air",
+    "leatherman-wave-plus-multitool",
+    "midland-er310",
+    "nanuk-904-first-aid-kit",
+    "reliance-aqua-tainer-7-gallon",
+    "sawyer-squeeze-sp129-water-filter",
+    "sol-emergency-bivvy"
+  ],
+  "universes": {
+    "blackout": {
+      "products": 18,
+      "public": 18,
+      "suspended": 3,
+      "eligible": 15,
+      "sourceImages": 15,
+      "metadataPassed": 15,
+      "officialVerified": 0
+    },
+    "fallout": {
+      "products": 12,
+      "public": 12,
+      "suspended": 0,
+      "eligible": 12,
+      "sourceImages": 12,
+      "metadataPassed": 12,
+      "officialVerified": 0
+    },
+    "outbreak": {
+      "products": 16,
+      "public": 16,
+      "suspended": 0,
+      "eligible": 16,
+      "sourceImages": 16,
+      "metadataPassed": 16,
+      "officialVerified": 0
+    },
+    "whiteout": {
+      "products": 11,
+      "public": 11,
+      "suspended": 0,
+      "eligible": 11,
+      "sourceImages": 11,
+      "metadataPassed": 11,
+      "officialVerified": 0
+    }
+  },
+  "errors": [],
+  "report": "docs/qa/oracle/built.json"
+}

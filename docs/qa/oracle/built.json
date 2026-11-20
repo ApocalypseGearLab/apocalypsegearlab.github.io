@@ -1,0 +1,2264 @@
+{
+  "generatedAt": "2026-11-20T02:12:14.440Z",
+  "mode": "built",
+  "requireOfficial": false,
+  "jsonFiles": 58,
+  "invalidFiles": [],
+  "products": 57,
+  "templates": 1,
+  "public": 57,
+  "suspended": 3,
+  "eligible": 54,
+  "eligibleWithoutJsonImage": [
+    "3m-2091-p100-particulate-filters",
+    "ecoflow-river-2-pro",
+    "fenix-cl26r-pro",
+    "fenix-hm50r-v2-headlamp",
+    "jackery-explorer-1000-v2",
+    "jackery-solarsaga-100w-air",
+    "leatherman-wave-plus-multitool",
+    "midland-er310",
+    "nanuk-904-first-aid-kit",
+    "reliance-aqua-tainer-7-gallon",
+    "sawyer-squeeze-sp129-water-filter",
+    "sol-emergency-bivvy"
+  ],
+  "universes": {
+    "blackout": {
+      "products": 18,
+      "public": 18,
+      "suspended": 3,
+      "eligible": 15,
+      "sourceImages": 15,
+      "metadataPassed": 15,
+      "officialVerified": 0
+    },
+    "fallout": {
+      "products": 12,
+      "public": 12,
+      "suspended": 0,
+      "eligible": 12,
+      "sourceImages": 12,
+      "metadataPassed": 12,
+      "officialVerified": 0
+    },
+    "outbreak": {
+      "products": 16,
+      "public": 16,
+      "suspended": 0,
+      "eligible": 16,
+      "sourceImages": 16,
+      "metadataPassed": 16,
+      "officialVerified": 0
+    },
+    "whiteout": {
+      "products": 11,
+      "public": 11,
+      "suspended": 0,
+      "eligible": 11,
+      "sourceImages": 11,
+      "metadataPassed": 11,
+      "officialVerified": 0
+    }
+  },
+  "errors": [],
+  "productsAudit": [
+    {
+      "id": "3m-2091-p100-particulate-filters",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/3m-2091-p100-particulate-filters/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-2091-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/dc/v101229317/",
+        "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewNote": "Two circular magenta filters with 2091 and P100 markings, green HUD border intact. Repeated rotated 2091/3M markings are part of the supplied concept illustration, not authentic batch labels, manufacturer endorsement, certification or proof of the ASIN sale-pack quantity. No 2097 nuisance-vapor feature is inferred.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 298638,
+      "observed": {
+        "title": "Filtres à particules P100 3M 2091 : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/3m-2091-p100-particulate-filters/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-2091-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de deux filtres à particules P100 3M 2091 roses dans un cadre d’interface tactique vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/3m-2091-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 298638
+      }
+    },
+    {
+      "id": "3m-2097-p100-particulate-filters",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/3m-2097-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/3m-2097-p100-particulate-filters/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-2097-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000075275/",
+        "https://multimedia.3m.com/mws/media/528153O/3m-particulate-filters-2000-and-2200-series-p100-user-instructions.pdf?fn=UserInstruction-Reusable-Respirator_Filter_P-100_2096_R6.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewNote": "Ten circular pink 2097-style filters counted in five visual pairs. Repeated or distorted batch/date/NIOSH markings are synthetic and not evidence of authenticity, expiration, approval or the quantity actually sold under the ASIN.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 405850,
+      "observed": {
+        "title": "Filtres à particules P100 3M 2097 : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/3m-2097-p100-particulate-filters/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-2097-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de dix filtres ronds roses de style 3M 2097 dans un cadre d’inventaire OUTBREAK vert; la quantité illustrée n’est pas un emballage de vente vérifié"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/3m-2097-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 405850
+      }
+    },
+    {
+      "id": "3m-60921-organic-vapor-p100-cartridges",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/3m-60921-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/3m-60921-organic-vapor-p100-cartridges/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-60921-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000075262/",
+        "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewNote": "Two swept-back pink cartridge/filter housings, black organic-vapor bands, pale bases and 60921 model marks retained. Synthetic small print and NIOSH lettering are not authentic approval labels, service-life evidence or seller authentication.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 227560,
+      "observed": {
+        "title": "Cartouches-filtres 3M 60921 contre les vapeurs organiques/P100 : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/3m-60921-organic-vapor-p100-cartridges/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-60921-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de deux cartouches-filtres roses de style 3M 60921 avec bandes noires dans un cadre d’inventaire OUTBREAK vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/3m-60921-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 227560
+      }
+    },
+    {
+      "id": "3m-60926-multi-gas-vapor-p100-cartridges",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/3m-60926-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-60926-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000057497/",
+        "https://multimedia.3m.com/mws/media/525967O/3m-combination-cartridge-filter-p100-user-instructions.pdf?fn=34872376057_INT_R5.pdf",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf"
+      ],
+      "reviewNote": "Two pink swept-back housings with olive/yellow multi-gas bands, pale bases and 60926 markings retained. Generated fine print and certification-style markings are illustrative, not proof of an approved or genuine delivered assembly.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 229298,
+      "observed": {
+        "title": "Cartouches-filtres P100 3M 60926 multigaz et vapeurs : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/3m-60926-multi-gas-vapor-p100-cartridges/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-60926-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de deux cartouches-filtres roses de style 3M 60926 avec bandes jaune olive dans un cadre d’inventaire OUTBREAK vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/3m-60926-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 229298
+      }
+    },
+    {
+      "id": "3m-6800-full-facepiece-respirator",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/3m-6800-full-facepiece-respirator/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000057488/",
+        "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf?fn=Facepieces_6700-6800-6900.pdf",
+        "https://multimedia.3m.com/mws/media/2602924O/3m-6000-full-facepiece-reusable-respirator.pdf"
+      ],
+      "reviewNote": "Grey full facepiece, clear visor, harness and empty orange side connections retained. No filters or cartridges are installed. Branding and shape are conceptual, not proof of authenticity, approved assembly or included accessories.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 228614,
+      "observed": {
+        "title": "Respirateur réutilisable à pièce faciale complète 3M 6800 : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/3m-6800-full-facepiece-respirator/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un respirateur réutilisable à pièce faciale complète 3M 6800, sans filtres ni cartouches, dans un cadre d’inventaire tactique vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 228614
+      }
+    },
+    {
+      "id": "3m-aura-9205-n95-respirator",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/3m-aura-9205-n95-respirator/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/dc/v101271017/",
+        "https://multimedia.3m.com/mws/media/1950388O/tech-spec-3m-aura-particulate-respirator-9205-n95-canada-en.pdf",
+        "https://multimedia.3m.com/mws/media/994462O/3m-particulate-respirator-n95-9205-9210-9211-user-instructions.pdf",
+        "https://multimedia.3m.com/mws/media/1960842O/3m-8210-9205-9210-counterfeit-communication-letter.pdf"
+      ],
+      "reviewNote": "White three-panel facepiece, blue headbands and depicted 9205+/TC-84A-8590 agree with the Canadian model reference. Printed approval markings in concept art do not authenticate any unit.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 215282,
+      "observed": {
+        "title": "Respirateur à particules N95 3M Aura 9205+ : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/3m-aura-9205-n95-respirator/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un respirateur à particules N95 3M Aura 9205+ dans un cadre d’inventaire tactique vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 215282
+      }
+    },
+    {
+      "id": "3m-gogglegear-500-safety-goggles",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/3m-gogglegear-500-safety-goggles/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.3mcanada.ca/3M/en_CA/p/d/v000244796/",
+        "https://multimedia.3m.com/mws/media/2567231O/3m-gogglegear-protective-goggle-500-series.pdf?fn=tds-gogglegear-500-series-en.pdf"
+      ],
+      "reviewNote": "Clear wraparound lens, grey/red shroud and adjustable cloth strap agree in general form with the GG501SGAF reference. No depicted certification mark is treated as evidence.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 243558,
+      "observed": {
+        "title": "Lunettes de protection 3M GoggleGear 500 : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/3m-gogglegear-500-safety-goggles/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de lunettes de protection 3M GoggleGear 500 dans un cadre d’inventaire tactique vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 243558
+      }
+    },
+    {
+      "id": "511-tactical-rush72-2-backpack",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/511-tactical-rush72-2-backpack/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.511tactical.com/rush72-2-0-backpack.html"
+      ],
+      "reviewNote": "Black tactical backpack with front webbing and side pockets; illustration does not authenticate a 5.11 package.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 210890,
+      "observed": {
+        "title": "Sac à dos 5.11 Tactical RUSH72 2.0 de 55 L : caractéristiques, utilisations et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/511-tactical-rush72-2-backpack/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un sac à dos 5.11 Tactical RUSH72 2.0 de 55 L dans un cadre d’inventaire tactique vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 210890
+      }
+    },
+    {
+      "id": "baffin-impact-winter-boots",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/baffin-impact-winter-boots-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/baffin-impact-winter-boots/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/baffin-impact-winter-boots-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.baffin.com/products/40000048"
+      ],
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 237884,
+      "observed": {
+        "title": "Bottes d’hiver Baffin Impact : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/baffin-impact-winter-boots/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/baffin-impact-winter-boots-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique de bottes d’hiver Baffin Impact noires à doubles boucles sur la glace"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/baffin-impact-winter-boots-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 237884
+      }
+    },
+    {
+      "id": "bluetti-elite-100-v2-solar-generator-kit",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/bluetti-elite-100-v2-solar-generator-kit/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.bluettipower.ca/pages/elite-100-v2-launch",
+        "https://cdn.shopify.com/s/files/1/0550/5620/3836/files/Elite_100_V2_User_Manual_US_EN-FR.pdf?v=1753954794",
+        "https://www.bluettipower.ca/pages/solar-generator"
+      ],
+      "reviewNote": "Graphite housing, recessed handle, front AC outlets and folding-panel composition retained. Artwork abbreviates the model to Elite 100 and depicts simplified USB wattage markings: the US manual specifies separate 140 W and 100 W USB-C ports. Do not read the drawn markings as technical facts, panel model, certification or proof of retailer package contents. Full V2 identity is supplied by the profile and documented sources.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 226494,
+      "observed": {
+        "title": "BLUETTI Elite 100 V2 — offre solaire de 200 W : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/bluetti-elite-100-v2-solar-generator-kit/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une station graphite de style BLUETTI Elite 100 V2 et d’un panneau solaire pliant dans un cadre d’interface ambre; le panneau ne prouve pas le contenu de l’ensemble"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 226494
+      }
+    },
+    {
+      "id": "bougerv-53-quart-portable-refrigerator-freezer",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://ca.bougerv.com/products/12v-portable-car-freezer",
+        "https://cdn.shopify.com/s/files/1/2672/9544/files/12V_53_Quart_50L_Portable_Refrigerator-User-Manual.pdf?v=1659926718"
+      ],
+      "reviewNote": "The closed lid, gray/charcoal body, upper control area and side carry handle fit the documented 53 QT E-series form. Lettering and connector marks are illustrative, not authenticated specifications. The picture does not establish capacity, exact revision, certification or supplied accessories.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 210164,
+      "observed": {
+        "title": "Réfrigérateur/congélateur portatif BougeRV de 53 QT : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/bougerv-53-quart-portable-refrigerator-freezer/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un réfrigérateur portatif gris et anthracite de style BougeRV 53 QT, couvercle fermé, dans un cadre BLACKOUT ambre; les étiquettes sont illustratives"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 210164
+      }
+    },
+    {
+      "id": "bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://ca.bougerv.com/products/rocky-dual-zone-metal-fridge"
+      ],
+      "reviewNote": "The open lid, removable-divider-style interior, metal/dark shell and upper controls are consistent with the documented Rocky V3.0 dual-zone form. The phone, cans, small display text and lower battery-style module are conceptual props; they do not prove app-screen accuracy or included accessories. Original colors and the full amber frame are preserved.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 226186,
+      "observed": {
+        "title": "Glacière électrique portative pour véhicule BougeRV Rocky V3.0 55QT à deux zones : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un réfrigérateur à deux zones argenté et foncé de style BougeRV Rocky V3.0 55QT, couvercle ouvert, avec un téléphone et des canettes dans un cadre BLACKOUT ambre; les accessoires et les valeurs sont illustratifs"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 226186
+      }
+    },
+    {
+      "id": "darn-tough-hunter-boot-socks",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/darn-tough-hunter-boot-socks/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://darntough.com/products/mens-merino-wool-boot-full-cushion-heavyweight-hunting-socks"
+      ],
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 240856,
+      "observed": {
+        "title": "Chaussettes Darn Tough Hunter Boot : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/darn-tough-hunter-boot-socks/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique de chaussettes Darn Tough grises et noires avec accents orange sur la glace"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 240856
+      }
+    },
+    {
+      "id": "datrex-dx2400f-emergency-food-ration",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/datrex-dx2400f-emergency-food-ration/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.datrex.com/wp-content/uploads/2018/01/Datrex-DX2400F-Emergency-Ration.pdf",
+        "https://www.datrex.com/wp-content/uploads/2026/01/Datrex-Commercial-catalog-2025-July-11-web.pdf"
+      ],
+      "reviewNote": "White/red DX2400F-style pack and unwrapped bars retained. Illustrated count, texture, regulatory numbers and label spelling are not authoritative. Twelve 200-kcal bars and 2400 kcal per packet come from manufacturer documents, not the art.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 271838,
+      "observed": {
+        "title": "Ration alimentaire d’urgence Datrex DX2400F — 2400 calories : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/datrex-dx2400f-emergency-food-ration/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une ration alimentaire d’urgence Datrex DX2400F — 2400 calories dans un cadre d’inventaire tactique rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 271838
+      }
+    },
+    {
+      "id": "ecoflow-delta-2-portable-power-station",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/ecoflow-delta-2-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/ecoflow-delta-2-portable-power-station/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/ecoflow-delta-2-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://ca.ecoflow.com/products/delta-2-portable-power-station",
+        "https://manuals.ecoflow.com/us/product/delta-2-portable-power-station?lang=en_US"
+      ],
+      "reviewNote": "Supplied front USB layout, side battery connector, black/silver housing and handle are consistent with the documented DELTA 2 form. Small logo lettering, screen readings and connector labels are stylized, not authenticated markings or specifications. No AC outlet count can be inferred from this front view.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 174444,
+      "observed": {
+        "title": "Station d’alimentation portable EcoFlow DELTA 2 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/ecoflow-delta-2-portable-power-station/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/ecoflow-delta-2-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une station d’alimentation noire et argentée de style EcoFlow DELTA 2 dans un cadre d’interface ambre; les valeurs affichées et les étiquettes sont illustratives"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/ecoflow-delta-2-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 174444
+      }
+    },
+    {
+      "id": "ecoflow-river-2-pro",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/ecoflow-river-2-pro/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://ca.ecoflow.com/products/river-2-pro-portable-power-station"
+      ],
+      "reviewNote": "Housing, three USB-A plus USB-C layout, display, DC group and four AC outlets are consistent with the official RIVER 2 Pro view. Small screen text is not technical evidence.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 131338,
+      "observed": {
+        "title": "EcoFlow RIVER 2 Pro : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/ecoflow-river-2-pro/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une station d’alimentation EcoFlow grise et noire dans un cadre ambre"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 131338
+      }
+    },
+    {
+      "id": "esee-4-fixed-blade-knife",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/esee-4-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/esee-4-fixed-blade-knife/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/esee-4-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.eseeknives.com/product/esee-4"
+      ],
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 337880,
+      "observed": {
+        "title": "Couteau à lame fixe ESEE-4 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/esee-4-fixed-blade-knife/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/esee-4-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une lame fixe noire de style ESEE-4 avec plaquettes de manche grises texturées, étui noir et attache de ceinture dans un cadre HUD vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/esee-4-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 337880
+      }
+    },
+    {
+      "id": "fenix-cl26r-pro",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/fenix-cl26r-pro/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.fenixlight.com/product/cl26r-pro/"
+      ],
+      "reviewNote": "Same composition as the previously reviewed CL26R Pro illustration. Diffuser, control dial and camouflage body are consistent with the official reference; the upper serial-style marking is not an authenticated model or serial number.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 120578,
+      "observed": {
+        "title": "Lanterne rechargeable Fenix CL26R Pro : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/fenix-cl26r-pro/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une lanterne de camping Fenix camouflage dans un cadre d’inventaire ambre"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 120578
+      }
+    },
+    {
+      "id": "fenix-hm50r-v2-headlamp",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/fenix-hm50r-v2-headlamp/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.fenixlight.com/product/hm50r-v2-0/",
+        "https://www.fenixlighting.com/products/fenix-hm50r-v2-rechargeable-headlamp"
+      ],
+      "reviewNote": "Compared with the official Fenix Lighting HM50R V2.0 image: black detachable right-angle body, end switch, clip and black/orange strap agree. The body marking HM50R also appears in the official V2 image. Rendered microtext is not a revision, LED or battery specification.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 237356,
+      "observed": {
+        "title": "Lampe frontale rechargeable Fenix HM50R V2.0 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/fenix-hm50r-v2-headlamp/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une lampe frontale rechargeable Fenix HM50R V2.0 dans un cadre d’inventaire ambre"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 237356
+      }
+    },
+    {
+      "id": "fenix-pd36r-pro-review",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/fenix-pd36r-pro-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/fenix-pd36r-pro-review/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/fenix-pd36r-pro-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.fenixlighting.com/products/fenix-pd36r-pro-rechargeable-flashlight",
+        "https://www.fenixlighting.com/blogs/news/everything-to-know-about-fenix-pd36r-pro"
+      ],
+      "reviewNote": "Compared with Fenix’s PD36R Pro reference: black cylindrical body, pocket clip, head and dual-tail-control form fit the intended handheld light. Small lettering, internal components and depicted accessories cannot authenticate the retail package. Original diagonal composition and amber frame retained without crop or recolouring.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 227874,
+      "observed": {
+        "title": "Lampe de poche rechargeable Fenix PD36R Pro : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/fenix-pd36r-pro-review/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/fenix-pd36r-pro-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une lampe de poche noire de style Fenix PD36R Pro en diagonale avec un étui noir et un petit boîtier en plastique dans le cadre d’interface BLACKOUT ambre complet"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/fenix-pd36r-pro-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 227874
+      }
+    },
+    {
+      "id": "fnirsi-gc-01-geiger-counter",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/fnirsi-gc-01-geiger-counter/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.fnirsi.com/products/gc-01"
+      ],
+      "reviewNote": "Yellow and black GC-01-style handheld with a green chart. The displayed rate omits /h and min/max/graph values do not reconcile; all readings are illustrative. No calibration, authentic display or nuclear-safety result is implied.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 162448,
+      "observed": {
+        "title": "Compteur Geiger FNIRSI GC-01 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/fnirsi-gc-01-geiger-counter/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un compteur Geiger FNIRSI GC-01 dans un cadre d’inventaire tactique rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 162448
+      }
+    },
+    {
+      "id": "garmin-gpsmap-67i-satellite-gps",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/garmin-gpsmap-67i-satellite-gps/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GPSMAP_67i_OM_EN-US.pdf",
+        "https://www8.garmin.com/manuals/webhelp/GUID-11021D65-32D1-4558-A83E-F7F74FF88D7E/EN-US/GUID-9DDF5575-3DDE-4FA7-8165-F47F128F5180.html"
+      ],
+      "reviewNote": "Handheld GPS with antenna, physical controls and side SOS cover in the documented family form. Screen/map/message graphics are illustrative, not proof of service or actual navigation data.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 225804,
+      "observed": {
+        "title": "Communicateur satellite Garmin GPSMAP 67i : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/garmin-gpsmap-67i-satellite-gps/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle du communicateur satellite Garmin GPSMAP 67i dans un cadre d’inventaire vert tactique"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 225804
+      }
+    },
+    {
+      "id": "garrett-pro-pointer-at-review",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/fallout/garrett-pro-pointer-at-fallout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/garrett-pro-pointer-at-review/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/garrett-pro-pointer-at-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://garrett.com/garrett-pro-pointer-at/?d=sport",
+        "https://garrett.com/sites/default/files/2019-11/1538800_propointer_at_english.pdf"
+      ],
+      "reviewNote": "Compared with Garrett’s standard Pro-Pointer AT reference and manual: orange tapered housing, side button, black end cap and holster fit the intended form. Supplied revision has no USA flag sticker. Small lettering, battery brand and kit contents remain illustrative. FALLOUT is editorial classification; the original orange HUD is not recoloured.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 237052,
+      "observed": {
+        "title": "Garrett Pro-Pointer AT : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/garrett-pro-pointer-at-review/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/garrett-pro-pointer-at-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un détecteur de métaux de précision orange de style Garrett Pro-Pointer AT, d’un étui noir et d’une pile de 9 V dans le cadre d’interface orange complet"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/garrett-pro-pointer-at-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 237052
+      }
+    },
+    {
+      "id": "gerber-strongarm-fixed-blade-knife",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/gerber-strongarm-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/gerber-strongarm-fixed-blade-knife/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/gerber-strongarm-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://gerbergear.com/products/strongarm-coyote-brown-plain-edge-30-001058n"
+      ],
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 331718,
+      "observed": {
+        "title": "Couteau à lame fixe Gerber StrongArm : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/gerber-strongarm-fixed-blade-knife/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/gerber-strongarm-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une lame fixe noire de style Gerber StrongArm avec manche texturé brun coyote et étui assorti dans un cadre HUD vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/gerber-strongarm-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 331718
+      }
+    },
+    {
+      "id": "gq-gmc-600-pro-review",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/fallout/gq-gmc-600-pro-fallout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/gq-gmc-600-pro-review/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/gq-gmc-600-pro-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://gqelectronicsllc.com/comersus/store/comersus_viewItem.asp?idProduct=5889",
+        "https://www.gqelectronicsllc.com/GMC-600ProUserGuide.pdf",
+        "https://www.cnsc-ccsn.gc.ca/eng/resources/frequently-asked-questions/faq-contamination-monitoring/"
+      ],
+      "reviewNote": "Compared with GQ’s current colour-LCD product description and older manual: the intended GMC-600 Pro name and handheld form are recognisable, but the depicted screen, casing, labels and readings do not authenticate a retail revision. LND 7317 is documented, not inferred from artwork. Complete red HUD and all source pixels retained before resizing.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 189054,
+      "observed": {
+        "title": "Compteur Geiger GQ Electronics GMC-600 Pro : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/gq-gmc-600-pro-review/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/gq-gmc-600-pro-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un compteur Geiger noir et jaune de style GQ GMC-600 Pro avec un écran couleur illustratif dans le cadre d’interface FALLOUT rouge complet"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/gq-gmc-600-pro-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 189054
+      }
+    },
+    {
+      "id": "hestra-army-leather-heli-ski-gloves",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/hestra-army-leather-heli-ski-gloves/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.hestragloves.us/products/army-leather-heli-ski-5-finger-black"
+      ],
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 233984,
+      "observed": {
+        "title": "Gants Hestra Army Leather Heli Ski : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/hestra-army-leather-heli-ski-gloves/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique de gants Hestra noirs et blancs à cinq doigts sur la glace dans un cadre WHITEOUT"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 233984
+      }
+    },
+    {
+      "id": "iniu-p62-20000mah-65w",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": true,
+      "suspensionReason": "Exact-model safety verification is incomplete.",
+      "eligible": false,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/iniu-p62-20000mah-65w/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://iniushop.com/products/iniu-p62-e1-power-bank-smallest-20000mah-65w"
+      ],
+      "reviewNote": "Housing, display, side button and cable arrangement match the manufacturer P62 family reference. This does not verify the exact listing revision, battery safety, certification or advertised output.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 169576,
+      "observed": {
+        "title": "Batterie externe INIU P62 de 20000 mAh et 65 W : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/iniu-p62-20000mah-65w/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une batterie externe INIU noire avec écran et câble amovible dans un cadre ambre"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 169576
+      }
+    },
+    {
+      "id": "jackery-explorer-1000-v2",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/jackery-explorer-1000-v2/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station"
+      ],
+      "reviewNote": "Same composition as the previously reviewed illustration: housing, handle, lamp and connector arrangement are consistent with the official v2 reference. The official badge also omits v2; rendered screen text does not establish technical facts.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 135916,
+      "observed": {
+        "title": "Jackery Explorer 1000 v2 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/jackery-explorer-1000-v2/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une station d’alimentation Jackery Explorer 1000 v2 noire et orange"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 135916
+      }
+    },
+    {
+      "id": "jackery-explorer-300",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": true,
+      "suspensionReason": "Regional model identity, capacity and voltage must be matched to the Canadian listing.",
+      "eligible": false,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/jackery-explorer-300/",
+      "selectedImage": null,
+      "width": null,
+      "height": null,
+      "rights": "confirmed-by-owner",
+      "accuracy": "rejected",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://faq.jackery.com/hc/en-us/articles/52303678342683-Explorer-300-Basic-Information"
+      ],
+      "reviewNote": "USB-C 100 W and USB-A 15 W markings remain incompatible with the legacy Explorer 300 documentation (60 W USB-C and 12 W USB-A). Circular screen and POWER label also remain unresolved. Do not publish this replacement.",
+      "sourcePassed": false,
+      "htmlPassed": null,
+      "errors": [],
+      "exemption": "Suspended; rejected artwork must not be published"
+    },
+    {
+      "id": "jackery-solarsaga-100w-air",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/jackery-solarsaga-100w-air/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://ca.jackery.com/products/jackery-solarsaga-100-air"
+      ],
+      "reviewNote": "Four-panel folding layout, corner fasteners, grey cells and side Jackery label are consistent with the official SolarSaga 100 Air view. Exact package and electrical compatibility remain separate checks.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 205778,
+      "observed": {
+        "title": "Jackery SolarSaga 100 W Air : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/jackery-solarsaga-100w-air/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un panneau solaire Jackery pliant à quatre sections dans un cadre ambre"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 205778
+      }
+    },
+    {
+      "id": "kahtoola-microspikes",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/kahtoola-microspikes-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/kahtoola-microspikes/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/kahtoola-microspikes-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://kahtoola.com/traction/microspikes-footwear-traction/"
+      ],
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 249964,
+      "observed": {
+        "title": "Dispositifs de traction Kahtoola MICROspikes : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/kahtoola-microspikes/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/kahtoola-microspikes-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique de dispositifs Kahtoola MICROspikes rouges sur des bottes de randonnée noires sur la glace; bottes non incluses"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/kahtoola-microspikes-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 249964
+      }
+    },
+    {
+      "id": "kidde-c3010-co-alarm",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": true,
+      "suspensionReason": "Canadian model and certification evidence are incomplete.",
+      "eligible": false,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/kidde-c3010-co-alarm/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.kidde.com/products/carbon-monoxide-alarms/10-year-battery-power-carbon-monoxide-alarm"
+      ],
+      "reviewNote": "Housing, three LEDs, Test/Reset button and three ventilation openings are consistent with the official US C3010 photo. This does not establish Canadian C3010-CA identity or certification; the product safety hold remains.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 118340,
+      "observed": {
+        "title": "Avertisseur de monoxyde de carbone Kidde C3010 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/kidde-c3010-co-alarm/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un avertisseur de monoxyde de carbone Kidde blanc dans un cadre ambre"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 118340
+      }
+    },
+    {
+      "id": "leatherman-wave-plus-multitool",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/leatherman-wave-plus-multitool/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.leatherman.com/products/wave",
+        "https://www.leatherman.com/cdn/shop/files/wave_20260402201902_5dib.jpg?v=1777562829&width=1200"
+      ],
+      "reviewNote": "Compared with the complete official Wave Plus deployed-tool photo: pliers/cutters, outer blades/saw/file, scissors, fine driver, bit driver and opener arrangement agree in general form. This corrects the previous assessment made from an incomplete reference. Silver finish preserved. Concept art does not authenticate a package or exact dimensions.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 176614,
+      "observed": {
+        "title": "Outil multifonction Leatherman Wave+ : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/leatherman-wave-plus-multitool/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un Leatherman Wave+ argenté avec les outils déployés dans un cadre d’inventaire rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/leatherman-wave-plus-multitool-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 176614
+      }
+    },
+    {
+      "id": "marmot-precip-rain-jacket",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/marmot-precip-rain-jacket/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.marmot.com/p/mens-precip-eco-rain-jacket/SP_3185003.html"
+      ],
+      "reviewNote": "Black hooded Marmot-style rain shell without a person or mannequin. Illustration cannot determine the PreCip generation, fabric or waterproof rating.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 148556,
+      "observed": {
+        "title": "Manteau imperméable Marmot PreCip : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/marmot-precip-rain-jacket/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle du manteau de pluie Marmot PreCip dans un cadre d’inventaire vert tactique"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 148556
+      }
+    },
+    {
+      "id": "mechanix-m-pact-work-gloves",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/mechanix-m-pact-work-gloves/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.mechanix.com/us-en/all-work-gloves/MPT-58-010.html"
+      ],
+      "reviewNote": "Black/grey glove pair with back-of-hand panels and palm padding; illustration is not an exact generation, label or performance-rating reference. No biological, bite or puncture guarantee is inferred.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 281774,
+      "observed": {
+        "title": "Gants de travail Mechanix Wear M-Pact : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/mechanix-m-pact-work-gloves/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de gants de travail Mechanix Wear M-Pact dans un cadre d’inventaire tactique vert"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 281774
+      }
+    },
+    {
+      "id": "merrell-moab-3-mid-waterproof-boots",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/merrell-moab-3-mid-waterproof-boots/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.merrell.com/CA/en_CA/moab-3-mid-waterproof/52470M.html"
+      ],
+      "reviewNote": "Dark mid-height suede/mesh hiking boots with rubber toe protection; preserved colours. Illustration does not establish the exact Beluga colour, size or delivered revision.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 304318,
+      "observed": {
+        "title": "Bottes de randonnée Merrell Moab 3 Mid Waterproof : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/merrell-moab-3-mid-waterproof-boots/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle des bottes de randonnée Merrell Moab 3 Mid Waterproof dans un cadre d’inventaire vert tactique"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 304318
+      }
+    },
+    {
+      "id": "midland-er310",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/midland-er310/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/midland-er310-emergency-radio-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio"
+      ],
+      "reviewNote": "Housing, solar panel, six controls and flashlight are consistent with the official ER310 view. Rendered screen digits are illustrative, not evidence of tuning, reception or Canadian Weatheradio service.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 249316,
+      "observed": {
+        "title": "Radio d’urgence Midland ER310 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/midland-er310/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/midland-er310-emergency-radio-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une radio d’urgence Midland rouge dans un cadre d’inventaire ambre"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/midland-er310-emergency-radio-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 249316
+      }
+    },
+    {
+      "id": "morakniv-garberg-blackblade-carbon-survival-kit",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/morakniv-garberg-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/morakniv-garberg-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.morakniv.com/en/products/garberg-survival-kit-c"
+      ],
+      "reviewNote": "Green HUD and supplied colours preserved. Shape, branding, repeated small markings and pictured accessories are illustrative, not authenticated manufacturer labels, technical measurements or proof of the retailer package.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 350952,
+      "observed": {
+        "title": "Ensemble de survie Morakniv Garberg BlackBlade en acier au carbone : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/morakniv-garberg-blackblade-carbon-survival-kit/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/morakniv-garberg-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un couteau noir de style Morakniv Garberg, d’un étui, d’une tige de ferrocerium, d’un accessoire d’affûtage et d’un cordon dans un cadre HUD vert; les accessoires ne prouvent pas le contenu de l’offre du détaillant"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/morakniv-garberg-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 350952
+      }
+    },
+    {
+      "id": "motorola-talkabout-t802-review",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/motorola-talkabout-t802-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/motorola-talkabout-t802-review/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/motorola-talkabout-t802-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.motorolasolutions.com/en_us/products/two-way-radios/consumer-two-way-radios/talkabout-t802-t803.html",
+        "https://docs-be.motorolasolutions.com/bundle/84917/raw/resource/enus/MN009959A01-AC_multilingual_Talkabout_Two_Way_Radio_T802_T803_User_Guide.pdf",
+        "https://www.motorolasolutions.com/content/dam/msi/docs/products/two-way-radios/consumer/t802-t803/t802-t803-talkabout_data-sheet_1023_rc.pdf"
+      ],
+      "reviewNote": "Compared with the Motorola T802/T803 manufacturer datasheet and radio overview: black/blue trim, two upright radios and control/display arrangement resemble the documented T802. Tiny labels and display values are illustrative and do not prove firmware, compliance or delivered contents. Exactly two radios and the full original amber HUD are retained.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 209682,
+      "observed": {
+        "title": "Ensemble de deux Motorola Talkabout T802 — noir/bleu : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/motorola-talkabout-t802-review/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/motorola-talkabout-t802-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’exactement deux radios noires et bleues de style Motorola T802, debout à des angles trois quarts complémentaires, dans le cadre d’interface BLACKOUT ambre complet"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/motorola-talkabout-t802-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 209682
+      }
+    },
+    {
+      "id": "nanuk-904-first-aid-kit",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/nanuk-904-first-aid-kit/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://nanuk.com/products/nanuk-904-first-aid-kit",
+        "https://nanuk.com/cdn/shop/files/904_FSA_With_Accessories_US_Specsheet_EN.pdf?v=2436375852341375636"
+      ],
+      "reviewNote": "Compared with official red 904 filled-kit photographs and USA sheet: hard case, handle, latches, lid organizer and divided fill agree in general appearance. Contents are illustrative; exact count, sterile supplies and Canadian package are unverified and explicitly qualified on the profile.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 313204,
+      "observed": {
+        "title": "Trousse de premiers soins NANUK 904 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/nanuk-904-first-aid-kit/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’une trousse de premiers soins NANUK 904 dans un cadre d’inventaire rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/nanuk-904-first-aid-kit-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 313204
+      }
+    },
+    {
+      "id": "oakley-flight-deck-m-goggles",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/oakley-flight-deck-m-goggles/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.oakley.com/en-ca/product/888392149732"
+      ],
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 164432,
+      "observed": {
+        "title": "Masque de ski Oakley Flight Deck XM / M : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/oakley-flight-deck-m-goggles/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique d’un masque de ski Oakley à verre bleu et sangle noire sur la glace"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 164432
+      }
+    },
+    {
+      "id": "oria-wireless-refrigerator-freezer-thermometer",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/oria-wireless-refrigerator-freezer-thermometer/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.canada.ca/en/health-canada/services/food-drinking-water-safe-emergency.html"
+      ],
+      "reviewNote": "The white receiver, two white sensors and channel/alarm/min/max controls resemble the supplier reference graphics inspected on the Amazon media CDN. That resemblance does not authenticate WA50, calibration, labels, operating limits or the selected Canadian offer. Original colors and full amber border retained.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 139740,
+      "observed": {
+        "title": "Thermomètre sans fil ORIA pour réfrigérateur et congélateur avec 2 capteurs : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/oria-wireless-refrigerator-freezer-thermometer/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un récepteur LCD blanc de style ORIA et de deux capteurs sans fil dans un cadre BLACKOUT ambre complet; les étiquettes sont illustratives"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 139740
+      }
+    },
+    {
+      "id": "outdoor-research-alti-ii-gore-tex-mitts",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/outdoor-research-alti-ii-gore-tex-mitts/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://graniteoutdoor.net/wp-content/uploads/Outdoor-Research-Catalogo-SS-2026.pdf"
+      ],
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 223150,
+      "observed": {
+        "title": "Moufles Outdoor Research Alti II GORE-TEX : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/outdoor-research-alti-ii-gore-tex-mitts/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique de moufles Outdoor Research noires sur la glace dans un cadre WHITEOUT bleu glacier"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 223150
+      }
+    },
+    {
+      "id": "panasonic-eneloop-aa-rechargeable-battery-charger-kit",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.panasonic.com/ca/consumer/batteries/rechargeable/eneloop/kkj17mca4ba.html",
+        "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html",
+        "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html"
+      ],
+      "reviewNote": "White BQ-CC17 form and standard white AA cells fit manufacturer references. Four installed plus three decorative cells must not imply seven supplied cells. Visible caption states four cells and one charger. Small labels and charge indicators are illustrative; no certification or exact unit authentication is claimed.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 186312,
+      "observed": {
+        "title": "Piles rechargeables AA Panasonic eneloop avec chargeur BQ-CC17 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/panasonic-eneloop-aa-rechargeable-battery-charger-kit/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un chargeur blanc Panasonic BQ-CC17 avec piles AA eneloop, dont des piles décoratives supplémentaires, dans un cadre BLACKOUT ambre complet; les étiquettes sont illustratives"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 186312
+      }
+    },
+    {
+      "id": "panasonic-eneloop-aaa-rechargeable-battery-charger-kit",
+      "universe": "blackout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.panasonic.com/ca/consumer/batteries/rechargeable/eneloop/kkj17m3a4ba.html",
+        "https://staging.panasonicbatteryproducts.com/wp-content/uploads/2023-PANASONIC-CATALOG_DIGITAL.pdf",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/charger-bq-cc17.html",
+        "https://www.panasonic.com/global/energy/products/eneloop/en/lineup/eneloop.html",
+        "https://www.panasonic.com/ca/consumer/batteries-learn/eneloop.html"
+      ],
+      "reviewNote": "White BQ-CC17 form and standard white AAA cells fit manufacturer references. Four installed plus three decorative cells must not imply seven supplied cells. Visible caption states four cells and one charger. The 850 mAh HUD is explicitly qualified against the documented 800/750 mAh convention. Small labels and charge indicators are illustrative; no certification or exact unit authentication is claimed.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 179382,
+      "observed": {
+        "title": "Piles rechargeables AAA Panasonic eneloop avec chargeur BQ-CC17 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/panasonic-eneloop-aaa-rechargeable-battery-charger-kit/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un chargeur blanc Panasonic BQ-CC17 avec piles AAA eneloop, dont des piles décoratives supplémentaires, dans un cadre BLACKOUT ambre complet; les étiquettes sont illustratives"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+        "mime": "image/webp",
+        "bytes": 179382
+      }
+    },
+    {
+      "id": "readywise-84-servings-emergency-food-bucket",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/readywise-84-servings-emergency-food-bucket/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://readywise.com/collections/master-collection/products/84-serving-gluten-free-grab-and-go-bucket-1",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFteriyakirice.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFheartytortillasoup.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFpotpie.png?v=1696354528",
+        "https://cdn.shopify.com/s/files/1/0063/3818/3250/files/RW-GFvanillapudding.png?v=1696354528"
+      ],
+      "reviewNote": "Approved black bucket, red lid, two pouches and soup bowl retained. Serving, shelf-life, ingredient and gluten-free markings in concept art are not evidence for a Canadian lot. Public profile documents manufacturer calorie/dessert inconsistencies and milk/soy warnings.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 194652,
+      "observed": {
+        "title": "Seau de réserve alimentaire d’urgence sans gluten ReadyWise de 84 portions : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/readywise-84-servings-emergency-food-bucket/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de réserves alimentaires d’urgence sans gluten ReadyWise de 84 portions dans un cadre d’inventaire tactique rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/readywise-84-servings-emergency-food-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 194652
+      }
+    },
+    {
+      "id": "reliance-aqua-tainer-7-gallon",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/reliance-aqua-tainer-7-gallon/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+        "https://relianceoutdoors.com/pages/warranty-coverage"
+      ],
+      "reviewNote": "Blue 7G container, red caps and handle match the manufacturer family. The previous 22.7 kg / 50 lb side marking is absent. Reliance confirms a five-year limited warranty; the earlier objection to that marking is withdrawn. Seven US gallons is about 26.5 L; 26 L on the current page is rounding, not a different capacity. Fine print is illustrative, not an authenticated label. Exact Amazon variant remains unverified.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 204054,
+      "observed": {
+        "title": "Contenant d’eau Reliance Aqua-Tainer de 7 gallons : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/reliance-aqua-tainer-7-gallon/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un contenant bleu Reliance Aqua-Tainer de 7 gallons avec bouchons rouges dans un cadre d’inventaire rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 204054
+      }
+    },
+    {
+      "id": "royale-velour-plush-thick-toilet-paper",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/fallout/royale-velour-fallout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/royale-velour-plush-thick-toilet-paper/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/royale-velour-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.royale.ca/products/bathroom-tissue/"
+      ],
+      "reviewNote": "Purple package, kittens, loose roll and red HUD preserved. Printed environmental wording and 12=24 are conceptual packaging marks, not certification, exact artwork authentication or 24 physical rolls.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 255972,
+      "observed": {
+        "title": "Papier hygiénique Royale Velour moelleux et épais : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/royale-velour-plush-thick-toilet-paper/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/royale-velour-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un emballage violet Royale Velour portant la mention « 12 équivaut à 24 », de chatons blancs et d’un rouleau de papier hygiénique dans un cadre d’interface rouge; l’équivalence n’est pas un nombre de rouleaux réels"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/royale-velour-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 255972
+      }
+    },
+    {
+      "id": "sawyer-squeeze-sp129-water-filter",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/sawyer-squeeze-sp129-water-filter/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.sawyer.com/product/squeeze-water-filter-system",
+        "https://help.sawyer.com/retail/filtration"
+      ],
+      "reviewNote": "Compared with Sawyer Squeeze component photo: black filter with blue branding, pouches, syringe, tubing and mesh bag are consistent with the documented family. This conceptual arrangement does not establish the current SP129 Canadian accessory inventory or filtration performance.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 214632,
+      "observed": {
+        "title": "Système de filtration d’eau Sawyer Squeeze SP129 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/sawyer-squeeze-sp129-water-filter/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un système de filtration d’eau Sawyer Squeeze SP129 dans un cadre d’inventaire rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 214632
+      }
+    },
+    {
+      "id": "smartwool-merino-250-base-layer",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/smartwool-merino-250-base-layer/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.smartwool.com/en-ca/products/mens-classic-thermal-merino-base-layer-crew-boxed-sw016350"
+      ],
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 135298,
+      "observed": {
+        "title": "Sous-vêtement de base Smartwool Merino 250 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/smartwool-merino-250-base-layer/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique d’un haut de base Smartwool noir à manches longues et col rond sur la glace"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 135298
+      }
+    },
+    {
+      "id": "smartwool-nts-250-balaclava",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/smartwool-nts-250-balaclava/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.smartwool.com/en-us/products/thermal-merino-balaclava-sw0sc967"
+      ],
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 166428,
+      "observed": {
+        "title": "Cagoule Smartwool NTS AW15 250 : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/smartwool-nts-250-balaclava/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique d’une cagoule noire de style Smartwool sur la glace dans un cadre WHITEOUT"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 166428
+      }
+    },
+    {
+      "id": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/smartwool-thermal-merino-reversible-cuffed-beanie/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.smartwool.com/en-us/products/thermal-merino-reversible-cuffed-beanie-sw0sw956?variant=63206991921521"
+      ],
+      "reviewNote": "Supplied concept image associated with the documented product family; exact variant is not authenticated.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 239114,
+      "observed": {
+        "title": "Tuque à revers réversible Smartwool Thermal Merino : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/smartwool-thermal-merino-reversible-cuffed-beanie/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique d’une tuque foncée à revers de style mérinos sur la glace dans un cadre WHITEOUT"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 239114
+      }
+    },
+    {
+      "id": "sol-emergency-bivvy",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": null,
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/sol-emergency-bivvy/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle"
+      ],
+      "reviewNote": "Compared with official orange standard Emergency Bivvy packaging and product photos. Orange reflective bag, package family and whistle/cord agree in general appearance. Depicted packaging and 90% text are not independent thermal evidence or a temperature rating.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 315398,
+      "observed": {
+        "title": "Sac de bivouac d’urgence SOL Emergency Bivvy avec sifflet de secours : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/sol-emergency-bivvy/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle d’un sursac SOL Emergency Bivvy avec sifflet de secours dans un cadre d’inventaire rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 315398
+      }
+    },
+    {
+      "id": "sos-3600-calorie-emergency-food-rations",
+      "universe": "fallout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/sos-3600-calorie-emergency-food-rations/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://sosfoodlab.com/wp-content/uploads/2021/07/SOS-3600-KCAL-Emergency-Food-Ration.pdf",
+        "https://sosfoodlab.com/faq/"
+      ],
+      "reviewNote": "Silver SOS-style packet and bars retained. Printed nutrition, ingredients and certification strings include synthetic inaccuracies and must not be used for dietary decisions. The manufacturer also has a 3600 versus 9x410 calorie conflict. Image depicts one packet, not proof of an ASIN two-pack.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 317940,
+      "observed": {
+        "title": "Rations alimentaires d’urgence S.O.S. — 3600 calories : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/sos-3600-calorie-emergency-food-rations/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de rations alimentaires d’urgence S.O.S. — 3600 calories dans un cadre d’inventaire tactique rouge"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+        "mime": "image/webp",
+        "bytes": 317940
+      }
+    },
+    {
+      "id": "therm-a-rest-neoair-xtherm-nxt-review",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/therm-a-rest-neoair-xtherm-nxt-review/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://cascadedesigns.com/products/neoair-xtherm-nxt-sleeping-pad"
+      ],
+      "reviewNote": "Broad sleeping-pad form compared against the manufacturer page. Supplied illustrative lettering is not product evidence; exact Amazon size and package remain unverified.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 205616,
+      "observed": {
+        "title": "Matelas de sol isolant Therm-a-Rest NeoAir XTherm NXT : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/therm-a-rest-neoair-xtherm-nxt-review/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle générée par IA d’un matelas de sol isolant bleu pâle dans un cadre HUD WHITEOUT complet bleu glacier"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 205616
+      }
+    },
+    {
+      "id": "therm-a-rest-polar-ranger-sleeping-bag",
+      "universe": "whiteout",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/therm-a-rest-polar-ranger-sleeping-bag/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://cascadedesigns.com/products/polar-ranger-20f-30c-down-sleeping-bag"
+      ],
+      "reviewNote": "Cinematic concept illustration; colour, labels and construction details do not authenticate the retailer variant.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 236008,
+      "observed": {
+        "title": "Sac de couchage Therm-a-Rest Polar Ranger : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/therm-a-rest-polar-ranger-sleeping-bag/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration cinématographique d’un sac de couchage Therm-a-Rest Polar Ranger orange à doublure bleue sur la glace"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+        "mime": "image/webp",
+        "bytes": 236008
+      }
+    },
+    {
+      "id": "vortex-diamondback-hd-10x42-review",
+      "universe": "outbreak",
+      "public": true,
+      "commerciallyApproved": false,
+      "suspended": false,
+      "suspensionReason": null,
+      "eligible": true,
+      "sourceImageField": "/images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+      "frenchUrl": "https://apocalypsegearlab.github.io/fr/gear/vortex-diamondback-hd-10x42-review/",
+      "selectedImage": "https://apocalypsegearlab.github.io/images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+      "width": 1254,
+      "height": 1254,
+      "rights": "confirmed-by-owner",
+      "accuracy": "reviewed-illustration",
+      "officialPhotoVerified": false,
+      "references": [
+        "https://vortexoptics.com/diamondback-hd-10x42-mossy-oak-bottomland-binoculars.html"
+      ],
+      "reviewNote": "Compared with the Vortex DB-215-OBL product reference: twin optical barrels, camouflage armour, central hinge and focus wheel are consistent with the intended binocular form. Illustration is not proof of the exact camouflage pattern, small labels or supplied accessories. Full green HUD and source colours retained.",
+      "sourcePassed": true,
+      "htmlPassed": true,
+      "errors": [],
+      "bytes": 265942,
+      "observed": {
+        "title": "Vortex Diamondback HD 10×42 — Mossy Oak Bottomland : caractéristiques, usages et limites | ApocalypseGearLab",
+        "canonical": "https://apocalypsegearlab.github.io/fr/gear/vortex-diamondback-hd-10x42-review/",
+        "ogImage": "https://apocalypsegearlab.github.io/images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+        "width": "1254",
+        "height": "1254",
+        "imageAlt": "Illustration conceptuelle de jumelles camouflage de style Vortex Diamondback HD avec lentilles d’objectif vertes dans le cadre HUD OUTBREAK vert complet"
+      },
+      "delivery": {
+        "url": "https://apocalypsegearlab.github.io/images/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+        "mime": "image/webp",
+        "bytes": 265942
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[WebServer] (node:14400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:25920) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 2 workers
+
+(node:12332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7768) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\branding.spec.ts:55:1 › official favicons, touch icon and Organization logo resolve with exact asset bytes and no schema duplicates (686ms)
+  ok 3 tests\browser\product-metadata.spec.ts:34:3 › blackout: French primary image, responsive layout and accessibility (3.6s)
+  ok 4 tests\browser\product-metadata.spec.ts:34:3 › fallout: French primary image, responsive layout and accessibility (3.4s)
+  ok 2 tests\browser\product-metadata.spec.ts:9:1 › all 54 eligible French pages and their exact social image URLs respond over HTTP (9.6s)
+  ok 5 tests\browser\product-metadata.spec.ts:34:3 › outbreak: French primary image, responsive layout and accessibility (3.4s)
+  ok 6 tests\browser\product-metadata.spec.ts:34:3 › whiteout: French primary image, responsive layout and accessibility (3.3s)
+
+  6 passed (26.2s)

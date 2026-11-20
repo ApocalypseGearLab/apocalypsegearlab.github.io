@@ -10,6 +10,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { productSchema } from '../src/lib/product-schema';
 import { productStructuredData } from '../src/lib/product-seo';
+import { beforeOracleIntegration } from '../scripts/oracle-preservation.mjs';
 import { categoryUniverse } from '../src/config/taxonomy';
 import { getMerchantLinks, canadianAffiliateIssues } from '../src/lib/affiliate';
 import type { Product } from '../src/lib/products';
@@ -72,7 +73,7 @@ test('the catalogue audit preserves every previous product, artwork, affiliate p
     // Phase 4.7 appends one mapping; its first 29 entries and all prior files
     // are checked against the immutable Phase 4.7 baseline in phase47.test.ts.
     if(p.file==='src/data/media/imported-manifest.json') continue;
-    const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
+    const bytes=beforeOracleIntegration(p.file,readFileSync(p.file)),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
   }
 });
@@ -87,7 +88,7 @@ test('Phase 4.6 appends only three media records and preserves every previous pr
   for(const p of baseline.products) assert.equal(createHash('sha256').update(historicalProductJSON(p.file,JSON.parse(readFileSync(p.file,'utf8')))).digest('hex'),p.sha256Canonical,p.file);
   for(const p of baseline.files) {if(PHASE6_INTEGRATION_FILES.has(p.file))continue;if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;if(CONVERSION_INTEGRATION_FILES.has(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','src/data/media/imported-manifest.json','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 additive integration has its own preservation checks.
-    const bytes=readFileSync(p.file),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
+    const bytes=beforeOracleIntegration(p.file,readFileSync(p.file)),content=p.normaliseNewlines?bytes.toString('utf8').replace(/\r\n/g,'\n'):bytes;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
   }
   const manifest=JSON.parse(readFileSync('src/data/media/imported-manifest.json','utf8'));
@@ -151,7 +152,7 @@ test('prior media, bunker, affiliate configuration and mandatory safety controls
   for(const p of baseline.unchangedFiles){if(PHASE6_INTEGRATION_FILES.has(p.file))continue;if(PHASE55_INTEGRATION_FILES.has(p.file))continue;if(BOUGERV_INTEGRATION_FILES.has(p.file))continue;if(accountStatusFileChanged(p.file))continue;
     if(['src/config/taxonomy.ts','src/components/UniverseHub.astro','scripts/verify-images.mjs'].includes(p.file)) continue; // Phase 5 protects prior categories and unchanged source files.
     if(p.file==='src/data/media/imported-manifest.json') continue; // Intentional append; old entries are independently protected below.
-    const raw=readFileSync(p.file),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;
+    const raw=beforeOracleIntegration(p.file,readFileSync(p.file)),content=p.normaliseNewlines?raw.toString('utf8').replace(/\r\n/g,'\n'):raw;
     assert.equal(createHash('sha256').update(content).digest('hex'),p.sha256,p.file);
   }
 });
@@ -396,7 +397,8 @@ test('approved Product structured data contains identity only, without invented 
   assert.equal(data['@type'], 'Product');
   assert.equal(data.url, `${site.origin}/gear/jackery-explorer-1000-v2/`);
   assert.equal(data.model, 'JE-1000D');
-  for (const key of ['offers', 'review', 'aggregateRating', 'image', 'award']) assert.ok(!(key in data));
+  for (const key of ['offers', 'review', 'aggregateRating', 'award']) assert.ok(!(key in data));
+  assert.match(String(data.image), /^https:\/\/apocalypsegearlab\.github\.io\/images\//);
 });
 
 

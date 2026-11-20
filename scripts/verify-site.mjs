@@ -45,8 +45,9 @@ for (const file of files) {
   if(previousSEO){
     const currentSEO={path:pathname,title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')??null,social:$('meta[property^="og:"],meta[name^="twitter:"]').map((_,node)=>({name:$(node).attr('property')??$(node).attr('name'),content:$(node).attr('content')})).get()};
     currentSEO.social = currentSEO.social.filter(row => !['og:locale', 'og:locale:alternate'].includes(row.name));
-    if(['/blackout/','/fallout/','/outbreak/'].includes(pathname)){
-      // New cinematic social fields are checked exactly by verify-four-universes.
+    if(['/blackout/','/fallout/','/outbreak/'].includes(pathname) || /^\/gear\/[^/]+\/$/.test(pathname)){
+      // Cinematic fields are checked by verify-four-universes; product fields
+      // are checked against the permitted primary artwork by test:metadata.
       // Every earlier title, description, canonical, robots and social value stays frozen.
       const addedSocial=new Set(['og:image','og:image:type','og:image:width','og:image:height','og:image:alt','twitter:title','twitter:description','twitter:image','twitter:image:alt']);
       currentSEO.social=currentSEO.social.filter(row=>!addedSocial.has(row.name)).map(row=>row.name==='twitter:card'?{...row,content:'summary'}:row);
