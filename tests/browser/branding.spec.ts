@@ -68,7 +68,8 @@ test('official favicons, touch icon and Organization logo resolve with exact ass
   expect(schemas.find(schema=>schema['@type']==='Organization').logo).toBe('https://apocalypsegearlab.github.io/brand/brand-logo-512.webp');
   await expect(page.locator('meta[property="og:image"]')).toHaveCount(0);
   await page.goto('/gear/3m-2091-p100-particulate-filters/');
-  await expect(page.locator('meta[property="og:image"]')).toHaveCount(0); // Preserve the existing absence of a fallback, including on profiles.
+  const primary = await page.locator('.product-artwork--detail img').getAttribute('src');
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', 'https://apocalypsegearlab.github.io' + primary);
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content','noindex, nofollow');
 });
 

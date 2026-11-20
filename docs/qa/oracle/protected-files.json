@@ -1,0 +1,1365 @@
+{
+  "baseCommit": "61b39807c2577e7eee639fe4470a3ad60d3323e3",
+  "files": [
+    {
+      "file": ".github/workflows/deploy.yml",
+      "gitBlob": "3cdad3dddf71a46e9c6eeedbe2237bc9e24ee9c1"
+    },
+    {
+      "file": "assets/brand/brand-logo-master.png",
+      "gitBlob": "bebdc16152dd8f6d0b99f18c3cf135c7990092fc"
+    },
+    {
+      "file": "assets/brand/manifest.json",
+      "gitBlob": "bc89bbc7bc1c7fb26bbe31b0071e004b2217c77d"
+    },
+    {
+      "file": "assets/media/README.txt",
+      "gitBlob": "b7807d7ccc1758796c6559d66509d5572d254a44"
+    },
+    {
+      "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-480.webp",
+      "gitBlob": "c89b41da3d703f84ae78211e5c6bda06c3830e8a"
+    },
+    {
+      "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout-960.webp",
+      "gitBlob": "d87495c61a5fc048bfbfabef0eedb6a750b8575e"
+    },
+    {
+      "file": "assets/media/blackout/bluetti-elite-100-v2-solar-kit-blackout.webp",
+      "gitBlob": "ea8c47982008e1acbd1d543aec5eecd5347eaf20"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout-480.webp",
+      "gitBlob": "c0b1a0b6624b961e3fdd7446797c6d7709718551"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout-960.webp",
+      "gitBlob": "1a714e6ae3971d09d7543e59f22bfd4cea43c586"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-53-quart-refrigerator-blackout.webp",
+      "gitBlob": "c8d294ad455040705e79cae423c1a402c22c5bd9"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-480.webp",
+      "gitBlob": "0e159d94b1fd98f66d5e2ba1ecd0c8df876bb079"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout-960.webp",
+      "gitBlob": "5073edd3593062efe879a54533be79a6d8e5a3c5"
+    },
+    {
+      "file": "assets/media/blackout/bougerv-rocky-v3-55qt-dual-zone-blackout.webp",
+      "gitBlob": "3ef377e531ca9321192eadd6992f9d3ca392e72a"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-delta-2-blackout-480.webp",
+      "gitBlob": "45973f26df0e6b1385b9214e3fa34cc1736e0950"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-delta-2-blackout-960.webp",
+      "gitBlob": "fc8a9a079c46aa75d85cdf91e8c669215d176ab0"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-delta-2-blackout.webp",
+      "gitBlob": "15116ba39298f0c6fa1a52e192ff05cbcfa2d3f6"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout-480.webp",
+      "gitBlob": "ebc161d4a323302f0cf43b1456ec4ed915941997"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout-960.webp",
+      "gitBlob": "d6cde39d3851ce444be000c9bdec475fc418b844"
+    },
+    {
+      "file": "assets/media/blackout/ecoflow-river-2-pro-power-station-blackout.webp",
+      "gitBlob": "1e9a1b483eda8e780b843a57668ab032687d94ab"
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout-480.webp",
+      "gitBlob": "c88cbf03149464fd10768b7eea55752f41c0fdaf"
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout-960.webp",
+      "gitBlob": "b4bb49a0761d0b9a863199d42f0b1a7781808dd9"
+    },
+    {
+      "file": "assets/media/blackout/fenix-cl26r-pro-camping-lantern-blackout.webp",
+      "gitBlob": "a3f2bcad19a6ba6b6bde6b636912ab422a73bc55"
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout-480.webp",
+      "gitBlob": "2047552ce8b0f11003c8a616fb873857657189b4"
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout-960.webp",
+      "gitBlob": "9c6b28ff85e8b5cc133a3e9606544b8de19b067f"
+    },
+    {
+      "file": "assets/media/blackout/fenix-hm50r-v2-headlamp-blackout.webp",
+      "gitBlob": "66d026d6af95a3e5546bfde6d96833ff93adaaaa"
+    },
+    {
+      "file": "assets/media/blackout/fenix-pd36r-pro-blackout-480.webp",
+      "gitBlob": "56fc39c7cb9bb9ceee0d9a1f7848834b464e1ad2"
+    },
+    {
+      "file": "assets/media/blackout/fenix-pd36r-pro-blackout-960.webp",
+      "gitBlob": "0c1748f53901e720aa20b1a77e91e07ecab8ac4d"
+    },
+    {
+      "file": "assets/media/blackout/fenix-pd36r-pro-blackout.webp",
+      "gitBlob": "f7c9acac7102fdf63c50353c868648cf6a50fa9f"
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout-480.webp",
+      "gitBlob": "4e111176f8995e901b56f570d15a21bea4f905b1"
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout-960.webp",
+      "gitBlob": "39880caf2d54b861217176dc6869fd2263a4a0b4"
+    },
+    {
+      "file": "assets/media/blackout/iniu-p62-20000mah-power-bank-blackout.webp",
+      "gitBlob": "928f5ddb512cbaf50636e77c21325f5502f741ae"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout-480.webp",
+      "gitBlob": "e31bfc234d919cdb1be489cc9a1e4ff78ecc2dd6"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout-960.webp",
+      "gitBlob": "89fe04b59639fc3852639efccefb8aa14c7d19d9"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-1000-v2-power-station-blackout.webp",
+      "gitBlob": "aaa344855633c81fa658064e20a1b32c8a141b8b"
+    },
+    {
+      "file": "assets/media/blackout/jackery-explorer-300-portable-power-station-blackout.webp",
+      "gitBlob": "ecd6245947911900f2db6a074095e2bc87ad56bd"
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-480.webp",
+      "gitBlob": "1d43c69a016749fe4102d88044210deaca7ca245"
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout-960.webp",
+      "gitBlob": "84c7ccc32a556eb943dc3444034d6ea40232cb63"
+    },
+    {
+      "file": "assets/media/blackout/jackery-solarsaga-100w-air-solar-panel-blackout.webp",
+      "gitBlob": "2099b0bbf48d98cfdd9db7d19536160aa771034a"
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-480.webp",
+      "gitBlob": "a58a1f08e58aa0c05dedbcb02c38617e57050d9d"
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout-960.webp",
+      "gitBlob": "5127e962413d15f1f2c80cafd936cb7d5854ad73"
+    },
+    {
+      "file": "assets/media/blackout/kidde-c3010-carbon-monoxide-alarm-blackout.webp",
+      "gitBlob": "376fe5785ad21919d22096fb991323b5546518e3"
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout-480.webp",
+      "gitBlob": "2ead6bc5f0295263aa6d9ed2e855c1e0a5a48d87"
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout-960.webp",
+      "gitBlob": "189005e4f6b802adf3affffe71df573af49a0875"
+    },
+    {
+      "file": "assets/media/blackout/midland-er310-emergency-radio-blackout.webp",
+      "gitBlob": "52365ba6c0bd420844d4363ecf7a6405d7b1b5df"
+    },
+    {
+      "file": "assets/media/blackout/motorola-talkabout-t802-blackout-480.webp",
+      "gitBlob": "9d25d01a823c31a0d888b48034a3429117293b92"
+    },
+    {
+      "file": "assets/media/blackout/motorola-talkabout-t802-blackout-960.webp",
+      "gitBlob": "3f777715bf23f82181565a56c23ec3ab3cfe88c1"
+    },
+    {
+      "file": "assets/media/blackout/motorola-talkabout-t802-blackout.webp",
+      "gitBlob": "78e9ae1c1a25fac967b7fc9834ced5057afc5d64"
+    },
+    {
+      "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout-480.webp",
+      "gitBlob": "f78dbce028495742f8514eb11f9e212e6450b7ee"
+    },
+    {
+      "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout-960.webp",
+      "gitBlob": "fe2322e060fe2010f04e001d1965abca05b2f8a4"
+    },
+    {
+      "file": "assets/media/blackout/oria-wireless-fridge-freezer-thermometer-blackout.webp",
+      "gitBlob": "61e1cb3effe3dc32a3d7eb2a32074e15420923ec"
+    },
+    {
+      "file": "assets/media/blackout/originals/bluetti-elite-100-v2-solar-kit-blackout.png",
+      "gitBlob": "2c07fe5208fb68b3320674ddc8c6953a45826394"
+    },
+    {
+      "file": "assets/media/blackout/originals/bougerv-53-quart-refrigerator-blackout.png",
+      "gitBlob": "c0c6e7d2c659f23b214ae7d67799e2218d89476f"
+    },
+    {
+      "file": "assets/media/blackout/originals/bougerv-rocky-v3-55qt-dual-zone-blackout.png",
+      "gitBlob": "1e38f20a6411f8327955f73226ee7b16f38505a6"
+    },
+    {
+      "file": "assets/media/blackout/originals/ecoflow-delta-2-blackout.png",
+      "gitBlob": "3aaf1e14e3d38603ba66fb1f773fd1b48dc7e9ab"
+    },
+    {
+      "file": "assets/media/blackout/originals/fenix-pd36r-pro-blackout.png",
+      "gitBlob": "25285df4abeb1cd4c2f2a9ac801c32b007e67b13"
+    },
+    {
+      "file": "assets/media/blackout/originals/motorola-talkabout-t802-blackout.png",
+      "gitBlob": "f7b0bcc75f55df489b2c84448770f64a3811db92"
+    },
+    {
+      "file": "assets/media/blackout/originals/oria-wireless-fridge-freezer-thermometer-blackout.png",
+      "gitBlob": "2d4b7a72f357fc8a08e9235aca3f863c873f1487"
+    },
+    {
+      "file": "assets/media/blackout/originals/panasonic-eneloop-aa-bq-cc17-kit-blackout.png",
+      "gitBlob": "7c3003f487b35dc89db1593d9d0317ee9047bb34"
+    },
+    {
+      "file": "assets/media/blackout/originals/panasonic-eneloop-aaa-bq-cc17-kit-blackout.png",
+      "gitBlob": "5551a0b69bfc55b0902fc13905e1cf2f8fd169d8"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-480.webp",
+      "gitBlob": "5c36b141e08d2ba05d41d96f48d5a784b7939941"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout-960.webp",
+      "gitBlob": "850574ec357006f3587af19301084f721fd7b9f7"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aa-bq-cc17-kit-blackout.webp",
+      "gitBlob": "dcae47b106e62615b223366cf9905b31a9672144"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-480.webp",
+      "gitBlob": "8ea632512c7d078482321f227b9900c58a5d8a41"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout-960.webp",
+      "gitBlob": "f489459c7b2a0411b6a8b1f4fecf57b5f65b838c"
+    },
+    {
+      "file": "assets/media/blackout/panasonic-eneloop-aaa-bq-cc17-kit-blackout.webp",
+      "gitBlob": "0c3a7306d0f66ccd7a20d896778a5ccf57e3f74a"
+    },
+    {
+      "file": "assets/media/bougerv-image-manifest.csv",
+      "gitBlob": "5b54cc8b78790955195598e7236717d724bd9810"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-480.webp",
+      "gitBlob": "4fbc384861dff182df486f817dfadbc5928d1fb4"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout-960.webp",
+      "gitBlob": "10339df171c1c84db1ac3e1012b9f0fcf4f608ba"
+    },
+    {
+      "file": "assets/media/fallout/datrex-dx2400f-emergency-rations-fallout.webp",
+      "gitBlob": "5575a24c0c0c6c2da26ace0e45ca0d1fc07d29f5"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-480.webp",
+      "gitBlob": "318bcae3293a6581b2235700340fda23910696db"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout-960.webp",
+      "gitBlob": "aef7f9dbc6e7c119910d538403c36d4dfd863446"
+    },
+    {
+      "file": "assets/media/fallout/fnirsi-gc-01-geiger-counter-fallout.webp",
+      "gitBlob": "6eaeb7a065f1a0de9c0f532ae753f867a4e0c0bd"
+    },
+    {
+      "file": "assets/media/fallout/garrett-pro-pointer-at-fallout-480.webp",
+      "gitBlob": "5982ad752cce3dfa9a56a65171db2464e6df14b1"
+    },
+    {
+      "file": "assets/media/fallout/garrett-pro-pointer-at-fallout-960.webp",
+      "gitBlob": "6a82bab68b63d114e1a5a9bd3989e55d02036294"
+    },
+    {
+      "file": "assets/media/fallout/garrett-pro-pointer-at-fallout.webp",
+      "gitBlob": "431d52b017cfb49eea0a577c8f459c03be1c7f16"
+    },
+    {
+      "file": "assets/media/fallout/gq-gmc-600-pro-fallout-480.webp",
+      "gitBlob": "e026dbd05cd95adf27b8be184f022f9faa8552ff"
+    },
+    {
+      "file": "assets/media/fallout/gq-gmc-600-pro-fallout-960.webp",
+      "gitBlob": "0ce638a05f7970c640bbbab15768d161ffd9d557"
+    },
+    {
+      "file": "assets/media/fallout/gq-gmc-600-pro-fallout.webp",
+      "gitBlob": "7e780e1a7bcc5a05e637e5011c0d4f5830082249"
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout-480.webp",
+      "gitBlob": "f53dfe81b3919d1af405ea715c7260fb8818f841"
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout-960.webp",
+      "gitBlob": "67713e99f05de8cd41cb41d2ec6cd10f39ea981c"
+    },
+    {
+      "file": "assets/media/fallout/leatherman-wave-plus-multitool-fallout.webp",
+      "gitBlob": "d39a05946e9f87c89202b81aeb9d7cf7a63d0030"
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout-480.webp",
+      "gitBlob": "6de02bf6bcbebf275a1034eb3c2df544ef78ad06"
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout-960.webp",
+      "gitBlob": "b416c45dbd01c951c422bf8f9cdc3fb8f6d745d0"
+    },
+    {
+      "file": "assets/media/fallout/nanuk-904-first-aid-kit-fallout.webp",
+      "gitBlob": "40008fd7b493abf9e65f4e1c56b637ee5decab1b"
+    },
+    {
+      "file": "assets/media/fallout/originals/garrett-pro-pointer-at-fallout.png",
+      "gitBlob": "adf85a282c07c5a65cee9ed29f60802e5655da24"
+    },
+    {
+      "file": "assets/media/fallout/originals/gq-gmc-600-pro-fallout.png",
+      "gitBlob": "9d0986e35d6be504bb38ff7cdf1b509808c610ad"
+    },
+    {
+      "file": "assets/media/fallout/originals/royale-velour-fallout.png",
+      "gitBlob": "20ddfcd2e7556d7b85e8e01fa775df9de0281640"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-480.webp",
+      "gitBlob": "b0a1a6daadd5de6cdd6c31ab816d8ecd316e5158"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout-960.webp",
+      "gitBlob": "6a3389d5576bc18b68b9eca30efe514409637920"
+    },
+    {
+      "file": "assets/media/fallout/readywise-84-servings-emergency-food-fallout.webp",
+      "gitBlob": "f2c228e93695f7e13756558b0505ab1415d4dee8"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "gitBlob": "74af5a953c5a99db2e9ff8609509f7cec60cbdff"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-480.webp",
+      "gitBlob": "f10266888163d4af78e949f4a6848caf9f644e09"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout-960.webp",
+      "gitBlob": "0d57869d3546311d83bef803f2a0773a72dfdd82"
+    },
+    {
+      "file": "assets/media/fallout/reliance-aqua-tainer-9410-03r-water-container-fallout.webp",
+      "gitBlob": "ce92983f0c26701ad48c91fca51b6eeeae1d2f64"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-480.webp",
+      "gitBlob": "fcedd152d0c50a1b4533687a234e6bf9e8514362"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout-960.webp",
+      "gitBlob": "88705f8321d4a3274ed0a2cd11e46390222ba5fa"
+    },
+    {
+      "file": "assets/media/fallout/royale-velour-fallout.webp",
+      "gitBlob": "aefacce1c0fa916228bbae86a074d4508323aed9"
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout-480.webp",
+      "gitBlob": "7d7f9815339910b41869d3c237ae974fa53b413a"
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout-960.webp",
+      "gitBlob": "ac4408e91c7ff15b87fe3c4618ea483bd1d03fa5"
+    },
+    {
+      "file": "assets/media/fallout/sawyer-squeeze-sp129-water-filter-fallout.webp",
+      "gitBlob": "73d2f4b6d968fd380d5d0d253b76be9b2e1f3a2e"
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout-480.webp",
+      "gitBlob": "a3790b422c9afe7ba6b626a9a19408d2b67d429b"
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout-960.webp",
+      "gitBlob": "5fc0a6accefec28a3065545311b382be0bf8e5b2"
+    },
+    {
+      "file": "assets/media/fallout/sol-emergency-bivvy-survival-shelter-fallout.webp",
+      "gitBlob": "ff5cd3aeec37550bd483bc8b4b4f63ad0207dad7"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-480.webp",
+      "gitBlob": "749c79bfd88b5cbcfc27c73c3df1acff674f09b4"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout-960.webp",
+      "gitBlob": "92d993731218416b61e28c3bd18be3f0d2424dca"
+    },
+    {
+      "file": "assets/media/fallout/sos-3600-calorie-emergency-food-fallout.webp",
+      "gitBlob": "060893a22dc92b9e2259232586e455bb0e141024"
+    },
+    {
+      "file": "assets/media/image-manifest.csv",
+      "gitBlob": "72df5e7e48c1a031cd5deac21244cb0950140bd7"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-480.webp",
+      "gitBlob": "ee33cf2f76be2dedb45a3ae540540c5594cac2d8"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak-960.webp",
+      "gitBlob": "816b68f5a0326c5b90737507c2f10a4445d1e51d"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2091-outbreak.webp",
+      "gitBlob": "771c1d5660ad94985ced9919a715f4c2be5acef8"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-480.webp",
+      "gitBlob": "6e9b47f93c357d78f26db055a2959767ac902ed7"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak-960.webp",
+      "gitBlob": "b8cc018f98042173cfda6ddcefb44f1a4d732832"
+    },
+    {
+      "file": "assets/media/outbreak/3m-2097-outbreak.webp",
+      "gitBlob": "d11fead44ea2dff9276eeea0538ee5daeaf183fb"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-480.webp",
+      "gitBlob": "2902eb5fb79b135853528ff73da99a917d71170b"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak-960.webp",
+      "gitBlob": "a7e5794a677709a2372ea0d9becfbb38d4ce3bb0"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60921-outbreak.webp",
+      "gitBlob": "a12c26dd6d1517edfc487d6489260a00920efe6a"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-480.webp",
+      "gitBlob": "3781e183202485988d8a0fb1f431037af0547812"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak-960.webp",
+      "gitBlob": "92609e30b29d2792af987f74183b99fb3ca50c52"
+    },
+    {
+      "file": "assets/media/outbreak/3m-60926-outbreak.webp",
+      "gitBlob": "60b5c1a4a55b8936a150965d6d42b68e3266ab54"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-480.webp",
+      "gitBlob": "f12bd0006d413a194710277f42f895de50bef41d"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak-960.webp",
+      "gitBlob": "476b1f4dc1bbe7b92d09b5f89001a2a21a1d59ca"
+    },
+    {
+      "file": "assets/media/outbreak/3m-6800-full-facepiece-respirator-outbreak.webp",
+      "gitBlob": "a63effbd83684a9c45eea8517216ccad351c6752"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-480.webp",
+      "gitBlob": "59d8e52def034c9ef091cf2398a167a3ec36b8bd"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak-960.webp",
+      "gitBlob": "13c6c9e30b647d1d8fb610cdfed2db171db19ef7"
+    },
+    {
+      "file": "assets/media/outbreak/3m-aura-9205-n95-respirator-outbreak.webp",
+      "gitBlob": "010edea653a90060c07d4357ca20091b7123cd5c"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-480.webp",
+      "gitBlob": "b3eeee1a1fc26e58be3d0f522e7cf863343df18a"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak-960.webp",
+      "gitBlob": "298cfa88e3bb1383a5b770aece1284b6e10d2f78"
+    },
+    {
+      "file": "assets/media/outbreak/3m-gogglegear-500-safety-goggles-outbreak.webp",
+      "gitBlob": "7c69c97390d0e6b3f5f39b69f7e726bb36a4ae2f"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-480.webp",
+      "gitBlob": "7bdd84f1fc77fc5e8031b76a120b27a004e69de2"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak-960.webp",
+      "gitBlob": "a68bfeff35561d3844b57014b134d34e022efa7d"
+    },
+    {
+      "file": "assets/media/outbreak/511-tactical-rush72-2-backpack-outbreak.webp",
+      "gitBlob": "a7d9e32dccada04e63329675503decdd005774c4"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-480.webp",
+      "gitBlob": "35c62b4fd88581fe4437c492fb8dfb1183ad6148"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak-960.webp",
+      "gitBlob": "9a12c60b50a65313900cef14cb6c43e8d01e3318"
+    },
+    {
+      "file": "assets/media/outbreak/esee-4-outbreak.webp",
+      "gitBlob": "17234b5838f7d550fdc2ecc4ea3a01ce94acb0d6"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-480.webp",
+      "gitBlob": "b7ca5dce008e35b29b926230d0d87c8db67a831c"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak-960.webp",
+      "gitBlob": "c931f5eaa187dbed9788f461be0684f01fe7c5a9"
+    },
+    {
+      "file": "assets/media/outbreak/garmin-gpsmap-67i-satellite-gps-outbreak.webp",
+      "gitBlob": "082d590c93c259df2c87494cd4fe619d3c2e1d99"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-480.webp",
+      "gitBlob": "0afe59bf8de5070b356b63b069353139df3fe168"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak-960.webp",
+      "gitBlob": "bc93d48667e3a17dfcbd5d30c27b0232ae455c0f"
+    },
+    {
+      "file": "assets/media/outbreak/gerber-strongarm-outbreak.webp",
+      "gitBlob": "94d83c333b6065ff3170130776efee80cf0925ef"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-480.webp",
+      "gitBlob": "6f1c31ddb2a08ab0151af28c49413d75454db872"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak-960.webp",
+      "gitBlob": "0dad64f6aec8be75ec649a27c08a58213d97190e"
+    },
+    {
+      "file": "assets/media/outbreak/marmot-precip-rain-jacket-outbreak.webp",
+      "gitBlob": "69c9f1ed7a9dd7d1775b632f57294ebb654913e8"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-480.webp",
+      "gitBlob": "3fa2f45069d63a9e6b71451803dc59ff6a9d2cbe"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak-960.webp",
+      "gitBlob": "d3a629b3de4337fb5683f050e7ecd89eac447758"
+    },
+    {
+      "file": "assets/media/outbreak/mechanix-m-pact-work-gloves-outbreak.webp",
+      "gitBlob": "ef3c963104f76cbc0a562eebed886ef8b1aeb75e"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-480.webp",
+      "gitBlob": "2b08204715887763d9db77121748f18a297ed73b"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak-960.webp",
+      "gitBlob": "266ebd6b338e1555dd4ffd3f2a1bb237a75886ef"
+    },
+    {
+      "file": "assets/media/outbreak/merrell-moab-3-mid-waterproof-boots-outbreak.webp",
+      "gitBlob": "58846fda94f37579f7aca1b7e1d681e05a02f26c"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-480.webp",
+      "gitBlob": "06984cf52ca9d324f7608efbae723ab360bb7aa9"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak-960.webp",
+      "gitBlob": "3a7eebd6c1914608424c90ae0f5e2fb67d67db41"
+    },
+    {
+      "file": "assets/media/outbreak/morakniv-garberg-outbreak.webp",
+      "gitBlob": "446d7c16d1c2cad30624dba9c8572abd1ea85947"
+    },
+    {
+      "file": "assets/media/outbreak/originals/3m-2091-outbreak.png",
+      "gitBlob": "be704452fcf7768f1b67daa47eb9a9604d576732"
+    },
+    {
+      "file": "assets/media/outbreak/originals/esee-4-outbreak.png",
+      "gitBlob": "f451be106c5d41bb8f828ee08ff7b36bb7f69a17"
+    },
+    {
+      "file": "assets/media/outbreak/originals/gerber-strongarm-outbreak.png",
+      "gitBlob": "8282d9a396124875f4403a39d3dabb0980ab9fce"
+    },
+    {
+      "file": "assets/media/outbreak/originals/morakniv-garberg-outbreak.png",
+      "gitBlob": "2247cbef65c275480bb450e6f888a0a8567fd471"
+    },
+    {
+      "file": "assets/media/outbreak/originals/vortex-diamondback-hd-10x42-outbreak.png",
+      "gitBlob": "e745b28c71252c67ab91bd736553d4064920e530"
+    },
+    {
+      "file": "assets/media/outbreak/vortex-diamondback-hd-10x42-outbreak-480.webp",
+      "gitBlob": "dfba111309d62cb3d43a100e2ec756ed3da13f6a"
+    },
+    {
+      "file": "assets/media/outbreak/vortex-diamondback-hd-10x42-outbreak-960.webp",
+      "gitBlob": "ed5424ed48b48464ba6dacf9bb54ebe1af73a4a5"
+    },
+    {
+      "file": "assets/media/outbreak/vortex-diamondback-hd-10x42-outbreak.webp",
+      "gitBlob": "53d8a46bbf34ae464e8bdd3c726cfcffaac22d54"
+    },
+    {
+      "file": "assets/media/phase4-1-image-manifest.csv",
+      "gitBlob": "1477832414cabf13f61196e27b766f0387ff520c"
+    },
+    {
+      "file": "assets/media/phase4-2-image-manifest.csv",
+      "gitBlob": "4e1f2e7ed4ed9812159f37f014a3f7f627209f85"
+    },
+    {
+      "file": "assets/media/phase4-3-image-manifest.csv",
+      "gitBlob": "3730a38356f8418db1aa6020ec8b3ae24304969e"
+    },
+    {
+      "file": "assets/media/phase4-6-image-manifest.csv",
+      "gitBlob": "68959f3754f6350d2a4eee90089aa05429b5c40b"
+    },
+    {
+      "file": "assets/media/phase4-7-image-manifest.csv",
+      "gitBlob": "1569f412ba6e1632e9756303c413980e934d8520"
+    },
+    {
+      "file": "assets/media/phase5-3-image-manifest.csv",
+      "gitBlob": "fdfea2a9410a164a0a6167bcedf29a33eed8cf33"
+    },
+    {
+      "file": "assets/media/phase5-5-image-manifest.csv",
+      "gitBlob": "7920194fc7be0f65942325f89dd6d987017fa26d"
+    },
+    {
+      "file": "assets/media/phase5-image-manifest.csv",
+      "gitBlob": "0a9cb3e584717f42f49bf3105d9e7e34647b410e"
+    },
+    {
+      "file": "assets/media/phase7-image-manifest.csv",
+      "gitBlob": "21128b2dc591a5459a782c7cb42ae4a9da616a56"
+    },
+    {
+      "file": "assets/media/phase7-sources.json",
+      "gitBlob": "4eee28520ff31732837c82185248cf2b4647bcfa"
+    },
+    {
+      "file": "assets/media/whiteout-image-manifest.csv",
+      "gitBlob": "daf1ae9db10c8c0de94283cda888a732ec6451cc"
+    },
+    {
+      "file": "assets/media/whiteout-phase2-image-manifest.csv",
+      "gitBlob": "e071a1cd29b3c31a2f4c3e13825ab7c6d0019f0d"
+    },
+    {
+      "file": "assets/media/whiteout-products-image-manifest.csv",
+      "gitBlob": "1b482876e4c1104420fcdb72626b4e5429377c24"
+    },
+    {
+      "file": "assets/media/whiteout/baffin-impact-winter-boots-whiteout-480.webp",
+      "gitBlob": "86185b9bc2abcff3f3006f865022601583548030"
+    },
+    {
+      "file": "assets/media/whiteout/baffin-impact-winter-boots-whiteout-960.webp",
+      "gitBlob": "124266dc630b29ec8702788cd596d91ad723047b"
+    },
+    {
+      "file": "assets/media/whiteout/baffin-impact-winter-boots-whiteout.webp",
+      "gitBlob": "4b1c595f7c1ade16b16995f673a65e2269f6d352"
+    },
+    {
+      "file": "assets/media/whiteout/darn-tough-hunter-boot-socks-whiteout-480.webp",
+      "gitBlob": "4468d8777fb449b96e1a51e7ea38fc37afcf25f9"
+    },
+    {
+      "file": "assets/media/whiteout/darn-tough-hunter-boot-socks-whiteout-960.webp",
+      "gitBlob": "b4dacedf74a9bc16733bfe1eac6c0ce535ba7a71"
+    },
+    {
+      "file": "assets/media/whiteout/darn-tough-hunter-boot-socks-whiteout.webp",
+      "gitBlob": "3b3e7b89b9de7c45c0a78dee8dc6020b42de4966"
+    },
+    {
+      "file": "assets/media/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-480.webp",
+      "gitBlob": "c9b46e3afc9f35a8e6fce5f8c229d1f12a211bd3"
+    },
+    {
+      "file": "assets/media/whiteout/hestra-army-leather-heli-ski-gloves-whiteout-960.webp",
+      "gitBlob": "2fb932a240f150e0d08251262d43f95a371eeea8"
+    },
+    {
+      "file": "assets/media/whiteout/hestra-army-leather-heli-ski-gloves-whiteout.webp",
+      "gitBlob": "a56b8846afc6321917a3622821d3e65b7d353c7e"
+    },
+    {
+      "file": "assets/media/whiteout/kahtoola-microspikes-whiteout-480.webp",
+      "gitBlob": "8c9fbebaf8c74aa0b633a6b60d1e39f90ca686db"
+    },
+    {
+      "file": "assets/media/whiteout/kahtoola-microspikes-whiteout-960.webp",
+      "gitBlob": "0d5eec51a9f24192b019fdd2b54a51d9f4b01f27"
+    },
+    {
+      "file": "assets/media/whiteout/kahtoola-microspikes-whiteout.webp",
+      "gitBlob": "4e9bd0b3356e610d50e927be1ae25e65af729eb0"
+    },
+    {
+      "file": "assets/media/whiteout/oakley-flight-deck-m-goggles-whiteout-480.webp",
+      "gitBlob": "974bbcb91fda065df1909e847d13a2cbcd45c47d"
+    },
+    {
+      "file": "assets/media/whiteout/oakley-flight-deck-m-goggles-whiteout-960.webp",
+      "gitBlob": "a2adcc779bf0ea64cd085c3706fbc74ac125a3c2"
+    },
+    {
+      "file": "assets/media/whiteout/oakley-flight-deck-m-goggles-whiteout.webp",
+      "gitBlob": "1a46a9e12e8835eccc036b11506f02894f79462f"
+    },
+    {
+      "file": "assets/media/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-480.webp",
+      "gitBlob": "a1bd256dea96323e2349e8e3819b2479248d608a"
+    },
+    {
+      "file": "assets/media/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout-960.webp",
+      "gitBlob": "811aada79d034ab57a7968fbf3f5a8aacc55cae7"
+    },
+    {
+      "file": "assets/media/whiteout/outdoor-research-alti-ii-gore-tex-mitts-whiteout.webp",
+      "gitBlob": "7481209eec392a80f7b1ffd38c144eb9a33f9eef"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-merino-250-base-layer-whiteout-480.webp",
+      "gitBlob": "38edb1a0a4896a5abedb984bfa444438b7bf9ad2"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-merino-250-base-layer-whiteout-960.webp",
+      "gitBlob": "557f24d84e5ca07119b33989668747269e816f12"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-merino-250-base-layer-whiteout.webp",
+      "gitBlob": "cd7ae317999c9220cae730f9b5fe4b60f481b709"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-nts-250-balaclava-whiteout-480.webp",
+      "gitBlob": "dd65472e925d113bd9cb39e7653a05ce45e6a15d"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-nts-250-balaclava-whiteout-960.webp",
+      "gitBlob": "088c61fb216d032cb93fdbf7cd71d40276d74023"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-nts-250-balaclava-whiteout.webp",
+      "gitBlob": "1daf366a4fc0086c912d425349d13f69095dc10e"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-480.webp",
+      "gitBlob": "67ff9fd61e3fa2712b85af5eda0d9c1c351d7430"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout-960.webp",
+      "gitBlob": "5717f08e0f378e374fa69fced519d8fc18f52de7"
+    },
+    {
+      "file": "assets/media/whiteout/smartwool-thermal-merino-reversible-cuffed-beanie-whiteout.webp",
+      "gitBlob": "f71e73e90984bd6dd1c455ecdd129aa74e60310b"
+    },
+    {
+      "file": "assets/media/whiteout/source/baffin-impact-winter-boots.png",
+      "gitBlob": "f2f27b41abc3854402c827246b231454b0061e39"
+    },
+    {
+      "file": "assets/media/whiteout/source/darn-tough-hunter-boot-socks.png",
+      "gitBlob": "ffe8dcd5b7c95d6fdb035198582fe9d2f6d69b3f"
+    },
+    {
+      "file": "assets/media/whiteout/source/hestra-army-leather-heli-ski-gloves.png",
+      "gitBlob": "38028f2b881ee5eea2982035eaa372924ae8d55f"
+    },
+    {
+      "file": "assets/media/whiteout/source/kahtoola-microspikes.png",
+      "gitBlob": "128804e58576f54162b1eb5f8bf58a6057011fca"
+    },
+    {
+      "file": "assets/media/whiteout/source/oakley-flight-deck-m-goggles.png",
+      "gitBlob": "66d87aab3de99591abd85b9638ddc18c382a434e"
+    },
+    {
+      "file": "assets/media/whiteout/source/outdoor-research-alti-ii-gore-tex-mitts.png",
+      "gitBlob": "29135afedea616383eff364b6dde5026b58b8e29"
+    },
+    {
+      "file": "assets/media/whiteout/source/smartwool-merino-250-base-layer.png",
+      "gitBlob": "2f2af25b3ba4722cd8249415a2e0172f37ee6400"
+    },
+    {
+      "file": "assets/media/whiteout/source/smartwool-nts-250-balaclava.png",
+      "gitBlob": "81186b7e68b46e7cae366b40d1be3f8c431ebc82"
+    },
+    {
+      "file": "assets/media/whiteout/source/smartwool-thermal-merino-reversible-cuffed-beanie.png",
+      "gitBlob": "61991d9355a7bbc46bf2c91e10a3391cb70065dc"
+    },
+    {
+      "file": "assets/media/whiteout/source/therm-a-rest-polar-ranger-sleeping-bag.png",
+      "gitBlob": "96eccbdbe7a39d01e608a97aceeaef28d2988132"
+    },
+    {
+      "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-640.webp",
+      "gitBlob": "5cc72bc63b83621f5de97dbe2f24846c63eeb80d"
+    },
+    {
+      "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout-960.webp",
+      "gitBlob": "44136fca253a3a2ea1952408959a2136b2a41613"
+    },
+    {
+      "file": "assets/media/whiteout/therm-a-rest-neoair-xtherm-nxt-whiteout.webp",
+      "gitBlob": "86a5695a303b02ebc8e5146767ef68b7e5d7279c"
+    },
+    {
+      "file": "assets/media/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout-480.webp",
+      "gitBlob": "bc5696021c280f41a90a78fcad0f016476bfc68a"
+    },
+    {
+      "file": "assets/media/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout-960.webp",
+      "gitBlob": "917faed0217f32b321fcc9612ee426f80b771f22"
+    },
+    {
+      "file": "assets/media/whiteout/therm-a-rest-polar-ranger-sleeping-bag-whiteout.webp",
+      "gitBlob": "72df435e7a5a35856249637459e6f859c5f3654d"
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-480.webp",
+      "gitBlob": "58a41a81b4148a34dd7f42ae4baa00c666701f2b"
+    },
+    {
+      "file": "assets/rejected/blackout/jackery-explorer-300-blackout-960.webp",
+      "gitBlob": "60de7b7d1509df79b71bd31e23b023e8daf27188"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/jackery-explorer-300-portable-power-station-blackout.webp",
+      "gitBlob": "bedfe5af5032fd3f74ff69bcca886e0d37c48d0c"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/leatherman-wave-plus-multitool-fallout.webp",
+      "gitBlob": "79784a8f88041fdcf2d207a77731b5717f2ab310"
+    },
+    {
+      "file": "assets/rejected/phase4-superseded/reliance-aqua-tainer-7-gallon-water-container-fallout.webp",
+      "gitBlob": "74af5a953c5a99db2e9ff8609509f7cec60cbdff"
+    },
+    {
+      "file": "package-lock.json",
+      "gitBlob": "5b361e57dad3f5622566b299672bd01ea0ed2522"
+    },
+    {
+      "file": "public/apple-touch-icon.png",
+      "gitBlob": "42bdf6d5e8aef9fb0333664fd598f981ce37a4d1"
+    },
+    {
+      "file": "public/brand/brand-logo-128.webp",
+      "gitBlob": "c7ea5ada46179fcee147fde92f66ca51be476085"
+    },
+    {
+      "file": "public/brand/brand-logo-256.webp",
+      "gitBlob": "5167acb9320831eb9bac5dac29ccce1ab53ed9f8"
+    },
+    {
+      "file": "public/brand/brand-logo-512.webp",
+      "gitBlob": "fcca392ffeae1321207f3f6bd314f7d96d66d491"
+    },
+    {
+      "file": "public/brand/brand-logo-64.webp",
+      "gitBlob": "9c3972765d854e781bd7678bbdf4345c2d1a276d"
+    },
+    {
+      "file": "public/favicon-16.png",
+      "gitBlob": "ad72c584e9df7aa900c6472e22d6e08f45559f83"
+    },
+    {
+      "file": "public/favicon-32.png",
+      "gitBlob": "36d9ca5ca1cbb2250b629c36bbab65d8ca414b06"
+    },
+    {
+      "file": "public/favicon.svg",
+      "gitBlob": "0630c5c7873a43e5e6dc5df401b8535ef1aef6eb"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1280.webp",
+      "gitBlob": "50fb2a55f9649ffe5664cec302c9947168e52945"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-1672.webp",
+      "gitBlob": "a9dbd2f7f239b806ea645467384857123981b193"
+    },
+    {
+      "file": "public/images/apocalypsegearlab-survival-bunker-hero-768.webp",
+      "gitBlob": "615272e36f48d444649be27371d123227573d119"
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-480.webp",
+      "gitBlob": "0f6ce7b2663ba24e54400358db1cd08d5baad45a"
+    },
+    {
+      "file": "public/images/ecoflow-power-station-blackout-960.webp",
+      "gitBlob": "9c5a7fb14088ae81b9971caca9bc7b9228f823a2"
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-480.webp",
+      "gitBlob": "7ed01bb6fb0dfb5c6381233c234413daf263a3ba"
+    },
+    {
+      "file": "public/images/fenix-lantern-blackout-960.webp",
+      "gitBlob": "4be3599e3af93b1589d7566821ccb6601ae07deb"
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-480.webp",
+      "gitBlob": "0d527c5e149303dbfaad797f8eaeee6226cc1a56"
+    },
+    {
+      "file": "public/images/iniu-power-bank-blackout-960.webp",
+      "gitBlob": "b975d57e2999350fc3aa4f40a61d6c32701bb3c5"
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-480.webp",
+      "gitBlob": "283162c94596082e64dc7618abcd1b4f206cca4f"
+    },
+    {
+      "file": "public/images/jackery-explorer-1000-illustration-blackout-960.webp",
+      "gitBlob": "b90957262e89094629d39ddda3ac5bdf0b47e21d"
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-480.webp",
+      "gitBlob": "59fc78e01cebb439b334ff58247d6255dbbd0e05"
+    },
+    {
+      "file": "public/images/jackery-folding-solar-panel-blackout-960.webp",
+      "gitBlob": "3081bbd9164085dfecec59d9115a2620ce206ccb"
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-480.webp",
+      "gitBlob": "58d26d0a3cf4197ff5510f4dc6aa3b75f103e52c"
+    },
+    {
+      "file": "public/images/kidde-co-alarm-blackout-960.webp",
+      "gitBlob": "5b2354ff8025d109f913ffe291cb193bbd7cc254"
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-480.webp",
+      "gitBlob": "437646790e4c3e63bbe4fa49cbb1b1100eece970"
+    },
+    {
+      "file": "public/images/midland-emergency-radio-blackout-960.webp",
+      "gitBlob": "990edc3329b4eaae0c6733564dff9fb1ea265278"
+    },
+    {
+      "file": "public/images/universes/blackout-survival-hero-1280.webp",
+      "gitBlob": "edc639a8344947a7ef307a5069d40827f592514b"
+    },
+    {
+      "file": "public/images/universes/blackout-survival-hero-1600.webp",
+      "gitBlob": "20732d552fb50c4fdc7247b700a5dcf10ac8f8a5"
+    },
+    {
+      "file": "public/images/universes/blackout-survival-hero-768.webp",
+      "gitBlob": "a34f803c4e2e85fb2e205f5002a754decceb34a2"
+    },
+    {
+      "file": "public/images/universes/blackout-survival-og.webp",
+      "gitBlob": "1b408f50ca066a3e8e523b3eb094aa7022a08e6c"
+    },
+    {
+      "file": "public/images/universes/fallout-survival-hero-1280.webp",
+      "gitBlob": "5a71e0cb43a425c730fd0acb4c2054a675843eff"
+    },
+    {
+      "file": "public/images/universes/fallout-survival-hero-1600.webp",
+      "gitBlob": "8b384d1343feb6b7feca32943c9c0d20b09967a9"
+    },
+    {
+      "file": "public/images/universes/fallout-survival-hero-768.webp",
+      "gitBlob": "edb98f33e3d7b604b8993be23e07a1e3b6820ae0"
+    },
+    {
+      "file": "public/images/universes/fallout-survival-og.webp",
+      "gitBlob": "d442d289bd85187b0480f7c70997b5452c36ed18"
+    },
+    {
+      "file": "public/images/universes/outbreak-survival-hero-1280.webp",
+      "gitBlob": "369bdf6610153b59709a180fc3f269767e420511"
+    },
+    {
+      "file": "public/images/universes/outbreak-survival-hero-1600.webp",
+      "gitBlob": "58ea04f774e714fbe31c0b49738a03629d3d2c9a"
+    },
+    {
+      "file": "public/images/universes/outbreak-survival-hero-768.webp",
+      "gitBlob": "82f406c57f6c636371d878301ee56dcb92808986"
+    },
+    {
+      "file": "public/images/universes/outbreak-survival-og.webp",
+      "gitBlob": "a47daf26b37f0b8c459e73879a98534ea7545130"
+    },
+    {
+      "file": "public/images/universes/whiteout-survival-hero-1280.webp",
+      "gitBlob": "eef313abdc420dab0a4816d9163ba72e34a953b4"
+    },
+    {
+      "file": "public/images/universes/whiteout-survival-hero-1600.webp",
+      "gitBlob": "d0995c8715bd5f9b9d3392046c14ae39d503818d"
+    },
+    {
+      "file": "public/images/universes/whiteout-survival-hero-768.webp",
+      "gitBlob": "0ae8faef7c9c258e0f6c750dbb67c6a393500f2d"
+    },
+    {
+      "file": "public/images/universes/whiteout-survival-og.webp",
+      "gitBlob": "b1d38cbf871435d93161a27294f73fbe7b63efbe"
+    },
+    {
+      "file": "src/components/ProductImage.astro",
+      "gitBlob": "0bff6563116c9b34fb36636e4a8068323e2f632c"
+    },
+    {
+      "file": "src/config/analytics.ts",
+      "gitBlob": "f80957914bb4311559bedb651328868d995f847f"
+    },
+    {
+      "file": "src/config/branding.ts",
+      "gitBlob": "4aa425df664513d3edd98efb6919d3c491fa2a82"
+    },
+    {
+      "file": "src/config/cinematic.ts",
+      "gitBlob": "8859b2a0be761c074938c7c84b0ba9dfe4f2659e"
+    },
+    {
+      "file": "src/config/site.ts",
+      "gitBlob": "82f48aed0a61d710fb7e7c5bdba9cd2cb77b5f88"
+    },
+    {
+      "file": "src/config/taxonomy.ts",
+      "gitBlob": "cd7f840157c5ecfd700b36dc90224d86af02d5ae"
+    },
+    {
+      "file": "src/data/media/imported-manifest.json",
+      "gitBlob": "abd03f5cc53b5a03ba5319ed6a5ac85479d13f73"
+    },
+    {
+      "file": "src/data/media/manifest.json",
+      "gitBlob": "af721eb27a2746937328e4ac4773ae831fbb5073"
+    },
+    {
+      "file": "src/data/media/responsive-imported-manifest.json",
+      "gitBlob": "d978798d78a3a34fb98c33dfe4cea6f71dd4383e"
+    },
+    {
+      "file": "src/data/media/review.json",
+      "gitBlob": "d62493abf77e93cefba071c4670770efb1ceeb29"
+    },
+    {
+      "file": "src/data/media/whiteout-manifest.json",
+      "gitBlob": "fbf74a519319153b20a2d7dd8fb28e749cdf1f35"
+    },
+    {
+      "file": "src/data/media/whiteout-phase2-manifest.json",
+      "gitBlob": "d412d4484dc6b5ab62b6653c403fae822a4a09ae"
+    },
+    {
+      "file": "src/data/media/whiteout-products-manifest.json",
+      "gitBlob": "de84e5724456b26975152a7f948383fac4980aef"
+    },
+    {
+      "file": "src/data/products/3m-2091-p100-particulate-filters.json",
+      "gitBlob": "2c5f2fb20d573b67c525d07340cb2f03e0cc145e"
+    },
+    {
+      "file": "src/data/products/3m-2097-p100-particulate-filters.json",
+      "gitBlob": "a7d2e4ad415840ac9b6ec7ba2f3497ba83e58b88"
+    },
+    {
+      "file": "src/data/products/3m-60921-organic-vapor-p100-cartridges.json",
+      "gitBlob": "b640c33557d56798adba2b1bae65ff18190755d2"
+    },
+    {
+      "file": "src/data/products/3m-60926-multi-gas-vapor-p100-cartridges.json",
+      "gitBlob": "19fc72cfaf5bd863f567ce1da9ea5ebe7095350b"
+    },
+    {
+      "file": "src/data/products/3m-6800-full-facepiece-respirator.json",
+      "gitBlob": "5538a290120d08e1d24aa9c60f4fd1177fa17da2"
+    },
+    {
+      "file": "src/data/products/3m-aura-9205-n95-respirator.json",
+      "gitBlob": "45a5e65f370b06fcf820f090f8a731281e25e44f"
+    },
+    {
+      "file": "src/data/products/3m-gogglegear-500-safety-goggles.json",
+      "gitBlob": "d2f63c4cb0683a8afe9c3eaaecfcb4abbc883a11"
+    },
+    {
+      "file": "src/data/products/511-tactical-rush72-2-backpack.json",
+      "gitBlob": "ab94b2be26f0b743b66e22e633cf13af14f266cb"
+    },
+    {
+      "file": "src/data/products/baffin-impact-winter-boots.json",
+      "gitBlob": "81f858d2183c14ad2eb97e27e932b83078d753aa"
+    },
+    {
+      "file": "src/data/products/bluetti-elite-100-v2-solar-generator-kit.json",
+      "gitBlob": "da09663c739b1f02f46579f8d1d40aafef2e1525"
+    },
+    {
+      "file": "src/data/products/bougerv-53-quart-portable-refrigerator-freezer.json",
+      "gitBlob": "eceeef1b1c306e7eba54e7a93cbb06f9a6ea1568"
+    },
+    {
+      "file": "src/data/products/bougerv-rocky-v3-55qt-dual-zone-portable-car-cooler.json",
+      "gitBlob": "cfc2ac640ace7003da0e6ee4977a665fc9586ba1"
+    },
+    {
+      "file": "src/data/products/darn-tough-hunter-boot-socks.json",
+      "gitBlob": "30d9f05c0323584f92673b0179de8252e7dd805e"
+    },
+    {
+      "file": "src/data/products/datrex-dx2400f-emergency-food-ration.json",
+      "gitBlob": "2a3bf619f86d3dc29fb2cb70d02c3bde6032c164"
+    },
+    {
+      "file": "src/data/products/ecoflow-delta-2-portable-power-station.json",
+      "gitBlob": "1b6a34088464afcb0ba22a98221883154a8bad59"
+    },
+    {
+      "file": "src/data/products/ecoflow-river-2-pro.json",
+      "gitBlob": "6a2c23a96b1350d586076ff5e2cdc7cb94c689f5"
+    },
+    {
+      "file": "src/data/products/esee-4-fixed-blade-knife.json",
+      "gitBlob": "882804faed3aaaf6e3b7a2398670f5111aa1faab"
+    },
+    {
+      "file": "src/data/products/fenix-cl26r-pro.json",
+      "gitBlob": "5e71f3f555228db28484a4af12f7967010cdf025"
+    },
+    {
+      "file": "src/data/products/fenix-hm50r-v2-headlamp.json",
+      "gitBlob": "f2d5e185b02b3e9ee30f0548eb069e4052e74da4"
+    },
+    {
+      "file": "src/data/products/fenix-pd36r-pro-review.json",
+      "gitBlob": "30307abd06407005574d4ce8b517e52a6739601d"
+    },
+    {
+      "file": "src/data/products/fnirsi-gc-01-geiger-counter.json",
+      "gitBlob": "1c84fed3236553bbc6cecde7638a3eb9bf0e1305"
+    },
+    {
+      "file": "src/data/products/garmin-gpsmap-67i-satellite-gps.json",
+      "gitBlob": "610d1366b065109935be22113fe27bd96babc1e1"
+    },
+    {
+      "file": "src/data/products/garrett-pro-pointer-at-review.json",
+      "gitBlob": "0d584ae07d868e7fa6ba2710be20307d26f9a573"
+    },
+    {
+      "file": "src/data/products/gerber-strongarm-fixed-blade-knife.json",
+      "gitBlob": "fbd4cc7c2132ae037915aeccd224f2f83bcd792d"
+    },
+    {
+      "file": "src/data/products/gq-gmc-600-pro-review.json",
+      "gitBlob": "8161e71a64f61487a89dba68ff94790ee80dbbcd"
+    },
+    {
+      "file": "src/data/products/hestra-army-leather-heli-ski-gloves.json",
+      "gitBlob": "93c573d54dac35643033f10ee95dcd8878af3019"
+    },
+    {
+      "file": "src/data/products/iniu-p62-20000mah-65w.json",
+      "gitBlob": "3a19d69496f82fb6b53882f8a7bad8eaa0c86ba4"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-1000-v2.json",
+      "gitBlob": "2af7dfdf15ec197992b25efc42ba8dd4f0f31b78"
+    },
+    {
+      "file": "src/data/products/jackery-explorer-300.json",
+      "gitBlob": "e2dafb3755f1ccfb7ca87e00bbe17ccc12274817"
+    },
+    {
+      "file": "src/data/products/jackery-solarsaga-100w-air.json",
+      "gitBlob": "b2c0c1bb7ea8fae1f65849603d149456a7a660a0"
+    },
+    {
+      "file": "src/data/products/kahtoola-microspikes.json",
+      "gitBlob": "6b7aab4649f7cfbbbdf7ea1773510e77a6aae322"
+    },
+    {
+      "file": "src/data/products/kidde-c3010-co-alarm.json",
+      "gitBlob": "c0dc155e3898294bddf0fb32c69cac05393528f4"
+    },
+    {
+      "file": "src/data/products/leatherman-wave-plus-multitool.json",
+      "gitBlob": "7fcf01d03cb7915e7e5ddafaf909ccb93365fc4b"
+    },
+    {
+      "file": "src/data/products/marmot-precip-rain-jacket.json",
+      "gitBlob": "deca2b2901948fa0edbdf5322dd7dcd06d4cf8ae"
+    },
+    {
+      "file": "src/data/products/mechanix-m-pact-work-gloves.json",
+      "gitBlob": "c90c0176a2569a671c50d328bd77c12c9e1f9522"
+    },
+    {
+      "file": "src/data/products/merrell-moab-3-mid-waterproof-boots.json",
+      "gitBlob": "10898688c48ff8c3cebb50471965d1b14271fef6"
+    },
+    {
+      "file": "src/data/products/midland-er310.json",
+      "gitBlob": "1bd3ccd03d436089a7f7791300010d8021ef9c40"
+    },
+    {
+      "file": "src/data/products/morakniv-garberg-blackblade-carbon-survival-kit.json",
+      "gitBlob": "733c2ab1e78bd736f7296ba12719749f70aaec68"
+    },
+    {
+      "file": "src/data/products/motorola-talkabout-t802-review.json",
+      "gitBlob": "12bbcc02a623cc9f6b1d9b6d6c7fb0c4ebe19972"
+    },
+    {
+      "file": "src/data/products/nanuk-904-first-aid-kit.json",
+      "gitBlob": "28804b028a0987e98b0f5cd61b05d32309575612"
+    },
+    {
+      "file": "src/data/products/oakley-flight-deck-m-goggles.json",
+      "gitBlob": "d1666aa60b1c3d4dfce0e74ba3fba1ad34d030c9"
+    },
+    {
+      "file": "src/data/products/oria-wireless-refrigerator-freezer-thermometer.json",
+      "gitBlob": "af0eee2582e7322df10fa3bd4d942cb21cac51e9"
+    },
+    {
+      "file": "src/data/products/outdoor-research-alti-ii-gore-tex-mitts.json",
+      "gitBlob": "1ba74bcf4aec6ac29330d0634288d25f55e8de21"
+    },
+    {
+      "file": "src/data/products/panasonic-eneloop-aa-rechargeable-battery-charger-kit.json",
+      "gitBlob": "089685dc1f047441868cf0132870dea5acc5336d"
+    },
+    {
+      "file": "src/data/products/panasonic-eneloop-aaa-rechargeable-battery-charger-kit.json",
+      "gitBlob": "3964a2d37d6403c937201074f6ea9bde47e272e9"
+    },
+    {
+      "file": "src/data/products/readywise-84-servings-emergency-food-bucket.json",
+      "gitBlob": "bc0b3baefd56c20ac46bd4024299c7dcf8c2cb51"
+    },
+    {
+      "file": "src/data/products/reliance-aqua-tainer-7-gallon.json",
+      "gitBlob": "ed5c7b73019c7ff1a74a8a57a48f351a7978a81d"
+    },
+    {
+      "file": "src/data/products/royale-velour-plush-thick-toilet-paper.json",
+      "gitBlob": "5f5072366ea1649e2da9ce473f5939e3852f3473"
+    },
+    {
+      "file": "src/data/products/sawyer-squeeze-sp129-water-filter.json",
+      "gitBlob": "f823f21d859e70140120f81b81dd16419ada72b8"
+    },
+    {
+      "file": "src/data/products/smartwool-merino-250-base-layer.json",
+      "gitBlob": "df55df5428cbdfc5fe00969b256407ae32ff7784"
+    },
+    {
+      "file": "src/data/products/smartwool-nts-250-balaclava.json",
+      "gitBlob": "594f0664598c9627f9ecc5e4e5539523d204ace6"
+    },
+    {
+      "file": "src/data/products/smartwool-thermal-merino-reversible-cuffed-beanie.json",
+      "gitBlob": "a98b0f9792316bb48a480de88b8a7178cbec0c40"
+    },
+    {
+      "file": "src/data/products/sol-emergency-bivvy.json",
+      "gitBlob": "61c563644ff393b6d89021f5b30d1a0e52000b51"
+    },
+    {
+      "file": "src/data/products/sos-3600-calorie-emergency-food-rations.json",
+      "gitBlob": "dba984ce2b161965d4963e19d755841ca41919ac"
+    },
+    {
+      "file": "src/data/products/template-product.json",
+      "gitBlob": "5a26c4dd42748282f3cc3dff3ba4f98c2cc702fa"
+    },
+    {
+      "file": "src/data/products/therm-a-rest-neoair-xtherm-nxt-review.json",
+      "gitBlob": "f478cd091198a142dec61016b91c156d1192b5e6"
+    },
+    {
+      "file": "src/data/products/therm-a-rest-polar-ranger-sleeping-bag.json",
+      "gitBlob": "b0999861b84c94459817281d2bb7f1f6af969d1c"
+    },
+    {
+      "file": "src/data/products/vortex-diamondback-hd-10x42-review.json",
+      "gitBlob": "6d7415b7520db2769f73182bff11498b7e139e11"
+    },
+    {
+      "file": "src/data/whiteout-card-copy.json",
+      "gitBlob": "dfba11f851fe6aa12b9f8af799ccc6e476e0d08a"
+    },
+    {
+      "file": "src/layouts/BaseLayout.astro",
+      "gitBlob": "977307d2ae65a14ad9f8c71e608e8f7fe9791d4f"
+    },
+    {
+      "file": "src/lib/affiliate.ts",
+      "gitBlob": "deff91be17df9716be849bcb0ab44185708e40af"
+    },
+    {
+      "file": "src/lib/purchase-destination.ts",
+      "gitBlob": "5019e6e29ae5fe109bc26aa619185093570231a9"
+    },
+    {
+      "file": "src/lib/release-policy.ts",
+      "gitBlob": "fe44b040ab23350985a35186aa27e31c845086ee"
+    },
+    {
+      "file": "tsconfig.json",
+      "gitBlob": "cef5a78986621e2c292f7bba9eec1a61c52f0f7f"
+    }
+  ]
+}

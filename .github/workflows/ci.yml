@@ -27,6 +27,7 @@ jobs:
       - run: npm run audit:verification
       - run: npm run test:products
       - run: npm run build
+      - run: npm run test:metadata
       - run: npm run test:site
       - run: npm run test:conversion
       - run: npm run test:bougerv

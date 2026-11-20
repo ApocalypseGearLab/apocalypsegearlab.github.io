@@ -1,0 +1,19 @@
+
+> apocalypsegearlab@0.1.0 test:site
+> node scripts/verify-site.mjs && node scripts/verify-four-universes.mjs && node scripts/verify-bilingual.mjs && node scripts/verify-whiteout-phase2.mjs && node scripts/verify-whiteout-products.mjs
+
+Verified 134 HTML pages, 14160 internal references, 16 sitemap URLs, robots.txt, JSON-LD and product publication filtering.
+Verified four indexable cinematic universe pages, 19 exact supplied WebPs, complete OG/Twitter metadata, collection schemas and restricted Therm-a-Rest product-page link.
+{
+  "englishPages": 67,
+  "frenchPages": 67,
+  "totalPages": 134,
+  "translatedPhrases": 2864,
+  "checkedTextNodes": 15528,
+  "frenchAffiliateControls": 297,
+  "frenchSourceReferences": 142,
+  "indexableUrls": 16,
+  "protectedFiles": 61
+}
+WHITEOUT Phase 2: exactly 6 EN/FR profiles, 5 new records, 15 delivered WebPs, localized cards/links, canonical/hreflang, noindex/sitemap holds, six documented purchase links and retained XTherm temperature warning and protected-source preservation passed.
+WHITEOUT integration: 10 EN/FR profiles, 5 cards per catalogue, disclosures, affiliate tags, canonical/hreflang, noindex/schema rules, warnings and 15 delivered WebPs passed.

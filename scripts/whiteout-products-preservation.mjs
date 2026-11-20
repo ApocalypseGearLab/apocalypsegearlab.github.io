@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
+import { beforeOracleIntegration } from './oracle-preservation.mjs';
 
 export const WHITEOUT_PRODUCT_IDS = [
   'kahtoola-microspikes', 'darn-tough-hunter-boot-socks',
@@ -10,6 +11,7 @@ const changes = JSON.parse(readFileSync(new URL('./whiteout-products-source-chan
 /** Project only these literal integration hunks before frozen historical checks.
  * Baselines stay intact; unrelated edits still fail their original hash checks. */
 export function beforeWhiteoutProducts(file, bytes) {
+  bytes = beforeOracleIntegration(file, bytes);
   if (!changes[file]) return bytes;
   let source = bytes.toString('utf8').replace(/\r\n/g, '\n');
   for (const hunk of [...changes[file]].reverse()) {

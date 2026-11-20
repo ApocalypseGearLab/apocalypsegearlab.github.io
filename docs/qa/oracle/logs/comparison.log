@@ -1,0 +1,29 @@
+{
+  baseCommit: '61b39807c2577e7eee639fe4470a3ad60d3323e3',
+  pagesCompared: 134,
+  unchanged: [
+    'routes',
+    'titles',
+    'descriptions',
+    'canonical',
+    'hreflang',
+    'robots',
+    'JSON-LD',
+    'primary and card image attributes',
+    'affiliate links and tracking',
+    'image and commercial/safety caveats'
+  ],
+  allowedChanges: [
+    'og:image',
+    'og:image:type',
+    'og:image:width',
+    'og:image:height',
+    'og:image:alt',
+    'twitter:title',
+    'twitter:description',
+    'twitter:image',
+    'twitter:image:alt',
+    'twitter:card summary_large_image on permitted product illustrations'
+  ],
+  passed: true
+}

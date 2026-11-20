@@ -1,0 +1,74 @@
+{
+  "baseCommit": "61b39807c2577e7eee639fe4470a3ad60d3323e3",
+  "backupBranch": "backup/oracle-local-20261119",
+  "backupCommit": "5892f4ccef479317b5df12ccea4344348fe7e71a",
+  "branch": "fix/product-og-images-54",
+  "scope": "Built local output; no production deployment",
+  "eligible": 54,
+  "metadataPassed": 54,
+  "illustrations": 54,
+  "officialPhotographsVerified": 0,
+  "commerciallyApproved": 0,
+  "mandatoryHolds": 3,
+  "affiliateHolds": 5,
+  "protectedFiles": 340,
+  "protectedFilesUnchanged": true,
+  "tests": [
+    {
+      "command": "npm test",
+      "result": "144/144",
+      "passed": true
+    },
+    {
+      "command": "npm run build",
+      "result": "134 pages",
+      "passed": true
+    },
+    {
+      "command": "npm run check",
+      "result": "182 fichiers, 0 erreur, 0 avertissement, 0 indication",
+      "passed": true
+    },
+    {
+      "command": "npm run test:metadata",
+      "result": "54/54 fiches FR, 0 erreur",
+      "passed": true
+    },
+    {
+      "command": "npm run test:site",
+      "result": "134 pages, 14 160 références internes, 16 URL indexables",
+      "passed": true
+    },
+    {
+      "command": "npm run test:images",
+      "result": "Manifestes, originaux et dérivés WebP inchangés",
+      "passed": true
+    },
+    {
+      "command": "npm run release:check",
+      "result": "57 produits, 0 publication commerciale approuvée",
+      "passed": true
+    },
+    {
+      "command": "npm run audit:affiliate",
+      "result": "52 liens permis, 5 bloqués ; 0 URL invalide ou ASIN dupliqué",
+      "passed": true
+    },
+    {
+      "command": "npm run test:products",
+      "result": "Gabarits temporaires supprimés ; build final 134 pages",
+      "passed": true
+    },
+    {
+      "command": "npx playwright test tests/browser/product-metadata.spec.ts tests/browser/branding.spec.ts --grep \"French primary|official favicons|all 54\"",
+      "result": "6/6 ; HTTP 200 pour 54 pages et 54 images ; contrôles à 375/1440 px dans les 4 univers",
+      "passed": true
+    }
+  ],
+  "notes": [
+    "Le premier essai navigateur a chevauché les builds de fixtures et a produit deux échecs transitoires ; après nettoyage et build final, une nouvelle exécution indépendante passe 6/6.",
+    "Le premier passage unitaire nécessitait une projection littérale supplémentaire pour package.json. La suite finale passe 144/144.",
+    "Les suites navigateur complètes Chromium/WebKit restent exécutées par la CI ; seule la suite ciblée de six tests a été lancée localement.",
+    "Aucun prix, stock, offre actuelle, photographie officielle ou variante commerciale n’est authentifié par ce correctif."
+  ]
+}

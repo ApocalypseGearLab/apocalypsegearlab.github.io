@@ -8,6 +8,7 @@ import { categoryLabel, categoryUniverse } from '../config/taxonomy';
 import { getVisibleProducts, type Product } from '../lib/products';
 import { getMerchantLinks } from '../lib/affiliate';
 import { productStructuredData } from '../lib/product-seo';
+import { productSocialImage } from '../lib/product-artwork';
 import ProductCard from './ProductCard.astro';
 import ProductImage from './ProductImage.astro';
 import { isCommerciallyApproved, isInformationalProduct } from '../lib/release-policy';
@@ -20,6 +21,7 @@ import { planningContext } from '../lib/planning-context';
 interface Props { product: Product; releasePreview?: boolean }
 const { product, releasePreview = false } = Astro.props;
 const { data } = product;
+const socialImage = productSocialImage(product.id);
 const universe = UNIVERSES[categoryUniverse(data.category)];
 const context = planningContext(data.category);
 const indexable = !releasePreview && isCommerciallyApproved(product);
@@ -61,7 +63,7 @@ const breadcrumbs = {
 };
 ---
 
-<BaseLayout canonicalPath={`/gear/${product.id}/`} title={`${data.name}: specs, uses & limitations`} description={data.summary} noindex={!indexable} ogType="article" jsonLd={[breadcrumbs, ...(productJson ? [productJson] : [])]}>
+<BaseLayout canonicalPath={`/gear/${product.id}/`} title={`${data.name}: specs, uses & limitations`} description={data.summary} noindex={!indexable} ogType="article" jsonLd={[breadcrumbs, ...(productJson ? [productJson] : [])]} {...(socialImage ? { ogImage: socialImage.src, ogImageWidth: socialImage.width, ogImageHeight: socialImage.height, ogImageAlt: socialImage.alt } : {})}>
   <article class="container section stack" data-universe={universe.id} data-outbound-policy={publicReferences ? undefined : 'amazon-only'} style={`--accent: ${universe.id === 'whiteout' ? '#7DD3FC' : universe.id === 'fallout' ? '#f07b76' : universe.id === 'outbreak' ? '#b6f566' : '#F5A623'}`}>
     <Breadcrumbs items={[{ label: universe.name, href: `/${universe.id}/` }, { label: data.name }]} />
 
